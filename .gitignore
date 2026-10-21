@@ -1,0 +1,42 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Secrets / local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Dependencies and caches
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.cache/
+dist/
+build/
+tmp/
+temp/
+renders/
+proxies/
+
+# Unity generated folders and builds
+Library/
+Temp/
+Obj/
+Logs/
+UserSettings/
+Builds/
+*.unitypackage
+
+# Generated exports and archives: publish deliberately
+*.zip
+*.7z
+*.tar
+*.tar.gz
