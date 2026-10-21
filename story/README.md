@@ -1,4 +1,4 @@
-# 『잃어버린 말』 스토리 작업
+# 『Deviant』 스토리 작업
 
 ![잉크가 도시를 잠식한 재난 현장과 조사원, 깜장이의 콘셉트 아트](assets/ink-sketch-pixel-cover-source.png)
 
