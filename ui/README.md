@@ -12,7 +12,8 @@
 ## 현재 타이틀·설정 작업
 
 - [사용자 흐름 FigJam](https://www.figma.com/board/nHfGBYZsYIcHNUD9SU4cGs): 타이틀 메뉴와 설정 이동 흐름.
-- [저해상도 Figma 와이어프레임](https://www.figma.com/design/qjL5PNYHPgTDQ0huZXBzLg): 타이틀 2상태, 종료 확인, 설정 3항목, 화면 적용 확인, 제작진. 모든 화면은 편집 가능한 레이어로 구성했습니다.
+- [저해상도 Figma 와이어프레임](https://www.figma.com/design/qjL5PNYHPgTDQ0huZXBzLg): 타이틀 3상태, 종료 확인, 설정 3항목, 화면 적용 확인, 제작진. 모든 화면은 편집 가능한 레이어로 구성했습니다.
+- [인디게임 UI 관점 검토 기록](reviews/title-settings-wireframe-review.md): 화면에서 확인한 문제, 반영한 수정, 아직 미정인 항목.
 - 이 자료의 메뉴 배치와 설정 동작은 **검토용 초안**입니다. 새 게임·이어하기 선택 이후 게임 플레이 흐름은 미정입니다.
 
 ## 현재 기준과 한계
