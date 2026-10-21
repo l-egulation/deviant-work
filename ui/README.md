@@ -9,6 +9,12 @@
 - [도면·팔레트 구성 제안](sources/ink-blueprint-proposal.md): 제공된 최신 무기 제작·강화 설계안. Unity 구현 완료를 뜻하지 않습니다.
 - [팔레트 제작소 참고 HTML](reference/ink-palette-forge.html): 위 규칙을 설명하는 시연.
 
+## 현재 타이틀·설정 작업
+
+- [사용자 흐름 FigJam](https://www.figma.com/board/nHfGBYZsYIcHNUD9SU4cGs): 타이틀 메뉴와 설정 이동 흐름.
+- [저해상도 Figma 와이어프레임](https://www.figma.com/design/qjL5PNYHPgTDQ0huZXBzLg): 타이틀 2상태, 종료 확인, 설정 3항목, 화면 적용 확인, 제작진. 모든 화면은 편집 가능한 레이어로 구성했습니다.
+- 이 자료의 메뉴 배치와 설정 동작은 **검토용 초안**입니다. 새 게임·이어하기 선택 이후 게임 플레이 흐름은 미정입니다.
+
 ## 현재 기준과 한계
 
 - 최신 제안은 **도면=기본 무기, 흰색 잉크=형태, 검정 잉크=특수 공격, 별도 팔레트의 색상 파츠=추가 효과**입니다. 예전의 빨강=형태·파랑=특수 공격 안과 구분합니다.
