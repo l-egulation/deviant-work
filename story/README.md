@@ -58,10 +58,12 @@
 
 형태와 설정을 먼저 고르기 위한 잉크·스케치 원화 시안이다. 마음에 드는 방향을 정한 뒤 큰 픽셀과 적은 색의 게임 화풍으로 단순화한다. 종명, 공격 방식, 출현 지역은 미정이다.
 
-1. [잉크 사슴](assets/monster-concepts/fauna-flora/01-ink-deer.png): 몸통이 지워진 듯 빈 사슴.
-2. [잉크 왜가리](assets/monster-concepts/fauna-flora/02-ink-heron.png): 긴 부리와 찢어진 종이 날개를 지닌 새.
-3. [잉크 엉겅퀴](assets/monster-concepts/fauna-flora/03-ink-thistle.png): 뿌리로 기어 다니는 낮은 가시 덩어리.
-4. [잉크 버드나무](assets/monster-concepts/fauna-flora/04-ink-willow.png): 잉크가 흘러내리는 가지와 뿌리를 지닌 나무.
+아래는 종이 조각과 붉은색을 줄이고 검은 잉크를 중심으로 다듬은 **2차 시안**이다. 1차 시안도 같은 폴더에 남겨 비교할 수 있다.
+
+1. [잉크 사슴 · 2차](assets/monster-concepts/fauna-flora/01-ink-deer-v2.png): 몸통이 지워진 듯 빈 사슴.
+2. [잉크 왜가리 · 2차](assets/monster-concepts/fauna-flora/02-ink-heron-v2.png): 긴 부리와 잉크로 흐르는 날개를 지닌 새.
+3. [잉크 엉겅퀴 · 2차](assets/monster-concepts/fauna-flora/03-ink-thistle-v2.png): 뿌리로 기어 다니는 낮은 가시 덩어리.
+4. [잉크 버드나무 · 2차](assets/monster-concepts/fauna-flora/04-ink-willow-v2.png): 잉크가 흘러내리는 가지와 뿌리를 지닌 나무.
 
 ## 문서 상태
 
