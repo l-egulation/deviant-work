@@ -36,6 +36,15 @@
 2. [상사가 있는 지역 조사 사무실](assets/background-concepts/02-regional-investigation-office.png): 생환을 보고하고 ‘1845’를 언급하는 장소. 전투 구역이 아닌 짧은 대면 장면용.
 3. [비공개 잉크 연구동](assets/background-concepts/03-concealed-ink-research-wing.png): 수거차의 이송 경로를 따라 도착하는 다음 전투 지역의 시안.
 
+## 잉크 몬스터 디자인 시안
+
+배경 시안과 같은 흑백 잉크·스케치·약한 도트 질감으로 만든 **역할별 외형 탐색안**이다. 잔형의 정확한 생성 원리, 각 적의 출현 지역·공격 패턴, 보스 설정은 아직 확정하지 않았다.
+
+1. [동물형 잔형](assets/monster-concepts/01-animal-ink-remnant.png): 낮은 자세로 빠르게 이동하는 초반 일반 적 후보.
+2. [건축물형 잔형](assets/monster-concepts/02-structure-ink-remnant.png): 잉크와 건물 잔해가 엉킨 무거운 일반 적 후보.
+3. [인간 흔적형 잔형](assets/monster-concepts/03-human-trace-remnant.png): 일상 물건과 여러 겹의 윤곽이 남은 드문 적 후보. 인간형의 비극은 중요한 장면에 아껴 쓴다.
+4. [희생자 융합 보스](assets/monster-concepts/04-fused-villagers-boss.png): 제물 마을에서 희생된 사람들의 흔적이 엉킨 보스 후보. 해당 마을 자체도 확정 스테이지는 아니다.
+
 ## 문서 상태
 
 `storybook.html`의 녹색 표시는 현재 방향, 갈색은 전개 제안·설계 가설, 붉은색은 미정이다. 표지 이미지는 사용자가 제공한 흑백 잉크 재난 이미지의 분위기를 참고해 새로 만든 도트 질감 콘셉트 아트이며 게임의 최종 디자인이 아니다. 기존 세계관 원문이나 과거 시안을 변경하지 않고, 이번 스토리 논의의 새 작업본을 별도로 보관한다.
