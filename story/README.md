@@ -54,6 +54,15 @@
 3. [인간 흔적형 잔형 · 픽셀](assets/monster-concepts/pixel-variants/03-human-remnant-pixel.png)
 4. [희생자 융합 보스 · 픽셀](assets/monster-concepts/pixel-variants/04-villagers-boss-pixel.png)
 
+### 동식물형 잔형 탐색
+
+형태와 설정을 먼저 고르기 위한 잉크·스케치 원화 시안이다. 마음에 드는 방향을 정한 뒤 큰 픽셀과 적은 색의 게임 화풍으로 단순화한다. 종명, 공격 방식, 출현 지역은 미정이다.
+
+1. [잉크 사슴](assets/monster-concepts/fauna-flora/01-ink-deer.png): 몸통이 지워진 듯 빈 사슴.
+2. [잉크 왜가리](assets/monster-concepts/fauna-flora/02-ink-heron.png): 긴 부리와 찢어진 종이 날개를 지닌 새.
+3. [잉크 엉겅퀴](assets/monster-concepts/fauna-flora/03-ink-thistle.png): 뿌리로 기어 다니는 낮은 가시 덩어리.
+4. [잉크 버드나무](assets/monster-concepts/fauna-flora/04-ink-willow.png): 잉크가 흘러내리는 가지와 뿌리를 지닌 나무.
+
 ## 문서 상태
 
 `storybook.html`의 녹색 표시는 현재 방향, 갈색은 전개 제안·설계 가설, 붉은색은 미정이다. 표지 이미지는 사용자가 제공한 흑백 잉크 재난 이미지의 분위기를 참고해 새로 만든 도트 질감 콘셉트 아트이며 게임의 최종 디자인이 아니다. 기존 세계관 원문이나 과거 시안을 변경하지 않고, 이번 스토리 논의의 새 작업본을 별도로 보관한다.
