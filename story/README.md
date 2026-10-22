@@ -45,6 +45,15 @@
 3. [인간 흔적형 잔형](assets/monster-concepts/03-human-trace-remnant.png): 일상 물건과 여러 겹의 윤곽이 남은 드문 적 후보. 인간형의 비극은 중요한 장면에 아껴 쓴다.
 4. [희생자 융합 보스](assets/monster-concepts/04-fused-villagers-boss.png): 제물 마을에서 희생된 사람들의 흔적이 엉킨 보스 후보. 해당 마을 자체도 확정 스테이지는 아니다.
 
+### 단순화한 픽셀 화풍 시안
+
+위 네 몬스터를 큰 픽셀, 적은 색, 명확한 실루엣으로 다시 그린 비교안이다. 흰 배경의 외형 시안이며 실제 게임용 스프라이트 규격이나 애니메이션은 아직 정하지 않았다.
+
+1. [동물형 잔형 · 픽셀](assets/monster-concepts/pixel-variants/01-animal-remnant-pixel.png)
+2. [건축물형 잔형 · 픽셀](assets/monster-concepts/pixel-variants/02-structure-remnant-pixel.png)
+3. [인간 흔적형 잔형 · 픽셀](assets/monster-concepts/pixel-variants/03-human-remnant-pixel.png)
+4. [희생자 융합 보스 · 픽셀](assets/monster-concepts/pixel-variants/04-villagers-boss-pixel.png)
+
 ## 문서 상태
 
 `storybook.html`의 녹색 표시는 현재 방향, 갈색은 전개 제안·설계 가설, 붉은색은 미정이다. 표지 이미지는 사용자가 제공한 흑백 잉크 재난 이미지의 분위기를 참고해 새로 만든 도트 질감 콘셉트 아트이며 게임의 최종 디자인이 아니다. 기존 세계관 원문이나 과거 시안을 변경하지 않고, 이번 스토리 논의의 새 작업본을 별도로 보관한다.
