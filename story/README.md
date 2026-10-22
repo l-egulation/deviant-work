@@ -65,6 +65,15 @@
 3. [잉크 엉겅퀴 · 2차](assets/monster-concepts/fauna-flora/03-ink-thistle-v2.png): 뿌리로 기어 다니는 낮은 가시 덩어리.
 4. [잉크 버드나무 · 2차](assets/monster-concepts/fauna-flora/04-ink-willow-v2.png): 잉크가 흘러내리는 가지와 뿌리를 지닌 나무.
 
+2차 원화를 바탕으로 큰 픽셀과 적은 색으로 단순화한 **화풍 시안**:
+
+1. [잉크 사슴 · 픽셀](assets/monster-concepts/fauna-flora/pixel-variants/01-ink-deer-pixel.png)
+2. [잉크 왜가리 · 픽셀](assets/monster-concepts/fauna-flora/pixel-variants/02-ink-heron-pixel.png)
+3. [잉크 엉겅퀴 · 픽셀](assets/monster-concepts/fauna-flora/pixel-variants/03-ink-thistle-pixel.png)
+4. [잉크 버드나무 · 픽셀](assets/monster-concepts/fauna-flora/pixel-variants/04-ink-willow-pixel.png)
+
+흰 배경의 외형 비교안이며 실제 게임용 스프라이트의 해상도·애니메이션은 미정이다.
+
 ## 문서 상태
 
 `storybook.html`의 녹색 표시는 현재 방향, 갈색은 전개 제안·설계 가설, 붉은색은 미정이다. 표지 이미지는 사용자가 제공한 흑백 잉크 재난 이미지의 분위기를 참고해 새로 만든 도트 질감 콘셉트 아트이며 게임의 최종 디자인이 아니다. 기존 세계관 원문이나 과거 시안을 변경하지 않고, 이번 스토리 논의의 새 작업본을 별도로 보관한다.
