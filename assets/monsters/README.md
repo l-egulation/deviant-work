@@ -37,3 +37,14 @@
 | 잉크 담쟁이 | [보기](pixel-concepts/ink-ivy-pixel-v1.png) |
 
 이 파일은 화풍 비교용 이미지다. 실제 게임 스프라이트의 해상도, 투명 배경, 애니메이션 프레임, 피벗은 아직 정하지 않았다.
+
+#### 2차 단순화 · 128px 가독성 검토
+
+팀원이 언급한 128px 크기를 염두에 두고, 내부 명암을 큰 덩어리로 합치고 작은 방울·잔선을 줄였다. 아래 이미지는 **128×128 실사용 파일이 아니라 확대된 화풍 시안**이다. 실제 캔버스 비율과 Unity 규격은 팀 기준을 확인한 뒤 결정한다. 기존 1차 픽셀 시안도 위에 보존했다.
+
+| 대상 | 2차 시안 |
+|---|---|
+| 들개로 보일 듯한 잔형 | [보기](pixel-concepts/ink-stray-dog-pixel-v2.png) |
+| 쥐로 보일 듯한 잔형 | [보기](pixel-concepts/ink-rat-pixel-v2.png) |
+| 나방으로 보일 듯한 잔형 | [보기](pixel-concepts/ink-moth-pixel-v2.png) |
+| 잉크 담쟁이 | [보기](pixel-concepts/ink-ivy-pixel-v2.png) |
