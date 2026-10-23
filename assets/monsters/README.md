@@ -27,6 +27,18 @@
 | 성문 수문장 | [보기](team-redesign-concepts/16-gatekeeper-v1.png) | 빈 얼굴, 큰 방패, 넓고 무거운 체형 |
 | 검은 종치기 | [보기](team-redesign-concepts/17-black-bell-ringer-v1.png) | 머리 위 종틀, 손의 작은 종, 잉크로 뻗은 다리 |
 
+### 추가 지정된 다섯 종 · 큰 픽셀 시안
+
+위의 잉크 원화 다섯 장을 큰 픽셀과 적은 색으로 단순화한 **미승인 화풍 시안**이다. 흰 배경 위에 확대해 보여주는 이미지이며, 128×128 실사용 스프라이트·투명 배경·애니메이션 프레임은 아직 제작하지 않았다.
+
+| 대상 | 픽셀 시안 |
+|---|---|
+| 가시뿌리 | [보기](pixel-concepts/13-thorn-root-pixel-v1.png) |
+| 먹빗자루 | [보기](pixel-concepts/14-ink-broom-pixel-v1.png) |
+| 배수관 포수 | [보기](pixel-concepts/15-drain-gunner-pixel-v1.png) |
+| 성문 수문장 | [보기](pixel-concepts/16-gatekeeper-pixel-v1.png) |
+| 검은 종치기 | [보기](pixel-concepts/17-black-bell-ringer-pixel-v1.png) |
+
 전투 패턴 논의용 문서: [잉크 잔형 공격 패턴 HTML](attack-patterns.html). 이미지가 내장된 단일 파일이므로 다운로드한 뒤 브라우저에서 열 수 있다. 각 몬스터의 두 패턴은 제안이며 승인된 게임 규칙이 아니다.
 
 ## 동식물형 잉크 잔형 · 원화 탐색
