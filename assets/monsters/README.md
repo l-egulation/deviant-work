@@ -51,6 +51,8 @@
 | 성문 수문장 | [보기](pixel-concepts/16-gatekeeper-pixel-v2.png) |
 | 검은 종치기 | [보기](pixel-concepts/17-black-bell-ringer-pixel-v2.png) |
 
+가시뿌리는 하단이 잘려 보인다는 피드백에 따라 몸 전체를 작게 배치하고 두 발 아래에 여백을 확보한 [3차 시안](pixel-concepts/13-thorn-root-pixel-v3.png)을 추가했다.
+
 전투 패턴 논의용 문서: [잉크 잔형 공격 패턴 HTML](attack-patterns.html). 이미지가 내장된 단일 파일이므로 다운로드한 뒤 브라우저에서 열 수 있다. 각 몬스터의 두 패턴은 제안이며 승인된 게임 규칙이 아니다.
 
 ## 동식물형 잉크 잔형 · 원화 탐색
