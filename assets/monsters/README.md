@@ -39,6 +39,18 @@
 | 성문 수문장 | [보기](pixel-concepts/16-gatekeeper-pixel-v1.png) |
 | 검은 종치기 | [보기](pixel-concepts/17-black-bell-ringer-pixel-v1.png) |
 
+#### 2차 단순화 · 잔디테일 축소
+
+작은 잉크 방울과 가는 선을 대폭 줄이고, 몸 안의 명암을 몇 개의 큰 면으로 합쳤다. 종별 핵심 형태만 남긴 비교용 시안이다. 기존 1차 시안은 위 표에 보존했다.
+
+| 대상 | 단순화한 2차 시안 |
+|---|---|
+| 가시뿌리 | [보기](pixel-concepts/13-thorn-root-pixel-v2.png) |
+| 먹빗자루 | [보기](pixel-concepts/14-ink-broom-pixel-v2.png) |
+| 배수관 포수 | [보기](pixel-concepts/15-drain-gunner-pixel-v2.png) |
+| 성문 수문장 | [보기](pixel-concepts/16-gatekeeper-pixel-v2.png) |
+| 검은 종치기 | [보기](pixel-concepts/17-black-bell-ringer-pixel-v2.png) |
+
 전투 패턴 논의용 문서: [잉크 잔형 공격 패턴 HTML](attack-patterns.html). 이미지가 내장된 단일 파일이므로 다운로드한 뒤 브라우저에서 열 수 있다. 각 몬스터의 두 패턴은 제안이며 승인된 게임 규칙이 아니다.
 
 ## 동식물형 잉크 잔형 · 원화 탐색
