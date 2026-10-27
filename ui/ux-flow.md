@@ -51,6 +51,12 @@
 
 이 화면들은 룰렛의 획득·보관과 별도 작업대의 연결·적용을 분리한 최신 검토안입니다. 상세한 결정·미정 사항은 [Office Hour 결정 기록](office-hour-decisions.md)을 우선 참고합니다. 아래 화면들은 이전 가정을 보존한 기록입니다.
 
+### 카테고리별 인벤토리 · 결과 비교 · 전투 드롭
+
+[인벤토리 기본](https://www.figma.com/design/qjL5PNYHPgTDQ0huZXBzLg?node-id=37-75) · [룰렛 결과와 기존 아이템 비교](https://www.figma.com/design/qjL5PNYHPgTDQ0huZXBzLg?node-id=37-122) · [전투 중 드롭 교체](https://www.figma.com/design/qjL5PNYHPgTDQ0huZXBzLg?node-id=37-152)
+
+네 카테고리의 별도 용량, 같은 카테고리 안에서의 교체·포기, 전투 중 교체창이 열릴 때의 일시정지를 시각화했습니다. 인벤토리를 어디서 여는지는 미정이며, 화면에서 적용·연결 동작을 제공하지 않습니다. 실제 용량·아이템 내용은 예시입니다.
+
 ### 정비 구역·룰렛기 저해상도 와이어프레임
 
 [정비 구역의 룰렛기 접근](https://www.figma.com/design/qjL5PNYHPgTDQ0huZXBzLg?node-id=20-75) · [룰렛기에서 뽑은 직후](https://www.figma.com/design/qjL5PNYHPgTDQ0huZXBzLg?node-id=20-76) · [룰렛기에서 가방이 가득 찬 경우](https://www.figma.com/design/qjL5PNYHPgTDQ0huZXBzLg?node-id=20-77)
