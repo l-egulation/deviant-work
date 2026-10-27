@@ -44,6 +44,10 @@
 
 [정비 구역의 룰렛기 접근](https://www.figma.com/design/qjL5PNYHPgTDQ0huZXBzLg?node-id=20-75) · [룰렛기에서 뽑은 직후](https://www.figma.com/design/qjL5PNYHPgTDQ0huZXBzLg?node-id=20-76) · [룰렛기에서 가방이 가득 찬 경우](https://www.figma.com/design/qjL5PNYHPgTDQ0huZXBzLg?node-id=20-77)
 
+[룰렛기 사용 전](https://www.figma.com/design/qjL5PNYHPgTDQ0huZXBzLg?node-id=29-75) · [가방이 가득 찬 사용 전](https://www.figma.com/design/qjL5PNYHPgTDQ0huZXBzLg?node-id=29-140) · [팔레트 적용 최종 확인](https://www.figma.com/design/qjL5PNYHPgTDQ0huZXBzLg?node-id=29-205) · [가방 잉크 교체 최종 확인](https://www.figma.com/design/qjL5PNYHPgTDQ0huZXBzLg?node-id=29-270) · [새 잉크 포기 최종 확인](https://www.figma.com/design/qjL5PNYHPgTDQ0huZXBzLg?node-id=29-349)
+
+추가한 사용 전 화면은 룰렛기의 비용, 보유 골드, 가방 여유와 완전 무작위 규칙을 한곳에서 보여줍니다. 가방이 가득 찬 상태에서는 뽑기 전에 결과를 바로 처리해야 한다는 경고를 보여줍니다. 세 최종 확인 화면은 팔레트 적용 시 잉크 소모, 기존 가방 잉크 교체 시 기존 잉크 소멸, 새 잉크 포기 시 결과 소멸을 각각 명시합니다. 가방이 가득 차도 뽑을 수 있게 하는 경로와 취소·닫기 제한은 현재 와이어프레임의 제안이며 팀 합의 전입니다. 비용, 골드, 가방 칸 수와 잉크 색은 예시입니다.
+
 첫 화면은 정비 구역에 놓인 룰렛기에 접근하는 게임 장면이고, 다음 두 화면은 기계와 상호작용한 뒤에만 열리는 UI입니다. 룰렛기 결과 안에서 무기의 팔레트 기본 5칸을 표시하며, 추가 칸은 다음 줄로 확장하는 안을 보여줍니다. 빈 가방 칸에는 자동 보관하고, 가방이 가득 찼다면 새 잉크를 임시 보류해 적용·가방 잉크 교체·포기 중 선택하는 제안을 표현합니다. 팔레트 적용 버튼은 소모 확인 단계로 이어지는 안입니다. 화면의 가방 6칸, 골드 120, 잉크 색·팔레트 구성·뽑기 비용은 배치 확인용 예시이며 확정 수치가 아닙니다. 가방 초과 처리와 어떤 빈칸에 적용 가능한지의 세부 조건은 팀 결정 전입니다.
 
 ### 다음 Office Hour에서 정할 것
