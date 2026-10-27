@@ -51,6 +51,12 @@
 
 이 화면들은 룰렛의 획득·보관과 별도 작업대의 연결·적용을 분리한 최신 검토안입니다. 상세한 결정·미정 사항은 [Office Hour 결정 기록](office-hour-decisions.md)을 우선 참고합니다. 아래 화면들은 이전 가정을 보존한 기록입니다.
 
+### 전투 중 인벤토리·장비창
+
+[전투 중 인벤토리](https://www.figma.com/design/qjL5PNYHPgTDQ0huZXBzLg?node-id=39-75) · [전투 중 장비창](https://www.figma.com/design/qjL5PNYHPgTDQ0huZXBzLg?node-id=39-122)
+
+두 창은 어느 장소에서든 열어 볼 수 있습니다. 전투 중 직접 열면 전투가 일시정지되며, 닫으면 재개됩니다. 전투 중에는 보유품과 무기 구성을 확인하고, 팔레트 연결·잉크 적용·장비 변경은 정비 작업대에서 합니다. 화면의 무기 이름·효과·용량은 예시입니다.
+
 ### 카테고리별 인벤토리 · 결과 비교 · 전투 드롭
 
 [인벤토리 기본](https://www.figma.com/design/qjL5PNYHPgTDQ0huZXBzLg?node-id=37-75) · [룰렛 결과와 기존 아이템 비교](https://www.figma.com/design/qjL5PNYHPgTDQ0huZXBzLg?node-id=37-122) · [전투 중 드롭 교체](https://www.figma.com/design/qjL5PNYHPgTDQ0huZXBzLg?node-id=37-152)
