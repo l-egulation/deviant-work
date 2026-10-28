@@ -1,0 +1,2943 @@
+{
+  "date": "2026-10-28",
+  "selection": "C v5 design; v6 basic; v7 sword/rapier only; v8 six feasibility studies; v9 combat; concept images retained separately",
+  "excluded": [
+    "whip and dagger motion studies",
+    "early clothing motion failures",
+    "original purchased ZIP",
+    "temporary screenshots and capture frames",
+    "machine-dependent generator scripts"
+  ],
+  "files": [
+    {
+      "file": "ink-hero-c/design/C-detail-idle.png",
+      "source": "output/c-costume-idle-v5/C-detail-idle.png",
+      "sha256": "cc5e9e9c95399b589d5d9d7c00a590fb8761811258b2034fa1536f1ca8ef0de6"
+    },
+    {
+      "file": "ink-hero-c/design/C-detail-idle.aseprite",
+      "source": "output/c-costume-idle-v5/C-detail-idle.aseprite",
+      "sha256": "2f42ae53639cc8f91ee9508680076280ea1aab05b023f5ddc23391144956c9d0"
+    },
+    {
+      "file": "ink-hero-c/design/notes.json",
+      "source": "output/c-costume-idle-v5/notes.json",
+      "sha256": "ed904233370a9465b24e5e226fc2e35895b680fc22fd313b457d9f75d7d503bc"
+    },
+    {
+      "file": "ink-hero-c/basic-motions/C-run.aseprite",
+      "source": "output/c-basic-motions-v6/C-run.aseprite",
+      "sha256": "371f0cf4e359c0f96413e1bec7261dbaf953f0eb949ab25db1f6e64f362942af"
+    },
+    {
+      "file": "ink-hero-c/basic-motions/C-run.gif",
+      "source": "output/c-basic-motions-v6/C-run.gif",
+      "sha256": "c8f8c40e01e1fe33cc2431eeca61dd7d6f021982465e963ca0cca82be94f3e5f"
+    },
+    {
+      "file": "ink-hero-c/basic-motions/C-idle.gif",
+      "source": "output/c-basic-motions-v6/C-idle.gif",
+      "sha256": "ac30e6304163caec147073dab79157d3b97f232f32f915dcddc69c87a44aeb54"
+    },
+    {
+      "file": "ink-hero-c/basic-motions/C-walk-05.png",
+      "source": "output/c-basic-motions-v6/C-walk-05.png",
+      "sha256": "fd26c9d160e3148d5eacdab0db4c3cbfb7709f0ecd9786803c36fa49516c0f9c"
+    },
+    {
+      "file": "ink-hero-c/basic-motions/C-run-05.png",
+      "source": "output/c-basic-motions-v6/C-run-05.png",
+      "sha256": "802a008c4ddd4ea9a8440b6e40a463e084e646b9e9365252dc565cfaeedbba27"
+    },
+    {
+      "file": "ink-hero-c/basic-motions/C-run-04.png",
+      "source": "output/c-basic-motions-v6/C-run-04.png",
+      "sha256": "74ee1921a1b4e96fc0f09fb2cf5de8dd8f531b1bf79449bf4f118815544d41d7"
+    },
+    {
+      "file": "ink-hero-c/basic-motions/C-walk-04.png",
+      "source": "output/c-basic-motions-v6/C-walk-04.png",
+      "sha256": "7db055e43c845b967b5dd5e185f9536f318c47024557e0b5aee636efabd04b90"
+    },
+    {
+      "file": "ink-hero-c/basic-motions/C-walk-06.png",
+      "source": "output/c-basic-motions-v6/C-walk-06.png",
+      "sha256": "485189efd78b66c2a7f88c487639375b12569f17eb2a62b0fc162221183968ba"
+    },
+    {
+      "file": "ink-hero-c/basic-motions/C-run-06.png",
+      "source": "output/c-basic-motions-v6/C-run-06.png",
+      "sha256": "05f6e9a6e4ff25ee23e29f3442f2a1d89c8ce7cbc589d3a781d4bb0b7cc9be47"
+    },
+    {
+      "file": "ink-hero-c/basic-motions/overview.png",
+      "source": "output/c-basic-motions-v6/overview.png",
+      "sha256": "c22f305a7e55c1ce2c3069a154be0b0f7ae5cff36e9458564788d6833faf3235"
+    },
+    {
+      "file": "ink-hero-c/basic-motions/C-run-07.png",
+      "source": "output/c-basic-motions-v6/C-run-07.png",
+      "sha256": "b873e8d8311f0f4896b762f5d27c30d5dc3390a39398c7c1dd9de0f6a3b296e8"
+    },
+    {
+      "file": "ink-hero-c/basic-motions/C-walk-07.png",
+      "source": "output/c-basic-motions-v6/C-walk-07.png",
+      "sha256": "6d6e8295b874f5a7a1fe58a8630d0ef6863d8151c5ebf2e821f0e30b7701c741"
+    },
+    {
+      "file": "ink-hero-c/basic-motions/C-walk-03.png",
+      "source": "output/c-basic-motions-v6/C-walk-03.png",
+      "sha256": "f059890ce875d1c7d1603aa8251cd7710b2206bbdcedcc0fb1ba8cfac1f856fa"
+    },
+    {
+      "file": "ink-hero-c/basic-motions/C-run-03.png",
+      "source": "output/c-basic-motions-v6/C-run-03.png",
+      "sha256": "06f6e18cd2349dec888560a3a00a38babbcc6cc779f950c7038df90bc5f5d337"
+    },
+    {
+      "file": "ink-hero-c/basic-motions/C-idle-09.png",
+      "source": "output/c-basic-motions-v6/C-idle-09.png",
+      "sha256": "f341b5639ca7672fe499164723d678f1723d35fc25e475f65312060d8ba248ca"
+    },
+    {
+      "file": "ink-hero-c/basic-motions/C-idle-08.png",
+      "source": "output/c-basic-motions-v6/C-idle-08.png",
+      "sha256": "f341b5639ca7672fe499164723d678f1723d35fc25e475f65312060d8ba248ca"
+    },
+    {
+      "file": "ink-hero-c/basic-motions/C-run-02.png",
+      "source": "output/c-basic-motions-v6/C-run-02.png",
+      "sha256": "dba59d854fcee92fd4426ac8fdfe66eedcc589c6e32eafcce303d1ac6128ce6d"
+    },
+    {
+      "file": "ink-hero-c/basic-motions/C-walk-02.png",
+      "source": "output/c-basic-motions-v6/C-walk-02.png",
+      "sha256": "33488511cd5b2e7a4c73678268641de35f3dee4ea5c4412cb71d0eb41a4e582d"
+    },
+    {
+      "file": "ink-hero-c/basic-motions/C-walk-00.png",
+      "source": "output/c-basic-motions-v6/C-walk-00.png",
+      "sha256": "f179c6f5a0b40333d9c5e772ce2be36b2f11c648a5dca8371b2daefa11e2c2d2"
+    },
+    {
+      "file": "ink-hero-c/basic-motions/C-run-00.png",
+      "source": "output/c-basic-motions-v6/C-run-00.png",
+      "sha256": "3ccb1cec01fd7c94195c89364bb440e67315310766d13570d042895cdc0e44ff"
+    },
+    {
+      "file": "ink-hero-c/basic-motions/C-run-01.png",
+      "source": "output/c-basic-motions-v6/C-run-01.png",
+      "sha256": "ad2eaa6c84a5bced63cdf991ebbfa52265f26c3d31366938e3a13620b27d2d51"
+    },
+    {
+      "file": "ink-hero-c/basic-motions/C-walk-01.png",
+      "source": "output/c-basic-motions-v6/C-walk-01.png",
+      "sha256": "90da6bda900c0c1d6915412ab883e11c787b89a11971b35c98f2d7c54f8090dc"
+    },
+    {
+      "file": "ink-hero-c/basic-motions/C-idle-06.png",
+      "source": "output/c-basic-motions-v6/C-idle-06.png",
+      "sha256": "cc5e9e9c95399b589d5d9d7c00a590fb8761811258b2034fa1536f1ca8ef0de6"
+    },
+    {
+      "file": "ink-hero-c/basic-motions/C-idle-07.png",
+      "source": "output/c-basic-motions-v6/C-idle-07.png",
+      "sha256": "f341b5639ca7672fe499164723d678f1723d35fc25e475f65312060d8ba248ca"
+    },
+    {
+      "file": "ink-hero-c/basic-motions/C-idle-05.png",
+      "source": "output/c-basic-motions-v6/C-idle-05.png",
+      "sha256": "976b4d11f5340895ffba251bade7fe208882f897128bef0e2730ffd1f45a824b"
+    },
+    {
+      "file": "ink-hero-c/basic-motions/C-idle-04.png",
+      "source": "output/c-basic-motions-v6/C-idle-04.png",
+      "sha256": "78695f4c52d23e143d735ac0f05ec6a6557c437dbf10966f32e83597d36d6d8c"
+    },
+    {
+      "file": "ink-hero-c/basic-motions/C-idle-00.png",
+      "source": "output/c-basic-motions-v6/C-idle-00.png",
+      "sha256": "cc5e9e9c95399b589d5d9d7c00a590fb8761811258b2034fa1536f1ca8ef0de6"
+    },
+    {
+      "file": "ink-hero-c/basic-motions/C-walk.aseprite",
+      "source": "output/c-basic-motions-v6/C-walk.aseprite",
+      "sha256": "96fe0d92bf1e3be8a38ef4d95842af4e2cba7de615fd78ceac7fe2c8c14e4b93"
+    },
+    {
+      "file": "ink-hero-c/basic-motions/C-idle-01.png",
+      "source": "output/c-basic-motions-v6/C-idle-01.png",
+      "sha256": "ad2c4f052bf25e680ac0ff4b7b0e33e19a3b93aa78d99c98128e35c242e7d8ba"
+    },
+    {
+      "file": "ink-hero-c/basic-motions/C-idle-03.png",
+      "source": "output/c-basic-motions-v6/C-idle-03.png",
+      "sha256": "78695f4c52d23e143d735ac0f05ec6a6557c437dbf10966f32e83597d36d6d8c"
+    },
+    {
+      "file": "ink-hero-c/basic-motions/C-idle-02.png",
+      "source": "output/c-basic-motions-v6/C-idle-02.png",
+      "sha256": "eccdbb04f77fa9572046f627c747105f3a1d2ca9ce88bcc12118e7f8fb1d7be5"
+    },
+    {
+      "file": "ink-hero-c/basic-motions/verification.json",
+      "source": "output/c-basic-motions-v6/verification.json",
+      "sha256": "20590446d133ba1813f6231fcd57987429363227211043e5ed08f0d7e4348d0a"
+    },
+    {
+      "file": "ink-hero-c/basic-motions/C-walk.gif",
+      "source": "output/c-basic-motions-v6/C-walk.gif",
+      "sha256": "1e715c359e65f358f28440fb13fe5f73b43ecd8a51a8d7c55683b0a5b8099be0"
+    },
+    {
+      "file": "ink-hero-c/basic-motions/C-idle.aseprite",
+      "source": "output/c-basic-motions-v6/C-idle.aseprite",
+      "sha256": "6161a3c177329990c7e200835e2c43ad65c4a7c21d9ff1b8451fe8a0dbe05880"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-00.png",
+      "source": "output/c-weapons-v7/base_sword-00.png",
+      "sha256": "b9e3a9527f61ec05940b0846a02a73495848ac3a79bee880f7faeb0b09392cd5"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-10-trail.png",
+      "source": "output/c-weapons-v7/base_sword-10-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-04-trail.png",
+      "source": "output/c-weapons-v7/base_sword-04-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-03-weapon.png",
+      "source": "output/c-weapons-v7/rapier-03-weapon.png",
+      "sha256": "2fe1b5f6327c70be0fd2ec7f11767bca6c24eea78503d5be57b8e7833ccb70dc"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-19-body.png",
+      "source": "output/c-weapons-v7/rapier-19-body.png",
+      "sha256": "4241018e39b5071da1a2167022e130a5fa498058fa0cdb9b5d7ccd7bb1c6521a"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-18-body.png",
+      "source": "output/c-weapons-v7/rapier-18-body.png",
+      "sha256": "f25dc9456f5f5ac326b25222ec3a561b48ec1ba780a301474c8d937e90a9cb10"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-09-weapon.png",
+      "source": "output/c-weapons-v7/base_sword-09-weapon.png",
+      "sha256": "28de0a310acc823851bd3c4146a24066b0d698bcbac5891fdd30192890615e45"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-01.png",
+      "source": "output/c-weapons-v7/base_sword-01.png",
+      "sha256": "9a078e2527dc90ebbe0d2cadc6b64676ef084811ca723cd08a4f76c504aab9fa"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-03.png",
+      "source": "output/c-weapons-v7/base_sword-03.png",
+      "sha256": "550cd64900bf7fd4cc6cefc687f3e6cd4eb87a2553e1683440ecc6314e429ed6"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-06-trail.png",
+      "source": "output/c-weapons-v7/rapier-06-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword.gif",
+      "source": "output/c-weapons-v7/base_sword.gif",
+      "sha256": "1eb7d6cd0b7c9e62c31c40d79025b1856b003a07dc38613ccf2724b50fa06335"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-12-trail.png",
+      "source": "output/c-weapons-v7/rapier-12-trail.png",
+      "sha256": "0933d426ca5c0ab46f75bd759ca7201edfb75bb79ea13377c62efaedf02ecfc5"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-09-trail.png",
+      "source": "output/c-weapons-v7/base_sword-09-trail.png",
+      "sha256": "5500b1bc861033285d507b398ae3c29488e7c1945c0f7f53666c6aa057eba2ff"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-12-weapon.png",
+      "source": "output/c-weapons-v7/rapier-12-weapon.png",
+      "sha256": "5c10b7c204c627cd1888ad84a155ae90e0c4fa649a5357f26ca5112ed25b0fa2"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-04-weapon.png",
+      "source": "output/c-weapons-v7/base_sword-04-weapon.png",
+      "sha256": "99a4362689d95be1964f64c373f9396494cf4daf49379b6923a32011c5d5ed4f"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-13-body.png",
+      "source": "output/c-weapons-v7/rapier-13-body.png",
+      "sha256": "2fabfa0aee3bcf484e18f5711f52fe70ff014820e4f6db4e4e03f3b734f2a171"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-12-body.png",
+      "source": "output/c-weapons-v7/rapier-12-body.png",
+      "sha256": "4241018e39b5071da1a2167022e130a5fa498058fa0cdb9b5d7ccd7bb1c6521a"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-02.png",
+      "source": "output/c-weapons-v7/base_sword-02.png",
+      "sha256": "8bc470eea566ea70794318f83465380dfbb4166880106856111d1940237438a4"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-06.png",
+      "source": "output/c-weapons-v7/base_sword-06.png",
+      "sha256": "b9e3a9527f61ec05940b0846a02a73495848ac3a79bee880f7faeb0b09392cd5"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-20-weapon.png",
+      "source": "output/c-weapons-v7/rapier-20-weapon.png",
+      "sha256": "e09e4f3cf4c740a135804fe50f514716c38b1460dca0843f3754e24c5ce75425"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-02-trail.png",
+      "source": "output/c-weapons-v7/base_sword-02-trail.png",
+      "sha256": "94b255db49e54041acc051b9817381035544323f12f5160ed0a0f9056aaf05fa"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-17-weapon.png",
+      "source": "output/c-weapons-v7/rapier-17-weapon.png",
+      "sha256": "2fe1b5f6327c70be0fd2ec7f11767bca6c24eea78503d5be57b8e7833ccb70dc"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier.aseprite",
+      "source": "output/c-weapons-v7/rapier.aseprite",
+      "sha256": "1aba209f8ebd98916abdb4d8d68dc3f8c5a8d3ff413aacaac0594f82ff0ad266"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-19-trail.png",
+      "source": "output/c-weapons-v7/rapier-19-trail.png",
+      "sha256": "0933d426ca5c0ab46f75bd759ca7201edfb75bb79ea13377c62efaedf02ecfc5"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-07.png",
+      "source": "output/c-weapons-v7/base_sword-07.png",
+      "sha256": "9a078e2527dc90ebbe0d2cadc6b64676ef084811ca723cd08a4f76c504aab9fa"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-01-weapon.png",
+      "source": "output/c-weapons-v7/base_sword-01-weapon.png",
+      "sha256": "c9dd7c5504ffa0d232236aea4cf41edfbd93258c33b26ec25dc059acf84da894"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-10-weapon.png",
+      "source": "output/c-weapons-v7/base_sword-10-weapon.png",
+      "sha256": "99a4362689d95be1964f64c373f9396494cf4daf49379b6923a32011c5d5ed4f"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-01-body.png",
+      "source": "output/c-weapons-v7/base_sword-01-body.png",
+      "sha256": "7279f2d5412130ffcb681163fa2c9795e98046344d550ba1e0976db1c2d575d1"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-11.png",
+      "source": "output/c-weapons-v7/base_sword-11.png",
+      "sha256": "0311ebe01b01a483ef2b0f7be6ecd432d707d7cff4f58de056915a0db561fd5c"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-05.png",
+      "source": "output/c-weapons-v7/base_sword-05.png",
+      "sha256": "0311ebe01b01a483ef2b0f7be6ecd432d707d7cff4f58de056915a0db561fd5c"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-00-body.png",
+      "source": "output/c-weapons-v7/base_sword-00-body.png",
+      "sha256": "60dfe0123c28ceb4ff99cd99177d62a078eedeff7b5745fce66f7c9b01702f65"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-06-weapon.png",
+      "source": "output/c-weapons-v7/rapier-06-weapon.png",
+      "sha256": "e09e4f3cf4c740a135804fe50f514716c38b1460dca0843f3754e24c5ce75425"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-04-body.png",
+      "source": "output/c-weapons-v7/rapier-04-body.png",
+      "sha256": "f25dc9456f5f5ac326b25222ec3a561b48ec1ba780a301474c8d937e90a9cb10"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-05-body.png",
+      "source": "output/c-weapons-v7/rapier-05-body.png",
+      "sha256": "4241018e39b5071da1a2167022e130a5fa498058fa0cdb9b5d7ccd7bb1c6521a"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-00-trail.png",
+      "source": "output/c-weapons-v7/rapier-00-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-14-trail.png",
+      "source": "output/c-weapons-v7/rapier-14-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-04.png",
+      "source": "output/c-weapons-v7/base_sword-04.png",
+      "sha256": "c2fab6a7e2296f6c2ba6d026f8644f3066a961bff15f1d1d26d277a602f9319b"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-10.png",
+      "source": "output/c-weapons-v7/base_sword-10.png",
+      "sha256": "c2fab6a7e2296f6c2ba6d026f8644f3066a961bff15f1d1d26d277a602f9319b"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-05-trail.png",
+      "source": "output/c-weapons-v7/base_sword-05-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-07.png",
+      "source": "output/c-weapons-v7/rapier-07.png",
+      "sha256": "81867f6087cc53a50b771a515c46728112810e4592eaee39a7612f4974fd778f"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-13.png",
+      "source": "output/c-weapons-v7/rapier-13.png",
+      "sha256": "d0f023be0d39bdf5c0cf269683548ceae9683a9a88bf6707bacb3e79f930d8b4"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-11-trail.png",
+      "source": "output/c-weapons-v7/base_sword-11-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-12.png",
+      "source": "output/c-weapons-v7/rapier-12.png",
+      "sha256": "77be40f856494a57e944e278ebc8d06c63c029a5eb6614b341af8b7c95d2f5f6"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-06.png",
+      "source": "output/c-weapons-v7/rapier-06.png",
+      "sha256": "d0f023be0d39bdf5c0cf269683548ceae9683a9a88bf6707bacb3e79f930d8b4"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-09-body.png",
+      "source": "output/c-weapons-v7/rapier-09-body.png",
+      "sha256": "14d7d5fea8cc30b52225b210172d7c3e87288fa49701475718aafb835b4897b8"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-08-body.png",
+      "source": "output/c-weapons-v7/rapier-08-body.png",
+      "sha256": "4444e7bcf3047557703784725e0a5bc21795ebd242aa59f3297337b13bfea8d3"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-01-weapon.png",
+      "source": "output/c-weapons-v7/rapier-01-weapon.png",
+      "sha256": "476d2ee7f9eac8a36ccd90331b0f44161c24b10bfadb800edf9a88f7c41363cf"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-10-weapon.png",
+      "source": "output/c-weapons-v7/rapier-10-weapon.png",
+      "sha256": "2fe1b5f6327c70be0fd2ec7f11767bca6c24eea78503d5be57b8e7833ccb70dc"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-13-trail.png",
+      "source": "output/c-weapons-v7/rapier-13-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-06-weapon.png",
+      "source": "output/c-weapons-v7/base_sword-06-weapon.png",
+      "sha256": "c3583f28d44bb409aa964356322bea69aacfc64e3041d166f052b8fa8f45639f"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-08-trail.png",
+      "source": "output/c-weapons-v7/base_sword-08-trail.png",
+      "sha256": "94b255db49e54041acc051b9817381035544323f12f5160ed0a0f9056aaf05fa"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-06-body.png",
+      "source": "output/c-weapons-v7/base_sword-06-body.png",
+      "sha256": "60dfe0123c28ceb4ff99cd99177d62a078eedeff7b5745fce66f7c9b01702f65"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-07-body.png",
+      "source": "output/c-weapons-v7/base_sword-07-body.png",
+      "sha256": "7279f2d5412130ffcb681163fa2c9795e98046344d550ba1e0976db1c2d575d1"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-10.png",
+      "source": "output/c-weapons-v7/rapier-10.png",
+      "sha256": "caa63166db37ad1c4a38752ab09b36ee8cccc495c5038560efc7125320675098"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-04.png",
+      "source": "output/c-weapons-v7/rapier-04.png",
+      "sha256": "07f2204924d48b8e67565eda3e508215826dca7b50abe802f8fc1cfbe5e7e8c5"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-07-trail.png",
+      "source": "output/c-weapons-v7/rapier-07-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-03-body.png",
+      "source": "output/c-weapons-v7/rapier-03-body.png",
+      "sha256": "14d7d5fea8cc30b52225b210172d7c3e87288fa49701475718aafb835b4897b8"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-02-body.png",
+      "source": "output/c-weapons-v7/rapier-02-body.png",
+      "sha256": "14d7d5fea8cc30b52225b210172d7c3e87288fa49701475718aafb835b4897b8"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-05.png",
+      "source": "output/c-weapons-v7/rapier-05.png",
+      "sha256": "77be40f856494a57e944e278ebc8d06c63c029a5eb6614b341af8b7c95d2f5f6"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-11.png",
+      "source": "output/c-weapons-v7/rapier-11.png",
+      "sha256": "07f2204924d48b8e67565eda3e508215826dca7b50abe802f8fc1cfbe5e7e8c5"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-20-body.png",
+      "source": "output/c-weapons-v7/rapier-20-body.png",
+      "sha256": "2fabfa0aee3bcf484e18f5711f52fe70ff014820e4f6db4e4e03f3b734f2a171"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-15-weapon.png",
+      "source": "output/c-weapons-v7/rapier-15-weapon.png",
+      "sha256": "476d2ee7f9eac8a36ccd90331b0f44161c24b10bfadb800edf9a88f7c41363cf"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-15.png",
+      "source": "output/c-weapons-v7/rapier-15.png",
+      "sha256": "71a55e52d99b36409f247760634a4799909cf2ea4b7106c57cefca5cbdf909c1"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier.gif",
+      "source": "output/c-weapons-v7/rapier.gif",
+      "sha256": "9d6254653c467d4b67fe755da10a74cdb9a97d12f8fad955e55f7ed981857212"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-01.png",
+      "source": "output/c-weapons-v7/rapier-01.png",
+      "sha256": "71a55e52d99b36409f247760634a4799909cf2ea4b7106c57cefca5cbdf909c1"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-03-weapon.png",
+      "source": "output/c-weapons-v7/base_sword-03-weapon.png",
+      "sha256": "28de0a310acc823851bd3c4146a24066b0d698bcbac5891fdd30192890615e45"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-03-trail.png",
+      "source": "output/c-weapons-v7/base_sword-03-trail.png",
+      "sha256": "5500b1bc861033285d507b398ae3c29488e7c1945c0f7f53666c6aa057eba2ff"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-18-trail.png",
+      "source": "output/c-weapons-v7/rapier-18-trail.png",
+      "sha256": "ea8a159f1410b920849768c00caf18515dcc64e9dec093e0d4cd9d70413bc438"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-00.png",
+      "source": "output/c-weapons-v7/rapier-00.png",
+      "sha256": "81867f6087cc53a50b771a515c46728112810e4592eaee39a7612f4974fd778f"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-14.png",
+      "source": "output/c-weapons-v7/rapier-14.png",
+      "sha256": "81867f6087cc53a50b771a515c46728112810e4592eaee39a7612f4974fd778f"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-09-weapon.png",
+      "source": "output/c-weapons-v7/rapier-09-weapon.png",
+      "sha256": "2fe1b5f6327c70be0fd2ec7f11767bca6c24eea78503d5be57b8e7833ccb70dc"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-18-weapon.png",
+      "source": "output/c-weapons-v7/rapier-18-weapon.png",
+      "sha256": "bd191559f4df6713a7f79d0e60ae6b71ff00bc67106d625787d078d6637a90be"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-20-trail.png",
+      "source": "output/c-weapons-v7/rapier-20-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-02.png",
+      "source": "output/c-weapons-v7/rapier-02.png",
+      "sha256": "caa63166db37ad1c4a38752ab09b36ee8cccc495c5038560efc7125320675098"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-16.png",
+      "source": "output/c-weapons-v7/rapier-16.png",
+      "sha256": "caa63166db37ad1c4a38752ab09b36ee8cccc495c5038560efc7125320675098"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-11-body.png",
+      "source": "output/c-weapons-v7/base_sword-11-body.png",
+      "sha256": "a8dc5460b350874e24ead6c8ed63c7342304be3e4848e4b538952738fe26691c"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-10-body.png",
+      "source": "output/c-weapons-v7/base_sword-10-body.png",
+      "sha256": "bb7fc7fff05e0663249d9f059165d14200f9814afc7bc85bd17aa6eee559dc8f"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-15-trail.png",
+      "source": "output/c-weapons-v7/rapier-15-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-17.png",
+      "source": "output/c-weapons-v7/rapier-17.png",
+      "sha256": "caa63166db37ad1c4a38752ab09b36ee8cccc495c5038560efc7125320675098"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-03.png",
+      "source": "output/c-weapons-v7/rapier-03.png",
+      "sha256": "caa63166db37ad1c4a38752ab09b36ee8cccc495c5038560efc7125320675098"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-04-weapon.png",
+      "source": "output/c-weapons-v7/rapier-04-weapon.png",
+      "sha256": "bd191559f4df6713a7f79d0e60ae6b71ff00bc67106d625787d078d6637a90be"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-14-body.png",
+      "source": "output/c-weapons-v7/rapier-14-body.png",
+      "sha256": "bd1734e21d4febed4a349852a9d00860d58f184269a9dc9848e0b2c027160ade"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-15-body.png",
+      "source": "output/c-weapons-v7/rapier-15-body.png",
+      "sha256": "4444e7bcf3047557703784725e0a5bc21795ebd242aa59f3297337b13bfea8d3"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-01-trail.png",
+      "source": "output/c-weapons-v7/rapier-01-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-02-body.png",
+      "source": "output/c-weapons-v7/base_sword-02-body.png",
+      "sha256": "792a50b25510eb6c1cc2d66a35c618754b6e11a2dcf348dc4ce4c7a3615e32c5"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-03-body.png",
+      "source": "output/c-weapons-v7/base_sword-03-body.png",
+      "sha256": "b4c1a7d792c4e141ec6cf63b1b3d85b43afe884c80797641ed7d49cbbbdf0caf"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-16-weapon.png",
+      "source": "output/c-weapons-v7/rapier-16-weapon.png",
+      "sha256": "2fe1b5f6327c70be0fd2ec7f11767bca6c24eea78503d5be57b8e7833ccb70dc"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-09-trail.png",
+      "source": "output/c-weapons-v7/rapier-09-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-07-body.png",
+      "source": "output/c-weapons-v7/rapier-07-body.png",
+      "sha256": "bd1734e21d4febed4a349852a9d00860d58f184269a9dc9848e0b2c027160ade"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-06-body.png",
+      "source": "output/c-weapons-v7/rapier-06-body.png",
+      "sha256": "2fabfa0aee3bcf484e18f5711f52fe70ff014820e4f6db4e4e03f3b734f2a171"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-00-weapon.png",
+      "source": "output/c-weapons-v7/base_sword-00-weapon.png",
+      "sha256": "c3583f28d44bb409aa964356322bea69aacfc64e3041d166f052b8fa8f45639f"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-06-trail.png",
+      "source": "output/c-weapons-v7/base_sword-06-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-11-weapon.png",
+      "source": "output/c-weapons-v7/base_sword-11-weapon.png",
+      "sha256": "63e3b5b134e926a9b19ec9f4ee3ff481e9f7ab49638f63dc32617aac2afb5052"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-19.png",
+      "source": "output/c-weapons-v7/rapier-19.png",
+      "sha256": "77be40f856494a57e944e278ebc8d06c63c029a5eb6614b341af8b7c95d2f5f6"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-07-weapon.png",
+      "source": "output/c-weapons-v7/rapier-07-weapon.png",
+      "sha256": "e10cf6e367263faf02b071af6464b582616734ecfd42239c9c3ad786e873b27e"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-08-body.png",
+      "source": "output/c-weapons-v7/base_sword-08-body.png",
+      "sha256": "792a50b25510eb6c1cc2d66a35c618754b6e11a2dcf348dc4ce4c7a3615e32c5"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-09-body.png",
+      "source": "output/c-weapons-v7/base_sword-09-body.png",
+      "sha256": "b4c1a7d792c4e141ec6cf63b1b3d85b43afe884c80797641ed7d49cbbbdf0caf"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-04-trail.png",
+      "source": "output/c-weapons-v7/rapier-04-trail.png",
+      "sha256": "ea8a159f1410b920849768c00caf18515dcc64e9dec093e0d4cd9d70413bc438"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-18.png",
+      "source": "output/c-weapons-v7/rapier-18.png",
+      "sha256": "07f2204924d48b8e67565eda3e508215826dca7b50abe802f8fc1cfbe5e7e8c5"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-10-trail.png",
+      "source": "output/c-weapons-v7/rapier-10-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-02-weapon.png",
+      "source": "output/c-weapons-v7/rapier-02-weapon.png",
+      "sha256": "2fe1b5f6327c70be0fd2ec7f11767bca6c24eea78503d5be57b8e7833ccb70dc"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-08.png",
+      "source": "output/c-weapons-v7/rapier-08.png",
+      "sha256": "71a55e52d99b36409f247760634a4799909cf2ea4b7106c57cefca5cbdf909c1"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-20.png",
+      "source": "output/c-weapons-v7/rapier-20.png",
+      "sha256": "d0f023be0d39bdf5c0cf269683548ceae9683a9a88bf6707bacb3e79f930d8b4"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-00-trail.png",
+      "source": "output/c-weapons-v7/base_sword-00-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-08-weapon.png",
+      "source": "output/c-weapons-v7/base_sword-08-weapon.png",
+      "sha256": "520a6d65ac6e22bd894d771b3be0c85ceed01d0205f7732af9064a26b2bbb911"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-09.png",
+      "source": "output/c-weapons-v7/rapier-09.png",
+      "sha256": "caa63166db37ad1c4a38752ab09b36ee8cccc495c5038560efc7125320675098"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-10-body.png",
+      "source": "output/c-weapons-v7/rapier-10-body.png",
+      "sha256": "14d7d5fea8cc30b52225b210172d7c3e87288fa49701475718aafb835b4897b8"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-11-body.png",
+      "source": "output/c-weapons-v7/rapier-11-body.png",
+      "sha256": "f25dc9456f5f5ac326b25222ec3a561b48ec1ba780a301474c8d937e90a9cb10"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-02-trail.png",
+      "source": "output/c-weapons-v7/rapier-02-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-16-trail.png",
+      "source": "output/c-weapons-v7/rapier-16-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-13-weapon.png",
+      "source": "output/c-weapons-v7/rapier-13-weapon.png",
+      "sha256": "e09e4f3cf4c740a135804fe50f514716c38b1460dca0843f3754e24c5ce75425"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-05-weapon.png",
+      "source": "output/c-weapons-v7/base_sword-05-weapon.png",
+      "sha256": "63e3b5b134e926a9b19ec9f4ee3ff481e9f7ab49638f63dc32617aac2afb5052"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-14-weapon.png",
+      "source": "output/c-weapons-v7/rapier-14-weapon.png",
+      "sha256": "e10cf6e367263faf02b071af6464b582616734ecfd42239c9c3ad786e873b27e"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-09.png",
+      "source": "output/c-weapons-v7/base_sword-09.png",
+      "sha256": "550cd64900bf7fd4cc6cefc687f3e6cd4eb87a2553e1683440ecc6314e429ed6"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-02-weapon.png",
+      "source": "output/c-weapons-v7/base_sword-02-weapon.png",
+      "sha256": "520a6d65ac6e22bd894d771b3be0c85ceed01d0205f7732af9064a26b2bbb911"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-08-weapon.png",
+      "source": "output/c-weapons-v7/rapier-08-weapon.png",
+      "sha256": "476d2ee7f9eac8a36ccd90331b0f44161c24b10bfadb800edf9a88f7c41363cf"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-07-trail.png",
+      "source": "output/c-weapons-v7/base_sword-07-trail.png",
+      "sha256": "2c9bedc34c07bfe5a1b25d90edde7c1a27e8b05b05d46466ef4ab4f13f4815f4"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-08-trail.png",
+      "source": "output/c-weapons-v7/rapier-08-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-17-body.png",
+      "source": "output/c-weapons-v7/rapier-17-body.png",
+      "sha256": "14d7d5fea8cc30b52225b210172d7c3e87288fa49701475718aafb835b4897b8"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-16-body.png",
+      "source": "output/c-weapons-v7/rapier-16-body.png",
+      "sha256": "14d7d5fea8cc30b52225b210172d7c3e87288fa49701475718aafb835b4897b8"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-08.png",
+      "source": "output/c-weapons-v7/base_sword-08.png",
+      "sha256": "8bc470eea566ea70794318f83465380dfbb4166880106856111d1940237438a4"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-19-weapon.png",
+      "source": "output/c-weapons-v7/rapier-19-weapon.png",
+      "sha256": "5c10b7c204c627cd1888ad84a155ae90e0c4fa649a5357f26ca5112ed25b0fa2"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-11-trail.png",
+      "source": "output/c-weapons-v7/rapier-11-trail.png",
+      "sha256": "ea8a159f1410b920849768c00caf18515dcc64e9dec093e0d4cd9d70413bc438"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-05-trail.png",
+      "source": "output/c-weapons-v7/rapier-05-trail.png",
+      "sha256": "0933d426ca5c0ab46f75bd759ca7201edfb75bb79ea13377c62efaedf02ecfc5"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-05-weapon.png",
+      "source": "output/c-weapons-v7/rapier-05-weapon.png",
+      "sha256": "5c10b7c204c627cd1888ad84a155ae90e0c4fa649a5357f26ca5112ed25b0fa2"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-01-trail.png",
+      "source": "output/c-weapons-v7/base_sword-01-trail.png",
+      "sha256": "2c9bedc34c07bfe5a1b25d90edde7c1a27e8b05b05d46466ef4ab4f13f4815f4"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-05-body.png",
+      "source": "output/c-weapons-v7/base_sword-05-body.png",
+      "sha256": "a8dc5460b350874e24ead6c8ed63c7342304be3e4848e4b538952738fe26691c"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-04-body.png",
+      "source": "output/c-weapons-v7/base_sword-04-body.png",
+      "sha256": "bb7fc7fff05e0663249d9f059165d14200f9814afc7bc85bd17aa6eee559dc8f"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-00-weapon.png",
+      "source": "output/c-weapons-v7/rapier-00-weapon.png",
+      "sha256": "e10cf6e367263faf02b071af6464b582616734ecfd42239c9c3ad786e873b27e"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-00-body.png",
+      "source": "output/c-weapons-v7/rapier-00-body.png",
+      "sha256": "bd1734e21d4febed4a349852a9d00860d58f184269a9dc9848e0b2c027160ade"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-01-body.png",
+      "source": "output/c-weapons-v7/rapier-01-body.png",
+      "sha256": "4444e7bcf3047557703784725e0a5bc21795ebd242aa59f3297337b13bfea8d3"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword.aseprite",
+      "source": "output/c-weapons-v7/base_sword.aseprite",
+      "sha256": "312d5912511f3478dc9e5758d409c5be99b81c957880e7d1326fef58bf873211"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-17-trail.png",
+      "source": "output/c-weapons-v7/rapier-17-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-11-weapon.png",
+      "source": "output/c-weapons-v7/rapier-11-weapon.png",
+      "sha256": "bd191559f4df6713a7f79d0e60ae6b71ff00bc67106d625787d078d6637a90be"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/rapier-03-trail.png",
+      "source": "output/c-weapons-v7/rapier-03-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/base_sword-07-weapon.png",
+      "source": "output/c-weapons-v7/base_sword-07-weapon.png",
+      "sha256": "c9dd7c5504ffa0d232236aea4cf41edfbd93258c33b26ec25dc059acf84da894"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-00.png",
+      "source": "output/c-weapons-v8/shuriken-00.png",
+      "sha256": "4877d417ebc81933f1ef4a46ec822ef7db54b04e361c8a8e0666e10130c9e64e"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-06-weapon.png",
+      "source": "output/c-weapons-v8/shuriken-06-weapon.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-04.png",
+      "source": "output/c-weapons-v8/launcher-04.png",
+      "sha256": "f76df54c4bb1e2f250244f5eb734cb593331b5fe7cdb79c0061b08ff73ad3265"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/bomb-02-trail.png",
+      "source": "output/c-weapons-v8/bomb-02-trail.png",
+      "sha256": "1a099c8d83139e4388eb81c9427e5eb727eaf914641a342f8c0707f7d722d2ff"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-03-trail.png",
+      "source": "output/c-weapons-v8/launcher-03-trail.png",
+      "sha256": "9916085e833b0c55ae055a3e81625c79056c9ff7ae5caa9e48997abe5c3ad61a"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-10-body.png",
+      "source": "output/c-weapons-v8/hammer-10-body.png",
+      "sha256": "bb7fc7fff05e0663249d9f059165d14200f9814afc7bc85bd17aa6eee559dc8f"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shield-03-weapon.png",
+      "source": "output/c-weapons-v8/shield-03-weapon.png",
+      "sha256": "477f30062e8aae9d1f17c382de7726d8326736cc8ef2bc1e3c28ffc5e4449163"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-11-body.png",
+      "source": "output/c-weapons-v8/hammer-11-body.png",
+      "sha256": "a8dc5460b350874e24ead6c8ed63c7342304be3e4848e4b538952738fe26691c"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-09-trail.png",
+      "source": "output/c-weapons-v8/shuriken-09-trail.png",
+      "sha256": "73e1e0cb22b1c74b1dda1587791fba5ea31db42a97481afd42f8aa13a5dc9b6b"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-06-trail.png",
+      "source": "output/c-weapons-v8/greatsword-06-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-01-weapon.png",
+      "source": "output/c-weapons-v8/greatsword-01-weapon.png",
+      "sha256": "91758d628b8c7439f4b0a00f5620e50869dca62b0ac5cd93928f2d2fd04dbc51"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword.gif",
+      "source": "output/c-weapons-v8/greatsword.gif",
+      "sha256": "f87ef47ec3f821b54d202f987f7675e39729630d7c91168bec31f335046c4bc3"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-00-weapon.png",
+      "source": "output/c-weapons-v8/launcher-00-weapon.png",
+      "sha256": "9a8d91ecdf4d5ad3234bcc8b783dcbf00003daf5c59c48b802b8ce328cc7be78"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-12-trail.png",
+      "source": "output/c-weapons-v8/greatsword-12-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-05.png",
+      "source": "output/c-weapons-v8/launcher-05.png",
+      "sha256": "9b4c9c2d98bccb921f3c3f223a7ef0ff9e5c1e220f1e75d36d30ea2cf3b46ef0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-01.png",
+      "source": "output/c-weapons-v8/shuriken-01.png",
+      "sha256": "4877d417ebc81933f1ef4a46ec822ef7db54b04e361c8a8e0666e10130c9e64e"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-03.png",
+      "source": "output/c-weapons-v8/shuriken-03.png",
+      "sha256": "a2d38cfcb717b5440fffad319450fbf661ab6679e8f189bfe68def3508308bd2"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-07.png",
+      "source": "output/c-weapons-v8/launcher-07.png",
+      "sha256": "168e2fbaa7dfea09200fbe9b03efcf5bed8b2b30ed463a454905d858fe8a9b65"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/bomb-04.png",
+      "source": "output/c-weapons-v8/bomb-04.png",
+      "sha256": "e2b5fa9be399de33d2031889d1151fbaff1eaea28423b9838894e83b7bfd7d4f"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-10-weapon.png",
+      "source": "output/c-weapons-v8/greatsword-10-weapon.png",
+      "sha256": "eab6f4b528264340857a2e9c6837a4e040c0c317dfb5c9ebd1021b2e7e61b7d8"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-11-body.png",
+      "source": "output/c-weapons-v8/shuriken-11-body.png",
+      "sha256": "14caa219828d6115eb24d65f7b0060d89c71268ad8f77f42da18f16e5b86bff2"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-10-body.png",
+      "source": "output/c-weapons-v8/shuriken-10-body.png",
+      "sha256": "f2201cd72f067fb9e30349a0b838a692c70b9e45810cb4c2b7fa08366cd2d064"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shield-02-trail.png",
+      "source": "output/c-weapons-v8/shield-02-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-04-trail.png",
+      "source": "output/c-weapons-v8/shuriken-04-trail.png",
+      "sha256": "55f8ffb4be2d1a29631d6c4ce4880df888afabb8692207bb627b48d98070a399"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-10-trail.png",
+      "source": "output/c-weapons-v8/shuriken-10-trail.png",
+      "sha256": "e1330222b312ffd6d7021755844f82fe99df5c7f8f4c5238947e0e8d0a619ddf"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-03-weapon.png",
+      "source": "output/c-weapons-v8/hammer-03-weapon.png",
+      "sha256": "8bd4b42c76a0e2d2b4dab86e2ae795bb92e570bae3ccb40bd75bda040864b35d"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shield-06-body.png",
+      "source": "output/c-weapons-v8/shield-06-body.png",
+      "sha256": "9d1aa815093551f609567d5ab24376cc978eeaae2dac09a75b593ebb1b736b6b"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/bomb-05.png",
+      "source": "output/c-weapons-v8/bomb-05.png",
+      "sha256": "8a3169e842340b8c7cd38e103983f429babd8d12accb2cdd1d3fddd2334c3ffd"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-06.png",
+      "source": "output/c-weapons-v8/launcher-06.png",
+      "sha256": "5d31955f6047dc97a139521327b3b0cfcf35c150666e131fda9613040a05f1bd"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-07-trail.png",
+      "source": "output/c-weapons-v8/hammer-07-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-02.png",
+      "source": "output/c-weapons-v8/shuriken-02.png",
+      "sha256": "c957d78bf51ce4a4a88e6b46e77f085f59db479e7059633093980b3633992372"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-02.png",
+      "source": "output/c-weapons-v8/launcher-02.png",
+      "sha256": "c3e2d40efab5e26e30420f9186b9ba9550ec67ed782170bdd20339fb6a83a9af"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-06.png",
+      "source": "output/c-weapons-v8/shuriken-06.png",
+      "sha256": "c1099679abffb6c91bfc1672165954dd9971ba364ab99c67efb82d4cd9374604"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-12.png",
+      "source": "output/c-weapons-v8/shuriken-12.png",
+      "sha256": "b32d67e69ec8f858d9953fa9a63fcab82220e0ab80b69730816efaeddbbb2ec4"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-15-weapon.png",
+      "source": "output/c-weapons-v8/greatsword-15-weapon.png",
+      "sha256": "1ed335ec2d49dc9e80a7dc0b638a75e5c04f4fd5cab65383205e5553579cf12e"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-00-trail.png",
+      "source": "output/c-weapons-v8/greatsword-00-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/bomb-01.png",
+      "source": "output/c-weapons-v8/bomb-01.png",
+      "sha256": "d8323c34b231ac10d4e1dba139e56de08b5a676e8477ac29a59c7bcc883f5fac"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-07-body.png",
+      "source": "output/c-weapons-v8/hammer-07-body.png",
+      "sha256": "7279f2d5412130ffcb681163fa2c9795e98046344d550ba1e0976db1c2d575d1"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-06-body.png",
+      "source": "output/c-weapons-v8/hammer-06-body.png",
+      "sha256": "60dfe0123c28ceb4ff99cd99177d62a078eedeff7b5745fce66f7c9b01702f65"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-03-body.png",
+      "source": "output/c-weapons-v8/launcher-03-body.png",
+      "sha256": "6c1a17210f773d28971ea8980f180a60739c1d4ed556426b3e12e1102ddfd050"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-02-body.png",
+      "source": "output/c-weapons-v8/launcher-02-body.png",
+      "sha256": "a1377b20a3fa44373bddb57b2017ea7c2e951bdc62f6aee74bba40416c794095"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-01-body.png",
+      "source": "output/c-weapons-v8/greatsword-01-body.png",
+      "sha256": "6ff737f2636595a82801a8175993a784d5247af344a79342ae942307f4d7ad2b"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-00-body.png",
+      "source": "output/c-weapons-v8/greatsword-00-body.png",
+      "sha256": "ef7182d3c5781704f7c6b6417f7969408c225b4d1a9ba7b9702321f8bc2d0dac"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-14-trail.png",
+      "source": "output/c-weapons-v8/greatsword-14-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/bomb-03-weapon.png",
+      "source": "output/c-weapons-v8/bomb-03-weapon.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/bomb-04-trail.png",
+      "source": "output/c-weapons-v8/bomb-04-trail.png",
+      "sha256": "d75aad78439fdda07afd6129dd24a9cfe1e6e38b0d537c116966899d7f3589bb"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-06-weapon.png",
+      "source": "output/c-weapons-v8/hammer-06-weapon.png",
+      "sha256": "b4074dafaa69fd1675a62e9cdccf6de6c3190fec321ac8f8fc01efd57d3ec3f4"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-09-weapon.png",
+      "source": "output/c-weapons-v8/greatsword-09-weapon.png",
+      "sha256": "8208ac88f156c618ed0e38d7e81e261f907bca403b551e493ae63ea8c3fc3192"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-12-weapon.png",
+      "source": "output/c-weapons-v8/shuriken-12-weapon.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/bomb-00.png",
+      "source": "output/c-weapons-v8/bomb-00.png",
+      "sha256": "828a698898ca2516f4ed35cd78430fd9fea60239f86b4a843bdf58ffd855d0c2"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-05-trail.png",
+      "source": "output/c-weapons-v8/launcher-05-trail.png",
+      "sha256": "fbc94ff310b182770cb1d8546eb8f34e1e108471ffa98065b212b9f63cf999aa"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-13.png",
+      "source": "output/c-weapons-v8/shuriken-13.png",
+      "sha256": "337141b7bbcb2e3b93fb2a3d51ecf96ae00408237fee925ad4770585ad362209"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-07.png",
+      "source": "output/c-weapons-v8/shuriken-07.png",
+      "sha256": "4877d417ebc81933f1ef4a46ec822ef7db54b04e361c8a8e0666e10130c9e64e"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-08-weapon.png",
+      "source": "output/c-weapons-v8/launcher-08-weapon.png",
+      "sha256": "9a8d91ecdf4d5ad3234bcc8b783dcbf00003daf5c59c48b802b8ce328cc7be78"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-03.png",
+      "source": "output/c-weapons-v8/launcher-03.png",
+      "sha256": "f5a5b9d6ac57b8987a26dc64ec66935c79dcd0ecbd2a99f311ddcb098aab6f06"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-01.png",
+      "source": "output/c-weapons-v8/launcher-01.png",
+      "sha256": "130eafb0a6793ab8f0d1e98c8274dcbfcab974c5731f26decb3bc3784ea02152"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shield-06-weapon.png",
+      "source": "output/c-weapons-v8/shield-06-weapon.png",
+      "sha256": "798f42bc64efe1459254bf7b928bee96e514caa0e3133b9a10be785d2f4ca45e"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-11.png",
+      "source": "output/c-weapons-v8/shuriken-11.png",
+      "sha256": "a5edbe92610d81041a93534d5f835549224580a0b6e06da708e043d27af998ce"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-05.png",
+      "source": "output/c-weapons-v8/shuriken-05.png",
+      "sha256": "27b3025527daf26a5bc49db9f1128102210b63d15382025c7fd8610495134198"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shield-04-trail.png",
+      "source": "output/c-weapons-v8/shield-04-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-02-trail.png",
+      "source": "output/c-weapons-v8/shuriken-02-trail.png",
+      "sha256": "73e1e0cb22b1c74b1dda1587791fba5ea31db42a97481afd42f8aa13a5dc9b6b"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/bomb-02.png",
+      "source": "output/c-weapons-v8/bomb-02.png",
+      "sha256": "1f3ed79d644d27c8c12bd566d19a104ec982db7f22a95ec9053319c2d4952cac"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-09-body.png",
+      "source": "output/c-weapons-v8/launcher-09-body.png",
+      "sha256": "a1377b20a3fa44373bddb57b2017ea7c2e951bdc62f6aee74bba40416c794095"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-08-body.png",
+      "source": "output/c-weapons-v8/launcher-08-body.png",
+      "sha256": "a1377b20a3fa44373bddb57b2017ea7c2e951bdc62f6aee74bba40416c794095"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-03-weapon.png",
+      "source": "output/c-weapons-v8/shuriken-03-weapon.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-01-trail.png",
+      "source": "output/c-weapons-v8/hammer-01-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-05-weapon.png",
+      "source": "output/c-weapons-v8/launcher-05-weapon.png",
+      "sha256": "e9bf1bd739ba2551e453c7a12a605bdc559682518997d74b2acad20a44520ad2"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/bomb-03.png",
+      "source": "output/c-weapons-v8/bomb-03.png",
+      "sha256": "ca046e24d131519f7ea31f2558481607b239129a3b72e4eb45d234b5a7b8e164"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-06-body.png",
+      "source": "output/c-weapons-v8/shuriken-06-body.png",
+      "sha256": "9d1aa815093551f609567d5ab24376cc978eeaae2dac09a75b593ebb1b736b6b"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/bomb.aseprite",
+      "source": "output/c-weapons-v8/bomb.aseprite",
+      "sha256": "dd7e2a431ec54aa2cb2ce724ea8d4eaf5ac83ac3f4ec1587014a39654a9ef330"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-07-body.png",
+      "source": "output/c-weapons-v8/shuriken-07-body.png",
+      "sha256": "9d1aa815093551f609567d5ab24376cc978eeaae2dac09a75b593ebb1b736b6b"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-04-weapon.png",
+      "source": "output/c-weapons-v8/greatsword-04-weapon.png",
+      "sha256": "71e2e419e8b3c771d63b0c29a23efdd205c316f6b66cd33c55eb8d346da9c7cb"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-04.png",
+      "source": "output/c-weapons-v8/shuriken-04.png",
+      "sha256": "4fdfcf2849055922e544dff28a56ac27271ddfaf2ac62b7a04fc2a0fba897bbf"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-10.png",
+      "source": "output/c-weapons-v8/shuriken-10.png",
+      "sha256": "8e4d97e97070582af6b41778f0413d23178b4558b6e67d4cef14ccfac3b39b41"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-00.png",
+      "source": "output/c-weapons-v8/launcher-00.png",
+      "sha256": "130eafb0a6793ab8f0d1e98c8274dcbfcab974c5731f26decb3bc3784ea02152"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-08-trail.png",
+      "source": "output/c-weapons-v8/launcher-08-trail.png",
+      "sha256": "1e35d3935e2504ccf4efe28a3db737c555c22162535e3c8b5ad52fa19a665692"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-02-trail.png",
+      "source": "output/c-weapons-v8/launcher-02-trail.png",
+      "sha256": "78a44a0387ea62072c78c3f699cfd3ff2bcc874d0982d347c39247389ec476ed"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-00-body.png",
+      "source": "output/c-weapons-v8/hammer-00-body.png",
+      "sha256": "60dfe0123c28ceb4ff99cd99177d62a078eedeff7b5745fce66f7c9b01702f65"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-01-body.png",
+      "source": "output/c-weapons-v8/hammer-01-body.png",
+      "sha256": "7279f2d5412130ffcb681163fa2c9795e98046344d550ba1e0976db1c2d575d1"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-04-body.png",
+      "source": "output/c-weapons-v8/launcher-04-body.png",
+      "sha256": "5f6d08ebbed8785ae5655b359b73e9b3143a1bf3dbe56b74b38df470e231b8cf"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-05-body.png",
+      "source": "output/c-weapons-v8/launcher-05-body.png",
+      "sha256": "d96db2e3a56f47c7f4c3d81e450f2950f737ae77c104d8d0a9622e9c73626921"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-03-weapon.png",
+      "source": "output/c-weapons-v8/greatsword-03-weapon.png",
+      "sha256": "27a10371f64117cbeeab608b8315d4ffccc370a472f15bd5300468b2d9b33a4f"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shield-03.png",
+      "source": "output/c-weapons-v8/shield-03.png",
+      "sha256": "a25fb19d4e3528546557273fb9d18aad0ecbcf3e98b11b37a3a436c5bbd03bc3"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-09.png",
+      "source": "output/c-weapons-v8/greatsword-09.png",
+      "sha256": "71a60492ab70b4b51b6bca6776eeeb8ea43a3f2e5f830b8b9b5587e9602c3738"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-02-weapon.png",
+      "source": "output/c-weapons-v8/launcher-02-weapon.png",
+      "sha256": "245803caabebc242141d9da790860969201381e622ac97af54c1487d2c458126"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-10.png",
+      "source": "output/c-weapons-v8/hammer-10.png",
+      "sha256": "b2dff169a10fa34dbb41aed421938ba6463996686a5ad53069b9dc31027ed90f"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-04.png",
+      "source": "output/c-weapons-v8/hammer-04.png",
+      "sha256": "b2dff169a10fa34dbb41aed421938ba6463996686a5ad53069b9dc31027ed90f"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-06-body.png",
+      "source": "output/c-weapons-v8/greatsword-06-body.png",
+      "sha256": "32d4078dc5976de68bad626c46e74ad1906450a6adae8fa2b6b04e9d1ac19d1f"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-07-body.png",
+      "source": "output/c-weapons-v8/greatsword-07-body.png",
+      "sha256": "1cd6cb1bdc2c2d4f1040c7aaa3b436d5cd06ac29867c7bd25427958d03b07e00"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/bomb-03-trail.png",
+      "source": "output/c-weapons-v8/bomb-03-trail.png",
+      "sha256": "7f2c45fbfe4240fed95ebad3b0ed50933836183030c6a8ae2c57b3026a2f172a"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-04-weapon.png",
+      "source": "output/c-weapons-v8/shuriken-04-weapon.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-13-trail.png",
+      "source": "output/c-weapons-v8/greatsword-13-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-10-weapon.png",
+      "source": "output/c-weapons-v8/hammer-10-weapon.png",
+      "sha256": "77425c9b69ac80f005ad07252e812d943f1cf752ca52187a0c1ca3396d8f4b9a"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-05.png",
+      "source": "output/c-weapons-v8/hammer-05.png",
+      "sha256": "6581c9593f6504147046e344b8120e03f7db7d2bfd8f0b524615fcb72a454198"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-11.png",
+      "source": "output/c-weapons-v8/hammer-11.png",
+      "sha256": "6581c9593f6504147046e344b8120e03f7db7d2bfd8f0b524615fcb72a454198"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-08.png",
+      "source": "output/c-weapons-v8/greatsword-08.png",
+      "sha256": "2f3a1e803fc42ab6386526276577b73b234a7d7d770e4b586fd6808b8e68f2ed"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shield-02.png",
+      "source": "output/c-weapons-v8/shield-02.png",
+      "sha256": "10760d8bbe6dcd3e328d56ae22e4b25bf8646d45319baad3c4229803a70f0b72"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shield-01-weapon.png",
+      "source": "output/c-weapons-v8/shield-01-weapon.png",
+      "sha256": "798f42bc64efe1459254bf7b928bee96e514caa0e3133b9a10be785d2f4ca45e"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-08-trail.png",
+      "source": "output/c-weapons-v8/shuriken-08-trail.png",
+      "sha256": "4bf836457c2a57fd1caa97da96079e0f623423ef92ab799d2783047fda402501"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer.gif",
+      "source": "output/c-weapons-v8/hammer.gif",
+      "sha256": "b7b4e4e6ec0e83768075f6059e77ddf49b1e498a6a7cb8484da5c0a6e691fd2b"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-07-trail.png",
+      "source": "output/c-weapons-v8/greatsword-07-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shield-00.png",
+      "source": "output/c-weapons-v8/shield-00.png",
+      "sha256": "b326b206399b50cfeabd80773e7b4b9bbe4cd3430dc029a20b709c492f55a47e"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-07.png",
+      "source": "output/c-weapons-v8/hammer-07.png",
+      "sha256": "704cf6148a1666158cfcd5d7d518db02f3159a0049068e6bdedbff42b9722c01"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/bomb-04-weapon.png",
+      "source": "output/c-weapons-v8/bomb-04-weapon.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-01-weapon.png",
+      "source": "output/c-weapons-v8/hammer-01-weapon.png",
+      "sha256": "92b8b9adc7f773630d5d914868290e64f88f46c0c9f759c3ca7993aca4b9b2f1"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-11-trail.png",
+      "source": "output/c-weapons-v8/shuriken-11-trail.png",
+      "sha256": "2ecdd08f8eca50e23938cfc22600b2948dc5c6a4b593f152f752fae34c1bbe8c"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-06.png",
+      "source": "output/c-weapons-v8/hammer-06.png",
+      "sha256": "1556afe7cab697aa4976bf8739bf820d42d61ec95ccb1279bcb73bcad7753128"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shield-01.png",
+      "source": "output/c-weapons-v8/shield-01.png",
+      "sha256": "b326b206399b50cfeabd80773e7b4b9bbe4cd3430dc029a20b709c492f55a47e"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-06-trail.png",
+      "source": "output/c-weapons-v8/hammer-06-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-12-weapon.png",
+      "source": "output/c-weapons-v8/greatsword-12-weapon.png",
+      "sha256": "43bca52a8fce6940154e94d287c68a1140c88864a92858c22d478a52cc880414"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-01-body.png",
+      "source": "output/c-weapons-v8/shuriken-01-body.png",
+      "sha256": "9d1aa815093551f609567d5ab24376cc978eeaae2dac09a75b593ebb1b736b6b"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-00-body.png",
+      "source": "output/c-weapons-v8/shuriken-00-body.png",
+      "sha256": "9d1aa815093551f609567d5ab24376cc978eeaae2dac09a75b593ebb1b736b6b"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-09-weapon.png",
+      "source": "output/c-weapons-v8/shuriken-09-weapon.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shield-03-trail.png",
+      "source": "output/c-weapons-v8/shield-03-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-05-trail.png",
+      "source": "output/c-weapons-v8/shuriken-05-trail.png",
+      "sha256": "06c36d4a5109c9798b84873886ff12ed48478720e422db1640fdd4f5e351d578"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-04-weapon.png",
+      "source": "output/c-weapons-v8/hammer-04-weapon.png",
+      "sha256": "77425c9b69ac80f005ad07252e812d943f1cf752ca52187a0c1ca3396d8f4b9a"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-11-body.png",
+      "source": "output/c-weapons-v8/greatsword-11-body.png",
+      "sha256": "7279f2d5412130ffcb681163fa2c9795e98046344d550ba1e0976db1c2d575d1"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/bomb-00-body.png",
+      "source": "output/c-weapons-v8/bomb-00-body.png",
+      "sha256": "60dfe0123c28ceb4ff99cd99177d62a078eedeff7b5745fce66f7c9b01702f65"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-10-body.png",
+      "source": "output/c-weapons-v8/greatsword-10-body.png",
+      "sha256": "60dfe0123c28ceb4ff99cd99177d62a078eedeff7b5745fce66f7c9b01702f65"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/bomb-01-weapon.png",
+      "source": "output/c-weapons-v8/bomb-01-weapon.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/bomb-01-body.png",
+      "source": "output/c-weapons-v8/bomb-01-body.png",
+      "sha256": "7279f2d5412130ffcb681163fa2c9795e98046344d550ba1e0976db1c2d575d1"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-10-weapon.png",
+      "source": "output/c-weapons-v8/shuriken-10-weapon.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-15-trail.png",
+      "source": "output/c-weapons-v8/greatsword-15-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken.gif",
+      "source": "output/c-weapons-v8/shuriken.gif",
+      "sha256": "a2be48255c9a792f8e759c7ee90fd751be65366427e58f0fb2958a69be3a9983"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shield-05.png",
+      "source": "output/c-weapons-v8/shield-05.png",
+      "sha256": "c5fb1eb1a232e4083e751edb666b44791938cc0d2b0edaba8ec82e4d9eafc91b"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-01-trail.png",
+      "source": "output/c-weapons-v8/greatsword-01-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-02.png",
+      "source": "output/c-weapons-v8/hammer-02.png",
+      "sha256": "e9270a65ed841bb273a25e1252c6cb41a718f32e9e9fed39987b933fb5e889b4"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-03.png",
+      "source": "output/c-weapons-v8/hammer-03.png",
+      "sha256": "b4dc49906b508908f2140b1218d45ea1932c72db98d8b5af977cf3303bc86edc"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-04-trail.png",
+      "source": "output/c-weapons-v8/launcher-04-trail.png",
+      "sha256": "c173a9456c5ed7274d6b4ad329e94c27eb30d7be53ae0df5a064a54cf12fdff5"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shield-04.png",
+      "source": "output/c-weapons-v8/shield-04.png",
+      "sha256": "ad03762fd9b9e728154c0449ad1ef27e61e058a3b721759f0d9ffb5d1dbca40f"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/bomb-05-trail.png",
+      "source": "output/c-weapons-v8/bomb-05-trail.png",
+      "sha256": "a8090e880b05605972af1aad91a268710321d9a1bc7f322570cef36b3a79b786"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-00-trail.png",
+      "source": "output/c-weapons-v8/hammer-00-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-07-weapon.png",
+      "source": "output/c-weapons-v8/launcher-07-weapon.png",
+      "sha256": "9a8d91ecdf4d5ad3234bcc8b783dcbf00003daf5c59c48b802b8ce328cc7be78"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shield-05-trail.png",
+      "source": "output/c-weapons-v8/shield-05-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shield-06.png",
+      "source": "output/c-weapons-v8/shield-06.png",
+      "sha256": "b326b206399b50cfeabd80773e7b4b9bbe4cd3430dc029a20b709c492f55a47e"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-03-trail.png",
+      "source": "output/c-weapons-v8/shuriken-03-trail.png",
+      "sha256": "73208c82e57b6ff4f74caab1eb26f8637b2d45013cca14976297feebf5f9fc8f"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-01.png",
+      "source": "output/c-weapons-v8/hammer-01.png",
+      "sha256": "704cf6148a1666158cfcd5d7d518db02f3159a0049068e6bdedbff42b9722c01"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-06-weapon.png",
+      "source": "output/c-weapons-v8/greatsword-06-weapon.png",
+      "sha256": "83d3715adcb570c6fac99e6adbf170482514b580dd3bfdb72871d92d6ece5983"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-09-weapon.png",
+      "source": "output/c-weapons-v8/hammer-09-weapon.png",
+      "sha256": "8bd4b42c76a0e2d2b4dab86e2ae795bb92e570bae3ccb40bd75bda040864b35d"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shield-04-weapon.png",
+      "source": "output/c-weapons-v8/shield-04-weapon.png",
+      "sha256": "342e48eccfccd28525bddac8491647bff84cf574bcbe4e661a58fe81f46a7304"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-00.png",
+      "source": "output/c-weapons-v8/hammer-00.png",
+      "sha256": "1556afe7cab697aa4976bf8739bf820d42d61ec95ccb1279bcb73bcad7753128"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-09-trail.png",
+      "source": "output/c-weapons-v8/launcher-09-trail.png",
+      "sha256": "0170d203624aa812705541fc7bcad1df07367c50a0b190f0d7a4d9d0a44d7936"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-01-weapon.png",
+      "source": "output/c-weapons-v8/shuriken-01-weapon.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shield-00-body.png",
+      "source": "output/c-weapons-v8/shield-00-body.png",
+      "sha256": "9d1aa815093551f609567d5ab24376cc978eeaae2dac09a75b593ebb1b736b6b"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shield-01-body.png",
+      "source": "output/c-weapons-v8/shield-01-body.png",
+      "sha256": "9d1aa815093551f609567d5ab24376cc978eeaae2dac09a75b593ebb1b736b6b"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword.aseprite",
+      "source": "output/c-weapons-v8/greatsword.aseprite",
+      "sha256": "8be12962659ca887fcde6792c49d30c337f72a8f49f8262d78eba9396882c4ad"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-08-body.png",
+      "source": "output/c-weapons-v8/greatsword-08-body.png",
+      "sha256": "1cd6cb1bdc2c2d4f1040c7aaa3b436d5cd06ac29867c7bd25427958d03b07e00"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-04-trail.png",
+      "source": "output/c-weapons-v8/greatsword-04-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-09-body.png",
+      "source": "output/c-weapons-v8/greatsword-09-body.png",
+      "sha256": "ef7182d3c5781704f7c6b6417f7969408c225b4d1a9ba7b9702321f8bc2d0dac"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-14.png",
+      "source": "output/c-weapons-v8/greatsword-14.png",
+      "sha256": "865f88e31a1f9d0fdcdf077723c54f8b6c66d7f6c3394d900a2cca3705c01bb7"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-00.png",
+      "source": "output/c-weapons-v8/greatsword-00.png",
+      "sha256": "96bf18b78fa2125e13cb08df88afc9a7b2e298ec0fa1ee32e6b14f64791bcd06"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-14-weapon.png",
+      "source": "output/c-weapons-v8/greatsword-14-weapon.png",
+      "sha256": "9f296a3d3a05aea832227b2d762026fb9e7861e0753738f56ac1361836b933d4"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-10-trail.png",
+      "source": "output/c-weapons-v8/greatsword-10-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-08-trail.png",
+      "source": "output/c-weapons-v8/hammer-08-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/bomb-00-trail.png",
+      "source": "output/c-weapons-v8/bomb-00-trail.png",
+      "sha256": "83f2fa45a196ea5a0c59df937f84fd11b260f3cb2e5211fe2f6f4ef09f7e455b"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-01.png",
+      "source": "output/c-weapons-v8/greatsword-01.png",
+      "sha256": "8528ee3300f57f6060685d8cbdcd6a5fd7517d2bfc085e8d0347ec689f970379"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-15.png",
+      "source": "output/c-weapons-v8/greatsword-15.png",
+      "sha256": "6282b49dc2a311fb8fb276eaeac6bb9c5d6444696523f89e2b42ad11ec8b6db6"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-09-weapon.png",
+      "source": "output/c-weapons-v8/launcher-09-weapon.png",
+      "sha256": "9a8d91ecdf4d5ad3234bcc8b783dcbf00003daf5c59c48b802b8ce328cc7be78"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/bomb-02-weapon.png",
+      "source": "output/c-weapons-v8/bomb-02-weapon.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-08-weapon.png",
+      "source": "output/c-weapons-v8/greatsword-08-weapon.png",
+      "sha256": "c281c31eadd6b414ec8b6d0f36666e8a2119f77463c37bf45ae242719b85850c"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-07-weapon.png",
+      "source": "output/c-weapons-v8/hammer-07-weapon.png",
+      "sha256": "92b8b9adc7f773630d5d914868290e64f88f46c0c9f759c3ca7993aca4b9b2f1"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-01-trail.png",
+      "source": "output/c-weapons-v8/launcher-01-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-13-weapon.png",
+      "source": "output/c-weapons-v8/shuriken-13-weapon.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-05-body.png",
+      "source": "output/c-weapons-v8/shuriken-05-body.png",
+      "sha256": "70ef110591c3b0748e03a49a448a4615057edb9301bb6d952166dda4f43ab98c"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-04-body.png",
+      "source": "output/c-weapons-v8/shuriken-04-body.png",
+      "sha256": "14caa219828d6115eb24d65f7b0060d89c71268ad8f77f42da18f16e5b86bff2"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-02-weapon.png",
+      "source": "output/c-weapons-v8/shuriken-02-weapon.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/bomb.gif",
+      "source": "output/c-weapons-v8/bomb.gif",
+      "sha256": "d03370677b28ee1ad1fedde7e8d909f223c3ba9258f67f60a630a639b49fc4be"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-11-trail.png",
+      "source": "output/c-weapons-v8/hammer-11-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-04-body.png",
+      "source": "output/c-weapons-v8/hammer-04-body.png",
+      "sha256": "bb7fc7fff05e0663249d9f059165d14200f9814afc7bc85bd17aa6eee559dc8f"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-06-trail.png",
+      "source": "output/c-weapons-v8/shuriken-06-trail.png",
+      "sha256": "33ecb9db054372e5bac8ee32e75f17aef80c1d2aedf493cb403c06b7a8bf96c2"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-05-body.png",
+      "source": "output/c-weapons-v8/hammer-05-body.png",
+      "sha256": "a8dc5460b350874e24ead6c8ed63c7342304be3e4848e4b538952738fe26691c"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-00-body.png",
+      "source": "output/c-weapons-v8/launcher-00-body.png",
+      "sha256": "a1377b20a3fa44373bddb57b2017ea7c2e951bdc62f6aee74bba40416c794095"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-01-body.png",
+      "source": "output/c-weapons-v8/launcher-01-body.png",
+      "sha256": "a1377b20a3fa44373bddb57b2017ea7c2e951bdc62f6aee74bba40416c794095"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shield-00-trail.png",
+      "source": "output/c-weapons-v8/shield-00-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-09-trail.png",
+      "source": "output/c-weapons-v8/greatsword-09-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-03.png",
+      "source": "output/c-weapons-v8/greatsword-03.png",
+      "sha256": "94528ee3dffe2d0227be36896f340c9d8beb6ffe7afaed5ae4cfba9f3c0240c9"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-02-body.png",
+      "source": "output/c-weapons-v8/greatsword-02-body.png",
+      "sha256": "8b0b30da1c8faad0637819a17a0762a449391fba3163005fe3956d4e00bd39a3"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-03-body.png",
+      "source": "output/c-weapons-v8/greatsword-03-body.png",
+      "sha256": "8b0b30da1c8faad0637819a17a0762a449391fba3163005fe3956d4e00bd39a3"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-12-trail.png",
+      "source": "output/c-weapons-v8/shuriken-12-trail.png",
+      "sha256": "ff9d58613309be1bfce14065c1a85d88a22edc1b3497d4546638de95d376f00e"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-05-trail.png",
+      "source": "output/c-weapons-v8/hammer-05-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-05-weapon.png",
+      "source": "output/c-weapons-v8/greatsword-05-weapon.png",
+      "sha256": "83d3715adcb570c6fac99e6adbf170482514b580dd3bfdb72871d92d6ece5983"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-02.png",
+      "source": "output/c-weapons-v8/greatsword-02.png",
+      "sha256": "94528ee3dffe2d0227be36896f340c9d8beb6ffe7afaed5ae4cfba9f3c0240c9"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-04-weapon.png",
+      "source": "output/c-weapons-v8/launcher-04-weapon.png",
+      "sha256": "addf784fdea47856fdab20b4e5732b523381171b34852747d6a876f4120e3920"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shield-02-weapon.png",
+      "source": "output/c-weapons-v8/shield-02-weapon.png",
+      "sha256": "33b9f9f40d2cae3ebacda770c453711feee74842f4ac451eccb84bf76519d3be"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher.gif",
+      "source": "output/c-weapons-v8/launcher.gif",
+      "sha256": "42c0a9faff588cd614ccea8b4dcbea7b25aa23dc62f583922180957db1b819e3"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shield.gif",
+      "source": "output/c-weapons-v8/shield.gif",
+      "sha256": "d2897379dcb69b133e6551beaca9a8b81d38f6aee83b1bc1a3b7491f93544917"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-06.png",
+      "source": "output/c-weapons-v8/greatsword-06.png",
+      "sha256": "45370b926874561192513116760012c887a93876b932db995128ee27150a2269"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-07-weapon.png",
+      "source": "output/c-weapons-v8/shuriken-07-weapon.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-12.png",
+      "source": "output/c-weapons-v8/greatsword-12.png",
+      "sha256": "fc2027473257c06ed627fb1d7f7044d1ffc091f159314c8579b4486de4af076b"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-07-trail.png",
+      "source": "output/c-weapons-v8/launcher-07-trail.png",
+      "sha256": "a5a3e964c76d4f56278f5532d3f73b7993b911d4f00f8c0f6ba97daa8473c63a"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shield.aseprite",
+      "source": "output/c-weapons-v8/shield.aseprite",
+      "sha256": "396b1c218738a1d09356b2a8de25b8cc45e2d6df679a4cc0ab722d238869df94"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-01-weapon.png",
+      "source": "output/c-weapons-v8/launcher-01-weapon.png",
+      "sha256": "9a8d91ecdf4d5ad3234bcc8b783dcbf00003daf5c59c48b802b8ce328cc7be78"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-02-trail.png",
+      "source": "output/c-weapons-v8/greatsword-02-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-12-body.png",
+      "source": "output/c-weapons-v8/shuriken-12-body.png",
+      "sha256": "70ef110591c3b0748e03a49a448a4615057edb9301bb6d952166dda4f43ab98c"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-13-body.png",
+      "source": "output/c-weapons-v8/shuriken-13-body.png",
+      "sha256": "9d1aa815093551f609567d5ab24376cc978eeaae2dac09a75b593ebb1b736b6b"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-13.png",
+      "source": "output/c-weapons-v8/greatsword-13.png",
+      "sha256": "251433e001c89b162633c2eb429e852d39c857ce099be4b46c36eac4a5ab287a"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-07.png",
+      "source": "output/c-weapons-v8/greatsword-07.png",
+      "sha256": "2f3a1e803fc42ab6386526276577b73b234a7d7d770e4b586fd6808b8e68f2ed"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shield-04-body.png",
+      "source": "output/c-weapons-v8/shield-04-body.png",
+      "sha256": "14caa219828d6115eb24d65f7b0060d89c71268ad8f77f42da18f16e5b86bff2"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shield-05-body.png",
+      "source": "output/c-weapons-v8/shield-05-body.png",
+      "sha256": "70ef110591c3b0748e03a49a448a4615057edb9301bb6d952166dda4f43ab98c"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-00-weapon.png",
+      "source": "output/c-weapons-v8/greatsword-00-weapon.png",
+      "sha256": "71e2e419e8b3c771d63b0c29a23efdd205c316f6b66cd33c55eb8d346da9c7cb"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-11-weapon.png",
+      "source": "output/c-weapons-v8/greatsword-11-weapon.png",
+      "sha256": "f22e3ed2c8852f095500766afecb0eaf3f567a68be9c49a83541ad8aeb4e80a0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher.aseprite",
+      "source": "output/c-weapons-v8/launcher.aseprite",
+      "sha256": "0ff2ae8b772bc5584fb5db986a216da818d0d19f8fb3f17ad8161bb3921f6f24"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/bomb-04-body.png",
+      "source": "output/c-weapons-v8/bomb-04-body.png",
+      "sha256": "bb7fc7fff05e0663249d9f059165d14200f9814afc7bc85bd17aa6eee559dc8f"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-15-body.png",
+      "source": "output/c-weapons-v8/greatsword-15-body.png",
+      "sha256": "a8dc5460b350874e24ead6c8ed63c7342304be3e4848e4b538952738fe26691c"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/bomb-05-body.png",
+      "source": "output/c-weapons-v8/bomb-05-body.png",
+      "sha256": "a8dc5460b350874e24ead6c8ed63c7342304be3e4848e4b538952738fe26691c"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-14-body.png",
+      "source": "output/c-weapons-v8/greatsword-14-body.png",
+      "sha256": "bb7fc7fff05e0663249d9f059165d14200f9814afc7bc85bd17aa6eee559dc8f"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-11.png",
+      "source": "output/c-weapons-v8/greatsword-11.png",
+      "sha256": "d8d3782866de47a12d80fea5429c3cf497353f27de5d933d5918d0f81e26b5b2"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-05.png",
+      "source": "output/c-weapons-v8/greatsword-05.png",
+      "sha256": "45370b926874561192513116760012c887a93876b932db995128ee27150a2269"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-08.png",
+      "source": "output/c-weapons-v8/hammer-08.png",
+      "sha256": "e9270a65ed841bb273a25e1252c6cb41a718f32e9e9fed39987b933fb5e889b4"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken.aseprite",
+      "source": "output/c-weapons-v8/shuriken.aseprite",
+      "sha256": "41962967dba7c86b1e5f4c54fab262e26365acd880d02bc638ca1b45ee8a076c"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-00-trail.png",
+      "source": "output/c-weapons-v8/shuriken-00-trail.png",
+      "sha256": "4bf836457c2a57fd1caa97da96079e0f623423ef92ab799d2783047fda402501"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-02-weapon.png",
+      "source": "output/c-weapons-v8/hammer-02-weapon.png",
+      "sha256": "608c90609e066d0e5a831c44b6316397b181b2e1116f6b602d414423f2c0c445"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shield-06-trail.png",
+      "source": "output/c-weapons-v8/shield-06-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-09.png",
+      "source": "output/c-weapons-v8/hammer-09.png",
+      "sha256": "b4dc49906b508908f2140b1218d45ea1932c72db98d8b5af977cf3303bc86edc"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-04.png",
+      "source": "output/c-weapons-v8/greatsword-04.png",
+      "sha256": "96bf18b78fa2125e13cb08df88afc9a7b2e298ec0fa1ee32e6b14f64791bcd06"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-10.png",
+      "source": "output/c-weapons-v8/greatsword-10.png",
+      "sha256": "1267da7658ed9ef0d7fbefbe8f0e33c0e294726b308e3643452e28a5000de5e5"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-03-trail.png",
+      "source": "output/c-weapons-v8/hammer-03-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-09.png",
+      "source": "output/c-weapons-v8/shuriken-09.png",
+      "sha256": "c957d78bf51ce4a4a88e6b46e77f085f59db479e7059633093980b3633992372"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-11-trail.png",
+      "source": "output/c-weapons-v8/greatsword-11-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-09-trail.png",
+      "source": "output/c-weapons-v8/hammer-09-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-05-weapon.png",
+      "source": "output/c-weapons-v8/hammer-05-weapon.png",
+      "sha256": "c8ad1335a80b500c629856a2ef6ed380fa32ec98b1fcbf08adbf2e3953eb0221"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/bomb-00-weapon.png",
+      "source": "output/c-weapons-v8/bomb-00-weapon.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-11-weapon.png",
+      "source": "output/c-weapons-v8/shuriken-11-weapon.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-05-trail.png",
+      "source": "output/c-weapons-v8/greatsword-05-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-00-trail.png",
+      "source": "output/c-weapons-v8/launcher-00-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shield-03-body.png",
+      "source": "output/c-weapons-v8/shield-03-body.png",
+      "sha256": "f2201cd72f067fb9e30349a0b838a692c70b9e45810cb4c2b7fa08366cd2d064"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shield-02-body.png",
+      "source": "output/c-weapons-v8/shield-02-body.png",
+      "sha256": "3ff00aa6197b08e2aefea2850a7cf82494839446fd214651a1a1867217202059"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-08.png",
+      "source": "output/c-weapons-v8/shuriken-08.png",
+      "sha256": "4877d417ebc81933f1ef4a46ec822ef7db54b04e361c8a8e0666e10130c9e64e"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/bomb-01-trail.png",
+      "source": "output/c-weapons-v8/bomb-01-trail.png",
+      "sha256": "1ed2a657815b4d84cf29b74c4d6fda1b6791f00f7d1ccdb186994141bd448906"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-13-trail.png",
+      "source": "output/c-weapons-v8/shuriken-13-trail.png",
+      "sha256": "6bfa78fef88178ef4c18c2d86a44a887ebc8f8904cc7f1df611005d95193b280"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/bomb-03-body.png",
+      "source": "output/c-weapons-v8/bomb-03-body.png",
+      "sha256": "b4c1a7d792c4e141ec6cf63b1b3d85b43afe884c80797641ed7d49cbbbdf0caf"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-12-body.png",
+      "source": "output/c-weapons-v8/greatsword-12-body.png",
+      "sha256": "792a50b25510eb6c1cc2d66a35c618754b6e11a2dcf348dc4ce4c7a3615e32c5"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/bomb-02-body.png",
+      "source": "output/c-weapons-v8/bomb-02-body.png",
+      "sha256": "792a50b25510eb6c1cc2d66a35c618754b6e11a2dcf348dc4ce4c7a3615e32c5"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-13-body.png",
+      "source": "output/c-weapons-v8/greatsword-13-body.png",
+      "sha256": "b4c1a7d792c4e141ec6cf63b1b3d85b43afe884c80797641ed7d49cbbbdf0caf"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-08-weapon.png",
+      "source": "output/c-weapons-v8/hammer-08-weapon.png",
+      "sha256": "608c90609e066d0e5a831c44b6316397b181b2e1116f6b602d414423f2c0c445"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-07-weapon.png",
+      "source": "output/c-weapons-v8/greatsword-07-weapon.png",
+      "sha256": "c281c31eadd6b414ec8b6d0f36666e8a2119f77463c37bf45ae242719b85850c"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-04-trail.png",
+      "source": "output/c-weapons-v8/hammer-04-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-06-weapon.png",
+      "source": "output/c-weapons-v8/launcher-06-weapon.png",
+      "sha256": "9a8d91ecdf4d5ad3234bcc8b783dcbf00003daf5c59c48b802b8ce328cc7be78"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-10-trail.png",
+      "source": "output/c-weapons-v8/hammer-10-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-07-trail.png",
+      "source": "output/c-weapons-v8/shuriken-07-trail.png",
+      "sha256": "4bf836457c2a57fd1caa97da96079e0f623423ef92ab799d2783047fda402501"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-08-trail.png",
+      "source": "output/c-weapons-v8/greatsword-08-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shield-01-trail.png",
+      "source": "output/c-weapons-v8/shield-01-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-00-weapon.png",
+      "source": "output/c-weapons-v8/shuriken-00-weapon.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shield-05-weapon.png",
+      "source": "output/c-weapons-v8/shield-05-weapon.png",
+      "sha256": "8279a0b1f75ebc9810cc49a00f33514e47596d4b330090f86e2c2c65be2ff6cf"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-03-weapon.png",
+      "source": "output/c-weapons-v8/launcher-03-weapon.png",
+      "sha256": "ab00f148e9275eb2986282207e5cefe27a40f6546dc188bc773001c9a742e723"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-06-trail.png",
+      "source": "output/c-weapons-v8/launcher-06-trail.png",
+      "sha256": "f00aead2945c2e979f8a84075594dc729668086c5c767c4dd61d6e98b5799c94"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-09-body.png",
+      "source": "output/c-weapons-v8/hammer-09-body.png",
+      "sha256": "b4c1a7d792c4e141ec6cf63b1b3d85b43afe884c80797641ed7d49cbbbdf0caf"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-08-body.png",
+      "source": "output/c-weapons-v8/hammer-08-body.png",
+      "sha256": "792a50b25510eb6c1cc2d66a35c618754b6e11a2dcf348dc4ce4c7a3615e32c5"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-02-weapon.png",
+      "source": "output/c-weapons-v8/greatsword-02-weapon.png",
+      "sha256": "27a10371f64117cbeeab608b8315d4ffccc370a472f15bd5300468b2d9b33a4f"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shield-00-weapon.png",
+      "source": "output/c-weapons-v8/shield-00-weapon.png",
+      "sha256": "798f42bc64efe1459254bf7b928bee96e514caa0e3133b9a10be785d2f4ca45e"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-03-trail.png",
+      "source": "output/c-weapons-v8/greatsword-03-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-05-weapon.png",
+      "source": "output/c-weapons-v8/shuriken-05-weapon.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-02-body.png",
+      "source": "output/c-weapons-v8/shuriken-02-body.png",
+      "sha256": "3ff00aa6197b08e2aefea2850a7cf82494839446fd214651a1a1867217202059"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-03-body.png",
+      "source": "output/c-weapons-v8/shuriken-03-body.png",
+      "sha256": "f2201cd72f067fb9e30349a0b838a692c70b9e45810cb4c2b7fa08366cd2d064"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-11-weapon.png",
+      "source": "output/c-weapons-v8/hammer-11-weapon.png",
+      "sha256": "c8ad1335a80b500c629856a2ef6ed380fa32ec98b1fcbf08adbf2e3953eb0221"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-03-body.png",
+      "source": "output/c-weapons-v8/hammer-03-body.png",
+      "sha256": "b4c1a7d792c4e141ec6cf63b1b3d85b43afe884c80797641ed7d49cbbbdf0caf"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-02-body.png",
+      "source": "output/c-weapons-v8/hammer-02-body.png",
+      "sha256": "792a50b25510eb6c1cc2d66a35c618754b6e11a2dcf348dc4ce4c7a3615e32c5"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-07-body.png",
+      "source": "output/c-weapons-v8/launcher-07-body.png",
+      "sha256": "a1377b20a3fa44373bddb57b2017ea7c2e951bdc62f6aee74bba40416c794095"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-08.png",
+      "source": "output/c-weapons-v8/launcher-08.png",
+      "sha256": "5d997b179bc5a4f68ea494fa7c595d6ca672a9a773be9c5e6509cb9806b1d654"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-06-body.png",
+      "source": "output/c-weapons-v8/launcher-06-body.png",
+      "sha256": "a1377b20a3fa44373bddb57b2017ea7c2e951bdc62f6aee74bba40416c794095"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/bomb-05-weapon.png",
+      "source": "output/c-weapons-v8/bomb-05-weapon.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-00-weapon.png",
+      "source": "output/c-weapons-v8/hammer-00-weapon.png",
+      "sha256": "b4074dafaa69fd1675a62e9cdccf6de6c3190fec321ac8f8fc01efd57d3ec3f4"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer.aseprite",
+      "source": "output/c-weapons-v8/hammer.aseprite",
+      "sha256": "9ee654376da6dfeb7aad2d732f6dca462c4d015b18743543eb1e6387ddc96e8e"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-05-body.png",
+      "source": "output/c-weapons-v8/greatsword-05-body.png",
+      "sha256": "32d4078dc5976de68bad626c46e74ad1906450a6adae8fa2b6b04e9d1ac19d1f"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-04-body.png",
+      "source": "output/c-weapons-v8/greatsword-04-body.png",
+      "sha256": "ef7182d3c5781704f7c6b6417f7969408c225b4d1a9ba7b9702321f8bc2d0dac"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/greatsword-13-weapon.png",
+      "source": "output/c-weapons-v8/greatsword-13-weapon.png",
+      "sha256": "d801c3ac801e751f48bed10ffe7225792a5f68e09b79b684f876aff85ea1f903"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/hammer-02-trail.png",
+      "source": "output/c-weapons-v8/hammer-02-trail.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-08-body.png",
+      "source": "output/c-weapons-v8/shuriken-08-body.png",
+      "sha256": "9d1aa815093551f609567d5ab24376cc978eeaae2dac09a75b593ebb1b736b6b"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-09-body.png",
+      "source": "output/c-weapons-v8/shuriken-09-body.png",
+      "sha256": "3ff00aa6197b08e2aefea2850a7cf82494839446fd214651a1a1867217202059"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-08-weapon.png",
+      "source": "output/c-weapons-v8/shuriken-08-weapon.png",
+      "sha256": "9fb61fa2c2c39674450503842b0b34de31eabbc236b8ad54f564131d831383d0"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/shuriken-01-trail.png",
+      "source": "output/c-weapons-v8/shuriken-01-trail.png",
+      "sha256": "4bf836457c2a57fd1caa97da96079e0f623423ef92ab799d2783047fda402501"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/launcher-09.png",
+      "source": "output/c-weapons-v8/launcher-09.png",
+      "sha256": "8d00a376b91ea046a0c2ef54b8ec20c973b60cb77f89615804a1441dc6c32453"
+    },
+    {
+      "file": "ink-hero-c/weapon-studies/additional-weapons-scope.json",
+      "source": "output/c-weapons-v8/scope.json",
+      "sha256": "a1e4fbe28f390fef5a253acc551785e4f342418e341fd11fe142b1e503bfe0ac"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/content.json",
+      "source": "output/c-sword-combat-v9/content.json",
+      "sha256": "dae17ba4ea0be2db1aff2fa8069cda2707e4f37ff2c54272bb5d4f462b3a1d8c"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/preview-basic.png",
+      "source": "output/c-sword-combat-v9/preview-basic.png",
+      "sha256": "5b8ec35a9cab98bafad5641a4f02c70c6952f56e14d200918f82808c3b8c7c1a"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/index.html",
+      "source": "output/c-sword-combat-v9/index.html",
+      "sha256": "fb5f1755d10a0c5de31de5900c13d665a6e7ce658139a32a926816bfd83b0ca5"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/preview-idle.png",
+      "source": "output/c-sword-combat-v9/preview-idle.png",
+      "sha256": "61b9154d8cc27e25abe7f742c80ac431967a5f033cd8c6b5b82865a830f3481d"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/fx.js",
+      "source": "output/c-sword-combat-v9/fx.js",
+      "sha256": "0b46a054483fdbbcf57e28722c4eba2ba07a69fdab18e41065d4fb47dbf8e2a5"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/preview-special.png",
+      "source": "output/c-sword-combat-v9/preview-special.png",
+      "sha256": "1cdca7f8443ddcb1a6523ae125afe7bef7c430ff368c60f19014dff985ca4cab"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/README.txt",
+      "source": "output/c-sword-combat-v9/README.txt",
+      "sha256": "1da8d61c8fa8228b7d4d723abfdd9d8111fd7eb0de02199eedffca88125c43c9"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/engine.js",
+      "source": "output/c-sword-combat-v9/engine.js",
+      "sha256": "a8a06a59797e04bd7b09f190c82b7846894a402859f115912762709bed513ae8"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/preview-motion.gif",
+      "source": "output/c-sword-combat-v9/preview-motion.gif",
+      "sha256": "87789d142be73a34d8f36f6b5dc3cb6f00b15908c3b80512defe70c1e141b866"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/content.js",
+      "source": "output/c-sword-combat-v9/content.js",
+      "sha256": "e81c9f509dbe30f78f905ad16dcde3e2ec0b853a2dd9095ee042dd5c1f2b8a20"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/app.js",
+      "source": "output/c-sword-combat-v9/app.js",
+      "sha256": "aa5522d222eb674f682ea1b7db90d75de0b71f7c00ffa7c657954def38331648"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/player-idle-06.png",
+      "source": "output/c-sword-combat-v9/assets/player-idle-06.png",
+      "sha256": "cc5e9e9c95399b589d5d9d7c00a590fb8761811258b2034fa1536f1ca8ef0de6"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/player-attack-04.png",
+      "source": "output/c-sword-combat-v9/assets/player-attack-04.png",
+      "sha256": "c2fab6a7e2296f6c2ba6d026f8644f3066a961bff15f1d1d26d277a602f9319b"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/player-attack-05.png",
+      "source": "output/c-sword-combat-v9/assets/player-attack-05.png",
+      "sha256": "0311ebe01b01a483ef2b0f7be6ecd432d707d7cff4f58de056915a0db561fd5c"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/player-idle-07.png",
+      "source": "output/c-sword-combat-v9/assets/player-idle-07.png",
+      "sha256": "f341b5639ca7672fe499164723d678f1723d35fc25e475f65312060d8ba248ca"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/player-idle-05.png",
+      "source": "output/c-sword-combat-v9/assets/player-idle-05.png",
+      "sha256": "976b4d11f5340895ffba251bade7fe208882f897128bef0e2730ffd1f45a824b"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/player-idle-04.png",
+      "source": "output/c-sword-combat-v9/assets/player-idle-04.png",
+      "sha256": "78695f4c52d23e143d735ac0f05ec6a6557c437dbf10966f32e83597d36d6d8c"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/player-idle-00.png",
+      "source": "output/c-sword-combat-v9/assets/player-idle-00.png",
+      "sha256": "cc5e9e9c95399b589d5d9d7c00a590fb8761811258b2034fa1536f1ca8ef0de6"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/player-attack-02.png",
+      "source": "output/c-sword-combat-v9/assets/player-attack-02.png",
+      "sha256": "b7f107ad89172c4bb110ecafb2d3c682e94b4db1786f9d325dc329b08b68f672"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/player-attack-03.png",
+      "source": "output/c-sword-combat-v9/assets/player-attack-03.png",
+      "sha256": "b4bdd617786257ff348bc597b92fc340f36cee5266df3ab4da8a7fd4fdff4e76"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/player-idle-01.png",
+      "source": "output/c-sword-combat-v9/assets/player-idle-01.png",
+      "sha256": "ad2c4f052bf25e680ac0ff4b7b0e33e19a3b93aa78d99c98128e35c242e7d8ba"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/player-idle-03.png",
+      "source": "output/c-sword-combat-v9/assets/player-idle-03.png",
+      "sha256": "78695f4c52d23e143d735ac0f05ec6a6557c437dbf10966f32e83597d36d6d8c"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/monster-death-09.png",
+      "source": "output/c-sword-combat-v9/assets/monster-death-09.png",
+      "sha256": "61d4739e31214c371cba8d7f77274dff3b7b3b6c2a09fdb28885673a9e2a86ac"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/player-attack-01.png",
+      "source": "output/c-sword-combat-v9/assets/player-attack-01.png",
+      "sha256": "d6bec1324bbb49dd0b9193c8ca49755f0650966256b2e73fa65edeebd7659912"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/player-attack-00.png",
+      "source": "output/c-sword-combat-v9/assets/player-attack-00.png",
+      "sha256": "b9e3a9527f61ec05940b0846a02a73495848ac3a79bee880f7faeb0b09392cd5"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/monster-death-08.png",
+      "source": "output/c-sword-combat-v9/assets/monster-death-08.png",
+      "sha256": "550da8c9c2c29c99ecc6a4359d5921441ff3485124a399801b06dca8efb4936b"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/player-idle-02.png",
+      "source": "output/c-sword-combat-v9/assets/player-idle-02.png",
+      "sha256": "eccdbb04f77fa9572046f627c747105f3a1d2ca9ce88bcc12118e7f8fb1d7be5"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/monster-idle-07.png",
+      "source": "output/c-sword-combat-v9/assets/monster-idle-07.png",
+      "sha256": "ea6d7fc92052d7d954aec42c46293c019fe39839327fcf4764305160f53fc0ba"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/special-swing.wav",
+      "source": "output/c-sword-combat-v9/assets/special-swing.wav",
+      "sha256": "08e5bea7e25d67bba40147db25ab74a43f9cbe294fc17876276c5c24b2d882b4"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/monster-idle-06.png",
+      "source": "output/c-sword-combat-v9/assets/monster-idle-06.png",
+      "sha256": "108235c6aa144c245dc48a60a2194069079e6ac3a7e2fc8d57a82c4af209ac49"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/monster-idle-04.png",
+      "source": "output/c-sword-combat-v9/assets/monster-idle-04.png",
+      "sha256": "7d326787218e686315d8cc6e802d9f9a945c20fe6b370d50ca0b040af9eb6055"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/monster-idle-10.png",
+      "source": "output/c-sword-combat-v9/assets/monster-idle-10.png",
+      "sha256": "117da0e8e93b4818e976b4be3a1b2a1a780aa66e051ee2a15927052f256ac2eb"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/monster-idle-11.png",
+      "source": "output/c-sword-combat-v9/assets/monster-idle-11.png",
+      "sha256": "eec53f84b102d45cb520c37c82f8639c38d20b9d89a3d774eb15868f590819c6"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/monster-idle-05.png",
+      "source": "output/c-sword-combat-v9/assets/monster-idle-05.png",
+      "sha256": "57c8829fa580dcb6d6bb0ec62bde715547e92d0f9c0a2d63db50042289180304"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/monster-idle-01.png",
+      "source": "output/c-sword-combat-v9/assets/monster-idle-01.png",
+      "sha256": "2006b6859e5bb51c9ac63ad8eb1022d33e7b83b1a611f6d06de9fc695ba904a5"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/monster-idle-00.png",
+      "source": "output/c-sword-combat-v9/assets/monster-idle-00.png",
+      "sha256": "82436c26e1022c41c81eb576c4862ca980bfa6981a0087539581b24fc032aa41"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/monster-idle-02.png",
+      "source": "output/c-sword-combat-v9/assets/monster-idle-02.png",
+      "sha256": "2d258e8c518a21cd84af37bcbf3a9d4ab63c2737e839874ccfcfdaaf28985199"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/monster-idle-03.png",
+      "source": "output/c-sword-combat-v9/assets/monster-idle-03.png",
+      "sha256": "e2ef4f46a7df345aa6be1dfeb6a9dab09286799185942c756e2c2cd27045dfd6"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/monster-preview.png",
+      "source": "output/c-sword-combat-v9/assets/monster-preview.png",
+      "sha256": "82436c26e1022c41c81eb576c4862ca980bfa6981a0087539581b24fc032aa41"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/monster-idle-08.png",
+      "source": "output/c-sword-combat-v9/assets/monster-idle-08.png",
+      "sha256": "dba6fa0a3a7ee39222cb7f24285d6683ab71e47f4fe008f6f3f90849ad0ed283"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/monster-hit-00.png",
+      "source": "output/c-sword-combat-v9/assets/monster-hit-00.png",
+      "sha256": "f9d733038ad1719609a5c60c13be990557904cd2f1ab03de68ffeaf4aa36feb8"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/ink-hit.wav",
+      "source": "output/c-sword-combat-v9/assets/ink-hit.wav",
+      "sha256": "8e6dc87b0e874ee4e01a738642a000333607a7268e94c792fa970dab4b49ccaa"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/monster-idle-09.png",
+      "source": "output/c-sword-combat-v9/assets/monster-idle-09.png",
+      "sha256": "a7961c2b2f5977dcafbf670c04e917e0eca4e6a40b5e31f52b4357cefc8c9ae9"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/monster-death-05.png",
+      "source": "output/c-sword-combat-v9/assets/monster-death-05.png",
+      "sha256": "09c08e16b7c3d2814377108bea6db9392a0cc49198055893d8455ce234918fbd"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/monster-death-11.png",
+      "source": "output/c-sword-combat-v9/assets/monster-death-11.png",
+      "sha256": "f3b76334523c481ea74e8e938cb76b64fac4064de749621c2f1b95d0af659bca"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/player-run-05.png",
+      "source": "output/c-sword-combat-v9/assets/player-run-05.png",
+      "sha256": "802a008c4ddd4ea9a8440b6e40a463e084e646b9e9365252dc565cfaeedbba27"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/player-run-04.png",
+      "source": "output/c-sword-combat-v9/assets/player-run-04.png",
+      "sha256": "74ee1921a1b4e96fc0f09fb2cf5de8dd8f531b1bf79449bf4f118815544d41d7"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/monster-death-10.png",
+      "source": "output/c-sword-combat-v9/assets/monster-death-10.png",
+      "sha256": "59e837fedbe16758308e63884e0555eadc76a31fa1ca1de13ebf4be00ad80a33"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/monster-death-04.png",
+      "source": "output/c-sword-combat-v9/assets/monster-death-04.png",
+      "sha256": "bbddff17e7386cb56030d9e1c992a7c95286a8244899d76b85ddcb9ed266b827"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/monster-death-12.png",
+      "source": "output/c-sword-combat-v9/assets/monster-death-12.png",
+      "sha256": "9d0c41d5da88cd155aa5dd8d3145af6478d3c6ed11a572158e86bee805e86e77"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/monster-death-06.png",
+      "source": "output/c-sword-combat-v9/assets/monster-death-06.png",
+      "sha256": "7e7051a425eac4b56c8acb7bb8f1bcffee80b7d401ab6f7bb445284938b1c1b3"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/player-run-06.png",
+      "source": "output/c-sword-combat-v9/assets/player-run-06.png",
+      "sha256": "05f6e9a6e4ff25ee23e29f3442f2a1d89c8ce7cbc589d3a781d4bb0b7cc9be47"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/player-run-07.png",
+      "source": "output/c-sword-combat-v9/assets/player-run-07.png",
+      "sha256": "b873e8d8311f0f4896b762f5d27c30d5dc3390a39398c7c1dd9de0f6a3b296e8"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/basic-swing.wav",
+      "source": "output/c-sword-combat-v9/assets/basic-swing.wav",
+      "sha256": "664846f3dfcfc02f004ca6e4ace0685de74d097e81ce4f8c003af51936687da2"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/monster-death-07.png",
+      "source": "output/c-sword-combat-v9/assets/monster-death-07.png",
+      "sha256": "2d7271997dba1ee1ff30e5b1c9539f24a184fe7b2d0ea3a632933a7c32fa4c8e"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/monster-death-13.png",
+      "source": "output/c-sword-combat-v9/assets/monster-death-13.png",
+      "sha256": "1594258d650464372a84556d099c6f0fad9551bbf0efe58e7403336fee183eee"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/player-idle-09.png",
+      "source": "output/c-sword-combat-v9/assets/player-idle-09.png",
+      "sha256": "f341b5639ca7672fe499164723d678f1723d35fc25e475f65312060d8ba248ca"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/monster-death-03.png",
+      "source": "output/c-sword-combat-v9/assets/monster-death-03.png",
+      "sha256": "72eb94b70de8cf3860c9b1448f9ab5b908ea94fffa0093601ea1ed27afb43cfd"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/player-run-03.png",
+      "source": "output/c-sword-combat-v9/assets/player-run-03.png",
+      "sha256": "06f6e18cd2349dec888560a3a00a38babbcc6cc779f950c7038df90bc5f5d337"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/player-run-02.png",
+      "source": "output/c-sword-combat-v9/assets/player-run-02.png",
+      "sha256": "dba59d854fcee92fd4426ac8fdfe66eedcc589c6e32eafcce303d1ac6128ce6d"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/monster-death-02.png",
+      "source": "output/c-sword-combat-v9/assets/monster-death-02.png",
+      "sha256": "0fe366007c3e605920d26c3ff678bf711f825afda33027c65e57b3eb80e0bf44"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/player-idle-08.png",
+      "source": "output/c-sword-combat-v9/assets/player-idle-08.png",
+      "sha256": "f341b5639ca7672fe499164723d678f1723d35fc25e475f65312060d8ba248ca"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/monster-death-00.png",
+      "source": "output/c-sword-combat-v9/assets/monster-death-00.png",
+      "sha256": "82436c26e1022c41c81eb576c4862ca980bfa6981a0087539581b24fc032aa41"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/player-run-00.png",
+      "source": "output/c-sword-combat-v9/assets/player-run-00.png",
+      "sha256": "3ccb1cec01fd7c94195c89364bb440e67315310766d13570d042895cdc0e44ff"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/player-run-01.png",
+      "source": "output/c-sword-combat-v9/assets/player-run-01.png",
+      "sha256": "ad2eaa6c84a5bced63cdf991ebbfa52265f26c3d31366938e3a13620b27d2d51"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/monster-death-01.png",
+      "source": "output/c-sword-combat-v9/assets/monster-death-01.png",
+      "sha256": "82436c26e1022c41c81eb576c4862ca980bfa6981a0087539581b24fc032aa41"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/strong-impact-08.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/strong-impact-08.png",
+      "sha256": "38580dba1329d0fcd93a5281d1c66e19865da37ab875799bbbe6c3db5ced5490"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/strong-impact-09.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/strong-impact-09.png",
+      "sha256": "679d946b64ce0552af630e5e2ef23110a710ee7b8e2edc3d435cd8cd4d928c0d"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/basic-slash-01.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/basic-slash-01.png",
+      "sha256": "42ec8d1c0b047106d586ef83d9906f850981da50b62a40ca16b1cb1ce9fc6bdc"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/strong-stain-05.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/strong-stain-05.png",
+      "sha256": "065f36f7cd03af67d625c4e135093aefbc990259192f4bff7730b9ce2ee59216"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/strong-stain-11.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/strong-stain-11.png",
+      "sha256": "7aa7f6517d0d5db21fe790cbaaf8505d26a0ca7b0230dafd88bde62bbcf9ac99"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/strong-stain-10.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/strong-stain-10.png",
+      "sha256": "1affb66bdfac36b9ded2c5ce572ddf201791bb127afd01133652d2f5f161feb8"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/strong-stain-04.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/strong-stain-04.png",
+      "sha256": "065f36f7cd03af67d625c4e135093aefbc990259192f4bff7730b9ce2ee59216"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/basic-slash-00.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/basic-slash-00.png",
+      "sha256": "e7c11f25ff91fcabdb929b94dd5e9e5866f979693da07b856363c6f52981e8cf"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/basic-slash-02.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/basic-slash-02.png",
+      "sha256": "0533a1475a277494a0fbe2640be9280ac5c2a83e375f195e9e6918616de5a6bc"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/strong-stain-06.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/strong-stain-06.png",
+      "sha256": "065f36f7cd03af67d625c4e135093aefbc990259192f4bff7730b9ce2ee59216"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/basic-impact-08.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/basic-impact-08.png",
+      "sha256": "8c688e6c045207d8ef8d37985678ea019b3bd6dea4b1e69e4dbcbf6af9c7fc20"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/basic-impact-09.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/basic-impact-09.png",
+      "sha256": "945037dc133bfdb40128595f51baccb01cf29dbbcd20e153e0717c35828261d9"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/strong-stain-07.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/strong-stain-07.png",
+      "sha256": "065f36f7cd03af67d625c4e135093aefbc990259192f4bff7730b9ce2ee59216"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/basic-slash-03.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/basic-slash-03.png",
+      "sha256": "13cf9d24ab84b030fb35612c6c5a1cf1a58688582a76e554bd265b22f2503f76"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/basic-slash-07.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/basic-slash-07.png",
+      "sha256": "59c5d70a849a5b68d75f03c0373833658beeacf6a094bfce7abf3d2e3d6c16b5"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/strong-stain-03.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/strong-stain-03.png",
+      "sha256": "065f36f7cd03af67d625c4e135093aefbc990259192f4bff7730b9ce2ee59216"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/strong-stain-02.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/strong-stain-02.png",
+      "sha256": "065f36f7cd03af67d625c4e135093aefbc990259192f4bff7730b9ce2ee59216"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/basic-slash-06.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/basic-slash-06.png",
+      "sha256": "65735088ccdd7e11b20cb73385c595a13ef1698cb4e01f2ca6d42d6cb2b30363"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/basic-slash-04.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/basic-slash-04.png",
+      "sha256": "8f92a297e5c111a57bfce2d72b5fc45408ffc42753eb56133ec2d5f6b9206d89"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/basic-stain-09.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/basic-stain-09.png",
+      "sha256": "bc2f05f628c6558f62a0e6cf4151a511ef88921ed6578073e12de50fee5a06be"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/strong-stain-00.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/strong-stain-00.png",
+      "sha256": "7c6d8ac605a2dd263effd7643886e396da1e7fa1e59e1d08ac9fb002ed579b9f"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/strong-stain-01.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/strong-stain-01.png",
+      "sha256": "065f36f7cd03af67d625c4e135093aefbc990259192f4bff7730b9ce2ee59216"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/basic-stain-08.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/basic-stain-08.png",
+      "sha256": "265577dea14e285f86646746378ad615edd6937fdb5da62a593341b83065d6ed"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/basic-slash-05.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/basic-slash-05.png",
+      "sha256": "0c23dccbbb20b6815dcef9e554face3f45a85f9c4ef47c46feb43273ef18f277"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/basic-stain-11.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/basic-stain-11.png",
+      "sha256": "4a044f891cf3bb02815ad814936b07d3598bdaef40f1842ad218699932d684da"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/basic-stain-05.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/basic-stain-05.png",
+      "sha256": "c9525998d1dba6549d46e308f3add6d73a13f3712427b33e3e0c4fe52b725454"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/strong-slash-01.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/strong-slash-01.png",
+      "sha256": "9985a2a1aec68b94753349774c0849081c14cbf75bc83ed830489a199f107c05"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/basic-impact-02.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/basic-impact-02.png",
+      "sha256": "4297a81063db75ce76ccf10e37b1925988091423496b453fea7467ad40ffa5ec"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/basic-impact-03.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/basic-impact-03.png",
+      "sha256": "7a13d60369fc22f79b72445b9dc546b4807cb0eb9360c2566804a021f26a4f6e"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/strong-slash-00.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/strong-slash-00.png",
+      "sha256": "6cd4065e1bd324514adaa8691b336506991ec52399849c8637a7e29a205e0be9"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/basic-stain-04.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/basic-stain-04.png",
+      "sha256": "c9525998d1dba6549d46e308f3add6d73a13f3712427b33e3e0c4fe52b725454"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/basic-stain-10.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/basic-stain-10.png",
+      "sha256": "62315f931520756440f417def149f695dfa8516e046613ca7def616bcb72f6f1"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/basic-stain-06.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/basic-stain-06.png",
+      "sha256": "c9525998d1dba6549d46e308f3add6d73a13f3712427b33e3e0c4fe52b725454"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/strong-slash-02.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/strong-slash-02.png",
+      "sha256": "1d69b83aeee2cfb9e599e97989aff0435554c091555dc07dda4f26977c067595"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/basic-impact-01.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/basic-impact-01.png",
+      "sha256": "eec64d5cb79b91d62efcf9c94b2403d01209065a726582b3179263da7fb36536"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/basic-impact-00.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/basic-impact-00.png",
+      "sha256": "5e4db53c9af0e68b09b92984b672395ebfab74dfcb7a5edc95faf9660120e1ec"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/strong-slash-03.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/strong-slash-03.png",
+      "sha256": "240ef504f1e2eef1ab1d7eaac7a98dc5b8c43b29900105f5865ceef795b3e8ff"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/basic-stain-07.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/basic-stain-07.png",
+      "sha256": "c9525998d1dba6549d46e308f3add6d73a13f3712427b33e3e0c4fe52b725454"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/basic-stain-03.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/basic-stain-03.png",
+      "sha256": "c9525998d1dba6549d46e308f3add6d73a13f3712427b33e3e0c4fe52b725454"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/strong-slash-07.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/strong-slash-07.png",
+      "sha256": "a2c5093ea88adc84af62e6a2c212200692ef8c610c152e5b5b6634cadfbb25b9"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/basic-impact-10.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/basic-impact-10.png",
+      "sha256": "b976bb0d3a8508ba8926284fd407f6ed88a707544ab555055f726e7c1b8c12ee"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/basic-impact-04.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/basic-impact-04.png",
+      "sha256": "5211844285d9b225b5c4d995cccbdebb5f383bd9fb3a1603da0d7200cb59a13b"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/basic-impact-05.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/basic-impact-05.png",
+      "sha256": "dc5262c8f7a4322dbf3b50e75df315edfc0a825c38fa07518e39c7a1b617ef02"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/basic-impact-11.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/basic-impact-11.png",
+      "sha256": "df6841a6ec45074a4a8f8769a8294b399b404d675a45aade15b57adafb20e1fb"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/strong-slash-06.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/strong-slash-06.png",
+      "sha256": "395a78d0380b9dd97cd65df7af18ffaabfd6c1261bc736eddc6f03e4d222a9d6"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/basic-stain-02.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/basic-stain-02.png",
+      "sha256": "c9525998d1dba6549d46e308f3add6d73a13f3712427b33e3e0c4fe52b725454"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/manifest.json",
+      "source": "output/c-sword-combat-v9/assets/fx-export/manifest.json",
+      "sha256": "94966e86c7fdab7a1ac503d4a15227ffe12d449f6c93105f81c20bb2b239acbf"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/basic-stain-00.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/basic-stain-00.png",
+      "sha256": "b63f673d2a6a45d600851cdddc45332393793ae395ae680242b0b2442ba6031e"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/strong-slash-04.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/strong-slash-04.png",
+      "sha256": "a6f7a8e8843afda8f5bafa5b054e5b9fd53b77787b19fa7752e6a0c52c5e2f1a"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/strong-stain-09.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/strong-stain-09.png",
+      "sha256": "4182bcac47be4024f0756d78633088b32f5609023d416c472494e5acc1d0c23b"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/basic-impact-07.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/basic-impact-07.png",
+      "sha256": "bc7c2cfc4f47a6cffd075a20c9d2b9feae3d97eb8b8f85fa429ffd53affad14d"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/basic-impact-06.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/basic-impact-06.png",
+      "sha256": "20d4f0ef0ece0daf51f9a0f25af2628bfef0ef3be939f8334dc75c3e26c76f78"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/strong-stain-08.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/strong-stain-08.png",
+      "sha256": "6221537ca9814881e335cf246f9831442ef8d9f9e087374508520f37e1603ca3"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/strong-slash-05.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/strong-slash-05.png",
+      "sha256": "1c1702621fa9fb562f1b8c9df9d7af4e8409b64cd4bf2cd287687524c2862327"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/basic-stain-01.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/basic-stain-01.png",
+      "sha256": "c9525998d1dba6549d46e308f3add6d73a13f3712427b33e3e0c4fe52b725454"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/strong-impact-02.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/strong-impact-02.png",
+      "sha256": "672020f95e228042e5c9fbb40bab1fe61d762d072e872e716506570c0dc2e45a"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/strong-impact-03.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/strong-impact-03.png",
+      "sha256": "c1f0c8b763cf80529f535daa6a8a084383f844cdb19dc5014db89c5aa3cbf847"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/strong-impact-01.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/strong-impact-01.png",
+      "sha256": "fa5888e87f918adcef639d0d7d8dd632c8827cd5c848f4febddf85616e20133c"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/strong-impact-00.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/strong-impact-00.png",
+      "sha256": "b3ee912cd1987e11b48b957a219f6da2f865b6f785dc2d0caf3169abfa536096"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/strong-impact-04.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/strong-impact-04.png",
+      "sha256": "b6c5edc3f671c72891cd0660681420f596ddf742b3b4ac4ca086f5f7098c3802"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/strong-impact-10.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/strong-impact-10.png",
+      "sha256": "a17b1463fae5c0af0de5f1e784da1322c4c22830910e29b063fc568450a9741b"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/strong-impact-11.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/strong-impact-11.png",
+      "sha256": "2355cfdb319df16e6a2e29557ac84d091fd430c25fa58abfef3a70e7de6700d9"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/strong-impact-05.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/strong-impact-05.png",
+      "sha256": "e61ca913f27b8358e1c20c3952fde8a4e5092921fb44799c8f279683f104037e"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/strong-impact-07.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/strong-impact-07.png",
+      "sha256": "a5c8431c65562b75b9c950a2d3dc670a6dd0a370dbfccda9c35f238b2280c028"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/assets/fx-export/strong-impact-06.png",
+      "source": "output/c-sword-combat-v9/assets/fx-export/strong-impact-06.png",
+      "sha256": "93c121313220bdd8d33c644693d69996abe604118baa7e1b12b8319908b51963"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/test.cjs",
+      "source": "output/c-sword-combat-v9/test.cjs",
+      "sha256": "1096bff966867fd50294db4b8d6af537261865b40252af97651d235fe247b2b3"
+    },
+    {
+      "file": "ink-hero-c/sword-combat/source/provenance.json",
+      "source": "output/c-sword-combat-v9/source/provenance.json",
+      "sha256": "6c43ef1df45548e14629eac42f9cba8f097934ee8b86a7fd3598a85e1aff6c4b"
+    },
+    {
+      "file": "ink-hero-c/concept-art/A-C-pixel-concept.png",
+      "source": "output/ink-cloth-motion-v1/pixel-design-reference.png",
+      "sha256": "6637cd82124c9c1d13f8ef61ecf77452dc8fd2a4599790d98232169105e34044"
+    },
+    {
+      "file": "ink-hero-c/concept-art/exploration-slime.png",
+      "source": "output/ink-slime/pixel-concept-sheet.png",
+      "sha256": "ba762e605902574a2254b06f75baae25dcf00c1338113fcaef7cebed36834ce5"
+    },
+    {
+      "file": "ink-hero-c/concept-art/exploration-slime-sword.png",
+      "source": "output/ink-slime/sword-v2/pixel-concept-sheet.png",
+      "sha256": "969ec3256e5eb5107434920275e81d94737861817448446ce0c8b2626ef0e17a"
+    },
+    {
+      "file": "ink-hero-c/concept-art/exploration-body-blade.png",
+      "source": "output/ink-slime/body-blade-v3/pixel-concept-sheet.png",
+      "sha256": "b2af1d1e3498af9496dba0168fcc9ea1b8a01c32e11ceea0ae8585667c5ee388"
+    },
+    {
+      "file": "ink-hero-c/concept-art/exploration-smear.png",
+      "source": "output/ink-slime/smear-v4/pixel-concept-sheet.png",
+      "sha256": "11795f2d7c8e74e631d9c621d357c088396d7ed05d9597025d523744d64708b2"
+    },
+    {
+      "file": "ink-hero-c/concept-art/exploration-investigator.png",
+      "source": "output/investigator-whip-v1/character-concept.png",
+      "sha256": "b9895a5976885566a47380cfcf3eff09f981171e02a13a900cc03e89d499207e"
+    },
+    {
+      "file": "ink-hero-c/concept-art/palette-reference.png",
+      "source": "user-supplied palette reference",
+      "sha256": "32a26774d51a7b9a19872e860e8b4d666d7e2de5ead74749a5c74d37ec32a004"
+    }
+  ]
+}

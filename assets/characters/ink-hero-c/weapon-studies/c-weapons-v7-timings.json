@@ -1,0 +1,553 @@
+{
+  "base_sword": {
+    "name": "SWORD",
+    "duration_ms": 1000,
+    "frames": [
+      {
+        "source": "Sword Attack",
+        "source_frame": 0,
+        "strike": 1,
+        "duration_ms": 67,
+        "start_ms": 0,
+        "hit_event": false,
+        "grip_source_xy": [
+          23,
+          26
+        ],
+        "file": "base_sword-00.png",
+        "body": "base_sword-00-body.png",
+        "weapon": "base_sword-00-weapon.png",
+        "trail": "base_sword-00-trail.png"
+      },
+      {
+        "source": "Sword Attack",
+        "source_frame": 1,
+        "strike": 1,
+        "duration_ms": 67,
+        "start_ms": 67,
+        "hit_event": false,
+        "grip_source_xy": [
+          31,
+          17
+        ],
+        "file": "base_sword-01.png",
+        "body": "base_sword-01-body.png",
+        "weapon": "base_sword-01-weapon.png",
+        "trail": "base_sword-01-trail.png"
+      },
+      {
+        "source": "Sword Attack",
+        "source_frame": 2,
+        "strike": 1,
+        "duration_ms": 66,
+        "start_ms": 134,
+        "hit_event": false,
+        "grip_source_xy": [
+          42,
+          21
+        ],
+        "file": "base_sword-02.png",
+        "body": "base_sword-02-body.png",
+        "weapon": "base_sword-02-weapon.png",
+        "trail": "base_sword-02-trail.png"
+      },
+      {
+        "source": "Sword Attack",
+        "source_frame": 3,
+        "strike": 1,
+        "duration_ms": 67,
+        "start_ms": 200,
+        "hit_event": true,
+        "grip_source_xy": [
+          46,
+          38
+        ],
+        "file": "base_sword-03.png",
+        "body": "base_sword-03-body.png",
+        "weapon": "base_sword-03-weapon.png",
+        "trail": "base_sword-03-trail.png"
+      },
+      {
+        "source": "Sword Attack",
+        "source_frame": 4,
+        "strike": 1,
+        "duration_ms": 67,
+        "start_ms": 267,
+        "hit_event": false,
+        "grip_source_xy": [
+          43,
+          45
+        ],
+        "file": "base_sword-04.png",
+        "body": "base_sword-04-body.png",
+        "weapon": "base_sword-04-weapon.png",
+        "trail": "base_sword-04-trail.png"
+      },
+      {
+        "source": "Sword Attack",
+        "source_frame": 5,
+        "strike": 1,
+        "duration_ms": 66,
+        "start_ms": 334,
+        "hit_event": false,
+        "grip_source_xy": [
+          32,
+          39
+        ],
+        "file": "base_sword-05.png",
+        "body": "base_sword-05-body.png",
+        "weapon": "base_sword-05-weapon.png",
+        "trail": "base_sword-05-trail.png"
+      },
+      {
+        "source": "Sword Attack",
+        "source_frame": 0,
+        "strike": 2,
+        "duration_ms": 67,
+        "start_ms": 400,
+        "hit_event": false,
+        "grip_source_xy": [
+          23,
+          26
+        ],
+        "file": "base_sword-06.png",
+        "body": "base_sword-06-body.png",
+        "weapon": "base_sword-06-weapon.png",
+        "trail": "base_sword-06-trail.png"
+      },
+      {
+        "source": "Sword Attack",
+        "source_frame": 1,
+        "strike": 2,
+        "duration_ms": 67,
+        "start_ms": 467,
+        "hit_event": false,
+        "grip_source_xy": [
+          31,
+          17
+        ],
+        "file": "base_sword-07.png",
+        "body": "base_sword-07-body.png",
+        "weapon": "base_sword-07-weapon.png",
+        "trail": "base_sword-07-trail.png"
+      },
+      {
+        "source": "Sword Attack",
+        "source_frame": 2,
+        "strike": 2,
+        "duration_ms": 66,
+        "start_ms": 534,
+        "hit_event": false,
+        "grip_source_xy": [
+          42,
+          21
+        ],
+        "file": "base_sword-08.png",
+        "body": "base_sword-08-body.png",
+        "weapon": "base_sword-08-weapon.png",
+        "trail": "base_sword-08-trail.png"
+      },
+      {
+        "source": "Sword Attack",
+        "source_frame": 3,
+        "strike": 2,
+        "duration_ms": 134,
+        "start_ms": 600,
+        "hit_event": true,
+        "grip_source_xy": [
+          46,
+          38
+        ],
+        "file": "base_sword-09.png",
+        "body": "base_sword-09-body.png",
+        "weapon": "base_sword-09-weapon.png",
+        "trail": "base_sword-09-trail.png"
+      },
+      {
+        "source": "Sword Attack",
+        "source_frame": 4,
+        "strike": 2,
+        "duration_ms": 133,
+        "start_ms": 734,
+        "hit_event": false,
+        "grip_source_xy": [
+          43,
+          45
+        ],
+        "file": "base_sword-10.png",
+        "body": "base_sword-10-body.png",
+        "weapon": "base_sword-10-weapon.png",
+        "trail": "base_sword-10-trail.png"
+      },
+      {
+        "source": "Sword Attack",
+        "source_frame": 5,
+        "strike": 2,
+        "duration_ms": 133,
+        "start_ms": 867,
+        "hit_event": false,
+        "grip_source_xy": [
+          32,
+          39
+        ],
+        "file": "base_sword-11.png",
+        "body": "base_sword-11-body.png",
+        "weapon": "base_sword-11-weapon.png",
+        "trail": "base_sword-11-trail.png"
+      }
+    ],
+    "hit_times_ms": [
+      200,
+      600
+    ],
+    "status": "visual adaptation study; repeated base cycles, not approved final combo choreography or in-game integration"
+  },
+  "rapier": {
+    "name": "RAPIER",
+    "duration_ms": 800,
+    "frames": [
+      {
+        "source": "Sword Stab",
+        "source_frame": 0,
+        "strike": 1,
+        "duration_ms": 25,
+        "start_ms": 0,
+        "hit_event": false,
+        "grip_source_xy": [
+          15,
+          36
+        ],
+        "file": "rapier-00.png",
+        "body": "rapier-00-body.png",
+        "weapon": "rapier-00-weapon.png",
+        "trail": "rapier-00-trail.png"
+      },
+      {
+        "source": "Sword Stab",
+        "source_frame": 1,
+        "strike": 1,
+        "duration_ms": 25,
+        "start_ms": 25,
+        "hit_event": false,
+        "grip_source_xy": [
+          12,
+          37
+        ],
+        "file": "rapier-01.png",
+        "body": "rapier-01-body.png",
+        "weapon": "rapier-01-weapon.png",
+        "trail": "rapier-01-trail.png"
+      },
+      {
+        "source": "Sword Stab",
+        "source_frame": 2,
+        "strike": 1,
+        "duration_ms": 25,
+        "start_ms": 50,
+        "hit_event": false,
+        "grip_source_xy": [
+          11,
+          38
+        ],
+        "file": "rapier-02.png",
+        "body": "rapier-02-body.png",
+        "weapon": "rapier-02-weapon.png",
+        "trail": "rapier-02-trail.png"
+      },
+      {
+        "source": "Sword Stab",
+        "source_frame": 3,
+        "strike": 1,
+        "duration_ms": 25,
+        "start_ms": 75,
+        "hit_event": false,
+        "grip_source_xy": [
+          11,
+          38
+        ],
+        "file": "rapier-03.png",
+        "body": "rapier-03-body.png",
+        "weapon": "rapier-03-weapon.png",
+        "trail": "rapier-03-trail.png"
+      },
+      {
+        "source": "Sword Stab",
+        "source_frame": 4,
+        "strike": 1,
+        "duration_ms": 40,
+        "start_ms": 100,
+        "hit_event": true,
+        "grip_source_xy": [
+          43,
+          32
+        ],
+        "file": "rapier-04.png",
+        "body": "rapier-04-body.png",
+        "weapon": "rapier-04-weapon.png",
+        "trail": "rapier-04-trail.png"
+      },
+      {
+        "source": "Sword Stab",
+        "source_frame": 5,
+        "strike": 1,
+        "duration_ms": 40,
+        "start_ms": 140,
+        "hit_event": false,
+        "grip_source_xy": [
+          46,
+          33
+        ],
+        "file": "rapier-05.png",
+        "body": "rapier-05-body.png",
+        "weapon": "rapier-05-weapon.png",
+        "trail": "rapier-05-trail.png"
+      },
+      {
+        "source": "Sword Stab",
+        "source_frame": 6,
+        "strike": 1,
+        "duration_ms": 40,
+        "start_ms": 180,
+        "hit_event": false,
+        "grip_source_xy": [
+          32,
+          35
+        ],
+        "file": "rapier-06.png",
+        "body": "rapier-06-body.png",
+        "weapon": "rapier-06-weapon.png",
+        "trail": "rapier-06-trail.png"
+      },
+      {
+        "source": "Sword Stab",
+        "source_frame": 0,
+        "strike": 2,
+        "duration_ms": 25,
+        "start_ms": 220,
+        "hit_event": false,
+        "grip_source_xy": [
+          15,
+          36
+        ],
+        "file": "rapier-07.png",
+        "body": "rapier-07-body.png",
+        "weapon": "rapier-07-weapon.png",
+        "trail": "rapier-07-trail.png"
+      },
+      {
+        "source": "Sword Stab",
+        "source_frame": 1,
+        "strike": 2,
+        "duration_ms": 25,
+        "start_ms": 245,
+        "hit_event": false,
+        "grip_source_xy": [
+          12,
+          37
+        ],
+        "file": "rapier-08.png",
+        "body": "rapier-08-body.png",
+        "weapon": "rapier-08-weapon.png",
+        "trail": "rapier-08-trail.png"
+      },
+      {
+        "source": "Sword Stab",
+        "source_frame": 2,
+        "strike": 2,
+        "duration_ms": 25,
+        "start_ms": 270,
+        "hit_event": false,
+        "grip_source_xy": [
+          11,
+          38
+        ],
+        "file": "rapier-09.png",
+        "body": "rapier-09-body.png",
+        "weapon": "rapier-09-weapon.png",
+        "trail": "rapier-09-trail.png"
+      },
+      {
+        "source": "Sword Stab",
+        "source_frame": 3,
+        "strike": 2,
+        "duration_ms": 25,
+        "start_ms": 295,
+        "hit_event": false,
+        "grip_source_xy": [
+          11,
+          38
+        ],
+        "file": "rapier-10.png",
+        "body": "rapier-10-body.png",
+        "weapon": "rapier-10-weapon.png",
+        "trail": "rapier-10-trail.png"
+      },
+      {
+        "source": "Sword Stab",
+        "source_frame": 4,
+        "strike": 2,
+        "duration_ms": 40,
+        "start_ms": 320,
+        "hit_event": true,
+        "grip_source_xy": [
+          43,
+          32
+        ],
+        "file": "rapier-11.png",
+        "body": "rapier-11-body.png",
+        "weapon": "rapier-11-weapon.png",
+        "trail": "rapier-11-trail.png"
+      },
+      {
+        "source": "Sword Stab",
+        "source_frame": 5,
+        "strike": 2,
+        "duration_ms": 40,
+        "start_ms": 360,
+        "hit_event": false,
+        "grip_source_xy": [
+          46,
+          33
+        ],
+        "file": "rapier-12.png",
+        "body": "rapier-12-body.png",
+        "weapon": "rapier-12-weapon.png",
+        "trail": "rapier-12-trail.png"
+      },
+      {
+        "source": "Sword Stab",
+        "source_frame": 6,
+        "strike": 2,
+        "duration_ms": 40,
+        "start_ms": 400,
+        "hit_event": false,
+        "grip_source_xy": [
+          32,
+          35
+        ],
+        "file": "rapier-13.png",
+        "body": "rapier-13-body.png",
+        "weapon": "rapier-13-weapon.png",
+        "trail": "rapier-13-trail.png"
+      },
+      {
+        "source": "Sword Stab",
+        "source_frame": 0,
+        "strike": 3,
+        "duration_ms": 30,
+        "start_ms": 440,
+        "hit_event": false,
+        "grip_source_xy": [
+          15,
+          36
+        ],
+        "file": "rapier-14.png",
+        "body": "rapier-14-body.png",
+        "weapon": "rapier-14-weapon.png",
+        "trail": "rapier-14-trail.png"
+      },
+      {
+        "source": "Sword Stab",
+        "source_frame": 1,
+        "strike": 3,
+        "duration_ms": 30,
+        "start_ms": 470,
+        "hit_event": false,
+        "grip_source_xy": [
+          12,
+          37
+        ],
+        "file": "rapier-15.png",
+        "body": "rapier-15-body.png",
+        "weapon": "rapier-15-weapon.png",
+        "trail": "rapier-15-trail.png"
+      },
+      {
+        "source": "Sword Stab",
+        "source_frame": 2,
+        "strike": 3,
+        "duration_ms": 30,
+        "start_ms": 500,
+        "hit_event": false,
+        "grip_source_xy": [
+          11,
+          38
+        ],
+        "file": "rapier-16.png",
+        "body": "rapier-16-body.png",
+        "weapon": "rapier-16-weapon.png",
+        "trail": "rapier-16-trail.png"
+      },
+      {
+        "source": "Sword Stab",
+        "source_frame": 3,
+        "strike": 3,
+        "duration_ms": 30,
+        "start_ms": 530,
+        "hit_event": false,
+        "grip_source_xy": [
+          11,
+          38
+        ],
+        "file": "rapier-17.png",
+        "body": "rapier-17-body.png",
+        "weapon": "rapier-17-weapon.png",
+        "trail": "rapier-17-trail.png"
+      },
+      {
+        "source": "Sword Stab",
+        "source_frame": 4,
+        "strike": 3,
+        "duration_ms": 80,
+        "start_ms": 560,
+        "hit_event": true,
+        "grip_source_xy": [
+          43,
+          32
+        ],
+        "file": "rapier-18.png",
+        "body": "rapier-18-body.png",
+        "weapon": "rapier-18-weapon.png",
+        "trail": "rapier-18-trail.png"
+      },
+      {
+        "source": "Sword Stab",
+        "source_frame": 5,
+        "strike": 3,
+        "duration_ms": 80,
+        "start_ms": 640,
+        "hit_event": false,
+        "grip_source_xy": [
+          46,
+          33
+        ],
+        "file": "rapier-19.png",
+        "body": "rapier-19-body.png",
+        "weapon": "rapier-19-weapon.png",
+        "trail": "rapier-19-trail.png"
+      },
+      {
+        "source": "Sword Stab",
+        "source_frame": 6,
+        "strike": 3,
+        "duration_ms": 80,
+        "start_ms": 720,
+        "hit_event": false,
+        "grip_source_xy": [
+          32,
+          35
+        ],
+        "file": "rapier-20.png",
+        "body": "rapier-20-body.png",
+        "weapon": "rapier-20-weapon.png",
+        "trail": "rapier-20-trail.png"
+      }
+    ],
+    "hit_times_ms": [
+      100,
+      320,
+      560
+    ],
+    "status": "visual adaptation study; repeated base cycles, not approved final combo choreography or in-game integration"
+  }
+}

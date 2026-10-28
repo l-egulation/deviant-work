@@ -1,0 +1,846 @@
+{
+  "hammer": {
+    "name": "망치",
+    "duration_ms": 1433,
+    "frames": [
+      {
+        "source": "Sword Attack",
+        "source_frame": 0,
+        "strike": 1,
+        "duration_ms": 96,
+        "start_ms": 0,
+        "hit_event": false,
+        "file": "hammer-00.png",
+        "body": "hammer-00-body.png",
+        "weapon": "hammer-00-weapon.png",
+        "trail": "hammer-00-trail.png"
+      },
+      {
+        "source": "Sword Attack",
+        "source_frame": 1,
+        "strike": 1,
+        "duration_ms": 95,
+        "start_ms": 96,
+        "hit_event": false,
+        "file": "hammer-01.png",
+        "body": "hammer-01-body.png",
+        "weapon": "hammer-01-weapon.png",
+        "trail": "hammer-01-trail.png"
+      },
+      {
+        "source": "Sword Attack",
+        "source_frame": 2,
+        "strike": 1,
+        "duration_ms": 95,
+        "start_ms": 191,
+        "hit_event": false,
+        "file": "hammer-02.png",
+        "body": "hammer-02-body.png",
+        "weapon": "hammer-02-weapon.png",
+        "trail": "hammer-02-trail.png"
+      },
+      {
+        "source": "Sword Attack",
+        "source_frame": 3,
+        "strike": 1,
+        "duration_ms": 143,
+        "start_ms": 286,
+        "hit_event": true,
+        "file": "hammer-03.png",
+        "body": "hammer-03-body.png",
+        "weapon": "hammer-03-weapon.png",
+        "trail": "hammer-03-trail.png"
+      },
+      {
+        "source": "Sword Attack",
+        "source_frame": 4,
+        "strike": 1,
+        "duration_ms": 142,
+        "start_ms": 429,
+        "hit_event": false,
+        "file": "hammer-04.png",
+        "body": "hammer-04-body.png",
+        "weapon": "hammer-04-weapon.png",
+        "trail": "hammer-04-trail.png"
+      },
+      {
+        "source": "Sword Attack",
+        "source_frame": 5,
+        "strike": 1,
+        "duration_ms": 142,
+        "start_ms": 571,
+        "hit_event": false,
+        "file": "hammer-05.png",
+        "body": "hammer-05-body.png",
+        "weapon": "hammer-05-weapon.png",
+        "trail": "hammer-05-trail.png"
+      },
+      {
+        "source": "Sword Attack",
+        "source_frame": 0,
+        "strike": 2,
+        "duration_ms": 97,
+        "start_ms": 713,
+        "hit_event": false,
+        "file": "hammer-06.png",
+        "body": "hammer-06-body.png",
+        "weapon": "hammer-06-weapon.png",
+        "trail": "hammer-06-trail.png"
+      },
+      {
+        "source": "Sword Attack",
+        "source_frame": 1,
+        "strike": 2,
+        "duration_ms": 97,
+        "start_ms": 810,
+        "hit_event": false,
+        "file": "hammer-07.png",
+        "body": "hammer-07-body.png",
+        "weapon": "hammer-07-weapon.png",
+        "trail": "hammer-07-trail.png"
+      },
+      {
+        "source": "Sword Attack",
+        "source_frame": 2,
+        "strike": 2,
+        "duration_ms": 96,
+        "start_ms": 907,
+        "hit_event": false,
+        "file": "hammer-08.png",
+        "body": "hammer-08-body.png",
+        "weapon": "hammer-08-weapon.png",
+        "trail": "hammer-08-trail.png"
+      },
+      {
+        "source": "Sword Attack",
+        "source_frame": 3,
+        "strike": 2,
+        "duration_ms": 144,
+        "start_ms": 1003,
+        "hit_event": true,
+        "file": "hammer-09.png",
+        "body": "hammer-09-body.png",
+        "weapon": "hammer-09-weapon.png",
+        "trail": "hammer-09-trail.png"
+      },
+      {
+        "source": "Sword Attack",
+        "source_frame": 4,
+        "strike": 2,
+        "duration_ms": 143,
+        "start_ms": 1147,
+        "hit_event": false,
+        "file": "hammer-10.png",
+        "body": "hammer-10-body.png",
+        "weapon": "hammer-10-weapon.png",
+        "trail": "hammer-10-trail.png"
+      },
+      {
+        "source": "Sword Attack",
+        "source_frame": 5,
+        "strike": 2,
+        "duration_ms": 143,
+        "start_ms": 1290,
+        "hit_event": false,
+        "file": "hammer-11.png",
+        "body": "hammer-11-body.png",
+        "weapon": "hammer-11-weapon.png",
+        "trail": "hammer-11-trail.png"
+      }
+    ],
+    "hit_times_ms": [
+      286,
+      1003
+    ],
+    "status": "베기 원본의 한손 중심 자세. 양손 지지와 타격 후 무게 이동 보정 필요."
+  },
+  "shield": {
+    "name": "방패",
+    "duration_ms": 600,
+    "frames": [
+      {
+        "source": "Punch Jab",
+        "source_frame": 0,
+        "strike": 1,
+        "duration_ms": 125,
+        "start_ms": 0,
+        "hit_event": false,
+        "file": "shield-00.png",
+        "body": "shield-00-body.png",
+        "weapon": "shield-00-weapon.png",
+        "trail": "shield-00-trail.png"
+      },
+      {
+        "source": "Punch Jab",
+        "source_frame": 0,
+        "strike": 1,
+        "duration_ms": 125,
+        "start_ms": 125,
+        "hit_event": false,
+        "file": "shield-01.png",
+        "body": "shield-01-body.png",
+        "weapon": "shield-01-weapon.png",
+        "trail": "shield-01-trail.png"
+      },
+      {
+        "source": "Punch Jab",
+        "source_frame": 1,
+        "strike": 1,
+        "duration_ms": 70,
+        "start_ms": 250,
+        "hit_event": true,
+        "file": "shield-02.png",
+        "body": "shield-02-body.png",
+        "weapon": "shield-02-weapon.png",
+        "trail": "shield-02-trail.png"
+      },
+      {
+        "source": "Punch Jab",
+        "source_frame": 2,
+        "strike": 1,
+        "duration_ms": 70,
+        "start_ms": 320,
+        "hit_event": false,
+        "file": "shield-03.png",
+        "body": "shield-03-body.png",
+        "weapon": "shield-03-weapon.png",
+        "trail": "shield-03-trail.png"
+      },
+      {
+        "source": "Punch Jab",
+        "source_frame": 3,
+        "strike": 1,
+        "duration_ms": 70,
+        "start_ms": 390,
+        "hit_event": false,
+        "file": "shield-04.png",
+        "body": "shield-04-body.png",
+        "weapon": "shield-04-weapon.png",
+        "trail": "shield-04-trail.png"
+      },
+      {
+        "source": "Punch Jab",
+        "source_frame": 4,
+        "strike": 1,
+        "duration_ms": 70,
+        "start_ms": 460,
+        "hit_event": false,
+        "file": "shield-05.png",
+        "body": "shield-05-body.png",
+        "weapon": "shield-05-weapon.png",
+        "trail": "shield-05-trail.png"
+      },
+      {
+        "source": "Punch Jab",
+        "source_frame": 6,
+        "strike": 1,
+        "duration_ms": 70,
+        "start_ms": 530,
+        "hit_event": false,
+        "file": "shield-06.png",
+        "body": "shield-06-body.png",
+        "weapon": "shield-06-weapon.png",
+        "trail": "shield-06-trail.png"
+      }
+    ],
+    "hit_times_ms": [
+      250
+    ],
+    "status": "잽 모션을 방패 밀기로 치환. 가드 준비 자세와 팔꿈치 각도 보정 필요."
+  },
+  "greatsword": {
+    "name": "대검",
+    "duration_ms": 1230,
+    "frames": [
+      {
+        "source": "Katana Continuous Attack",
+        "source_frame": 4,
+        "strike": 1,
+        "duration_ms": 53,
+        "start_ms": 0,
+        "hit_event": false,
+        "file": "greatsword-00.png",
+        "body": "greatsword-00-body.png",
+        "weapon": "greatsword-00-weapon.png",
+        "trail": "greatsword-00-trail.png"
+      },
+      {
+        "source": "Katana Continuous Attack",
+        "source_frame": 1,
+        "strike": 1,
+        "duration_ms": 53,
+        "start_ms": 53,
+        "hit_event": false,
+        "file": "greatsword-01.png",
+        "body": "greatsword-01-body.png",
+        "weapon": "greatsword-01-weapon.png",
+        "trail": "greatsword-01-trail.png"
+      },
+      {
+        "source": "Katana Continuous Attack",
+        "source_frame": 2,
+        "strike": 1,
+        "duration_ms": 52,
+        "start_ms": 106,
+        "hit_event": false,
+        "file": "greatsword-02.png",
+        "body": "greatsword-02-body.png",
+        "weapon": "greatsword-02-weapon.png",
+        "trail": "greatsword-02-trail.png"
+      },
+      {
+        "source": "Katana Continuous Attack",
+        "source_frame": 3,
+        "strike": 1,
+        "duration_ms": 52,
+        "start_ms": 158,
+        "hit_event": false,
+        "file": "greatsword-03.png",
+        "body": "greatsword-03-body.png",
+        "weapon": "greatsword-03-weapon.png",
+        "trail": "greatsword-03-trail.png"
+      },
+      {
+        "source": "Katana Continuous Attack",
+        "source_frame": 0,
+        "strike": 1,
+        "duration_ms": 150,
+        "start_ms": 210,
+        "hit_event": true,
+        "file": "greatsword-04.png",
+        "body": "greatsword-04-body.png",
+        "weapon": "greatsword-04-weapon.png",
+        "trail": "greatsword-04-trail.png"
+      },
+      {
+        "source": "Katana Continuous Attack",
+        "source_frame": 8,
+        "strike": 2,
+        "duration_ms": 25,
+        "start_ms": 360,
+        "hit_event": false,
+        "file": "greatsword-05.png",
+        "body": "greatsword-05-body.png",
+        "weapon": "greatsword-05-weapon.png",
+        "trail": "greatsword-05-trail.png"
+      },
+      {
+        "source": "Katana Continuous Attack",
+        "source_frame": 5,
+        "strike": 2,
+        "duration_ms": 25,
+        "start_ms": 385,
+        "hit_event": false,
+        "file": "greatsword-06.png",
+        "body": "greatsword-06-body.png",
+        "weapon": "greatsword-06-weapon.png",
+        "trail": "greatsword-06-trail.png"
+      },
+      {
+        "source": "Katana Continuous Attack",
+        "source_frame": 6,
+        "strike": 2,
+        "duration_ms": 25,
+        "start_ms": 410,
+        "hit_event": false,
+        "file": "greatsword-07.png",
+        "body": "greatsword-07-body.png",
+        "weapon": "greatsword-07-weapon.png",
+        "trail": "greatsword-07-trail.png"
+      },
+      {
+        "source": "Katana Continuous Attack",
+        "source_frame": 7,
+        "strike": 2,
+        "duration_ms": 25,
+        "start_ms": 435,
+        "hit_event": false,
+        "file": "greatsword-08.png",
+        "body": "greatsword-08-body.png",
+        "weapon": "greatsword-08-weapon.png",
+        "trail": "greatsword-08-trail.png"
+      },
+      {
+        "source": "Katana Continuous Attack",
+        "source_frame": 4,
+        "strike": 2,
+        "duration_ms": 190,
+        "start_ms": 460,
+        "hit_event": true,
+        "file": "greatsword-09.png",
+        "body": "greatsword-09-body.png",
+        "weapon": "greatsword-09-weapon.png",
+        "trail": "greatsword-09-trail.png"
+      },
+      {
+        "source": "Sword Attack",
+        "source_frame": 0,
+        "strike": 3,
+        "duration_ms": 94,
+        "start_ms": 650,
+        "hit_event": false,
+        "file": "greatsword-10.png",
+        "body": "greatsword-10-body.png",
+        "weapon": "greatsword-10-weapon.png",
+        "trail": "greatsword-10-trail.png"
+      },
+      {
+        "source": "Sword Attack",
+        "source_frame": 1,
+        "strike": 3,
+        "duration_ms": 93,
+        "start_ms": 744,
+        "hit_event": false,
+        "file": "greatsword-11.png",
+        "body": "greatsword-11-body.png",
+        "weapon": "greatsword-11-weapon.png",
+        "trail": "greatsword-11-trail.png"
+      },
+      {
+        "source": "Sword Attack",
+        "source_frame": 2,
+        "strike": 3,
+        "duration_ms": 93,
+        "start_ms": 837,
+        "hit_event": false,
+        "file": "greatsword-12.png",
+        "body": "greatsword-12-body.png",
+        "weapon": "greatsword-12-weapon.png",
+        "trail": "greatsword-12-trail.png"
+      },
+      {
+        "source": "Sword Attack",
+        "source_frame": 3,
+        "strike": 3,
+        "duration_ms": 100,
+        "start_ms": 930,
+        "hit_event": true,
+        "file": "greatsword-13.png",
+        "body": "greatsword-13-body.png",
+        "weapon": "greatsword-13-weapon.png",
+        "trail": "greatsword-13-trail.png"
+      },
+      {
+        "source": "Sword Attack",
+        "source_frame": 4,
+        "strike": 3,
+        "duration_ms": 100,
+        "start_ms": 1030,
+        "hit_event": false,
+        "file": "greatsword-14.png",
+        "body": "greatsword-14-body.png",
+        "weapon": "greatsword-14-weapon.png",
+        "trail": "greatsword-14-trail.png"
+      },
+      {
+        "source": "Sword Attack",
+        "source_frame": 5,
+        "strike": 3,
+        "duration_ms": 100,
+        "start_ms": 1130,
+        "hit_event": false,
+        "file": "greatsword-15.png",
+        "body": "greatsword-15-body.png",
+        "weapon": "greatsword-15-weapon.png",
+        "trail": "greatsword-15-trail.png"
+      }
+    ],
+    "hit_times_ms": [
+      210,
+      460,
+      930
+    ],
+    "status": "카타나 횡베기 두 구간과 내려베기 조합. 손잡이·양손 지지·연타 연결 보정 필요."
+  },
+  "launcher": {
+    "name": "발사기",
+    "duration_ms": 400,
+    "frames": [
+      {
+        "source": "Shooting (two-handed)",
+        "source_frame": 0,
+        "strike": 1,
+        "duration_ms": 60,
+        "start_ms": 0,
+        "hit_event": false,
+        "file": "launcher-00.png",
+        "body": "launcher-00-body.png",
+        "weapon": "launcher-00-weapon.png",
+        "trail": "launcher-00-trail.png"
+      },
+      {
+        "source": "Shooting (two-handed)",
+        "source_frame": 1,
+        "strike": 1,
+        "duration_ms": 60,
+        "start_ms": 60,
+        "hit_event": false,
+        "file": "launcher-01.png",
+        "body": "launcher-01-body.png",
+        "weapon": "launcher-01-weapon.png",
+        "trail": "launcher-01-trail.png"
+      },
+      {
+        "source": "Shooting (two-handed)",
+        "source_frame": 2,
+        "strike": 1,
+        "duration_ms": 35,
+        "start_ms": 120,
+        "hit_event": true,
+        "file": "launcher-02.png",
+        "body": "launcher-02-body.png",
+        "weapon": "launcher-02-weapon.png",
+        "trail": "launcher-02-trail.png"
+      },
+      {
+        "source": "Shooting (two-handed)",
+        "source_frame": 3,
+        "strike": 1,
+        "duration_ms": 35,
+        "start_ms": 155,
+        "hit_event": false,
+        "file": "launcher-03.png",
+        "body": "launcher-03-body.png",
+        "weapon": "launcher-03-weapon.png",
+        "trail": "launcher-03-trail.png"
+      },
+      {
+        "source": "Shooting (two-handed)",
+        "source_frame": 4,
+        "strike": 1,
+        "duration_ms": 35,
+        "start_ms": 190,
+        "hit_event": false,
+        "file": "launcher-04.png",
+        "body": "launcher-04-body.png",
+        "weapon": "launcher-04-weapon.png",
+        "trail": "launcher-04-trail.png"
+      },
+      {
+        "source": "Shooting (two-handed)",
+        "source_frame": 5,
+        "strike": 1,
+        "duration_ms": 35,
+        "start_ms": 225,
+        "hit_event": false,
+        "file": "launcher-05.png",
+        "body": "launcher-05-body.png",
+        "weapon": "launcher-05-weapon.png",
+        "trail": "launcher-05-trail.png"
+      },
+      {
+        "source": "Shooting (two-handed)",
+        "source_frame": 6,
+        "strike": 1,
+        "duration_ms": 35,
+        "start_ms": 260,
+        "hit_event": false,
+        "file": "launcher-06.png",
+        "body": "launcher-06-body.png",
+        "weapon": "launcher-06-weapon.png",
+        "trail": "launcher-06-trail.png"
+      },
+      {
+        "source": "Shooting (two-handed)",
+        "source_frame": 7,
+        "strike": 1,
+        "duration_ms": 35,
+        "start_ms": 295,
+        "hit_event": false,
+        "file": "launcher-07.png",
+        "body": "launcher-07-body.png",
+        "weapon": "launcher-07-weapon.png",
+        "trail": "launcher-07-trail.png"
+      },
+      {
+        "source": "Shooting (two-handed)",
+        "source_frame": 8,
+        "strike": 1,
+        "duration_ms": 35,
+        "start_ms": 330,
+        "hit_event": false,
+        "file": "launcher-08.png",
+        "body": "launcher-08-body.png",
+        "weapon": "launcher-08-weapon.png",
+        "trail": "launcher-08-trail.png"
+      },
+      {
+        "source": "Shooting (two-handed)",
+        "source_frame": 9,
+        "strike": 1,
+        "duration_ms": 35,
+        "start_ms": 365,
+        "hit_event": false,
+        "file": "launcher-09.png",
+        "body": "launcher-09-body.png",
+        "weapon": "launcher-09-weapon.png",
+        "trail": "launcher-09-trail.png"
+      }
+    ],
+    "hit_times_ms": [
+      120
+    ],
+    "status": "사격 원본 활용. 총구 이펙트와 발사음 미적용."
+  },
+  "shuriken": {
+    "name": "수리검",
+    "duration_ms": 600,
+    "frames": [
+      {
+        "source": "Punch Jab",
+        "source_frame": 0,
+        "strike": 1,
+        "duration_ms": 50,
+        "start_ms": 0,
+        "hit_event": false,
+        "file": "shuriken-00.png",
+        "body": "shuriken-00-body.png",
+        "weapon": "shuriken-00-weapon.png",
+        "trail": "shuriken-00-trail.png"
+      },
+      {
+        "source": "Punch Jab",
+        "source_frame": 0,
+        "strike": 1,
+        "duration_ms": 50,
+        "start_ms": 50,
+        "hit_event": false,
+        "file": "shuriken-01.png",
+        "body": "shuriken-01-body.png",
+        "weapon": "shuriken-01-weapon.png",
+        "trail": "shuriken-01-trail.png"
+      },
+      {
+        "source": "Punch Jab",
+        "source_frame": 1,
+        "strike": 1,
+        "duration_ms": 30,
+        "start_ms": 100,
+        "hit_event": true,
+        "file": "shuriken-02.png",
+        "body": "shuriken-02-body.png",
+        "weapon": "shuriken-02-weapon.png",
+        "trail": "shuriken-02-trail.png"
+      },
+      {
+        "source": "Punch Jab",
+        "source_frame": 2,
+        "strike": 1,
+        "duration_ms": 30,
+        "start_ms": 130,
+        "hit_event": false,
+        "file": "shuriken-03.png",
+        "body": "shuriken-03-body.png",
+        "weapon": "shuriken-03-weapon.png",
+        "trail": "shuriken-03-trail.png"
+      },
+      {
+        "source": "Punch Jab",
+        "source_frame": 3,
+        "strike": 1,
+        "duration_ms": 30,
+        "start_ms": 160,
+        "hit_event": false,
+        "file": "shuriken-04.png",
+        "body": "shuriken-04-body.png",
+        "weapon": "shuriken-04-weapon.png",
+        "trail": "shuriken-04-trail.png"
+      },
+      {
+        "source": "Punch Jab",
+        "source_frame": 4,
+        "strike": 1,
+        "duration_ms": 30,
+        "start_ms": 190,
+        "hit_event": false,
+        "file": "shuriken-05.png",
+        "body": "shuriken-05-body.png",
+        "weapon": "shuriken-05-weapon.png",
+        "trail": "shuriken-05-trail.png"
+      },
+      {
+        "source": "Punch Jab",
+        "source_frame": 6,
+        "strike": 1,
+        "duration_ms": 30,
+        "start_ms": 220,
+        "hit_event": false,
+        "file": "shuriken-06.png",
+        "body": "shuriken-06-body.png",
+        "weapon": "shuriken-06-weapon.png",
+        "trail": "shuriken-06-trail.png"
+      },
+      {
+        "source": "Punch Jab",
+        "source_frame": 0,
+        "strike": 2,
+        "duration_ms": 60,
+        "start_ms": 250,
+        "hit_event": false,
+        "file": "shuriken-07.png",
+        "body": "shuriken-07-body.png",
+        "weapon": "shuriken-07-weapon.png",
+        "trail": "shuriken-07-trail.png"
+      },
+      {
+        "source": "Punch Jab",
+        "source_frame": 0,
+        "strike": 2,
+        "duration_ms": 60,
+        "start_ms": 310,
+        "hit_event": false,
+        "file": "shuriken-08.png",
+        "body": "shuriken-08-body.png",
+        "weapon": "shuriken-08-weapon.png",
+        "trail": "shuriken-08-trail.png"
+      },
+      {
+        "source": "Punch Jab",
+        "source_frame": 1,
+        "strike": 2,
+        "duration_ms": 46,
+        "start_ms": 370,
+        "hit_event": true,
+        "file": "shuriken-09.png",
+        "body": "shuriken-09-body.png",
+        "weapon": "shuriken-09-weapon.png",
+        "trail": "shuriken-09-trail.png"
+      },
+      {
+        "source": "Punch Jab",
+        "source_frame": 2,
+        "strike": 2,
+        "duration_ms": 46,
+        "start_ms": 416,
+        "hit_event": false,
+        "file": "shuriken-10.png",
+        "body": "shuriken-10-body.png",
+        "weapon": "shuriken-10-weapon.png",
+        "trail": "shuriken-10-trail.png"
+      },
+      {
+        "source": "Punch Jab",
+        "source_frame": 3,
+        "strike": 2,
+        "duration_ms": 46,
+        "start_ms": 462,
+        "hit_event": false,
+        "file": "shuriken-11.png",
+        "body": "shuriken-11-body.png",
+        "weapon": "shuriken-11-weapon.png",
+        "trail": "shuriken-11-trail.png"
+      },
+      {
+        "source": "Punch Jab",
+        "source_frame": 4,
+        "strike": 2,
+        "duration_ms": 46,
+        "start_ms": 508,
+        "hit_event": false,
+        "file": "shuriken-12.png",
+        "body": "shuriken-12-body.png",
+        "weapon": "shuriken-12-weapon.png",
+        "trail": "shuriken-12-trail.png"
+      },
+      {
+        "source": "Punch Jab",
+        "source_frame": 6,
+        "strike": 2,
+        "duration_ms": 46,
+        "start_ms": 554,
+        "hit_event": false,
+        "file": "shuriken-13.png",
+        "body": "shuriken-13-body.png",
+        "weapon": "shuriken-13-weapon.png",
+        "trail": "shuriken-13-trail.png"
+      }
+    ],
+    "hit_times_ms": [
+      100,
+      370
+    ],
+    "status": "잽을 투척 동작으로 재사용. 손을 펴는 릴리스 자세 추가 필요."
+  },
+  "bomb": {
+    "name": "폭탄",
+    "duration_ms": 900,
+    "frames": [
+      {
+        "source": "Sword Attack",
+        "source_frame": 0,
+        "strike": 1,
+        "duration_ms": 100,
+        "start_ms": 0,
+        "hit_event": false,
+        "file": "bomb-00.png",
+        "body": "bomb-00-body.png",
+        "weapon": "bomb-00-weapon.png",
+        "trail": "bomb-00-trail.png"
+      },
+      {
+        "source": "Sword Attack",
+        "source_frame": 1,
+        "strike": 1,
+        "duration_ms": 100,
+        "start_ms": 100,
+        "hit_event": false,
+        "file": "bomb-01.png",
+        "body": "bomb-01-body.png",
+        "weapon": "bomb-01-weapon.png",
+        "trail": "bomb-01-trail.png"
+      },
+      {
+        "source": "Sword Attack",
+        "source_frame": 2,
+        "strike": 1,
+        "duration_ms": 175,
+        "start_ms": 200,
+        "hit_event": true,
+        "file": "bomb-02.png",
+        "body": "bomb-02-body.png",
+        "weapon": "bomb-02-weapon.png",
+        "trail": "bomb-02-trail.png"
+      },
+      {
+        "source": "Sword Attack",
+        "source_frame": 3,
+        "strike": 1,
+        "duration_ms": 175,
+        "start_ms": 375,
+        "hit_event": false,
+        "file": "bomb-03.png",
+        "body": "bomb-03-body.png",
+        "weapon": "bomb-03-weapon.png",
+        "trail": "bomb-03-trail.png"
+      },
+      {
+        "source": "Sword Attack",
+        "source_frame": 4,
+        "strike": 1,
+        "duration_ms": 175,
+        "start_ms": 550,
+        "hit_event": false,
+        "file": "bomb-04.png",
+        "body": "bomb-04-body.png",
+        "weapon": "bomb-04-weapon.png",
+        "trail": "bomb-04-trail.png"
+      },
+      {
+        "source": "Sword Attack",
+        "source_frame": 5,
+        "strike": 1,
+        "duration_ms": 175,
+        "start_ms": 725,
+        "hit_event": false,
+        "file": "bomb-05.png",
+        "body": "bomb-05-body.png",
+        "weapon": "bomb-05-weapon.png",
+        "trail": "bomb-05-trail.png"
+      }
+    ],
+    "hit_times_ms": [
+      200
+    ],
+    "status": "검의 들어올림을 오버핸드 투척으로 재사용. 릴리스 손모양과 복귀 자세 보정 필요."
+  }
+}

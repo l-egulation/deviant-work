@@ -1,0 +1,465 @@
+{
+  "schema": 1,
+  "repo_ref": "ae398c6516d59bd0b0e95dbb00714e3ad49ea2d6",
+  "ppu": 32,
+  "basic": {
+    "damage": 10,
+    "duration": 0.4,
+    "impact": 0.2,
+    "active": 0.08,
+    "box": {
+      "width": 2.46875,
+      "height": 2,
+      "x": 1.421875,
+      "y": 1.0
+    }
+  },
+  "special": {
+    "id": "base_sword_default",
+    "slot": "default",
+    "name": "강베기",
+    "provenance": "user_fixed",
+    "cooldown": 5,
+    "activation_time": 0.3,
+    "motion_end": 0.7,
+    "hits": [
+      {
+        "time": 0.3,
+        "damage": 35,
+        "shape": {
+          "kind": "box",
+          "size": [
+            2.96875,
+            2.5
+          ],
+          "right_offset": [
+            1.671875,
+            1.25
+          ],
+          "left_offset": [
+            -1.671875,
+            1.25
+          ],
+          "reach_from_body_front": 2.5,
+          "bottom": 0
+        },
+        "active": 0.1,
+        "control": {},
+        "anchor": "actor",
+        "targets": "all"
+      }
+    ],
+    "input_move_speed": 0,
+    "facing": "windup_start",
+    "vertical": "normal",
+    "movement": null,
+    "independent_effect": null,
+    "invulnerability": [],
+    "rules": "기존 사용자 확정값. 추가 경직/밀기 없음."
+  },
+  "playerHurtbox": {
+    "status": "user_approved_design",
+    "unity_applied": false,
+    "source": "unity/Assets/Deviant/World/Art/Character/idle/01.png",
+    "source_sha256": "8ADF9A881F5C01C7407BD4468BD3C1B67D012B91D951C9EE8FB1546EAB9EE9FC",
+    "canvas_px": [
+      128,
+      128
+    ],
+    "pixels_per_unit": 32,
+    "origin_px_top_left": [
+      64,
+      121
+    ],
+    "hurtbox_px": {
+      "left": 55,
+      "right": 85,
+      "top": 57,
+      "bottom": 121
+    },
+    "size_unity": [
+      0.9375,
+      2
+    ],
+    "offset_unity_facing_right": [
+      0.1875,
+      1
+    ],
+    "offset_unity_facing_left": [
+      -0.1875,
+      1
+    ],
+    "fixed_across_weapon_and_motion": true,
+    "is_trigger_design": true,
+    "terrain_collider_final_status": "user_approved_same_geometry_separate_non_trigger",
+    "terrain_collider_design": {
+      "size": [
+        0.9375,
+        2
+      ],
+      "offset_facing_right": [
+        0.1875,
+        1
+      ],
+      "offset_facing_left": [
+        -0.1875,
+        1
+      ],
+      "is_trigger": false
+    },
+    "note": "User selected full dotted body reference rectangle, replacing reduced A proposal. Local coordinates with root scale 1 and identity child transform."
+  },
+  "monster": {
+    "id": "01_thorn-root",
+    "name": "가시뿌리",
+    "template": "05_boar",
+    "attackKind": "dash",
+    "hurtSize": [
+      1.75,
+      1.9
+    ],
+    "hurtOffset": [
+      0,
+      0.95
+    ],
+    "bodySize": [
+      1.0,
+      1.3
+    ],
+    "bodyOffset": [
+      0,
+      0.65
+    ],
+    "attackSize": [
+      1.8,
+      1.5
+    ],
+    "attackOffset": [
+      0.9,
+      0.75
+    ],
+    "walkSpeed": 2.5,
+    "startGap": 3.0,
+    "minimumStartDistance": 0.0,
+    "prepare": 0.65,
+    "damageStart": 0.65,
+    "damageEnd": 0.85,
+    "chargeDistance": 1.5,
+    "chargeSpeed": 7.5,
+    "interval": 1.6,
+    "definition": {
+      "id": "01_thorn-root",
+      "sourceSha256": "53f092f6b16bac8c72124244e224a2b2daeb15fdb8639e8dc5a4d060cece47b8",
+      "maxHP": 60,
+      "damage": 20,
+      "walkSpeed": 2.5,
+      "senseX": 10,
+      "senseY": 4,
+      "sensePeriod": 0.1,
+      "pathPeriod": 0.25,
+      "leash": 16,
+      "reengageTargetLimit": 14,
+      "searchWait": 1.5,
+      "stagger": 0.3,
+      "epsilon": 0.0001,
+      "cliffMargin": 0.03125,
+      "startGap": 3.0,
+      "startHeight": 0.5,
+      "minimumStartDistance": 0.0,
+      "prepare": 0.65,
+      "active": 0.2,
+      "brake": 0,
+      "recovery": 0.17,
+      "interval": 1.6,
+      "chargeDistance": 1.5,
+      "chargeSpeed": 7.5,
+      "moveCycle": 0.64,
+      "deathDuration": 1.6,
+      "bodySize": [
+        1.0,
+        1.3
+      ],
+      "bodyOffset": [
+        0,
+        0.65
+      ],
+      "attackSize": [
+        1.8,
+        1.5
+      ],
+      "attackOffset": [
+        0.9,
+        0.75
+      ],
+      "attackFrameDurations": [
+        0.06,
+        0.07,
+        0.08,
+        0.44,
+        0.04,
+        0.11,
+        0.06,
+        0.07,
+        0.09
+      ],
+      "hurtSize": [
+        1.75,
+        1.9
+      ],
+      "hurtOffset": [
+        0,
+        0.95
+      ]
+    }
+  },
+  "monsterMotions": {
+    "idle": {
+      "frames": [
+        "assets/monster-idle-00.png",
+        "assets/monster-idle-01.png",
+        "assets/monster-idle-02.png",
+        "assets/monster-idle-03.png",
+        "assets/monster-idle-04.png",
+        "assets/monster-idle-05.png",
+        "assets/monster-idle-06.png",
+        "assets/monster-idle-07.png",
+        "assets/monster-idle-08.png",
+        "assets/monster-idle-09.png",
+        "assets/monster-idle-10.png",
+        "assets/monster-idle-11.png"
+      ],
+      "ms": [
+        140,
+        100,
+        150,
+        180,
+        120,
+        100,
+        90,
+        80,
+        160,
+        230,
+        100,
+        90
+      ],
+      "loop": true,
+      "pivotPx": [
+        64,
+        120
+      ]
+    },
+    "hit": {
+      "frames": [
+        "assets/monster-hit-00.png"
+      ],
+      "ms": [
+        120
+      ],
+      "loop": false,
+      "pivotPx": [
+        64,
+        120
+      ]
+    },
+    "death": {
+      "frames": [
+        "assets/monster-death-00.png",
+        "assets/monster-death-01.png",
+        "assets/monster-death-02.png",
+        "assets/monster-death-03.png",
+        "assets/monster-death-04.png",
+        "assets/monster-death-05.png",
+        "assets/monster-death-06.png",
+        "assets/monster-death-07.png",
+        "assets/monster-death-08.png",
+        "assets/monster-death-09.png",
+        "assets/monster-death-10.png",
+        "assets/monster-death-11.png",
+        "assets/monster-death-12.png",
+        "assets/monster-death-13.png"
+      ],
+      "ms": [
+        100,
+        80,
+        80,
+        80,
+        90,
+        90,
+        100,
+        100,
+        120,
+        160,
+        180,
+        180,
+        160,
+        80
+      ],
+      "loop": false,
+      "pivotPx": [
+        64,
+        120
+      ]
+    }
+  },
+  "player": {
+    "idle": {
+      "frames": [
+        "assets/player-idle-00.png",
+        "assets/player-idle-01.png",
+        "assets/player-idle-02.png",
+        "assets/player-idle-03.png",
+        "assets/player-idle-04.png",
+        "assets/player-idle-05.png",
+        "assets/player-idle-06.png",
+        "assets/player-idle-07.png",
+        "assets/player-idle-08.png",
+        "assets/player-idle-09.png"
+      ],
+      "ms": [
+        95,
+        95,
+        95,
+        95,
+        95,
+        95,
+        95,
+        95,
+        95,
+        95
+      ],
+      "pivotPx": [
+        24,
+        40
+      ],
+      "scale": 2
+    },
+    "run": {
+      "frames": [
+        "assets/player-run-00.png",
+        "assets/player-run-01.png",
+        "assets/player-run-02.png",
+        "assets/player-run-03.png",
+        "assets/player-run-04.png",
+        "assets/player-run-05.png",
+        "assets/player-run-06.png",
+        "assets/player-run-07.png"
+      ],
+      "ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "pivotPx": [
+        24,
+        40
+      ],
+      "scale": 2
+    },
+    "basic": {
+      "frames": [
+        "assets/player-attack-00.png",
+        "assets/player-attack-01.png",
+        "assets/player-attack-02.png",
+        "assets/player-attack-03.png",
+        "assets/player-attack-04.png",
+        "assets/player-attack-05.png"
+      ],
+      "ms": [
+        70,
+        70,
+        60,
+        80,
+        60,
+        60
+      ],
+      "pivotPx": [
+        48,
+        58
+      ],
+      "scale": 2
+    },
+    "special": {
+      "frames": [
+        "assets/player-attack-00.png",
+        "assets/player-attack-01.png",
+        "assets/player-attack-02.png",
+        "assets/player-attack-03.png",
+        "assets/player-attack-04.png",
+        "assets/player-attack-05.png"
+      ],
+      "ms": [
+        80,
+        150,
+        70,
+        100,
+        100,
+        100
+      ],
+      "pivotPx": [
+        48,
+        58
+      ],
+      "scale": 2
+    }
+  },
+  "audio": {
+    "basic": {
+      "path": "assets/basic-swing.wav",
+      "source": {
+        "id": "base_sword_basic_0",
+        "clip": "ApprovedCombatAudio/Weapons/base_sword_basic_0",
+        "samples": 19200,
+        "frequency": 48000,
+        "sha256": "664846f3dfcfc02f004ca6e4ace0685de74d097e81ce4f8c003af51936687da2",
+        "sourceKey": "base_sword/combo",
+        "regionStart": 0,
+        "nominalDuration": 0.4,
+        "nominalImpact": 0.2,
+        "basic": true
+      },
+      "gain": 0.9
+    },
+    "special": {
+      "path": "assets/special-swing.wav",
+      "source": {
+        "id": "base_sword_default",
+        "clip": "ApprovedCombatAudio/Weapons/base_sword_default",
+        "samples": 33600,
+        "frequency": 48000,
+        "sha256": "08e5bea7e25d67bba40147db25ab74a43f9cbe294fc17876276c5c24b2d882b4",
+        "sourceKey": "base_sword_default",
+        "regionStart": 0,
+        "nominalDuration": 0.7,
+        "nominalImpact": 0.3,
+        "basic": false
+      },
+      "gain": 0.9
+    },
+    "hit": {
+      "path": "assets/ink-hit.wav",
+      "gain": 1.35,
+      "prePeakSeconds": 0.012
+    }
+  },
+  "scope": {
+    "playable": "Grounded sword feedback study: basic hit 1 and strong slash; stationary approved thorn-root target; death/respawn; left-right movement; optional occluding wall.",
+    "notIncluded": [
+      "Unity integration",
+      "Enemy pursuit/attacks",
+      "Jump/dash/full combo",
+      "Final balance/feedback approval"
+    ],
+    "vfx": "New deterministic pixel ink slash, severed droplets, contact blot and floor stain; separate from monster source pixels.",
+    "audio": "Approved runtime sword and strong-sword WAVs, approved ink-hit WAV; actual contact triggers ink-hit only.",
+    "feedbackProposal": {
+      "basicHitstopMs": 35,
+      "specialHitstopMs": 65,
+      "specialAddsGameplayPush": false
+    }
+  }
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "kind": "basic",
+    "type": "slash",
+    "frames": 8,
+    "durationMs": 260,
+    "pivotPx": [
+      128,
+      96
+    ],
+    "canvas": [
+      256,
+      192
+    ]
+  },
+  {
+    "kind": "basic",
+    "type": "impact",
+    "frames": 12,
+    "durationMs": 480,
+    "pivotPx": [
+      128,
+      96
+    ],
+    "canvas": [
+      256,
+      192
+    ]
+  },
+  {
+    "kind": "basic",
+    "type": "stain",
+    "frames": 12,
+    "durationMs": 3400,
+    "pivotPx": [
+      128,
+      140
+    ],
+    "canvas": [
+      256,
+      192
+    ]
+  },
+  {
+    "kind": "strong",
+    "type": "slash",
+    "frames": 8,
+    "durationMs": 260,
+    "pivotPx": [
+      128,
+      96
+    ],
+    "canvas": [
+      256,
+      192
+    ]
+  },
+  {
+    "kind": "strong",
+    "type": "impact",
+    "frames": 12,
+    "durationMs": 480,
+    "pivotPx": [
+      128,
+      96
+    ],
+    "canvas": [
+      256,
+      192
+    ]
+  },
+  {
+    "kind": "strong",
+    "type": "stain",
+    "frames": 12,
+    "durationMs": 3400,
+    "pivotPx": [
+      128,
+      140
+    ],
+    "canvas": [
+      256,
+      192
+    ]
+  }
+]

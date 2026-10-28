@@ -1,0 +1,16 @@
+{
+  "stage": "Six additional basic-attack feasibility studies; not final animation or Unity integration",
+  "weapon_art": "Provisional editable pixel shapes, not approved final weapon designs",
+  "timing": "Repository values rounded to nearest millisecond; hammer source has sub-ms values",
+  "projectiles": "Illustrative visual flight; not mapped to gameplay world units or collision",
+  "SFX": "None",
+  "VFX": "No hit feedback; separate projectile layer only",
+  "limitations": {
+    "hammer": "베기 원본의 한손 중심 자세. 양손 지지와 타격 후 무게 이동 보정 필요.",
+    "shield": "잽 모션을 방패 밀기로 치환. 가드 준비 자세와 팔꿈치 각도 보정 필요.",
+    "greatsword": "카타나 횡베기 두 구간과 내려베기 조합. 손잡이·양손 지지·연타 연결 보정 필요.",
+    "launcher": "사격 원본 활용. 총구 이펙트와 발사음 미적용.",
+    "shuriken": "잽을 투척 동작으로 재사용. 손을 펴는 릴리스 자세 추가 필요.",
+    "bomb": "검의 들어올림을 오버핸드 투척으로 재사용. 릴리스 손모양과 복귀 자세 보정 필요."
+  }
+}

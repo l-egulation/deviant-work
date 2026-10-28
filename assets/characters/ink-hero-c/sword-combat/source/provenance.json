@@ -1,0 +1,272 @@
+[
+  {
+    "path": "assets/monster-idle-00.png",
+    "source": "origin/main:MonsterReference/approved/01_thorn-root/idle/frames/00.png",
+    "sha256": "82436c26e1022c41c81eb576c4862ca980bfa6981a0087539581b24fc032aa41"
+  },
+  {
+    "path": "assets/monster-idle-01.png",
+    "source": "origin/main:MonsterReference/approved/01_thorn-root/idle/frames/01.png",
+    "sha256": "2006b6859e5bb51c9ac63ad8eb1022d33e7b83b1a611f6d06de9fc695ba904a5"
+  },
+  {
+    "path": "assets/monster-idle-02.png",
+    "source": "origin/main:MonsterReference/approved/01_thorn-root/idle/frames/02.png",
+    "sha256": "2d258e8c518a21cd84af37bcbf3a9d4ab63c2737e839874ccfcfdaaf28985199"
+  },
+  {
+    "path": "assets/monster-idle-03.png",
+    "source": "origin/main:MonsterReference/approved/01_thorn-root/idle/frames/03.png",
+    "sha256": "e2ef4f46a7df345aa6be1dfeb6a9dab09286799185942c756e2c2cd27045dfd6"
+  },
+  {
+    "path": "assets/monster-idle-04.png",
+    "source": "origin/main:MonsterReference/approved/01_thorn-root/idle/frames/04.png",
+    "sha256": "7d326787218e686315d8cc6e802d9f9a945c20fe6b370d50ca0b040af9eb6055"
+  },
+  {
+    "path": "assets/monster-idle-05.png",
+    "source": "origin/main:MonsterReference/approved/01_thorn-root/idle/frames/05.png",
+    "sha256": "57c8829fa580dcb6d6bb0ec62bde715547e92d0f9c0a2d63db50042289180304"
+  },
+  {
+    "path": "assets/monster-idle-06.png",
+    "source": "origin/main:MonsterReference/approved/01_thorn-root/idle/frames/06.png",
+    "sha256": "108235c6aa144c245dc48a60a2194069079e6ac3a7e2fc8d57a82c4af209ac49"
+  },
+  {
+    "path": "assets/monster-idle-07.png",
+    "source": "origin/main:MonsterReference/approved/01_thorn-root/idle/frames/07.png",
+    "sha256": "ea6d7fc92052d7d954aec42c46293c019fe39839327fcf4764305160f53fc0ba"
+  },
+  {
+    "path": "assets/monster-idle-08.png",
+    "source": "origin/main:MonsterReference/approved/01_thorn-root/idle/frames/08.png",
+    "sha256": "dba6fa0a3a7ee39222cb7f24285d6683ab71e47f4fe008f6f3f90849ad0ed283"
+  },
+  {
+    "path": "assets/monster-idle-09.png",
+    "source": "origin/main:MonsterReference/approved/01_thorn-root/idle/frames/09.png",
+    "sha256": "a7961c2b2f5977dcafbf670c04e917e0eca4e6a40b5e31f52b4357cefc8c9ae9"
+  },
+  {
+    "path": "assets/monster-idle-10.png",
+    "source": "origin/main:MonsterReference/approved/01_thorn-root/idle/frames/10.png",
+    "sha256": "117da0e8e93b4818e976b4be3a1b2a1a780aa66e051ee2a15927052f256ac2eb"
+  },
+  {
+    "path": "assets/monster-idle-11.png",
+    "source": "origin/main:MonsterReference/approved/01_thorn-root/idle/frames/11.png",
+    "sha256": "eec53f84b102d45cb520c37c82f8639c38d20b9d89a3d774eb15868f590819c6"
+  },
+  {
+    "path": "assets/monster-hit-00.png",
+    "source": "origin/main:MonsterReference/approved/01_thorn-root/hit/frames/00.png",
+    "sha256": "f9d733038ad1719609a5c60c13be990557904cd2f1ab03de68ffeaf4aa36feb8"
+  },
+  {
+    "path": "assets/monster-death-00.png",
+    "source": "origin/main:MonsterReference/approved/01_thorn-root/death/frames/00.png",
+    "sha256": "82436c26e1022c41c81eb576c4862ca980bfa6981a0087539581b24fc032aa41"
+  },
+  {
+    "path": "assets/monster-death-01.png",
+    "source": "origin/main:MonsterReference/approved/01_thorn-root/death/frames/01.png",
+    "sha256": "82436c26e1022c41c81eb576c4862ca980bfa6981a0087539581b24fc032aa41"
+  },
+  {
+    "path": "assets/monster-death-02.png",
+    "source": "origin/main:MonsterReference/approved/01_thorn-root/death/frames/02.png",
+    "sha256": "0fe366007c3e605920d26c3ff678bf711f825afda33027c65e57b3eb80e0bf44"
+  },
+  {
+    "path": "assets/monster-death-03.png",
+    "source": "origin/main:MonsterReference/approved/01_thorn-root/death/frames/03.png",
+    "sha256": "72eb94b70de8cf3860c9b1448f9ab5b908ea94fffa0093601ea1ed27afb43cfd"
+  },
+  {
+    "path": "assets/monster-death-04.png",
+    "source": "origin/main:MonsterReference/approved/01_thorn-root/death/frames/04.png",
+    "sha256": "bbddff17e7386cb56030d9e1c992a7c95286a8244899d76b85ddcb9ed266b827"
+  },
+  {
+    "path": "assets/monster-death-05.png",
+    "source": "origin/main:MonsterReference/approved/01_thorn-root/death/frames/05.png",
+    "sha256": "09c08e16b7c3d2814377108bea6db9392a0cc49198055893d8455ce234918fbd"
+  },
+  {
+    "path": "assets/monster-death-06.png",
+    "source": "origin/main:MonsterReference/approved/01_thorn-root/death/frames/06.png",
+    "sha256": "7e7051a425eac4b56c8acb7bb8f1bcffee80b7d401ab6f7bb445284938b1c1b3"
+  },
+  {
+    "path": "assets/monster-death-07.png",
+    "source": "origin/main:MonsterReference/approved/01_thorn-root/death/frames/07.png",
+    "sha256": "2d7271997dba1ee1ff30e5b1c9539f24a184fe7b2d0ea3a632933a7c32fa4c8e"
+  },
+  {
+    "path": "assets/monster-death-08.png",
+    "source": "origin/main:MonsterReference/approved/01_thorn-root/death/frames/08.png",
+    "sha256": "550da8c9c2c29c99ecc6a4359d5921441ff3485124a399801b06dca8efb4936b"
+  },
+  {
+    "path": "assets/monster-death-09.png",
+    "source": "origin/main:MonsterReference/approved/01_thorn-root/death/frames/09.png",
+    "sha256": "61d4739e31214c371cba8d7f77274dff3b7b3b6c2a09fdb28885673a9e2a86ac"
+  },
+  {
+    "path": "assets/monster-death-10.png",
+    "source": "origin/main:MonsterReference/approved/01_thorn-root/death/frames/10.png",
+    "sha256": "59e837fedbe16758308e63884e0555eadc76a31fa1ca1de13ebf4be00ad80a33"
+  },
+  {
+    "path": "assets/monster-death-11.png",
+    "source": "origin/main:MonsterReference/approved/01_thorn-root/death/frames/11.png",
+    "sha256": "f3b76334523c481ea74e8e938cb76b64fac4064de749621c2f1b95d0af659bca"
+  },
+  {
+    "path": "assets/monster-death-12.png",
+    "source": "origin/main:MonsterReference/approved/01_thorn-root/death/frames/12.png",
+    "sha256": "9d0c41d5da88cd155aa5dd8d3145af6478d3c6ed11a572158e86bee805e86e77"
+  },
+  {
+    "path": "assets/monster-death-13.png",
+    "source": "origin/main:MonsterReference/approved/01_thorn-root/death/frames/13.png",
+    "sha256": "1594258d650464372a84556d099c6f0fad9551bbf0efe58e7403336fee183eee"
+  },
+  {
+    "path": "assets/player-idle-00.png",
+    "source": "output/c-basic-motions-v6/C-idle-00.png",
+    "sha256": "cc5e9e9c95399b589d5d9d7c00a590fb8761811258b2034fa1536f1ca8ef0de6"
+  },
+  {
+    "path": "assets/player-idle-01.png",
+    "source": "output/c-basic-motions-v6/C-idle-01.png",
+    "sha256": "ad2c4f052bf25e680ac0ff4b7b0e33e19a3b93aa78d99c98128e35c242e7d8ba"
+  },
+  {
+    "path": "assets/player-idle-02.png",
+    "source": "output/c-basic-motions-v6/C-idle-02.png",
+    "sha256": "eccdbb04f77fa9572046f627c747105f3a1d2ca9ce88bcc12118e7f8fb1d7be5"
+  },
+  {
+    "path": "assets/player-idle-03.png",
+    "source": "output/c-basic-motions-v6/C-idle-03.png",
+    "sha256": "78695f4c52d23e143d735ac0f05ec6a6557c437dbf10966f32e83597d36d6d8c"
+  },
+  {
+    "path": "assets/player-idle-04.png",
+    "source": "output/c-basic-motions-v6/C-idle-04.png",
+    "sha256": "78695f4c52d23e143d735ac0f05ec6a6557c437dbf10966f32e83597d36d6d8c"
+  },
+  {
+    "path": "assets/player-idle-05.png",
+    "source": "output/c-basic-motions-v6/C-idle-05.png",
+    "sha256": "976b4d11f5340895ffba251bade7fe208882f897128bef0e2730ffd1f45a824b"
+  },
+  {
+    "path": "assets/player-idle-06.png",
+    "source": "output/c-basic-motions-v6/C-idle-06.png",
+    "sha256": "cc5e9e9c95399b589d5d9d7c00a590fb8761811258b2034fa1536f1ca8ef0de6"
+  },
+  {
+    "path": "assets/player-idle-07.png",
+    "source": "output/c-basic-motions-v6/C-idle-07.png",
+    "sha256": "f341b5639ca7672fe499164723d678f1723d35fc25e475f65312060d8ba248ca"
+  },
+  {
+    "path": "assets/player-idle-08.png",
+    "source": "output/c-basic-motions-v6/C-idle-08.png",
+    "sha256": "f341b5639ca7672fe499164723d678f1723d35fc25e475f65312060d8ba248ca"
+  },
+  {
+    "path": "assets/player-idle-09.png",
+    "source": "output/c-basic-motions-v6/C-idle-09.png",
+    "sha256": "f341b5639ca7672fe499164723d678f1723d35fc25e475f65312060d8ba248ca"
+  },
+  {
+    "path": "assets/player-run-00.png",
+    "source": "output/c-basic-motions-v6/C-run-00.png",
+    "sha256": "3ccb1cec01fd7c94195c89364bb440e67315310766d13570d042895cdc0e44ff"
+  },
+  {
+    "path": "assets/player-run-01.png",
+    "source": "output/c-basic-motions-v6/C-run-01.png",
+    "sha256": "ad2eaa6c84a5bced63cdf991ebbfa52265f26c3d31366938e3a13620b27d2d51"
+  },
+  {
+    "path": "assets/player-run-02.png",
+    "source": "output/c-basic-motions-v6/C-run-02.png",
+    "sha256": "dba59d854fcee92fd4426ac8fdfe66eedcc589c6e32eafcce303d1ac6128ce6d"
+  },
+  {
+    "path": "assets/player-run-03.png",
+    "source": "output/c-basic-motions-v6/C-run-03.png",
+    "sha256": "06f6e18cd2349dec888560a3a00a38babbcc6cc779f950c7038df90bc5f5d337"
+  },
+  {
+    "path": "assets/player-run-04.png",
+    "source": "output/c-basic-motions-v6/C-run-04.png",
+    "sha256": "74ee1921a1b4e96fc0f09fb2cf5de8dd8f531b1bf79449bf4f118815544d41d7"
+  },
+  {
+    "path": "assets/player-run-05.png",
+    "source": "output/c-basic-motions-v6/C-run-05.png",
+    "sha256": "802a008c4ddd4ea9a8440b6e40a463e084e646b9e9365252dc565cfaeedbba27"
+  },
+  {
+    "path": "assets/player-run-06.png",
+    "source": "output/c-basic-motions-v6/C-run-06.png",
+    "sha256": "05f6e9a6e4ff25ee23e29f3442f2a1d89c8ce7cbc589d3a781d4bb0b7cc9be47"
+  },
+  {
+    "path": "assets/player-run-07.png",
+    "source": "output/c-basic-motions-v6/C-run-07.png",
+    "sha256": "b873e8d8311f0f4896b762f5d27c30d5dc3390a39398c7c1dd9de0f6a3b296e8"
+  },
+  {
+    "path": "assets/player-attack-00.png",
+    "source": "Purchased Sword Attack cel 0; C costume adaptation",
+    "sha256": "b9e3a9527f61ec05940b0846a02a73495848ac3a79bee880f7faeb0b09392cd5"
+  },
+  {
+    "path": "assets/player-attack-01.png",
+    "source": "Purchased Sword Attack cel 1; C costume adaptation",
+    "sha256": "d6bec1324bbb49dd0b9193c8ca49755f0650966256b2e73fa65edeebd7659912"
+  },
+  {
+    "path": "assets/player-attack-02.png",
+    "source": "Purchased Sword Attack cel 2; C costume adaptation",
+    "sha256": "b7f107ad89172c4bb110ecafb2d3c682e94b4db1786f9d325dc329b08b68f672"
+  },
+  {
+    "path": "assets/player-attack-03.png",
+    "source": "Purchased Sword Attack cel 3; C costume adaptation",
+    "sha256": "b4bdd617786257ff348bc597b92fc340f36cee5266df3ab4da8a7fd4fdff4e76"
+  },
+  {
+    "path": "assets/player-attack-04.png",
+    "source": "Purchased Sword Attack cel 4; C costume adaptation",
+    "sha256": "c2fab6a7e2296f6c2ba6d026f8644f3066a961bff15f1d1d26d277a602f9319b"
+  },
+  {
+    "path": "assets/player-attack-05.png",
+    "source": "Purchased Sword Attack cel 5; C costume adaptation",
+    "sha256": "0311ebe01b01a483ef2b0f7be6ecd432d707d7cff4f58de056915a0db561fd5c"
+  },
+  {
+    "path": "assets/basic-swing.wav",
+    "source": "origin/main:unity/Assets/Deviant/Audio/Resources/ApprovedCombatAudio/Weapons/base_sword_basic_0.wav",
+    "sha256": "664846f3dfcfc02f004ca6e4ace0685de74d097e81ce4f8c003af51936687da2"
+  },
+  {
+    "path": "assets/special-swing.wav",
+    "source": "origin/main:unity/Assets/Deviant/Audio/Resources/ApprovedCombatAudio/Weapons/base_sword_default.wav",
+    "sha256": "08e5bea7e25d67bba40147db25ab74a43f9cbe294fc17876276c5c24b2d882b4"
+  },
+  {
+    "path": "assets/ink-hit.wav",
+    "source": "origin/main:unity/Assets/Deviant/Audio/SFX/Weapons/sfx_combat_hit_ink_01_v01.wav",
+    "sha256": "8e6dc87b0e874ee4e01a738642a000333607a7268e94c792fa970dab4b49ccaa"
+  }
+]

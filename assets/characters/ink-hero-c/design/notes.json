@@ -1,0 +1,11 @@
+{
+  "source": "Purchased Idle frame 0",
+  "canvas": [
+    48,
+    48
+  ],
+  "body_pose_and_cloth_silhouette": "unchanged",
+  "detail_layer": "16 pixel positions: collar fold, diagonal fabric fold, two-pixel brass clasp",
+  "animation": "single pose only",
+  "verification": "Identical final alpha; ASE cels round-trip verified; application not tested"
+}

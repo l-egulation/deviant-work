@@ -1,0 +1,159 @@
+{
+  "source": "Purchased 2D Pixel Art Character Template .aseprite files",
+  "design": "Approved C idle v5; same mantle silhouette, folds and clasp, translated and run lower rows shifted 1px for lean",
+  "validation": "Body cel positions retained; Walk Back Arm detached components <=2px removed. Other body masks unchanged. ASE cels and original durations round-trip verified. Aseprite app and game not tested.",
+  "gif_timing": "95/135 ms source durations alternated to 10ms GIF precision; exact in ASE",
+  "clips": {
+    "Idle": {
+      "count": 10,
+      "durations_ms": [
+        95,
+        95,
+        95,
+        95,
+        95,
+        95,
+        95,
+        95,
+        95,
+        95
+      ],
+      "registrations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          -1
+        ]
+      ]
+    },
+    "Walk": {
+      "count": 8,
+      "durations_ms": [
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135
+      ],
+      "registrations": [
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          2,
+          0
+        ]
+      ]
+    },
+    "Run": {
+      "count": 8,
+      "durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "registrations": [
+        [
+          2,
+          -2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          3,
+          -2
+        ],
+        [
+          3,
+          -2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          2,
+          -2
+        ]
+      ]
+    }
+  }
+}
