@@ -3777,7 +3777,7 @@
     {
       "file": "ink-hero-c/short-robe-v16/README.md",
       "source": "short robe v16; purchased body clips with attached costume",
-      "sha256": "18f93f95a5f1c7d4e03d4a32f57b1b3edff547677626de684f277c5d0d220bd4"
+      "sha256": "7ef988d0506b99aab495b0d252c537a123c3f4062ce3f0b1d21008fd82265e5a"
     },
     {
       "file": "ink-hero-c/short-robe-v16/app.js",
@@ -4507,7 +4507,7 @@
     {
       "file": "ink-hero-c/short-robe-v16/cloth.js",
       "source": "short robe v16; purchased body clips with attached costume",
-      "sha256": "c93ac893d71980291ff287edc9abdcc7b9eb04198a43542fd939f9b69dd4a6da"
+      "sha256": "6dda56ef16a7b26446ef8265cd97f94c0848f18ca35171a52ac6d4f26a0034d6"
     },
     {
       "file": "ink-hero-c/short-robe-v16/content.js",
@@ -4532,32 +4532,37 @@
     {
       "file": "ink-hero-c/short-robe-v16/preview-fixed.png",
       "source": "short robe v16; purchased body clips with attached costume",
-      "sha256": "d9fbd7f6758139e598defff4433189995a318acd33f6868cfa9980c774f602ae"
+      "sha256": "89d65c0b04e594a441aab78849b4abb1b39d7773a9c207c8b8d561b1c5c35607"
     },
     {
       "file": "ink-hero-c/short-robe-v16/preview-idle.png",
       "source": "short robe v16; purchased body clips with attached costume",
-      "sha256": "f842f512eb91a80b1e60517a66ced40966da1bbf15e0bf215fc8a9580583ed35"
+      "sha256": "242eb7a00aea63d5f8106adf73a271a063d347b12030895ce42a20538bd36b05"
     },
     {
       "file": "ink-hero-c/short-robe-v16/preview-motion.gif",
       "source": "short robe v16; purchased body clips with attached costume",
-      "sha256": "23a7b444baef4566c8a026ea0109f80cb685b07d2c2358fcdab921e994a02dfd"
+      "sha256": "0be01139982a53880d24061e3ef016536e9d5c4a8132faf6bc2900a8faf83fdc"
     },
     {
       "file": "ink-hero-c/short-robe-v16/preview-run.png",
       "source": "short robe v16; purchased body clips with attached costume",
-      "sha256": "fa756a40aeb70bafb43164f33702adec8a73b92fd65ed248a61eba2554f8eaf6"
+      "sha256": "bc7155f800e425463a9ff54f4aac9af1a6438580df259248ae80eef398d9c127"
     },
     {
       "file": "ink-hero-c/short-robe-v16/preview-stop.png",
       "source": "short robe v16; purchased body clips with attached costume",
-      "sha256": "f05c4ce3ec8fcbae23bde87a6ce4c03204d36bd9ce1d77576df2271810b8a7f3"
+      "sha256": "acaaa3f774efa001fce23b5aca99bb456026d08e3b71ad525298ed5ce921fb1b"
     },
     {
       "file": "ink-hero-c/short-robe-v16/verification.json",
       "source": "short robe v16; purchased body clips with attached costume",
       "sha256": "ccb11ccbb17d97d72c1f27e7243b3ecb5d3d232c85faf204561fecb398deff39"
+    },
+    {
+      "file": "ink-hero-c/short-robe-v16/head-before-after.png",
+      "source": "actual browser before and after head correction",
+      "sha256": "3029f80942c82b6318601f8f45a6cc793e30a38fdadca4262138a0bd3351136f"
     }
   ],
   "latest": "ink-hero-c/short-robe-v16"

@@ -33,14 +33,17 @@ function torso(ctx,f){
 }
 
 function hood(ctx,f){const [x,y]=f.head;const shape=(pts,c)=>poly(ctx,pts.map(p=>[p[0]+x,p[1]+y]),c);
- shape([[-6,2],[-3,-3],[1,-5],[6,-4],[10,-1],[10,8],[6,11],[-1,10],[-5,7],[-7,5]],C.edge);
- shape([[-5,2],[-2,-2],[1,-4],[6,-3],[9,0],[8,8],[5,10],[-1,9],[-4,6],[-6,5]],C.wine);
- shape([[-5,2],[-2,-2],[1,-4],[5,-3],[2,0],[-1,3],[-4,5],[-6,5]],C.mid);
- shape([[-4,6],[-1,4],[1,1],[5,-1],[9,-1],[9,8],[6,10],[0,9]],C.goldShade);
- shape([[-2,6],[0,3],[4,0],[9,0],[9,7],[6,10],[1,9]],C.gold);
- shape([[-1,6],[1,3],[5,1],[9,1],[9,7],[6,9],[2,8]],'#141414');
- ctx.fillStyle=C.gold;ctx.fillRect(x+3,y+4,1,3);ctx.fillRect(x+7,y+3,1,3);
+ // Compact, backward-folded hood: narrow rim, recessed face, level eyes.
+ shape([[-4,4],[-2,1],[0,-2],[3,-2],[7,0],[9,1],[9,8],[6,10],[1,9],[-2,7],[-4,6]],C.edge);
+ shape([[-3,4],[-1,1],[1,-1],[3,-1],[7,1],[8,2],[8,8],[5,9],[1,8],[-2,6]],C.wine);
+ shape([[-3,4],[0,0],[1,-1],[3,-1],[6,1],[3,2],[0,5],[-2,5]],C.mid);
+ shape([[-2,6],[0,5],[2,3],[3,3],[1,6],[1,8],[-1,7]],C.deep);
+ shape([[2,4],[5,2],[8,1],[9,2],[9,8],[6,10],[2,8]],C.goldShade);
+ shape([[3,4],[6,2],[8,2],[9,3],[9,8],[6,9],[3,8]],'#141414');
+ line(ctx,[x+2,y+4],[x+7,y+1],C.gold);
+ ctx.fillStyle=C.gold;ctx.fillRect(x+4,y+5,1,2);ctx.fillRect(x+7,y+5,1,2);
 }
+
 function collar(ctx,f){const x=f.head[0],y=f.head[1]+9;poly(ctx,[[x-3,y-1],[x+2,y+1],[x+8,y],[x+7,y+3],[x+2,y+3],[x-3,y+1]],C.goldShade);poly(ctx,[[x-3,y-1],[x+2,y],[x+7,y],[x+6,y+2],[x+2,y+2],[x-2,y]],C.gold);}
 
 class Spring{constructor(x,k,d){this.x=x;this.v=0;this.k=k;this.d=d;}step(target,dt){this.v+=((target-this.x)*this.k-this.v*this.d)*dt;this.x+=this.v*dt;}}
