@@ -3768,6 +3768,11 @@
       "file": "ink-hero-c/three-layer-cloth-v13/README.md",
       "source": "repository documentation",
       "sha256": "0a7e1ab52ac256074472642ade492507efb3e6e7f84969e889eb8f7c883c6589"
+    },
+    {
+      "file": "ink-hero-c/concept-art/identity-redesign-ABC-v15.png",
+      "source": "AI character redesign exploration v15; not animation assets",
+      "sha256": "0dc9f134830848ee0265703af0a08a1c2a91d1c681c5377d3e57c4970a71b7c1"
     }
   ],
   "latest": "ink-hero-c/three-layer-cloth-v13"
