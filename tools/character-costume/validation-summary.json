@@ -1,0 +1,78 @@
+{
+  "tested_on": "macOS, Python 3 + Pillow",
+  "clips": {
+    "idle": {
+      "frames": 10,
+      "durations_ms": [
+        95,
+        95,
+        95,
+        95,
+        95,
+        95,
+        95,
+        95,
+        95,
+        95
+      ]
+    },
+    "run": {
+      "frames": 8,
+      "durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ]
+    },
+    "jump": {
+      "frames": 6,
+      "durations_ms": [
+        125,
+        125,
+        125,
+        125,
+        125,
+        125
+      ]
+    },
+    "sword": {
+      "frames": 6,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ]
+    },
+    "roll": {
+      "frames": 7,
+      "durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ]
+    }
+  },
+  "frame_total": 37,
+  "automated_checks": [
+    "five layered source clips resolved without flattened fallback",
+    "original frame counts and timings retained",
+    "both pants legs generated for every frame",
+    "style shared across all clips; per-frame overrides explicit",
+    "rotated leg retains source coverage and boot area",
+    "style palette change preserves clothing alpha",
+    "aliases normalized; flattened layer rejected"
+  ],
+  "visual_review": "Five first poses and complete roll contact sheet reviewed. Roll face orientation and overlap remain provisional. No full-game or Windows runtime verification."
+}

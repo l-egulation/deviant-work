@@ -1,0 +1,4 @@
+{
+  "schema": "Keys are clip/frame (zero based), values may contain body_down, head_offset, scarf_angle. Empty means no frame-specific artistic corrections.",
+  "frames": {}
+}
