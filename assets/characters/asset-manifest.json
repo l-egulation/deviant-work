@@ -2942,7 +2942,7 @@
     {
       "file": "ink-hero-c/three-layer-cloth-v13/preview-run.png",
       "source": "three-layer-cloth-v13 / current task",
-      "sha256": "15d89cf251f544f437f4531352114ba964024014532cd6c22dcb09a4e00509d4"
+      "sha256": "a7e5399cf20da755e8bd3cdad9ad7780810c93078cd8c7f0002d48769924f319"
     },
     {
       "file": "ink-hero-c/three-layer-cloth-v13/content.json",
@@ -2952,12 +2952,12 @@
     {
       "file": "ink-hero-c/three-layer-cloth-v13/preview-fixed.png",
       "source": "three-layer-cloth-v13 / current task",
-      "sha256": "83be802ff3a4ffc2f4d3f2f2a1bd459fbf74a2b2c7131d04c7ebf188110391be"
+      "sha256": "fc04ed2c3cdcd0296532d7f2731660087a3569b20c47d3a8cb0c3c5664d1f833"
     },
     {
       "file": "ink-hero-c/three-layer-cloth-v13/preview.html",
       "source": "three-layer-cloth-v13 / current task",
-      "sha256": "64dc2685e021b364ce0ac66af0cfb0a213296a21ed35b4a4b681e9bdf91eb3af"
+      "sha256": "1b823290af86d66360fbeefb7138acf3d3e75b6608fd0f808c01b113055796b9"
     },
     {
       "file": "ink-hero-c/three-layer-cloth-v13/RESEARCH.txt",
@@ -2967,27 +2967,27 @@
     {
       "file": "ink-hero-c/three-layer-cloth-v13/index.html",
       "source": "three-layer-cloth-v13 / current task",
-      "sha256": "99634ed3812525cee446a2ec4bbc1c5bfc9b11b5f8a041a379afe54c8c44b2ad"
+      "sha256": "16318f3c04d600e0df9b56fafb076acee6baee4a16107e638f831e0126553047"
     },
     {
       "file": "ink-hero-c/three-layer-cloth-v13/preview-idle.png",
       "source": "three-layer-cloth-v13 / current task",
-      "sha256": "805a664dab1761cfb38578fea5ad4d1126ab0429b92384ea922842ce7635644d"
+      "sha256": "4acf019ac2231db5496dd3edabef265bc6d8d78a15996b924d450447c66a5017"
     },
     {
       "file": "ink-hero-c/three-layer-cloth-v13/preview-stop.png",
       "source": "three-layer-cloth-v13 / current task",
-      "sha256": "9394d38a08b144eef8b016f5e392976c039f112c6dcb2bd951c0ccf8cea2233d"
+      "sha256": "055f2da89cd7116f448d566d7136c7d6a6f7f3704ffc1a046378138bc1c78224"
     },
     {
       "file": "ink-hero-c/three-layer-cloth-v13/README.txt",
       "source": "three-layer-cloth-v13 / current task",
-      "sha256": "ef155cee1f92055793b5b2d7367821376b9b9dad343436c8eb8e58957fbfe680"
+      "sha256": "409f53121e2d7f5a8d3748aaadadd89a036480a06057d84b0493240fded55b87"
     },
     {
       "file": "ink-hero-c/three-layer-cloth-v13/verification.json",
       "source": "three-layer-cloth-v13 / current task",
-      "sha256": "cb763b226ccc067c2d9f13bc34fd8b01e97a7f5688a95a8418dfa8eceaf0c8df"
+      "sha256": "0650e8314bebde89adb97acadc66d6b79a36b2badf8656b656d34ce5344ba01d"
     },
     {
       "file": "ink-hero-c/three-layer-cloth-v13/design-static.png",
@@ -2997,7 +2997,7 @@
     {
       "file": "ink-hero-c/three-layer-cloth-v13/preview-motion.gif",
       "source": "three-layer-cloth-v13 / current task",
-      "sha256": "c524a71b2d5977af0da7d3e0c4a9b56d2a92e584b574ccde94841b130deabafd"
+      "sha256": "9171e2a512882bbe6b39f0b4b18cc01f54d10926ca09b06d92fba54472e8cff8"
     },
     {
       "file": "ink-hero-c/three-layer-cloth-v13/content.js",
@@ -3012,12 +3012,12 @@
     {
       "file": "ink-hero-c/three-layer-cloth-v13/app.js",
       "source": "three-layer-cloth-v13 / current task",
-      "sha256": "eb2c38473a561a56f35c6554e8faf8b5314b3ad07e0255dbf56552cee5b65927"
+      "sha256": "cf486e2f3a4e4e6e1003efd14099d14a62aa1fbbab729051e9e5aab23b0ec2cc"
     },
     {
       "file": "ink-hero-c/three-layer-cloth-v13/cloth.js",
       "source": "three-layer-cloth-v13 / current task",
-      "sha256": "c257f157201a8955477fbd8c585a14c469f6816524a90c8491382dcc5debd09e"
+      "sha256": "4c2414d71334e2e7812475f577dfc38b117c8b17bc17ac40802031134f229d09"
     },
     {
       "file": "ink-hero-c/three-layer-cloth-v13/assets/run-06-torso.png",
@@ -3767,7 +3767,7 @@
     {
       "file": "ink-hero-c/three-layer-cloth-v13/README.md",
       "source": "repository documentation",
-      "sha256": "77272752e6396551e4dd676c5d5660bfbea6afeda5a92f0cc736001454616a5a"
+      "sha256": "0a7e1ab52ac256074472642ade492507efb3e6e7f84969e889eb8f7c883c6589"
     }
   ],
   "latest": "ink-hero-c/three-layer-cloth-v13"
