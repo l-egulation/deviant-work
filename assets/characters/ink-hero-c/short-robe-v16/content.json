@@ -1,0 +1,689 @@
+{
+  "clips": {
+    "idle": [
+      {
+        "ms": 95,
+        "layers": {
+          "legs": "assets/idle-00-legs.png",
+          "farArm": "assets/idle-00-farArm.png",
+          "torso": "assets/idle-00-torso.png",
+          "nearArm": "assets/idle-00-nearArm.png",
+          "head": "assets/idle-00-head.png",
+          "hood": "assets/idle-00-hood.png",
+          "original": "assets/idle-00-original.png",
+          "inkBody": "assets/idle-00-inkBody.png"
+        },
+        "head": [
+          21,
+          11
+        ],
+        "shoulder": [
+          21,
+          21
+        ],
+        "farShoulder": [
+          26,
+          21
+        ],
+        "waist": [
+          23,
+          28
+        ],
+        "nearWrist": [
+          18,
+          28
+        ],
+        "farWrist": [
+          30,
+          28
+        ]
+      },
+      {
+        "ms": 95,
+        "layers": {
+          "legs": "assets/idle-01-legs.png",
+          "farArm": "assets/idle-01-farArm.png",
+          "torso": "assets/idle-01-torso.png",
+          "nearArm": "assets/idle-01-nearArm.png",
+          "head": "assets/idle-01-head.png",
+          "hood": "assets/idle-01-hood.png",
+          "original": "assets/idle-01-original.png",
+          "inkBody": "assets/idle-01-inkBody.png"
+        },
+        "head": [
+          21,
+          13
+        ],
+        "shoulder": [
+          21,
+          23
+        ],
+        "farShoulder": [
+          26,
+          23
+        ],
+        "waist": [
+          23,
+          30
+        ],
+        "nearWrist": [
+          19,
+          29
+        ],
+        "farWrist": [
+          31,
+          29
+        ]
+      },
+      {
+        "ms": 95,
+        "layers": {
+          "legs": "assets/idle-02-legs.png",
+          "farArm": "assets/idle-02-farArm.png",
+          "torso": "assets/idle-02-torso.png",
+          "nearArm": "assets/idle-02-nearArm.png",
+          "head": "assets/idle-02-head.png",
+          "hood": "assets/idle-02-hood.png",
+          "original": "assets/idle-02-original.png",
+          "inkBody": "assets/idle-02-inkBody.png"
+        },
+        "head": [
+          21,
+          14
+        ],
+        "shoulder": [
+          21,
+          23
+        ],
+        "farShoulder": [
+          26,
+          23
+        ],
+        "waist": [
+          23,
+          30
+        ],
+        "nearWrist": [
+          19,
+          30
+        ],
+        "farWrist": [
+          31,
+          30
+        ]
+      },
+      {
+        "ms": 95,
+        "layers": {
+          "legs": "assets/idle-03-legs.png",
+          "farArm": "assets/idle-03-farArm.png",
+          "torso": "assets/idle-03-torso.png",
+          "nearArm": "assets/idle-03-nearArm.png",
+          "head": "assets/idle-03-head.png",
+          "hood": "assets/idle-03-hood.png",
+          "original": "assets/idle-03-original.png",
+          "inkBody": "assets/idle-03-inkBody.png"
+        },
+        "head": [
+          21,
+          14
+        ],
+        "shoulder": [
+          21,
+          23
+        ],
+        "farShoulder": [
+          26,
+          23
+        ],
+        "waist": [
+          23,
+          30
+        ],
+        "nearWrist": [
+          19,
+          30
+        ],
+        "farWrist": [
+          31,
+          30
+        ]
+      },
+      {
+        "ms": 95,
+        "layers": {
+          "legs": "assets/idle-04-legs.png",
+          "farArm": "assets/idle-04-farArm.png",
+          "torso": "assets/idle-04-torso.png",
+          "nearArm": "assets/idle-04-nearArm.png",
+          "head": "assets/idle-04-head.png",
+          "hood": "assets/idle-04-hood.png",
+          "original": "assets/idle-04-original.png",
+          "inkBody": "assets/idle-04-inkBody.png"
+        },
+        "head": [
+          21,
+          14
+        ],
+        "shoulder": [
+          21,
+          23
+        ],
+        "farShoulder": [
+          26,
+          23
+        ],
+        "waist": [
+          23,
+          30
+        ],
+        "nearWrist": [
+          19,
+          30
+        ],
+        "farWrist": [
+          31,
+          30
+        ]
+      },
+      {
+        "ms": 95,
+        "layers": {
+          "legs": "assets/idle-05-legs.png",
+          "farArm": "assets/idle-05-farArm.png",
+          "torso": "assets/idle-05-torso.png",
+          "nearArm": "assets/idle-05-nearArm.png",
+          "head": "assets/idle-05-head.png",
+          "hood": "assets/idle-05-hood.png",
+          "original": "assets/idle-05-original.png",
+          "inkBody": "assets/idle-05-inkBody.png"
+        },
+        "head": [
+          21,
+          13
+        ],
+        "shoulder": [
+          21,
+          23
+        ],
+        "farShoulder": [
+          26,
+          23
+        ],
+        "waist": [
+          23,
+          30
+        ],
+        "nearWrist": [
+          19,
+          29
+        ],
+        "farWrist": [
+          31,
+          29
+        ]
+      },
+      {
+        "ms": 95,
+        "layers": {
+          "legs": "assets/idle-06-legs.png",
+          "farArm": "assets/idle-06-farArm.png",
+          "torso": "assets/idle-06-torso.png",
+          "nearArm": "assets/idle-06-nearArm.png",
+          "head": "assets/idle-06-head.png",
+          "hood": "assets/idle-06-hood.png",
+          "original": "assets/idle-06-original.png",
+          "inkBody": "assets/idle-06-inkBody.png"
+        },
+        "head": [
+          21,
+          11
+        ],
+        "shoulder": [
+          21,
+          21
+        ],
+        "farShoulder": [
+          26,
+          21
+        ],
+        "waist": [
+          23,
+          28
+        ],
+        "nearWrist": [
+          18,
+          28
+        ],
+        "farWrist": [
+          30,
+          28
+        ]
+      },
+      {
+        "ms": 95,
+        "layers": {
+          "legs": "assets/idle-07-legs.png",
+          "farArm": "assets/idle-07-farArm.png",
+          "torso": "assets/idle-07-torso.png",
+          "nearArm": "assets/idle-07-nearArm.png",
+          "head": "assets/idle-07-head.png",
+          "hood": "assets/idle-07-hood.png",
+          "original": "assets/idle-07-original.png",
+          "inkBody": "assets/idle-07-inkBody.png"
+        },
+        "head": [
+          21,
+          10
+        ],
+        "shoulder": [
+          21,
+          20
+        ],
+        "farShoulder": [
+          26,
+          20
+        ],
+        "waist": [
+          23,
+          27
+        ],
+        "nearWrist": [
+          18,
+          28
+        ],
+        "farWrist": [
+          30,
+          28
+        ]
+      },
+      {
+        "ms": 95,
+        "layers": {
+          "legs": "assets/idle-08-legs.png",
+          "farArm": "assets/idle-08-farArm.png",
+          "torso": "assets/idle-08-torso.png",
+          "nearArm": "assets/idle-08-nearArm.png",
+          "head": "assets/idle-08-head.png",
+          "hood": "assets/idle-08-hood.png",
+          "original": "assets/idle-08-original.png",
+          "inkBody": "assets/idle-08-inkBody.png"
+        },
+        "head": [
+          21,
+          10
+        ],
+        "shoulder": [
+          21,
+          20
+        ],
+        "farShoulder": [
+          26,
+          20
+        ],
+        "waist": [
+          23,
+          27
+        ],
+        "nearWrist": [
+          18,
+          28
+        ],
+        "farWrist": [
+          30,
+          28
+        ]
+      },
+      {
+        "ms": 95,
+        "layers": {
+          "legs": "assets/idle-09-legs.png",
+          "farArm": "assets/idle-09-farArm.png",
+          "torso": "assets/idle-09-torso.png",
+          "nearArm": "assets/idle-09-nearArm.png",
+          "head": "assets/idle-09-head.png",
+          "hood": "assets/idle-09-hood.png",
+          "original": "assets/idle-09-original.png",
+          "inkBody": "assets/idle-09-inkBody.png"
+        },
+        "head": [
+          21,
+          10
+        ],
+        "shoulder": [
+          21,
+          20
+        ],
+        "farShoulder": [
+          26,
+          20
+        ],
+        "waist": [
+          23,
+          27
+        ],
+        "nearWrist": [
+          18,
+          28
+        ],
+        "farWrist": [
+          30,
+          28
+        ]
+      }
+    ],
+    "run": [
+      {
+        "ms": 80,
+        "layers": {
+          "farArm": "assets/run-00-farArm.png",
+          "legs": "assets/run-00-legs.png",
+          "torso": "assets/run-00-torso.png",
+          "nearArm": "assets/run-00-nearArm.png",
+          "head": "assets/run-00-head.png",
+          "hood": "assets/run-00-hood.png",
+          "original": "assets/run-00-original.png",
+          "inkBody": "assets/run-00-inkBody.png"
+        },
+        "head": [
+          23,
+          9
+        ],
+        "shoulder": [
+          21,
+          19
+        ],
+        "farShoulder": [
+          26,
+          19
+        ],
+        "waist": [
+          23,
+          26
+        ],
+        "nearWrist": [
+          31,
+          22
+        ],
+        "farWrist": [
+          17,
+          25
+        ]
+      },
+      {
+        "ms": 80,
+        "layers": {
+          "farArm": "assets/run-01-farArm.png",
+          "legs": "assets/run-01-legs.png",
+          "torso": "assets/run-01-torso.png",
+          "nearArm": "assets/run-01-nearArm.png",
+          "head": "assets/run-01-head.png",
+          "hood": "assets/run-01-hood.png",
+          "original": "assets/run-01-original.png",
+          "inkBody": "assets/run-01-inkBody.png"
+        },
+        "head": [
+          24,
+          12
+        ],
+        "shoulder": [
+          20,
+          20
+        ],
+        "farShoulder": [
+          25,
+          20
+        ],
+        "waist": [
+          22,
+          27
+        ],
+        "nearWrist": [
+          22,
+          28
+        ],
+        "farWrist": [
+          20,
+          27
+        ]
+      },
+      {
+        "ms": 80,
+        "layers": {
+          "farArm": "assets/run-02-farArm.png",
+          "legs": "assets/run-02-legs.png",
+          "torso": "assets/run-02-torso.png",
+          "nearArm": "assets/run-02-nearArm.png",
+          "head": "assets/run-02-head.png",
+          "hood": "assets/run-02-hood.png",
+          "original": "assets/run-02-original.png",
+          "inkBody": "assets/run-02-inkBody.png"
+        },
+        "head": [
+          24,
+          11
+        ],
+        "shoulder": [
+          21,
+          20
+        ],
+        "farShoulder": [
+          26,
+          20
+        ],
+        "waist": [
+          23,
+          27
+        ],
+        "nearWrist": [
+          15,
+          27
+        ],
+        "farWrist": [
+          31,
+          24
+        ]
+      },
+      {
+        "ms": 80,
+        "layers": {
+          "farArm": "assets/run-03-farArm.png",
+          "legs": "assets/run-03-legs.png",
+          "torso": "assets/run-03-torso.png",
+          "nearArm": "assets/run-03-nearArm.png",
+          "head": "assets/run-03-head.png",
+          "hood": "assets/run-03-hood.png",
+          "original": "assets/run-03-original.png",
+          "inkBody": "assets/run-03-inkBody.png"
+        },
+        "head": [
+          24,
+          9
+        ],
+        "shoulder": [
+          22,
+          19
+        ],
+        "farShoulder": [
+          27,
+          19
+        ],
+        "waist": [
+          24,
+          26
+        ],
+        "nearWrist": [
+          15,
+          18
+        ],
+        "farWrist": [
+          35,
+          20
+        ]
+      },
+      {
+        "ms": 80,
+        "layers": {
+          "farArm": "assets/run-04-farArm.png",
+          "legs": "assets/run-04-legs.png",
+          "torso": "assets/run-04-torso.png",
+          "nearArm": "assets/run-04-nearArm.png",
+          "head": "assets/run-04-head.png",
+          "hood": "assets/run-04-hood.png",
+          "original": "assets/run-04-original.png",
+          "inkBody": "assets/run-04-inkBody.png"
+        },
+        "head": [
+          24,
+          9
+        ],
+        "shoulder": [
+          21,
+          19
+        ],
+        "farShoulder": [
+          26,
+          19
+        ],
+        "waist": [
+          23,
+          26
+        ],
+        "nearWrist": [
+          14,
+          22
+        ],
+        "farWrist": [
+          32,
+          22
+        ]
+      },
+      {
+        "ms": 80,
+        "layers": {
+          "farArm": "assets/run-05-farArm.png",
+          "legs": "assets/run-05-legs.png",
+          "torso": "assets/run-05-torso.png",
+          "nearArm": "assets/run-05-nearArm.png",
+          "head": "assets/run-05-head.png",
+          "hood": "assets/run-05-hood.png",
+          "original": "assets/run-05-original.png",
+          "inkBody": "assets/run-05-inkBody.png"
+        },
+        "head": [
+          24,
+          12
+        ],
+        "shoulder": [
+          22,
+          20
+        ],
+        "farShoulder": [
+          27,
+          20
+        ],
+        "waist": [
+          24,
+          27
+        ],
+        "nearWrist": [
+          18,
+          28
+        ],
+        "farWrist": [
+          19,
+          26
+        ]
+      },
+      {
+        "ms": 80,
+        "layers": {
+          "farArm": "assets/run-06-farArm.png",
+          "legs": "assets/run-06-legs.png",
+          "torso": "assets/run-06-torso.png",
+          "nearArm": "assets/run-06-nearArm.png",
+          "head": "assets/run-06-head.png",
+          "hood": "assets/run-06-hood.png",
+          "original": "assets/run-06-original.png",
+          "inkBody": "assets/run-06-inkBody.png"
+        },
+        "head": [
+          24,
+          11
+        ],
+        "shoulder": [
+          22,
+          20
+        ],
+        "farShoulder": [
+          27,
+          20
+        ],
+        "waist": [
+          24,
+          27
+        ],
+        "nearWrist": [
+          29,
+          26
+        ],
+        "farWrist": [
+          17,
+          26
+        ]
+      },
+      {
+        "ms": 80,
+        "layers": {
+          "farArm": "assets/run-07-farArm.png",
+          "legs": "assets/run-07-legs.png",
+          "torso": "assets/run-07-torso.png",
+          "nearArm": "assets/run-07-nearArm.png",
+          "head": "assets/run-07-head.png",
+          "hood": "assets/run-07-hood.png",
+          "original": "assets/run-07-original.png",
+          "inkBody": "assets/run-07-inkBody.png"
+        },
+        "head": [
+          23,
+          9
+        ],
+        "shoulder": [
+          21,
+          19
+        ],
+        "farShoulder": [
+          26,
+          19
+        ],
+        "waist": [
+          23,
+          26
+        ],
+        "nearWrist": [
+          31,
+          20
+        ],
+        "farWrist": [
+          15,
+          19
+        ]
+      }
+    ]
+  },
+  "palette": {
+    "ink": "#141414",
+    "wine": "#722f37",
+    "brass": "#b5a642"
+  },
+  "source": "Purchased 2D Pixel Art Character Template / Idle and Run",
+  "stop": "Reuses Idle frame 0 after Run; no dedicated stop animation in source",
+  "nativeCanvas": [
+    48,
+    48
+  ],
+  "pivot": [
+    24,
+    40
+  ]
+}
