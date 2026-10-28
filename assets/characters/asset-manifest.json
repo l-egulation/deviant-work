@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "selection": "C v5 design; v6 basic; v7 sword/rapier only; v8 six feasibility studies; v9 combat; concept images retained separately",
+  "selection": "C v5 design; v6 basic; v7 sword/rapier only; v8 six feasibility studies; v9 combat; concept images retained separately; v13 three-layer hood/robe/scarf motion and latest concept references",
   "excluded": [
     "whip and dagger motion studies",
     "early clothing motion failures",
@@ -2938,6 +2938,837 @@
       "file": "ink-hero-c/concept-art/palette-reference.png",
       "source": "user-supplied palette reference",
       "sha256": "32a26774d51a7b9a19872e860e8b4d666d7e2de5ead74749a5c74d37ec32a004"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/preview-run.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "15d89cf251f544f437f4531352114ba964024014532cd6c22dcb09a4e00509d4"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/content.json",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "8e517a97bdd1fd237ad24bed8b4175c598d4b7de1d9a9c2de637bdc4d2139f29"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/preview-fixed.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "83be802ff3a4ffc2f4d3f2f2a1bd459fbf74a2b2c7131d04c7ebf188110391be"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/preview.html",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "64dc2685e021b364ce0ac66af0cfb0a213296a21ed35b4a4b681e9bdf91eb3af"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/RESEARCH.txt",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "f0b612c967ae146c32895c44fdcd478db16f3aa26d7d694bb91f80261fe96554"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/index.html",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "99634ed3812525cee446a2ec4bbc1c5bfc9b11b5f8a041a379afe54c8c44b2ad"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/preview-idle.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "805a664dab1761cfb38578fea5ad4d1126ab0429b92384ea922842ce7635644d"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/preview-stop.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "9394d38a08b144eef8b016f5e392976c039f112c6dcb2bd951c0ccf8cea2233d"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/README.txt",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "ef155cee1f92055793b5b2d7367821376b9b9dad343436c8eb8e58957fbfe680"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/verification.json",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "cb763b226ccc067c2d9f13bc34fd8b01e97a7f5688a95a8418dfa8eceaf0c8df"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/design-static.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "d4f5f1be40a58f1a39a1fe58fa7f67e57ded18c33be66c59e014eb35307a6a13"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/preview-motion.gif",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "c524a71b2d5977af0da7d3e0c4a9b56d2a92e584b574ccde94841b130deabafd"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/content.js",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "2529cb79ea2a4fff4392a5450571e10b432d3b25f35ca5b172c99a27e9e93de9"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/character-three-layers.aseprite",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "c0cef5724b866e2eb101dfcffae77dfe8f7d647b2eac20b1ed1f22809e712195"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/app.js",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "eb2c38473a561a56f35c6554e8faf8b5314b3ad07e0255dbf56552cee5b65927"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/cloth.js",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "c257f157201a8955477fbd8c585a14c469f6816524a90c8491382dcc5debd09e"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-06-torso.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "d180fe48d7b0fe660cb566cfe7a1fd6af5eb7bb83f617090be7d3618d44c4a7d"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-03-farArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "89a7e735c9b9de01d478efa8d41ff2479640ff8d7c216f6d23c8b4f1c3109941"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-08-legs.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "64c317f722491efc8bd03145e804d8239eb3f03a3198d442189ee977e6d24423"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-09-legs.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "64c317f722491efc8bd03145e804d8239eb3f03a3198d442189ee977e6d24423"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-07-torso.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "b6dd682fe833f11b1196448beb30f91893711a96f81ddfcd5f9905e8111633cb"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-06-nearArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "284e36e8dcd7ff17e848d7e5a2ee8caff99653edb77184fb09113a3307fa103a"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-01-legs.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "b1785a6e02ce6ee791cf2b36981ec3db4033de917d31240c4fd90aa9677a224a"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-00-legs.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "e49ee65565dff91b1d87cb0885b43a805a0f692b4b5320996ee1dc753a16f6d1"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-06-inkBody.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "85683dfa9ff09b0dfa2d963afd83e4b58321205de570a1ac66540e62f113c992"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-09-inkBody.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "03e192017ce2ab5bd58e4fe2ce939adc617a923e22a385f15eafb289451557ba"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-00-nearArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "d072c5a95dfda792d7018b7baca68302ea1a2877ce5022f10936ae410744da61"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-06-original.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "3bf646e96b02858870fa3f108eb2af5fca421f7507de851014ecfe37c6055d3d"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-05-farArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "982e51fbc83d79d4276c3f1c3a11a039af954821a5d6152ffb2e7286d6c1ed3f"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-01-original.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "88054564050a3975319951a93de937059e16564542f52e13cf0243b9281dc2b0"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-02-legs.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "a520e188ab3c215998a83da8da7b7a489d5d048a98c634c8fb06db06d927794b"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-03-legs.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "a520e188ab3c215998a83da8da7b7a489d5d048a98c634c8fb06db06d927794b"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-05-original.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "5cca26bc1b96b143d3e77e2a7ce7bca8d8af87dc85dd789259f8387e6297f499"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-00-inkBody.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "bc2fde025d747828106277e3c0bfc72389a3ca6fd8714444fd14fbf5eb444165"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-02-original.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "59511bc655314e7bf46c4be428eb6cdc6f5a816b0b2b0a7b938b4b66f3bc4e41"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-00-farArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "fdca9f6bd1bb53cdf9ac954dbcbb02e54620855690262a604217a446d0f66aa0"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-05-nearArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "34ffeb0ea7d77d126bc246e3edd9494212953ca8ddf29926a2f1cb8d042f2708"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-03-head.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "9f03d1aa4fc6fbc9d591c63ada7e61fa5b3eef57fb250af209cd7857f6690dc9"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-02-head.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "9f03d1aa4fc6fbc9d591c63ada7e61fa5b3eef57fb250af209cd7857f6690dc9"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-00-torso.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "41d69eef2ae63bacb16d8b63515076aeb8cd4f467db477a1c3f3bfa19c8bd503"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-05-inkBody.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "b2710ca21520de46352ec5c44402f1d54084fa0fa9197c1750f0b9851f592e7c"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-01-torso.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "50bc0625052f443ff8f23e8e727b7a2ffc3858c387848e3c7e7c600d83435f2d"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-02-hood.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "6df8ecd1a54d17496f6ae692300b2c20dd4d5fb554239437d2535922284bf049"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-03-hood.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "6df8ecd1a54d17496f6ae692300b2c20dd4d5fb554239437d2535922284bf049"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-03-nearArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "dde4447942c2a0667680387f40c20dbb4ff03f49cc2e99b03519edf181bc94a4"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-01-hood.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "07bb1d6bfe4f2b53961881d49f6403ad985abfe92ddadf701c89588acf66cd99"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-00-hood.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "c4fccca511552f21121a9a3270206c9ebc7ea5bfade918e6978ab13e5a5a450f"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-03-original.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "6f09bf403944e96051fc55e89d6a49bdc0cc8ad37b37d933624e63b0569eb1ec"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-06-farArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "8d1ff59252d4a7bf20550dc304e6baa1e6c44e3bac424f9b2c46ebd7d88c5f61"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-00-head.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "81a2107b68ae3b661cd77ffddbfe728cebfee66b54b077b993c579a9a912c3d4"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-04-original.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "8bfb1e19e2445eaa264a9973a7da3cfe03c6605ac1373ca580c380dbbae8bed0"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-01-head.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "16c3893b39d0427c7259b22f6d8c0ef523fe8deb798938aa24f66bef99c9685b"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-08-hood.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "c4760abdf8051e41ada87d43bb9d7b043167e1b0b1604755934a7aa5c4e10866"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-09-hood.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "c4760abdf8051e41ada87d43bb9d7b043167e1b0b1604755934a7aa5c4e10866"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-03-inkBody.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "d4742f52a2e86db7bcc077ddce4ee8faa81543fddd2cd7f6db540afe868daf9c"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-09-head.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "f0b23cc426d3784de2d89b297ef376b252f4069fdb2f38af106038986b6b4a86"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-08-head.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "f0b23cc426d3784de2d89b297ef376b252f4069fdb2f38af106038986b6b4a86"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-00-original.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "3bf646e96b02858870fa3f108eb2af5fca421f7507de851014ecfe37c6055d3d"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-07-original.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "00c816285c72b7638b06df7dd14056ca6c3d92ddd50b2204985cf34580603fd4"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-00-inkBody.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "b1585f31448d8ae70d4f64117a9a2bc9679f1abe33c07dad31096ed6b5de47bb"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-07-torso.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "0539a389bf2f3bd2d83468506580ac1c900a4db22eb9cf19f7afd09af0449ee0"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-06-torso.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "0c164d9ddc29eb0ba6009b8da3603be6d77c982c371ef9d9f4fd555896409309"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-04-head.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "9f03d1aa4fc6fbc9d591c63ada7e61fa5b3eef57fb250af209cd7857f6690dc9"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-05-head.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "4075e8bdb4d0fc6635bb1755c26a70c4caecf1b3d2423a7cf4bc1ba4f30ede9f"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-01-farArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "82e7f4093173d3d99e45a4332c1999081b2ccffdb638e54a4a8ac40fb9a9d4ba"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-05-hood.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "d3520f72794b51865a48f58d4272f79584c52d187954e2fcce9b8877b922252d"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-04-hood.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "6df8ecd1a54d17496f6ae692300b2c20dd4d5fb554239437d2535922284bf049"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-00-nearArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "284e36e8dcd7ff17e848d7e5a2ee8caff99653edb77184fb09113a3307fa103a"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/body.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "28f721488a92b76ceaa98b34ea26951e8f1a52b5644cb35fd2fbb601cda7f22f"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-06-hood.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "e2a5ca56b95df3feab63f16ee8214e3d5f669a38b3cbe7d68ace6be709d843a1"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-07-hood.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "c4fccca511552f21121a9a3270206c9ebc7ea5bfade918e6978ab13e5a5a450f"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-07-head.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "81a2107b68ae3b661cd77ffddbfe728cebfee66b54b077b993c579a9a912c3d4"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-06-head.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "6212b1ccc6b628cbb21ac7f8e928cb1659ca829470be20082a2d3663110164ff"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-06-inkBody.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "bc2fde025d747828106277e3c0bfc72389a3ca6fd8714444fd14fbf5eb444165"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-06-nearArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "fbeaa36005471896c2ec48dcf218487caade03a62cc2f2d4771b6bea973b6df5"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-07-farArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "270c0fb8111a1bc230b262c2522edd1e6f4de19e921260f758dbb2816cae61bc"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-09-nearArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "37b08fc2377f0f1611d49579a7cd153ee120edf2f5bededa784831b317aeaa36"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-03-inkBody.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "42f52db214a3af0c3ede2933a7a64f78f8f47b6fd0306d98b4b919ffdbd47a23"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/scarf.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "58d2e0d0668462cc9f5cc05d7529a10337c8cc970cbcef70f597c13b73c824ca"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-06-legs.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "6fe96f63bd1aef0d9bb48dc7c74de12115e5e757761165bef59cd6fc134c6256"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-07-legs.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "a0955d4e7efd1693213bbb8786b5cfaa5a6f478415605ccb3dbc7d8c07d416eb"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-02-farArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "698d2ce91bf7841b9489dc050c2d5bd01ef0d9ec4096adc0c0740214938549f9"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-09-farArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "d826daf19701e2552340ddf9f9716725c3ac408d4638a3c6ba83592f396429ea"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-03-nearArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "a39fa1bf7cacb18d340cb8cc4ebb0e608c36b9f84eb777c7af15750de2d352d9"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-01-torso.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "9e6c00b28ed87e645f779353d81c1b7fc7c60f6a63abdc271c6387fea0c40d61"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-00-torso.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "0c164d9ddc29eb0ba6009b8da3603be6d77c982c371ef9d9f4fd555896409309"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-05-legs.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "b8af580f00bff87c32b21910efccd7c3c12d5049ec72feb4dfb8ecf14cbccb9d"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-04-legs.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "a520e188ab3c215998a83da8da7b7a489d5d048a98c634c8fb06db06d927794b"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-05-inkBody.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "f59f2de62ca1d1016a4c9401223a97ed6a2e65acec29442cb341f0bfe24904eb"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-05-nearArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "aec2f5f763f7c1121a50943e387d04bc8e3704298d032d67108525b2030c72f0"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-04-farArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "89a7e735c9b9de01d478efa8d41ff2479640ff8d7c216f6d23c8b4f1c3109941"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-02-hood.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "e2a5ca56b95df3feab63f16ee8214e3d5f669a38b3cbe7d68ace6be709d843a1"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-03-hood.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "4f34d43268acc877ae0d68de8275258233a45f55cbd3588d21b3c1a239aec7ae"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-01-farArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "0e228dbad22367a96a8a356ed1fa5bac8aa5df2830f8c88621dc9e368a8af088"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-03-head.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "a32bf5214734ceb2769561eb58b1666d1d0f8edf06051585ff822fc1f2b70efb"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-02-head.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "6212b1ccc6b628cbb21ac7f8e928cb1659ca829470be20082a2d3663110164ff"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-02-inkBody.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "0a84eeb37d551831dfb1370f371b97f56e792de4e7d2eb4f385da7ccf0a47068"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-05-torso.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "1bc6cdbf92711f78f999985a5e1852811ac6bbde3af375ad1a7b1351169a9050"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-04-torso.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "d58b39b3204849d1f7eac3e45d50538b6880a3ab2ae2a25482bed38bf136670f"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-09-original.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "00c816285c72b7638b06df7dd14056ca6c3d92ddd50b2204985cf34580603fd4"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-02-nearArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "dde4447942c2a0667680387f40c20dbb4ff03f49cc2e99b03519edf181bc94a4"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-04-inkBody.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "42f52db214a3af0c3ede2933a7a64f78f8f47b6fd0306d98b4b919ffdbd47a23"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-07-farArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "d826daf19701e2552340ddf9f9716725c3ac408d4638a3c6ba83592f396429ea"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-08-torso.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "b6dd682fe833f11b1196448beb30f91893711a96f81ddfcd5f9905e8111633cb"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-00-head.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "de9eca6a66fb4db68c6f0a5c052676f4db095475fdae877ee0728fb8c40c4394"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-01-head.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "4075e8bdb4d0fc6635bb1755c26a70c4caecf1b3d2423a7cf4bc1ba4f30ede9f"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-04-nearArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "1559edba699f706e8d3b7df2b2e53ad50e702a4c82c6d81f13a570d86fe261ee"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-01-hood.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "d3520f72794b51865a48f58d4272f79584c52d187954e2fcce9b8877b922252d"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-00-hood.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "e6040246a0ec2760ba8fe2698ee4519f0d3af37f612d849f3fd31a518d83c267"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-08-original.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "00c816285c72b7638b06df7dd14056ca6c3d92ddd50b2204985cf34580603fd4"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-03-torso.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "7e1401cf30f3fe97376aafc484dcf0139479e6bf5468a6f699784321b5da74c8"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-02-torso.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "7ef14ef407422c8770fbfeea9df6f625459157efa1b38147dfc1ffb471fbe000"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-02-farArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "89a7e735c9b9de01d478efa8d41ff2479640ff8d7c216f6d23c8b4f1c3109941"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-01-legs.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "87e2ba905d920ff43da58a567ff1d2c8a1e284d04c5810715d4d85233f779645"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-00-legs.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "6c00995d02120d74c5cf1392e7f1fbfea4cce14c2d7f0aafbec7e44cfe2ca9b3"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-01-inkBody.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "46a4091900d0e6fe79ed70bb1d3ade162b16907f1c5b91860a52f589cd1924ba"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-01-nearArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "c213bcc73e8ea0dd62721113647f52e5e34f701eed437d29324919b2eef0808a"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-04-farArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "fe9e3bf082a2d66a9859cf08b6ffd9dddaea6ede52897aae5b9b0ce6fb21c416"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-07-inkBody.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "039ba0b0b5acd76c8bdd445179d37874e1d0af6ff36ff23ab7af40fef5901d72"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-08-inkBody.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "03e192017ce2ab5bd58e4fe2ce939adc617a923e22a385f15eafb289451557ba"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/robe.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "501a760c5e66a570e45ae42ec29e16cddc134de7f78be543905f0cb25378011b"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-02-legs.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "f675e1f86f148cedd79d910f99f04d3295becdf1d1abb1e0e20ef4267bedbcf4"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-03-legs.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "ac29585224420b10aa34cecb2619093c74be6551211d4a3ab591ff0a255e2eac"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-07-nearArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "37b08fc2377f0f1611d49579a7cd153ee120edf2f5bededa784831b317aeaa36"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-04-nearArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "dde4447942c2a0667680387f40c20dbb4ff03f49cc2e99b03519edf181bc94a4"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-06-legs.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "6c00995d02120d74c5cf1392e7f1fbfea4cce14c2d7f0aafbec7e44cfe2ca9b3"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-07-legs.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "64c317f722491efc8bd03145e804d8239eb3f03a3198d442189ee977e6d24423"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-04-torso.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "7e1401cf30f3fe97376aafc484dcf0139479e6bf5468a6f699784321b5da74c8"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-03-farArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "23f7c42b6534084e6a38b41aa6161a2255bbd0846329d8e2855caa7c0c832322"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-04-inkBody.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "56389b9f8af81fbfa90d09ab85d8eb1c90bb516e3d21a4a92ee3e4147f1cb9fd"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-05-torso.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "d2facaeb66fcd62eeba8de8b4f30ad528ef84101f66c1f6cc681299bf09a5c8a"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-08-farArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "d826daf19701e2552340ddf9f9716725c3ac408d4638a3c6ba83592f396429ea"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-06-original.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "a2985ee5442e2ab58336d070d099c189fb5c8353cd66d9e4802921b2cd33d0b6"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-01-original.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "7a2c11ccbf185230ad45a4c49d5edf60a38fe164e7fee590c9d6acc7c5c35612"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-02-nearArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "97ea1c51482a6bb044997966af6342046ad8a1bed5edc9843cfa35eed944f139"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-05-original.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "288a02a77f895a86f7f84166d4aa503d03d169f24aa25ac8e0cdb20a3bb21e27"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-05-legs.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "09b87c26f4961a430b9ec93e909976ed18dc86e1a2e9ebf54d2856961c6d2ef9"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-05-farArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "82e7f4093173d3d99e45a4332c1999081b2ccffdb638e54a4a8ac40fb9a9d4ba"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-04-legs.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "51a4656c72f72b9580dbadc4a7e6275377c7a26b4503d5ed07c9bd7b40336bd4"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-02-original.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "bf17e6afde9bc38cfb2beb0fa06e3a3a11fe76deba843b518ea3a07171a168d3"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-02-inkBody.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "9666d7dc204720e05bbbba734075e94cead86e3065cd4e2acf35dbd2e50d5ef3"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-09-torso.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "b6dd682fe833f11b1196448beb30f91893711a96f81ddfcd5f9905e8111633cb"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-05-hood.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "07bb1d6bfe4f2b53961881d49f6403ad985abfe92ddadf701c89588acf66cd99"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-04-hood.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "4f34d43268acc877ae0d68de8275258233a45f55cbd3588d21b3c1a239aec7ae"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-07-nearArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "eceeaea4f66407a5d303c52991baa4d2977c21d2d359781712610c547d4192b0"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-04-head.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "a32bf5214734ceb2769561eb58b1666d1d0f8edf06051585ff822fc1f2b70efb"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-05-head.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "16c3893b39d0427c7259b22f6d8c0ef523fe8deb798938aa24f66bef99c9685b"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-08-nearArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "37b08fc2377f0f1611d49579a7cd153ee120edf2f5bededa784831b317aeaa36"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-02-torso.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "6de390d0c621223e205963af7cbbf27f7ac5f6309efd687f9016727de7528f27"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-03-torso.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "139232d14d036512963bcb2eeaa38f5a22840341c059f4f7b2cea79f2befdefc"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-00-farArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "8d1ff59252d4a7bf20550dc304e6baa1e6c44e3bac424f9b2c46ebd7d88c5f61"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-07-inkBody.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "03e192017ce2ab5bd58e4fe2ce939adc617a923e22a385f15eafb289451557ba"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-03-original.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "e7bda7c6d5ae38dd02aa51203f5f2383884aa95c55f9609b5ecb9d7f5e5d830c"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-04-original.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "e7bda7c6d5ae38dd02aa51203f5f2383884aa95c55f9609b5ecb9d7f5e5d830c"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-01-nearArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "aec2f5f763f7c1121a50943e387d04bc8e3704298d032d67108525b2030c72f0"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-06-farArm.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "ab57b8ddcef8101cdf2356b56ff4ea37c316c021e742e59345fd4a618a726d2c"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-07-head.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "f0b23cc426d3784de2d89b297ef376b252f4069fdb2f38af106038986b6b4a86"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-06-head.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "de9eca6a66fb4db68c6f0a5c052676f4db095475fdae877ee0728fb8c40c4394"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-00-original.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "0abdb45cc41037ed3faa2526d0cbf95663f2569cb0f0b66760827d1796dcde4d"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-01-inkBody.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "e2e2100b369e714b3727ce327a1ee5736194cb11f232dd80dc118a0f105409c1"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/run-07-original.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "a846a3da67f59c9cca14219591385dc691894a68449ddf96a22d66c6a30496ca"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-06-hood.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "e6040246a0ec2760ba8fe2698ee4519f0d3af37f612d849f3fd31a518d83c267"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/assets/idle-07-hood.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "c4760abdf8051e41ada87d43bb9d7b043167e1b0b1604755934a7aa5c4e10866"
+    },
+    {
+      "file": "ink-hero-c/concept-art/original-robe-wine-concept.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "5d9577d284894c4b9722a58c38c87bd7ff7bb71d17978a67a33e8f6af767f0aa"
+    },
+    {
+      "file": "ink-hero-c/concept-art/sketch-map-palette-comparison.png",
+      "source": "three-layer-cloth-v13 / current task",
+      "sha256": "d1a52224b50e3247a04cd37e9b750e9533df409ebd36b8e0506253f53e1b972e"
+    },
+    {
+      "file": "ink-hero-c/three-layer-cloth-v13/README.md",
+      "source": "repository documentation",
+      "sha256": "77272752e6396551e4dd676c5d5660bfbea6afeda5a92f0cc736001454616a5a"
     }
-  ]
+  ],
+  "latest": "ink-hero-c/three-layer-cloth-v13"
 }

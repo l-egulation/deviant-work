@@ -1,6 +1,25 @@
 # 잉크 주인공 C — 캐릭터 작업 모음
 
-검은 잉크 몸체, 황동색 눈, 와인색 비대칭 어깨천을 사용하는 C안입니다. **구매한 애니메이션 에셋의 자세를 재사용**하고 의상·무기·타이밍을 변형한 작업물입니다. 2026-10-28까지의 유효 작업을 선별했습니다.
+현재 최신 방향은 **원본의 처진 두건·넓은 소매·긴 로브·목도리를 유지한 C 색감**입니다. 이전 비대칭 어깨천 디자인과 구분하여 보존합니다.
+
+## 최신 작업: 3레이어 의상과 관성 모션 (v13)
+
+[최신 시안 폴더와 실행 안내](ink-hero-c/three-layer-cloth-v13/README.md)
+
+![몸체·로브·목도리 모션](ink-hero-c/three-layer-cloth-v13/preview-motion.gif)
+
+`work/asset-design` 브랜치에서 `git pull` 후 아래 파일을 브라우저로 열면 됩니다. 별도 설치나 서버는 필요 없습니다.
+
+```text
+assets/characters/ink-hero-c/three-layer-cloth-v13/index.html
+```
+
+- 방향키를 누르면 달리기, 놓으면 정지. 관성 유무와 몸체/로브/목도리를 개별 비교할 수 있습니다.
+- 구매 Idle/Run 몸 동작에 원본 의상을 맞추고 옷 내부에 변형을 적용한 **브라우저 검증 시안**입니다. Unity 적용본은 아닙니다.
+- 3레이어 Aseprite·투명 PNG·변형 코드·조사 자료를 함께 포함합니다.
+- [원본 로브 디자인](ink-hero-c/concept-art/original-robe-wine-concept.png) / [스케치 맵에서 색 비교](ink-hero-c/concept-art/sketch-map-palette-comparison.png). 색 비교 이미지는 AI 시안으로 실제 게임 캡처가 아닙니다.
+
+## 이전 C 어깨천 디자인과 작업 기록
 
 ## 먼저 보기
 
