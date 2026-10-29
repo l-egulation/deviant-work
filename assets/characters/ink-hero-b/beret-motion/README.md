@@ -1,6 +1,12 @@
 # A 베레모 적용 · B 의상 대기/달리기
 
-## 최신: 모자 볼륨과 눈 모서리 수정
+## 최신: 과도한 모자 크기 보정
+
+[다각도 기준과 확대 비교](hat-reference-crosscheck.png) · [대기 크기 전후](idle-size-comparison.gif) · [달리기 크기 전후](run-size-comparison.gif)
+
+밴드의 머리 접점을 유지하고 모자 크라운을 가로·세로 20% 줄였습니다. 눈과 몸체 비율은 유지했습니다. 비교 이미지는 눈 높이를 비슷하게 맞춘 시각 검토용이며 다각도 도안은 정확한 정투영 설계도가 아닙니다. 아래 약 1.7배 폭 설명과 이전 비교는 과대했던 수정 기록입니다.
+
+## 이전: 모자 볼륨과 눈 모서리 수정
 
 [다섯 방향 디자인 기준](../hat-design/A-beret-refined-turnaround.png) · [대기 수정 전후](idle-refinement-comparison.gif) · [달리기 수정 전후](run-refinement-comparison.gif)
 
