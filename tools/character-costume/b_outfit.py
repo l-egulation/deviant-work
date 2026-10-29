@@ -109,21 +109,24 @@ def render(parts,clip,angle=1.9,wave=0):
     def hp(coords,col):polygon(hood,hc,coords,P[col],hd)
     # Ink head stays visible below a separate low, asymmetric painter's beret.
     hp([(-8,-3),(-4,-7),(4,-7),(9,-3),(11,1),(10,7),(6,10),(-1,10),(-6,7),(-8,3)],'ink')
-    hp([(-7,4),(-4,7),(0,8),(-1,9),(-5,7)],'shadow')
-    # Narrow headband is under the crown, not a hood framing the cheeks.
-    hp([(-8,-3),(-1,-6),(7,-6),(10,-3),(9,-1),(3,-3),(-4,0),(-8,1)],'edge')
-    hp([(-6,-3),(0,-5),(6,-5),(8,-3),(3,-4),(-4,-1)],'wine')
-    hp([(-16,-2),(-15,-6),(-11,-10),(-5,-13),(2,-14),(8,-12),(11,-9),(11,-6),(8,-4),(1,-4),(-6,0),(-12,2),(-15,1)],'edge')
-    hp([(-14,-2),(-13,-6),(-9,-9),(-4,-11),(2,-12),(7,-10),(9,-8),(9,-6),(6,-5),(0,-5),(-7,-1),(-12,0)],'wine')
-    hp([(-12,-5),(-8,-8),(-3,-10),(2,-11),(6,-9),(0,-9),(-5,-7),(-10,-3)],'light')
-    hp([(-14,-1),(-9,-1),(-4,-4),(1,-5),(5,-5),(0,-3),(-6,0),(-12,1)],'shadow')
-    # Small fabric stem, one tip only; simplified at the working resolution.
-    hp([(-7,-12),(-7,-15),(-5,-16),(-3,-14),(-4,-12)],'edge')
-    hp([(-6,-13),(-6,-14),(-5,-14),(-4,-13)],'wine')
-    # Tapered brass ink dabs, not vertical rectangles. Asymmetric edges imply
-    # a soft gaze without adding white sclera or an angry eyebrow.
-    hp([(1,0),(2,2),(2,5),(0,4),(-1,3),(0,1)],'brass')
-    hp([(7,0),(8,1),(8,3),(6,5),(6,2)],'brass')
+    # A reference: generous crown with one low side lobe, about 1.7x the
+    # exposed head width. The curved band is distinct from the overhanging crown.
+    hp([(-9,-1),(-3,-5),(5,-6),(10,-3),(10,0),(6,-2),(1,-2),(-6,3),(-9,3)],'edge')
+    hp([(-7,0),(-2,-3),(5,-4),(8,-2),(5,-3),(1,-1),(-6,2)],'wine')
+    hp([(-22,0),(-21,-4),(-18,-8),(-13,-12),(-7,-15),(0,-17),(6,-16),(10,-13),(12,-9),(12,-5),(10,-3),(6,-5),(2,-5),(-3,-2),(-9,3),(-15,6),(-19,5),(-22,3)],'edge')
+    hp([(-20,0),(-19,-4),(-16,-8),(-12,-11),(-6,-13),(0,-15),(5,-14),(8,-12),(10,-8),(10,-5),(6,-7),(2,-7),(-4,-3),(-10,2),(-15,4),(-19,3)],'wine')
+    hp([(-18,-3),(-14,-8),(-8,-11),(-2,-13),(3,-13),(6,-11),(0,-11),(-6,-8),(-11,-3),(-15,0)],'light')
+    hp([(-20,1),(-16,3),(-12,2),(-6,-1),(-1,-5),(3,-7),(7,-7),(9,-5),(5,-5),(2,-5),(-4,0),(-10,4),(-15,5),(-19,3)],'shadow')
+    hp([(-12,-12),(-13,-15),(-11,-17),(-9,-16),(-9,-14)],'edge')
+    hp([(-11,-14),(-11,-15),(-10,-15),(-10,-14)],'wine')
+    # Upright 3x6 eyes with ONLY four corner pixels removed. Pixel clusters
+    # remain identical across fractional anchors and head pitch: no diamonds.
+    eye_pixels={(x,y) for x in range(3) for y in range(6)
+                if (x,y) not in {(0,0),(2,0),(0,5),(2,5)}}
+    for u in (1,7):
+        ex=round(hc[0])+round(hd[1]*u+hd[0]*1)
+        ey=round(hc[1])+round(-hd[0]*u+hd[1]*1)
+        for x,y in eye_pixels:ImageDraw.Draw(hood).point((ex+x,ey+y),fill=P['brass'])
     body=Image.new('RGBA',size)
     for name in ['back_arm','back_leg']:body.alpha_composite(layers[name])
     body.alpha_composite(layers['front_leg']);body.alpha_composite(shirt)
