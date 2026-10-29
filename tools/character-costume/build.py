@@ -68,51 +68,56 @@ def unit(v):
 def tint(im,color):
     out=Image.new('RGBA',im.size,color);out.putalpha(im.getchannel('A'));return out
 
+def distances(region, seeds):
+    # Multi-source distances remove the arbitrary single-pixel origin at a joint.
+    result={p:0.0 for p in seeds};queue=[(0.0,p) for p in sorted(seeds)];heapq.heapify(queue)
+    while queue:
+        value,(x,y)=heapq.heappop(queue)
+        if value!=result[x,y]:continue
+        for dx,dy in ((1,0),(-1,0),(0,1),(0,-1),(1,1),(-1,1),(1,-1),(-1,-1)):
+            q=x+dx,y+dy;nd=value+math.hypot(dx,dy)
+            if q in region and nd<result.get(q,1e9):result[q]=nd;heapq.heappush(queue,(nd,q))
+    return result
+
+
 def pants(im,hip,front,style):
-    """Distance along the visible leg, not image Y; works on rotated poses too.
-    Root each connected island near the hip; leave the farthest part as boot.
+    """Preserve the authored silhouette; locate boots within the source shin.
+    Palette semantics are configured once for the purchased template. Unknown
+    colors use a documented whole-leg fallback, never a new origin per island.
     """
-    ps=points(im);out=tint(im,style['palette']['ink']);cloth=Image.new('RGBA',im.size)
+    ps=points(im);palette=style['palette'];out=tint(im,palette['ink']);cloth=Image.new('RGBA',im.size)
     if not ps:return out,cloth,{'pixels':0}
-    dist={};remaining=set(ps)
-    while remaining:
-        component={remaining.pop()};todo=list(component)
-        while todo:
-            x,y=todo.pop()
-            for dx,dy in ((1,0),(-1,0),(0,1),(0,-1)):
-                q=x+dx,y+dy
-                if q in remaining:remaining.remove(q);component.add(q);todo.append(q)
-        start=min(component,key=lambda p:(p[0]-hip[0])**2+(p[1]-hip[1])**2)
-        queue=[(0,start)];local={start:0}
-        while queue:
-            d,(x,y)=heapq.heappop(queue)
-            for dx in (-1,0,1):
-                for dy in (-1,0,1):
-                    q=x+dx,y+dy;nd=d+math.hypot(dx,dy)
-                    if q in component and nd<local.get(q,1e9):local[q]=nd;heapq.heappush(queue,(nd,q))
-        maximum=max(local.values()) or 1
-        dist.update({q:d/maximum for q,d in local.items()})
-    cutoff=style['pants']['cuff_fraction'];radius=style['pants']['width_pixels']
-    covered={p for p in ps if dist[p]<=cutoff};expanded=set(covered)
+    shin_colors={tuple(c) for c in style['pants']['source_shin_rgb']}
+    shin={p for p in ps if im.getpixel(p)[:3] in shin_colors};thigh=ps-shin
+    semantic=bool(shin and thigh)
+    if not semantic:shin=set(ps);thigh=set()
+    # Find all shin pixels at the knee seam. This stays at the knee when bent.
+    knee={p for p in shin if any((p[0]+dx,p[1]+dy) in thigh for dx in (-1,0,1) for dy in (-1,0,1))}
+    if not knee:
+        nearest=min((x-hip[0])**2+(y-hip[1])**2 for x,y in shin)
+        knee={p for p in shin if (p[0]-hip[0])**2+(p[1]-hip[1])**2<=nearest+.01}
+    dist=distances(shin,knee)
+    # Disconnected source pixels remain cloth, rather than inventing little boots.
+    maximum=max(dist.values()) or 1
+    boot_length=min(style['pants']['boot_pixels'],maximum*.38)
+    boots={p for p,d in dist.items() if d>maximum-boot_length}
+    covered=ps-boots
+    fill=palette['pants' if front else 'pants_shadow'];fill_rgba=Image.new('RGBA',(1,1),fill).getpixel((0,0))
+    for p in covered:cloth.putpixel(p,fill_rgba)
+    # One restrained shadow edge, not a black ring that consumes thin shins.
+    shadow=Image.new('RGBA',(1,1),palette['pants_shadow' if front else 'pants_edge']).getpixel((0,0))
     for x,y in covered:
-        # Add volume only near the thigh. Keep the calf/cuff silhouette.
-        if dist[x,y]<cutoff*.62:
-            for dx,dy in ((radius,0),(-radius,0),(0,radius),(0,-radius)):
-                q=x+dx,y+dy
-                if 0<=q[0]<im.width and 0<=q[1]<im.height and (q not in ps or q in covered):expanded.add(q)
-    palette=style['palette'];fill=palette['pants' if front else 'pants_shadow']
-    for x,y in expanded:
-        edge=any((x+dx,y+dy) not in expanded for dx,dy in ((1,0),(-1,0),(0,1),(0,-1)))
-        cloth.putpixel((x,y),Image.new('RGBA',(1,1),palette['pants_edge'] if edge else fill).getpixel((0,0)))
+        if (x-1,y) not in covered and (x+1,y) in covered and (x+2,y) in covered:
+            cloth.putpixel((x,y),shadow)
     out.alpha_composite(cloth)
-    assert covered<=expanded
-    return out,cloth,{'source_pixels':len(ps),'covered_pixels':len(covered),'pants_pixels':len(expanded),'boot_pixels':len(ps-covered)}
+    assert points(out)==ps and covered.isdisjoint(boots)
+    return out,cloth,{'source_pixels':len(ps),'covered_pixels':len(covered),'pants_pixels':len(covered),'boot_pixels':len(boots),'semantic_shin':semantic}
 
 def attachments(parts,style,override,scarf_angle):
     pal=style['palette'];size=next(iter(parts.values())).size
     hc=center(points(parts['head']));tc=center(points(parts['torso']))
     down=unit(tuple(override.get('body_down',(tc[0]-hc[0],tc[1]-hc[1]))))
-    right=(down[1],-down[0]);tp=points(parts['torso'])
+    right=(down[1],-down[0]);head_down=unit(tuple(override.get('head_down',down)));head_right=(head_down[1],-head_down[0]);tp=points(parts['torso'])
     projections=[(x-tc[0])*down[0]+(y-tc[1])*down[1] for x,y in tp]
     top=min(projections);bottom=max(projections)
     shoulder=(tc[0]+down[0]*top,tc[1]+down[1]*top)
@@ -120,7 +125,9 @@ def attachments(parts,style,override,scarf_angle):
     head_offset=override.get('head_offset',(0,0));hc=(hc[0]+head_offset[0],hc[1]+head_offset[1])
     result={k:Image.new('RGBA',size) for k in ('robe','hood','scarf_back','collar')}
     def poly(which,coords,color,anchor):
-        ImageDraw.Draw(result[which]).polygon([(round(anchor[0]+right[0]*u+down[0]*v),round(anchor[1]+right[1]*u+down[1]*v)) for u,v in coords],fill=color)
+        r,d=(head_right,head_down) if which=='hood' else (right,down)
+        if which=='robe':coords=[(u, v if v<=bottom-top else (bottom-top)+(v-(bottom-top))*override.get('hem_scale',1)) for u,v in coords]
+        ImageDraw.Draw(result[which]).polygon([(round(anchor[0])+round(r[0]*u+d[0]*v),round(anchor[1])+round(r[1]*u+d[1]*v)) for u,v in coords],fill=color)
     length=max(6,bottom-top)
     # One shoulder-to-hip mesh definition, with a short asymmetric hem.
     poly('robe',[(-4,0),(3,0),(4,length-2),(5,length+3),(2,length+3),(0,length+1),(-2,length+4),(-5,length+2),(-3,length-2)],pal['edge'],shoulder)
@@ -133,15 +140,16 @@ def attachments(parts,style,override,scarf_angle):
     poly('hood',[(-6,0),(-3,-4),(-2,-5),(0,-5),(3,-3),(0,-2),(-3,1),(-5,1)],pal['wine_light'],hc)
     poly('hood',[(-1,0),(2,-2),(5,-3),(6,-2),(6,4),(3,6),(-1,4)],pal['brass_shadow'],hc)
     poly('hood',[(0,0),(3,-2),(5,-2),(6,-1),(6,4),(3,5),(0,4)],pal['ink'],hc)
-    for x in (1,4):poly('hood',[(x,1),(x,2)],pal['brass'],hc)
-    neck=(hc[0]+down[0]*5,hc[1]+down[1]*5)
+    for x in ((4,) if override.get('face')=='tucked' else (1,4)):
+        poly('hood',[(x,1),(x,2)],pal['brass'],hc)
+    neck=(shoulder[0]-down[0],shoulder[1]-down[1])
     poly('collar',[(-5,-1),(0,0),(5,0),(4,2),(0,2),(-4,1)],pal['brass_shadow'],neck)
     poly('collar',[(-4,-1),(0,0),(4,0),(3,1),(0,1)],pal['brass'],neck)
     # Free scarf is secondary motion only. Its attachment uses the same pose.
     a=override.get('scarf_angle',scarf_angle);anchor=(neck[0]-right[0]*4,neck[1]-right[1]*4)
-    length=style['scarf']['length'];end=(anchor[0]+math.cos(a)*length,anchor[1]+math.sin(a)*length)
+    length=style['scarf']['length']*override.get('scarf_length_scale',1);end=(anchor[0]+math.cos(a)*length,anchor[1]+math.sin(a)*length)
     draw=ImageDraw.Draw(result['scarf_back']);draw.line([anchor,end],fill=pal['brass_shadow'],width=style['scarf']['width']+1);draw.line([anchor,end],fill=pal['brass'],width=style['scarf']['width'])
-    return result,hip,{'head':hc,'shoulder':shoulder,'hip':hip,'body_down':down}
+    return result,hip,{'head':hc,'shoulder':shoulder,'hip':hip,'body_down':down,'head_down':head_down}
 
 def render(parts,style,override,angle):
     clothing,hip,anchors=attachments(parts,style,override,angle)
@@ -153,7 +161,10 @@ def render(parts,style,override,angle):
         else:dressed[k]=tint(im,style['palette'].get('near_arm' if k=='front_arm' else 'far_arm','' ) or style['palette']['ink'])
     out=Image.new('RGBA',next(iter(parts.values())).size)
     # Fixed depth contract: back limbs, legs, torso/robe, front arm, hood, collar, weapon.
-    for k in ('scarf_back','back_arm','back_leg','front_leg','torso','robe','front_arm','hood','collar','weapon'):
+    order=['scarf_back','back_arm','back_leg','front_leg','torso','robe','hood','collar','front_arm','weapon']
+    if override.get('front_leg_over_robe'):
+        order.remove('front_leg');order.insert(order.index('front_arm'),'front_leg')
+    for k in order:
         im=clothing.get(k,dressed.get(k))
         if im is not None:out.alpha_composite(im)
     return out,dict(clothing,**layers),anchors,stats
@@ -170,8 +181,8 @@ def save_gif(path,frames,times):
 
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--source-zip',type=Path,required=True);ap.add_argument('--out',type=Path,default=Path(__file__).parent/'_generated');ap.add_argument('--style',type=Path,default=Path(__file__).with_name('style.json'));ap.add_argument('--overrides',type=Path,default=Path(__file__).with_name('overrides.json'));args=ap.parse_args()
-    style=json.loads(args.style.read_text());overrides=json.loads(args.overrides.read_text())['frames'];args.out.mkdir(parents=True,exist_ok=True)
-    report={'source_sha256':hashlib.sha256(args.source_zip.read_bytes()).hexdigest(),'clips':{},'limitations':['This is inferred 2D geometry, not a recovered skeleton.','Depth and face direction during spins need visual review.','Disconnected leg regions are rooted separately; boot boundaries may need overrides.'],'validation':[]};gallery=[]
+    style=json.loads(args.style.read_text());pose_settings=json.loads(args.overrides.read_text());overrides=pose_settings['frames'];profiles=pose_settings.get('clips',{});args.out.mkdir(parents=True,exist_ok=True)
+    report={'source_sha256':hashlib.sha256(args.source_zip.read_bytes()).hexdigest(),'clips':{},'limitations':['This is inferred 2D geometry, not a recovered skeleton.','Roll head direction and folded-leg occlusion use explicit pose annotations.','Unknown source palettes fall back to whole-leg distance; review before using new assets.'],'validation':[]};gallery=[]
     with zipfile.ZipFile(args.source_zip) as z:
         for clip,folder in CLIPS.items():
             choices=[n for n in z.namelist() if '/'+folder+'/' in n and n.endswith('.aseprite') and not n.startswith('__MACOSX/')]
@@ -185,11 +196,12 @@ def main():
                 parts,original=masks(asset,f)
                 if not {'head','torso','front_leg','back_leg'}<=parts.keys():raise ValueError(f'Missing parts {clip}/{i}')
                 angle=2.8 if clip=='run' else 2.1
-                out,layers,anchors,stats=render(parts,style,overrides.get(f'{clip}/{i}',{}),angle)
+                pose=dict(profiles.get(clip,{}),**overrides.get(f'{clip}/{i}',{}))
+                out,layers,anchors,stats=render(parts,style,pose,angle)
                 out.save(dest/f'frame-{i:02}.png')
                 for k,im in layers.items():im.save(dest/f'{k}-{i:02}.png')
                 combo=Image.new('RGB',(640,320));combo.paste(panel(original,clip.upper()+' SOURCE'),(0,0));combo.paste(panel(out,clip.upper()+' COSTUME'),(320,0));previews.append(combo);frames.append(out);times.append(f['ms']);contacts.append(panel(out,str(i)))
-                metadata.append({'frame':i,'duration_ms':f['ms'],'anchors':anchors,'pants':stats,'override':overrides.get(f'{clip}/{i}',{})})
+                metadata.append({'frame':i,'duration_ms':f['ms'],'anchors':anchors,'pants':stats,'pose_settings':pose})
             save_gif(args.out/f'{clip}.gif',previews,times)
             contact=Image.new('RGB',(320*min(5,len(contacts)),320*math.ceil(len(contacts)/5)),'#eee7d6')
             for i,im in enumerate(contacts):contact.paste(im,((i%5)*320,(i//5)*320))

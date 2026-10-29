@@ -1,4 +1,154 @@
 {
-  "schema": "Keys are clip/frame (zero based), values may contain body_down, head_offset, scarf_angle. Empty means no frame-specific artistic corrections.",
-  "frames": {}
+  "schema": "clip/frame keys; head_down is a separate normalized direction, face=tucked shows a side eye; hem_scale reduces folds during tuck; front_leg_over_robe controls near knee occlusion. No changes to source poses or timings.",
+  "frames": {
+    "roll/0": {
+      "head_down": [
+        -0.81915,
+        0.57358
+      ],
+      "hem_scale": 0.7,
+      "scarf_length_scale": 0.7,
+      "scarf_angle": 3.65993
+    },
+    "roll/1": {
+      "head_down": [
+        -0.70711,
+        -0.70711
+      ],
+      "hem_scale": 0.35,
+      "scarf_length_scale": 0.45,
+      "scarf_angle": 5.05619,
+      "face": "tucked",
+      "front_leg_over_robe": true
+    },
+    "roll/2": {
+      "head_down": [
+        0.76604,
+        -0.64279
+      ],
+      "hem_scale": 0.35,
+      "scarf_length_scale": 0.45,
+      "scarf_angle": 6.71426,
+      "face": "tucked",
+      "front_leg_over_robe": true
+    },
+    "roll/3": {
+      "head_down": [
+        0.64279,
+        0.76604
+      ],
+      "hem_scale": 0.35,
+      "scarf_length_scale": 0.45,
+      "scarf_angle": 8.28505,
+      "front_leg_over_robe": true
+    },
+    "roll/4": {
+      "head_down": [
+        0.08716,
+        0.99619
+      ],
+      "hem_scale": 0.7,
+      "scarf_length_scale": 0.7,
+      "scarf_angle": 8.89592,
+      "front_leg_over_robe": true
+    },
+    "roll/5": {
+      "head_down": [
+        -0.42262,
+        0.90631
+      ],
+      "hem_scale": 0.7,
+      "scarf_length_scale": 0.7,
+      "scarf_angle": 3.13633
+    },
+    "roll/6": {
+      "head_down": [
+        -0.81915,
+        0.57358
+      ],
+      "hem_scale": 0.7,
+      "scarf_length_scale": 0.7,
+      "scarf_angle": 3.65993
+    },
+    "jump/2": {
+      "head_down": [
+        -0.08716,
+        0.99619
+      ]
+    },
+    "jump/3": {
+      "head_down": [
+        -0.17365,
+        0.98481
+      ]
+    },
+    "jump/4": {
+      "head_down": [
+        -0.17365,
+        0.98481
+      ]
+    },
+    "jump/5": {
+      "head_down": [
+        -0.08716,
+        0.99619
+      ]
+    },
+    "sword/1": {
+      "head_down": [
+        -0.08716,
+        0.99619
+      ]
+    },
+    "sword/2": {
+      "head_down": [
+        -0.25882,
+        0.96593
+      ]
+    },
+    "sword/3": {
+      "head_down": [
+        -0.42262,
+        0.90631
+      ]
+    },
+    "sword/4": {
+      "head_down": [
+        -0.42262,
+        0.90631
+      ]
+    },
+    "sword/5": {
+      "head_down": [
+        -0.17365,
+        0.98481
+      ]
+    }
+  },
+  "clips": {
+    "idle": {
+      "head_down": [
+        0,
+        1
+      ]
+    },
+    "run": {
+      "head_down": [
+        -0.20791,
+        0.97815
+      ]
+    },
+    "jump": {
+      "head_down": [
+        0,
+        1
+      ]
+    },
+    "sword": {
+      "head_down": [
+        0,
+        1
+      ]
+    }
+  }
 }

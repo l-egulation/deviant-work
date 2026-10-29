@@ -4563,7 +4563,52 @@
       "file": "ink-hero-c/short-robe-v16/head-before-after.png",
       "source": "actual browser before and after head correction",
       "sha256": "3029f80942c82b6318601f8f45a6cc793e30a38fdadca4262138a0bd3351136f"
+    },
+    {
+      "file": "ink-hero-c/shared-costume-motion-preview/run.gif",
+      "source": "rendered costume presentation preview; corrected pants and roll poses",
+      "sha256": "cc457f81ed4ba764de3fd2011405d7461210f08e96ce20fe010854968a487db9"
+    },
+    {
+      "file": "ink-hero-c/shared-costume-motion-preview/sword.gif",
+      "source": "rendered costume presentation preview; corrected pants and roll poses",
+      "sha256": "401d93cb5648be38dbc3baaae6846d24a5d1ba7d5cb5d00ebe0022a7754ef7ea"
+    },
+    {
+      "file": "ink-hero-c/shared-costume-motion-preview/roll.gif",
+      "source": "rendered costume presentation preview; corrected pants and roll poses",
+      "sha256": "82a1d597b9219a919801495c6a49162c446688021e8ce4f9f29a992ebcce6158"
+    },
+    {
+      "file": "ink-hero-c/shared-costume-motion-preview/roll-before-after.gif",
+      "source": "rendered costume presentation preview; corrected pants and roll poses",
+      "sha256": "ff024f0b6fa9b7a39eb8c8d961c74d10a0fc4d1b227504140f5839cf8a45518b"
+    },
+    {
+      "file": "ink-hero-c/shared-costume-motion-preview/all-motions.gif",
+      "source": "rendered costume presentation preview; corrected pants and roll poses",
+      "sha256": "9dd227dbae48eda782a1adf96b39f4e9f03f67b32a7235e5d25d6facdc31c698"
+    },
+    {
+      "file": "ink-hero-c/shared-costume-motion-preview/README.md",
+      "source": "rendered costume presentation preview; corrected pants and roll poses",
+      "sha256": "79338bcdc2cdffa5561c3a40e520bf56f4c05e08f22022292ad2a019cb13f360"
+    },
+    {
+      "file": "ink-hero-c/shared-costume-motion-preview/jump.gif",
+      "source": "rendered costume presentation preview; corrected pants and roll poses",
+      "sha256": "d4bca78a2e761abc9d87e39908b6405f873bb378a06cfd4d4833ef4bee153379"
+    },
+    {
+      "file": "ink-hero-c/shared-costume-motion-preview/idle.gif",
+      "source": "rendered costume presentation preview; corrected pants and roll poses",
+      "sha256": "f7d133d89a4385d5fe09dd884db0caad911223b53d06dfe07c81581f57eb86cd"
+    },
+    {
+      "file": "ink-hero-c/shared-costume-motion-preview/run-before-after.gif",
+      "source": "rendered costume presentation preview; corrected pants and roll poses",
+      "sha256": "689fdbd9bbdcf724afd3fc46523398f35692334797ece6ce9ece1a7ca1a53ece"
     }
   ],
-  "latest": "ink-hero-c/short-robe-v16"
+  "latest": "ink-hero-c/shared-costume-motion-preview"
 }

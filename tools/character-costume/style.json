@@ -1,11 +1,41 @@
 {
   "palette": {
-    "ink": "#141414", "near_arm": "#242426", "far_arm": "#19191c",
-    "pants": "#37363c", "pants_shadow": "#26252b", "pants_edge": "#1b1a20",
-    "wine": "#722f37", "wine_light": "#91434c", "wine_shadow": "#4d2029",
-    "edge": "#321c23", "brass": "#b5a642", "brass_shadow": "#807237"
+    "ink": "#141414",
+    "near_arm": "#242426",
+    "far_arm": "#19191c",
+    "pants": "#48454d",
+    "pants_shadow": "#343239",
+    "pants_edge": "#27252b",
+    "wine": "#722f37",
+    "wine_light": "#91434c",
+    "wine_shadow": "#4d2029",
+    "edge": "#321c23",
+    "brass": "#b5a642",
+    "brass_shadow": "#807237"
   },
-  "pants": {"width_pixels": 1, "cuff_fraction": 0.78},
-  "scarf": {"length": 9, "width": 2},
+  "pants": {
+    "boot_pixels": 2.8,
+    "source_shin_rgb": [
+      [
+        251,
+        242,
+        54
+      ],
+      [
+        172,
+        50,
+        50
+      ],
+      [
+        156,
+        48,
+        77
+      ]
+    ]
+  },
+  "scarf": {
+    "length": 9,
+    "width": 2
+  },
   "notes": "One shared style for every clip. Source poses and durations are retained; geometry inference is not a recovered rig."
 }
