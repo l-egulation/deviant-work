@@ -66,14 +66,12 @@
   },
   "frame_total": 37,
   "automated_checks": [
-    "37 source frames preserve counts and exact input timing in report",
-    "all 74 legs use source shin palette; no whole-leg fallback",
-    "pants preserve source silhouette and do not expand into gaps",
-    "cuff boundary is independent of thigh length",
-    "head pose overrides do not alter robe or collar",
-    "half-pixel head centers do not change hood/eye artwork",
-    "seven unit tests pass",
-    "all exported GIF frames decode and have positive duration"
+    "10 unit tests pass",
+    "37 frame body+scarf composites equal rendered characters byte-for-byte",
+    "same body pose remains identical as scarf physics changes in 120-sample movement preview",
+    "integrated trouser output is invariant to source palette changes",
+    "five clips retain source frame count and timing"
   ],
-  "visual_review": "Reviewed every frame of idle/run/jump/sword/roll. Roll head directions, tucked hem and near-limb occlusion corrected. Other clips keep steadier gaze. No Unity or Windows runtime test."
+  "visual_review": "All five motion contact sheets reviewed. Jump boot placement corrected after detecting mixed palette semantics. Integrated shirt/pants and hood baked into body. Scarf rest, running lift and settling sampled. Not engine integration or Windows runtime verification.",
+  "active_design": "integrated body + scarf"
 }

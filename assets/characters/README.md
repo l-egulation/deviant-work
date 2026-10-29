@@ -1,3 +1,11 @@
+## 최신 확인: 일체형 의상 + 목도리
+
+GitHub 폴더: **`assets/characters/ink-hero-c/integrated-outfit-motion/`**
+
+[대기→달리기→정지 GIF](ink-hero-c/integrated-outfit-motion/movement-scarf.gif) · [다섯 모션 전체](ink-hero-c/integrated-outfit-motion/all-motions.gif) · [파일 안내](ink-hero-c/integrated-outfit-motion/README.md)
+
+새 디자인은 몸·두건·상의·통 넓은 바지를 한 캐릭터 이미지로 만들고 목도리만 분리했습니다. 아래 다른 폴더는 이전 시안입니다.
+
 ## 최신 공통 의상 모션 — 생성 없이 바로 확인
 
 [다섯 모션 GIF](ink-hero-c/shared-costume-motion-preview/all-motions.gif) · [개별 GIF와 설명](ink-hero-c/shared-costume-motion-preview/README.md)

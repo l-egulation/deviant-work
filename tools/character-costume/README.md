@@ -1,58 +1,47 @@
-# 공통 의상 적용 도구 — 5개 동작 검증
+# 일체형 의상 생성 도구
 
-구매한 ZeggyGames ZIP을 자신의 컴퓨터에서 읽어 대기·달리기·점프·검 공격·구르기를 동일한 의상 규칙으로 변환합니다. 원본과 수정 스프라이트는 이 도구 폴더에 배포하지 않습니다. 출력은 `_generated/`에 생성되며 Git에서 제외됩니다.
+**확인만 하려면 도구를 실행하지 마세요.** 완성된 GIF는 [최신 미리보기 폴더](../../assets/characters/ink-hero-c/integrated-outfit-motion/README.md)에 있습니다.
 
-## Windows에서 확인
+GitHub 경로: `assets/characters/ink-hero-c/integrated-outfit-motion/`
 
-1. `work/asset-design` 브랜치를 `git pull` 합니다.
-2. Python 3.10 이상을 설치한 뒤 이 폴더에서 한 번 실행합니다:
+## 현재 디자인
+
+두건·상의·통 넓은 바지·잉크 몸을 **body 한 장으로 확정**하고 **scarf 한 장만 별도 출력**합니다. 이전처럼 로브와 바지를 재생 중 부착하는 방식이 아닙니다. 입력 원본의 부위별 이미지는 제작 시 자세를 참조하는 용도로만 사용합니다. 검 공격의 테스트 무기도 이번 body에 포함됩니다.
+
+- `integrated.py`: 상의에서 바지로 이어지는 실루엣과 2레이어 출력.
+- `integrated-style.json`: 새 디자인의 색·바지 통 설정. 현재 기본값.
+- `overrides.json`: 공통 시선과 구르기 숙임·겹침 설정.
+- `export_movement.py`: 확정된 몸 형태를 유지하면서 목도리만 관성으로 움직이는 GIF.
+- `export_previews.py`: 개별 모션과 전체 비교 GIF.
+- `style.json`: 이전 분리 의상 연구용 설정. 현재 최신 디자인이 아닙니다.
+
+원본 색이 부위 구분과 음영으로 혼용되는 것을 발견하여 **새 일체형 바지는 색 분류를 사용하지 않습니다.** 다리의 가장 큰 연결 영역에서 골반에 가까운 지점을 찾고, 그 지점부터 이어지는 거리를 이용해 발끝과 바지 영역을 정합니다. 허벅지·종아리 둘레에 천의 여유를 주되 발끝은 그대로 유지합니다. 반복 사용할 의상 규칙이며 모든 새 동작의 작화 품질을 자동 보장하는 기능은 아닙니다.
+
+## 로컬 재생성 — 수정할 때만 필요
+
+Python 3.10 이상과 Pillow가 필요합니다. Windows에서:
 
 ```powershell
 py -3 -m pip install -r requirements.txt
-```
-
-3. 구매한 `2D-Pixel-Art-Character-Template.zip`을 `build-windows.cmd` 위로 끌어 놓습니다. 또는:
-
-```powershell
 py -3 build.py --source-zip "C:\경로\2D-Pixel-Art-Character-Template.zip"
 ```
 
-4. `_generated/index.html` 또는 `idle.gif`, `run.gif`, `jump.gif`, `sword.gif`, `roll.gif`를 봅니다. 별도 웹 서버가 필요하지 않습니다.
+또는 구매 ZIP을 `build-windows.cmd` 위에 끌어 놓습니다. 결과는 Git에서 제외된 `_generated/integrated/`에 생성됩니다. Mac/Linux는 `py -3` 대신 `python3`를 사용합니다. Windows 장비에서 실행 검증한 상태는 아닙니다.
 
-Mac/Linux에서는 `py -3` 대신 `python3`를 사용합니다. Python과 Pillow 설치가 필요하며 Windows 실행은 실제 Windows 장비에서 검증하지 않았습니다.
-
-## 무엇이 달라졌나
-
-- 모션 이름에 따라 다른 옷 그림을 임의로 붙이지 않습니다. 다섯 클립이 하나의 `style.json`과 같은 생성 함수를 사용합니다.
-- 원본 부위를 앞·뒤 팔/다리, 머리, 몸통, 무기로 정규화합니다. `Flattened` 같은 지원되지 않는 레이어는 조용히 추정하지 않고 실패합니다.
-- 바지는 원본 팔레트의 종아리 색과 무릎 경계에서의 거리를 이용합니다. 회전한 자세에서도 같은 부위 분류를 사용합니다. 알려지지 않은 팔레트에만 전체 다리 거리 추정을 사용하며 보고서에 표시합니다.
-- 원본 다리의 실루엣을 유지하고 색으로 구분된 허벅지·종아리를 인식합니다. 종아리 안에서 발목 경계를 계산해, 허벅지를 굽혀도 바지 끝이 다리 전체 길이에 따라 이동하지 않게 합니다. 과한 외곽 확장과 검은 테두리는 제거했습니다. 바지 색/신발 길이는 설정 한 곳에서 바꿉니다.
-- 몸통 중심과 머리로 몸의 방향을 추정하되, 머리 시선은 별도 방향을 받습니다. 대기·달리기는 클립 공통 시선, 구르기는 숙임 방향을 명시합니다. 눈을 그리기 전에 기준점을 정수 픽셀로 고정하여 눈 길이가 변하는 현상도 막습니다.
-- `overrides.json`의 `clips`는 공통 자세, `frames`는 구체적인 예외입니다. 구르기에서는 머리 숙임, 짧아진 접힌 옷자락, 앞무릎이 로브 위로 올라오는 순서, 짧게 모은 목도리를 설정합니다. 앞팔은 후드·목둘레보다 앞에 그립니다.
-- 원본은 수정하지 않고 새 결과와 프레임별 의상 레이어 PNG를 출력합니다. 원본 프레임 수와 시간을 `report.json`에 보존합니다.
-
-## 확인된 범위와 한계
-
-구매 ZIP에서 Idle 10 / Run 8 / Jump 6 / Sword Attack 6 / Roll 7, 총 37프레임을 생성했습니다. 두 다리 모두 바지 영역이 생성되며 원본 부위와 시간은 입력 기준을 사용합니다. GIF의 프레임 시간은 포맷 한계 때문에 10ms 단위로 누적 반올림합니다.
-
-`*-frames.png`는 모든 프레임을 검토하는 이미지입니다. 구르기 7프레임의 머리 방향과 옷/무릎/앞팔 겹침을 보정했고 다섯 모션의 37프레임을 확인했습니다. 게임 내 배경·카메라 크기에 따른 최종 가독성 검증은 아직 아닙니다. 뼈대 복원이 아니라 2D 그림에서 방향을 추정하므로 강한 원근·스미어·뒤돌아보기는 추가 기준점/부위 분리가 필요할 수 있습니다. 현재 74개의 다리 프레임은 모두 종아리 팔레트로 처리되어 전체 다리 추정으로 대체된 사례가 없습니다. 다른 에셋 버전이나 새로운 모션을 추가하면 부위 분류와 겹침을 검토해야 합니다.
-
-이 검증에서는 목도리를 동작별 정착 각도로 그립니다. 이전 시안의 실시간 출발/정지 관성까지 이 도구에 이식한 것은 아닙니다. 무기는 원본 검 공격 레이어의 형태/색을 유지하며 무기 재디자인은 포함하지 않습니다. Unity 통합이나 전체 에셋 지원도 아직 아닙니다.
-
-테스트:
+각 모션의 `body-00.png`, `scarf-00.png`를 합치면 `frame-00.png`와 정확히 일치합니다. 머리·바지·로브의 별도 최종 이미지가 없습니다. 원본의 프레임 시간은 `report.json`에 들어 있습니다.
 
 ```powershell
+py -3 export_previews.py --generated _generated/integrated --out _generated/previews
+py -3 export_movement.py --source-zip "C:\경로\2D-Pixel-Art-Character-Template.zip" --out _generated/previews/movement-scarf.gif
 py -3 -m unittest discover -s . -p "test_*.py"
 ```
 
-## 라이선스 확인 사항
+## 검증과 범위
 
-[제작자 공식 페이지](https://zegley.itch.io/2d-platformermetroidvania-asset-pack)는 상업 프로젝트 사용과 수정을 허용하는 동시에 수정 에셋의 재배포/공유를 제한합니다. 게임에 통합해 판매하는 것과 원본 또는 수정 스프라이트 자료를 다운로드 가능하게 공개하는 것을 구분해야 합니다. 문구가 넓으므로 파일 공유 범위가 애매하다면 제작자의 확인을 받는 것이 정확합니다. 이 문서는 법률 판단이나 별도 사용 허가가 아닙니다.
+Idle 10 / Run 8 / Jump 6 / Sword Attack 6 / Roll 7, 총 37프레임을 생성하고 확인했습니다. 2레이어 합성 일치와 목도리 상태에 따른 몸 이미지 불변성을 검사합니다. 원본 프레임 수와 타이밍을 보존하며, GIF만 포맷 한계에 맞춰 10ms 단위로 누적 반올림합니다.
 
-생성 도구만 공유하는 이번 구성은 과거 커밋에 이미 들어간 에셋을 제거하지 않습니다. 비공개 전환이나 과거 업로드 정리는 별도 작업입니다. 생성 결과를 공개 레포에 강제로 추가하지 마세요.
+현재는 미리보기와 로컬 자산 생성 단계입니다. 게임 엔진 통합·모든 구매 동작 지원·새로운 무기 작화는 포함하지 않습니다. 구르기는 명시적인 머리 방향과 가림 순서 보정이 필요하며, 다른 동작을 추가하면 역시 검토해야 합니다.
 
-## 바로 보는 결과
+## 입력과 공유
 
-[다섯 모션 GIF](../../assets/characters/ink-hero-c/shared-costume-motion-preview/all-motions.gif) · [달리기 수정 전후](../../assets/characters/ink-hero-c/shared-costume-motion-preview/run-before-after.gif) · [구르기 수정 전후](../../assets/characters/ink-hero-c/shared-costume-motion-preview/roll-before-after.gif)
-
-미리보기는 이미 레포에 있으므로 확인만 할 때는 생성 명령이 필요하지 않습니다. 재생성한 결과를 같은 형식으로 내보내려면 `export_previews.py --out <출력폴더>`를 사용합니다.
+[제작자 공식 페이지](https://zegley.itch.io/2d-platformermetroidvania-asset-pack)의 상업 프로젝트 사용·수정 허용 및 에셋 재배포 제한을 확인하세요. 이 도구에는 구매 원본 픽셀 데이터가 포함되지 않습니다. 로컬 출력 폴더는 Git에서 제외됩니다. 이전에 레포에 들어간 에셋이나 과거 커밋을 제거하는 작업은 수행하지 않았습니다.

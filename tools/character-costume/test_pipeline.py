@@ -54,4 +54,36 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(role('Back leg'),'back_leg');self.assertEqual(role('Lead Leg'),'front_leg')
         self.assertEqual(role('Front Hand'),'front_arm');self.assertIsNone(role('Flattened'))
 
+
+class IntegratedOutfitTests(unittest.TestCase):
+    def setUp(self):
+        self.style=json.loads(Path(__file__).with_name('integrated-style.json').read_text())
+        def box(rect,color):
+            im=Image.new('RGBA',(48,48));ImageDraw.Draw(im).rectangle(rect,fill=color);return im
+        self.parts={'head':box((21,8,28,15),'white'),'torso':box((20,16,27,24),'white'),
+                    'front_arm':box((28,17,30,26),'white'),'back_arm':box((17,17,19,25),'white')}
+        for name,x in [('front_leg',20),('back_leg',25)]:
+            im=box((x,24,x+2,31),(209,204,96,255));ImageDraw.Draw(im).rectangle((x,32,x+2,39),fill=(251,242,54,255));self.parts[name]=im
+    def test_only_scarf_moves_and_two_layers_reproduce_result(self):
+        from integrated import render_integrated
+        a,la,_,_=render_integrated(self.parts,self.style,{},1.9)
+        b,lb,_,_=render_integrated(self.parts,self.style,{'scarf_wave':1},2.95)
+        self.assertEqual(set(la),{'body','scarf'})
+        self.assertEqual(la['body'].tobytes(),lb['body'].tobytes())
+        self.assertNotEqual(la['scarf'].tobytes(),lb['scarf'].tobytes())
+        for out,ls in [(a,la),(b,lb)]:
+            check=ls['body'].copy();check.alpha_composite(ls['scarf']);self.assertEqual(check.tobytes(),out.tobytes())
+    def test_roomy_leg_adds_volume_without_deleting_source(self):
+        from integrated import roomy_leg
+        source=self.parts['front_leg'];out,stats=roomy_leg(source,(21,23),True,self.style)
+        self.assertTrue(points(source)<points(out));self.assertGreater(stats['integrated_pixels'],stats['covered_pixels'])
+
+    def test_integrated_trousers_ignore_template_color_changes(self):
+        from integrated import roomy_leg
+        from build import tint
+        source=self.parts['front_leg'];plain=tint(source,'white')
+        a,_=roomy_leg(source,(21,23),True,self.style)
+        b,_=roomy_leg(plain,(21,23),True,self.style)
+        self.assertEqual(a.tobytes(),b.tobytes())
+
 if __name__=='__main__':unittest.main()

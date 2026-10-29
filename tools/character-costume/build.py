@@ -180,7 +180,7 @@ def save_gif(path,frames,times):
     frames[0].save(path,save_all=True,append_images=frames[1:],duration=ds,loop=0,disposal=2)
 
 def main():
-    ap=argparse.ArgumentParser();ap.add_argument('--source-zip',type=Path,required=True);ap.add_argument('--out',type=Path,default=Path(__file__).parent/'_generated');ap.add_argument('--style',type=Path,default=Path(__file__).with_name('style.json'));ap.add_argument('--overrides',type=Path,default=Path(__file__).with_name('overrides.json'));args=ap.parse_args()
+    ap=argparse.ArgumentParser();ap.add_argument('--source-zip',type=Path,required=True);ap.add_argument('--out',type=Path,default=Path(__file__).parent/'_generated'/'integrated');ap.add_argument('--style',type=Path,default=Path(__file__).with_name('integrated-style.json'));ap.add_argument('--overrides',type=Path,default=Path(__file__).with_name('overrides.json'));args=ap.parse_args()
     style=json.loads(args.style.read_text());pose_settings=json.loads(args.overrides.read_text());overrides=pose_settings['frames'];profiles=pose_settings.get('clips',{});args.out.mkdir(parents=True,exist_ok=True)
     report={'source_sha256':hashlib.sha256(args.source_zip.read_bytes()).hexdigest(),'clips':{},'limitations':['This is inferred 2D geometry, not a recovered skeleton.','Roll head direction and folded-leg occlusion use explicit pose annotations.','Unknown source palettes fall back to whole-leg distance; review before using new assets.'],'validation':[]};gallery=[]
     with zipfile.ZipFile(args.source_zip) as z:
@@ -197,9 +197,18 @@ def main():
                 if not {'head','torso','front_leg','back_leg'}<=parts.keys():raise ValueError(f'Missing parts {clip}/{i}')
                 angle=2.8 if clip=='run' else 2.1
                 pose=dict(profiles.get(clip,{}),**overrides.get(f'{clip}/{i}',{}))
-                out,layers,anchors,stats=render(parts,style,pose,angle)
+                if style.get('integrated',{}).get('enabled'):
+                    from integrated import render_integrated
+                    phase=sum(times)/sum(fr['ms'] for fr in asset['frames'])
+                    pose=dict(pose,scarf_wave=math.sin(phase*math.tau)*(1.1 if clip=='run' else .25))
+                    out,layers,anchors,stats=render_integrated(parts,style,pose,angle)
+                else:
+                    out,layers,anchors,stats=render(parts,style,pose,angle)
                 out.save(dest/f'frame-{i:02}.png')
                 for k,im in layers.items():im.save(dest/f'{k}-{i:02}.png')
+                if style.get('integrated',{}).get('enabled'):
+                    check=layers['body'].copy();check.alpha_composite(layers['scarf'])
+                    assert check.tobytes()==out.tobytes(), 'Two-layer export differs from composite'
                 combo=Image.new('RGB',(640,320));combo.paste(panel(original,clip.upper()+' SOURCE'),(0,0));combo.paste(panel(out,clip.upper()+' COSTUME'),(320,0));previews.append(combo);frames.append(out);times.append(f['ms']);contacts.append(panel(out,str(i)))
                 metadata.append({'frame':i,'duration_ms':f['ms'],'anchors':anchors,'pants':stats,'pose_settings':pose})
             save_gif(args.out/f'{clip}.gif',previews,times)
@@ -211,6 +220,7 @@ def main():
             assert all(im.getbbox() for im in frames)
             assert all(m['pants'][k]['covered_pixels']>0 for m in metadata for k in ('front_leg','back_leg'))
             report['clips'][clip]={'source':name,'source_canvas':asset['size'],'frame_count':len(frames),'durations_ms':times,'frames':metadata}
+        report['layer_contract']='body + scarf only' if style.get('integrated',{}).get('enabled') else 'separate garment study'
         report['validation']=['five layered source clips resolved without flattened fallback','original frame counts and timings retained','both pants legs generated for every frame','style shared across all clips; per-frame overrides explicit']
     sheet=Image.new('RGB',(320*5,320));[sheet.paste(im,(i*320,0)) for i,im in enumerate(gallery)];sheet.save(args.out/'overview.png');(args.out/'report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     (args.out/'index.html').write_text('<!doctype html><meta charset="utf-8"><title>공통 의상 규칙 검증</title><style>body{background:#eee7d6;font:16px system-ui;padding:24px}img{max-width:100%;image-rendering:pixelated}section{display:inline-block;vertical-align:top;margin:12px}</style><h1>동일 규칙 · 5개 동작</h1><p>왼쪽: 구매 원본 / 오른쪽: 공통 의상 규칙 적용. 자세별 작화 완성본이 아닌 검증 시안입니다.</p>'+''.join(f'<section><h2>{clip}</h2><img src="{clip}.gif"><p><a href="{clip}-frames.png">전체 프레임 확인</a></p></section>' for clip in CLIPS))

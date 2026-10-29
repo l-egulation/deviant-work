@@ -4608,7 +4608,62 @@
       "file": "ink-hero-c/shared-costume-motion-preview/run-before-after.gif",
       "source": "rendered costume presentation preview; corrected pants and roll poses",
       "sha256": "689fdbd9bbdcf724afd3fc46523398f35692334797ece6ce9ece1a7ca1a53ece"
+    },
+    {
+      "file": "ink-hero-c/integrated-outfit-motion/run.gif",
+      "source": "integrated costume presentation preview; baked body and separate scarf",
+      "sha256": "7ad98b0b18eb7e538f45be1bcbc21a7ae0988465f9760dd114e0eaa8b6b4cee6"
+    },
+    {
+      "file": "ink-hero-c/integrated-outfit-motion/movement-scarf.gif",
+      "source": "integrated costume presentation preview; baked body and separate scarf",
+      "sha256": "d55aff0b26d9441f03dcf232f94c5e5a5ccd49eb9ab488d38913d8f90e49daad"
+    },
+    {
+      "file": "ink-hero-c/integrated-outfit-motion/sword.gif",
+      "source": "integrated costume presentation preview; baked body and separate scarf",
+      "sha256": "ae375d32f2bb0e4c2de7ccdc80c367d296c2d6e1cd10ed299b2633b58aec847e"
+    },
+    {
+      "file": "ink-hero-c/integrated-outfit-motion/roll.gif",
+      "source": "integrated costume presentation preview; baked body and separate scarf",
+      "sha256": "2d6bcf71117f58667bc95473bfdd3b5c728681a4bfad1c87a699cde16f0a734c"
+    },
+    {
+      "file": "ink-hero-c/integrated-outfit-motion/roll-before-after.gif",
+      "source": "integrated costume presentation preview; baked body and separate scarf",
+      "sha256": "39715684248695bd6d262ddc8998b3bf908c77c19fd8f9f5db9848bedc2d6ef1"
+    },
+    {
+      "file": "ink-hero-c/integrated-outfit-motion/overview.png",
+      "source": "integrated costume presentation preview; baked body and separate scarf",
+      "sha256": "9e6041d92f93cd9ba47f3f9d332b25ce974ebd3e20573e579ea3389561a92de0"
+    },
+    {
+      "file": "ink-hero-c/integrated-outfit-motion/all-motions.gif",
+      "source": "integrated costume presentation preview; baked body and separate scarf",
+      "sha256": "83fea4ada8f04729c097f1bf977f649d09e93e028cf1c856ad19c240d93c3086"
+    },
+    {
+      "file": "ink-hero-c/integrated-outfit-motion/README.md",
+      "source": "integrated costume presentation preview; baked body and separate scarf",
+      "sha256": "d7337162945548b27d08b94ffba88c0c412fb4096655ae71b72c4ebea7230c1a"
+    },
+    {
+      "file": "ink-hero-c/integrated-outfit-motion/jump.gif",
+      "source": "integrated costume presentation preview; baked body and separate scarf",
+      "sha256": "db55d9f0e26b619449b04b9da8fa94c373c5156d7871f248222d2f2354c4bc79"
+    },
+    {
+      "file": "ink-hero-c/integrated-outfit-motion/idle.gif",
+      "source": "integrated costume presentation preview; baked body and separate scarf",
+      "sha256": "f4267aad955092756202ad66713d0a7f66d9fb31baf2b81956d6ddb28a94313e"
+    },
+    {
+      "file": "ink-hero-c/integrated-outfit-motion/run-before-after.gif",
+      "source": "integrated costume presentation preview; baked body and separate scarf",
+      "sha256": "c140aaf3c36feac3b49051af88f4f5a1ab0dc7f8b83383ea7aff3500530beff4"
     }
   ],
-  "latest": "ink-hero-c/shared-costume-motion-preview"
+  "latest": "ink-hero-c/integrated-outfit-motion"
 }

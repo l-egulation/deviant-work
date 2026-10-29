@@ -12,5 +12,5 @@ if errorlevel 1 (
   pause
   exit /b 1
 )
-start "" "%~dp0_generated\index.html"
+start "" "%~dp0_generated\integrated\index.html"
 pause

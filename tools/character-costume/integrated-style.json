@@ -1,0 +1,45 @@
+{
+  "palette": {
+    "ink": "#141414",
+    "near_arm": "#242426",
+    "far_arm": "#19191c",
+    "pants": "#48454d",
+    "pants_shadow": "#343239",
+    "pants_edge": "#27252b",
+    "wine": "#722f37",
+    "wine_light": "#91434c",
+    "wine_shadow": "#4d2029",
+    "edge": "#321c23",
+    "brass": "#b5a642",
+    "brass_shadow": "#807237"
+  },
+  "pants": {
+    "boot_pixels": 2.8,
+    "source_shin_rgb": [
+      [
+        251,
+        242,
+        54
+      ],
+      [
+        172,
+        50,
+        50
+      ],
+      [
+        156,
+        48,
+        77
+      ]
+    ]
+  },
+  "scarf": {
+    "length": 9,
+    "width": 2
+  },
+  "notes": "Hood/shirt/wide trousers and ink limbs baked into one body frame; scarf is the only separate image. No runtime garment placement.",
+  "integrated": {
+    "enabled": true,
+    "trouser_volume_pixels": 1
+  }
+}
