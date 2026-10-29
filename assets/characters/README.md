@@ -1,3 +1,9 @@
+## 최신 모션: B안 대기·달리기
+
+[목도리 전후 비교 GIF](ink-hero-b/basic-motion/movement-comparison.gif) · [GIF와 적용 범위 안내](ink-hero-b/basic-motion/README.md)
+
+몸·후드·소매·통 넓은 바지를 통합하고 목도리 꼬리만 따로 움직이는 첫 적용 시안입니다.
+
 ## 최신 디자인: B안 픽셀 다각도·의상 파츠
 
 [전체 디자인과 파츠 도안](ink-hero-b/pixel-design/README.md) — 모션 적용 전 디자인 자료입니다. 아래 GIF는 이전 디자인의 모션 검토본입니다.
