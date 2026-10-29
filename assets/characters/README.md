@@ -1,3 +1,9 @@
+## 최신 공통 의상 모션 — 생성 없이 바로 확인
+
+[다섯 모션 GIF](ink-hero-c/shared-costume-motion-preview/all-motions.gif) · [개별 GIF와 설명](ink-hero-c/shared-costume-motion-preview/README.md)
+
+`git pull` 후 `assets/characters/ink-hero-c/shared-costume-motion-preview/all-motions.gif`를 열면 됩니다.
+
 ## 최신: 선택한 짧은 로브 디자인 적용
 
 [짧은 로브 v16](ink-hero-c/short-robe-v16/README.md) · [모션 GIF](ink-hero-c/short-robe-v16/preview-motion.gif)
