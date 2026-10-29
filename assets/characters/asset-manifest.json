@@ -4737,32 +4737,32 @@
     {
       "file": "ink-hero-b/beret-motion/run.gif",
       "source": "A beret applied to existing idle/run pose preview",
-      "sha256": "38043589144d9b9cae1d611524e0d79b778d0d8357fabda027fd9d03716d93af"
+      "sha256": "e0566d08b03bf92467e0101ef929b9697d359b77092b1ff79a0ff487978ce454"
     },
     {
       "file": "ink-hero-b/beret-motion/run-body-only.gif",
       "source": "A beret applied to existing idle/run pose preview",
-      "sha256": "58164625a46c1af39b616d296cc8c3b7dc5785114afe668ac9e955581c914e55"
+      "sha256": "0847c8e392adc0bbd239ec17d988d83e79e1f1cc3b52efa896db990d62ea17fb"
     },
     {
       "file": "ink-hero-b/beret-motion/body-frame-review.png",
       "source": "A beret applied to existing idle/run pose preview",
-      "sha256": "20cad9b6ec0d1c1e95b7499ea9b101eb6806afae73e1bb0192ad6edd7f9cfcaf"
+      "sha256": "871118265ed86cb43c9c429150d729ebf2f8bdc1c80d590046b915020a1e39e1"
     },
     {
       "file": "ink-hero-b/beret-motion/idle-body-only.gif",
       "source": "A beret applied to existing idle/run pose preview",
-      "sha256": "4b8f5f8b5ec66ab0bdce5d7245119c961f66c5a68c1b3bb68a500659f6373114"
+      "sha256": "f061ea171c6e09cc9dcfd00af7c1f3ceca54e562f4e962579f241e8d7a463249"
     },
     {
       "file": "ink-hero-b/beret-motion/movement-comparison.gif",
       "source": "A beret applied to existing idle/run pose preview",
-      "sha256": "246a2742cdc56c645268f6c02e54265be2b9cf44ad574c44c13ca3cde1816e94"
+      "sha256": "539e68c9a2887619b4af364480515dad3f3873282112ecbf841e4cb69304315e"
     },
     {
       "file": "ink-hero-b/beret-motion/idle.gif",
       "source": "A beret applied to existing idle/run pose preview",
-      "sha256": "8d9ba9d806e760ebe64280ad37df944b3bac7ecad5702ac827ec7835b65e8622"
+      "sha256": "f7f7967c8069628d4165565faa83edb92bb49c66769d6cd68e743fef50b3e23a"
     },
     {
       "file": "ink-hero-b/beret-motion/run-before-after.gif",
@@ -4772,14 +4772,29 @@
     {
       "file": "ink-hero-b/beret-motion/idle-design.png",
       "source": "A beret applied to existing idle/run pose preview",
-      "sha256": "c7ede00c6da68f681b653ec3e9900d3dec31af38754b1def0d4685c362db803e"
+      "sha256": "4a3c64939ae09e3a9d05a570b395c2ef53007771404a46b12d023eb52b87c00f"
     },
     {
       "file": "ink-hero-b/beret-motion/idle-before-after.gif",
       "source": "A beret applied to existing idle/run pose preview",
       "sha256": "e637f0419607f191d31a9a4d400a0dc589d7132f9efea9edd4f6f55f16b7487d"
+    },
+    {
+      "file": "ink-hero-b/beret-motion/idle-refinement-comparison.gif",
+      "source": "A beret volume and clipped eye corners",
+      "sha256": "525d354961701cc4166d4d1d674198f4c0a01e154e29d2e937ebeea1ac924984"
+    },
+    {
+      "file": "ink-hero-b/beret-motion/run-refinement-comparison.gif",
+      "source": "A beret volume and clipped eye corners",
+      "sha256": "e7286a6c9f5e807c2e22c2b8bc359b36270b2ae89c3529a865dce0a93e0bf858"
+    },
+    {
+      "file": "ink-hero-b/hat-design/A-beret-refined-turnaround.png",
+      "source": "A beret volume and clipped eye corners",
+      "sha256": "9531eb1c31d3f7fb1b0efb05db14e4dd0a57d658df4ee314e4293ed3846606ee"
     }
   ],
   "latest": "ink-hero-b/beret-motion",
-  "latest_concept": "ink-hero-b/hat-design"
+  "latest_concept": "ink-hero-b/hat-design/A-beret-refined-turnaround.png"
 }
