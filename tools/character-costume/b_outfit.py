@@ -31,7 +31,7 @@ def limb(im, root, front, sleeve=False):
     for x,y in cloth:
         u=ds[x,y]/cut
         # Bell sleeve widens toward wrist; trousers balloon and taper at cuff.
-        radius=round((1+3.5*u) if sleeve else (1+3.5*math.sin(math.pi*u)**.7))
+        radius=round((1+3.0*u) if sleeve else (1+2.0*math.sin(math.pi*u)**.7))
         for dx in range(-radius,radius+1):
             for dy in range(-radius,radius+1):
                 if dx*dx+dy*dy>radius*radius:continue
@@ -75,7 +75,8 @@ def tunic(parts, shoulder, hip, down):
     outline=left+[(-2,length+5),(3,length+5-lift*.5)]+list(reversed(rightside))
     im=Image.new('RGBA',parts['torso'].size);d=ImageDraw.Draw(im)
     def xy(p):
-        u,v=p;return round(shoulder[0]+right[0]*u+down[0]*v),round(shoulder[1]+right[1]*u+down[1]*v)
+        u,v=p;u*=.85
+        return round(shoulder[0]+right[0]*u+down[0]*v),round(shoulder[1]+right[1]*u+down[1]*v)
     def poly(ps,col):d.polygon([xy(p) for p in ps],fill=P[col])
     poly(outline,'wine');d.line([xy(p) for p in outline+[outline[0]]],fill=P['edge'],width=1)
     # Small sloping planes, no full-height stripe or rectangular chest panel.
@@ -135,9 +136,11 @@ def render(parts,clip,angle=1.9,wave=0):
     for name in ['back_arm','back_leg']:body.alpha_composite(layers[name])
     body.alpha_composite(layers['front_leg']);body.alpha_composite(shirt)
     body.alpha_composite(layers['front_arm']);body.alpha_composite(hood)
-    # Lower the entire scarf attachment three working pixels along the torso;
-    # collar, clasp and tail must share this anchor to avoid a floating join.
-    neck=shoulder[0]+down[0]*2,shoulder[1]+down[1]*2
+    # Seat the scarf at the visible head base, not the inferred torso top.
+    # Original head/torso cel spacing varies during running. All scarf parts
+    # share this anchor so the collar cannot drift sideways across the chest.
+    neck=(hc[0]+hd[0]*9+hd[1]+down[0],
+          hc[1]+hd[1]*9-hd[0]+down[1])
     # Collar, clasp and front tab are fixed to the torso and baked into body.
     polygon(body,neck,[(-8,-1),(-2,0),(7,0),(7,4),(0,5),(-7,2)],P['goldshadow'])
     polygon(body,neck,[(-7,-1),(-2,1),(6,1),(5,3),(0,3),(-6,1)],P['brass'])
