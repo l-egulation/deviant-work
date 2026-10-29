@@ -4663,7 +4663,13 @@
       "file": "ink-hero-c/integrated-outfit-motion/run-before-after.gif",
       "source": "integrated costume presentation preview; baked body and separate scarf",
       "sha256": "c140aaf3c36feac3b49051af88f4f5a1ab0dc7f8b83383ea7aff3500530beff4"
+    },
+    {
+      "file": "ink-hero-c/concept-art/B-refined-no-mantle.png",
+      "source": "AI concept refinement of user-selected B; shoulder mantle removed",
+      "sha256": "94048ae4413ca79d46d45b4da7d890dc601595d20c8c9391cc26dd1f47ca2e44"
     }
   ],
-  "latest": "ink-hero-c/integrated-outfit-motion"
+  "latest": "ink-hero-c/integrated-outfit-motion",
+  "latest_concept": "ink-hero-c/concept-art/B-refined-no-mantle.png"
 }
