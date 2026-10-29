@@ -107,18 +107,23 @@ def render(parts,clip,angle=1.9,wave=0):
     # Fixed upright eye clusters, mild forward pitch from the running pose.
     hd=(0,1) if clip=='idle' else unit((-.13,1))
     def hp(coords,col):polygon(hood,hc,coords,P[col],hd)
-    # Rounded crown, a single folded tip at the rear, and a softer lower rim.
-    # Avoid the old diamond-shaped crown and straight diagonal rear edge.
-    hp([(-14,2),(-14,-1),(-12,-5),(-9,-8),(-5,-10),(1,-10),(7,-8),(11,-5),(12,-2),(12,7),(9,10),(5,11),(-2,10),(-6,7),(-10,6)],'edge')
-    hp([(-12,2),(-12,-1),(-10,-5),(-7,-7),(-4,-8),(1,-8),(6,-6),(9,-4),(10,-1),(10,6),(8,8),(4,9),(-1,8),(-5,5),(-9,4)],'wine')
-    hp([(-11,-1),(-9,-5),(-5,-7),(0,-7),(4,-5),(-2,-5),(-6,-2),(-8,1)],'light')
-    hp([(-12,2),(-8,3),(-5,2),(-6,5),(-9,4)],'shadow')
-    hp([(0,-2),(6,-6),(10,-5),(11,7),(6,10),(0,7),(-2,3)],'edge')
-    hp([(1,-1),(6,-4),(9,-4),(10,6),(6,8),(1,6),(-1,2)],'ink')
-    # Deliberately vertical rectangles: rotation never turns eyes into dots.
-    for u in (2,7):
-        x=round(hc[0]+hd[1]*u+hd[0]*2);y=round(hc[1]-hd[0]*u+hd[1]*2)
-        ImageDraw.Draw(hood).rectangle((x,y,x+1,y+4),fill=P['brass'])
+    # Ink head stays visible below a separate low, asymmetric painter's beret.
+    hp([(-8,-3),(-4,-7),(4,-7),(9,-3),(11,1),(10,7),(6,10),(-1,10),(-6,7),(-8,3)],'ink')
+    hp([(-7,4),(-4,7),(0,8),(-1,9),(-5,7)],'shadow')
+    # Narrow headband is under the crown, not a hood framing the cheeks.
+    hp([(-8,-3),(-1,-6),(7,-6),(10,-3),(9,-1),(3,-3),(-4,0),(-8,1)],'edge')
+    hp([(-6,-3),(0,-5),(6,-5),(8,-3),(3,-4),(-4,-1)],'wine')
+    hp([(-16,-2),(-15,-6),(-11,-10),(-5,-13),(2,-14),(8,-12),(11,-9),(11,-6),(8,-4),(1,-4),(-6,0),(-12,2),(-15,1)],'edge')
+    hp([(-14,-2),(-13,-6),(-9,-9),(-4,-11),(2,-12),(7,-10),(9,-8),(9,-6),(6,-5),(0,-5),(-7,-1),(-12,0)],'wine')
+    hp([(-12,-5),(-8,-8),(-3,-10),(2,-11),(6,-9),(0,-9),(-5,-7),(-10,-3)],'light')
+    hp([(-14,-1),(-9,-1),(-4,-4),(1,-5),(5,-5),(0,-3),(-6,0),(-12,1)],'shadow')
+    # Small fabric stem, one tip only; simplified at the working resolution.
+    hp([(-7,-12),(-7,-15),(-5,-16),(-3,-14),(-4,-12)],'edge')
+    hp([(-6,-13),(-6,-14),(-5,-14),(-4,-13)],'wine')
+    # Tapered brass ink dabs, not vertical rectangles. Asymmetric edges imply
+    # a soft gaze without adding white sclera or an angry eyebrow.
+    hp([(1,0),(2,2),(2,5),(0,4),(-1,3),(0,1)],'brass')
+    hp([(7,0),(8,1),(8,3),(6,5),(6,2)],'brass')
     body=Image.new('RGBA',size)
     for name in ['back_arm','back_leg']:body.alpha_composite(layers[name])
     body.alpha_composite(layers['front_leg']);body.alpha_composite(shirt)
@@ -195,7 +200,7 @@ def main():
         key=clip,fi;digest=hashlib.sha256(body.tobytes()).hexdigest()
         if key in cache:assert digest==cache[key]
         cache[key]=digest
-        canvas=Image.new('RGB',(1024,448),BG);canvas.paste(panel(body,'BODY / HOOD + SLEEVES + TROUSERS'),(0,0));canvas.paste(panel(out,'IDLE' if t<1.2 else 'RUN' if running else 'STOP / TAIL SETTLE'),(512,0));frames.append(canvas)
+        canvas=Image.new('RGB',(1024,448),BG);canvas.paste(panel(body,'BODY / BERET + SLEEVES + TROUSERS'),(0,0));canvas.paste(panel(out,'IDLE' if t<1.2 else 'RUN' if running else 'STOP / TAIL SETTLE'),(512,0));frames.append(canvas)
     save(args.out/'movement-comparison.gif',frames,[50]*120)
     report['checks']=['Original 10 idle and 8 run frames retained','Source limb pixels covered; terminal hands/feet retained in all frames','Body identical for repeated source pose regardless of scarf dynamics','Body + tail exactly reproduces composite','6-second movement preview; no authored braking pose']
     (args.out/'validation.json').write_text(json.dumps(report,indent=2)+'\n');print(report['checks'])

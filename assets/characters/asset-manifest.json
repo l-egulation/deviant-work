@@ -4733,8 +4733,53 @@
       "file": "ink-hero-b/hat-design/hat-and-eyes-ABC.png",
       "source": "Built-in image_gen hat and eye redesign concepts",
       "sha256": "9da6c886b5a5533c15016041c9203a79909dba571d33922a0487d5d9f56911df"
+    },
+    {
+      "file": "ink-hero-b/beret-motion/run.gif",
+      "source": "A beret applied to existing idle/run pose preview",
+      "sha256": "38043589144d9b9cae1d611524e0d79b778d0d8357fabda027fd9d03716d93af"
+    },
+    {
+      "file": "ink-hero-b/beret-motion/run-body-only.gif",
+      "source": "A beret applied to existing idle/run pose preview",
+      "sha256": "58164625a46c1af39b616d296cc8c3b7dc5785114afe668ac9e955581c914e55"
+    },
+    {
+      "file": "ink-hero-b/beret-motion/body-frame-review.png",
+      "source": "A beret applied to existing idle/run pose preview",
+      "sha256": "20cad9b6ec0d1c1e95b7499ea9b101eb6806afae73e1bb0192ad6edd7f9cfcaf"
+    },
+    {
+      "file": "ink-hero-b/beret-motion/idle-body-only.gif",
+      "source": "A beret applied to existing idle/run pose preview",
+      "sha256": "4b8f5f8b5ec66ab0bdce5d7245119c961f66c5a68c1b3bb68a500659f6373114"
+    },
+    {
+      "file": "ink-hero-b/beret-motion/movement-comparison.gif",
+      "source": "A beret applied to existing idle/run pose preview",
+      "sha256": "246a2742cdc56c645268f6c02e54265be2b9cf44ad574c44c13ca3cde1816e94"
+    },
+    {
+      "file": "ink-hero-b/beret-motion/idle.gif",
+      "source": "A beret applied to existing idle/run pose preview",
+      "sha256": "8d9ba9d806e760ebe64280ad37df944b3bac7ecad5702ac827ec7835b65e8622"
+    },
+    {
+      "file": "ink-hero-b/beret-motion/run-before-after.gif",
+      "source": "A beret applied to existing idle/run pose preview",
+      "sha256": "7708ff280faf19ca145793c03179ef1d1a7658eec769f26bb63812cc3a924829"
+    },
+    {
+      "file": "ink-hero-b/beret-motion/idle-design.png",
+      "source": "A beret applied to existing idle/run pose preview",
+      "sha256": "c7ede00c6da68f681b653ec3e9900d3dec31af38754b1def0d4685c362db803e"
+    },
+    {
+      "file": "ink-hero-b/beret-motion/idle-before-after.gif",
+      "source": "A beret applied to existing idle/run pose preview",
+      "sha256": "e637f0419607f191d31a9a4d400a0dc589d7132f9efea9edd4f6f55f16b7487d"
     }
   ],
-  "latest": "ink-hero-b/basic-motion",
+  "latest": "ink-hero-b/beret-motion",
   "latest_concept": "ink-hero-b/hat-design"
 }

@@ -1,3 +1,9 @@
+## 최신 모션: A 베레모 + 잉크 획 눈
+
+[대기·달리기 GIF](ink-hero-b/beret-motion/README.md) · [후드와 달리기 비교](ink-hero-b/beret-motion/run-before-after.gif)
+
+기존 B 의상에 선택한 A 베레모를 적용했습니다. 아래 후드 모션은 이전 기록입니다.
+
 ## 최신 모션: B안 대기·달리기
 
 [목도리 전후 비교 GIF](ink-hero-b/basic-motion/movement-comparison.gif) · [GIF와 적용 범위 안내](ink-hero-b/basic-motion/README.md)
