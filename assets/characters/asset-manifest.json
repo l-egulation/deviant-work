@@ -4672,12 +4672,12 @@
     {
       "file": "ink-hero-b/pixel-design/B-pixel-clothing-parts.png",
       "source": "Built-in image_gen; B pixel design reference, not runtime sprites",
-      "sha256": "5ded76a1b049cb71c111726fc517c1a686bdbf54fe4a55cd7d2f7138e87e5b63"
+      "sha256": "7015117aa6db91acb92237b2cc219fde2247746ec996b63ffda88b58c9f6acd8"
     },
     {
       "file": "ink-hero-b/pixel-design/B-pixel-turnaround.png",
       "source": "Built-in image_gen; B pixel design reference, not runtime sprites",
-      "sha256": "2dbfd4602173d56ba7203da62f329298073941daa73c5b8e0c9cb106859b76f3"
+      "sha256": "3f9f3b9f67395730e9883d8c7c8771ea0015592440abbb0e160bf21d3cacba40"
     }
   ],
   "latest": "ink-hero-c/integrated-outfit-motion",
