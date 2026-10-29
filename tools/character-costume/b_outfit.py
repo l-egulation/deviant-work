@@ -107,10 +107,12 @@ def render(parts,clip,angle=1.9,wave=0):
     # Fixed upright eye clusters, mild forward pitch from the running pose.
     hd=(0,1) if clip=='idle' else unit((-.13,1))
     def hp(coords,col):polygon(hood,hc,coords,P[col],hd)
-    hp([(-15,0),(-12,-5),(-7,-12),(0,-13),(9,-9),(12,-6),(12,9),(7,13),(-5,11),(-10,6)],'edge')
-    hp([(-13,0),(-10,-5),(-6,-10),(0,-11),(8,-8),(10,-5),(10,8),(6,11),(-4,9),(-8,5)],'wine')
-    hp([(-13,0),(-8,-6),(-5,-10),(0,-11),(4,-9),(-2,-7),(-6,1),(-9,3)],'light')
-    hp([(-11,2),(-8,3),(-5,7),(-3,9),(-6,8)],'shadow')
+    # Rounded crown, a single folded tip at the rear, and a softer lower rim.
+    # Avoid the old diamond-shaped crown and straight diagonal rear edge.
+    hp([(-14,2),(-14,-1),(-12,-5),(-9,-8),(-5,-10),(1,-10),(7,-8),(11,-5),(12,-2),(12,7),(9,10),(5,11),(-2,10),(-6,7),(-10,6)],'edge')
+    hp([(-12,2),(-12,-1),(-10,-5),(-7,-7),(-4,-8),(1,-8),(6,-6),(9,-4),(10,-1),(10,6),(8,8),(4,9),(-1,8),(-5,5),(-9,4)],'wine')
+    hp([(-11,-1),(-9,-5),(-5,-7),(0,-7),(4,-5),(-2,-5),(-6,-2),(-8,1)],'light')
+    hp([(-12,2),(-8,3),(-5,2),(-6,5),(-9,4)],'shadow')
     hp([(0,-2),(6,-6),(10,-5),(11,7),(6,10),(0,7),(-2,3)],'edge')
     hp([(1,-1),(6,-4),(9,-4),(10,6),(6,8),(1,6),(-1,2)],'ink')
     # Deliberately vertical rectangles: rotation never turns eyes into dots.
@@ -121,7 +123,9 @@ def render(parts,clip,angle=1.9,wave=0):
     for name in ['back_arm','back_leg']:body.alpha_composite(layers[name])
     body.alpha_composite(layers['front_leg']);body.alpha_composite(shirt)
     body.alpha_composite(layers['front_arm']);body.alpha_composite(hood)
-    neck=shoulder[0]-down[0],shoulder[1]-down[1]
+    # Lower the entire scarf attachment three working pixels along the torso;
+    # collar, clasp and tail must share this anchor to avoid a floating join.
+    neck=shoulder[0]+down[0]*2,shoulder[1]+down[1]*2
     # Collar, clasp and front tab are fixed to the torso and baked into body.
     polygon(body,neck,[(-8,-1),(-2,0),(7,0),(7,4),(0,5),(-7,2)],P['goldshadow'])
     polygon(body,neck,[(-7,-1),(-2,1),(6,1),(5,3),(0,3),(-6,1)],P['brass'])
