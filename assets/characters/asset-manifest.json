@@ -4682,37 +4682,42 @@
     {
       "file": "ink-hero-b/basic-motion/body-frame-review.png",
       "source": "B outfit rendered from purchased idle/run poses; opaque review preview",
-      "sha256": "665c8fa6599df809124ada50819e104adeb823a6a853d0278feb42346a8f956b"
+      "sha256": "f51f212a6829a0acdea46f241f9cfaaa9d34af2c62ea47f361d41c452e800452"
     },
     {
       "file": "ink-hero-b/basic-motion/idle-body-only.gif",
       "source": "B outfit rendered from purchased idle/run poses; opaque review preview",
-      "sha256": "1c2da9893088b701ea6e3ea6908e43ac7d44482843bd3b758ea86ae3786da22f"
+      "sha256": "b56ce84ae06f3b0f2973a60ad094a011af212fe99075a0f6a499c16a3c1e8915"
     },
     {
       "file": "ink-hero-b/basic-motion/idle-design.png",
       "source": "B outfit rendered from purchased idle/run poses; opaque review preview",
-      "sha256": "0c0bca7239a8a9c868f8f7a36dd8dc7a9bd2621201673c198203e37880f5b5c8"
+      "sha256": "2df07f536a38cf5a7f65f1952b541f2522aaa2c62a5b7271a3f35d82dabb92f4"
     },
     {
       "file": "ink-hero-b/basic-motion/idle.gif",
       "source": "B outfit rendered from purchased idle/run poses; opaque review preview",
-      "sha256": "c131ab1fa2ae0289a49b094598d24d70e8686fbaf72a2b9f9b8195cd3d8eed12"
+      "sha256": "1b453492de0068746111f69444570e953c4ba4875127241ba9eb334d3075a7b1"
     },
     {
       "file": "ink-hero-b/basic-motion/movement-comparison.gif",
       "source": "B outfit rendered from purchased idle/run poses; opaque review preview",
-      "sha256": "5dcedcead50dbf81512d1f1f760aa0a61cf1d5501bbdbc371f87e28d212ef47c"
+      "sha256": "5089afe2dd43dd5c7f9ee6f003a3393f883d2c925084c2e407cae4131d3ab301"
     },
     {
       "file": "ink-hero-b/basic-motion/run-body-only.gif",
       "source": "B outfit rendered from purchased idle/run poses; opaque review preview",
-      "sha256": "f2b816dcd1e6e3994d53d23f34f9711775e6deefad95471264a3a68bb20d4f3b"
+      "sha256": "0de21abd45d291a91b84862f4c122e3116eb698df828997e816c7018984140d8"
     },
     {
       "file": "ink-hero-b/basic-motion/run.gif",
       "source": "B outfit rendered from purchased idle/run poses; opaque review preview",
-      "sha256": "a1d9c4211d1749762f5087ce7858724df5b69d53f5042809860058b42a5756fa"
+      "sha256": "22432266133b872cec7139e81ffa8bfa43362c21ec14a5d9232ff04f6ffcfb3c"
+    },
+    {
+      "file": "ink-hero-b/basic-motion/shirt-before-after.gif",
+      "source": "B outfit torso correction review",
+      "sha256": "aaeb283228f581f6216d282bb3c74d4948daf7cc6a58a50641ea7fc862346c8c"
     }
   ],
   "latest": "ink-hero-b/basic-motion",

@@ -47,6 +47,46 @@ def limb(im, root, front, sleeve=False):
     return out,{'source_pixels':len(region),'cloth_pixels':len(grown),'terminal_pixels':len(bare),'missing_source_pixels':len(region-points(out))}
 
 
+def tunic(parts, shoulder, hip, down):
+    """Shape chest, waist and hem from the pose, instead of rotating one panel.
+
+    Body cross-sections anchor the shirt. Proximal leg direction lifts the hem;
+    near-arm reach changes the chest fold. No independent cloth oscillation.
+    """
+    right=down[1],-down[0];length=math.dist(shoulder,hip)
+    def local(p):
+        x,y=p[0]-shoulder[0],p[1]-shoulder[1]
+        return x*right[0]+y*right[1],x*down[0]+y*down[1]
+    torso=[local(p) for p in points(parts['torso'])]
+    def section(v):
+        band=[u for u,w in torso if abs(w-v)<2.5]
+        return (min(band)+max(band))/2 if band else 0
+    chest=section(length*.28);waist=section(length*.72)
+    leg=points(parts['front_leg'])
+    proximal=[p for p in leg if math.dist(p,hip)<12]
+    lead=local(center(proximal or leg))[0]
+    lift=max(-2.5,min(3.5,lead*.55))
+    arm=local(center(points(parts['front_arm'])))[0]
+    pull=max(-1.8,min(1.8,arm*.15))
+    # Curved volume has separate chest, waist and hip stations. The lower
+    # front corner clears a raised leg instead of staying a rigid rectangle.
+    left=[(-5,-1),(chest-7,length*.23),(waist-7.5,length*.62),(-9,length+2),(-8,length+4+min(0,lift))]
+    rightside=[(5,-1),(chest+7+pull,length*.23),(waist+7,length*.62),(9,length+1-lift),(7,length+4-lift)]
+    outline=left+[(-2,length+5),(3,length+5-lift*.5)]+list(reversed(rightside))
+    im=Image.new('RGBA',parts['torso'].size);d=ImageDraw.Draw(im)
+    def xy(p):
+        u,v=p;return round(shoulder[0]+right[0]*u+down[0]*v),round(shoulder[1]+right[1]*u+down[1]*v)
+    def poly(ps,col):d.polygon([xy(p) for p in ps],fill=P[col])
+    poly(outline,'wine');d.line([xy(p) for p in outline+[outline[0]]],fill=P['edge'],width=1)
+    # Small sloping planes, no full-height stripe or rectangular chest panel.
+    poly([(-5,1),(chest-5,length*.25),(waist-4,length*.48),(waist-6,length*.6),(chest-6,length*.25)],'light')
+    poly([(waist-7,length*.68),(-8,length+2),(-3,length+3),(waist-4,length*.85)],'shadow')
+    poly([(waist+5,length*.66),(8,length+1-lift),(6,length+3-lift),(2,length+2-lift)],'shadow')
+    # Short tension crease follows the near elbow; it doesn't span the torso.
+    d.line([xy((chest+4+pull,length*.32)),xy((waist+1,length*.57)),xy((waist-1,length*.61))],fill=P['shadow'],width=1)
+    return im
+
+
 def render(parts,clip,angle=1.9,wave=0):
     size=next(iter(parts.values())).size
     hc=center(points(parts['head']));tc=center(points(parts['torso']))
@@ -62,11 +102,7 @@ def render(parts,clip,angle=1.9,wave=0):
     def polygon(im,anchor,coords,color,direction=down):
         dr=direction;rt=dr[1],-dr[0]
         ImageDraw.Draw(im).polygon([(round(anchor[0])+round(rt[0]*u+dr[0]*v),round(anchor[1])+round(rt[1]*u+dr[1]*v)) for u,v in coords],fill=color)
-    shirt=Image.new('RGBA',size)
-    polygon(shirt,shoulder,[(-6,-1),(5,-1),(6,length-1),(9,length+5),(3,length+6),(-9,length+5),(-7,length)],P['edge'])
-    polygon(shirt,shoulder,[(-5,0),(4,0),(5,length),(7,length+4),(-7,length+4),(-6,length-1)],P['wine'])
-    polygon(shirt,shoulder,[(-5,1),(-2,1),(-3,length+2),(-6,length+3)],P['light'])
-    polygon(shirt,shoulder,[(2,3),(3,3),(2,length+3),(1,length+3)],P['shadow'])
+    shirt=tunic(parts,shoulder,hip,down)
     hood=Image.new('RGBA',size)
     # Fixed upright eye clusters, mild forward pitch from the running pose.
     hd=(0,1) if clip=='idle' else unit((-.13,1))
