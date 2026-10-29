@@ -4728,8 +4728,13 @@
       "file": "ink-hero-b/basic-motion/hood-scarf-idle-comparison.gif",
       "source": "B hood/scarf correction preview",
       "sha256": "6310e98782b41605ec733d1510a61f9d3a241cf5c73e912ac538eba827b51e3b"
+    },
+    {
+      "file": "ink-hero-b/hat-design/hat-and-eyes-ABC.png",
+      "source": "Built-in image_gen hat and eye redesign concepts",
+      "sha256": "9da6c886b5a5533c15016041c9203a79909dba571d33922a0487d5d9f56911df"
     }
   ],
   "latest": "ink-hero-b/basic-motion",
-  "latest_concept": "ink-hero-b/pixel-design"
+  "latest_concept": "ink-hero-b/hat-design"
 }
