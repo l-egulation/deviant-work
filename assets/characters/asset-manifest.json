@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "selection": "C v5 design; v6 basic; v7 sword/rapier only; v8 six feasibility studies; v9 combat; concept images retained separately; v13 three-layer hood/robe/scarf motion and latest concept references",
   "excluded": [
     "whip and dagger motion studies",
@@ -4668,8 +4668,18 @@
       "file": "ink-hero-c/concept-art/B-refined-no-mantle.png",
       "source": "AI concept refinement of user-selected B; shoulder mantle removed",
       "sha256": "94048ae4413ca79d46d45b4da7d890dc601595d20c8c9391cc26dd1f47ca2e44"
+    },
+    {
+      "file": "ink-hero-b/pixel-design/B-pixel-clothing-parts.png",
+      "source": "Built-in image_gen; B pixel design reference, not runtime sprites",
+      "sha256": "5ded76a1b049cb71c111726fc517c1a686bdbf54fe4a55cd7d2f7138e87e5b63"
+    },
+    {
+      "file": "ink-hero-b/pixel-design/B-pixel-turnaround.png",
+      "source": "Built-in image_gen; B pixel design reference, not runtime sprites",
+      "sha256": "2dbfd4602173d56ba7203da62f329298073941daa73c5b8e0c9cb106859b76f3"
     }
   ],
   "latest": "ink-hero-c/integrated-outfit-motion",
-  "latest_concept": "ink-hero-c/concept-art/B-refined-no-mantle.png"
+  "latest_concept": "ink-hero-b/pixel-design"
 }

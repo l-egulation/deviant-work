@@ -1,3 +1,7 @@
+## 최신 디자인: B안 픽셀 다각도·의상 파츠
+
+[전체 디자인과 파츠 도안](ink-hero-b/pixel-design/README.md) — 모션 적용 전 디자인 자료입니다. 아래 GIF는 이전 디자인의 모션 검토본입니다.
+
 ## 최신 확인: 일체형 의상 + 목도리
 
 GitHub 폴더: **`assets/characters/ink-hero-c/integrated-outfit-motion/`**
