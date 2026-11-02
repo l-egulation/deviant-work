@@ -31,18 +31,24 @@ def limb(im, root, front, sleeve=False):
     for x,y in cloth:
         u=ds[x,y]/cut
         # Bell sleeve widens toward wrist; trousers balloon and taper at cuff.
-        radius=round((1+3.0*u) if sleeve else (1+2.0*math.sin(math.pi*u)**.7))
+        radius=round((1+2.2*u) if sleeve else 1.0)
         for dx in range(-radius,radius+1):
             for dy in range(-radius,radius+1):
                 if dx*dx+dy*dy>radius*radius:continue
                 q=x+dx,y+dy
                 if q not in bare and 0<=q[0]<im.width and 0<=q[1]<im.height:grown.add(q)
+    # Remove only added one-pixel spurs; retain the source limb itself.
+    neighbors=[(1,0),(-1,0),(0,1),(0,-1)]
+    grown-={p for p in grown-region if sum((p[0]+dx,p[1]+dy) in grown for dx,dy in neighbors)<=1}
+    # Close single-pixel notches in the cloth interior without bridging limbs.
+    holes={q for x,y in grown for q in [(x+1,y),(x-1,y),(x,y+1),(x,y-1)] if q not in grown and q not in bare}
+    grown|={p for p in holes if all((p[0]+dx,p[1]+dy) in grown for dx,dy in neighbors)}
     out=Image.new('RGBA',im.size);d=ImageDraw.Draw(out)
     for p in region:d.point(p,fill=P['ink'])
     for x,y in sorted(grown):
         boundary=any((x+dx,y+dy) not in grown for dx,dy in [(1,0),(-1,0),(0,1),(0,-1)])
         color=P['edge'] if boundary else P['wine'] if front else P['shadow']
-        if not boundary and front and (x-2,y) not in grown:color=P['light']
+        # No scanline highlight strip: it fragmented on bent source limbs.
         d.point((x,y),fill=color)
     return out,{'source_pixels':len(region),'cloth_pixels':len(grown),'terminal_pixels':len(bare),'missing_source_pixels':len(region-points(out))}
 
@@ -65,26 +71,30 @@ def tunic(parts, shoulder, hip, down):
     leg=points(parts['front_leg'])
     proximal=[p for p in leg if math.dist(p,hip)<12]
     lead=local(center(proximal or leg))[0]
-    lift=max(-2.5,min(3.5,lead*.55))
+    lift=max(-1.0,min(1.5,lead*.25))
     arm=local(center(points(parts['front_arm'])))[0]
     pull=max(-1.8,min(1.8,arm*.15))
     # Curved volume has separate chest, waist and hip stations. The lower
     # front corner clears a raised leg instead of staying a rigid rectangle.
     left=[(-5,-1),(chest-7,length*.23),(waist-7.5,length*.62),(-9,length+2),(-8,length+4+min(0,lift))]
     rightside=[(5,-1),(chest+7+pull,length*.23),(waist+7,length*.62),(9,length+1-lift),(7,length+4-lift)]
-    outline=left+[(-2,length+5),(3,length+5-lift*.5)]+list(reversed(rightside))
+    outline=left+[(-3,length+5),(3,length+5-lift*.25)]+list(reversed(rightside))
     im=Image.new('RGBA',parts['torso'].size);d=ImageDraw.Draw(im)
     def xy(p):
         u,v=p;u*=.85
         return round(shoulder[0]+right[0]*u+down[0]*v),round(shoulder[1]+right[1]*u+down[1]*v)
     def poly(ps,col):d.polygon([xy(p) for p in ps],fill=P[col])
-    poly(outline,'wine');d.line([xy(p) for p in outline+[outline[0]]],fill=P['edge'],width=1)
+    poly(outline,'wine')
+    silhouette=im.getchannel('A').copy()
     # Small sloping planes, no full-height stripe or rectangular chest panel.
     poly([(-5,1),(chest-5,length*.25),(waist-4,length*.48),(waist-6,length*.6),(chest-6,length*.25)],'light')
     poly([(waist-7,length*.68),(-8,length+2),(-3,length+3),(waist-4,length*.85)],'shadow')
-    poly([(waist+5,length*.66),(8,length+1-lift),(6,length+3-lift),(2,length+2-lift)],'shadow')
+    poly([(waist+6,length*.72),(8,length+1-lift),(6,length+3-lift),(5,length+2-lift)],'shadow')
     # Short tension crease follows the near elbow; it doesn't span the torso.
     d.line([xy((chest+4+pull,length*.32)),xy((waist+1,length*.57)),xy((waist-1,length*.61))],fill=P['shadow'],width=1)
+    # Shade cannot extend beyond the shirt or split its front into panels.
+    im.putalpha(silhouette)
+    d.line([xy(p) for p in outline+[outline[0]]],fill=P['edge'],width=1)
     return im
 
 

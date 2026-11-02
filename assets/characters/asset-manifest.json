@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-11-02",
   "selection": "C v5 design; v6 basic; v7 sword/rapier only; v8 six feasibility studies; v9 combat; concept images retained separately; v13 three-layer hood/robe/scarf motion and latest concept references",
   "excluded": [
     "whip and dagger motion studies",
@@ -4737,32 +4737,32 @@
     {
       "file": "ink-hero-b/beret-motion/run.gif",
       "source": "A beret applied to existing idle/run pose preview",
-      "sha256": "fbcea66469fd249d84a0122079d7a01e2e436d540a6dedbe6b7dfa139b3589a9"
+      "sha256": "f9a6f1d1d1cdf984ece84cdf6b6921c5bc737ecc40d6b3b7d1e4fe374ee0ef84"
     },
     {
       "file": "ink-hero-b/beret-motion/run-body-only.gif",
       "source": "A beret applied to existing idle/run pose preview",
-      "sha256": "15c66a44e99838b143178f8b5244efed18accabcf23c03bf5d7ca0ed7103a096"
+      "sha256": "f5082fa61546b551cf50ad8292ace69aa6fec1b02ace90a1a65113ee9b42e19e"
     },
     {
       "file": "ink-hero-b/beret-motion/body-frame-review.png",
       "source": "A beret applied to existing idle/run pose preview",
-      "sha256": "9bc82381092de211825c1034a8973eaab78d4b5e58bc029dc0198653495fc2b5"
+      "sha256": "4a7685daafe765f1570b1a2a66b8deb9394b56be5b63ed71de0f9835a44a48ce"
     },
     {
       "file": "ink-hero-b/beret-motion/idle-body-only.gif",
       "source": "A beret applied to existing idle/run pose preview",
-      "sha256": "df9f165ef7673118e334bfbc1efd5cab22ae61dc531e6002d6a21d88dfb5543f"
+      "sha256": "abe758f411fc0728a6dc340d2eeb59c43d564cd46be874c708d0b2c97f60a9c5"
     },
     {
       "file": "ink-hero-b/beret-motion/movement-comparison.gif",
       "source": "A beret applied to existing idle/run pose preview",
-      "sha256": "3e6e5e4bd901b10d7c17ebb49c5ed0081b66501e52e26a2fdb1a5c77ff59cab5"
+      "sha256": "c2657546932a2aaaf55775abf50d8330af5029cce7068d385c3b109993eaf6d8"
     },
     {
       "file": "ink-hero-b/beret-motion/idle.gif",
       "source": "A beret applied to existing idle/run pose preview",
-      "sha256": "0e69f23ce3e21cfa73db57d6cf0809fcb236a4cafa350e7968f3c9986f7ecf55"
+      "sha256": "bbe27cef2b92d86653d178c89c14cd57cc15376340447015bc6ff518f2baa0b9"
     },
     {
       "file": "ink-hero-b/beret-motion/run-before-after.gif",
@@ -4772,7 +4772,7 @@
     {
       "file": "ink-hero-b/beret-motion/idle-design.png",
       "source": "A beret applied to existing idle/run pose preview",
-      "sha256": "6a82f66d9044adcf8dfdcfc02f78d1362bbb45d6548be1422309be5dedb87704"
+      "sha256": "e377e53f3c8c5cea1b667e16d1b066dff1aacf36db9591102b3c902b2222ae29"
     },
     {
       "file": "ink-hero-b/beret-motion/idle-before-after.gif",
@@ -4818,6 +4818,16 @@
       "file": "ink-hero-b/beret-motion/idle-fit-comparison.gif",
       "source": "Scarf neck attachment and slimmer outfit review",
       "sha256": "ed5b67bd1b87c3c1fd3a3ded291b761d7ad19c70f27bc08c69de0cc40a19febb"
+    },
+    {
+      "file": "ink-hero-b/beret-motion/idle-cleanup-comparison.gif",
+      "source": "Slim trousers and pixel contour cleanup",
+      "sha256": "2452761799c28b7e887ccd2cf791c4ddd5b186e7cecdfaaff2772b1c0ae38ab6"
+    },
+    {
+      "file": "ink-hero-b/beret-motion/run-cleanup-comparison.gif",
+      "source": "Slim trousers and pixel contour cleanup",
+      "sha256": "0032b4d7fd2622cb7d87703b249ff5a39b6a2685409f867b8efa075a2dc66075"
     }
   ],
   "latest": "ink-hero-b/beret-motion",

@@ -31,25 +31,25 @@
         {
           "back_leg": {
             "source_pixels": 148,
-            "cloth_pixels": 251,
+            "cloth_pixels": 174,
             "terminal_pixels": 26,
             "missing_source_pixels": 0
           },
           "front_leg": {
             "source_pixels": 172,
-            "cloth_pixels": 277,
+            "cloth_pixels": 195,
             "terminal_pixels": 29,
             "missing_source_pixels": 0
           },
           "back_arm": {
             "source_pixels": 88,
-            "cloth_pixels": 182,
+            "cloth_pixels": 150,
             "terminal_pixels": 26,
             "missing_source_pixels": 0
           },
           "front_arm": {
             "source_pixels": 116,
-            "cloth_pixels": 191,
+            "cloth_pixels": 165,
             "terminal_pixels": 30,
             "missing_source_pixels": 0
           }
@@ -57,25 +57,25 @@
         {
           "back_leg": {
             "source_pixels": 140,
-            "cloth_pixels": 221,
+            "cloth_pixels": 162,
             "terminal_pixels": 26,
             "missing_source_pixels": 0
           },
           "front_leg": {
             "source_pixels": 180,
-            "cloth_pixels": 291,
+            "cloth_pixels": 207,
             "terminal_pixels": 25,
             "missing_source_pixels": 0
           },
           "back_arm": {
             "source_pixels": 72,
-            "cloth_pixels": 132,
+            "cloth_pixels": 111,
             "terminal_pixels": 24,
             "missing_source_pixels": 0
           },
           "front_arm": {
             "source_pixels": 116,
-            "cloth_pixels": 193,
+            "cloth_pixels": 165,
             "terminal_pixels": 30,
             "missing_source_pixels": 0
           }
@@ -83,25 +83,25 @@
         {
           "back_leg": {
             "source_pixels": 152,
-            "cloth_pixels": 228,
+            "cloth_pixels": 171,
             "terminal_pixels": 28,
             "missing_source_pixels": 0
           },
           "front_leg": {
             "source_pixels": 160,
-            "cloth_pixels": 260,
+            "cloth_pixels": 188,
             "terminal_pixels": 21,
             "missing_source_pixels": 0
           },
           "back_arm": {
             "source_pixels": 76,
-            "cloth_pixels": 138,
+            "cloth_pixels": 117,
             "terminal_pixels": 24,
             "missing_source_pixels": 0
           },
           "front_arm": {
             "source_pixels": 124,
-            "cloth_pixels": 204,
+            "cloth_pixels": 180,
             "terminal_pixels": 30,
             "missing_source_pixels": 0
           }
@@ -109,25 +109,25 @@
         {
           "back_leg": {
             "source_pixels": 152,
-            "cloth_pixels": 228,
+            "cloth_pixels": 171,
             "terminal_pixels": 28,
             "missing_source_pixels": 0
           },
           "front_leg": {
             "source_pixels": 160,
-            "cloth_pixels": 260,
+            "cloth_pixels": 188,
             "terminal_pixels": 21,
             "missing_source_pixels": 0
           },
           "back_arm": {
             "source_pixels": 76,
-            "cloth_pixels": 138,
+            "cloth_pixels": 117,
             "terminal_pixels": 24,
             "missing_source_pixels": 0
           },
           "front_arm": {
             "source_pixels": 124,
-            "cloth_pixels": 204,
+            "cloth_pixels": 180,
             "terminal_pixels": 30,
             "missing_source_pixels": 0
           }
@@ -135,25 +135,25 @@
         {
           "back_leg": {
             "source_pixels": 152,
-            "cloth_pixels": 228,
+            "cloth_pixels": 171,
             "terminal_pixels": 28,
             "missing_source_pixels": 0
           },
           "front_leg": {
             "source_pixels": 160,
-            "cloth_pixels": 260,
+            "cloth_pixels": 188,
             "terminal_pixels": 21,
             "missing_source_pixels": 0
           },
           "back_arm": {
             "source_pixels": 76,
-            "cloth_pixels": 138,
+            "cloth_pixels": 117,
             "terminal_pixels": 24,
             "missing_source_pixels": 0
           },
           "front_arm": {
             "source_pixels": 124,
-            "cloth_pixels": 204,
+            "cloth_pixels": 180,
             "terminal_pixels": 30,
             "missing_source_pixels": 0
           }
@@ -161,25 +161,25 @@
         {
           "back_leg": {
             "source_pixels": 144,
-            "cloth_pixels": 233,
+            "cloth_pixels": 168,
             "terminal_pixels": 26,
             "missing_source_pixels": 0
           },
           "front_leg": {
             "source_pixels": 180,
-            "cloth_pixels": 291,
+            "cloth_pixels": 207,
             "terminal_pixels": 25,
             "missing_source_pixels": 0
           },
           "back_arm": {
             "source_pixels": 72,
-            "cloth_pixels": 132,
+            "cloth_pixels": 111,
             "terminal_pixels": 24,
             "missing_source_pixels": 0
           },
           "front_arm": {
             "source_pixels": 116,
-            "cloth_pixels": 193,
+            "cloth_pixels": 165,
             "terminal_pixels": 30,
             "missing_source_pixels": 0
           }
@@ -187,25 +187,25 @@
         {
           "back_leg": {
             "source_pixels": 148,
-            "cloth_pixels": 251,
+            "cloth_pixels": 174,
             "terminal_pixels": 26,
             "missing_source_pixels": 0
           },
           "front_leg": {
             "source_pixels": 172,
-            "cloth_pixels": 277,
+            "cloth_pixels": 195,
             "terminal_pixels": 29,
             "missing_source_pixels": 0
           },
           "back_arm": {
             "source_pixels": 88,
-            "cloth_pixels": 182,
+            "cloth_pixels": 150,
             "terminal_pixels": 26,
             "missing_source_pixels": 0
           },
           "front_arm": {
             "source_pixels": 116,
-            "cloth_pixels": 191,
+            "cloth_pixels": 165,
             "terminal_pixels": 30,
             "missing_source_pixels": 0
           }
@@ -213,25 +213,25 @@
         {
           "back_leg": {
             "source_pixels": 164,
-            "cloth_pixels": 269,
+            "cloth_pixels": 192,
             "terminal_pixels": 26,
             "missing_source_pixels": 0
           },
           "front_leg": {
             "source_pixels": 192,
-            "cloth_pixels": 317,
+            "cloth_pixels": 228,
             "terminal_pixels": 26,
             "missing_source_pixels": 0
           },
           "back_arm": {
             "source_pixels": 84,
-            "cloth_pixels": 151,
+            "cloth_pixels": 125,
             "terminal_pixels": 26,
             "missing_source_pixels": 0
           },
           "front_arm": {
             "source_pixels": 120,
-            "cloth_pixels": 201,
+            "cloth_pixels": 176,
             "terminal_pixels": 30,
             "missing_source_pixels": 0
           }
@@ -239,25 +239,25 @@
         {
           "back_leg": {
             "source_pixels": 164,
-            "cloth_pixels": 269,
+            "cloth_pixels": 192,
             "terminal_pixels": 26,
             "missing_source_pixels": 0
           },
           "front_leg": {
             "source_pixels": 192,
-            "cloth_pixels": 317,
+            "cloth_pixels": 228,
             "terminal_pixels": 26,
             "missing_source_pixels": 0
           },
           "back_arm": {
             "source_pixels": 84,
-            "cloth_pixels": 151,
+            "cloth_pixels": 125,
             "terminal_pixels": 26,
             "missing_source_pixels": 0
           },
           "front_arm": {
             "source_pixels": 120,
-            "cloth_pixels": 201,
+            "cloth_pixels": 176,
             "terminal_pixels": 30,
             "missing_source_pixels": 0
           }
@@ -265,25 +265,25 @@
         {
           "back_leg": {
             "source_pixels": 164,
-            "cloth_pixels": 269,
+            "cloth_pixels": 192,
             "terminal_pixels": 26,
             "missing_source_pixels": 0
           },
           "front_leg": {
             "source_pixels": 192,
-            "cloth_pixels": 317,
+            "cloth_pixels": 228,
             "terminal_pixels": 26,
             "missing_source_pixels": 0
           },
           "back_arm": {
             "source_pixels": 84,
-            "cloth_pixels": 151,
+            "cloth_pixels": 125,
             "terminal_pixels": 26,
             "missing_source_pixels": 0
           },
           "front_arm": {
             "source_pixels": 120,
-            "cloth_pixels": 201,
+            "cloth_pixels": 176,
             "terminal_pixels": 30,
             "missing_source_pixels": 0
           }
@@ -316,25 +316,25 @@
         {
           "back_leg": {
             "source_pixels": 192,
-            "cloth_pixels": 303,
+            "cloth_pixels": 229,
             "terminal_pixels": 22,
             "missing_source_pixels": 0
           },
           "front_leg": {
             "source_pixels": 252,
-            "cloth_pixels": 407,
+            "cloth_pixels": 298,
             "terminal_pixels": 27,
             "missing_source_pixels": 0
           },
           "back_arm": {
             "source_pixels": 92,
-            "cloth_pixels": 165,
+            "cloth_pixels": 145,
             "terminal_pixels": 28,
             "missing_source_pixels": 0
           },
           "front_arm": {
             "source_pixels": 132,
-            "cloth_pixels": 234,
+            "cloth_pixels": 208,
             "terminal_pixels": 30,
             "missing_source_pixels": 0
           }
@@ -342,25 +342,25 @@
         {
           "back_leg": {
             "source_pixels": 180,
-            "cloth_pixels": 274,
+            "cloth_pixels": 200,
             "terminal_pixels": 34,
             "missing_source_pixels": 0
           },
           "front_leg": {
             "source_pixels": 188,
-            "cloth_pixels": 242,
+            "cloth_pixels": 182,
             "terminal_pixels": 48,
             "missing_source_pixels": 0
           },
           "back_arm": {
             "source_pixels": 160,
-            "cloth_pixels": 275,
+            "cloth_pixels": 235,
             "terminal_pixels": 30,
             "missing_source_pixels": 0
           },
           "front_arm": {
             "source_pixels": 144,
-            "cloth_pixels": 244,
+            "cloth_pixels": 213,
             "terminal_pixels": 33,
             "missing_source_pixels": 0
           }
@@ -368,25 +368,25 @@
         {
           "back_leg": {
             "source_pixels": 236,
-            "cloth_pixels": 391,
+            "cloth_pixels": 278,
             "terminal_pixels": 34,
             "missing_source_pixels": 0
           },
           "front_leg": {
             "source_pixels": 188,
-            "cloth_pixels": 328,
+            "cloth_pixels": 239,
             "terminal_pixels": 21,
             "missing_source_pixels": 0
           },
           "back_arm": {
             "source_pixels": 68,
-            "cloth_pixels": 116,
+            "cloth_pixels": 91,
             "terminal_pixels": 28,
             "missing_source_pixels": 0
           },
           "front_arm": {
             "source_pixels": 124,
-            "cloth_pixels": 228,
+            "cloth_pixels": 195,
             "terminal_pixels": 29,
             "missing_source_pixels": 0
           }
@@ -394,25 +394,25 @@
         {
           "back_leg": {
             "source_pixels": 188,
-            "cloth_pixels": 304,
+            "cloth_pixels": 217,
             "terminal_pixels": 30,
             "missing_source_pixels": 0
           },
           "front_leg": {
             "source_pixels": 248,
-            "cloth_pixels": 382,
+            "cloth_pixels": 284,
             "terminal_pixels": 36,
             "missing_source_pixels": 0
           },
           "back_arm": {
             "source_pixels": 104,
-            "cloth_pixels": 188,
+            "cloth_pixels": 164,
             "terminal_pixels": 32,
             "missing_source_pixels": 0
           },
           "front_arm": {
             "source_pixels": 128,
-            "cloth_pixels": 217,
+            "cloth_pixels": 195,
             "terminal_pixels": 32,
             "missing_source_pixels": 0
           }
@@ -420,25 +420,25 @@
         {
           "back_leg": {
             "source_pixels": 200,
-            "cloth_pixels": 339,
+            "cloth_pixels": 242,
             "terminal_pixels": 28,
             "missing_source_pixels": 0
           },
           "front_leg": {
             "source_pixels": 192,
-            "cloth_pixels": 348,
+            "cloth_pixels": 250,
             "terminal_pixels": 22,
             "missing_source_pixels": 0
           },
           "back_arm": {
             "source_pixels": 72,
-            "cloth_pixels": 123,
+            "cloth_pixels": 101,
             "terminal_pixels": 29,
             "missing_source_pixels": 0
           },
           "front_arm": {
             "source_pixels": 144,
-            "cloth_pixels": 296,
+            "cloth_pixels": 244,
             "terminal_pixels": 15,
             "missing_source_pixels": 0
           }
@@ -446,25 +446,25 @@
         {
           "back_leg": {
             "source_pixels": 268,
-            "cloth_pixels": 361,
+            "cloth_pixels": 287,
             "terminal_pixels": 38,
             "missing_source_pixels": 0
           },
           "front_leg": {
             "source_pixels": 200,
-            "cloth_pixels": 328,
+            "cloth_pixels": 231,
             "terminal_pixels": 30,
             "missing_source_pixels": 0
           },
           "back_arm": {
             "source_pixels": 184,
-            "cloth_pixels": 302,
+            "cloth_pixels": 260,
             "terminal_pixels": 35,
             "missing_source_pixels": 0
           },
           "front_arm": {
             "source_pixels": 152,
-            "cloth_pixels": 277,
+            "cloth_pixels": 243,
             "terminal_pixels": 30,
             "missing_source_pixels": 0
           }
@@ -472,25 +472,25 @@
         {
           "back_leg": {
             "source_pixels": 196,
-            "cloth_pixels": 307,
+            "cloth_pixels": 227,
             "terminal_pixels": 27,
             "missing_source_pixels": 0
           },
           "front_leg": {
             "source_pixels": 252,
-            "cloth_pixels": 417,
+            "cloth_pixels": 302,
             "terminal_pixels": 37,
             "missing_source_pixels": 0
           },
           "back_arm": {
             "source_pixels": 100,
-            "cloth_pixels": 240,
+            "cloth_pixels": 217,
             "terminal_pixels": 4,
             "missing_source_pixels": 0
           },
           "front_arm": {
             "source_pixels": 128,
-            "cloth_pixels": 228,
+            "cloth_pixels": 199,
             "terminal_pixels": 30,
             "missing_source_pixels": 0
           }
@@ -498,25 +498,25 @@
         {
           "back_leg": {
             "source_pixels": 192,
-            "cloth_pixels": 285,
+            "cloth_pixels": 213,
             "terminal_pixels": 36,
             "missing_source_pixels": 0
           },
           "front_leg": {
             "source_pixels": 240,
-            "cloth_pixels": 387,
+            "cloth_pixels": 283,
             "terminal_pixels": 29,
             "missing_source_pixels": 0
           },
           "back_arm": {
             "source_pixels": 116,
-            "cloth_pixels": 199,
+            "cloth_pixels": 171,
             "terminal_pixels": 28,
             "missing_source_pixels": 0
           },
           "front_arm": {
             "source_pixels": 148,
-            "cloth_pixels": 268,
+            "cloth_pixels": 231,
             "terminal_pixels": 28,
             "missing_source_pixels": 0
           }
