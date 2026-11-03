@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Deviant · 결과 화면 와이어프레임</title>
+  <style>
+    :root { color-scheme: light; --ink:#242631; --muted:#62636b; --paper:#f7f3ea; --line:#c9c2b9; --red:#bd6b69; --blue:#7297ad; --gold:#b69a58; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:#e8e4dc; color:var(--ink); font:16px/1.5 system-ui,-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif; }
+    header { max-width:1540px; margin:auto; padding:36px 30px 18px; }
+    h1 { margin:0; font-size:clamp(25px,3vw,38px); letter-spacing:-.055em; }
+    .lead { max-width:900px; margin:8px 0 0; color:#55545a; }
+    .notice { margin-top:20px; padding:15px 18px; background:#fff8e9; border-left:4px solid var(--gold); font-weight:650; }
+    .toolbar { display:flex; flex-wrap:wrap; gap:12px; align-items:center; margin-top:20px; }
+    .toolbar label { display:flex; gap:9px; align-items:center; padding:9px 13px; background:white; border:1px solid #c8c0b6; border-radius:8px; cursor:pointer; }
+    input { accent-color:#273b48; width:18px; height:18px; }
+    main { max-width:1540px; margin:auto; padding:12px 30px 50px; }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px; }
+    .specimen { min-width:0; }
+    .specimen h2 { font-size:20px; margin:8px 0 12px; letter-spacing:-.035em; }
+    .screen { position:relative; display:flex; align-items:center; justify-content:center; min-height:480px; overflow:hidden; border:6px solid #282934; border-radius:14px; box-shadow:0 18px 40px #2926322e; background:radial-gradient(circle at 51% 44%,#4c4c61 0,#292938 55%,#171b24 100%); }
+    .screen::before { content:""; position:absolute; inset:0; opacity:.22; background:repeating-linear-gradient(0deg,transparent 0 5px,#f4d7cb0d 5px 6px),linear-gradient(135deg,transparent 0 34%,#dbb8ad13 35%,transparent 40%); }
+    .screen::after { content:""; position:absolute; inset:auto -4% -25% -4%; height:49%; background:radial-gradient(ellipse,#10121c99,transparent 70%); }
+    .card { z-index:1; position:relative; width:min(86%,590px); min-height:395px; display:flex; flex-direction:column; padding:29px 36px 26px; background:var(--paper); border:2px solid var(--ink); box-shadow:8px 9px 0 #13172075, inset 0 0 0 5px #eee9df; clip-path:polygon(0 0,100% 0,100% 97%,98% 100%,0 100%); }
+    .topline { display:flex; justify-content:space-between; gap:10px; border-bottom:1px solid var(--line); padding-bottom:11px; font-size:12px; font-weight:750; letter-spacing:.08em; }
+    .seal { display:inline-flex; gap:8px; align-items:center; }
+    .seal::before { content:""; width:9px; height:9px; border-radius:50%; background:var(--red); box-shadow:0 0 0 3px #bd6b6922; }
+    .complete .seal::before { background:var(--blue); box-shadow:0 0 0 3px #7297ad22; }
+    .eyebrow { margin:23px 0 3px; font-size:13px; font-weight:750; color:var(--muted); }
+    h3 { font-size:clamp(24px,2.3vw,34px); line-height:1.15; letter-spacing:-.055em; margin:0; }
+    .sub { font-size:14px; margin:8px 0 19px; color:var(--muted); }
+    .reward { display:flex; align-items:baseline; justify-content:space-between; gap:12px; border:1px solid #c7bca1; background:#f1ead7; padding:13px 17px; }
+    .reward .label { font-size:14px; font-weight:750; }
+    .reward .value { white-space:nowrap; font-size:25px; font-weight:800; font-variant-numeric:tabular-nums; color:#775b23; }
+    .reward .value small { font-size:13px; color:#6d6454; font-weight:600; }
+    .stats { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:12px; }
+    .stat { display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid var(--line); padding:8px 2px; font-size:13px; }
+    .stat b { font-size:16px; font-variant-numeric:tabular-nums; }
+    .unlock { display:none; margin:13px 0 0; color:#34576b; font-size:13px; font-weight:700; }
+    body:has(#unlock:checked) .unlock { display:block; }
+    .spacer { flex:1; min-height:15px; }
+    .action { width:100%; border:0; padding:11px 14px; background:#292d38; color:#fff; font-family:inherit; font-size:16px; font-weight:700; line-height:1.4; cursor:pointer; }
+    .action:hover,.action:focus-visible { background:#394e5d; outline:3px solid #c9a64e; outline-offset:2px; }
+    .foot { margin:14px 3px 0; color:#595861; font-size:14px; }
+    .foot strong { color:var(--ink); }
+    .notes { margin-top:28px; background:#f8f5ef; border:1px solid #cfc6bb; padding:22px 26px; }
+    .notes h2 { margin:0 0 8px; font-size:20px; }
+    .notes ul { margin:0; padding-left:22px; }
+    .notes li+li { margin-top:6px; }
+    @media(max-width:1050px) { .grid { grid-template-columns:1fr; } .screen { min-height:510px; } }
+    @media(max-width:650px) { header,main { padding-left:16px; padding-right:16px; } .screen { min-height:500px; } .card { width:92%; padding:22px 20px; } .reward .value { font-size:21px; } }
+    @media(prefers-reduced-motion:reduce) { * { scroll-behavior:auto!important; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Deviant · 런 결과 화면</h1>
+    <p class="lead">정보 구조 검토용 와이어프레임. 두 화면은 같은 틀을 쓰고, 결과의 의미만 제목·색·문구로 구분합니다. 숫자는 배치 예시입니다.</p>
+    <div class="notice">1챕터 출구는 결과 화면 없이 2챕터로 이어집니다. 아래 화면은 사망하거나 현재 마지막 챕터를 완료해 런이 끝났을 때만 표시합니다.</div>
+    <div class="toolbar"><label><input id="unlock" type="checkbox">새 영구 해금 안내 표시</label><span>표시 여부에 따라 버튼이 밀리거나 가려지지 않는지 확인</span></div>
+  </header>
+  <main>
+    <div class="grid">
+      <section class="specimen" aria-labelledby="death-title">
+        <h2 id="death-title">01 · 사망 결과</h2>
+        <div class="screen death">
+          <div class="card">
+            <div class="topline"><span class="seal">RUN RESULT</span><span>1챕터 · 숲</span></div>
+            <p class="eyebrow">체력이 0이 되었습니다</p>
+            <h3>이번 도전 종료</h3>
+            <p class="sub">다음 도전은 시작 마을에서 다시 준비합니다.</p>
+            <div class="reward"><span class="label">이번 런의 마법안료</span><span class="value">+ 128 <small>획득</small></span></div>
+            <div class="stats"><div class="stat"><span>플레이 시간</span><b>24:18</b></div><div class="stat"><span>처치 수</span><b>84</b></div></div>
+            <p class="unlock">새 영구 해금이 열렸습니다 · 시작 마을에서 확인</p>
+            <div class="spacer"></div>
+            <button class="action" type="button" aria-label="사망 결과에서 시작 마을로 이동">마을로</button>
+          </div>
+        </div>
+        <p class="foot"><strong>표시 시점</strong> 죽는 모션 뒤 실제 시간 2.5초. 결과 화면이 열리면 플레이를 멈춥니다.</p>
+      </section>
+      <section class="specimen" aria-labelledby="clear-title">
+        <h2 id="clear-title">02 · 런 완료 결과</h2>
+        <div class="screen complete">
+          <div class="card">
+            <div class="topline"><span class="seal">RUN RESULT</span><span>2챕터 · 수로</span></div>
+            <p class="eyebrow">현재 마지막 챕터를 완료했습니다</p>
+            <h3>이번 도전 완료</h3>
+            <p class="sub">이번 런의 기록을 확인하고 시작 마을로 돌아갑니다.</p>
+            <div class="reward"><span class="label">이번 런의 마법안료</span><span class="value">+ 286 <small>획득</small></span></div>
+            <div class="stats"><div class="stat"><span>플레이 시간</span><b>49:32</b></div><div class="stat"><span>처치 수</span><b>173</b></div></div>
+            <p class="unlock">새 영구 해금이 열렸습니다 · 시작 마을에서 확인</p>
+            <div class="spacer"></div>
+            <button class="action" type="button" aria-label="런 완료 결과에서 시작 마을로 이동">마을로</button>
+          </div>
+        </div>
+        <p class="foot"><strong>표시 시점</strong> 현재 구현된 마지막 챕터인 2챕터를 완료하고 런을 정산한 뒤.</p>
+      </section>
+    </div>
+    <section class="notes">
+      <h2>팀 검토용 메모</h2>
+      <ul>
+        <li>마법안료는 적 처치 시 이미 획득합니다. 결과 화면의 <b>+N</b>은 재지급이 아니라 이번 런 획득량입니다.</li>
+        <li>누적 마법안료, 사망 원인, 신규 해금의 구체적 목록은 데이터와 표시 정책을 확인한 뒤 추가합니다.</li>
+        <li>3챕터가 구현되면 ‘이번 도전 완료’의 표시 시점을 최종 챕터 기준으로 다시 정합니다.</li>
+        <li>이 버튼은 화면 비교용입니다. 실제 게임 이동은 Unity에서 연결해야 합니다.</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
