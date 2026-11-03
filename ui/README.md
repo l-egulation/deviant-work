@@ -10,7 +10,7 @@
 
 ## 피그마
 
-- [사용자 흐름 FigJam](https://www.figma.com/board/nHfGBYZsYIcHNUD9SU4cGs): "현행" 섹션 2개(화살표 흐름, 색상 잉크 획득과 보관)가 기준이고 "이전안" 섹션은 기록용
+- [사용자 흐름 FigJam](https://www.figma.com/board/nHfGBYZsYIcHNUD9SU4cGs/?node-id=79-525): "새 흐름" 섹션 6개(0 전체 흐름, ①~⑤ 상세)가 기준이고 "이전안" 섹션은 기록용. 원본 표는 [화면 목록](work/flows/flow-inventory.md)
 - [와이어프레임](https://www.figma.com/design/qjL5PNYHPgTDQ0huZXBzLg): 화면 01~51. 화면별 상태는 [작업 기록](docs/log/2026-11-03.md#점검에서-확인한-피그마-상태)
 - [결과 화면 4상태](https://www.figma.com/design/qjL5PNYHPgTDQ0huZXBzLg/?node-id=74-75): 사망·런 완료 × 기본·신규 해금
 
@@ -23,6 +23,7 @@
 | `docs/handoff.md` | 다른 세션·도구가 이어받을 때 읽는 맥락 |
 | `docs/log/` | 날짜별 작업 기록 |
 | `docs/specs/`, `docs/plans/` | 설계·작업 계획 |
+| `work/flows/` | 흐름도 원본 표 ([화면 목록](work/flows/flow-inventory.md)) |
 | `work/specs-screens/` | 화면별 정보 구조 ([결과 화면](work/specs-screens/result-screens.md)) |
 | `work/reference/` | 참고 시연 ([팔레트 제작소 HTML](work/reference/ink-palette-forge.html), 일부 이미지 없음) |
 | `work/reviews/` | 화면 검토 기록 |
