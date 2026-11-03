@@ -2,7 +2,7 @@
 
 최신 기준: SSAFY 게임 저장소 `S15P31F109/docs/design/run-structure.md`, `docs/development/chapter2-runtime.md`, `docs/design/systems/roguelite-progression.md` (2026-11-03 확인). [현행 사용자 흐름 FigJam](https://www.figma.com/board/nHfGBYZsYIcHNUD9SU4cGs/?node-id=62-377)
 
-[결과 화면 와이어프레임](result-wireframes.html): 사망·런 완료 화면을 나란히 보고 신규 해금 안내 상태를 전환할 수 있습니다. 숫자와 배경은 검토용 예시입니다.
+[Figma 결과 화면 4상태](https://www.figma.com/design/qjL5PNYHPgTDQ0huZXBzLg/?node-id=74-75): 사망·런 완료 각각 기본 상태와 신규 해금 안내 상태. 모두 편집 가능한 레이어입니다. 숫자와 챕터 이름은 배치 예시입니다. 이전 HTML 시안은 [참고용](result-wireframes.html)으로 남깁니다.
 
 ## 먼저 바로잡을 흐름
 
