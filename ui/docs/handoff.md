@@ -1,5 +1,7 @@
 # Deviant UI 작업 인수인계
 
+> 2026-11-03 레포 개편으로 `ui/claude-handoff.md`에서 이 위치로 옮겼다. 지금 상태와 다음 할 일은 [STATUS](STATUS.md), 정한 것은 [결정 기록](decisions.md)이 기준이다. 아래 "최신 기준"은 2026-11-03 오전 기준이며, 그 뒤 팀 레포에서 마을 팔레트 조각 규칙이 추가됐다(결정 기록 참고).
+
 ## 역할과 현재 목표
 
 Claude는 기존 FigJam 사용자 흐름과 Figma 와이어프레임을 정리하고 기능·정보 구조를 검토한다. GPT와 사용자는 별도로 이미지 생성 등을 이용해 UI 테마를 탐색한다. 게임명은 Deviant다. 사용자는 Unity 게임 UI를 팀과 검토하며, office hour 방식으로 미정 사항을 하나씩 논의하는 것을 선호한다.
@@ -10,7 +12,7 @@ Claude는 기존 FigJam 사용자 흐름과 Figma 와이어프레임을 정리�
 
 - [사용자 흐름 FigJam](https://www.figma.com/board/nHfGBYZsYIcHNUD9SU4cGs): 전체 흐름과 상세 흐름. [현행 화살표 흐름](https://www.figma.com/board/nHfGBYZsYIcHNUD9SU4cGs/?node-id=62-377), [색상 잉크 상세](https://www.figma.com/board/nHfGBYZsYIcHNUD9SU4cGs/?node-id=65-452). 사용자는 화살표로 이어진 흐름도를 선호하며 선 겹침과 반대 방향처럼 보이는 화살표를 지적했다.
 - [기존 UI 와이어프레임 Figma](https://www.figma.com/design/qjL5PNYHPgTDQ0huZXBzLg): Page 1에 01~51 화면이 배열되어 있다. 현재안·수정 대상·이전안이 혼재한다. 01~15는 타이틀·설정 관련 오래된 검토안, 16~47은 정비·인벤토리·장비·색상 잉크 화면이며 많은 것이 이전안 또는 수정 대상으로 표시돼 있다. 48~51은 [사망·런 완료 결과 4상태](https://www.figma.com/design/qjL5PNYHPgTDQ0huZXBzLg/?node-id=74-75)다. 각 상태는 편집 가능한 레이어로 만들어졌다. 번호 자체는 현재성의 증거가 아니다.
-- [UI 작업 브랜치](https://github.com/l-egulation/deviant-work/tree/work/ui-design/ui): UI 자료와 인수인계 기록. [결과 화면 정보 구조](result-screens.md), [UI 안내](README.md). HTML 결과 화면은 이전 참고안이며 Figma가 현재 검토 대상이다. 이 브랜치의 오래된 문서와 README 일부는 현행 규칙과 다를 수 있다.
+- [UI 작업 브랜치](https://github.com/l-egulation/deviant-work/tree/work/ui-design/ui): UI 자료와 인수인계 기록. [결과 화면 정보 구조](../work/specs-screens/result-screens.md), [UI 안내](../README.md). HTML 결과 화면은 이전 참고안이며 Figma가 현재 검토 대상이다. 이 브랜치의 오래된 문서와 README 일부는 현행 규칙과 다를 수 있다.
 - 게임 원본: [SSAFY 게임 저장소](https://lab.ssafy.com/s15-final/S15P31F109.git). 접근 가능하면 저장소의 최신 브랜치·커밋 시점과 문서 및 구현 상태를 확인한다. 접근이 불가능하면 사용자에게 현재 자료를 요청하고 확인하지 못한 부분을 명시한다.
 
 ## 최신 기준과 문서 충돌

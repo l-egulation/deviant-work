@@ -79,4 +79,4 @@
 
 화면은 **저해상도 검토안**입니다. 색상과 수치, 인벤토리 칸 수, 팔레트 구성은 예시입니다. 기존 Figma의 '이전안' 화면은 결정 변경 전의 기록이며 현재 흐름의 기준이 아닙니다.
 
-관련: [사용자 흐름 초안](ux-flow.md), [도면·팔레트 개편 설계](sources/ink-blueprint-proposal.md).
+관련: [사용자 흐름 초안](ux-flow-2026-10-27.md), 도면·팔레트 개편 설계(팀 레포 `docs/design/systems/ink-blueprint-proposal.md`).

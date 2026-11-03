@@ -1,40 +1,27 @@
-# Deviant UI 작업
+# Deviant UI 디자인
 
-게임의 첫 화면, 정비, 전투 HUD, 보상·결과 흐름을 설계하고 검증하는 폴더입니다. 세계관은 현재 ‘잉크’라는 콘셉트까지만 전제로 둡니다.
+게임의 화면 흐름, 정보 구조, 배치를 설계합니다. 와이어프레임은 테마를 입히기 전 **기능·배치 정리용 임시본**이며, 테마는 GPT 쪽에서 따로 작업합니다. 게임 기준은 팀 레포(`S15P31F109`)입니다.
 
-## 시작점
+**먼저 볼 것:** [STATUS](docs/STATUS.md) — 지금 상태와 다음 할 일
 
-- [UI 작업 인수인계](claude-handoff.md): 피그마 정리 작업의 맥락, 최신 기준과 저장소 안내.
+## 피그마
 
-- [UI 재설계 작업판](ui-rebuild-plan.html): 계획, 가설, 단계별 기록과 첫 사용자 흐름. 브라우저에서 열 수 있습니다.
-- [Figma 결과 화면 4상태](https://www.figma.com/design/qjL5PNYHPgTDQ0huZXBzLg/?node-id=74-75): 사망·런 완료의 기본/신규 해금 상태를 편집 가능한 화면으로 비교. [이전 HTML 시안](result-wireframes.html)은 참고용.
-- [결과 화면 정보 구조 초안](result-screens.md): 최신 1→2챕터 연결, 사망·런 완료 결과 화면의 정보와 팀 검토 항목.
-- [사용자 흐름 초안](ux-flow.md): 타이틀부터 첫 전투, 정비, 반복, 런 결과까지의 화면 책임과 미정 사항.
-- [도면·팔레트 구성 제안](sources/ink-blueprint-proposal.md): 제공된 최신 무기 제작·강화 설계안. Unity 구현 완료를 뜻하지 않습니다.
-- [팔레트 제작소 참고 HTML](reference/ink-palette-forge.html): 위 규칙을 설명하는 시연.
+- [사용자 흐름 FigJam](https://www.figma.com/board/nHfGBYZsYIcHNUD9SU4cGs): "현행" 섹션 2개(화살표 흐름, 색상 잉크 획득과 보관)가 기준이고 "이전안" 섹션은 기록용
+- [와이어프레임](https://www.figma.com/design/qjL5PNYHPgTDQ0huZXBzLg): 화면 01~51. 화면별 상태는 [작업 기록](docs/log/2026-11-03.md#점검에서-확인한-피그마-상태)
+- [결과 화면 4상태](https://www.figma.com/design/qjL5PNYHPgTDQ0huZXBzLg/?node-id=74-75): 사망·런 완료 × 기본·신규 해금
 
-## 현재 타이틀·설정 작업
+## 폴더
 
-- [사용자 흐름 FigJam](https://www.figma.com/board/nHfGBYZsYIcHNUD9SU4cGs): 타이틀 메뉴와 설정 이동 흐름.
-- [저해상도 Figma 와이어프레임](https://www.figma.com/design/qjL5PNYHPgTDQ0huZXBzLg): 타이틀 3상태, 종료 확인, 설정 3항목, 화면 적용 확인, 제작진. 모든 화면은 편집 가능한 레이어로 구성했습니다.
-- [인디게임 UI 관점 검토 기록](reviews/title-settings-wireframe-review.md): 화면에서 확인한 문제, 반영한 수정, 아직 미정인 항목.
-- 이 자료의 메뉴 배치와 설정 동작은 **검토용 초안**입니다. 새 게임·이어하기 선택 이후 게임 플레이 흐름은 미정입니다.
+| 위치 | 내용 |
+|---|---|
+| `docs/STATUS.md` | 지금 상태, 다음 할 일 |
+| `docs/decisions.md` | 정한 것과 이유 (팀 기준과 다른 이전 결정은 "구안") |
+| `docs/handoff.md` | 다른 세션·도구가 이어받을 때 읽는 맥락 |
+| `docs/log/` | 날짜별 작업 기록 |
+| `docs/specs/`, `docs/plans/` | 설계·작업 계획 |
+| `work/specs-screens/` | 화면별 정보 구조 ([결과 화면](work/specs-screens/result-screens.md)) |
+| `work/reference/` | 참고 시연 ([팔레트 제작소 HTML](work/reference/ink-palette-forge.html), 일부 이미지 없음) |
+| `work/reviews/` | 화면 검토 기록 |
+| `archive/` | 이전안 ([목록](archive/README.md)) |
 
-## 현재 기준과 한계
-
-- 최신 제안은 **도면=기본 무기, 흰색 잉크=형태, 검정 잉크=특수 공격, 별도 팔레트의 색상 파츠=추가 효과**입니다. 예전의 빨강=형태·파랑=특수 공격 안과 구분합니다.
-- 두 무기 장착과 최신 제안의 무기 분류 관계, 게임 시작·보상·런 종료 규칙은 아직 결정되지 않았습니다.
-- `reference/ink-palette-forge.html`이 참조하는 `ink-mixing-assets/` 이미지 묶음은 원본 첨부에 없었습니다. 일부 이미지가 비어 보일 수 있습니다. 비용·수치·재고·팔레트 예시는 최종 규칙이 아닙니다.
-- 기존 SSAFY 게임 저장소의 2026-10-14 공유본은 이동·공격·HUD 플레이테스트입니다. 새 제작 체계가 그 빌드에 반영된 것으로 해석하지 않습니다.
-
-## 다음 작업
-
-1. `ux-flow.md`의 우선 질문을 팀과 정리합니다.
-2. 첫 전투 → 첫 정비 → 출발 → 보상이라는 한 바퀴를 낮은 충실도 화면으로 연결합니다.
-3. 도면 작업대와 팔레트 작업대의 정보 구조를 비교합니다.
-4. 제작·교체에서 무엇이 남고 사라지는지 사용자가 이해하는지 확인합니다.
-5. 실제 게임 화면 위에서 전투 HUD를 검토하고 관찰 결과를 기록합니다.
-
-### 작업판 기록 보관
-
-작업판에서 입력한 내용은 **현재 브라우저에만 자동 저장**됩니다. 이 Git 브랜치의 HTML은 자동으로 변경되지 않습니다. 중요한 기록은 JSON으로 내려받아 보관하거나 검토 후 Markdown에 옮겨 커밋합니다.
+문서 양식과 갱신 규칙은 [문서 작성 규칙](../docs/conventions.md)을 따릅니다.
