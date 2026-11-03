@@ -10,7 +10,7 @@
 
 ## 피그마
 
-- [사용자 흐름 FigJam](https://www.figma.com/board/nHfGBYZsYIcHNUD9SU4cGs/?node-id=79-525): "새 흐름" 섹션 6개(0 전체 흐름, ①~⑤ 상세)가 기준이고 "이전안" 섹션은 기록용. 원본 표는 [화면 목록](work/flows/flow-inventory.md)
+- [사용자 흐름 FigJam](https://www.figma.com/board/nHfGBYZsYIcHNUD9SU4cGs/?node-id=100-1706): 「현행 · 사용자 흐름 v2」 섹션(0 전체 흐름, ①~⑤ 상세)이 기준이고, 「보관 · 이전 버전」에 v1, v0을 버전별로 남겼다. 원본 표는 [화면 목록](work/flows/flow-inventory.md)
 - [와이어프레임](https://www.figma.com/design/qjL5PNYHPgTDQ0huZXBzLg): 화면 01~51. 화면별 상태는 [작업 기록](docs/log/2026-11-03.md#점검에서-확인한-피그마-상태)
 - [결과 화면 4상태](https://www.figma.com/design/qjL5PNYHPgTDQ0huZXBzLg/?node-id=74-75): 사망·런 완료 × 기본·신규 해금
 
