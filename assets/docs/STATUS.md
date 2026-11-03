@@ -8,7 +8,7 @@
 
 ## 진행 중
 
-- 주인공 B안 대기·달리기 의상 보정 · [work/characters/ink-hero-b](../work/characters/ink-hero-b/beret-motion/README.md)
+- 주인공 B안 대기·달리기 의상 보정 (실험, 팀 기준 아님) · [work/characters/ink-hero-b](../work/characters/ink-hero-b/beret-motion/README.md)
 
 ## 다음 할 일
 
