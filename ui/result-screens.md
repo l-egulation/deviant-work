@@ -2,6 +2,8 @@
 
 최신 기준: SSAFY 게임 저장소 `S15P31F109/docs/design/run-structure.md`, `docs/development/chapter2-runtime.md`, `docs/design/systems/roguelite-progression.md` (2026-11-03 확인). [현행 사용자 흐름 FigJam](https://www.figma.com/board/nHfGBYZsYIcHNUD9SU4cGs/?node-id=62-377)
 
+[결과 화면 와이어프레임](result-wireframes.html): 사망·런 완료 화면을 나란히 보고 신규 해금 안내 상태를 전환할 수 있습니다. 숫자와 배경은 검토용 예시입니다.
+
 ## 먼저 바로잡을 흐름
 
 1챕터 보스 처치 → 제단 보상 선택(선택 사항) → 출구 F → 철창 열림·페이드 → **같은 런으로 2챕터 진입**. 이 경계에는 결과 화면과 마을 귀환이 없다. 장비·팔레트·가방·체력·골드는 유지된다. 보스 첫 클리어 해금만 영구 기록된다.
