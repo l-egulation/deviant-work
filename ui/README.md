@@ -23,6 +23,7 @@
 | `docs/handoff.md` | 다른 세션·도구가 이어받을 때 읽는 맥락 |
 | `docs/log/` | 날짜별 작업 기록 |
 | `docs/specs/`, `docs/plans/` | 설계·작업 계획 |
+| `work/theme/` | 테마 기준 초안 ([전투 HUD 테마](work/theme/hud-theme-guide.md)) |
 | `work/flows/` | 흐름도 원본 표 ([화면 목록](work/flows/flow-inventory.md)) |
 | `work/specs-screens/` | 화면별 정보 구조 ([결과 화면](work/specs-screens/result-screens.md)) |
 | `work/reference/` | 참고 시연 ([팔레트 제작소 HTML](work/reference/ink-palette-forge.html), 일부 이미지 없음) |
