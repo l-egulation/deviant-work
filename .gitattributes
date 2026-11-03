@@ -1,0 +1,62 @@
+# Deviant work repo attributes (see docs/specs/2026-11-03-repo-structure-design.md 5.5)
+
+# Line endings: normalize text files only. Images are not touched.
+*.md text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.cjs text eol=lf
+*.mjs text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.svg text eol=lf
+*.gitattributes text eol=lf
+*.gitignore text eol=lf
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# Git LFS: only new work folders. archive/ and assets/work/characters/ stay as plain Git files.
+assets/work/motion-lab/**/*.png filter=lfs diff=lfs merge=lfs -text
+assets/work/motion-lab/**/*.gif filter=lfs diff=lfs merge=lfs -text
+assets/work/motion-lab/**/*.webp filter=lfs diff=lfs merge=lfs -text
+assets/work/motion-lab/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+assets/work/motion-lab/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+assets/work/motion-lab/**/*.aseprite filter=lfs diff=lfs merge=lfs -text
+assets/work/motion-lab/**/*.psd filter=lfs diff=lfs merge=lfs -text
+assets/work/motion-lab/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
+assets/work/monsters/**/*.png filter=lfs diff=lfs merge=lfs -text
+assets/work/monsters/**/*.gif filter=lfs diff=lfs merge=lfs -text
+assets/work/monsters/**/*.webp filter=lfs diff=lfs merge=lfs -text
+assets/work/monsters/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+assets/work/monsters/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+assets/work/monsters/**/*.aseprite filter=lfs diff=lfs merge=lfs -text
+assets/work/monsters/**/*.psd filter=lfs diff=lfs merge=lfs -text
+assets/work/environments/**/*.png filter=lfs diff=lfs merge=lfs -text
+assets/work/environments/**/*.gif filter=lfs diff=lfs merge=lfs -text
+assets/work/environments/**/*.webp filter=lfs diff=lfs merge=lfs -text
+assets/work/environments/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+assets/work/environments/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+assets/work/environments/**/*.aseprite filter=lfs diff=lfs merge=lfs -text
+assets/work/environments/**/*.psd filter=lfs diff=lfs merge=lfs -text
+ui/work/**/*.png filter=lfs diff=lfs merge=lfs -text
+ui/work/**/*.gif filter=lfs diff=lfs merge=lfs -text
+ui/work/**/*.webp filter=lfs diff=lfs merge=lfs -text
+ui/work/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+ui/work/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+ui/work/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
+story/work/**/*.png filter=lfs diff=lfs merge=lfs -text
+story/work/**/*.gif filter=lfs diff=lfs merge=lfs -text
+story/work/**/*.webp filter=lfs diff=lfs merge=lfs -text
+story/work/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+story/work/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+video/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
+video/**/*.mov filter=lfs diff=lfs merge=lfs -text
+video/**/*.wav filter=lfs diff=lfs merge=lfs -text
+audio/**/*.wav filter=lfs diff=lfs merge=lfs -text
+audio/**/*.ogg filter=lfs diff=lfs merge=lfs -text
+audio/**/*.mp3 filter=lfs diff=lfs merge=lfs -text
+audio/**/*.flac filter=lfs diff=lfs merge=lfs -text
