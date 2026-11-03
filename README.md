@@ -31,7 +31,7 @@
 ## 파일 원칙
 
 - 기획서, HTML, 코드, 작은 참고 이미지는 Git으로 관리합니다.
-- 각 분야 `work/` 아래의 이미지·영상·Aseprite 파일과 `audio/`·`video/`의 미디어는 **Git LFS**로 올라갑니다. 두 기기 모두 `git lfs install`을 한 번 실행해야 합니다.
+- 새 작업 폴더의 미디어는 **Git LFS**로 올라갑니다: `assets/work/`의 motion-lab·monsters·environments(이미지·Aseprite·PSD), `ui/work/`·`story/work/`의 이미지, `audio/`·`video/`의 음원·영상. 정확한 규칙은 `.gitattributes`를 봅니다. 두 기기 모두 `git lfs install`을 한 번 실행해야 합니다.
 - `archive/`와 `assets/work/characters/`에 있는 기존 이미지는 일반 Git 파일로 둡니다(기록을 다시 쓰지 않음).
 - 줄바꿈은 `.gitattributes`가 텍스트 파일만 LF로 맞춥니다(`.cmd`·`.bat`은 CRLF).
 - Unity `Library/`, 캐시, 임시 렌더, 다운로드 파일, 인증 정보, 구매 에셋 원본 ZIP은 커밋하지 않습니다.

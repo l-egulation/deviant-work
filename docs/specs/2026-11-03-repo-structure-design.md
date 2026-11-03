@@ -108,7 +108,7 @@
 | 기존 | 새 위치 | 처리 |
 |---|---|---|
 | `ui/claude-handoff.md` | `ui/docs/handoff.md` | 옮기고 새 구조 기준으로 경로·링크만 갱신 |
-| `ui/office-hour-decisions.md` | `ui/docs/decisions.md`의 바탕 | 옮기고, 팀 기준과 충돌하는 항목에 "구안(팀 기준과 다름)" 표시 |
+| `ui/office-hour-decisions.md` | `ui/archive/office-hour-decisions-2026-10-29.md` (원문 보관) + 새 `ui/docs/decisions.md` | 원문은 보관하고, 새 결정 기록에 각 항목을 팀 기준과 대조해 "구안(팀 기준과 다름)" 등으로 표시 (구현 시 조정) |
 | `ui/result-screens.md` | `ui/work/specs-screens/result-screens.md` | 옮기기만 (내용 수정은 이후 작업) |
 | `ui/ux-flow.md` | `ui/archive/ux-flow-2026-10-27.md` | 대부분 구안이라 보관. 현행 흐름은 피그마 FigJam "현행" 섹션이 기준 |
 | `ui/result-wireframes.html` | `ui/archive/` | 이전 HTML 시안 |
@@ -200,7 +200,7 @@ video/**/*.{mp4,mov,wav}                                             filter=lfs 
 audio/**/*.{wav,ogg,mp3}                                             filter=lfs diff=lfs merge=lfs -text
 ```
 
-(실제 파일에서는 `{a,b}` 묶음을 지원하지 않으므로 확장자별로 한 줄씩 풀어 쓴다.)
+(실제 파일에서는 `{a,b}` 묶음을 지원하지 않으므로 확장자별로 한 줄씩 풀어 쓴다. `zip`은 `.gitignore`가 이미 제외하므로 규칙에서 뺐다.)
 
 - `assets/work/characters/ink-hero-b/`는 기존 일반 Git 이미지를 그대로 옮긴 곳이라 LFS 규칙에서 **뺀다.** 이 폴더의 다음 실험 결과는 `assets/work/motion-lab/`에 새로 쌓아서 LFS로 들어가게 한다.
 - `archive/`는 LFS 규칙 밖이다. 옮겨진 기존 파일은 일반 Git 그대로 남는다.
