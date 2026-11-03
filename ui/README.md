@@ -4,6 +4,8 @@
 
 ## 시작점
 
+- [UI 작업 인수인계](claude-handoff.md): 피그마 정리 작업의 맥락, 최신 기준과 저장소 안내.
+
 - [UI 재설계 작업판](ui-rebuild-plan.html): 계획, 가설, 단계별 기록과 첫 사용자 흐름. 브라우저에서 열 수 있습니다.
 - [Figma 결과 화면 4상태](https://www.figma.com/design/qjL5PNYHPgTDQ0huZXBzLg/?node-id=74-75): 사망·런 완료의 기본/신규 해금 상태를 편집 가능한 화면으로 비교. [이전 HTML 시안](result-wireframes.html)은 참고용.
 - [결과 화면 정보 구조 초안](result-screens.md): 최신 1→2챕터 연결, 사망·런 완료 결과 화면의 정보와 팀 검토 항목.
