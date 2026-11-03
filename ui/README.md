@@ -4,6 +4,10 @@
 
 **먼저 볼 것:** [STATUS](docs/STATUS.md) — 지금 상태와 다음 할 일
 
+## 테마
+
+- [전투 HUD 테마 기준 초안](work/theme/hud-theme-guide.md): 색상·프레임·아이콘·쿨타임과 검토할 상태.
+
 ## 피그마
 
 - [사용자 흐름 FigJam](https://www.figma.com/board/nHfGBYZsYIcHNUD9SU4cGs): "현행" 섹션 2개(화살표 흐름, 색상 잉크 획득과 보관)가 기준이고 "이전안" 섹션은 기록용
