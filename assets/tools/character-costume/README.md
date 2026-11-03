@@ -1,8 +1,8 @@
 # 일체형 의상 생성 도구
 
-**확인만 하려면 도구를 실행하지 마세요.** 완성된 GIF는 [최신 미리보기 폴더](../../assets/characters/ink-hero-c/integrated-outfit-motion/README.md)에 있습니다.
+**확인만 하려면 도구를 실행하지 마세요.** 완성된 GIF는 [최신 미리보기 폴더](../../archive/ink-hero-c/integrated-outfit-motion/README.md)에 있습니다.
 
-GitHub 경로: `assets/characters/ink-hero-c/integrated-outfit-motion/`
+GitHub 경로: `assets/archive/ink-hero-c/integrated-outfit-motion/`
 
 ## 현재 디자인
 

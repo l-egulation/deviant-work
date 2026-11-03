@@ -16,21 +16,21 @@
 
 ## 최신 확인: 일체형 의상 + 목도리
 
-GitHub 폴더: **`assets/characters/ink-hero-c/integrated-outfit-motion/`**
+GitHub 폴더: **`assets/archive/ink-hero-c/integrated-outfit-motion/`**
 
-[대기→달리기→정지 GIF](ink-hero-c/integrated-outfit-motion/movement-scarf.gif) · [다섯 모션 전체](ink-hero-c/integrated-outfit-motion/all-motions.gif) · [파일 안내](ink-hero-c/integrated-outfit-motion/README.md)
+[대기→달리기→정지 GIF](../../archive/ink-hero-c/integrated-outfit-motion/movement-scarf.gif) · [다섯 모션 전체](../../archive/ink-hero-c/integrated-outfit-motion/all-motions.gif) · [파일 안내](../../archive/ink-hero-c/integrated-outfit-motion/README.md)
 
 새 디자인은 몸·두건·상의·통 넓은 바지를 한 캐릭터 이미지로 만들고 목도리만 분리했습니다. 아래 다른 폴더는 이전 시안입니다.
 
 ## 최신 공통 의상 모션 — 생성 없이 바로 확인
 
-[다섯 모션 GIF](ink-hero-c/shared-costume-motion-preview/all-motions.gif) · [개별 GIF와 설명](ink-hero-c/shared-costume-motion-preview/README.md)
+[다섯 모션 GIF](../../archive/ink-hero-c/shared-costume-motion-preview/all-motions.gif) · [개별 GIF와 설명](../../archive/ink-hero-c/shared-costume-motion-preview/README.md)
 
-`git pull` 후 `assets/characters/ink-hero-c/shared-costume-motion-preview/all-motions.gif`를 열면 됩니다.
+`git pull` 후 `assets/archive/ink-hero-c/shared-costume-motion-preview/all-motions.gif`를 열면 됩니다.
 
 ## 최신: 선택한 짧은 로브 디자인 적용
 
-[짧은 로브 v16](ink-hero-c/short-robe-v16/README.md) · [모션 GIF](ink-hero-c/short-robe-v16/preview-motion.gif)
+[짧은 로브 v16](../../archive/ink-hero-c/short-robe-v16/README.md) · [모션 GIF](../../archive/ink-hero-c/short-robe-v16/preview-motion.gif)
 
 구매 에셋 대기·달리기 위에 두건, 민소매 비대칭 로브, 목도리를 적용했습니다. 아래 긴 로브와 재디자인 시안은 이전 탐색 기록입니다.
 
@@ -42,38 +42,38 @@ GitHub 폴더: **`assets/characters/ink-hero-c/integrated-outfit-motion/`**
 
 ## 최신 작업: 3레이어 의상과 관성 모션 (v13)
 
-[최신 시안 폴더와 실행 안내](ink-hero-c/three-layer-cloth-v13/README.md)
+[최신 시안 폴더와 실행 안내](../../archive/ink-hero-c/three-layer-cloth-v13/README.md)
 
-![몸체·로브·목도리 모션](ink-hero-c/three-layer-cloth-v13/preview-motion.gif)
+![몸체·로브·목도리 모션](../../archive/ink-hero-c/three-layer-cloth-v13/preview-motion.gif)
 
 `work/asset-design` 브랜치에서 `git pull` 후 아래 파일을 브라우저로 열면 됩니다. 별도 설치나 서버는 필요 없습니다.
 
 ```text
-assets/characters/ink-hero-c/three-layer-cloth-v13/index.html
+assets/archive/ink-hero-c/three-layer-cloth-v13/index.html
 ```
 
 - 방향키를 누르면 달리기, 놓으면 정지. 관성 유무와 몸체/로브/목도리를 개별 비교할 수 있습니다.
 - 구매 Idle/Run 몸 동작에 원본 의상을 맞추고 옷 내부에 변형을 적용한 **브라우저 검증 시안**입니다. Unity 적용본은 아닙니다.
 - 3레이어 Aseprite·투명 PNG·변형 코드·조사 자료를 함께 포함합니다.
-- [원본 로브 디자인](ink-hero-c/concept-art/original-robe-wine-concept.png) / [스케치 맵에서 색 비교](ink-hero-c/concept-art/sketch-map-palette-comparison.png). 색 비교 이미지는 AI 시안으로 실제 게임 캡처가 아닙니다.
+- [원본 로브 디자인](../../archive/ink-hero-c/concept-art/original-robe-wine-concept.png) / [스케치 맵에서 색 비교](../../archive/ink-hero-c/concept-art/sketch-map-palette-comparison.png). 색 비교 이미지는 AI 시안으로 실제 게임 캡처가 아닙니다.
 
 ## 이전 C 어깨천 디자인과 작업 기록
 
 ## 먼저 보기
 
-![A/C 컨셉 아트](ink-hero-c/concept-art/A-C-pixel-concept.png)
+![A/C 컨셉 아트](../../archive/ink-hero-c/concept-art/A-C-pixel-concept.png)
 
 위 이미지는 디자인 방향 참고용 컨셉 아트이며 실제 게임 프레임이 아닙니다. 아래는 현재 C안의 실제 모션입니다.
 
 | 대기 | 걷기 | 달리기 |
 |---|---|---|
-| ![대기](ink-hero-c/basic-motions/C-idle.gif) | ![걷기](ink-hero-c/basic-motions/C-walk.gif) | ![달리기](ink-hero-c/basic-motions/C-run.gif) |
+| ![대기](../../archive/ink-hero-c/basic-motions/C-idle.gif) | ![걷기](../../archive/ink-hero-c/basic-motions/C-walk.gif) | ![달리기](../../archive/ink-hero-c/basic-motions/C-run.gif) |
 
 ## 최신 검 전투 시안
 
-![강베기](ink-hero-c/sword-combat/preview-motion.gif)
+![강베기](../../archive/ink-hero-c/sword-combat/preview-motion.gif)
 
-**GIF는 무음입니다.** [전투 시안 폴더](ink-hero-c/sword-combat)의 `index.html`을 다운로드한 폴더에서 브라우저로 열면 직접 조작하고 소리를 들을 수 있습니다. GitHub의 HTML 파일 화면은 게임을 실행하지 않습니다. 별도 설치·서버는 필요 없으며, 관련 파일을 함께 받아야 합니다.
+**GIF는 무음입니다.** [전투 시안 폴더](../../archive/ink-hero-c/sword-combat)의 `index.html`을 다운로드한 폴더에서 브라우저로 열면 직접 조작하고 소리를 들을 수 있습니다. GitHub의 HTML 파일 화면은 게임을 실행하지 않습니다. 별도 설치·서버는 필요 없으며, 관련 파일을 함께 받아야 합니다.
 
 - ← → 이동 / S 평타 / D 강베기 / R 초기화 / '소리 켜고 시작'.
 - 평타: 피해 10, 0.20초 적중, 전체 0.40초.
@@ -86,28 +86,28 @@ assets/characters/ink-hero-c/three-layer-cloth-v13/index.html
 
 | 경로 | 내용 / 상태 |
 |---|---|
-| [concept-art](ink-hero-c/concept-art) | A/C 디자인, 색 조합, 이전 컨셉 탐색 이미지. 탐색안은 채택안과 구분 |
-| [design](ink-hero-c/design) | C 의상 디테일 v5: PNG·편집용 Aseprite·작업 메모 |
-| [basic-motions](ink-hero-c/basic-motions) | 대기·걷기·달리기 v6: PNG 프레임·GIF·Aseprite·검증 기록 |
-| [weapon-studies](ink-hero-c/weapon-studies) | 검·레이피어 및 추가 6종 무기 적용 가능성 시안. 최종 모션 아님 |
-| [sword-combat](ink-hero-c/sword-combat) | 최신 검 평타·강베기 피격/VFX/SFX 시안, 투명 VFX 프레임, 타이밍 |
+| [concept-art](../../archive/ink-hero-c/concept-art) | A/C 디자인, 색 조합, 이전 컨셉 탐색 이미지. 탐색안은 채택안과 구분 |
+| [design](../../archive/ink-hero-c/design) | C 의상 디테일 v5: PNG·편집용 Aseprite·작업 메모 |
+| [basic-motions](../../archive/ink-hero-c/basic-motions) | 대기·걷기·달리기 v6: PNG 프레임·GIF·Aseprite·검증 기록 |
+| [weapon-studies](../../archive/ink-hero-c/weapon-studies) | 검·레이피어 및 추가 6종 무기 적용 가능성 시안. 최종 모션 아님 |
+| [sword-combat](../../archive/ink-hero-c/sword-combat) | 최신 검 평타·강베기 피격/VFX/SFX 시안, 투명 VFX 프레임, 타이밍 |
 | [asset-manifest.json](asset-manifest.json) | 선별 파일의 원본 작업 경로와 SHA-256 |
 
 ## 무기 미리보기
 
 | 기본검 연타 연구 | 레이피어 |
 |---|---|
-| ![검](ink-hero-c/weapon-studies/base_sword.gif) | ![레이피어](ink-hero-c/weapon-studies/rapier.gif) |
+| ![검](../../archive/ink-hero-c/weapon-studies/base_sword.gif) | ![레이피어](../../archive/ink-hero-c/weapon-studies/rapier.gif) |
 
 | 망치 | 방패 | 대검 |
 |---|---|---|
-| ![망치](ink-hero-c/weapon-studies/hammer.gif) | ![방패](ink-hero-c/weapon-studies/shield.gif) | ![대검](ink-hero-c/weapon-studies/greatsword.gif) |
+| ![망치](../../archive/ink-hero-c/weapon-studies/hammer.gif) | ![방패](../../archive/ink-hero-c/weapon-studies/shield.gif) | ![대검](../../archive/ink-hero-c/weapon-studies/greatsword.gif) |
 
 | 발사기 | 수리검 | 폭탄 |
 |---|---|---|
-| ![발사기](ink-hero-c/weapon-studies/launcher.gif) | ![수리검](ink-hero-c/weapon-studies/shuriken.gif) | ![폭탄](ink-hero-c/weapon-studies/bomb.gif) |
+| ![발사기](../../archive/ink-hero-c/weapon-studies/launcher.gif) | ![수리검](../../archive/ink-hero-c/weapon-studies/shuriken.gif) | ![폭탄](../../archive/ink-hero-c/weapon-studies/bomb.gif) |
 
-무기 그림·잡는 손·양손 지지·투척 릴리스에는 추가 보정이 필요합니다. 위 GIF의 궤적은 게임 판정이나 최종 VFX가 아닙니다. 검의 실제 적중/소리 검토는 최신 `sword-combat`를 기준으로 합니다. 상세 한계는 [무기 작업 안내](ink-hero-c/weapon-studies/README.md)를 참고하세요.
+무기 그림·잡는 손·양손 지지·투척 릴리스에는 추가 보정이 필요합니다. 위 GIF의 궤적은 게임 판정이나 최종 VFX가 아닙니다. 검의 실제 적중/소리 검토는 최신 `sword-combat`를 기준으로 합니다. 상세 한계는 [무기 작업 안내](../../archive/ink-hero-c/weapon-studies/README.md)를 참고하세요.
 
 ## 선별 기준
 
