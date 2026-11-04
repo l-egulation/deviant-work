@@ -11,12 +11,13 @@
 | UI 디자인 | `work/ui-design` | `ui/` | [STATUS](https://github.com/l-egulation/deviant-work/blob/work/ui-design/ui/docs/STATUS.md) | `3rd_PJT/UI design` |
 | 에셋 디자인 | `work/asset-design` | `assets/` | [STATUS](https://github.com/l-egulation/deviant-work/blob/work/asset-design/assets/docs/STATUS.md) | `3rd_PJT/asset design` |
 | 스토리 디자인 | `work/story-design` | `story/` | [STATUS](https://github.com/l-egulation/deviant-work/blob/work/story-design/story/docs/STATUS.md) | `3rd_PJT/story` |
+| 영상 | `work/video` | `video/` | [STATUS](https://github.com/l-egulation/deviant-work/blob/work/video/video/docs/STATUS.md) | `3rd_PJT/video` |
 
 `main`에는 이 안내, 공통 규칙, 레포 전체 설계만 둡니다.
 
 - [문서 작성 규칙](docs/conventions.md): STATUS·작업 기록·결정 기록·인수인계 양식과 갱신 규칙
 - [레포 구조 설계](docs/specs/2026-11-03-repo-structure-design.md) · [개편 작업 계획](docs/plans/2026-11-03-repo-structure-plan.md)
-- `audio/`, `video/`: 사운드·홍보 영상용 자리 (아직 사용 전)
+- `audio/`: 사운드용 자리 (아직 사용 전)
 
 ## 분야 폴더의 공통 틀
 
@@ -31,7 +32,7 @@
 ## 파일 원칙
 
 - 기획서, HTML, 코드, 작은 참고 이미지는 Git으로 관리합니다.
-- 새 작업 폴더의 미디어는 **Git LFS**로 올라갑니다: `assets/work/`의 motion-lab·monsters·environments(이미지·Aseprite·PSD), `ui/work/`·`story/work/`의 이미지, `audio/`·`video/`의 음원·영상. 정확한 규칙은 `.gitattributes`를 봅니다. 두 기기 모두 `git lfs install`을 한 번 실행해야 합니다.
+- 새 작업 폴더의 미디어는 **Git LFS**로 올라갑니다: `assets/work/`의 motion-lab·monsters·environments(이미지·Aseprite·PSD), `ui/work/`·`story/work/`의 이미지, `video/`의 이미지·음원·영상, `audio/`의 음원. 정확한 규칙은 `.gitattributes`를 봅니다. 두 기기 모두 `git lfs install`을 한 번 실행해야 합니다.
 - `archive/`와 `assets/work/characters/`에 있는 기존 이미지는 일반 Git 파일로 둡니다(기록을 다시 쓰지 않음).
 - 줄바꿈은 `.gitattributes`가 텍스트 파일만 LF로 맞춥니다(`.cmd`·`.bat`은 CRLF).
 - Unity `Library/`, 캐시, 임시 렌더, 다운로드 파일, 인증 정보, 구매 에셋 원본 ZIP은 커밋하지 않습니다.

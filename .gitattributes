@@ -56,6 +56,13 @@ story/work/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
 video/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
 video/**/*.mov filter=lfs diff=lfs merge=lfs -text
 video/**/*.wav filter=lfs diff=lfs merge=lfs -text
+video/**/*.png filter=lfs diff=lfs merge=lfs -text
+video/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+video/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+video/**/*.webp filter=lfs diff=lfs merge=lfs -text
+video/**/*.gif filter=lfs diff=lfs merge=lfs -text
+video/**/*.mp3 filter=lfs diff=lfs merge=lfs -text
+video/**/*.m4a filter=lfs diff=lfs merge=lfs -text
 audio/**/*.wav filter=lfs diff=lfs merge=lfs -text
 audio/**/*.ogg filter=lfs diff=lfs merge=lfs -text
 audio/**/*.mp3 filter=lfs diff=lfs merge=lfs -text

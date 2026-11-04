@@ -1,6 +1,6 @@
 # 문서 작성 규칙
 
-모든 분야(`ui/`, `assets/`, `story/`)가 같은 문서 틀을 씁니다. 사람(이규재)과 AI 도구(Claude, GPT, Codex) 모두 이 규칙을 따릅니다.
+모든 분야(`ui/`, `assets/`, `story/`, `video/`)가 같은 문서 틀을 씁니다. 사람(이규재)과 AI 도구(Claude, GPT, Codex) 모두 이 규칙을 따릅니다.
 
 ## 갱신 규칙
 
