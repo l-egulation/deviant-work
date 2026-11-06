@@ -1,0 +1,49 @@
+{
+  "canvas": [
+    220,
+    155
+  ],
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "slotCount": 16,
+  "symbolCount": 5,
+  "checks": [
+    {
+      "color": "red",
+      "restoredPixelCount": 4835,
+      "reassembledPaintMismatchPixels": 4810,
+      "unmodifiedOutsideMask": true,
+      "symbolStatus": "reference-only; effect-ID mapping pending"
+    },
+    {
+      "color": "yellow",
+      "restoredPixelCount": 6349,
+      "reassembledPaintMismatchPixels": 6312,
+      "unmodifiedOutsideMask": true,
+      "symbolStatus": "reference-only; effect-ID mapping pending"
+    },
+    {
+      "color": "green",
+      "restoredPixelCount": 7866,
+      "reassembledPaintMismatchPixels": 7832,
+      "unmodifiedOutsideMask": true,
+      "symbolStatus": "reference-only; effect-ID mapping pending"
+    },
+    {
+      "color": "blue",
+      "restoredPixelCount": 6747,
+      "reassembledPaintMismatchPixels": 6714,
+      "unmodifiedOutsideMask": true,
+      "symbolStatus": "reference-only; effect-ID mapping pending"
+    },
+    {
+      "color": "purple",
+      "restoredPixelCount": 5873,
+      "reassembledPaintMismatchPixels": 5842,
+      "unmodifiedOutsideMask": true,
+      "symbolStatus": "reference-only; effect-ID mapping pending"
+    }
+  ]
+}
