@@ -1,0 +1,1244 @@
+[
+  {
+    "id": "ink3_red_01",
+    "name": "덧칠",
+    "color": "red",
+    "intent": "겹쳐 찍힌 두 흔적 — 한 번 더 남는 충격",
+    "file": "runtime/ink3_red_01.png",
+    "sourceCell": [
+      0,
+      0,
+      362,
+      362
+    ],
+    "sourceSheet": "sheets/red.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_red_02",
+    "name": "집중 공격",
+    "color": "red",
+    "intent": "한곳으로 말려드는 획 — 집중과 집요함",
+    "file": "runtime/ink3_red_02.png",
+    "sourceCell": [
+      362,
+      0,
+      724,
+      362
+    ],
+    "sourceSheet": "sheets/red.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_red_03",
+    "name": "힘 실어 건네기",
+    "color": "red",
+    "intent": "힘이 실린 깃 — 다음 동작으로 건네는 기세",
+    "file": "runtime/ink3_red_03.png",
+    "sourceCell": [
+      724,
+      0,
+      1086,
+      362
+    ],
+    "sourceSheet": "sheets/red.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_red_04",
+    "name": "터지는 잉크",
+    "color": "red",
+    "intent": "갈라져 터지는 씨앗 — 응축된 폭발",
+    "file": "runtime/ink3_red_04.png",
+    "sourceCell": [
+      1086,
+      0,
+      1448,
+      362
+    ],
+    "sourceSheet": "sheets/red.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_red_05",
+    "name": "사방으로 튀는 잉크",
+    "color": "red",
+    "intent": "흩어지는 꽃잎 — 쓰러진 뒤 퍼지는 여파",
+    "file": "runtime/ink3_red_05.png",
+    "sourceCell": [
+      0,
+      362,
+      362,
+      724
+    ],
+    "sourceSheet": "sheets/red.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_red_06",
+    "name": "기세를 몰아",
+    "color": "red",
+    "intent": "켜켜이 솟는 물결 — 쌓이는 기세",
+    "file": "runtime/ink3_red_06.png",
+    "sourceCell": [
+      362,
+      362,
+      724,
+      724
+    ],
+    "sourceSheet": "sheets/red.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_red_07",
+    "name": "붉은 낙관",
+    "color": "red",
+    "intent": "묵직한 낙관 — 표식에 실리는 무게",
+    "file": "runtime/ink3_red_07.png",
+    "sourceCell": [
+      724,
+      362,
+      1086,
+      724
+    ],
+    "sourceSheet": "sheets/red.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_red_08",
+    "name": "결정타",
+    "color": "red",
+    "intent": "내려꽂히는 송곳 — 끝내는 일격",
+    "file": "runtime/ink3_red_08.png",
+    "sourceCell": [
+      1086,
+      362,
+      1448,
+      724
+    ],
+    "sourceSheet": "sheets/red.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_red_09",
+    "name": "농묵",
+    "color": "red",
+    "intent": "무겁게 매달린 먹방울 — 위험을 감수한 힘",
+    "file": "runtime/ink3_red_09.png",
+    "sourceCell": [
+      0,
+      724,
+      362,
+      1086
+    ],
+    "sourceSheet": "sheets/red.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_red_10",
+    "name": "밑줄 긋기",
+    "color": "red",
+    "intent": "꼬리가 들린 밑줄 — 다음 획을 위한 강조",
+    "file": "runtime/ink3_red_10.png",
+    "sourceCell": [
+      362,
+      724,
+      724,
+      1086
+    ],
+    "sourceSheet": "sheets/red.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_yellow_01",
+    "name": "전기 발자국",
+    "color": "yellow",
+    "intent": "번개처럼 남는 발자취 — 움직임의 잔상",
+    "file": "runtime/ink3_yellow_01.png",
+    "sourceCell": [
+      0,
+      0,
+      362,
+      362
+    ],
+    "sourceSheet": "sheets/yellow.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_yellow_02",
+    "name": "뛰어난 발걸음",
+    "color": "yellow",
+    "intent": "날개 달린 뒤꿈치 — 가벼운 속도",
+    "file": "runtime/ink3_yellow_02.png",
+    "sourceCell": [
+      362,
+      0,
+      724,
+      362
+    ],
+    "sourceSheet": "sheets/yellow.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_yellow_03",
+    "name": "몸통 박치기",
+    "color": "yellow",
+    "intent": "앞으로 쏠린 혜성 — 몸으로 밀어붙이는 충격",
+    "file": "runtime/ink3_yellow_03.png",
+    "sourceCell": [
+      724,
+      0,
+      1086,
+      362
+    ],
+    "sourceSheet": "sheets/yellow.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_yellow_04",
+    "name": "휘몰아치기",
+    "color": "yellow",
+    "intent": "휘감기는 깃발 — 교대하며 얻는 탄력",
+    "file": "runtime/ink3_yellow_04.png",
+    "sourceCell": [
+      1086,
+      0,
+      1448,
+      362
+    ],
+    "sourceSheet": "sheets/yellow.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_yellow_05",
+    "name": "전기 장판",
+    "color": "yellow",
+    "intent": "바닥에서 솟는 전기 풀 — 발밑의 위협",
+    "file": "runtime/ink3_yellow_05.png",
+    "sourceCell": [
+      0,
+      362,
+      362,
+      724
+    ],
+    "sourceSheet": "sheets/yellow.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_yellow_06",
+    "name": "신난다",
+    "color": "yellow",
+    "intent": "도약하는 불꽃 — 처치 뒤의 흥분",
+    "file": "runtime/ink3_yellow_06.png",
+    "sourceCell": [
+      362,
+      362,
+      724,
+      724
+    ],
+    "sourceSheet": "sheets/yellow.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_yellow_07",
+    "name": "끊어 치기",
+    "color": "yellow",
+    "intent": "끊어진 리본 — 동작을 잘라내는 리듬",
+    "file": "runtime/ink3_yellow_07.png",
+    "sourceCell": [
+      724,
+      362,
+      1086,
+      724
+    ],
+    "sourceSheet": "sheets/yellow.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_yellow_08",
+    "name": "번개 표식",
+    "color": "yellow",
+    "intent": "갈라진 번개 가지 — 다른 적에게 이어지는 전류",
+    "file": "runtime/ink3_yellow_08.png",
+    "sourceCell": [
+      1086,
+      362,
+      1448,
+      724
+    ],
+    "sourceSheet": "sheets/yellow.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_yellow_09",
+    "name": "번지는 표식",
+    "color": "yellow",
+    "intent": "옮겨 붙는 불씨 — 끊기지 않는 연쇄",
+    "file": "runtime/ink3_yellow_09.png",
+    "sourceCell": [
+      0,
+      724,
+      362,
+      1086
+    ],
+    "sourceSheet": "sheets/yellow.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_yellow_10",
+    "name": "질주 충전",
+    "color": "yellow",
+    "intent": "모여드는 세 알 — 달릴수록 쌓이는 힘",
+    "file": "runtime/ink3_yellow_10.png",
+    "sourceCell": [
+      362,
+      724,
+      724,
+      1086
+    ],
+    "sourceSheet": "sheets/yellow.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_yellow_11",
+    "name": "내달린 획",
+    "color": "yellow",
+    "intent": "길게 뻗는 획 — 달린 뒤의 날카로운 공격",
+    "file": "runtime/ink3_yellow_11.png",
+    "sourceCell": [
+      724,
+      724,
+      1086,
+      1086
+    ],
+    "sourceSheet": "sheets/yellow.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_yellow_12",
+    "name": "옮겨 쓰기",
+    "color": "yellow",
+    "intent": "틈을 통과하는 리본 — 미끄러지는 교대",
+    "file": "runtime/ink3_yellow_12.png",
+    "sourceCell": [
+      1086,
+      724,
+      1448,
+      1086
+    ],
+    "sourceSheet": "sheets/yellow.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_green_01",
+    "name": "든든한 배리어",
+    "color": "green",
+    "intent": "씨앗을 감싼 껍질 — 보호 속의 힘",
+    "file": "runtime/ink3_green_01.png",
+    "sourceCell": [
+      0,
+      0,
+      362,
+      362
+    ],
+    "sourceSheet": "sheets/green.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_green_02",
+    "name": "보호막 교체",
+    "color": "green",
+    "intent": "포개진 잎 — 교대하며 이어지는 보호",
+    "file": "runtime/ink3_green_02.png",
+    "sourceCell": [
+      362,
+      0,
+      724,
+      362
+    ],
+    "sourceSheet": "sheets/green.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_green_03",
+    "name": "가시갑옷",
+    "color": "green",
+    "intent": "가시 씨앗 — 건드리면 되돌아오는 위협",
+    "file": "runtime/ink3_green_03.png",
+    "sourceCell": [
+      724,
+      0,
+      1086,
+      362
+    ],
+    "sourceSheet": "sheets/green.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_green_04",
+    "name": "전투 식량",
+    "color": "green",
+    "intent": "잘 익은 열매 — 전투에서 얻는 양분",
+    "file": "runtime/ink3_green_04.png",
+    "sourceCell": [
+      1086,
+      0,
+      1448,
+      362
+    ],
+    "sourceSheet": "sheets/green.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_green_05",
+    "name": "티끌 모아 태산",
+    "color": "green",
+    "intent": "조각 사이의 새싹 — 작은 누적의 회복",
+    "file": "runtime/ink3_green_05.png",
+    "sourceCell": [
+      0,
+      362,
+      362,
+      724
+    ],
+    "sourceSheet": "sheets/green.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_green_06",
+    "name": "풀컨디션",
+    "color": "green",
+    "intent": "충만한 잎 — 건강할 때의 힘",
+    "file": "runtime/ink3_green_06.png",
+    "sourceCell": [
+      362,
+      362,
+      724,
+      724
+    ],
+    "sourceSheet": "sheets/green.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_green_07",
+    "name": "초록 수액",
+    "color": "green",
+    "intent": "매달린 수액 — 표식에서 얻는 생명",
+    "file": "runtime/ink3_green_07.png",
+    "sourceCell": [
+      724,
+      362,
+      1086,
+      724
+    ],
+    "sourceSheet": "sheets/green.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_green_08",
+    "name": "단단한 껍질",
+    "color": "green",
+    "intent": "닫힌 겹껍질 — 다음 충격을 받아내기",
+    "file": "runtime/ink3_green_08.png",
+    "sourceCell": [
+      1086,
+      362,
+      1448,
+      724
+    ],
+    "sourceSheet": "sheets/green.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_green_09",
+    "name": "되갚는 잉크",
+    "color": "green",
+    "intent": "안으로 감긴 가시 — 받은 것을 되돌리기",
+    "file": "runtime/ink3_green_09.png",
+    "sourceCell": [
+      0,
+      724,
+      362,
+      1086
+    ],
+    "sourceSheet": "sheets/green.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_green_10",
+    "name": "갑옷 깁기",
+    "color": "green",
+    "intent": "꿰맨 잎 — 전투로 덧대는 보호",
+    "file": "runtime/ink3_green_10.png",
+    "sourceCell": [
+      362,
+      724,
+      724,
+      1086
+    ],
+    "sourceSheet": "sheets/green.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_blue_01",
+    "name": "범위 증폭",
+    "color": "blue",
+    "intent": "펼쳐지는 부채꽃 — 넓어지는 영향",
+    "file": "runtime/ink3_blue_01.png",
+    "sourceCell": [
+      0,
+      0,
+      362,
+      362
+    ],
+    "sourceSheet": "sheets/blue.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_blue_02",
+    "name": "교대 타격",
+    "color": "blue",
+    "intent": "뒤집히는 모래시계 리본 — 교대로 바뀌는 박자",
+    "file": "runtime/ink3_blue_02.png",
+    "sourceCell": [
+      362,
+      0,
+      724,
+      362
+    ],
+    "sourceSheet": "sheets/blue.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_blue_03",
+    "name": "여의봉",
+    "color": "blue",
+    "intent": "길게 뻗은 갈대 — 닿는 거리",
+    "file": "runtime/ink3_blue_03.png",
+    "sourceCell": [
+      724,
+      0,
+      1086,
+      362
+    ],
+    "sourceSheet": "sheets/blue.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_blue_04",
+    "name": "난무",
+    "color": "blue",
+    "intent": "거듭 도는 획 — 멈추지 않는 공격 리듬",
+    "file": "runtime/ink3_blue_04.png",
+    "sourceCell": [
+      1086,
+      0,
+      1448,
+      362
+    ],
+    "sourceSheet": "sheets/blue.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_blue_05",
+    "name": "공명",
+    "color": "blue",
+    "intent": "울리는 두 종 — 두 무기의 공명",
+    "file": "runtime/ink3_blue_05.png",
+    "sourceCell": [
+      0,
+      362,
+      362,
+      724
+    ],
+    "sourceSheet": "sheets/blue.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_blue_06",
+    "name": "학살",
+    "color": "blue",
+    "intent": "펼친 큰 날개 — 처치 뒤의 넓은 위력",
+    "file": "runtime/ink3_blue_06.png",
+    "sourceCell": [
+      362,
+      362,
+      724,
+      724
+    ],
+    "sourceSheet": "sheets/blue.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_blue_07",
+    "name": "푸른 순환",
+    "color": "blue",
+    "intent": "돌아오는 파도 — 다시 찾아오는 기회",
+    "file": "runtime/ink3_blue_07.png",
+    "sourceCell": [
+      724,
+      362,
+      1086,
+      724
+    ],
+    "sourceSheet": "sheets/blue.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_blue_08",
+    "name": "색 번짐",
+    "color": "blue",
+    "intent": "이어 번지는 두 꽃 — 주변으로 묻어나는 표식",
+    "file": "runtime/ink3_blue_08.png",
+    "sourceCell": [
+      1086,
+      362,
+      1448,
+      724
+    ],
+    "sourceSheet": "sheets/blue.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_blue_09",
+    "name": "겹쳐 쓰기",
+    "color": "blue",
+    "intent": "겹친 종이 — 쌓아두는 가능성",
+    "file": "runtime/ink3_blue_09.png",
+    "sourceCell": [
+      0,
+      724,
+      362,
+      1086
+    ],
+    "sourceSheet": "sheets/blue.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_blue_10",
+    "name": "정리 정돈",
+    "color": "blue",
+    "intent": "정돈되는 낙엽 — 처치 뒤 되찾는 여유",
+    "file": "runtime/ink3_blue_10.png",
+    "sourceCell": [
+      362,
+      724,
+      724,
+      1086
+    ],
+    "sourceSheet": "sheets/blue.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_blue_11",
+    "name": "앞당긴 획",
+    "color": "blue",
+    "intent": "넓게 펴지는 돛촉 — 교대 직후 크게 뻗기",
+    "file": "runtime/ink3_blue_11.png",
+    "sourceCell": [
+      724,
+      724,
+      1086,
+      1086
+    ],
+    "sourceSheet": "sheets/blue.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_purple_01",
+    "name": "먹물 늪",
+    "color": "purple",
+    "intent": "무거운 매듭 — 움직임을 붙들기",
+    "file": "runtime/ink3_purple_01.png",
+    "sourceCell": [
+      0,
+      0,
+      362,
+      362
+    ],
+    "sourceSheet": "sheets/purple.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_purple_02",
+    "name": "잔류 폭발",
+    "color": "purple",
+    "intent": "끊긴 매듭의 파열 — 속박 뒤 남는 폭발",
+    "file": "runtime/ink3_purple_02.png",
+    "sourceCell": [
+      362,
+      0,
+      724,
+      362
+    ],
+    "sourceSheet": "sheets/purple.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_purple_03",
+    "name": "선제 제압",
+    "color": "purple",
+    "intent": "떨어지는 추 — 첫 순간의 제압",
+    "file": "runtime/ink3_purple_03.png",
+    "sourceCell": [
+      724,
+      0,
+      1086,
+      362
+    ],
+    "sourceSheet": "sheets/purple.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_purple_04",
+    "name": "뇌진탕",
+    "color": "purple",
+    "intent": "비틀린 궤도 — 흔들리는 정신",
+    "file": "runtime/ink3_purple_04.png",
+    "sourceCell": [
+      1086,
+      0,
+      1448,
+      362
+    ],
+    "sourceSheet": "sheets/purple.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_purple_05",
+    "name": "사약",
+    "color": "purple",
+    "intent": "고개 숙인 독꽃 — 서서히 스미는 해",
+    "file": "runtime/ink3_purple_05.png",
+    "sourceCell": [
+      0,
+      362,
+      362,
+      724
+    ],
+    "sourceSheet": "sheets/purple.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_purple_06",
+    "name": "종합 병원",
+    "color": "purple",
+    "intent": "모여 핀 독꽃 — 겹친 상태이상의 위협",
+    "file": "runtime/ink3_purple_06.png",
+    "sourceCell": [
+      362,
+      362,
+      724,
+      724
+    ],
+    "sourceSheet": "sheets/purple.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_purple_07",
+    "name": "쪽빛 족쇄",
+    "color": "purple",
+    "intent": "무게 달린 고리 — 표식으로 걸리는 족쇄",
+    "file": "runtime/ink3_purple_07.png",
+    "sourceCell": [
+      724,
+      362,
+      1086,
+      724
+    ],
+    "sourceSheet": "sheets/purple.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_purple_08",
+    "name": "보랏빛 낙인",
+    "color": "purple",
+    "intent": "겹겹의 가시잎 — 깊어지는 낙인",
+    "file": "runtime/ink3_purple_08.png",
+    "sourceCell": [
+      1086,
+      362,
+      1448,
+      724
+    ],
+    "sourceSheet": "sheets/purple.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_purple_09",
+    "name": "독폭탄",
+    "color": "purple",
+    "intent": "부풀어 터지는 열매 — 쌓인 독의 방출",
+    "file": "runtime/ink3_purple_09.png",
+    "sourceCell": [
+      0,
+      724,
+      362,
+      1086
+    ],
+    "sourceSheet": "sheets/purple.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_purple_10",
+    "name": "넘어뜨리기",
+    "color": "purple",
+    "intent": "꺾여 눕는 갈대 — 충돌로 무너진 균형",
+    "file": "runtime/ink3_purple_10.png",
+    "sourceCell": [
+      362,
+      724,
+      724,
+      1086
+    ],
+    "sourceSheet": "sheets/purple.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  },
+  {
+    "id": "ink3_purple_11",
+    "name": "약점 찌르기",
+    "color": "purple",
+    "intent": "고리에 박힌 가시 — 묶인 약점을 파고들기",
+    "file": "runtime/ink3_purple_11.png",
+    "sourceCell": [
+      724,
+      724,
+      1086,
+      1086
+    ],
+    "sourceSheet": "sheets/purple.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review"
+  }
+]
