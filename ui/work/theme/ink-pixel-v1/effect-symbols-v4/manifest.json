@@ -1,0 +1,1310 @@
+[
+  {
+    "id": "ink3_red_01",
+    "name": "덧칠",
+    "color": "red",
+    "intent": "한 타격에 덧붙는 작은 충격 자국",
+    "file": "runtime/ink3_red_01.png",
+    "sourceCell": [
+      0,
+      0,
+      418,
+      418
+    ],
+    "sourceSheet": "sheets/refinement-nine.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "secondPass": "큰 충격과 작은 충격 두 개로 단순화",
+    "agentDecision": "교체"
+  },
+  {
+    "id": "ink3_red_02",
+    "name": "집중 공격",
+    "color": "red",
+    "intent": "갑옷 한곳에 반복해 난 상처",
+    "file": "runtime/ink3_red_02.png",
+    "sourceCell": [
+      418,
+      0,
+      836,
+      418
+    ],
+    "sourceSheet": "sheets/refinement-nine.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "secondPass": "갑옷 외곽을 없애 상처난 표면으로 변경",
+    "agentDecision": "교체"
+  },
+  {
+    "id": "ink3_red_03",
+    "name": "힘 실어 건네기",
+    "color": "red",
+    "intent": "앞으로 건네는 묵직한 검",
+    "file": "runtime/ink3_red_03.png",
+    "sourceCell": [
+      724,
+      0,
+      1086,
+      362
+    ],
+    "sourceSheet": "sheets/red.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "교체"
+  },
+  {
+    "id": "ink3_red_04",
+    "name": "터지는 잉크",
+    "color": "red",
+    "intent": "크게 갈라져 터지는 잉크",
+    "file": "runtime/ink3_red_04.png",
+    "sourceCell": [
+      1086,
+      0,
+      1448,
+      362
+    ],
+    "sourceSheet": "sheets/red.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "보완"
+  },
+  {
+    "id": "ink3_red_05",
+    "name": "사방으로 튀는 잉크",
+    "color": "red",
+    "intent": "충돌 자리에서 튀는 잉크 방울",
+    "file": "runtime/ink3_red_05.png",
+    "sourceCell": [
+      0,
+      362,
+      362,
+      724
+    ],
+    "sourceSheet": "sheets/red.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "보완"
+  },
+  {
+    "id": "ink3_red_06",
+    "name": "기세를 몰아",
+    "color": "red",
+    "intent": "겹쳐 쌓이는 검의 잔상",
+    "file": "runtime/ink3_red_06.png",
+    "sourceCell": [
+      362,
+      362,
+      724,
+      724
+    ],
+    "sourceSheet": "sheets/red.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "교체"
+  },
+  {
+    "id": "ink3_red_07",
+    "name": "붉은 낙관",
+    "color": "red",
+    "intent": "타격 자국에 찍는 낙관",
+    "file": "runtime/ink3_red_07.png",
+    "sourceCell": [
+      724,
+      362,
+      1086,
+      724
+    ],
+    "sourceSheet": "sheets/red.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "보완"
+  },
+  {
+    "id": "ink3_red_08",
+    "name": "결정타",
+    "color": "red",
+    "intent": "내려오는 단두대 — 기존 유지",
+    "file": "runtime/ink3_red_08.png",
+    "sourceCell": [
+      1086,
+      362,
+      1448,
+      724
+    ],
+    "sourceSheet": "../effect-symbols-v3/sheets/red.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "유지",
+    "sourceMethod": "unchanged v3 asset"
+  },
+  {
+    "id": "ink3_red_09",
+    "name": "농묵",
+    "color": "red",
+    "intent": "금이 간 대검 — 강함과 취약함",
+    "file": "runtime/ink3_red_09.png",
+    "sourceCell": [
+      0,
+      724,
+      362,
+      1086
+    ],
+    "sourceSheet": "sheets/red.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "교체"
+  },
+  {
+    "id": "ink3_red_10",
+    "name": "밑줄 긋기",
+    "color": "red",
+    "intent": "상처 난 표적 아래의 밑줄",
+    "file": "runtime/ink3_red_10.png",
+    "sourceCell": [
+      362,
+      724,
+      724,
+      1086
+    ],
+    "sourceSheet": "sheets/red.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "교체"
+  },
+  {
+    "id": "ink3_yellow_01",
+    "name": "전기 발자국",
+    "color": "yellow",
+    "intent": "번개 발자국을 남기는 장화",
+    "file": "runtime/ink3_yellow_01.png",
+    "sourceCell": [
+      0,
+      0,
+      362,
+      362
+    ],
+    "sourceSheet": "sheets/yellow.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "보완"
+  },
+  {
+    "id": "ink3_yellow_02",
+    "name": "뛰어난 발걸음",
+    "color": "yellow",
+    "intent": "작은 날개가 붙은 장화",
+    "file": "runtime/ink3_yellow_02.png",
+    "sourceCell": [
+      362,
+      0,
+      724,
+      362
+    ],
+    "sourceSheet": "sheets/yellow.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "보완"
+  },
+  {
+    "id": "ink3_yellow_03",
+    "name": "몸통 박치기",
+    "color": "yellow",
+    "intent": "몸으로 들이받는 어깨와 충격",
+    "file": "runtime/ink3_yellow_03.png",
+    "sourceCell": [
+      724,
+      0,
+      1086,
+      362
+    ],
+    "sourceSheet": "sheets/yellow.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "보완"
+  },
+  {
+    "id": "ink3_yellow_04",
+    "name": "휘몰아치기",
+    "color": "yellow",
+    "intent": "바람을 감은 달리는 장화",
+    "file": "runtime/ink3_yellow_04.png",
+    "sourceCell": [
+      1086,
+      0,
+      1448,
+      362
+    ],
+    "sourceSheet": "sheets/yellow.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "교체"
+  },
+  {
+    "id": "ink3_yellow_05",
+    "name": "전기 장판",
+    "color": "yellow",
+    "intent": "바닥 전기장과 굵은 번개",
+    "file": "runtime/ink3_yellow_05.png",
+    "sourceCell": [
+      0,
+      362,
+      362,
+      724
+    ],
+    "sourceSheet": "sheets/yellow.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "보완"
+  },
+  {
+    "id": "ink3_yellow_06",
+    "name": "신난다",
+    "color": "yellow",
+    "intent": "뒤꿈치에 불붙은 장화",
+    "file": "runtime/ink3_yellow_06.png",
+    "sourceCell": [
+      362,
+      362,
+      724,
+      724
+    ],
+    "sourceSheet": "sheets/yellow.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "교체"
+  },
+  {
+    "id": "ink3_yellow_07",
+    "name": "끊어 치기",
+    "color": "yellow",
+    "intent": "막힌 검격을 이어가는 다음 검격",
+    "file": "runtime/ink3_yellow_07.png",
+    "sourceCell": [
+      724,
+      362,
+      1086,
+      724
+    ],
+    "sourceSheet": "sheets/yellow.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "교체"
+  },
+  {
+    "id": "ink3_yellow_08",
+    "name": "번개 표식",
+    "color": "yellow",
+    "intent": "두 갈래로 갈라지는 번개",
+    "file": "runtime/ink3_yellow_08.png",
+    "sourceCell": [
+      1086,
+      362,
+      1448,
+      724
+    ],
+    "sourceSheet": "sheets/yellow.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "교체"
+  },
+  {
+    "id": "ink3_yellow_09",
+    "name": "번지는 표식",
+    "color": "yellow",
+    "intent": "쓰러진 적에서 다음 적으로 튀는 전류",
+    "file": "runtime/ink3_yellow_09.png",
+    "sourceCell": [
+      836,
+      0,
+      1254,
+      418
+    ],
+    "sourceSheet": "sheets/refinement-nine.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "secondPass": "두 대상 사이 전류 한 줄로 정리",
+    "agentDecision": "교체"
+  },
+  {
+    "id": "ink3_yellow_10",
+    "name": "질주 충전",
+    "color": "yellow",
+    "intent": "에너지가 모인 장화",
+    "file": "runtime/ink3_yellow_10.png",
+    "sourceCell": [
+      362,
+      724,
+      724,
+      1086
+    ],
+    "sourceSheet": "sheets/yellow.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "교체"
+  },
+  {
+    "id": "ink3_yellow_11",
+    "name": "내달린 획",
+    "color": "yellow",
+    "intent": "빠른 잔상을 남긴 넓은 베기",
+    "file": "runtime/ink3_yellow_11.png",
+    "sourceCell": [
+      724,
+      724,
+      1086,
+      1086
+    ],
+    "sourceSheet": "sheets/yellow.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "교체"
+  },
+  {
+    "id": "ink3_yellow_12",
+    "name": "옮겨 쓰기",
+    "color": "yellow",
+    "intent": "앞으로 미끄러지는 전사의 잔상",
+    "file": "runtime/ink3_yellow_12.png",
+    "sourceCell": [
+      1086,
+      724,
+      1448,
+      1086
+    ],
+    "sourceSheet": "sheets/yellow.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "교체"
+  },
+  {
+    "id": "ink3_green_01",
+    "name": "든든한 배리어",
+    "color": "green",
+    "intent": "칼날처럼 뾰족한 방패",
+    "file": "runtime/ink3_green_01.png",
+    "sourceCell": [
+      0,
+      0,
+      362,
+      362
+    ],
+    "sourceSheet": "sheets/green.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "교체"
+  },
+  {
+    "id": "ink3_green_02",
+    "name": "보호막 교체",
+    "color": "green",
+    "intent": "포개진 두 방패",
+    "file": "runtime/ink3_green_02.png",
+    "sourceCell": [
+      362,
+      0,
+      724,
+      362
+    ],
+    "sourceSheet": "sheets/green.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "교체"
+  },
+  {
+    "id": "ink3_green_03",
+    "name": "가시갑옷",
+    "color": "green",
+    "intent": "굵은 가시가 솟은 갑옷",
+    "file": "runtime/ink3_green_03.png",
+    "sourceCell": [
+      724,
+      0,
+      1086,
+      362
+    ],
+    "sourceSheet": "sheets/green.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "보완"
+  },
+  {
+    "id": "ink3_green_04",
+    "name": "전투 식량",
+    "color": "green",
+    "intent": "전투 식량 사과 — 기존 유지",
+    "file": "runtime/ink3_green_04.png",
+    "sourceCell": [
+      1086,
+      0,
+      1448,
+      362
+    ],
+    "sourceSheet": "../effect-symbols-v3/sheets/green.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "유지",
+    "sourceMethod": "unchanged v3 asset"
+  },
+  {
+    "id": "ink3_green_05",
+    "name": "티끌 모아 태산",
+    "color": "green",
+    "intent": "씨앗이 모여 자라는 새싹",
+    "file": "runtime/ink3_green_05.png",
+    "sourceCell": [
+      0,
+      362,
+      362,
+      724
+    ],
+    "sourceSheet": "sheets/green.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "보완"
+  },
+  {
+    "id": "ink3_green_06",
+    "name": "풀컨디션",
+    "color": "green",
+    "intent": "충만한 심장",
+    "file": "runtime/ink3_green_06.png",
+    "sourceCell": [
+      362,
+      362,
+      724,
+      724
+    ],
+    "sourceSheet": "sheets/green.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "보완"
+  },
+  {
+    "id": "ink3_green_07",
+    "name": "초록 수액",
+    "color": "green",
+    "intent": "굵은 수액 방울 — 기존 유지",
+    "file": "runtime/ink3_green_07.png",
+    "sourceCell": [
+      724,
+      362,
+      1086,
+      724
+    ],
+    "sourceSheet": "../effect-symbols-v3/sheets/green.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "유지",
+    "sourceMethod": "unchanged v3 asset"
+  },
+  {
+    "id": "ink3_green_08",
+    "name": "단단한 껍질",
+    "color": "green",
+    "intent": "단단하게 닫힌 조개껍질",
+    "file": "runtime/ink3_green_08.png",
+    "sourceCell": [
+      1086,
+      362,
+      1448,
+      724
+    ],
+    "sourceSheet": "sheets/green.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "교체"
+  },
+  {
+    "id": "ink3_green_09",
+    "name": "되갚는 잉크",
+    "color": "green",
+    "intent": "되받아치는 굽은 가시",
+    "file": "runtime/ink3_green_09.png",
+    "sourceCell": [
+      0,
+      418,
+      418,
+      836
+    ],
+    "sourceSheet": "sheets/refinement-nine.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "secondPass": "깃털 대신 돌아온 갈고리 칼날",
+    "agentDecision": "교체"
+  },
+  {
+    "id": "ink3_green_10",
+    "name": "갑옷 깁기",
+    "color": "green",
+    "intent": "굵게 꿰맨 갑옷",
+    "file": "runtime/ink3_green_10.png",
+    "sourceCell": [
+      362,
+      724,
+      724,
+      1086
+    ],
+    "sourceSheet": "sheets/green.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "교체"
+  },
+  {
+    "id": "ink3_blue_01",
+    "name": "범위 증폭",
+    "color": "blue",
+    "intent": "넓은 부채꼴 베기 궤적",
+    "file": "runtime/ink3_blue_01.png",
+    "sourceCell": [
+      0,
+      0,
+      362,
+      362
+    ],
+    "sourceSheet": "sheets/blue.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "보완"
+  },
+  {
+    "id": "ink3_blue_02",
+    "name": "교대 타격",
+    "color": "blue",
+    "intent": "기울어진 모래시계",
+    "file": "runtime/ink3_blue_02.png",
+    "sourceCell": [
+      362,
+      0,
+      724,
+      362
+    ],
+    "sourceSheet": "sheets/blue.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "보완"
+  },
+  {
+    "id": "ink3_blue_03",
+    "name": "여의봉",
+    "color": "blue",
+    "intent": "길게 뻗은 창",
+    "file": "runtime/ink3_blue_03.png",
+    "sourceCell": [
+      418,
+      418,
+      836,
+      836
+    ],
+    "sourceSheet": "sheets/refinement-nine.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "secondPass": "몸통이 굵고 양끝에 마디가 있는 봉",
+    "agentDecision": "교체"
+  },
+  {
+    "id": "ink3_blue_04",
+    "name": "난무",
+    "color": "blue",
+    "intent": "타격 흔적이 있는 시계",
+    "file": "runtime/ink3_blue_04.png",
+    "sourceCell": [
+      1086,
+      0,
+      1448,
+      362
+    ],
+    "sourceSheet": "sheets/blue.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "교체"
+  },
+  {
+    "id": "ink3_blue_05",
+    "name": "공명",
+    "color": "blue",
+    "intent": "포개진 두 시계",
+    "file": "runtime/ink3_blue_05.png",
+    "sourceCell": [
+      0,
+      362,
+      362,
+      724
+    ],
+    "sourceSheet": "sheets/blue.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "보완"
+  },
+  {
+    "id": "ink3_blue_06",
+    "name": "학살",
+    "color": "blue",
+    "intent": "넓게 휘두르는 낫",
+    "file": "runtime/ink3_blue_06.png",
+    "sourceCell": [
+      362,
+      362,
+      724,
+      724
+    ],
+    "sourceSheet": "sheets/blue.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "교체"
+  },
+  {
+    "id": "ink3_blue_07",
+    "name": "푸른 순환",
+    "color": "blue",
+    "intent": "돌아오는 테두리의 시계",
+    "file": "runtime/ink3_blue_07.png",
+    "sourceCell": [
+      724,
+      362,
+      1086,
+      724
+    ],
+    "sourceSheet": "sheets/blue.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "교체"
+  },
+  {
+    "id": "ink3_blue_08",
+    "name": "색 번짐",
+    "color": "blue",
+    "intent": "큰 잉크 자국에서 번지는 작은 자국",
+    "file": "runtime/ink3_blue_08.png",
+    "sourceCell": [
+      1086,
+      362,
+      1448,
+      724
+    ],
+    "sourceSheet": "sheets/blue.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "보완"
+  },
+  {
+    "id": "ink3_blue_09",
+    "name": "겹쳐 쓰기",
+    "color": "blue",
+    "intent": "겹쳐 보관된 충전 결정",
+    "file": "runtime/ink3_blue_09.png",
+    "sourceCell": [
+      836,
+      418,
+      1254,
+      836
+    ],
+    "sourceSheet": "sheets/refinement-nine.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "secondPass": "책 대신 부피감 있는 충전 결정",
+    "agentDecision": "보완"
+  },
+  {
+    "id": "ink3_blue_10",
+    "name": "정리 정돈",
+    "color": "blue",
+    "intent": "해골 윗부분의 모래시계",
+    "file": "runtime/ink3_blue_10.png",
+    "sourceCell": [
+      362,
+      724,
+      724,
+      1086
+    ],
+    "sourceSheet": "sheets/blue.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "교체"
+  },
+  {
+    "id": "ink3_blue_11",
+    "name": "앞당긴 획",
+    "color": "blue",
+    "intent": "길고 넓게 뻗는 베기",
+    "file": "runtime/ink3_blue_11.png",
+    "sourceCell": [
+      724,
+      724,
+      1086,
+      1086
+    ],
+    "sourceSheet": "sheets/blue.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "보완"
+  },
+  {
+    "id": "ink3_purple_01",
+    "name": "먹물 늪",
+    "color": "purple",
+    "intent": "늪에 발목이 잠긴 장화",
+    "file": "runtime/ink3_purple_01.png",
+    "sourceCell": [
+      0,
+      0,
+      362,
+      362
+    ],
+    "sourceSheet": "sheets/purple.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "교체"
+  },
+  {
+    "id": "ink3_purple_02",
+    "name": "잔류 폭발",
+    "color": "purple",
+    "intent": "파열되어 벌어진 사슬 고리",
+    "file": "runtime/ink3_purple_02.png",
+    "sourceCell": [
+      362,
+      0,
+      724,
+      362
+    ],
+    "sourceSheet": "sheets/purple.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "보완"
+  },
+  {
+    "id": "ink3_purple_03",
+    "name": "선제 제압",
+    "color": "purple",
+    "intent": "내리치는 망치의 충격",
+    "file": "runtime/ink3_purple_03.png",
+    "sourceCell": [
+      724,
+      0,
+      1086,
+      362
+    ],
+    "sourceSheet": "sheets/purple.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "교체"
+  },
+  {
+    "id": "ink3_purple_04",
+    "name": "뇌진탕",
+    "color": "purple",
+    "intent": "머리 안에 남은 충격 균열",
+    "file": "runtime/ink3_purple_04.png",
+    "sourceCell": [
+      0,
+      836,
+      418,
+      1254
+    ],
+    "sourceSheet": "sheets/refinement-nine.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "secondPass": "머리 옆모습과 균열 하나",
+    "agentDecision": "교체"
+  },
+  {
+    "id": "ink3_purple_05",
+    "name": "사약",
+    "color": "purple",
+    "intent": "해골 라벨 독병",
+    "file": "runtime/ink3_purple_05.png",
+    "sourceCell": [
+      0,
+      362,
+      362,
+      724
+    ],
+    "sourceSheet": "sheets/purple.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "교체"
+  },
+  {
+    "id": "ink3_purple_06",
+    "name": "종합 병원",
+    "color": "purple",
+    "intent": "상처와 독 반점이 남은 괴물 얼굴",
+    "file": "runtime/ink3_purple_06.png",
+    "sourceCell": [
+      418,
+      836,
+      836,
+      1254
+    ],
+    "sourceSheet": "sheets/refinement-nine.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "secondPass": "두 눈과 입이 읽히는 병든 얼굴",
+    "agentDecision": "교체"
+  },
+  {
+    "id": "ink3_purple_07",
+    "name": "쪽빛 족쇄",
+    "color": "purple",
+    "intent": "잠긴 발목 족쇄와 짧은 사슬",
+    "file": "runtime/ink3_purple_07.png",
+    "sourceCell": [
+      724,
+      362,
+      1086,
+      724
+    ],
+    "sourceSheet": "sheets/purple.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "보완"
+  },
+  {
+    "id": "ink3_purple_08",
+    "name": "보랏빛 낙인",
+    "color": "purple",
+    "intent": "독방울 낙인 도장",
+    "file": "runtime/ink3_purple_08.png",
+    "sourceCell": [
+      1086,
+      362,
+      1448,
+      724
+    ],
+    "sourceSheet": "sheets/purple.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "교체"
+  },
+  {
+    "id": "ink3_purple_09",
+    "name": "독폭탄",
+    "color": "purple",
+    "intent": "금이 가며 터지는 독병",
+    "file": "runtime/ink3_purple_09.png",
+    "sourceCell": [
+      0,
+      724,
+      362,
+      1086
+    ],
+    "sourceSheet": "sheets/purple.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "보완"
+  },
+  {
+    "id": "ink3_purple_10",
+    "name": "넘어뜨리기",
+    "color": "purple",
+    "intent": "뒤로 넘어지는 괴물",
+    "file": "runtime/ink3_purple_10.png",
+    "sourceCell": [
+      836,
+      836,
+      1254,
+      1254
+    ],
+    "sourceSheet": "sheets/refinement-nine.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "secondPass": "누운 몸통과 들린 발로 단순화",
+    "agentDecision": "교체"
+  },
+  {
+    "id": "ink3_purple_11",
+    "name": "약점 찌르기",
+    "color": "purple",
+    "intent": "족쇄 고리를 찌르는 단검",
+    "file": "runtime/ink3_purple_11.png",
+    "sourceCell": [
+      724,
+      724,
+      1086,
+      1086
+    ],
+    "sourceSheet": "sheets/purple.png",
+    "canvas": [
+      220,
+      155
+    ],
+    "grid": [
+      32,
+      32
+    ],
+    "status": "symbolic-style-review",
+    "agentDecision": "보완"
+  }
+]
