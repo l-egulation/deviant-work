@@ -1,3 +1,6 @@
+## 최신 중앙 태그·무기 스타일 수정
+[가방·장비 v4](screen-set-v4/README.md) · [중앙 태그 병](ink-bottles-tag-v1/README.md) · [무기13종](weapon-ink-v3/README.md)
+
 ## 최신 통합 시안
 [가방·장비 v3](screen-set-v3/README.md): 형태 보존 문양 v5와 검은 무기 v2 합성.
 
