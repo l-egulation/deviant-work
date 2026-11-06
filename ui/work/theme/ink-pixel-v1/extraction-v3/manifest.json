@@ -1,0 +1,338 @@
+[
+  {
+    "id": "empty-red",
+    "sourceRect": [
+      370,
+      170,
+      590,
+      325
+    ],
+    "size": [
+      220,
+      155
+    ],
+    "opaquePixels": 20547,
+    "retainedRGBMismatch": 0,
+    "bounds": [
+      8,
+      4,
+      209,
+      148
+    ]
+  },
+  {
+    "id": "empty-yellow",
+    "sourceRect": [
+      625,
+      170,
+      845,
+      325
+    ],
+    "size": [
+      220,
+      155
+    ],
+    "opaquePixels": 20171,
+    "retainedRGBMismatch": 0,
+    "bounds": [
+      18,
+      7,
+      207,
+      144
+    ]
+  },
+  {
+    "id": "empty-green",
+    "sourceRect": [
+      880,
+      170,
+      1100,
+      325
+    ],
+    "size": [
+      220,
+      155
+    ],
+    "opaquePixels": 19883,
+    "retainedRGBMismatch": 0,
+    "bounds": [
+      14,
+      7,
+      201,
+      148
+    ]
+  },
+  {
+    "id": "empty-blue",
+    "sourceRect": [
+      1130,
+      170,
+      1350,
+      325
+    ],
+    "size": [
+      220,
+      155
+    ],
+    "opaquePixels": 20184,
+    "retainedRGBMismatch": 0,
+    "bounds": [
+      17,
+      16,
+      211,
+      144
+    ]
+  },
+  {
+    "id": "empty-purple",
+    "sourceRect": [
+      1390,
+      170,
+      1610,
+      325
+    ],
+    "size": [
+      220,
+      155
+    ],
+    "opaquePixels": 18852,
+    "retainedRGBMismatch": 0,
+    "bounds": [
+      18,
+      11,
+      201,
+      147
+    ]
+  },
+  {
+    "id": "filled-red",
+    "sourceRect": [
+      370,
+      375,
+      590,
+      530
+    ],
+    "size": [
+      220,
+      155
+    ],
+    "opaquePixels": 21316,
+    "retainedRGBMismatch": 0,
+    "bounds": [
+      16,
+      3,
+      198,
+      152
+    ]
+  },
+  {
+    "id": "filled-yellow",
+    "sourceRect": [
+      625,
+      375,
+      845,
+      530
+    ],
+    "size": [
+      220,
+      155
+    ],
+    "opaquePixels": 20593,
+    "retainedRGBMismatch": 0,
+    "bounds": [
+      15,
+      6,
+      202,
+      144
+    ]
+  },
+  {
+    "id": "filled-green",
+    "sourceRect": [
+      880,
+      375,
+      1100,
+      530
+    ],
+    "size": [
+      220,
+      155
+    ],
+    "opaquePixels": 19637,
+    "retainedRGBMismatch": 0,
+    "bounds": [
+      22,
+      8,
+      191,
+      149
+    ]
+  },
+  {
+    "id": "filled-blue",
+    "sourceRect": [
+      1130,
+      375,
+      1350,
+      530
+    ],
+    "size": [
+      220,
+      155
+    ],
+    "opaquePixels": 21101,
+    "retainedRGBMismatch": 0,
+    "bounds": [
+      15,
+      10,
+      214,
+      144
+    ]
+  },
+  {
+    "id": "filled-purple",
+    "sourceRect": [
+      1390,
+      375,
+      1610,
+      530
+    ],
+    "size": [
+      220,
+      155
+    ],
+    "opaquePixels": 20537,
+    "retainedRGBMismatch": 0,
+    "bounds": [
+      21,
+      5,
+      191,
+      149
+    ]
+  },
+  {
+    "id": "neutral-filled-red",
+    "sourceRect": [
+      370,
+      580,
+      590,
+      735
+    ],
+    "size": [
+      220,
+      155
+    ],
+    "opaquePixels": 22748,
+    "retainedRGBMismatch": 0,
+    "bounds": [
+      14,
+      6,
+      198,
+      155
+    ]
+  },
+  {
+    "id": "neutral-filled-yellow",
+    "sourceRect": [
+      625,
+      580,
+      845,
+      735
+    ],
+    "size": [
+      220,
+      155
+    ],
+    "opaquePixels": 22889,
+    "retainedRGBMismatch": 0,
+    "bounds": [
+      14,
+      6,
+      202,
+      155
+    ]
+  },
+  {
+    "id": "neutral-filled-green",
+    "sourceRect": [
+      880,
+      580,
+      1100,
+      735
+    ],
+    "size": [
+      220,
+      155
+    ],
+    "opaquePixels": 22211,
+    "retainedRGBMismatch": 0,
+    "bounds": [
+      14,
+      9,
+      194,
+      155
+    ]
+  },
+  {
+    "id": "neutral-filled-blue",
+    "sourceRect": [
+      1130,
+      580,
+      1350,
+      735
+    ],
+    "size": [
+      220,
+      155
+    ],
+    "opaquePixels": 23652,
+    "retainedRGBMismatch": 0,
+    "bounds": [
+      15,
+      9,
+      214,
+      155
+    ]
+  },
+  {
+    "id": "neutral-filled-purple",
+    "sourceRect": [
+      1390,
+      580,
+      1610,
+      735
+    ],
+    "size": [
+      220,
+      155
+    ],
+    "opaquePixels": 22072,
+    "retainedRGBMismatch": 0,
+    "bounds": [
+      18,
+      6,
+      191,
+      155
+    ]
+  },
+  {
+    "id": "empty-neutral",
+    "sourceRect": [
+      225,
+      780,
+      390,
+      920
+    ],
+    "size": [
+      165,
+      140
+    ],
+    "opaquePixels": 14080,
+    "retainedRGBMismatch": 0,
+    "bounds": [
+      9,
+      12,
+      153,
+      130
+    ]
+  }
+]
