@@ -1,0 +1,97 @@
+[
+  {
+    "id": "ink3_red_01",
+    "name": "덧칠",
+    "color": "red",
+    "canvas": [
+      220,
+      155
+    ],
+    "pixelGrid": [
+      20,
+      20
+    ],
+    "scale": 4,
+    "offset": [
+      70,
+      37
+    ],
+    "status": "representative-redesign-review"
+  },
+  {
+    "id": "ink3_yellow_02",
+    "name": "뛰어난 발걸음",
+    "color": "yellow",
+    "canvas": [
+      220,
+      155
+    ],
+    "pixelGrid": [
+      20,
+      20
+    ],
+    "scale": 4,
+    "offset": [
+      70,
+      37
+    ],
+    "status": "representative-redesign-review"
+  },
+  {
+    "id": "ink3_green_01",
+    "name": "든든한 배리어",
+    "color": "green",
+    "canvas": [
+      220,
+      155
+    ],
+    "pixelGrid": [
+      20,
+      20
+    ],
+    "scale": 4,
+    "offset": [
+      70,
+      37
+    ],
+    "status": "representative-redesign-review"
+  },
+  {
+    "id": "ink3_blue_04",
+    "name": "난무",
+    "color": "blue",
+    "canvas": [
+      220,
+      155
+    ],
+    "pixelGrid": [
+      20,
+      20
+    ],
+    "scale": 4,
+    "offset": [
+      70,
+      37
+    ],
+    "status": "representative-redesign-review"
+  },
+  {
+    "id": "ink3_purple_05",
+    "name": "사약",
+    "color": "purple",
+    "canvas": [
+      220,
+      155
+    ],
+    "pixelGrid": [
+      20,
+      20
+    ],
+    "scale": 4,
+    "offset": [
+      70,
+      37
+    ],
+    "status": "representative-redesign-review"
+  }
+]
