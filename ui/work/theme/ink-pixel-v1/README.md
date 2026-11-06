@@ -1,3 +1,6 @@
+## 최신 통합 시안
+[가방·장비 v3](screen-set-v3/README.md): 형태 보존 문양 v5와 검은 무기 v2 합성.
+
 ## 최신 문양·무기 에셋 검토
 - [54종 형태 보존 정리](effect-symbols-v5/README.md)
 - [검은 잉크 무기13종](weapon-ink-v1/README.md)
