@@ -1,0 +1,1 @@
+54/54 runtime RGBA 220x155. Original foreground pixels preserved. Exterior transparent flood region unchanged. 28 internally cleaned /26 retained. Palette source untouched.

@@ -1,0 +1,12 @@
+# 생성 프롬프트
+
+내장 imagegen 도구 사용. 각 생성 결과는 sources에 보존.
+
+## 근접 7종
+
+Create a black-ink PIXEL ART game equipment icon sprite sheet. 4 columns by 2 rows, exactly 7 isolated weapons, eighth last cell empty. Equal square cells, generous gutters, no words or labels or borders. Read left to right: row1 regular straight short sword (plain crossguard), coiled whip with visible grip and broad S curved lash, slender rapier with loop hilt, single short wide dagger; row2 massive rectangular-headed hammer, plain kite shield with central boss, huge broad two-handed greatsword, EMPTY. All weapons are ink-black silhouettes (#17191c) with very restrained charcoal-gray (#45484d) carved highlight strokes, NO silver ivory white blades, NO brown handles, NO bright metal, NO glow, NO color, NO ink bottle props or decorative splatter. Bold hand-drawn outlines translated into chunky pixel clusters, flat 2D front/side inventory illustrations, NOT 3D. Each weapon clearly different by proportions; rapier fine but readable blade, greatsword visibly broad compared with sword. Crisp native 64px logical sprite aesthetic, controlled 2-3 tone shading, mostly black. True transparent background. Weapons centered complete and uncropped, no cast shadows, no halos. 1536x1024.
+
+## 원거리 6종
+
+Create a black-ink PIXEL ART game equipment sprite sheet 3 columns by2 rows EXACTLY SIX weapons on transparent background, generous gutters, no labels no words no panels. Row1: a compact basic ink launcher with one chunky cylindrical barrel and pistol grip; a four-point shuriken throwing star with circular central hole; a round simple bomb with short curled fuse NO sparks. Row2: a LASER variant of SAME ink launcher with a slimmer long barrel and one focusing ring; a SHOTGUN variant of SAME ink launcher with two short wide parallel barrels and same pistol grip; a GRENADE variant of SAME ink launcher with broad tube and small revolving cylindrical magazine and same pistol grip. Keep launcher family clearly related, silhouette differentiates three variants. Original stylized fantasy tools, no realistic gun detail. Ink-black bodies (#17191c), restrained charcoal-gray (#45484d) short highlight strokes, no silver no white no brown no colored paint, mostly BLACK. Flat 2D inventory icons, handmade sketch personality rendered as clean chunky PIXEL CLUSTERS, native64px logical grid look, no gradients or blur, no hairline scratches, no glow or shadows or particles. All complete uncropped isolated sprites, transparent background. 1536x1024.
+

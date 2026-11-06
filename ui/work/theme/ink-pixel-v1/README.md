@@ -1,3 +1,7 @@
+## 최신 문양·무기 에셋 검토
+- [54종 형태 보존 정리](effect-symbols-v5/README.md)
+- [검은 잉크 무기13종](weapon-ink-v1/README.md)
+
 ## 최신 가방·장비 한 세트
 [실제 에셋 조립 시안](screen-set-v2/README.md): 팔레트 v6 + 문양 v4, Unity 미적용.
 
