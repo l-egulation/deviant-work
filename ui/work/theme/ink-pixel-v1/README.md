@@ -1,6 +1,9 @@
+## 최신 가방·장비 한 세트
+[실제 에셋 조립 시안](screen-set-v1/README.md): 팔레트 v6 + 문양 v4, Unity 미적용.
+
 # Deviant 잉크·픽셀 UI 테마
 
-**현재 파일 구성은 [에셋 현황](asset-overview/README.md)부터 확인하세요. 효과 문양 54종은 재디자인 대상입니다.**
+**현재 파일 구성은 [에셋 현황](asset-overview/README.md)부터 확인하세요. 효과 문양 54종은 effect-symbols-v4 검토본을 사용합니다.**
 
 ## 최신 원본 픽셀 추출
 - [승인 시안 직접 분리 v3](extraction-v3/README.md): 16개 투명 상태 PNG, 원본과 동일 배율 비교. 재생성 없이 RGB 보존.
