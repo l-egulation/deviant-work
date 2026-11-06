@@ -1,5 +1,11 @@
 # Deviant 시네마틱 티저 작업 계획
 
+> **2026-11-05 눈·손 연결 정정:** 거대한 눈의 동공에서 긴 팔이 나오고 여섯 펜촉 손으로 이어진다. 손 단독 시안은 대체 검토하며 도서관은 반영하지 않는다. 하늘 배치는 현재 시안이고 정체·원인은 미확정이다.
+
+> **2026-11-05 추가 사용자 결정:** 기괴한 손은 여섯 손가락 각각에 만년필 펜촉이 달린 형태다(깃털펜 아님). 주인공도 부분 스케치화되다가 별개의 잉크 조력자가 몸에 들어가 잉크화된다. 최신 결정 기록을 우선한다.
+
+> **2026-11-05 사용자 정정:** 아래 B4-C2의 조력자 손과 T5의 `ink-helper-hand_v1.png`는 구안·미채택이다. 조력자는 스케치화에 휘말려 죽어가는 주인공의 몸에 들어가는 잉크 같은 형태다. 눈·손은 사용자가 제공한 이미지의 규모와 분위기를 참고할 기괴한 형상이며, 조력자와 동일한 존재로 정하지 않는다. T5 시안은 전체 영상의 연결 및 미술 방향 재검토 후 수정한다. [결정 기록](../decisions.md)
+
 > **실행 방식 (사용자 결정):** 사용자가 이 계획과 설계 문서를 ChatGPT에 함께 넣고 T1~T12를 단계별로 진행한다. 이미지는 GPT Image·Nano Banana, 영상과 효과음은 Higgsfield, 음악은 Suno, 편집은 사용자와 GPT가 맡는다. Claude(Cowork)는 레포 준비(T0)를 하고, 남겨진 작업 기록을 보고 결과를 검토한다(T13). **각 작업이 끝날 때마다 아래 '작업 기록 양식'으로 기록을 남긴다.** 각 단계는 체크박스(`- [ ]`)로 진행 상황을 표시한다.
 
 **목표:** 같은 장면들로 단편(약 80초)과 발표 오프닝(약 45초) 두 편을 2026-11-14까지 16:9 최종 파일로 만든다.
@@ -133,7 +139,7 @@
 
 **만들 것:** `00_brief/style-block.md`. 모든 영상 프롬프트 맨 앞에 붙이는 영어 문단이다.
 
-- [ ] 아래 틀의 `[화풍]`을 T1에서 고른 문장으로 채운다. 나머지 문장은 그대로 둔다.
+- [x] 아래 틀의 `[화풍]`을 T1에서 고른 문장으로 채운다. 나머지 문장은 그대로 둔다.
 
 ```
 [화풍]. A quiet rural village in a world made of warm paper and ink.
@@ -144,7 +150,7 @@ Camera: simple and steady — static, slow dolly-in, slow pan, wide, close-up on
 No text, no letters, no logos, no watermark, no channel bug in any corner.
 ```
 
-- [ ] L2와 L3용 꼬리 문장 두 개를 같은 파일에 적는다.
+- [x] L2와 L3용 꼬리 문장 두 개를 같은 파일에 적는다.
   - L2: `Everything is drawn as an unfinished sketch: warm ivory paper, confident graphite contours, sparse diagonal hatching, no color.`
   - L3: `Near-monochrome: dense ink #221C18 bleeding through paper, almost no light.`
 
@@ -153,17 +159,17 @@ No text, no letters, no logos, no watermark, no channel bug in any corner.
 **입력:** T1에서 고른 이미지, 스프라이트 F01.png
 **만들 것:** `01_refs/characters/ref-hero-turnaround_v1.png`(정면·측면·뒷면·걷기 4칸), `ref-hero-faces_v1.png`(평온·놀람·두려움 3칸), `ref-hero-ink_v1.png`(잉크 몸 버전 정면·측면)
 
-- [ ] 4칸 시트를 만든다. 프롬프트 핵심: `character turnaround sheet, 4 panels in one row: front, side, back, walking — same character, plain off-white background, full body, 16:9`
-- [ ] 표정 시트와 잉크 몸 시트를 앞 시트를 첨부해 만든다. 잉크 몸: `the same traveler, body now made of flowing dark ink #221C18 with paper-white highlights, same hood and scarf shapes`
-- [ ] 검수: 세 장 모두 후드 모양, 스카프 색, 키 비율이 같은지, 글자가 없는지 확인한다.
+- [x] 4칸 시트를 만든다. 프롬프트 핵심: `character turnaround sheet, 4 panels in one row: front, side, back, walking — same character, plain off-white background, full body, 16:9`
+- [x] 표정 및 각성 후 정면·측면을 준비한다. 사용자는 11/5 반짝임 없는 각성 후 표현을 선택했다. 기존 F01 기반 방향 시트의 정면·측면을 참고하고 유광 잉크 시안은 채택하지 않는다. 각성 전 사람 시트는 사용자 제공 원본을 기준으로 별도 제작했다.
+- [x] 검수: 후드 모양, 스카프 색, 키 비율, 글자 유무를 확인한다. 각성 전후 시트의 옷·신발 차이는 후속 제작 때 원본과 대조한다.
 
 ### T4: 장소 시트 (사용자 + GPT, 11/6~7)
 
 **만들 것:** `01_refs/locations/loc-<이름>-L1_v1.png`, `loc-<이름>-L2_v1.png`. 이름은 `road`(시골 길), `entrance`(마을 어귀), `well`(우물 광장), `horizon`(지평선) 4곳이다.
 
-- [ ] L1을 먼저 만든다(사람 없이, 16:9).
-- [ ] 각 L1을 첨부하고 "같은 구도·같은 건물 그대로, T2의 L2 문장 스타일로"라고 요청해 L2를 만든다.
-- [ ] 검수: L1과 L2의 건물 위치와 지붕 모양이 겹쳐 놓았을 때 맞는지 확인한다(끊김이 같은 자리에서 일어나야 하므로).
+- [x] L1을 먼저 만든다(사람 없이, 16:9). 참고 시안은 각 장소 L1 v2.
+- [x] 각 L1을 첨부하고 "같은 구도·같은 건물 그대로, T2의 L2 문장 스타일로"라고 요청해 L2를 만든다. 참고 시안은 L2 v3.
+- [ ] 검수: L1과 L2의 건물 위치와 지붕 모양이 겹쳐 놓았을 때 맞는지 확인한다(끊김이 같은 자리에서 일어나야 하므로). 정지 시안에서 일부 선이 일치하지 않아 실제 영상·편집 단계에서 검수 및 보완한다.
 
 ### T5: 잉크 형체 (사용자 + GPT, 11/7)
 
@@ -174,17 +180,21 @@ No text, no letters, no logos, no watermark, no channel bug in any corner.
 
 ### T6: Higgsfield 등록 (사용자, 11/7)
 
-- [ ] Higgsfield에 프로젝트 `Deviant Teaser`를 만들고 폴더를 `B1`~`B5`, `OP`, `Inserts`, `Refs`, `Tests`로 만든다.
-- [ ] 요소를 등록한다: `@hero`(T3 시트 3장), `@road`, `@entrance`, `@well`, `@horizon`(각 L1·L2), `@inkhand`
-- [ ] 크레딧 잔액을 `video/docs/STATUS.md`에 적는다(작업 기록에도 적는다).
+- [x] Higgsfield에 프로젝트 `Deviant Teaser`를 만들고 폴더를 `B1`~`B5`, `OP`, `Inserts`, `Refs`, `Tests`로 만든다.
+- [x] 요소를 등록한다: `@hero-human`·`@hero`(각 승인 방향·표정 2장; 미채택 잉크 몸 제외), `@road`, `@entrance`, `@well`, `@horizon`(각 L1·L2), `@inkhand`
+- [x] 크레딧 잔액을 `video/docs/STATUS.md`에 적는다(작업 기록에도 적는다).
+
+완료: 2026-11-06. 등록 목록은 `../../work/teaser/00_brief/T6-registration.md`.
 
 ### T7: 컷표 확정 (GPT, 11/8)
 
 **만들 것:** `02_storyboard/shotlist.md`
 
-- [ ] 위 컷표 초안을 복사해 컷마다 `시작 프레임`, `끝 프레임` 열을 채운다. 앞 컷의 끝 프레임과 다음 컷의 시작 프레임이 맞물려야 한다.
-- [ ] 끊김 열의 시간은 바꿔도 되지만 길이 규칙(0.5초 이하, I4만 1.0초)은 지킨다.
-- [ ] 단편 합계가 75~90초, 오프닝 사용 컷이 40~55초인지 확인한다.
+- [x] 위 컷표 초안을 복사해 컷마다 `시작 프레임`, `끝 프레임` 열을 채운다. 앞 컷의 끝 프레임과 다음 컷의 시작 프레임이 맞물려야 한다.
+- [x] 끊김 열의 시간은 바꿔도 되지만 길이 규칙(0.5초 이하, I4만 1.0초)은 지킨다.
+- [x] 단편 합계가 75~90초, 오프닝 사용 컷이 40~55초인지 확인한다.
+
+작성·수치 검수: 2026-11-06. 사용자 연출 검토 대기. 최신 컷표는 `../../work/teaser/02_storyboard/shotlist.md`이며 위 기존 초안은 구안이다. T8은 아직 시작하지 않았다.
 
 ### T8: 콘티 이미지 (사용자 + GPT, 11/8)
 

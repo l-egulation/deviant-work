@@ -1,0 +1,364 @@
+{
+  "project": {
+    "project_id": "e9a42f25-6604-4523-8d17-912db5188f3d",
+    "default_folder_id": "e9a42f25-6604-4523-8d17-912db5188f3d",
+    "workspace_id": "9306f07c-bed9-4b82-9891-df4c27159566",
+    "name": "Deviant Teaser"
+  },
+  "folders": {
+    "B1": {
+      "folder_id": "90775128-7163-432c-af46-b9f709e32485",
+      "project_id": "e9a42f25-6604-4523-8d17-912db5188f3d",
+      "parent_folder_id": "e9a42f25-6604-4523-8d17-912db5188f3d",
+      "workspace_id": "9306f07c-bed9-4b82-9891-df4c27159566",
+      "name": "B1"
+    },
+    "B2": {
+      "folder_id": "ede8df1a-0da4-47b4-9871-1b7866016967",
+      "project_id": "e9a42f25-6604-4523-8d17-912db5188f3d",
+      "parent_folder_id": "e9a42f25-6604-4523-8d17-912db5188f3d",
+      "workspace_id": "9306f07c-bed9-4b82-9891-df4c27159566",
+      "name": "B2"
+    },
+    "B3": {
+      "folder_id": "36a94cfe-e98d-463e-bed6-78f8322458e9",
+      "project_id": "e9a42f25-6604-4523-8d17-912db5188f3d",
+      "parent_folder_id": "e9a42f25-6604-4523-8d17-912db5188f3d",
+      "workspace_id": "9306f07c-bed9-4b82-9891-df4c27159566",
+      "name": "B3"
+    },
+    "B4": {
+      "folder_id": "626659cd-d3e2-4a75-ad99-61947f6fef31",
+      "project_id": "e9a42f25-6604-4523-8d17-912db5188f3d",
+      "parent_folder_id": "e9a42f25-6604-4523-8d17-912db5188f3d",
+      "workspace_id": "9306f07c-bed9-4b82-9891-df4c27159566",
+      "name": "B4"
+    },
+    "B5": {
+      "folder_id": "5a972153-3e04-46d1-9095-01ec5b85c5b0",
+      "project_id": "e9a42f25-6604-4523-8d17-912db5188f3d",
+      "parent_folder_id": "e9a42f25-6604-4523-8d17-912db5188f3d",
+      "workspace_id": "9306f07c-bed9-4b82-9891-df4c27159566",
+      "name": "B5"
+    },
+    "OP": {
+      "folder_id": "9b3929d2-d907-41ea-8166-0399efb58f74",
+      "project_id": "e9a42f25-6604-4523-8d17-912db5188f3d",
+      "parent_folder_id": "e9a42f25-6604-4523-8d17-912db5188f3d",
+      "workspace_id": "9306f07c-bed9-4b82-9891-df4c27159566",
+      "name": "OP"
+    },
+    "Inserts": {
+      "folder_id": "3d94e01d-5be9-4491-bd2d-91794a963a9b",
+      "project_id": "e9a42f25-6604-4523-8d17-912db5188f3d",
+      "parent_folder_id": "e9a42f25-6604-4523-8d17-912db5188f3d",
+      "workspace_id": "9306f07c-bed9-4b82-9891-df4c27159566",
+      "name": "Inserts"
+    },
+    "Refs": {
+      "folder_id": "deb8e351-22e1-45b3-8529-96dd5899b72d",
+      "project_id": "e9a42f25-6604-4523-8d17-912db5188f3d",
+      "parent_folder_id": "e9a42f25-6604-4523-8d17-912db5188f3d",
+      "workspace_id": "9306f07c-bed9-4b82-9891-df4c27159566",
+      "name": "Refs"
+    },
+    "Tests": {
+      "folder_id": "20f56124-b094-4ef9-96d9-4da2764d6d9c",
+      "project_id": "e9a42f25-6604-4523-8d17-912db5188f3d",
+      "parent_folder_id": "e9a42f25-6604-4523-8d17-912db5188f3d",
+      "workspace_id": "9306f07c-bed9-4b82-9891-df4c27159566",
+      "name": "Tests"
+    }
+  },
+  "elements": [
+    {
+      "id": "62b8847b-725e-45c2-96d4-fdc6b8761ac2",
+      "name": "hero-human",
+      "category": "auto:character",
+      "description": "Human protagonist before awakening. Brown hair, peach skin, cream hood, teal scarf. Approved sheets.",
+      "status": "completed",
+      "medias": [
+        {
+          "id": "528e75d1-faf9-48e1-9b04-a5e9245ffeca",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JfqInYyLmAki7RqK4A9ChKAuLS/528e75d1-faf9-48e1-9b04-a5e9245ffeca.png",
+          "type": "media_input"
+        },
+        {
+          "id": "56585f37-06a1-49dc-bd83-3acbf349b0b5",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JfqInYyLmAki7RqK4A9ChKAuLS/56585f37-06a1-49dc-bd83-3acbf349b0b5.png",
+          "type": "media_input"
+        }
+      ],
+      "video_medias": [],
+      "created_at": 1793926383.800659
+    },
+    {
+      "id": "24ae3ebe-feda-4f1b-a8aa-74cd7ec80038",
+      "name": "hero",
+      "category": "auto:character",
+      "description": "Awakened hero. Matte black face and hands, gold eyes, cream hood and teal scarf. Never glossy.",
+      "status": "completed",
+      "medias": [
+        {
+          "id": "9f639b45-862f-4ed5-b65a-8590778fe5d5",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JfqInYyLmAki7RqK4A9ChKAuLS/9f639b45-862f-4ed5-b65a-8590778fe5d5.png",
+          "type": "media_input"
+        },
+        {
+          "id": "19aa23a4-88f1-4779-aa2a-1d5ea4f3e51e",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JfqInYyLmAki7RqK4A9ChKAuLS/19aa23a4-88f1-4779-aa2a-1d5ea4f3e51e.png",
+          "type": "media_input"
+        }
+      ],
+      "video_medias": [],
+      "created_at": 1793926388.771963
+    },
+    {
+      "id": "8f8c595d-4b19-48c3-98ae-304f0313a481",
+      "name": "road",
+      "category": "auto:environment",
+      "description": "Same village road: colored L1 and graphite sketch L2 states.",
+      "status": "completed",
+      "medias": [
+        {
+          "id": "592bbf58-4d18-4d64-bd65-167245464f89",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JfqInYyLmAki7RqK4A9ChKAuLS/592bbf58-4d18-4d64-bd65-167245464f89.png",
+          "type": "media_input"
+        },
+        {
+          "id": "43058313-4390-4de4-b562-b5184acfefb4",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JfqInYyLmAki7RqK4A9ChKAuLS/43058313-4390-4de4-b562-b5184acfefb4.png",
+          "type": "media_input"
+        }
+      ],
+      "video_medias": [],
+      "created_at": 1793926394.481481
+    },
+    {
+      "id": "ba6113ea-d064-4b70-ba9e-32c35b9ad4ca",
+      "name": "entrance",
+      "category": "auto:environment",
+      "description": "Same village entrance: colored L1 and graphite sketch L2 states.",
+      "status": "completed",
+      "medias": [
+        {
+          "id": "1a9e4d3d-dfb1-46b3-b7f2-00f2416eae24",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JfqInYyLmAki7RqK4A9ChKAuLS/1a9e4d3d-dfb1-46b3-b7f2-00f2416eae24.png",
+          "type": "media_input"
+        },
+        {
+          "id": "320166a9-e2d1-418f-96a9-f4159c046a8d",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JfqInYyLmAki7RqK4A9ChKAuLS/320166a9-e2d1-418f-96a9-f4159c046a8d.png",
+          "type": "media_input"
+        }
+      ],
+      "video_medias": [],
+      "created_at": 1793926399.205225
+    },
+    {
+      "id": "63e2ea14-a4d1-4993-9d39-f69080faa5f2",
+      "name": "well",
+      "category": "auto:environment",
+      "description": "Same village well: colored L1 and graphite sketch L2 states.",
+      "status": "completed",
+      "medias": [
+        {
+          "id": "ed361fdf-ce35-4ba6-a3c7-bc0e31086325",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JfqInYyLmAki7RqK4A9ChKAuLS/ed361fdf-ce35-4ba6-a3c7-bc0e31086325.png",
+          "type": "media_input"
+        },
+        {
+          "id": "5f5f4563-698b-4454-ab50-b7b97e51d407",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JfqInYyLmAki7RqK4A9ChKAuLS/5f5f4563-698b-4454-ab50-b7b97e51d407.png",
+          "type": "media_input"
+        }
+      ],
+      "video_medias": [],
+      "created_at": 1793926403.551988
+    },
+    {
+      "id": "b405158a-1671-4b08-99d8-3aed27750996",
+      "name": "horizon",
+      "category": "auto:environment",
+      "description": "Same village horizon: colored L1 and graphite sketch L2 states.",
+      "status": "completed",
+      "medias": [
+        {
+          "id": "fcf2a106-7bdc-456f-85b2-64223f087758",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JfqInYyLmAki7RqK4A9ChKAuLS/fcf2a106-7bdc-456f-85b2-64223f087758.png",
+          "type": "media_input"
+        },
+        {
+          "id": "f7a6e9fd-3053-4010-88f2-671ec256909e",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JfqInYyLmAki7RqK4A9ChKAuLS/f7a6e9fd-3053-4010-88f2-671ec256909e.png",
+          "type": "media_input"
+        }
+      ],
+      "video_medias": [],
+      "created_at": 1793926408.917627
+    },
+    {
+      "id": "2d7ac6b2-025b-4d29-8a64-ff3f029f7bd4",
+      "name": "inkhand",
+      "category": "auto:character",
+      "description": "Approved visual design reference: hidden sky eye and six fountain-pen fingers. Not the helper, not confirmed cause of disaster. Background architecture is not established lore.",
+      "status": "completed",
+      "medias": [
+        {
+          "id": "ac32f14f-9fc8-450e-bdb3-3963cda11c52",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JfqInYyLmAki7RqK4A9ChKAuLS/ac32f14f-9fc8-450e-bdb3-3963cda11c52.png",
+          "type": "media_input"
+        }
+      ],
+      "video_medias": [],
+      "created_at": 1793926414.568715
+    }
+  ],
+  "files": [
+    {
+      "path": "characters/ref-human-turnaround_v2.png",
+      "media_id": "528e75d1-faf9-48e1-9b04-a5e9245ffeca",
+      "status": "uploaded",
+      "type": "image",
+      "filename": "ref-human-turnaround_v2.png",
+      "content_type": "image/png",
+      "size_bytes": 1762202,
+      "source_file_id": "file_0000000087cc81fa99718753efe9e0da",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JfqInYyLmAki7RqK4A9ChKAuLS/528e75d1-faf9-48e1-9b04-a5e9245ffeca.png"
+    },
+    {
+      "path": "characters/ref-human-faces_v3.png",
+      "media_id": "56585f37-06a1-49dc-bd83-3acbf349b0b5",
+      "status": "uploaded",
+      "type": "image",
+      "filename": "ref-human-faces_v3.png",
+      "content_type": "image/png",
+      "size_bytes": 1693236,
+      "source_file_id": "file_000000006a2081fa884aa370b9511306",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JfqInYyLmAki7RqK4A9ChKAuLS/56585f37-06a1-49dc-bd83-3acbf349b0b5.png"
+    },
+    {
+      "path": "characters/ref-hero-turnaround_v1.png",
+      "media_id": "9f639b45-862f-4ed5-b65a-8590778fe5d5",
+      "status": "uploaded",
+      "type": "image",
+      "filename": "ref-hero-turnaround_v1.png",
+      "content_type": "image/png",
+      "size_bytes": 1884817,
+      "source_file_id": "file_0000000080e081fa81027ca4cab5d5aa",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JfqInYyLmAki7RqK4A9ChKAuLS/9f639b45-862f-4ed5-b65a-8590778fe5d5.png"
+    },
+    {
+      "path": "characters/ref-hero-faces_v1.png",
+      "media_id": "19aa23a4-88f1-4779-aa2a-1d5ea4f3e51e",
+      "status": "uploaded",
+      "type": "image",
+      "filename": "ref-hero-faces_v1.png",
+      "content_type": "image/png",
+      "size_bytes": 1856152,
+      "source_file_id": "file_0000000099dc81fabc281c4fd5dae60c",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JfqInYyLmAki7RqK4A9ChKAuLS/19aa23a4-88f1-4779-aa2a-1d5ea4f3e51e.png"
+    },
+    {
+      "path": "locations/loc-road-L1_v2.png",
+      "media_id": "592bbf58-4d18-4d64-bd65-167245464f89",
+      "status": "uploaded",
+      "type": "image",
+      "filename": "loc-road-L1_v2.png",
+      "content_type": "image/png",
+      "size_bytes": 2129712,
+      "source_file_id": "file_000000001bbc81fa9d1ffdfe2aeb9c0e",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JfqInYyLmAki7RqK4A9ChKAuLS/592bbf58-4d18-4d64-bd65-167245464f89.png"
+    },
+    {
+      "path": "locations/loc-road-L2_v3.png",
+      "media_id": "43058313-4390-4de4-b562-b5184acfefb4",
+      "status": "uploaded",
+      "type": "image",
+      "filename": "loc-road-L2_v3.png",
+      "content_type": "image/png",
+      "size_bytes": 2042434,
+      "source_file_id": "file_000000009b8081faa8517f49b58fc2ff",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JfqInYyLmAki7RqK4A9ChKAuLS/43058313-4390-4de4-b562-b5184acfefb4.png"
+    },
+    {
+      "path": "locations/loc-entrance-L1_v2.png",
+      "media_id": "1a9e4d3d-dfb1-46b3-b7f2-00f2416eae24",
+      "status": "uploaded",
+      "type": "image",
+      "filename": "loc-entrance-L1_v2.png",
+      "content_type": "image/png",
+      "size_bytes": 2286389,
+      "source_file_id": "file_00000000094481fab81e7745f27dc51f",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JfqInYyLmAki7RqK4A9ChKAuLS/1a9e4d3d-dfb1-46b3-b7f2-00f2416eae24.png"
+    },
+    {
+      "path": "locations/loc-entrance-L2_v3.png",
+      "media_id": "320166a9-e2d1-418f-96a9-f4159c046a8d",
+      "status": "uploaded",
+      "type": "image",
+      "filename": "loc-entrance-L2_v3.png",
+      "content_type": "image/png",
+      "size_bytes": 2219497,
+      "source_file_id": "file_00000000f9bc81fab265b2733de83afc",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JfqInYyLmAki7RqK4A9ChKAuLS/320166a9-e2d1-418f-96a9-f4159c046a8d.png"
+    },
+    {
+      "path": "locations/loc-well-L1_v2.png",
+      "media_id": "ed361fdf-ce35-4ba6-a3c7-bc0e31086325",
+      "status": "uploaded",
+      "type": "image",
+      "filename": "loc-well-L1_v2.png",
+      "content_type": "image/png",
+      "size_bytes": 2163270,
+      "source_file_id": "file_000000002e7881faad47564fcee548f4",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JfqInYyLmAki7RqK4A9ChKAuLS/ed361fdf-ce35-4ba6-a3c7-bc0e31086325.png"
+    },
+    {
+      "path": "locations/loc-well-L2_v3.png",
+      "media_id": "5f5f4563-698b-4454-ab50-b7b97e51d407",
+      "status": "uploaded",
+      "type": "image",
+      "filename": "loc-well-L2_v3.png",
+      "content_type": "image/png",
+      "size_bytes": 1947470,
+      "source_file_id": "file_00000000ae3081fa8b80ede189e1ea8d",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JfqInYyLmAki7RqK4A9ChKAuLS/5f5f4563-698b-4454-ab50-b7b97e51d407.png"
+    },
+    {
+      "path": "locations/loc-horizon-L1_v2.png",
+      "media_id": "fcf2a106-7bdc-456f-85b2-64223f087758",
+      "status": "uploaded",
+      "type": "image",
+      "filename": "loc-horizon-L1_v2.png",
+      "content_type": "image/png",
+      "size_bytes": 2053269,
+      "source_file_id": "file_0000000036d881fa938fca4295e41eb3",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JfqInYyLmAki7RqK4A9ChKAuLS/fcf2a106-7bdc-456f-85b2-64223f087758.png"
+    },
+    {
+      "path": "locations/loc-horizon-L2_v3.png",
+      "media_id": "f7a6e9fd-3053-4010-88f2-671ec256909e",
+      "status": "uploaded",
+      "type": "image",
+      "filename": "loc-horizon-L2_v3.png",
+      "content_type": "image/png",
+      "size_bytes": 2142434,
+      "source_file_id": "file_0000000039b881fab350dd5062a76eb0",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JfqInYyLmAki7RqK4A9ChKAuLS/f7a6e9fd-3053-4010-88f2-671ec256909e.png"
+    },
+    {
+      "path": "ink/ink-I4-eye-hand_v9.png",
+      "media_id": "ac32f14f-9fc8-450e-bdb3-3963cda11c52",
+      "status": "uploaded",
+      "type": "image",
+      "filename": "ink-I4-eye-hand_v9.png",
+      "content_type": "image/png",
+      "size_bytes": 2500968,
+      "source_file_id": "file_0000000072a881fab87aeb531f033f13",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JfqInYyLmAki7RqK4A9ChKAuLS/ac32f14f-9fc8-450e-bdb3-3963cda11c52.png"
+    }
+  ],
+  "balance": 6692.55,
+  "verified_date": "2026-11-06"
+}

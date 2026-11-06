@@ -34,3 +34,10 @@
 
 - 편집 경험이 없어 GPT의 안내를 받아 편집한다.
 - Claude에게 검토를 맡길 때는 `docs/log/`와 `work/teaser/06_edit/edit-notes.md`를 근거로 한다.
+
+## 2026-11-06 · 작업 경로 및 GitHub
+
+- 현재 작업 폴더: `/Users/leekyujae/Desktop/개인/SSAFY/3rd PJT/deviant-work/video-design` (실제 파일명은 macOS Unicode 정규화 적용). 이전 `deviant-work/video` 경로 대신 이 작업 폴더를 사용한다.
+- 저장소: https://github.com/l-egulation/deviant-work · 브랜치 `work/video`.
+- T7 컷표 초안까지 작성, T8 미착수. 사용자 다음 지시 후 진행한다.
+- 채택 기준 미디어만 LFS에 올린다. 로그·프롬프트가 언급하는 탈락/검토 후보 미디어와 비교 HTML은 로컬 전용이다.

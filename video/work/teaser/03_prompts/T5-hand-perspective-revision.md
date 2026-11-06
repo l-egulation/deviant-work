@@ -1,0 +1,18 @@
+# T5 손 원근·가독성 수정 · 2026-11-05
+
+도구: 내장 GPT Image. 원본 ink-I4-eye-hand_v3.png. v4→v5→v6 순차 수정.
+
+## v4
+```text
+Targeted edit of this existing Deviant cinematic image. Preserve the gigantic hidden eye upper right EXACTLY, its placement, low contrast, shape, darkness and atmospheric depth. Preserve the entire rural foreground village, hills, winding path, camera, sepia palette, paper texture and cloud bands. Improve ONLY the connected arm and hand staging, plus gently reduce contrast of distant arches without removing them. Currently a long sideways branch-like arm leads to a small limp hand. Replace that with a foreshortened arm emerging toward the viewer from the same pupil: most of its length merges into the dark atmospheric layers, only a SHORT visible wrist and nearer hand emerge. Move the hand somewhat toward center under the eye and enlarge it about 1.5 times relative to original hand; keep eye overwhelmingly large. Strong depth progression: hidden pupil root, faint tapering forearm behind haze, then nearer distinct wrist and hand. Hand seen in three-quarter dorsal view, fingers poised in a curved half-grasp, as if about to touch something but stopped, no attack, no clenched fist, no limp dangling wrist, no flat splayed waving palm. EXACTLY SIX slender articulated fingers: five curved fingers staggered across an arc and one offset thumb, each ending in ONE broad fountain-pen nib. All SIX tips clearly visible separated by small negative spaces, none hidden behind others. Show the flat leaf-shaped faces of nibs with central slit and round breather hole, restrained dull antique brass collars. They must read as fountain pen nibs rather than hooks or claws. Matte dark ink hand, subtle fibrous painterly texture, no shiny highlights, no wood bark or branches. Lower contrast background arch structures slightly so the eye and hand dominate. Preserve source atmosphere, never add bright sclera, never redesign eye or sky, no new objects, no characters, no blood, no injury, no writing, no letters, no watermark. Restrained eerie monumental mystery. Single landscape frame, same composition.
+```
+
+## v5
+```text
+Precise localized correction to the attached image. It has FIVE fountain-pen fingers, but the creature must have exactly SIX. Preserve ALL five existing digits and nibs untouched. Add ONE additional full articulated slender finger naturally rooted in the palm, positioned in the open gap between the fourth downward finger (nib near x=790,y=500 in this 1672x941 image) and the rightmost thumb (nib near x=945,y=480). New finger should curve downward and slightly forward, with its own two joints, ending at approximately x=865,y=540 in a matching broad antique brass fountain pen nib with central slit and breather hole. Final count SIX distinct full fingers and SIX visible separated nibs, not a fork or extra floating nib. Maintain the current hand's foreshortening and restrained poised half-grasp. Preserve the hidden eye, the dark arm connection, all atmospheric layers, sky, landscape and image palette EXACTLY. No other edits, no text.
+```
+
+## v6
+```text
+Localized removal edit. This image now has SEVEN pen nib fingers. Remove exactly ONE complete finger: the second finger from the RIGHT, whose nib is centered around x=891,y=515, located immediately left of the outward angled rightmost thumb. Remove that entire finger and nib and naturally fill its former area with the background, retaining the rightmost thumb and every other digit. The remaining nib tips from left to right should be approximately x=560,620,690,780,830,930: SIX TOTAL. Do not add any digits. Preserve ALL other pixels/composition, hidden sky eye, misty arm connection, paper landscape, colors, hand scale and curved pose. No text.
+```
