@@ -1,0 +1,542 @@
+[
+  {
+    "id": "ink3_red_01",
+    "file": "runtime/ink3_red_01.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_red_02",
+    "file": "runtime/ink3_red_02.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_red_03",
+    "file": "runtime/ink3_red_03.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_red_04",
+    "file": "runtime/ink3_red_04.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_red_05",
+    "file": "runtime/ink3_red_05.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_red_06",
+    "file": "runtime/ink3_red_06.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_red_07",
+    "file": "runtime/ink3_red_07.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_red_08",
+    "file": "runtime/ink3_red_08.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_red_09",
+    "file": "runtime/ink3_red_09.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_red_10",
+    "file": "runtime/ink3_red_10.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_yellow_01",
+    "file": "runtime/ink3_yellow_01.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_yellow_02",
+    "file": "runtime/ink3_yellow_02.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_yellow_03",
+    "file": "runtime/ink3_yellow_03.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_yellow_04",
+    "file": "runtime/ink3_yellow_04.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_yellow_05",
+    "file": "runtime/ink3_yellow_05.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_yellow_06",
+    "file": "runtime/ink3_yellow_06.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_yellow_07",
+    "file": "runtime/ink3_yellow_07.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_yellow_08",
+    "file": "runtime/ink3_yellow_08.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_yellow_09",
+    "file": "runtime/ink3_yellow_09.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_yellow_10",
+    "file": "runtime/ink3_yellow_10.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_yellow_11",
+    "file": "runtime/ink3_yellow_11.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_yellow_12",
+    "file": "runtime/ink3_yellow_12.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_green_01",
+    "file": "runtime/ink3_green_01.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_green_02",
+    "file": "runtime/ink3_green_02.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_green_03",
+    "file": "runtime/ink3_green_03.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_green_04",
+    "file": "runtime/ink3_green_04.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_green_05",
+    "file": "runtime/ink3_green_05.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_green_06",
+    "file": "runtime/ink3_green_06.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_green_07",
+    "file": "runtime/ink3_green_07.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_green_08",
+    "file": "runtime/ink3_green_08.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_green_09",
+    "file": "runtime/ink3_green_09.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_green_10",
+    "file": "runtime/ink3_green_10.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_blue_01",
+    "file": "runtime/ink3_blue_01.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_blue_02",
+    "file": "runtime/ink3_blue_02.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_blue_03",
+    "file": "runtime/ink3_blue_03.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_blue_04",
+    "file": "runtime/ink3_blue_04.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_blue_05",
+    "file": "runtime/ink3_blue_05.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_blue_06",
+    "file": "runtime/ink3_blue_06.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_blue_07",
+    "file": "runtime/ink3_blue_07.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_blue_08",
+    "file": "runtime/ink3_blue_08.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_blue_09",
+    "file": "runtime/ink3_blue_09.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_blue_10",
+    "file": "runtime/ink3_blue_10.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_blue_11",
+    "file": "runtime/ink3_blue_11.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_purple_01",
+    "file": "runtime/ink3_purple_01.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_purple_02",
+    "file": "runtime/ink3_purple_02.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_purple_03",
+    "file": "runtime/ink3_purple_03.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_purple_04",
+    "file": "runtime/ink3_purple_04.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_purple_05",
+    "file": "runtime/ink3_purple_05.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_purple_06",
+    "file": "runtime/ink3_purple_06.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_purple_07",
+    "file": "runtime/ink3_purple_07.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_purple_08",
+    "file": "runtime/ink3_purple_08.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_purple_09",
+    "file": "runtime/ink3_purple_09.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_purple_10",
+    "file": "runtime/ink3_purple_10.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  },
+  {
+    "id": "ink3_purple_11",
+    "file": "runtime/ink3_purple_11.png",
+    "glyphSource": "effect-symbols-v5",
+    "glyphSize": 40,
+    "glyphPosition": [
+      35,
+      58
+    ]
+  }
+]

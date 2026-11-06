@@ -6,7 +6,7 @@
 
 ## 사용한 원본
 - 팔레트: palette-package-v6 (원본 유지)
-- 문양·병: effect-symbols-v5 + ink-bottles-tag-v1 (동일 문양, 큰 중앙 태그)
+- 문양·병: effect-symbols-v5 + ink-bottles-tag-v2 (동일 문양, 큰 중앙 태그)
 - 무기: weapon-ink-v3/runtime (검은 몸체, 굵은 픽셀/넓은 명암 면, 별도 가는 테두리 없음)
 - 선택 획·방향 삼각형·좌우 화살표: screen-set-v2의 투명 PNG
 - 배경: 기존 실제 마을 캡처
