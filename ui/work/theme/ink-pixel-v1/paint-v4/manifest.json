@@ -1,0 +1,107 @@
+[
+  {
+    "color": "red",
+    "file": "assets/paint-mark-red.png",
+    "size": [
+      220,
+      155
+    ],
+    "bounds": [
+      17,
+      4,
+      197,
+      151
+    ],
+    "retainedRGBMismatch": 0,
+    "sha256": "4e68c8c94405e62798d0c8f578d2c70b1572d0be5bc8b9b7c60cf51c0914816b",
+    "placementBothBases": [
+      0,
+      0
+    ],
+    "scaleBothBases": 1
+  },
+  {
+    "color": "yellow",
+    "file": "assets/paint-mark-yellow.png",
+    "size": [
+      220,
+      155
+    ],
+    "bounds": [
+      15,
+      15,
+      202,
+      139
+    ],
+    "retainedRGBMismatch": 0,
+    "sha256": "34a75ac73020a19654d17abeadc66a8b2f9cc7dd1e76ee7780eb5b3a7efe83a4",
+    "placementBothBases": [
+      0,
+      0
+    ],
+    "scaleBothBases": 1
+  },
+  {
+    "color": "green",
+    "file": "assets/paint-mark-green.png",
+    "size": [
+      220,
+      155
+    ],
+    "bounds": [
+      23,
+      8,
+      190,
+      148
+    ],
+    "retainedRGBMismatch": 0,
+    "sha256": "838135bb4de00b07c96fab6c56157ec23bf3cb155f4063b325f9820bfc4f95b9",
+    "placementBothBases": [
+      0,
+      0
+    ],
+    "scaleBothBases": 1
+  },
+  {
+    "color": "blue",
+    "file": "assets/paint-mark-blue.png",
+    "size": [
+      220,
+      155
+    ],
+    "bounds": [
+      16,
+      21,
+      213,
+      140
+    ],
+    "retainedRGBMismatch": 0,
+    "sha256": "132de11833fb407768270203b053f0182d09a39163879492aa1b6ed0f6e1bee8",
+    "placementBothBases": [
+      0,
+      0
+    ],
+    "scaleBothBases": 1
+  },
+  {
+    "color": "purple",
+    "file": "assets/paint-mark-purple.png",
+    "size": [
+      220,
+      155
+    ],
+    "bounds": [
+      22,
+      6,
+      189,
+      148
+    ],
+    "retainedRGBMismatch": 0,
+    "sha256": "9c62442236211adc1cba5def728942623a46377e8e01e3f58dbd661f9faa2ccc",
+    "placementBothBases": [
+      0,
+      0
+    ],
+    "scaleBothBases": 1
+  }
+]
