@@ -1,0 +1,67 @@
+[
+  {
+    "color": "red",
+    "removedPixels": 450,
+    "removedPercent": 2.65,
+    "paintCanvas": [
+      220,
+      155
+    ],
+    "placement": [
+      0,
+      0
+    ]
+  },
+  {
+    "color": "yellow",
+    "removedPixels": 516,
+    "removedPercent": 2.98,
+    "paintCanvas": [
+      220,
+      155
+    ],
+    "placement": [
+      0,
+      0
+    ]
+  },
+  {
+    "color": "green",
+    "removedPixels": 532,
+    "removedPercent": 3.1,
+    "paintCanvas": [
+      220,
+      155
+    ],
+    "placement": [
+      0,
+      0
+    ]
+  },
+  {
+    "color": "blue",
+    "removedPixels": 465,
+    "removedPercent": 2.55,
+    "paintCanvas": [
+      220,
+      155
+    ],
+    "placement": [
+      0,
+      0
+    ]
+  },
+  {
+    "color": "purple",
+    "removedPixels": 470,
+    "removedPercent": 2.66,
+    "paintCanvas": [
+      220,
+      155
+    ],
+    "placement": [
+      0,
+      0
+    ]
+  }
+]
