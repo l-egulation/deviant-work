@@ -1,5 +1,5 @@
 ## 최신 가방·장비 한 세트
-[실제 에셋 조립 시안](screen-set-v1/README.md): 팔레트 v6 + 문양 v4, Unity 미적용.
+[실제 에셋 조립 시안](screen-set-v2/README.md): 팔레트 v6 + 문양 v4, Unity 미적용.
 
 # Deviant 잉크·픽셀 UI 테마
 
