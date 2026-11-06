@@ -1,0 +1,225 @@
+[
+  {
+    "id": "base-red",
+    "file": "assets/base-red.png",
+    "canvas": [
+      1254,
+      1254
+    ],
+    "visibleBounds": [
+      199,
+      329,
+      1084,
+      949
+    ],
+    "rgba": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "paint-red",
+    "file": "assets/paint-red.png",
+    "canvas": [
+      1254,
+      1254
+    ],
+    "visibleBounds": [
+      192,
+      347,
+      1075,
+      982
+    ],
+    "rgba": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "base-yellow",
+    "file": "assets/base-yellow.png",
+    "canvas": [
+      1254,
+      1254
+    ],
+    "visibleBounds": [
+      205,
+      338,
+      1052,
+      950
+    ],
+    "rgba": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "paint-yellow",
+    "file": "assets/paint-yellow.png",
+    "canvas": [
+      1254,
+      1254
+    ],
+    "visibleBounds": [
+      155,
+      268,
+      1091,
+      955
+    ],
+    "rgba": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "base-green",
+    "file": "assets/base-green.png",
+    "canvas": [
+      1254,
+      1254
+    ],
+    "visibleBounds": [
+      186,
+      311,
+      1055,
+      977
+    ],
+    "rgba": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "paint-green",
+    "file": "assets/paint-green.png",
+    "canvas": [
+      1254,
+      1254
+    ],
+    "visibleBounds": [
+      212,
+      372,
+      1020,
+      908
+    ],
+    "rgba": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "base-blue",
+    "file": "assets/base-blue.png",
+    "canvas": [
+      1254,
+      1254
+    ],
+    "visibleBounds": [
+      183,
+      338,
+      1070,
+      916
+    ],
+    "rgba": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "paint-blue",
+    "file": "assets/paint-blue.png",
+    "canvas": [
+      1254,
+      1254
+    ],
+    "visibleBounds": [
+      182,
+      404,
+      1066,
+      875
+    ],
+    "rgba": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "base-purple",
+    "file": "assets/base-purple.png",
+    "canvas": [
+      1254,
+      1254
+    ],
+    "visibleBounds": [
+      228,
+      332,
+      1058,
+      931
+    ],
+    "rgba": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "paint-purple",
+    "file": "assets/paint-purple.png",
+    "canvas": [
+      1254,
+      1254
+    ],
+    "visibleBounds": [
+      233,
+      373,
+      1024,
+      934
+    ],
+    "rgba": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "base-neutral",
+    "file": "assets/base-neutral.png",
+    "canvas": [
+      1254,
+      1254
+    ],
+    "visibleBounds": [
+      243,
+      343,
+      1016,
+      967
+    ],
+    "rgba": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "ink-jar-red",
+    "file": "assets/ink-jar-red.png",
+    "canvas": [
+      1254,
+      1254
+    ],
+    "visibleBounds": [
+      354,
+      333,
+      900,
+      966
+    ]
+  }
+]

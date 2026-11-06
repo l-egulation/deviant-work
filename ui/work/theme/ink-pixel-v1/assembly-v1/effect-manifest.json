@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ink3_red_01",
+    "name": "덧칠",
+    "symbol": "두 칼자국",
+    "file": "assets/effect-ink3_red_01.png",
+    "source": "resources/ui/ink-part-symbols/source/pixels.json",
+    "method": "Render existing editable grid symbol layer 3 only, dark pigment on transparent 20px canvas"
+  },
+  {
+    "id": "ink3_red_02",
+    "name": "집중 공격",
+    "symbol": "조준점",
+    "file": "assets/effect-ink3_red_02.png",
+    "source": "resources/ui/ink-part-symbols/source/pixels.json",
+    "method": "Render existing editable grid symbol layer 3 only, dark pigment on transparent 20px canvas"
+  },
+  {
+    "id": "ink3_yellow_02",
+    "name": "뛰어난 발걸음",
+    "symbol": "날개 달린 신발",
+    "file": "assets/effect-ink3_yellow_02.png",
+    "source": "resources/ui/ink-part-symbols/source/pixels.json",
+    "method": "Render existing editable grid symbol layer 3 only, dark pigment on transparent 20px canvas"
+  },
+  {
+    "id": "ink3_green_04",
+    "name": "전투 식량",
+    "symbol": "뼈 달린 식량",
+    "file": "assets/effect-ink3_green_04.png",
+    "source": "resources/ui/ink-part-symbols/source/pixels.json",
+    "method": "Render existing editable grid symbol layer 3 only, dark pigment on transparent 20px canvas"
+  },
+  {
+    "id": "ink3_blue_01",
+    "name": "범위 증폭",
+    "symbol": "사방으로 넓어짐",
+    "file": "assets/effect-ink3_blue_01.png",
+    "source": "resources/ui/ink-part-symbols/source/pixels.json",
+    "method": "Render existing editable grid symbol layer 3 only, dark pigment on transparent 20px canvas"
+  },
+  {
+    "id": "ink3_purple_01",
+    "name": "먹물 늪",
+    "symbol": "사슬 속박",
+    "file": "assets/effect-ink3_purple_01.png",
+    "source": "resources/ui/ink-part-symbols/source/pixels.json",
+    "method": "Render existing editable grid symbol layer 3 only, dark pigment on transparent 20px canvas"
+  }
+]
