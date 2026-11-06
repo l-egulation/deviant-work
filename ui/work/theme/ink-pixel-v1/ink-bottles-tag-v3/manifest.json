@@ -1,0 +1,974 @@
+[
+  {
+    "id": "ink3_red_01",
+    "sourceBounds": [
+      1,
+      1,
+      31,
+      31
+    ],
+    "glyphSize": [
+      42,
+      42
+    ],
+    "glyphPosition": [
+      34,
+      57
+    ],
+    "density": 0.289
+  },
+  {
+    "id": "ink3_red_02",
+    "sourceBounds": [
+      1,
+      1,
+      31,
+      31
+    ],
+    "glyphSize": [
+      42,
+      42
+    ],
+    "glyphPosition": [
+      34,
+      57
+    ],
+    "density": 0.342
+  },
+  {
+    "id": "ink3_red_03",
+    "sourceBounds": [
+      1,
+      1,
+      31,
+      30
+    ],
+    "glyphSize": [
+      39,
+      38
+    ],
+    "glyphPosition": [
+      36,
+      59
+    ],
+    "density": 0.422
+  },
+  {
+    "id": "ink3_red_04",
+    "sourceBounds": [
+      1,
+      1,
+      31,
+      31
+    ],
+    "glyphSize": [
+      39,
+      39
+    ],
+    "glyphPosition": [
+      36,
+      59
+    ],
+    "density": 0.46
+  },
+  {
+    "id": "ink3_red_05",
+    "sourceBounds": [
+      1,
+      2,
+      31,
+      29
+    ],
+    "glyphSize": [
+      39,
+      35
+    ],
+    "glyphPosition": [
+      36,
+      61
+    ],
+    "density": 0.354
+  },
+  {
+    "id": "ink3_red_06",
+    "sourceBounds": [
+      6,
+      1,
+      26,
+      31
+    ],
+    "glyphSize": [
+      26,
+      39
+    ],
+    "glyphPosition": [
+      42,
+      59
+    ],
+    "density": 0.447
+  },
+  {
+    "id": "ink3_red_07",
+    "sourceBounds": [
+      3,
+      1,
+      29,
+      31
+    ],
+    "glyphSize": [
+      34,
+      39
+    ],
+    "glyphPosition": [
+      38,
+      59
+    ],
+    "density": 0.358
+  },
+  {
+    "id": "ink3_red_08",
+    "sourceBounds": [
+      1,
+      2,
+      31,
+      30
+    ],
+    "glyphSize": [
+      39,
+      36
+    ],
+    "glyphPosition": [
+      36,
+      60
+    ],
+    "density": 0.511
+  },
+  {
+    "id": "ink3_red_09",
+    "sourceBounds": [
+      1,
+      1,
+      31,
+      30
+    ],
+    "glyphSize": [
+      39,
+      38
+    ],
+    "glyphPosition": [
+      36,
+      59
+    ],
+    "density": 0.378
+  },
+  {
+    "id": "ink3_red_10",
+    "sourceBounds": [
+      1,
+      1,
+      31,
+      31
+    ],
+    "glyphSize": [
+      39,
+      39
+    ],
+    "glyphPosition": [
+      36,
+      59
+    ],
+    "density": 0.412
+  },
+  {
+    "id": "ink3_yellow_01",
+    "sourceBounds": [
+      1,
+      2,
+      31,
+      30
+    ],
+    "glyphSize": [
+      39,
+      36
+    ],
+    "glyphPosition": [
+      36,
+      60
+    ],
+    "density": 0.476
+  },
+  {
+    "id": "ink3_yellow_02",
+    "sourceBounds": [
+      1,
+      4,
+      31,
+      28
+    ],
+    "glyphSize": [
+      39,
+      31
+    ],
+    "glyphPosition": [
+      36,
+      63
+    ],
+    "density": 0.394
+  },
+  {
+    "id": "ink3_yellow_03",
+    "sourceBounds": [
+      1,
+      3,
+      31,
+      29
+    ],
+    "glyphSize": [
+      36,
+      31
+    ],
+    "glyphPosition": [
+      37,
+      63
+    ],
+    "density": 0.637
+  },
+  {
+    "id": "ink3_yellow_04",
+    "sourceBounds": [
+      1,
+      4,
+      31,
+      28
+    ],
+    "glyphSize": [
+      39,
+      31
+    ],
+    "glyphPosition": [
+      36,
+      63
+    ],
+    "density": 0.446
+  },
+  {
+    "id": "ink3_yellow_05",
+    "sourceBounds": [
+      1,
+      3,
+      31,
+      29
+    ],
+    "glyphSize": [
+      39,
+      34
+    ],
+    "glyphPosition": [
+      36,
+      61
+    ],
+    "density": 0.355
+  },
+  {
+    "id": "ink3_yellow_06",
+    "sourceBounds": [
+      1,
+      2,
+      31,
+      30
+    ],
+    "glyphSize": [
+      39,
+      36
+    ],
+    "glyphPosition": [
+      36,
+      60
+    ],
+    "density": 0.386
+  },
+  {
+    "id": "ink3_yellow_07",
+    "sourceBounds": [
+      1,
+      5,
+      31,
+      28
+    ],
+    "glyphSize": [
+      42,
+      32
+    ],
+    "glyphPosition": [
+      34,
+      62
+    ],
+    "density": 0.343
+  },
+  {
+    "id": "ink3_yellow_08",
+    "sourceBounds": [
+      3,
+      1,
+      28,
+      31
+    ],
+    "glyphSize": [
+      32,
+      39
+    ],
+    "glyphPosition": [
+      39,
+      59
+    ],
+    "density": 0.356
+  },
+  {
+    "id": "ink3_yellow_09",
+    "sourceBounds": [
+      1,
+      5,
+      31,
+      26
+    ],
+    "glyphSize": [
+      39,
+      27
+    ],
+    "glyphPosition": [
+      36,
+      65
+    ],
+    "density": 0.368
+  },
+  {
+    "id": "ink3_yellow_10",
+    "sourceBounds": [
+      1,
+      4,
+      31,
+      28
+    ],
+    "glyphSize": [
+      39,
+      31
+    ],
+    "glyphPosition": [
+      36,
+      63
+    ],
+    "density": 0.421
+  },
+  {
+    "id": "ink3_yellow_11",
+    "sourceBounds": [
+      1,
+      5,
+      31,
+      27
+    ],
+    "glyphSize": [
+      42,
+      31
+    ],
+    "glyphPosition": [
+      34,
+      63
+    ],
+    "density": 0.315
+  },
+  {
+    "id": "ink3_yellow_12",
+    "sourceBounds": [
+      1,
+      7,
+      30,
+      25
+    ],
+    "glyphSize": [
+      39,
+      24
+    ],
+    "glyphPosition": [
+      36,
+      66
+    ],
+    "density": 0.429
+  },
+  {
+    "id": "ink3_green_01",
+    "sourceBounds": [
+      2,
+      1,
+      29,
+      31
+    ],
+    "glyphSize": [
+      35,
+      39
+    ],
+    "glyphPosition": [
+      38,
+      59
+    ],
+    "density": 0.553
+  },
+  {
+    "id": "ink3_green_02",
+    "sourceBounds": [
+      1,
+      1,
+      31,
+      31
+    ],
+    "glyphSize": [
+      39,
+      39
+    ],
+    "glyphPosition": [
+      36,
+      59
+    ],
+    "density": 0.578
+  },
+  {
+    "id": "ink3_green_03",
+    "sourceBounds": [
+      1,
+      3,
+      31,
+      29
+    ],
+    "glyphSize": [
+      36,
+      31
+    ],
+    "glyphPosition": [
+      37,
+      63
+    ],
+    "density": 0.606
+  },
+  {
+    "id": "ink3_green_04",
+    "sourceBounds": [
+      3,
+      1,
+      29,
+      31
+    ],
+    "glyphSize": [
+      31,
+      36
+    ],
+    "glyphPosition": [
+      40,
+      60
+    ],
+    "density": 0.604
+  },
+  {
+    "id": "ink3_green_05",
+    "sourceBounds": [
+      1,
+      2,
+      31,
+      30
+    ],
+    "glyphSize": [
+      39,
+      36
+    ],
+    "glyphPosition": [
+      36,
+      60
+    ],
+    "density": 0.468
+  },
+  {
+    "id": "ink3_green_06",
+    "sourceBounds": [
+      1,
+      1,
+      30,
+      31
+    ],
+    "glyphSize": [
+      35,
+      36
+    ],
+    "glyphPosition": [
+      38,
+      60
+    ],
+    "density": 0.629
+  },
+  {
+    "id": "ink3_green_07",
+    "sourceBounds": [
+      1,
+      1,
+      31,
+      30
+    ],
+    "glyphSize": [
+      39,
+      38
+    ],
+    "glyphPosition": [
+      36,
+      59
+    ],
+    "density": 0.392
+  },
+  {
+    "id": "ink3_green_08",
+    "sourceBounds": [
+      1,
+      3,
+      31,
+      29
+    ],
+    "glyphSize": [
+      39,
+      34
+    ],
+    "glyphPosition": [
+      36,
+      61
+    ],
+    "density": 0.441
+  },
+  {
+    "id": "ink3_green_09",
+    "sourceBounds": [
+      1,
+      6,
+      31,
+      26
+    ],
+    "glyphSize": [
+      39,
+      26
+    ],
+    "glyphPosition": [
+      36,
+      65
+    ],
+    "density": 0.432
+  },
+  {
+    "id": "ink3_green_10",
+    "sourceBounds": [
+      1,
+      1,
+      31,
+      31
+    ],
+    "glyphSize": [
+      36,
+      36
+    ],
+    "glyphPosition": [
+      37,
+      60
+    ],
+    "density": 0.643
+  },
+  {
+    "id": "ink3_blue_01",
+    "sourceBounds": [
+      1,
+      4,
+      31,
+      28
+    ],
+    "glyphSize": [
+      39,
+      31
+    ],
+    "glyphPosition": [
+      36,
+      63
+    ],
+    "density": 0.435
+  },
+  {
+    "id": "ink3_blue_02",
+    "sourceBounds": [
+      3,
+      1,
+      29,
+      31
+    ],
+    "glyphSize": [
+      36,
+      42
+    ],
+    "glyphPosition": [
+      37,
+      57
+    ],
+    "density": 0.347
+  },
+  {
+    "id": "ink3_blue_03",
+    "sourceBounds": [
+      1,
+      1,
+      30,
+      31
+    ],
+    "glyphSize": [
+      41,
+      42
+    ],
+    "glyphPosition": [
+      35,
+      57
+    ],
+    "density": 0.187
+  },
+  {
+    "id": "ink3_blue_04",
+    "sourceBounds": [
+      1,
+      1,
+      31,
+      31
+    ],
+    "glyphSize": [
+      39,
+      39
+    ],
+    "glyphPosition": [
+      36,
+      59
+    ],
+    "density": 0.42
+  },
+  {
+    "id": "ink3_blue_05",
+    "sourceBounds": [
+      1,
+      2,
+      31,
+      30
+    ],
+    "glyphSize": [
+      42,
+      39
+    ],
+    "glyphPosition": [
+      34,
+      59
+    ],
+    "density": 0.329
+  },
+  {
+    "id": "ink3_blue_06",
+    "sourceBounds": [
+      1,
+      3,
+      31,
+      29
+    ],
+    "glyphSize": [
+      42,
+      36
+    ],
+    "glyphPosition": [
+      34,
+      60
+    ],
+    "density": 0.306
+  },
+  {
+    "id": "ink3_blue_07",
+    "sourceBounds": [
+      1,
+      1,
+      31,
+      30
+    ],
+    "glyphSize": [
+      39,
+      38
+    ],
+    "glyphPosition": [
+      36,
+      59
+    ],
+    "density": 0.389
+  },
+  {
+    "id": "ink3_blue_08",
+    "sourceBounds": [
+      1,
+      6,
+      31,
+      26
+    ],
+    "glyphSize": [
+      39,
+      26
+    ],
+    "glyphPosition": [
+      36,
+      65
+    ],
+    "density": 0.542
+  },
+  {
+    "id": "ink3_blue_09",
+    "sourceBounds": [
+      3,
+      1,
+      28,
+      31
+    ],
+    "glyphSize": [
+      30,
+      36
+    ],
+    "glyphPosition": [
+      40,
+      60
+    ],
+    "density": 0.588
+  },
+  {
+    "id": "ink3_blue_10",
+    "sourceBounds": [
+      5,
+      1,
+      27,
+      31
+    ],
+    "glyphSize": [
+      29,
+      39
+    ],
+    "glyphPosition": [
+      41,
+      59
+    ],
+    "density": 0.562
+  },
+  {
+    "id": "ink3_blue_11",
+    "sourceBounds": [
+      1,
+      3,
+      31,
+      29
+    ],
+    "glyphSize": [
+      42,
+      36
+    ],
+    "glyphPosition": [
+      34,
+      60
+    ],
+    "density": 0.246
+  },
+  {
+    "id": "ink3_purple_01",
+    "sourceBounds": [
+      1,
+      1,
+      31,
+      31
+    ],
+    "glyphSize": [
+      39,
+      39
+    ],
+    "glyphPosition": [
+      36,
+      59
+    ],
+    "density": 0.376
+  },
+  {
+    "id": "ink3_purple_02",
+    "sourceBounds": [
+      1,
+      2,
+      31,
+      30
+    ],
+    "glyphSize": [
+      42,
+      39
+    ],
+    "glyphPosition": [
+      34,
+      59
+    ],
+    "density": 0.329
+  },
+  {
+    "id": "ink3_purple_03",
+    "sourceBounds": [
+      2,
+      1,
+      30,
+      31
+    ],
+    "glyphSize": [
+      36,
+      39
+    ],
+    "glyphPosition": [
+      37,
+      59
+    ],
+    "density": 0.417
+  },
+  {
+    "id": "ink3_purple_04",
+    "sourceBounds": [
+      1,
+      1,
+      30,
+      31
+    ],
+    "glyphSize": [
+      35,
+      36
+    ],
+    "glyphPosition": [
+      38,
+      60
+    ],
+    "density": 0.683
+  },
+  {
+    "id": "ink3_purple_05",
+    "sourceBounds": [
+      4,
+      1,
+      27,
+      31
+    ],
+    "glyphSize": [
+      30,
+      39
+    ],
+    "glyphPosition": [
+      40,
+      59
+    ],
+    "density": 0.536
+  },
+  {
+    "id": "ink3_purple_06",
+    "sourceBounds": [
+      1,
+      3,
+      26,
+      28
+    ],
+    "glyphSize": [
+      36,
+      36
+    ],
+    "glyphPosition": [
+      37,
+      60
+    ],
+    "density": 0.613
+  },
+  {
+    "id": "ink3_purple_07",
+    "sourceBounds": [
+      1,
+      2,
+      31,
+      29
+    ],
+    "glyphSize": [
+      39,
+      35
+    ],
+    "glyphPosition": [
+      36,
+      61
+    ],
+    "density": 0.44
+  },
+  {
+    "id": "ink3_purple_08",
+    "sourceBounds": [
+      3,
+      1,
+      29,
+      31
+    ],
+    "glyphSize": [
+      34,
+      39
+    ],
+    "glyphPosition": [
+      38,
+      59
+    ],
+    "density": 0.491
+  },
+  {
+    "id": "ink3_purple_09",
+    "sourceBounds": [
+      4,
+      1,
+      28,
+      31
+    ],
+    "glyphSize": [
+      31,
+      39
+    ],
+    "glyphPosition": [
+      40,
+      59
+    ],
+    "density": 0.579
+  },
+  {
+    "id": "ink3_purple_10",
+    "sourceBounds": [
+      1,
+      7,
+      31,
+      25
+    ],
+    "glyphSize": [
+      36,
+      22
+    ],
+    "glyphPosition": [
+      37,
+      67
+    ],
+    "density": 0.656
+  },
+  {
+    "id": "ink3_purple_11",
+    "sourceBounds": [
+      2,
+      1,
+      29,
+      31
+    ],
+    "glyphSize": [
+      35,
+      39
+    ],
+    "glyphPosition": [
+      38,
+      59
+    ],
+    "density": 0.399
+  }
+]
