@@ -1,0 +1,67 @@
+[
+  {
+    "id": "base_sword",
+    "changedColorPixels": 458,
+    "silhouetteIdentical": true
+  },
+  {
+    "id": "whip",
+    "changedColorPixels": 446,
+    "silhouetteIdentical": true
+  },
+  {
+    "id": "rapier",
+    "changedColorPixels": 250,
+    "silhouetteIdentical": true
+  },
+  {
+    "id": "dagger",
+    "changedColorPixels": 595,
+    "silhouetteIdentical": true
+  },
+  {
+    "id": "hammer",
+    "changedColorPixels": 793,
+    "silhouetteIdentical": true
+  },
+  {
+    "id": "shield",
+    "changedColorPixels": 1347,
+    "silhouetteIdentical": true
+  },
+  {
+    "id": "greatsword",
+    "changedColorPixels": 705,
+    "silhouetteIdentical": true
+  },
+  {
+    "id": "launcher",
+    "changedColorPixels": 713,
+    "silhouetteIdentical": true
+  },
+  {
+    "id": "shuriken",
+    "changedColorPixels": 247,
+    "silhouetteIdentical": true
+  },
+  {
+    "id": "bomb",
+    "changedColorPixels": 442,
+    "silhouetteIdentical": true
+  },
+  {
+    "id": "launcher_laser",
+    "changedColorPixels": 654,
+    "silhouetteIdentical": true
+  },
+  {
+    "id": "launcher_shotgun",
+    "changedColorPixels": 955,
+    "silhouetteIdentical": true
+  },
+  {
+    "id": "launcher_grenade",
+    "changedColorPixels": 1106,
+    "silhouetteIdentical": true
+  }
+]

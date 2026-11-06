@@ -1,0 +1,158 @@
+[
+  {
+    "id": "base_sword",
+    "name": "기본검",
+    "file": "runtime/base_sword.png",
+    "size": [
+      96,
+      96
+    ],
+    "source": "melee",
+    "variant": false,
+    "darkUiFile": "dark-ui/base_sword.png"
+  },
+  {
+    "id": "whip",
+    "name": "채찍",
+    "file": "runtime/whip.png",
+    "size": [
+      96,
+      96
+    ],
+    "source": "melee",
+    "variant": false,
+    "darkUiFile": "dark-ui/whip.png"
+  },
+  {
+    "id": "rapier",
+    "name": "레이피어",
+    "file": "runtime/rapier.png",
+    "size": [
+      96,
+      96
+    ],
+    "source": "melee",
+    "variant": false,
+    "darkUiFile": "dark-ui/rapier.png"
+  },
+  {
+    "id": "dagger",
+    "name": "한손 단검",
+    "file": "runtime/dagger.png",
+    "size": [
+      96,
+      96
+    ],
+    "source": "melee",
+    "variant": false,
+    "darkUiFile": "dark-ui/dagger.png"
+  },
+  {
+    "id": "hammer",
+    "name": "기본망치",
+    "file": "runtime/hammer.png",
+    "size": [
+      96,
+      96
+    ],
+    "source": "melee",
+    "variant": false,
+    "darkUiFile": "dark-ui/hammer.png"
+  },
+  {
+    "id": "shield",
+    "name": "방패",
+    "file": "runtime/shield.png",
+    "size": [
+      96,
+      96
+    ],
+    "source": "melee",
+    "variant": false,
+    "darkUiFile": "dark-ui/shield.png"
+  },
+  {
+    "id": "greatsword",
+    "name": "대검",
+    "file": "runtime/greatsword.png",
+    "size": [
+      96,
+      96
+    ],
+    "source": "melee",
+    "variant": false,
+    "darkUiFile": "dark-ui/greatsword.png"
+  },
+  {
+    "id": "launcher",
+    "name": "발사기",
+    "file": "runtime/launcher.png",
+    "size": [
+      96,
+      96
+    ],
+    "source": "ranged",
+    "variant": false,
+    "darkUiFile": "dark-ui/launcher.png"
+  },
+  {
+    "id": "shuriken",
+    "name": "수리검",
+    "file": "runtime/shuriken.png",
+    "size": [
+      96,
+      96
+    ],
+    "source": "ranged",
+    "variant": false,
+    "darkUiFile": "dark-ui/shuriken.png"
+  },
+  {
+    "id": "bomb",
+    "name": "폭탄",
+    "file": "runtime/bomb.png",
+    "size": [
+      96,
+      96
+    ],
+    "source": "ranged",
+    "variant": false,
+    "darkUiFile": "dark-ui/bomb.png"
+  },
+  {
+    "id": "launcher_laser",
+    "name": "발사기 · 레이저",
+    "file": "runtime/launcher_laser.png",
+    "size": [
+      96,
+      96
+    ],
+    "source": "ranged",
+    "variant": true,
+    "darkUiFile": "dark-ui/launcher_laser.png"
+  },
+  {
+    "id": "launcher_shotgun",
+    "name": "발사기 · 샷건",
+    "file": "runtime/launcher_shotgun.png",
+    "size": [
+      96,
+      96
+    ],
+    "source": "ranged",
+    "variant": true,
+    "darkUiFile": "dark-ui/launcher_shotgun.png"
+  },
+  {
+    "id": "launcher_grenade",
+    "name": "발사기 · 유탄",
+    "file": "runtime/launcher_grenade.png",
+    "size": [
+      96,
+      96
+    ],
+    "source": "ranged",
+    "variant": true,
+    "darkUiFile": "dark-ui/launcher_grenade.png"
+  }
+]
