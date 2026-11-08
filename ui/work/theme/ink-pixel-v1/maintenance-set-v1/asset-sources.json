@@ -43,5 +43,10 @@
     "asset": "ink3_red_01.png",
     "source": "screen-set-v6/assets/ink3_red_01.png",
     "sha256": "31ae4ef46aba59917185a083597db32ab6e6417abb898ca1663d6315cc746a7b"
+  },
+  {
+    "asset": "new-item-dot.png",
+    "source": "common-ui-v1/runtime/new-item-dot.png",
+    "sha256": "877f21d109396557ade453445e295c5410dfb596fa34aa40d5d7dd49b34c641a"
   }
 ]
