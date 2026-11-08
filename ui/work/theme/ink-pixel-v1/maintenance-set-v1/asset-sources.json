@@ -1,0 +1,47 @@
+[
+  {
+    "asset": "village.jpg",
+    "source": "screen-set-v6/assets/village.jpg",
+    "sha256": "bb288d957000ca7647950a91d145bcccca563a0b0cd89703fe3634c29864181d"
+  },
+  {
+    "asset": "selection-swash.png",
+    "source": "screen-set-v6/assets/selection-swash.png",
+    "sha256": "a51d9746ce1f32a841e2feb7ea8e0acc8a266f4a774aaadb7600b3aed7bbe03d"
+  },
+  {
+    "asset": "ink3_red_01-jar.png",
+    "source": "screen-set-v6/assets/ink3_red_01-jar.png",
+    "sha256": "43193c852ce326dbde3db2e8d5c458419d1cfbb9f13fe7090164a7d9abbb247d"
+  },
+  {
+    "asset": "ink3_yellow_02-jar.png",
+    "source": "screen-set-v6/assets/ink3_yellow_02-jar.png",
+    "sha256": "23f4ec329909d6a8b5c15e3d62f79361d4d660a72aabf56008688e9e64d218f2"
+  },
+  {
+    "asset": "ink3_blue_01-jar.png",
+    "source": "screen-set-v6/assets/ink3_blue_01-jar.png",
+    "sha256": "760b8cc036e0d430837b053b9af6dcc070f65ee4e681b450864359706430edae"
+  },
+  {
+    "asset": "weapon-base_sword.png",
+    "source": "screen-set-v6/assets/weapon-base_sword.png",
+    "sha256": "b764e802c9bc156ce7950db4e1bdd8b8f6b6f6d582449f311c258b2a831bcb4e"
+  },
+  {
+    "asset": "weapon-launcher.png",
+    "source": "screen-set-v6/assets/weapon-launcher.png",
+    "sha256": "fd735a2f450b53d13d0a79e34d9cb64d396bfef9f33e1705c08dee3b71f6eb0a"
+  },
+  {
+    "asset": "filled-red.png",
+    "source": "screen-set-v6/assets/filled-red.png",
+    "sha256": "a03ee47a599eab6f9efe4cbb23374b48a13185587bf78e68913a1aac19dcc218"
+  },
+  {
+    "asset": "ink3_red_01.png",
+    "source": "screen-set-v6/assets/ink3_red_01.png",
+    "sha256": "31ae4ef46aba59917185a083597db32ab6e6417abb898ca1663d6315cc746a7b"
+  }
+]
