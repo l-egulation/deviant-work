@@ -4,6 +4,11 @@
 
 **먼저 볼 것:** [STATUS](docs/STATUS.md) — 지금 상태와 다음 할 일
 
+## 최신 검토
+
+- [2026-11-09 제작 현황·규칙 차이·다음 작업](work/reviews/2026-11-09-ui-production-status.md)
+- [가방·장비 여백 수정 v6](work/theme/ink-pixel-v1/screen-set-v6/README.md)
+
 ## 테마
 
 - [전투 HUD 테마 기준 초안](work/theme/hud-theme-guide.md): 색상·프레임·아이콘·쿨타임과 검토할 상태.
