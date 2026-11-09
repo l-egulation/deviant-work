@@ -152,5 +152,12 @@
     "full-map-v1",
     "map",
     ""
+  ],
+  [
+    "정비소",
+    "팔레트 · 변경권 선택",
+    "maintenance-palette-v1",
+    "color-ticket",
+    "task=color&payment=ticket"
   ]
 ]

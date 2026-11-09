@@ -56,3 +56,13 @@ kbd{font-size:22px}
 .bagcount{display:flex;justify-content:space-between;font-size:25px!important;margin-top:24px!important}.bagcount span{font-size:23px;color:var(--muted)}
 .taskDecision{position:static!important;bottom:auto!important}.upgradeCompare+.upgradeNote{margin-bottom:0!important}
 .grid{scrollbar-gutter:stable;overflow-y:scroll}.grid:focus-visible{outline:1px solid var(--action)}
+
+/* Palette service metadata / clearly scaled payment choice. */
+.services .taskOption:nth-child(2) .taskMeta,.services .taskOption:nth-child(3) .taskMeta{color:var(--gain)!important}
+body[data-mode="color"] .payment{gap:52px;align-items:center;padding:16px 18px}
+body[data-mode="color"] .paymentOption{transform:scale(.9)!important;transform-origin:center;transition:transform 140ms ease-out}
+body[data-mode="color"] .paymentOption.isSelected{transform:scale(1.15)!important}
+body[data-mode="color"] .paymentOption .paymentTitle{display:inline-block}
+.emptyCell img{width:110px;height:135px;object-fit:contain;image-rendering:pixelated}
+.unknownColor{width:160px;height:124px}
+@media(prefers-reduced-motion:reduce){body[data-mode="color"] .paymentOption{transition:none}}
