@@ -268,28 +268,28 @@
   [
     "전투 HUD",
     "전투 HUD · 기본",
-    "combat-hud-v1",
+    "combat-hud-v2",
     "exploration",
     ""
   ],
   [
     "전투 HUD",
     "전투 HUD · 어두운 배경",
-    "combat-hud-v1",
+    "combat-hud-v2",
     "dark",
     "scene=dark"
   ],
   [
     "전투 HUD",
     "전투 HUD · 획득 알림",
-    "combat-hud-v1",
+    "combat-hud-v2",
     "pickup",
     "state=pickup"
   ],
   [
     "전투 HUD",
     "전투 HUD · 보스 배치",
-    "combat-hud-v1",
+    "combat-hud-v2",
     "boss",
     "state=boss"
   ]
