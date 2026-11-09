@@ -7,3 +7,6 @@
 [가방](previews/bag.png) · [장비](previews/equipment.png) · [긴 설명](previews/bag-long.png) · [빈 카테고리](previews/bag-empty.png) · [무색 칸](previews/equipment-neutral.png)
 
 현재 대화의 X 짧게 버리기/3초 파괴와 일시정지 표시는 유지. 팀 구현 및 Figma와의 규칙 차이는 2026-11-09 제작 현황 보고서 참조. 5칸 팔레트는 확장 후 예시이며 초기 지급 규칙으로 해석하지 않음.
+
+## 정비소와 선택 표현 통일
+동일 selection-wash-v1.png를 복사해 탭/무기 이름/팔레트 이름/잉크병 하단/도장 이름에 사용. 탭 120%, 무기 115%, 도장 110%, 잉크병 90→105%, 팔레트 80→100%. 탭과 무기 간격 확대. 기존 팔레트 밑줄 제거, 효과명 뒤에 질감 표시. 실제 아이템 변경 및 Unity 적용 없음.
