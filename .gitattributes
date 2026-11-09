@@ -42,12 +42,6 @@ assets/work/environments/**/*.jpg filter=lfs diff=lfs merge=lfs -text
 assets/work/environments/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
 assets/work/environments/**/*.aseprite filter=lfs diff=lfs merge=lfs -text
 assets/work/environments/**/*.psd filter=lfs diff=lfs merge=lfs -text
-ui/work/**/*.png filter=lfs diff=lfs merge=lfs -text
-ui/work/**/*.gif filter=lfs diff=lfs merge=lfs -text
-ui/work/**/*.webp filter=lfs diff=lfs merge=lfs -text
-ui/work/**/*.jpg filter=lfs diff=lfs merge=lfs -text
-ui/work/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
-ui/work/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
 story/work/**/*.png filter=lfs diff=lfs merge=lfs -text
 story/work/**/*.gif filter=lfs diff=lfs merge=lfs -text
 story/work/**/*.webp filter=lfs diff=lfs merge=lfs -text
