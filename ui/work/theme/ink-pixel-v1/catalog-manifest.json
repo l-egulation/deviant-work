@@ -8,6 +8,13 @@
   ],
   [
     "가방·장비",
+    "가방 · 아래로 스크롤 / 빈칸",
+    "screen-set-v6",
+    "bag-scroll",
+    "view=bag&scroll=bottom"
+  ],
+  [
+    "가방·장비",
     "장비 · 무기와 스킬",
     "screen-set-v6",
     "equipment",

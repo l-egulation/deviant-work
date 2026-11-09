@@ -160,22 +160,22 @@ function render(){
  document.getElementById('fLabel').textContent=slot<0?'칸 선택':task?'실행':'작업 선택';
  const detail=document.getElementById('detail');if(slot<0){detail.innerHTML='<p class="label">팔레트 칸을 선택하세요</p>';return;}if(!task){detail.innerHTML='<p class="label">선택한 칸의 작업을 골라주세요</p>';return;}
  const c=slotColors[weapon][slot],current=inks[sets[weapon][slot]],title={ink:'잉크 장착·교체',upgrade:'칸 강화',color:'칸 색 변경'}[task];
- let body=`<p class="label">${weapon?'발사기':'기본검'} · ${colorNames[c]} 칸 · +${level}</p><h2>${title}</h2>`;let disabled=false,action='',note='';
+ let body='';let disabled=false,action='',note='';
  if(task==='upgrade'){
  const max=level>=5;disabled=max||gold<costs();const value=n=>current?.id==='ink3_red_01'?Math.round(20*(1+.15*n))+'%':'+'+n;
- body+=`<div class="upgradeCompare"><div><p>현재</p><strong>${value(level)}</strong></div>${max?'':`<span>→</span><div><p>강화 후</p><strong class="next">${value(level+1)}</strong></div>`}</div><p class="upgradeNote">${current?.id==='ink3_red_01'?'덧칠 · 추가타 피해':current?'해당 잉크의 효과 수치는 별도 검토':'빈 칸 강화'}</p><p class="upgradeNote">잉크 교체·색 변경 후에도 강화 유지</p>`;
- note=max?'최대 강화입니다.':gold<costs()?`골드 ${costs()-gold} G 부족`:`비용 ${costs()} G`;action='강화하기';
+ body+=`<div class="upgradeCompare"><div><p>현재</p><strong>${value(level)}</strong></div>${max?'':`<span>→</span><div><p>강화 후</p><strong class="next">${value(level+1)}</strong></div>`}</div><p class="upgradeNote">${current?.id==='ink3_red_01'?'덧칠 · 추가타 피해':current?'해당 잉크의 효과 수치는 별도 검토':'빈 칸 강화'}</p>`;
+ note=max?'최대 강화입니다.':gold<costs()?`골드 ${costs()-gold} G 부족`:'잉크 교체·색 변경 후에도 강화 유지';action='강화하기';
  }else if(task==='color'){
  const full=new URLSearchParams(location.search).get('case')==='full';
- body+=`<p class="sectionLabel">변경 방식</p><h2 style="color:var(--paper)">무작위 색 · 빈 칸</h2><p class="effect">변경 후 잉크를 새로 장착하세요.</p><div class="recolorDescription"><h3>${current?'가방으로 반환 · '+current.name:'반환할 잉크 없음'}</h3><p>강화 +${level} 유지${current?' · 가방 '+(full?'5 / 5':'3 / 5'):''}</p></div><p class="paymentLabel">결제 방법 선택</p><div class="payment"><button class="paymentOption ${payment==='gold'?'isSelected':''}" onclick="payment='gold';message='';render()"><span class="paymentTitle">100 G</span><small>유료 ${paidLeft}회 남음</small></button><button class="paymentOption ${payment==='ticket'?'isSelected':''}" onclick="payment='ticket';message='';render()"><span class="paymentTitle">변경권 1장</span><small>보유 ${tickets}장 · 유료 횟수 유지</small></button></div>`;
+ body+=`<div class="colorCompare"><div><p>현재</p><div class="compareLayers"><img src="${A}${current?'filled':'empty'}-${c}.png">${current?`<img src="${A}${current.id}.png">`:''}</div></div><span>→</span><div class="afterState"><p>변경 후</p><img class="unknownColor" src="../full-map-v1/assets/unknown.png"><p>무작위 색</p></div></div><div class="payment"><button class="paymentOption ${payment==='gold'?'isSelected':''}" onclick="payment='gold';message='';render()"><span class="paymentTitle">골드</span><small>유료 ${paidLeft}회 남음</small></button><button class="paymentOption ${payment==='ticket'?'isSelected':''}" onclick="payment='ticket';message='';render()"><span class="paymentTitle">변경권</span><small>보유 ${tickets}장</small></button></div>`;
  disabled=Boolean(current&&full)||(payment==='gold'?(gold<100||paidLeft<1):tickets<1);
- note=disabled?'':current?'기존 잉크는 가방으로 반환':'빈 칸 색 변경 가능 여부 검토 중';
+ note=disabled?'':current?'잉크는 가방으로 반환되고, 바뀐 칸은 비워집니다.':'빈 칸 색 변경 가능 여부 검토 중';
  if(!current)disabled=true;
  action=current&&full?'가방이 가득 찼습니다':disabled?'변경 불가':'무작위 색 변경';
  }else{
- const list=available(),d=inks[candidate];body+=`<p class="sectionLabel">현재 · ${current?current.name:'빈 칸'}</p><p class="effect">${current?current.desc:''}</p><div class="transition"><img src="${A}transition-down.png" alt=""></div><p class="label">보유 잉크</p><div class="candidateRow">${list.map(x=>`<button class="${candidate===x.index?'mark':''}" onclick="candidate=${x.index};render()"><img src="${A}${x.id}-jar.png" alt="${x.name}"></button>`).join('')}</div>${d?`<h2 class="candidateTitle">${d.name}</h2><p class="effect">${d.desc}</p>`:'<p class="effect">보유한 잉크 없음</p>'}`;disabled=!d;note=current?'현재 잉크는 가방으로 반환':'빈 칸에 장착';action=current?'교체 · 무료':'장착 · 무료';
+ const list=available(),d=inks[candidate];body+=`<p class="sectionLabel">현재 · ${current?current.name:'빈 칸'}</p><p class="effect">${current?current.desc:''}</p><div class="transition"><img src="${A}transition-down.png" alt=""></div><p class="label">보유 잉크</p><div class="candidateRow">${list.map(x=>`<button class="${candidate===x.index?'mark':''}" onclick="candidate=${x.index};render()"><img src="${A}${x.id}-jar.png" alt="${x.name}"></button>`).join('')}</div>${d?`<h2 class="candidateTitle">${d.name}</h2><p class="effect">${d.desc}</p>`:'<p class="effect">보유한 잉크 없음</p>'}`;disabled=!d;note=current?'현재 잉크는 가방으로 반환':'빈 칸에 장착';action=current?'교체':'장착';
  }
- detail.innerHTML=body+`<div class="taskDecision"><button onclick="executeTask()" ${disabled?'disabled':''}><kbd>F</kbd>${action}</button><p class="decisionNote" role="status">${message||note}</p></div>`;
+ detail.innerHTML=body+`<div class="taskDecision"><button onclick="executeTask()" ${disabled?'disabled':''}><kbd>F</kbd>${action}</button><span class="actionCost">${task==='upgrade'?costs()+' G':task==='color'?(payment==='gold'?'100 G':'변경권 1장'):'무료'}</span><p class="decisionNote" role="status">${message||note}</p></div>`;
 }
 function executeTask(){if(slot<0||!task)return;const st=slotStats[weapon][slot];if(task==='upgrade'){if(st.level>=5||gold<costs())return;gold-=costs();purchases++;st.level++;message='강화 완료 · +'+st.level;}
 else if(task==='color'){const full=new URLSearchParams(location.search).get('case')==='full';const valid=payment==='gold'?gold>=100&&paidLeft>0:tickets>0;if(full||!valid||sets[weapon][slot]==null)return;message='미리보기 · 잉크 반환 후 무작위 색의 빈 칸으로 변경 / 실제 변경 없음';}
