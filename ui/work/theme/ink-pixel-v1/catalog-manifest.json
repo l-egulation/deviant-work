@@ -341,5 +341,26 @@
     "settings-v1",
     "confirm",
     "tab=display&state=confirm"
+  ],
+  [
+    "봉인 도전",
+    "증강 보상 · 공격력 선택",
+    "seal-reward-v1",
+    "choice-0",
+    "pick=0"
+  ],
+  [
+    "봉인 도전",
+    "증강 보상 · 공격 속도 선택",
+    "seal-reward-v1",
+    "choice-1",
+    "pick=1"
+  ],
+  [
+    "봉인 도전",
+    "증강 보상 · 최대 체력 선택",
+    "seal-reward-v1",
+    "choice-2",
+    "pick=2"
   ]
 ]
