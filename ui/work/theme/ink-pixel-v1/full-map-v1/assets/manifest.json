@@ -18,12 +18,21 @@
     "alpha": true
   },
   {
+    "file": "chest.png",
+    "size": [
+      1312,
+      1199
+    ],
+    "sha256": "bca711086f76fb23200034b7e62367719a591a39dd3ddd6c77ca63ecf5122e22",
+    "alpha": true
+  },
+  {
     "file": "player.png",
     "size": [
-      1293,
+      1294,
       1216
     ],
-    "sha256": "c13e00553dc3c2587184994da2b32f289687598fb5f22a8c4d8d0208eb29344f",
+    "sha256": "3677c38cb54a85f07ab46e453fddae08a2d4a2cee6dc7f5f9ef53cd44471a84c",
     "alpha": true
   },
   {
@@ -78,6 +87,15 @@
       1254
     ],
     "sha256": "5870472cd6f28bb94b7b8bb3aa2d10460ab1a8d08e3a2e6664dfc63ccf5b6b23",
+    "alpha": true
+  },
+  {
+    "file": "seal.png",
+    "size": [
+      1312,
+      1199
+    ],
+    "sha256": "a3b3b095d082d5ed1db14d1b7f2d876cf9a2b697b1ac606d849bfacc7e3ffc50",
     "alpha": true
   },
   {
