@@ -1,0 +1,41 @@
+{
+  "params": {
+    "model": "seedance_2_0",
+    "mode": "fast",
+    "resolution": "720p",
+    "duration": 8,
+    "aspect_ratio": "16:9",
+    "generate_audio": false,
+    "count": 1,
+    "folder_id": "20f56124-b094-4ef9-96d9-4da2764d6d9c",
+    "medias": [
+      {
+        "role": "start_image",
+        "value": "c7d1f0e4-96d5-409a-aa7c-df096b3a8e44"
+      },
+      {
+        "role": "end_image",
+        "value": "0db41c06-25b8-490a-a6e8-515e2395b4cf"
+      }
+    ],
+    "prompt": "One continuous locked-camera 2D animated shot, no cuts or zoom. Preserve the delicate illustrated shapes and cream paper. The entire village and well remain empty pale contour drawings throughout. Start with the almost-erased human hero collapsing beside the well: fragmented outlines, almost no body fill, head bowed, arm losing strength. During the first two seconds remaining tiny pigment fragments fade and the shoulders sink slightly. The single separate black ink helper on the right then actively travels LEFT toward the hero's hand on the well. Its leading edge touches the fingertips; the entire small helper flows INTO the hand and disappears inside the body, never drips out or passes behind the hero. Only AFTER physical contact, matte black ink fills the hand and travels up the arm inside the silhouette, stabilizing the fading outlines; the hooded face becomes matte black, cream clothing and teal scarf regain their painted substance. Finally both hands are matte black, two gold vertical eyes appear, fingers firmly grip the SAME rim, elbow straightens and chest and head slowly lift as strength returns. End on the recovered kneeling hero matching the end frame. Keep the village and well erased; no background recoloring. Clear cause and effect: external ink enters first, then the dying hero recovers. No new entities, no extra limbs, no glossy ink, no particles, no aura, no text, no logos, no sound."
+  },
+  "uploads": [
+    {
+      "media_id": "c7d1f0e4-96d5-409a-aa7c-df096b3a8e44",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JfqInYyLmAki7RqK4A9ChKAuLS/c7d1f0e4-96d5-409a-aa7c-df096b3a8e44.png"
+    },
+    {
+      "media_id": "0db41c06-25b8-490a-a6e8-515e2395b4cf",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JfqInYyLmAki7RqK4A9ChKAuLS/0db41c06-25b8-490a-a6e8-515e2395b4cf.png"
+    }
+  ],
+  "job": {
+    "index": 0,
+    "job_id": "2da894b6-d10e-4965-8668-4f898fba999e",
+    "status": "completed",
+    "type": "video",
+    "model": "seedance_2_0",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JfqInYyLmAki7RqK4A9ChKAuLS/hf_20261106_042132_2da894b6-d10e-4965-8668-4f898fba999e.mp4"
+  }
+}

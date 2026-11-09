@@ -1,0 +1,6 @@
+# 4컷 팔·직선 검 수정 v8 — 내장 GPT Image
+
+Edit ONLY the arms/hands and sword of the hero in the BOTTOM FOURTH PANEL. Preserve panels1-3 and all scenery, layout, hero head, torso, legs, position, scale and B painterly style.
+Fourth panel: shorten the upper arms and forearms to match this compact short-limbed character. Bring elbows close to ribs and both hands closer to the lower abdomen, slightly higher than currently; avoid an elongated reach down toward the knee. Two small matte-black hands clearly clasp one separate black handle, each attached to a simple cream cuff. Natural modest elbow bends, no looping sleeves, extra joints or fused limbs. Keep a low post-slash recovery stance.
+Redraw the sword as a RIGID STRAIGHT short ink-black sword. Pommel, handle center, guard center, blade centerline and tip lie on ONE PERFECTLY STRAIGHT DIAGONAL down-right axis. Straight blade edges taper evenly to a centered point. NO curved blade, no drooping tip, no bent handle, no hooked spine, no wrist-extension weapon. Short black crossguard perpendicular to that axis. Matte black grip and blade, no silver/gold. Blade tip clearly above floor, not resting on ground. Similar compact weapon proportions to panel3. Keep both hands behind guard.
+Minimal local correction. No other visual changes, no text, watermark or logo.
