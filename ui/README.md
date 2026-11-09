@@ -6,6 +6,8 @@
 
 ## 최신 검토
 
+- [FigJam 기준 남은 UI와 제작 순서](work/reviews/2026-11-09-flow-theme-backlog.md)
+
 - [정비소 성장·뽑기 결과 테마 v1](work/theme/ink-pixel-v1/maintenance-set-v1/README.md)
 
 - [2026-11-09 제작 현황·규칙 차이·다음 작업](work/reviews/2026-11-09-ui-production-status.md)
