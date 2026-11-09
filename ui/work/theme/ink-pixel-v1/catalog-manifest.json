@@ -159,5 +159,19 @@
     "maintenance-palette-v1",
     "color-ticket",
     "task=color&payment=ticket"
+  ],
+  [
+    "정비소",
+    "팔레트 · 잉크 장착·교체",
+    "maintenance-palette-v1",
+    "palette-ink",
+    "task=ink"
+  ],
+  [
+    "지도",
+    "지도 · 200% 확대",
+    "full-map-v1",
+    "map-zoom-200",
+    "zoom=2"
   ]
 ]
