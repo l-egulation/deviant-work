@@ -46,7 +46,7 @@
   },
   {
     "asset": "new-item-dot.png",
-    "source": "common-ui-v1/runtime/new-item-dot.png",
-    "sha256": "877f21d109396557ade453445e295c5410dfb596fa34aa40d5d7dd49b34c641a"
+    "source": "common-ui-v2/runtime/new-item-dot.png",
+    "sha256": "3a18d1e7120afe3635bb5687781596e22f3daccabb5e719eb19efee81c36e9e3"
   }
 ]
