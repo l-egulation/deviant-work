@@ -1,0 +1,242 @@
+[
+  {
+    "source": "../screen-set-v6/assets/neutral-filled-purple.png",
+    "sha256": "324a4cbf6aa9f3117c0d496e685358156d8a617ea5c3ac8a857c902edc6b2ad0"
+  },
+  {
+    "source": "../screen-set-v6/assets/ink3_red_02.png",
+    "sha256": "da1fc1c7f5716e84c10642aa58abd5f328068bd3c25fd720395d8b37f78ea6c9"
+  },
+  {
+    "source": "../screen-set-v6/assets/ink3_yellow_01-jar.png",
+    "sha256": "83fb545c8331d333bab7012921a181d2aed028f599f883a589ce651de6b83e49"
+  },
+  {
+    "source": "../screen-set-v6/assets/weapon-shield.png",
+    "sha256": "d564b13440f288ed3a6dafb9d7a6c3ad597b44d0472ec45c11900b398346817e"
+  },
+  {
+    "source": "../screen-set-v6/assets/ink3_purple_01.png",
+    "sha256": "f2f1d7f7dfa3a08cd9aa22215c1acdd81d18bc743fd1be8aa5da8ca35a4e7265"
+  },
+  {
+    "source": "../screen-set-v6/assets/neutral-filled-green.png",
+    "sha256": "19c073b2ed3edca2ef7bc034ee59a8c480cf1bb3760117a5cb2939cbefcd3e77"
+  },
+  {
+    "source": "../screen-set-v6/assets/weapon-dagger.png",
+    "sha256": "c91acb3287101f0b1f01338dcd0d3f3069230acb50e6a0ddae8626bbd13f42ea"
+  },
+  {
+    "source": "../screen-set-v6/assets/ink3_green_01-jar.png",
+    "sha256": "5b31ce7b2ac3a38c9c1c07ad02d62608e459a0504be34257ced9e213e3573c48"
+  },
+  {
+    "source": "../screen-set-v6/assets/ink3_red_01.png",
+    "sha256": "31ae4ef46aba59917185a083597db32ab6e6417abb898ca1663d6315cc746a7b"
+  },
+  {
+    "source": "../screen-set-v6/assets/ink3_blue_02.png",
+    "sha256": "5bb02fda3f6f1bd7f8f791cc1a2ecf8b36abadc0538571095a4e31e29d78c604"
+  },
+  {
+    "source": "../screen-set-v6/assets/selection-swash.png",
+    "sha256": "a51d9746ce1f32a841e2feb7ea8e0acc8a266f4a774aaadb7600b3aed7bbe03d"
+  },
+  {
+    "source": "../screen-set-v6/assets/weapon-base_sword.png",
+    "sha256": "b764e802c9bc156ce7950db4e1bdd8b8f6b6f6d582449f311c258b2a831bcb4e"
+  },
+  {
+    "source": "../screen-set-v6/assets/ink3_red_04-jar.png",
+    "sha256": "611aeb4af3a16f7dad9cab567f5ea27c3567b1407ce7fc9bee67ff929ff64637"
+  },
+  {
+    "source": "../screen-set-v6/assets/ink3_red_04.png",
+    "sha256": "a4fa266be2ad7f81756c53d74b3c0a4e27b76000572edb288af4ee76111180c7"
+  },
+  {
+    "source": "../screen-set-v6/assets/ink3_purple_05.png",
+    "sha256": "db73b3ff0c5d89cc5146891b4ac4df63dc539475ed4101a8d8548ad930098e8e"
+  },
+  {
+    "source": "../screen-set-v6/assets/ink3_blue_01.png",
+    "sha256": "ee90f7ffd2262387d1551009eca155b277840f73a26f4e0e7483604ac8187f9b"
+  },
+  {
+    "source": "../screen-set-v6/assets/ink3_purple_07.png",
+    "sha256": "53e4112d27c66ed66da474e72fa5e47aa89ab264042efc29bee3034e4936da12"
+  },
+  {
+    "source": "../screen-set-v6/assets/empty-neutral.png",
+    "sha256": "c75ac85f6365074c88533dd029810c5426ae6fdc21cee01c0f40575df35295a1"
+  },
+  {
+    "source": "../screen-set-v6/assets/chevron-right.png",
+    "sha256": "b8d597b572cd07ee990a236302575a1988bdefcad42019e09cea5c59bfe39664"
+  },
+  {
+    "source": "../screen-set-v6/assets/filled-blue.png",
+    "sha256": "a7eda671c890dae7921d4c3313328f3faf143552cfa9553d968d8ae3d35cc4ef"
+  },
+  {
+    "source": "../screen-set-v6/assets/filled-yellow.png",
+    "sha256": "111a383fe04861da69793f14f800484d3a9005e8ae60b3a513cef339b1e1390b"
+  },
+  {
+    "source": "../screen-set-v6/assets/weapon-greatsword.png",
+    "sha256": "2cee75f3b83d173addc77d0a79cb8ed468e946035102db0cc1ab2039264771b2"
+  },
+  {
+    "source": "../screen-set-v6/assets/filled-green.png",
+    "sha256": "3d7ee595703a001a71363c8edd549c843404daa6ba0c396fec8cea0d21757587"
+  },
+  {
+    "source": "../screen-set-v6/assets/ink3_yellow_01.png",
+    "sha256": "64f379f6d9802afda3bf87d4523497b35b82113b0d9da886302b7323b8bd7883"
+  },
+  {
+    "source": "../screen-set-v6/assets/weapon-launcher_grenade.png",
+    "sha256": "1a89af3a4a5965bc1bb77b08dcd7efc205a815b680999bf80268153b194917e1"
+  },
+  {
+    "source": "../screen-set-v6/assets/ink3_yellow_02-jar.png",
+    "sha256": "23f4ec329909d6a8b5c15e3d62f79361d4d660a72aabf56008688e9e64d218f2"
+  },
+  {
+    "source": "../screen-set-v6/assets/weapon-shuriken.png",
+    "sha256": "8da930eec19e2a00fd9d973490006994dd1e3e1f28e48b91ab2c0e7b357938ff"
+  },
+  {
+    "source": "../screen-set-v6/assets/ink3_yellow_02.png",
+    "sha256": "1fc08a80e23e4f7fafa8e38b34aff9159d3f8ceb57b98df9029b8766ee01d762"
+  },
+  {
+    "source": "../screen-set-v6/assets/empty-green.png",
+    "sha256": "5027896b90ba515bf35106d4ec5f1a17edc792a4886860a3b7042b96dce608bc"
+  },
+  {
+    "source": "../screen-set-v6/assets/neutral-filled-blue.png",
+    "sha256": "9266b5d6eb760a091b94e645af71a2af63affa0e2a86f20d9c52a27a849117f2"
+  },
+  {
+    "source": "../screen-set-v6/assets/empty-yellow.png",
+    "sha256": "526ce6981a88f31f24c4e25ecab6a2e3f40f1c4228ff30795ec0de3f9a94a8a8"
+  },
+  {
+    "source": "../screen-set-v6/assets/ink3_purple_01-jar.png",
+    "sha256": "a23cf9698e8ac148aa2006ad51c55cc3d952a385c58952cecdc571baba646fd5"
+  },
+  {
+    "source": "../screen-set-v6/assets/weapon-bomb.png",
+    "sha256": "bd94e1ad583522d863ca76e53e535854605e7326ea73f2f650b5fd061a8e07d8"
+  },
+  {
+    "source": "../screen-set-v6/assets/filled-purple.png",
+    "sha256": "84d83308858d81dc38e6d288ff507f0cc87e1b78daefce84f88bb19b6d187175"
+  },
+  {
+    "source": "../screen-set-v6/assets/chevron-left.png",
+    "sha256": "c30ae1b8e77bafc74f9740fa2ca9fd052f6b64fabbddbbdce3f4a8079a44c362"
+  },
+  {
+    "source": "../screen-set-v6/assets/neutral-filled-red.png",
+    "sha256": "5393475725434e7647514f0a5ad904a858f943c5b015bb662ce1dd652c5f7e8c"
+  },
+  {
+    "source": "../screen-set-v6/assets/ink3_green_01.png",
+    "sha256": "c3174883e80d389489327060508ce44d06a48d15d4fecfd47bc28a988ff08b55"
+  },
+  {
+    "source": "../screen-set-v6/assets/ink3_red_02-jar.png",
+    "sha256": "96407a88b2c59fd537b1fb6c66939201d3abc814c7a0d35f2eb5afdea6e37495"
+  },
+  {
+    "source": "../screen-set-v6/assets/sword.png",
+    "sha256": "b764e802c9bc156ce7950db4e1bdd8b8f6b6f6d582449f311c258b2a831bcb4e"
+  },
+  {
+    "source": "../screen-set-v6/assets/weapon-launcher.png",
+    "sha256": "fd735a2f450b53d13d0a79e34d9cb64d396bfef9f33e1705c08dee3b71f6eb0a"
+  },
+  {
+    "source": "../screen-set-v6/assets/empty-red.png",
+    "sha256": "0f7a309f3ab458b8409a5e0427d41a632ffcf30365d482c2a25387480197e3ef"
+  },
+  {
+    "source": "../screen-set-v6/assets/ink3_purple_05-jar.png",
+    "sha256": "cdc9ae3a350e89bf53e8541f9a1ee9e06d2f1c0b4a513e7e891dbb7341e96ad0"
+  },
+  {
+    "source": "../screen-set-v6/assets/filled-red.png",
+    "sha256": "a03ee47a599eab6f9efe4cbb23374b48a13185587bf78e68913a1aac19dcc218"
+  },
+  {
+    "source": "../screen-set-v6/assets/neutral-filled-yellow.png",
+    "sha256": "c50685274c6de330e2888979ea6b053c85281940af806306c55537ab2d2e917f"
+  },
+  {
+    "source": "../screen-set-v6/assets/ink3_green_04.png",
+    "sha256": "71ba6f1d5d82cca97e3753b40b0ef1a98f0400ee85ebba2ea3ff8a3fca4c0ab4"
+  },
+  {
+    "source": "../screen-set-v6/assets/ink3_blue_01-jar.png",
+    "sha256": "760b8cc036e0d430837b053b9af6dcc070f65ee4e681b450864359706430edae"
+  },
+  {
+    "source": "../screen-set-v6/assets/village.jpg",
+    "sha256": "bb288d957000ca7647950a91d145bcccca563a0b0cd89703fe3634c29864181d"
+  },
+  {
+    "source": "../screen-set-v6/assets/weapon-rapier.png",
+    "sha256": "66bb44170ed2e74046013816647e10cf5f46fa49bd4b2b158a5524edb7f30979"
+  },
+  {
+    "source": "../screen-set-v6/assets/hammer.png",
+    "sha256": "870e95a299927030f396bed000e59856139d4bab46164b1bce12ef2f00ca2788"
+  },
+  {
+    "source": "../screen-set-v6/assets/weapon-whip.png",
+    "sha256": "307418ae5289969f251e03ae3cbc721de8c4dcb0e70a617dd408413af3ae9a3d"
+  },
+  {
+    "source": "../screen-set-v6/assets/ink3_purple_07-jar.png",
+    "sha256": "9ac28d9912c71a99f3889b6ef61f79e5ce69e1dcba3c79d1e30aa4726789b193"
+  },
+  {
+    "source": "../screen-set-v6/assets/empty-purple.png",
+    "sha256": "752091ca80b83a27873fd9f4c750042dd6a380bcb01d83e198bbe37f3cbf3813"
+  },
+  {
+    "source": "../screen-set-v6/assets/weapon-launcher_laser.png",
+    "sha256": "403d605ce7c40d5f2d4eea0a8a0873a440739c4fa6e8338d5299b761b0cbaf6c"
+  },
+  {
+    "source": "../screen-set-v6/assets/ink3_red_01-jar.png",
+    "sha256": "43193c852ce326dbde3db2e8d5c458419d1cfbb9f13fe7090164a7d9abbb247d"
+  },
+  {
+    "source": "../screen-set-v6/assets/weapon-hammer.png",
+    "sha256": "870e95a299927030f396bed000e59856139d4bab46164b1bce12ef2f00ca2788"
+  },
+  {
+    "source": "../screen-set-v6/assets/empty-blue.png",
+    "sha256": "8264e3beaccaebbb24d0cc6f744cb469c54e87cdf151e84557a1178bcf274cf7"
+  },
+  {
+    "source": "../screen-set-v6/assets/weapon-launcher_shotgun.png",
+    "sha256": "12bb4577e574f4ed31b0287055a981877e46fa02f4ebe56f0da879d94b8ffb1e"
+  },
+  {
+    "source": "../screen-set-v6/assets/ink3_blue_02-jar.png",
+    "sha256": "3b8a50ff024ed664280654e89ae9fdf7a69f8a5804821475524052dc419e9098"
+  },
+  {
+    "source": "../screen-set-v6/assets/transition-down.png",
+    "sha256": "cfe8d921ad40e8634bc28276bfb05158feaf7c0fa5e692b902408f846d2aba5a"
+  },
+  {
+    "source": "../screen-set-v6/assets/ink3_green_04-jar.png",
+    "sha256": "9ce6d5958fcd214561cbef8bd4654d0bcbec72ba16319b68bd4ea6107ab24d9b"
+  }
+]

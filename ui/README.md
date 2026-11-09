@@ -6,6 +6,9 @@
 
 ## 최신 검토
 
+- [후속 UI 제작 계획](docs/plans/2026-11-09-ui-theme-production.md)
+- [정비소 팔레트 관리 두 상태](work/theme/ink-pixel-v1/maintenance-palette-v1/README.md)
+
 - [FigJam 기준 남은 UI와 제작 순서](work/reviews/2026-11-09-flow-theme-backlog.md)
 
 - [정비소 성장·뽑기 결과 테마 v1](work/theme/ink-pixel-v1/maintenance-set-v1/README.md)
