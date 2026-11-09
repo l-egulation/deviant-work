@@ -173,5 +173,33 @@
     "full-map-v1",
     "map-zoom-200",
     "zoom=2"
+  ],
+  [
+    "일시정지",
+    "전투 · 일시정지",
+    "pause-menu-v1",
+    "combat",
+    "context=combat"
+  ],
+  [
+    "일시정지",
+    "마을 · 일시정지",
+    "pause-menu-v1",
+    "village",
+    "context=village"
+  ],
+  [
+    "일시정지",
+    "조작 안내",
+    "pause-menu-v1",
+    "help",
+    "view=help"
+  ],
+  [
+    "일시정지",
+    "도전 종료 · 마을 복귀 확인",
+    "pause-menu-v1",
+    "confirm",
+    "view=confirm"
   ]
 ]
