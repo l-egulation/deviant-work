@@ -30,3 +30,12 @@ Figma 128:128,128:224의 정보 역할을 승인된 어두운 픽셀 테마로 �
 기본 진입 시 칸 미선택, 강화/색 변경 영역 숨김. 클릭·방향키·F로 칸 선택 후 표시. 무기 전환 시 선택 해제. 각 칸의 level/next/cost/tickets 데이터로 수치 갱신하며 현재 예시값은 모두 +0→+1/50G/1장으로 동일하다. 실제 강화 공식은 새로 확정하지 않았다. ?state=slot 은 선택 후, ?state=ink 는 교체 시안 바로 보기.
 
 선택 상태 로직 검사 통과: 최초 숨김, 선택 후 표시, 칸별 데이터 갱신, 무기 전환 시 해제.
+
+## 강화 상세 시안
+[강화 전](index.html?service=upgrade) · [강화 후](index.html?service=done) · [골드 부족](index.html?service=poor) · [최대 +5](index.html?service=max)
+
+검토 원본: 팀 저장소 docs/design/systems/ink-blueprint-proposal.md, content-costs.md, weapon-growth-mvp-tuning.md (로컬 checkout, 원격 최신 여부 별도 확인 안 함). 최대 +5, 단계는 칸에 귀속. 비용은 런 전체 구매 횟수 기준 50+25n 시험값. 덧칠 20%와 공격 배율 1+0.15×레벨은 채택된 테스트 기준이며 최종 밸런스 아님. 다른 잉크에는 이 공식을 임의 적용하지 않음.
+
+F/버튼으로 시안 메모리 안에서 골드와 레벨 갱신, 부족/최대에서는 실행 방지. 새로고침 시 초기화. Unity 미적용.
+
+색 변경 후속: 개편 문서에는 런당 2회/100G 시험값과 별도 무료 변경권이 존재. 현 시안의 변경권 전용 표시는 미완성. 랜덤/직접 지정 방식 및 무색 전환 범위, 가방 만료 처리 확인 필요. 기존 palette-composition-rules의 교체 소멸 문구는 ink-blueprint-proposal의 무료 교체/반환과 충돌하므로 채택하지 않음.
