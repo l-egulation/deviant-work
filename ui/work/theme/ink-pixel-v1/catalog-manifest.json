@@ -292,5 +292,40 @@
     "combat-hud-v2",
     "boss",
     "state=boss"
+  ],
+  [
+    "설정",
+    "소리 설정",
+    "settings-v1",
+    "sound",
+    "tab=sound"
+  ],
+  [
+    "설정",
+    "화면 설정",
+    "settings-v1",
+    "display",
+    "tab=display&state=changed"
+  ],
+  [
+    "설정",
+    "조작 설정 · 전투",
+    "settings-v1",
+    "controls",
+    "tab=controls"
+  ],
+  [
+    "설정",
+    "조작키 변경",
+    "settings-v1",
+    "rebind",
+    "tab=controls&state=rebind"
+  ],
+  [
+    "설정",
+    "화면 적용 확인",
+    "settings-v1",
+    "confirm",
+    "tab=display&state=confirm"
   ]
 ]
