@@ -4,6 +4,8 @@
 const q=new URLSearchParams(location.search),extended=q.get('slots')==='5',unlocked=extended||q.get('reroll')==='1';let phase=q.get('view')||'choose',step=q.get('step')==='2'?1:0,selection=[0,2],hover=0,weapon=0,zone=0,actionIndex=0,saved=false,remaining=unlocked?2:0,prompt=false;
 let palettes=extended?[['neutral','red','yellow','blue','purple'],['neutral','green','blue','red','yellow'],['neutral','purple','red','green','blue']]:[['red','yellow','blue'],['green','blue','purple'],['purple','red','green']];
 if(q.get('restart')==='1'){const pool=['red','yellow','green','blue','purple'];palettes=palettes.map(row=>row.map(c=>c==='neutral'?c:pool[Math.floor(Math.random()*pool.length)]));phase='choose';step=0;hover=0;saved=false;}
+if(q.has('remaining')&&unlocked)remaining=Math.max(0,Math.min(2,Number(q.get('remaining'))||0));
+if(step===1)hover=selection[1];
 const weapons=[{name:'기본검',file:'base_sword',desc:'전방의 적을 베는 근접 무기입니다.',basic:'베기',skill:'강베기'},{name:'기본 둔기',file:'hammer',desc:'묵직한 타격으로 가까운 적을 공격하는 근접 무기입니다.',basic:'내려치기',skill:'기본 특수 공격'},{name:'발사기',file:'launcher',desc:'직선으로 볼 탄환을 쏘는 원거리 무기입니다.',basic:'볼 탄환',skill:'모아쏘기'}],names={neutral:'무색',red:'빨강',yellow:'노랑',green:'초록',blue:'파랑',purple:'보라'};const A='../screen-set-v6/assets/';
 const icon=w=>`<img src="${A}weapon-${weapons[w].file}.png" alt="${weapons[w].name}">`;const key=k=>`<kbd>${k}</kbd>`;
 function slots(i){return `<div class="palette">${palettes[selection[i]].map(c=>`<figure><img src="${A}empty-${c}.png" alt="${names[c]} 빈 칸"><figcaption>${names[c]}</figcaption></figure>`).join('')}</div>`}
