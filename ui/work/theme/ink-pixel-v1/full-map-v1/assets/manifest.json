@@ -1,0 +1,47 @@
+[
+  {
+    "file": "boss.png",
+    "size": [
+      1261,
+      1247
+    ],
+    "sha256": "626678126340c073fea76d97a2969e9fafc354c29de682b099e0588a6eda4785",
+    "alpha": true
+  },
+  {
+    "file": "unknown.png",
+    "size": [
+      1261,
+      1247
+    ],
+    "sha256": "5becb1bad684be60bb4105664345fb63d2a9faad9c52d1fcfb72d49b153827ec",
+    "alpha": true
+  },
+  {
+    "file": "workshop.png",
+    "size": [
+      1263,
+      1246
+    ],
+    "sha256": "fd4e92820ccab98e7db41709edb2a9c727147f62a49f4654d4547699f721d5e4",
+    "alpha": true
+  },
+  {
+    "file": "portal.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "5870472cd6f28bb94b7b8bb3aa2d10460ab1a8d08e3a2e6664dfc63ccf5b6b23",
+    "alpha": true
+  },
+  {
+    "file": "player.png",
+    "size": [
+      1293,
+      1216
+    ],
+    "sha256": "c13e00553dc3c2587184994da2b32f289687598fb5f22a8c4d8d0208eb29344f",
+    "alpha": true
+  }
+]

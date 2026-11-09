@@ -9,3 +9,16 @@ body{color:var(--paper)}
 kbd{font-size:22px}
 
 .line strong,.price{font-size:30px}
+
+/* Text roles: ivory information / gray secondary / blue action / gold balance / salmon blocking. */
+.title,.candidateDetail h2,.current h2,.hero h2,.next h2,.weaponInfo .infoHeading,.slot.focus span{color:var(--paper)!important}
+.equipAction{display:flex;align-items:center;gap:42px;flex-wrap:wrap}
+.equipAction button{flex:none;white-space:nowrap;color:var(--action)}
+.equipAction .equipStatus{color:var(--paper);font-size:24px;margin:0;line-height:1.5}
+.item.selected:after,.candidateRow .item.selected:after{display:none!important}
+.growthValue strong,.product.active .price,.cost,.price,.message,.notice{color:var(--paper)}
+.error,.action:disabled{color:var(--error)!important}
+.taskDecision button:not(:disabled),.upgradeButton:not(:disabled){color:var(--action)}
+.warning{color:var(--paper)!important}
+.upgradeStatus{color:var(--paper)}
+.candidateRow .mark:after,.recolorInks .mark:after{display:none!important}

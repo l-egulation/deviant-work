@@ -1,3 +1,7 @@
+## 지도 아이콘 에셋 적용
+
+assets/의 투명 PNG 5종을 실제 지도 및 범례에 사용. portal.png는 공용 바탕, 번호/구분색은 동적 UI. 기존 임시 마름모·모루 도형·보스 점·물음표 글자를 대체했다. 생성 원본 및 프롬프트: [assets/README.md](assets/README.md).
+
 # 전체 지도 테마 시안
 
 [index.html](index.html) · [1920 시안](previews/map.png) · [960 시안](previews/map-960.png)

@@ -2,6 +2,10 @@
 
 2026-11-09 · 21개 화면/상태 · Unity 미적용
 
+[글자색 규칙·에셋 점검](2026-11-09-color-and-asset-audit.md)
+
+![지도 아이콘 세트](../theme/ink-pixel-v1/full-map-v1/previews/assets.png)
+
 [수정 사항·검토 항목](2026-11-09-theme-consistency-and-map.md)
 
 ![대표 12개 화면 비교](../theme/ink-pixel-v1/catalog-contact.png)
