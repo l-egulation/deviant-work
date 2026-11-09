@@ -14,3 +14,4 @@ selected=0;document.querySelectorAll('.choice').forEach((b,i)=>{b.onmouseenter=(
 function select(i){let buttons=[...document.querySelectorAll('.choice')];selected=(i+buttons.length)%buttons.length;buttons.forEach((b,n)=>{b.classList.toggle('selected',n===selected);b.setAttribute('aria-current',n===selected?'true':'false')})}
 document.addEventListener('keydown',e=>{if(e.repeat)return;if(['ArrowDown','ArrowRight','ArrowUp','ArrowLeft'].includes(e.key)){e.preventDefault();select(selected+(['ArrowDown','ArrowRight'].includes(e.key)?1:-1))}if(e.key.toLowerCase()==='f'||e.key==='Enter')document.querySelectorAll('.choice')[selected]?.click();if(e.key==='Escape'){view=view==='pause'?'resume':'pause';render()}});function fit(){document.querySelector('.screen').style.transform=`scale(${Math.min(innerWidth/1920,innerHeight/1080)})`}onresize=fit;render();fit();
 </script></html>
+<script src="../review-font.js"></script>

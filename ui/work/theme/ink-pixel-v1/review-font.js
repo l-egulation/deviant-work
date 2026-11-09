@@ -1,0 +1,9 @@
+/* Local font support: no font redistribution. */
+(()=>{const script=document.currentScript;const url=new URL('assembly-v1/fonts/MemomentKkukkukk.ttf',script.src).href;
+async function apply(data){await Promise.all(['Kkuk','m'].map(async name=>{let f=new FontFace(name,data);await f.load();document.fonts.add(f)}));window.deviantFontData=data;window.dispatchEvent(new Event('deviant-font-ready'))}
+window.applyDeviantFont=apply;
+window.addEventListener('message',async e=>{if(e.source!==parent||e.data?.type!=='deviant-font')return;try{await apply(e.data.font);document.querySelector('#fontNotice')?.remove()}catch{}});
+window.addEventListener('keydown',e=>{if(e.key==='Escape'&&e.shiftKey&&parent!==window)parent.postMessage({type:'deviant-close'},'*')});
+window.pickDeviantFont=()=>{let input=document.createElement('input');input.type='file';input.accept='.ttf,.otf';input.onchange=async()=>{try{await apply(await input.files[0].arrayBuffer());document.querySelector('#fontNotice')?.remove()}catch(e){alert('폰트를 읽지 못했습니다. TTF 또는 OTF 파일을 선택해 주세요.')}};input.click()};
+(async()=>{for(const source of ['local("MemomentKkukkukk"), local("메모먼트 꾹꾹체")','url("'+url+'")']){try{await apply(source);return}catch{}}
+let bar=document.createElement('aside');bar.id='fontNotice';bar.style.cssText='position:fixed;z-index:99999;bottom:12px;right:12px;background:#181b20;color:#eee9df;padding:12px 16px;border:1px solid #8295a2;font:14px/1.5 sans-serif;max-width:360px';bar.innerHTML='꾹꾹체가 없습니다. <button type="button" style="font:inherit;color:#c8e4ed;background:#303b44;border:1px solid #8295a2;padding:5px 10px;cursor:pointer">내 폰트 불러오기</button> <a href="https://www.memoment.kr/font" target="_blank" rel="noopener" style="color:#c8e4ed">공식 다운로드</a>';bar.querySelector('button').onclick=window.pickDeviantFont;document.body.append(bar)})();})();
