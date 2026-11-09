@@ -309,10 +309,24 @@
   ],
   [
     "설정",
-    "조작 설정 · 전투",
+    "조작 설정 · 이동 / 스크롤 상단",
     "settings-v1",
     "controls",
     "tab=controls"
+  ],
+  [
+    "설정",
+    "조작 설정 · 전투 / 스크롤 중간",
+    "settings-v1",
+    "controls-combat",
+    "tab=controls&scroll=combat"
+  ],
+  [
+    "설정",
+    "조작 설정 · 탐험 / 스크롤 하단",
+    "settings-v1",
+    "controls-explore",
+    "tab=controls&scroll=bottom"
   ],
   [
     "설정",
