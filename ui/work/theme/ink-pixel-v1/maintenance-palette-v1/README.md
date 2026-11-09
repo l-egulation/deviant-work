@@ -1,3 +1,12 @@
+# 팔레트 작업 선택 통합 시안 — 현행
+
+[index.html](index.html)에서 칸 선택 → 왼쪽 작업 선택 → 오른쪽 상세/실행.
+바로 보기: [?task=upgrade](index.html?task=upgrade), [?task=color](index.html?task=color), [?task=ink](index.html?task=ink). 현행 이미지: previews/unified-*.png. 기존 color-change.html 및 나머지 이미지들은 이전 비교용이다.
+
+좌측 아래 3개 작업을 항상 같은 위치에 유지하고 선택된 항목만 강조한다. ↑↓ 작업 선택, ←→ 칸/후보, Tab 무기, Esc 상위 단계. 재화 선택은 클릭으로 제공하며 키보드 전용 탐색은 후속 구현 대상.
+
+강화는 시안 메모리 내 단계/골드만 갱신한다. 잉크 및 색 변경은 결과 안내만 보여주며 실제 슬롯/가방/재화를 바꾸지 않는다. 새로고침하면 초기화. Unity 미적용. 직접 색 선택은 검토안, 비용·횟수는 문서의 시험값. 3칸/5칸은 ?slots=5로 비교 가능. 과거 상태별 URL은 통합판에서 대체됨.
+
 # 정비소 팔레트 관리 v1
 
 [칸 선택](index.html) · [잉크 선택](index.html?state=ink)
