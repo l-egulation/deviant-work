@@ -243,5 +243,26 @@
     "pause-menu-v1",
     "restart",
     "context=village&view=restart"
+  ],
+  [
+    "도전 결과",
+    "일반 사망",
+    "run-result-v1",
+    "death",
+    "kind=death"
+  ],
+  [
+    "도전 결과",
+    "보스전 사망",
+    "run-result-v1",
+    "boss",
+    "kind=boss"
+  ],
+  [
+    "도전 결과",
+    "첫 챕터 클리어",
+    "run-result-v1",
+    "clear",
+    "kind=clear"
   ]
 ]
