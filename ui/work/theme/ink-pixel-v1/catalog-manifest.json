@@ -1,0 +1,149 @@
+[
+  [
+    "가방·장비",
+    "가방",
+    "screen-set-v6",
+    "bag",
+    "view=bag"
+  ],
+  [
+    "가방·장비",
+    "장비 · 무기와 스킬",
+    "screen-set-v6",
+    "equipment",
+    "view=equipment"
+  ],
+  [
+    "가방·장비",
+    "장비 · 발사기",
+    "screen-set-v6",
+    "equipment-launcher",
+    "view=equipment&weapon=1"
+  ],
+  [
+    "가방·장비",
+    "장비 · 스탬프 없음",
+    "screen-set-v6",
+    "equipment-empty-stamps",
+    "view=equipment&stamps=empty"
+  ],
+  [
+    "가방·장비",
+    "장비 · 잉크 교체",
+    "screen-set-v6",
+    "equipment-palette",
+    "view=equipment&slot=0"
+  ],
+  [
+    "가방·장비",
+    "장비 · 무색 칸",
+    "screen-set-v6",
+    "equipment-neutral",
+    "view=equipment&slot=4"
+  ],
+  [
+    "가방·장비",
+    "장비 · 교체 후 상태",
+    "screen-set-v6",
+    "equipment-replaced",
+    "view=equipment&slot=0&result=done"
+  ],
+  [
+    "가방·장비",
+    "가방 · 빈 카테고리",
+    "screen-set-v6",
+    "bag-empty",
+    "view=bag&category=2"
+  ],
+  [
+    "정비소",
+    "성장",
+    "maintenance-growth-v2",
+    "growth",
+    ""
+  ],
+  [
+    "정비소",
+    "팔레트 · 칸 강화",
+    "maintenance-palette-v1",
+    "unified-upgrade",
+    "task=upgrade"
+  ],
+  [
+    "정비소",
+    "팔레트 · 무작위 색 변경",
+    "maintenance-palette-v1",
+    "unified-color",
+    "task=color"
+  ],
+  [
+    "정비소",
+    "팔레트 · 반환 공간 부족",
+    "maintenance-palette-v1",
+    "random-color-full",
+    "task=color&case=full"
+  ],
+  [
+    "정비소",
+    "무기 스탬프",
+    "maintenance-stamp-v1",
+    "weapon",
+    ""
+  ],
+  [
+    "정비소",
+    "스킬 스탬프 · 후속타",
+    "maintenance-stamp-v1",
+    "skill-followup",
+    "kind=skill&pick=2"
+  ],
+  [
+    "정비소",
+    "스탬프 · 첫 장착",
+    "maintenance-stamp-v1",
+    "empty",
+    "case=empty"
+  ],
+  [
+    "정비소",
+    "스탬프 · 골드 부족",
+    "maintenance-stamp-v1",
+    "poor",
+    "case=poor"
+  ],
+  [
+    "판매대",
+    "잉크 판매대",
+    "ink-shop-v1",
+    "shop",
+    ""
+  ],
+  [
+    "판매대",
+    "판매대 · 구매 후",
+    "ink-shop-v1",
+    "purchased",
+    "case=bought"
+  ],
+  [
+    "판매대",
+    "판매대 · 가방 가득 참",
+    "ink-shop-v1",
+    "full",
+    "case=full"
+  ],
+  [
+    "판매대",
+    "판매대 · 골드 부족",
+    "ink-shop-v1",
+    "poor",
+    "case=poor"
+  ],
+  [
+    "지도",
+    "전체 지도 · 새 시안",
+    "full-map-v1",
+    "map",
+    ""
+  ]
+]

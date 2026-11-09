@@ -1,0 +1,11 @@
+/* Shared review baseline. No Unity changes. */
+:root{--paper:#eee9df;--muted:#b3bbc4;--action:#b5d8e4;--gold:#e0cc83;--error:#e3b59f}
+body{color:var(--paper)}
+.world{background-image:linear-gradient(#24262bf0,#24262bea),url(screen-set-v6/assets/village.jpg)!important}
+.label{color:#c5cbd1!important;font-size:26px!important}
+.muted,.hint{color:var(--muted)}
+#money{color:var(--gold);font-size:33px}
+.cost{font-size:30px}
+kbd{font-size:22px}
+
+.line strong,.price{font-size:30px}
