@@ -201,5 +201,40 @@
     "pause-menu-v1",
     "confirm",
     "view=confirm"
+  ],
+  [
+    "출발 준비",
+    "출발 · 첫 도면 선택",
+    "departure-v1",
+    "choose",
+    ""
+  ],
+  [
+    "출발 준비",
+    "출발 · 두 번째 도면 선택",
+    "departure-v1",
+    "second",
+    "step=2"
+  ],
+  [
+    "출발 준비",
+    "시작 팔레트 · 기본 3칸",
+    "departure-v1",
+    "palette-three",
+    "view=palette"
+  ],
+  [
+    "출발 준비",
+    "시작 팔레트 · 5칸 / 무색 / 다시 뽑기",
+    "departure-v1",
+    "palette-five",
+    "view=palette&slots=5"
+  ],
+  [
+    "출발 준비",
+    "출발 준비 저장",
+    "departure-v1",
+    "ready",
+    "view=ready"
   ]
 ]
