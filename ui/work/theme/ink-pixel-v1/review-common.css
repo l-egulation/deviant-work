@@ -22,3 +22,16 @@ kbd{font-size:22px}
 .warning{color:var(--paper)!important}
 .upgradeStatus{color:var(--paper)}
 .candidateRow .mark:after,.recolorInks .mark:after{display:none!important}
+
+/* Current UI action strip: divider, action left, white explanation right. */
+.actionRow,.taskDecision,.equipAction{display:flex;align-items:center;gap:36px;border-top:1px solid #a8afb640!important;padding-top:24px!important;margin-top:28px;flex-wrap:nowrap}
+.actionRow>.action,.taskDecision>button,.equipAction>button{margin:0;flex:none;white-space:nowrap;color:var(--action)!important}
+.actionHelp,.actionRow>.warning,.decisionNote,.equipStatus{margin:0!important;font-size:24px!important;line-height:1.5;color:var(--paper)!important;min-width:0}
+.actionRow button:disabled,.taskDecision button:disabled,.equipAction button:disabled{color:var(--error)!important}
+.footer,.foot{border-top:1px solid #a8afb640;padding-top:22px}
+.footerGuide{font-size:24px;color:var(--paper);margin-left:20px}
+.tabs{gap:30px!important;flex-wrap:wrap;height:auto!important;min-height:90px;align-content:start;row-gap:22px!important}
+.tabs button{white-space:nowrap;font-size:23px}.tabs button.active{transform:scale(1.1)!important;transform-origin:left center}
+.candidate.selected small,.skill,.serviceGain,.taskMeta,.paymentTitle,.level,.recolorDescription h3{color:var(--paper)!important}
+.preview,.hint,.muted,.bagcount,.costLabel,.payment small,.growthValue small{color:var(--muted)!important}
+.action,.upgradeButton{color:var(--action)}
