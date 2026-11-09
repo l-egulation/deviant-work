@@ -362,5 +362,19 @@
     "seal-reward-v1",
     "choice-2",
     "pick=2"
+  ],
+  [
+    "보스 잉크 제단",
+    "제단 · 색상 선택",
+    "boss-altar-v1",
+    "colors",
+    ""
+  ],
+  [
+    "보스 잉크 제단",
+    "제단 · 잉크 후보 비교",
+    "boss-altar-v1",
+    "inks",
+    "color=red"
   ]
 ]
