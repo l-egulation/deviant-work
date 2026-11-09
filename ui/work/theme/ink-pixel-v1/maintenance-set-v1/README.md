@@ -22,3 +22,6 @@ Figma 128:75, 128:321을 읽고 작성. 팀 temporary-gui.md의 슬롯 강화 �
 
 ## 단일 획득 결과 레이아웃
 챕터 표시 제거. 결과는 중앙 1040px 묶음, 이미지 열 280px / 간격 72px / 설명 열 688px. 하단 완료 안내와 확인은 묶음 전체에 걸친 별도 행. 여러 선택지를 비교하는 성장 화면의 넓은 2열 배치와 단일 결과 화면의 목적을 구분했다. 기존 픽셀 에셋 및 글자 크기는 유지. 스킬 검토: ui-ux-pro-max의 visual-hierarchy, container-width, spacing-scale, Success Feedback을 참고했으며 구체적인 폭·배치는 이 게임 화면에 맞춘 설계 판단이다.
+
+## 왼쪽 정렬 비교안
+`index.html?view=result&align=left`에서 확인. 기존 중앙 정렬은 `?view=result`로 유지. 상단 탭은 동일하며 결과 묶음만 main 왼쪽 기준선에 정렬. 병도 열의 왼쪽에 정렬. 크기와 정보 구성은 유지했다. 미리보기: previews/result-left.png.
