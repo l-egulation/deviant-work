@@ -218,10 +218,10 @@
   ],
   [
     "출발 준비",
-    "시작 팔레트 · 기본 3칸",
+    "준비 저장 · 다시 뽑기 없음",
     "departure-v1",
     "palette-three",
-    "view=palette"
+    "view=ready"
   ],
   [
     "출발 준비",
