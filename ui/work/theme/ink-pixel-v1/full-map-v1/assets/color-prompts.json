@@ -1,0 +1,37 @@
+[
+  {
+    "name": "workshop-yellow",
+    "source": "exec-5591eddd-0d96-4c94-84c4-7338325168fb.png",
+    "prompt": "Edit this exact pixel icon, preserve silhouette, proportions, pixel steps, hammer and anvil shapes and transparent background. Recolor ivory main surfaces to warm readable YELLOW #E4BE55, shadow ochre #AA802F, small highlight pale yellow #F4DB84. Keep graphite outer outline and gray hammer handle. No metallic shine, no glow, no new details. Same image geometry."
+  },
+  {
+    "name": "boss-crimson",
+    "source": "exec-9ec81bf8-2bd3-4ec3-9995-bc2e21294913.png",
+    "prompt": "Edit this exact pixel skull icon, preserve outline silhouette, two horns, eye sockets and pixel steps. Recolor ivory skull to DARK CRIMSON #A5414B, darkest red shadows #60252F, restrained muted brighter red highlights #CB6668 so visible on graphite background. Horns wine red. Keep dark charcoal outline and empty black eyes. Not white or pink skull. Transparent background, unchanged silhouette, no glow or additional detail."
+  },
+  {
+    "name": "portal-1",
+    "source": "exec-0c1c6a52-e4c6-47e6-a489-225d3f0cea73.png",
+    "prompt": "Edit this exact pixel portal icon preserving oval silhouette and coarse blocky stepped edges. Recolor ring SKY BLUE #76C6EE with restrained pale sky highlights #B1E3F8 and dark slate blue outer outline #243949. FILL the entire previously transparent central hole with SOLID dark blue #285477, opaque, so it is a filled portal badge. Place one large bold simple block pixel numeral \"1\" exactly centered in the filled area, pale ivory #F5F0DC, very clear at small size. Numeral takes 55 percent of interior height. Only the space outside the oval is fully transparent. No glow, no extra ornament, no shading gradients, no added symbols. Keep framing identical to reference; color and filled center and numeral are the only changes. This is variant 1 in a matching set 1 to 5."
+  },
+  {
+    "name": "portal-2",
+    "source": "exec-cddde228-0a43-497e-81c9-dfad1b25e08c.png",
+    "prompt": "Edit this exact pixel portal icon preserving oval silhouette and coarse blocky stepped edges. Recolor ring SKY BLUE #76C6EE with restrained pale sky highlights #B1E3F8 and dark slate blue outer outline #243949. FILL the entire previously transparent central hole with SOLID dark blue #285477, opaque, so it is a filled portal badge. Place one large bold simple block pixel numeral \"2\" exactly centered in the filled area, pale ivory #F5F0DC, very clear at small size. Numeral takes 55 percent of interior height. Only the space outside the oval is fully transparent. No glow, no extra ornament, no shading gradients, no added symbols. Keep framing identical to reference; color and filled center and numeral are the only changes. This is variant 2 in a matching set 1 to 5."
+  },
+  {
+    "name": "portal-3",
+    "source": "exec-15ca21f2-817d-489a-bfe0-c5f728fc6a5d.png",
+    "prompt": "Edit this exact pixel portal icon preserving oval silhouette and coarse blocky stepped edges. Recolor ring SKY BLUE #76C6EE with restrained pale sky highlights #B1E3F8 and dark slate blue outer outline #243949. FILL the entire previously transparent central hole with SOLID dark blue #285477, opaque, so it is a filled portal badge. Place one large bold simple block pixel numeral \"3\" exactly centered in the filled area, pale ivory #F5F0DC, very clear at small size. Numeral takes 55 percent of interior height. Only the space outside the oval is fully transparent. No glow, no extra ornament, no shading gradients, no added symbols. Keep framing identical to reference; color and filled center and numeral are the only changes. This is variant 3 in a matching set 1 to 5."
+  },
+  {
+    "name": "portal-4",
+    "source": "exec-31d760d4-126a-4fdd-9cd5-b313bceed6b4.png",
+    "prompt": "Edit this exact pixel portal icon preserving oval silhouette and coarse blocky stepped edges. Recolor ring SKY BLUE #76C6EE with restrained pale sky highlights #B1E3F8 and dark slate blue outer outline #243949. FILL the entire previously transparent central hole with SOLID dark blue #285477, opaque, so it is a filled portal badge. Place one large bold simple block pixel numeral \"4\" exactly centered in the filled area, pale ivory #F5F0DC, very clear at small size. Numeral takes 55 percent of interior height. Only the space outside the oval is fully transparent. No glow, no extra ornament, no shading gradients, no added symbols. Keep framing identical to reference; color and filled center and numeral are the only changes. This is variant 4 in a matching set 1 to 5."
+  },
+  {
+    "name": "portal-5",
+    "source": "exec-1473e5a1-4942-4a3d-9ff9-3168328b7217.png",
+    "prompt": "Edit this exact pixel portal icon preserving oval silhouette and coarse blocky stepped edges. Recolor ring SKY BLUE #76C6EE with restrained pale sky highlights #B1E3F8 and dark slate blue outer outline #243949. FILL the entire previously transparent central hole with SOLID dark blue #285477, opaque, so it is a filled portal badge. Place one large bold simple block pixel numeral \"5\" exactly centered in the filled area, pale ivory #F5F0DC, very clear at small size. Numeral takes 55 percent of interior height. Only the space outside the oval is fully transparent. No glow, no extra ornament, no shading gradients, no added symbols. Keep framing identical to reference; color and filled center and numeral are the only changes. This is variant 5 in a matching set 1 to 5."
+  }
+]

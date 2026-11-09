@@ -1,5 +1,14 @@
 [
   {
+    "file": "boss-crimson.png",
+    "size": [
+      1267,
+      1241
+    ],
+    "sha256": "0e102a463f60d20b18aaff7e9be06c5a77d2bfa7761d524383f5500a2202befe",
+    "alpha": true
+  },
+  {
     "file": "boss.png",
     "size": [
       1261,
@@ -9,21 +18,57 @@
     "alpha": true
   },
   {
-    "file": "unknown.png",
+    "file": "player.png",
     "size": [
-      1261,
-      1247
+      1293,
+      1216
     ],
-    "sha256": "5becb1bad684be60bb4105664345fb63d2a9faad9c52d1fcfb72d49b153827ec",
+    "sha256": "c13e00553dc3c2587184994da2b32f289687598fb5f22a8c4d8d0208eb29344f",
     "alpha": true
   },
   {
-    "file": "workshop.png",
+    "file": "portal-1.png",
     "size": [
-      1263,
-      1246
+      1254,
+      1254
     ],
-    "sha256": "fd4e92820ccab98e7db41709edb2a9c727147f62a49f4654d4547699f721d5e4",
+    "sha256": "e347c50ab6fdbab9adfdcfa7a2165cf5c3f54c72398e5acd714f323fad885923",
+    "alpha": true
+  },
+  {
+    "file": "portal-2.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "631ed36d9dcf7521c5a981979b503c2d9de28a13b5d0d149ee92b55e4ff81844",
+    "alpha": true
+  },
+  {
+    "file": "portal-3.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "a397bec1e749cfc30cabe549dcfd3007b5d6ffde8c78cf5463f8d0dc4d9af959",
+    "alpha": true
+  },
+  {
+    "file": "portal-4.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "5381b07104ef5887e5d93a5153bda32c40586b3a26d017c5b4bf46814a9b8685",
+    "alpha": true
+  },
+  {
+    "file": "portal-5.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "e0f6a937b083d2e63a731052573324ca7dafae74579f00551f5e08201b5c0c64",
     "alpha": true
   },
   {
@@ -36,12 +81,30 @@
     "alpha": true
   },
   {
-    "file": "player.png",
+    "file": "unknown.png",
     "size": [
-      1293,
-      1216
+      1261,
+      1247
     ],
-    "sha256": "c13e00553dc3c2587184994da2b32f289687598fb5f22a8c4d8d0208eb29344f",
+    "sha256": "5becb1bad684be60bb4105664345fb63d2a9faad9c52d1fcfb72d49b153827ec",
+    "alpha": true
+  },
+  {
+    "file": "workshop-yellow.png",
+    "size": [
+      1263,
+      1246
+    ],
+    "sha256": "0c2b1fc23a709cab728561e66c6408e66834bd194569191c97e5d977808ea7f8",
+    "alpha": true
+  },
+  {
+    "file": "workshop.png",
+    "size": [
+      1263,
+      1246
+    ],
+    "sha256": "fd4e92820ccab98e7db41709edb2a9c727147f62a49f4654d4547699f721d5e4",
     "alpha": true
   }
 ]
