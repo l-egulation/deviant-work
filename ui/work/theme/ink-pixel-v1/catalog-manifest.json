@@ -22,6 +22,13 @@
   ],
   [
     "가방·장비",
+    "장비 · 2단계 팔레트 선택",
+    "screen-set-v6",
+    "equipment-slot-stage",
+    "view=equipment&stage=palette"
+  ],
+  [
+    "가방·장비",
     "장비 · 발사기",
     "screen-set-v6",
     "equipment-launcher",

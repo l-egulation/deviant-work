@@ -88,3 +88,5 @@ document.addEventListener('keydown',e=>{if(view!=='equipment'||e.repeat)return;i
 function movePage(delta){page+=delta;let c=slotColors[slot];let a=candidatesForSlot();page=Math.max(0,Math.min(page,Math.max(0,Math.ceil(a.length/4)-1)));selected=a[page*4]?.index??selected;render()}bag.onclick=()=>{view='bag';render()};equip.onclick=()=>{view='equipment';selected=1;stamp='weapon';render()};function fit(){document.querySelector('.screen').style.transform=`scale(${Math.min(innerWidth/1920,innerHeight/1080)})`}onresize=fit;fit();render();if(new URLSearchParams(location.search).get('result')==='done')applyInk();
 if(new URLSearchParams(location.search).get('scroll')==='bottom')document.querySelector('.grid')?.scrollTo(0,9999);</script></html><script src="../review-font.js"></script>
 <link rel="stylesheet" href="../action-keycaps.css"><script src="../action-keycaps.js"></script>
+
+<link rel="stylesheet" href="equipment-flow.css"><script src="equipment-flow.js"></script>
