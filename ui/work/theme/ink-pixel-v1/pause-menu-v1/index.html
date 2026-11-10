@@ -15,3 +15,4 @@ function select(i){let buttons=[...document.querySelectorAll('.choice')];selecte
 document.addEventListener('keydown',e=>{if(e.repeat)return;if(['ArrowDown','ArrowRight','ArrowUp','ArrowLeft'].includes(e.key)){e.preventDefault();select(selected+(['ArrowDown','ArrowRight'].includes(e.key)?1:-1))}if(e.key.toLowerCase()==='f'||e.key==='Enter')document.querySelectorAll('.choice')[selected]?.click();if(e.key==='Escape'){view=view==='pause'?'resume':'pause';render()}});function fit(){document.querySelector('.screen').style.transform=`scale(${Math.min(innerWidth/1920,innerHeight/1080)})`}onresize=fit;render();fit();
 </script></html>
 <script src="../review-font.js"></script>
+<link rel="stylesheet" href="../action-keycaps.css"><script src="../action-keycaps.js"></script>

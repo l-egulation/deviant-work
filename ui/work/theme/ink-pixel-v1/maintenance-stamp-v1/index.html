@@ -12,3 +12,4 @@ detail.innerHTML=`<div class="current"><div class="label">현재 장착</div><h2
 function confirmPreview(){notice.textContent='적용 결과 확인용 시안입니다. 아이템과 재화는 변경되지 않습니다.'}document.addEventListener('keydown',e=>{if(e.key.toLowerCase()==='f'){const b=document.querySelector('.action');if(b&&!b.disabled)b.click()}});function fit(){document.querySelector('.screen').style.transform=`scale(${Math.min(innerWidth/1920,innerHeight/1080)})`}onresize=fit;fit();render();
 </script></html>
 <script src="../review-font.js"></script>
+<link rel="stylesheet" href="../action-keycaps.css"><script src="../action-keycaps.js"></script>
