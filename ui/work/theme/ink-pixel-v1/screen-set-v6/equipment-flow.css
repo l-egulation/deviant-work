@@ -15,3 +15,11 @@
 .screen[data-flow="ink"] .candidateDetail{padding-top:8px;padding-bottom:8px}
 .screen[data-flow="ink"] .equipAction{margin-top:18px;padding-top:14px}
 .screen[data-flow] .weaponInfo p{word-break:keep-all;overflow-wrap:anywhere;max-height:none;overflow:visible}
+/* Shared regions stay open, separated only through the central gutter. */
+.screen[data-flow]:not([data-flow=""]) .columns{position:relative}
+.screen[data-flow]:not([data-flow=""]) .columns:before{content:'';position:absolute;left:796px;top:0;bottom:0;width:1px;background:linear-gradient(transparent,#c4c6c74d 8%,#c4c6c74d 90%,transparent);pointer-events:none}
+.screen[data-flow] .flowAction{position:relative;isolation:isolate;background:none!important;color:#fff8eb!important;text-shadow:0 2px 2px #171a20;font-size:32px!important}
+.screen[data-flow] .flowAction:before{content:'';position:absolute;inset:0;z-index:-1;background:url('../maintenance-palette-v1/assets/selection-wash-v1.png') center/100% 100% no-repeat;opacity:.34;pointer-events:none}
+.screen[data-flow] .flowAction kbd{background:#292d32;color:#fff8eb;border-color:#e2ded4;text-shadow:none}
+.screen[data-flow="ink"] .columns>section:first-child .stamps{opacity:.65}
+.screen[data-flow="palette"] .current .label{color:#c7cbd0}
