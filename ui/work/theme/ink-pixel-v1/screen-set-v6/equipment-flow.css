@@ -1,5 +1,4 @@
-.flowSteps{display:flex;align-items:center;gap:30px;margin:0 0 32px;font-size:25px;color:#999da0}.flowSteps b{font-weight:400;color:#777}.flowSteps span{padding:8px 12px}.flowSteps [aria-current]{color:#f4efe5;background:url('../maintenance-palette-v1/assets/selection-wash-v1.png') center/100% 100% no-repeat;transform:scale(1.08)}
-.screen[data-flow]:not([data-flow=""]) .columns{margin-top:0}
+.screen[data-flow]:not([data-flow=""]) .columns{margin-top:56px}
 .screen[data-flow="weapon"] .slots{opacity:.45}
 .screen[data-flow="palette"] .weapons,.screen[data-flow="ink"] .weapons{opacity:.65}
 .screen[data-flow="ink"] .slots{opacity:.72}

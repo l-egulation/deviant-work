@@ -29,13 +29,17 @@ render=function(){
  document.querySelector('header aside').innerHTML=view==='equipment'?'일시정지':'일시정지 | <kbd>I / Esc</kbd>닫기';
  if(view!=='equipment')return;
  const columns=content.querySelector('.columns');
- const steps=document.createElement('div');steps.className='flowSteps';steps.setAttribute('aria-label','장비 선택 단계');
- steps.innerHTML=['무기 선택','팔레트 선택','잉크 선택'].map((x,i)=>`<span ${['weapon','palette','ink'][i]===equipmentStage?'aria-current="step"':''}>${i+1}　${x}</span>`).join('<b>→</b>');columns.before(steps);
  const weapons=content.querySelectorAll('.weapons button');
- weapons.forEach((b,i)=>{b.disabled=equipmentStage!=='weapon';b.onclick=()=>{weapon=i;render()};});
+ weapons.forEach((b,i)=>{b.disabled=false;b.onclick=()=>{weapon=i;equipmentStage='weapon';render()};});
  content.querySelectorAll('.slot').forEach((b,i)=>{b.disabled=equipmentStage!=='palette';b.onclick=()=>{slot=i;page=0;render()};});
  content.querySelector('.hint').textContent=equipmentStage==='weapon'?'선택한 무기의 팔레트로 이동합니다.':equipmentStage==='palette'?'바꿀 칸을 선택하세요.':'선택한 무기와 칸에 장착합니다.';
  const right=columns.children[1];
+ if(equipmentStage==='weapon'){
+  const headings=right.querySelectorAll('.infoHeading');
+  if(headings[0])headings[0].innerHTML='무기 스탬프 <span>'+(hasStamps&&weapon===0?'장착 중':'미장착 · 기본 무기')+'</span>';
+  if(headings[1])headings[1].innerHTML='스킬 스탬프 <span>'+(hasStamps&&weapon===0?'범위 · 장착 중':'미장착 · 기본 스킬')+'</span>';
+ }
+
  if(equipmentStage==='palette'){
   right.querySelectorAll('.transition,.candidateRow,.candidateDetail').forEach(x=>x.remove());
   [...right.children].filter(x=>x.classList.contains('label')).forEach(x=>x.remove());
@@ -47,7 +51,7 @@ render=function(){
  action.innerHTML=`<button class="flowAction" ${equipmentStage!=='weapon'&&!available?'disabled':''}><kbd>F</kbd>${label}</button>${equipmentStage==='ink'?'<span class="actionCost">무료</span><p class="equipStatus">'+(loadouts[weapon][slot]?'기존 잉크는 가방으로 반환':'선택한 잉크를 소모해 장착')+'</p>':''}`;
  action.querySelector('button').onclick=flowConfirm;
  content.querySelectorAll('.candidateRow .item').forEach(b=>{b.onclick=()=>{selected=data.findIndex(x=>x.name===b.getAttribute('aria-label'));render()};});
- footer.innerHTML=`<span>← → ${equipmentStage==='weapon'?'무기':equipmentStage==='palette'?'팔레트':'잉크'} 이동</span><span><kbd>Esc</kbd>${equipmentStage==='weapon'?'가방으로':'이전 단계'}</span>`;
+ footer.innerHTML=`<span>← → ${equipmentStage==='weapon'?'무기':equipmentStage==='palette'?'팔레트':'잉크'} 이동</span><span><kbd>Esc</kbd>${equipmentStage==='weapon'?'가방으로':equipmentStage==='palette'?'무기·스킬 설명으로':'팔레트 선택으로'}</span>`;
  const focus=equipmentStage==='weapon'?weapons[weapon]:equipmentStage==='palette'?content.querySelectorAll('.slot')[slot]:content.querySelector('.candidateRow .selected');
  focus?.focus({preventScroll:true});
 };
