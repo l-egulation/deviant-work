@@ -1,0 +1,13 @@
+.cols{position:relative}.cols:before{content:'';position:absolute;left:780px;top:0;bottom:0;width:1px;background:linear-gradient(transparent,#c4c6c74d 8%,#c4c6c74d 90%,transparent);pointer-events:none}
+body:not([data-region="weapon"]) .weapons{opacity:.6}
+body:not([data-region="slot"]) .slots{opacity:.6}
+body:not([data-region="task"]) .services{opacity:.55}
+body[data-region="weapon"] .services{visibility:hidden}
+body[data-region="task"] #detail>.upgradeCompare,body[data-region="task"] #detail>.colorCompare,body[data-region="task"] #detail>.afterState,body[data-region="task"] #detail>.candidateRow,body[data-region="task"] #detail>.payment{opacity:.55}
+body[data-region] button:focus{outline:none}
+body[data-region] .taskDecision{position:static!important;margin-top:32px!important;padding-top:22px!important;border-top:1px solid #a8afb640!important;display:flex;gap:24px;align-items:center;flex-wrap:wrap}
+body[data-region] .taskDecision button{position:relative;isolation:isolate;background:none!important;color:#fff8eb!important;text-shadow:0 2px 2px #171a20;padding:12px 20px!important;font-size:32px!important;border:0!important}
+body[data-region] .taskDecision button:before{content:'';position:absolute;inset:0;z-index:-1;background:url(assets/selection-wash-v1.png) center/100% 100% no-repeat;opacity:.34;pointer-events:none}
+.taskDecision button kbd{background:#292d32;color:#fff8eb;border-color:#e2ded4;text-shadow:none}
+.taskDecision button:disabled{opacity:.5}.taskDecision .decisionNote{margin:0;font-size:24px}
+body[data-region] .candidateRow .mark:after{display:none}

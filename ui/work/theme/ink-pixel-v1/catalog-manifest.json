@@ -390,5 +390,26 @@
     "departure-v1",
     "ready-confirm",
     "view=ready&action=confirm"
+  ],
+  [
+    "정비소",
+    "팔레트 · 무기 선택부터 조작",
+    "maintenance-palette-v1",
+    "flow-weapon",
+    ""
+  ],
+  [
+    "정비소",
+    "팔레트 · 칸 선택",
+    "maintenance-palette-v1",
+    "flow-slot",
+    "region=slot&state=slot"
+  ],
+  [
+    "정비소",
+    "팔레트 · 작업 선택",
+    "maintenance-palette-v1",
+    "flow-task",
+    "region=task&task=upgrade"
   ]
 ]

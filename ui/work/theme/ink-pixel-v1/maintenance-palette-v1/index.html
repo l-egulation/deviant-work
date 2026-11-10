@@ -185,3 +185,5 @@ function fit(){document.querySelector('.screen').style.transform=`scale(${Math.m
 const q=new URLSearchParams(location.search),view=q.get('task');if(q.get('payment')==='ticket')payment='ticket';if(view){slot=q.get('case')==='empty'?1:0;task=view;candidate=available()[0]?.index??-1;colorInk=colorCandidates()[0]?.index??-1;}else if(q.get('state')==='ink'){task='ink';candidate=1;}fit();render();
 </script></html><script src="../review-font.js"></script>
 <link rel="stylesheet" href="../action-keycaps.css"><script src="../action-keycaps.js"></script>
+
+<link rel="stylesheet" href="navigation.css"><script src="navigation.js"></script>
