@@ -376,5 +376,12 @@
     "boss-altar-v1",
     "inks",
     "color=red"
+  ],
+  [
+    "출발 준비",
+    "출발 준비 · 확정 버튼 선택",
+    "departure-v1",
+    "ready-confirm",
+    "view=ready&action=confirm"
   ]
 ]

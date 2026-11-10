@@ -1,0 +1,13 @@
+/* Pilot: permanent brush surface; one contextual F target. */
+.brushActions .hasActionKeycap{position:relative;isolation:isolate;display:inline-flex;align-items:center;justify-content:flex-start;padding:17px 25px!important;min-height:74px;outline:none!important;transform:none!important;transition:transform .12s,color .12s;color:#d2d6d8!important;z-index:0}
+.brushActions .hasActionKeycap:before{content:'';position:absolute;inset:-2px -9px;background:url('maintenance-palette-v1/assets/selection-wash-v1.png') center/100% 100% no-repeat;opacity:.2;z-index:-1;pointer-events:none}
+.brushActions .hasActionKeycap .actionKeycap{visibility:hidden;flex-shrink:0}
+.brushActions .hasActionKeycap.actionSelected{color:#fff8e9!important;transform:scale(1.06)!important;transform-origin:center}
+.brushActions .hasActionKeycap.actionSelected:before{opacity:.68}
+.brushActions .hasActionKeycap.actionSelected .actionKeycap{visibility:visible;color:#fff8e9}
+.brushActions .hasActionKeycap:disabled:before{opacity:.11}
+.brushActions .hasActionKeycap:disabled{color:#b3bbc4!important}
+.brushActions .hasActionKeycap:active:not(:disabled){transform:scale(.99)!important}
+.brushActions .saved .actionRow{gap:64px}
+.brushActions .actionRow{min-height:104px}
+@media(prefers-reduced-motion:reduce){.brushActions .hasActionKeycap{transition:none}}
