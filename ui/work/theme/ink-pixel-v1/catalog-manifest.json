@@ -1,5 +1,271 @@
 [
   [
+    "현행 v3",
+    "보상 기회 보관",
+    "sketch-v3",
+    "reward",
+    "state=reward"
+  ],
+  [
+    "현행 v3",
+    "스케치·잉크 혼합 3중 1택",
+    "sketch-v3",
+    "mixed",
+    "state=mixed"
+  ],
+  [
+    "현행 v3",
+    "스케치 3개 획득 후 잉크만 제시",
+    "sketch-v3",
+    "quota",
+    "state=quota"
+  ],
+  [
+    "현행 v3",
+    "일반 보상 6회 완료",
+    "sketch-v3",
+    "reward-done",
+    "state=reward-done"
+  ],
+  [
+    "현행 v3",
+    "보스 보상 시작",
+    "sketch-v3",
+    "boss",
+    "state=boss"
+  ],
+  [
+    "현행 v3",
+    "보스 잉크 선택",
+    "sketch-v3",
+    "boss-ink",
+    "state=boss-ink"
+  ],
+  [
+    "현행 v3",
+    "스케치 격자 목록",
+    "sketch-v3",
+    "bag",
+    "state=bag"
+  ],
+  [
+    "현행 v3",
+    "보유 잉크 · 스크롤",
+    "sketch-v3",
+    "bag-ink",
+    "state=bag-ink"
+  ],
+  [
+    "현행 v3",
+    "스케치 없음",
+    "sketch-v3",
+    "bag-empty",
+    "state=bag-empty"
+  ],
+  [
+    "현행 v3",
+    "스케치 선택",
+    "sketch-v3",
+    "craft",
+    "state=craft"
+  ],
+  [
+    "현행 v3",
+    "팔레트 5칸 · 직접 선택",
+    "sketch-v3",
+    "craft-five",
+    "state=craft-five"
+  ],
+  [
+    "현행 v3",
+    "다른 색 잉크 선택",
+    "sketch-v3",
+    "craft-ink",
+    "state=craft-ink"
+  ],
+  [
+    "현행 v3",
+    "5번째 칸 · 적용한 문양",
+    "sketch-v3",
+    "craft-filled",
+    "state=craft-filled"
+  ],
+  [
+    "현행 v3",
+    "제작 확정 · 여러 효과",
+    "sketch-v3",
+    "craft-confirm",
+    "state=craft-confirm"
+  ],
+  [
+    "현행 v3",
+    "제작 후 장착 또는 보관",
+    "sketch-v3",
+    "equip-new",
+    "state=equip-new"
+  ],
+  [
+    "현행 v3",
+    "장착 무기 · 복수 적용 효과",
+    "sketch-v3",
+    "equipment-effects",
+    "state=equipment-effects"
+  ],
+  [
+    "현행 v3",
+    "완성 무기의 빈 칸",
+    "sketch-v3",
+    "equipment-add",
+    "state=equipment-add"
+  ],
+  [
+    "현행 v3",
+    "무기 소진 후 빈 자리",
+    "sketch-v3",
+    "equipment-empty",
+    "state=equipment-empty"
+  ],
+  [
+    "현행 v3",
+    "스케치·잉크 구매",
+    "sketch-v3",
+    "shop",
+    "state=shop"
+  ],
+  [
+    "현행 v3",
+    "골드 부족",
+    "sketch-v3",
+    "shop-poor",
+    "state=shop-poor"
+  ],
+  [
+    "현행 v3",
+    "구매 완료 · 품절",
+    "sketch-v3",
+    "shop-sold",
+    "state=shop-sold"
+  ],
+  [
+    "현행 v3",
+    "안정 1개 · 도박 2개",
+    "sketch-v3",
+    "augment",
+    "state=augment"
+  ],
+  [
+    "현행 v3",
+    "무기 소진 · 보상 기회 알림 구조",
+    "sketch-v3",
+    "alerts",
+    "state=alerts"
+  ],
+  [
+    "현행 v3",
+    "포탈 설치·왕복 안내",
+    "sketch-v3",
+    "portal",
+    "state=portal"
+  ],
+  [
+    "현행 v3",
+    "회복 충전소 · 길게 누르기",
+    "sketch-v3",
+    "recovery",
+    "state=recovery"
+  ],
+  [
+    "현행 v3",
+    "충전소 · 골드 부족",
+    "sketch-v3",
+    "recovery-poor",
+    "state=recovery-poor"
+  ],
+  [
+    "현행 v3",
+    "충전소 · 체력 가득",
+    "sketch-v3",
+    "recovery-full",
+    "state=recovery-full"
+  ],
+  [
+    "현행 v3",
+    "충전소 · 소진",
+    "sketch-v3",
+    "recovery-empty",
+    "state=recovery-empty"
+  ],
+  [
+    "현행 v3",
+    "일반 사망 결과",
+    "sketch-v3",
+    "result",
+    "state=result"
+  ],
+  [
+    "현행 v3",
+    "영구 진행 초기화 확인",
+    "sketch-v3",
+    "reset-confirm",
+    "state=reset-confirm"
+  ],
+  [
+    "현행 v3",
+    "보스전 사망 결과",
+    "sketch-v3",
+    "result-boss",
+    "state=result-boss"
+  ],
+  [
+    "현행 v3",
+    "클리어 결과",
+    "sketch-v3",
+    "result-clear",
+    "state=result-clear"
+  ],
+  [
+    "현행 v3",
+    "복수 효과 · 아래로 스크롤",
+    "sketch-v3",
+    "equipment-scroll",
+    "state=equipment-scroll"
+  ],
+  [
+    "현행 v3",
+    "획득 후 보관·계속·제작",
+    "sketch-v3",
+    "reward-receipt",
+    "state=reward-receipt"
+  ],
+  [
+    "현행 v3",
+    "영구 성장",
+    "sketch-v3",
+    "permanent",
+    "state=permanent"
+  ],
+  [
+    "현행 v3",
+    "마법안료 부족",
+    "sketch-v3",
+    "permanent-poor",
+    "state=permanent-poor"
+  ],
+  [
+    "현행 v3",
+    "선행 조건 미충족",
+    "sketch-v3",
+    "permanent-locked",
+    "state=permanent-locked"
+  ],
+  [
+    "현행 v3",
+    "가격 미정 · 구매 제한",
+    "sketch-v3",
+    "permanent-unknown",
+    "state=permanent-unknown"
+  ],
+  [
     "스케치 개편 v2",
     "혼합 보상 · 기회 보관",
     "sketch-v2",
