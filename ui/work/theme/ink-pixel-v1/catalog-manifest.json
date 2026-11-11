@@ -1,5 +1,40 @@
 [
   [
+    "스케치 개편 v2",
+    "혼합 보상 · 기회 보관",
+    "sketch-v2",
+    "ready",
+    ""
+  ],
+  [
+    "스케치 개편 v2",
+    "혼합 3중1택",
+    "sketch-v2",
+    "mixed",
+    ""
+  ],
+  [
+    "스케치 개편 v2",
+    "가방 · 열람 전용",
+    "sketch-v2",
+    "bag-sketch",
+    "view=bag"
+  ],
+  [
+    "스케치 개편 v2",
+    "제작",
+    "sketch-v2",
+    "craft",
+    "view=craft"
+  ],
+  [
+    "스케치 개편 v2",
+    "장비 · 완성 무기",
+    "sketch-v2",
+    "equipment",
+    "view=equipment"
+  ],
+  [
     "스케치 개편",
     "스케치 · 3중 1택",
     "sketch-v1",
