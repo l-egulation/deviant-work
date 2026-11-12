@@ -703,5 +703,221 @@ const catalogItems=[
     "title": "무기 이름 변경 · 축소·테마 프레임",
     "img": "sketch-v3/previews/equipment-rename-dialog.png",
     "url": "sketch-v3/index.html?state=equipment-rename-dialog"
+  },
+  {
+    "group": "봉인 도전 · 월드",
+    "title": "봉인 도전 · 시작",
+    "img": "world-flows-v1/previews/seal.png",
+    "url": "world-flows-v1/index.html?state=seal"
+  },
+  {
+    "group": "봉인 도전 · 월드",
+    "title": "봉인 도전 · 진행",
+    "img": "world-flows-v1/previews/seal-progress.png",
+    "url": "world-flows-v1/index.html?state=seal-progress"
+  },
+  {
+    "group": "봉인 도전 · 월드",
+    "title": "봉인 도전 · 완료와 상자",
+    "img": "world-flows-v1/previews/seal-complete.png",
+    "url": "world-flows-v1/index.html?state=seal-complete"
+  },
+  {
+    "group": "이벤트 방 · 월드",
+    "title": "잉크 정령 구출",
+    "img": "world-flows-v1/previews/rescue.png",
+    "url": "world-flows-v1/index.html?state=rescue"
+  },
+  {
+    "group": "이벤트 방 · 월드",
+    "title": "정령 · 구속 장치 해제",
+    "img": "world-flows-v1/previews/rescue-progress.png",
+    "url": "world-flows-v1/index.html?state=rescue-progress"
+  },
+  {
+    "group": "이벤트 방 · 월드",
+    "title": "잉크 묘목 생존전",
+    "img": "world-flows-v1/previews/survival.png",
+    "url": "world-flows-v1/index.html?state=survival"
+  },
+  {
+    "group": "이벤트 방 · 월드",
+    "title": "묘목 · 남은 시간",
+    "img": "world-flows-v1/previews/survival-progress.png",
+    "url": "world-flows-v1/index.html?state=survival-progress"
+  },
+  {
+    "group": "이벤트 방 · 월드",
+    "title": "위험 상자방",
+    "img": "world-flows-v1/previews/danger.png",
+    "url": "world-flows-v1/index.html?state=danger"
+  },
+  {
+    "group": "이벤트 방 · 월드",
+    "title": "위험 상자 · 오답",
+    "img": "world-flows-v1/previews/danger-wrong.png",
+    "url": "world-flows-v1/index.html?state=danger-wrong"
+  },
+  {
+    "group": "이벤트 방 · 월드",
+    "title": "함정 수집방",
+    "img": "world-flows-v1/previews/collection.png",
+    "url": "world-flows-v1/index.html?state=collection"
+  },
+  {
+    "group": "이벤트 방 · 월드",
+    "title": "함정 · 수집과 재방문",
+    "img": "world-flows-v1/previews/collection-progress.png",
+    "url": "world-flows-v1/index.html?state=collection-progress"
+  },
+  {
+    "group": "이벤트 방 · 월드",
+    "title": "이벤트 · 완료 연출",
+    "img": "world-flows-v1/previews/event-complete.png",
+    "url": "world-flows-v1/index.html?state=event-complete"
+  },
+  {
+    "group": "보스 · 진입",
+    "title": "보스 · 등장 소개",
+    "img": "world-flows-v1/previews/boss-intro.png",
+    "url": "world-flows-v1/index.html?state=boss-intro"
+  },
+  {
+    "group": "보스 · 진입",
+    "title": "보스 · 소개 종료",
+    "img": "world-flows-v1/previews/boss-ready.png",
+    "url": "world-flows-v1/index.html?state=boss-ready"
+  },
+  {
+    "group": "보스 · 진입",
+    "title": "2챕터 보스 · 베르소와 렉토",
+    "img": "world-flows-v1/previews/boss-intro-two.png",
+    "url": "world-flows-v1/index.html?state=boss-intro-two"
+  },
+  {
+    "group": "탐험 · 알림",
+    "title": "보상 기회 · 획득",
+    "img": "world-flows-v1/previews/reward-alert.png",
+    "url": "world-flows-v1/index.html?state=reward-alert"
+  },
+  {
+    "group": "탐험 · 알림",
+    "title": "무기 소진 · 장착 자리",
+    "img": "world-flows-v1/previews/weapon-alert.png",
+    "url": "world-flows-v1/index.html?state=weapon-alert"
+  },
+  {
+    "group": "탐험 · 알림",
+    "title": "무기 소진 · 보관 무기",
+    "img": "world-flows-v1/previews/stored-alert.png",
+    "url": "world-flows-v1/index.html?state=stored-alert"
+  },
+  {
+    "group": "탐험 · 알림",
+    "title": "보상 기회 · 0회",
+    "img": "world-flows-v1/previews/reward-zero.png",
+    "url": "world-flows-v1/index.html?state=reward-zero"
+  },
+  {
+    "group": "포탈 · 월드",
+    "title": "포탈 · 설치 전",
+    "img": "world-flows-v1/previews/portal.png",
+    "url": "world-flows-v1/index.html?state=portal"
+  },
+  {
+    "group": "포탈 · 월드",
+    "title": "포탈 · 하나만 설치",
+    "img": "world-flows-v1/previews/portal-one.png",
+    "url": "world-flows-v1/index.html?state=portal-one"
+  },
+  {
+    "group": "포탈 · 월드",
+    "title": "포탈 · 왕복 가능",
+    "img": "world-flows-v1/previews/portal-ready.png",
+    "url": "world-flows-v1/index.html?state=portal-ready"
+  },
+  {
+    "group": "포탈 · 월드",
+    "title": "포탈 · 설치 불가",
+    "img": "world-flows-v1/previews/portal-blocked.png",
+    "url": "world-flows-v1/index.html?state=portal-blocked"
+  },
+  {
+    "group": "전환 · 최종 결과",
+    "title": "다음 챕터 · 전환",
+    "img": "world-flows-v1/previews/loading.png",
+    "url": "world-flows-v1/index.html?state=loading"
+  },
+  {
+    "group": "전환 · 최종 결과",
+    "title": "최종 챕터 · 종료 검토",
+    "img": "world-flows-v1/previews/final.png",
+    "url": "world-flows-v1/index.html?state=final"
+  },
+  {
+    "group": "오프닝 · 첫 진행",
+    "title": "오프닝 · 조사 수첩",
+    "img": "world-flows-v1/previews/opening.png",
+    "url": "world-flows-v1/index.html?state=opening"
+  },
+  {
+    "group": "오프닝 · 첫 진행",
+    "title": "오프닝 · 이동 안내",
+    "img": "world-flows-v1/previews/opening-movement.png",
+    "url": "world-flows-v1/index.html?state=opening-movement"
+  },
+  {
+    "group": "오프닝 · 첫 진행",
+    "title": "오프닝 · 지워짐",
+    "img": "world-flows-v1/previews/opening-chase.png",
+    "url": "world-flows-v1/index.html?state=opening-chase"
+  },
+  {
+    "group": "오프닝 · 첫 진행",
+    "title": "오프닝 · 조력자",
+    "img": "world-flows-v1/previews/opening-helper.png",
+    "url": "world-flows-v1/index.html?state=opening-helper"
+  },
+  {
+    "group": "오프닝 · 첫 진행",
+    "title": "오프닝 · 첫 각성",
+    "img": "world-flows-v1/previews/opening-awake.png",
+    "url": "world-flows-v1/index.html?state=opening-awake"
+  },
+  {
+    "group": "오프닝 · 첫 진행",
+    "title": "첫 각성 · 기록 남기기",
+    "img": "world-flows-v1/previews/opening-record.png",
+    "url": "world-flows-v1/index.html?state=opening-record"
+  },
+  {
+    "group": "오프닝 · 첫 진행",
+    "title": "첫 진행 · 맨손",
+    "img": "world-flows-v1/previews/opening-unarmed.png",
+    "url": "world-flows-v1/index.html?state=opening-unarmed"
+  },
+  {
+    "group": "오프닝 · 첫 진행",
+    "title": "첫 진행 · 보상 기회",
+    "img": "world-flows-v1/previews/first-reward.png",
+    "url": "world-flows-v1/index.html?state=first-reward"
+  },
+  {
+    "group": "오프닝 · 첫 진행",
+    "title": "첫 진행 · 제작 안내",
+    "img": "world-flows-v1/previews/first-craft.png",
+    "url": "world-flows-v1/index.html?state=first-craft"
+  },
+  {
+    "group": "오프닝 · 첫 진행",
+    "title": "첫 진행 · 내구도 안내",
+    "img": "world-flows-v1/previews/first-durability.png",
+    "url": "world-flows-v1/index.html?state=first-durability"
+  },
+  {
+    "group": "오프닝 · 첫 진행",
+    "title": "첫 회귀 · 우물",
+    "img": "world-flows-v1/previews/first-return.png",
+    "url": "world-flows-v1/index.html?state=first-return"
   }
 ];

@@ -1,0 +1,182 @@
+[
+  {
+    "state": "seal",
+    "title": "봉인 도전 · 시작",
+    "missing": []
+  },
+  {
+    "state": "seal-progress",
+    "title": "봉인 도전 · 진행",
+    "missing": []
+  },
+  {
+    "state": "seal-complete",
+    "title": "봉인 도전 · 완료와 상자",
+    "missing": []
+  },
+  {
+    "state": "rescue",
+    "title": "잉크 정령 구출",
+    "missing": []
+  },
+  {
+    "state": "rescue-progress",
+    "title": "정령 · 구속 장치 해제",
+    "missing": []
+  },
+  {
+    "state": "survival",
+    "title": "잉크 묘목 생존전",
+    "missing": []
+  },
+  {
+    "state": "survival-progress",
+    "title": "묘목 · 남은 시간",
+    "missing": []
+  },
+  {
+    "state": "danger",
+    "title": "위험 상자방",
+    "missing": []
+  },
+  {
+    "state": "danger-wrong",
+    "title": "위험 상자 · 오답",
+    "missing": []
+  },
+  {
+    "state": "collection",
+    "title": "함정 수집방",
+    "missing": []
+  },
+  {
+    "state": "collection-progress",
+    "title": "함정 · 수집과 재방문",
+    "missing": []
+  },
+  {
+    "state": "event-complete",
+    "title": "이벤트 · 완료 연출",
+    "missing": []
+  },
+  {
+    "state": "boss-intro",
+    "title": "보스 · 등장 소개",
+    "missing": []
+  },
+  {
+    "state": "boss-ready",
+    "title": "보스 · 소개 종료",
+    "missing": []
+  },
+  {
+    "state": "boss-intro-two",
+    "title": "2챕터 보스 · 베르소와 렉토",
+    "missing": []
+  },
+  {
+    "state": "reward-alert",
+    "title": "보상 기회 · 획득",
+    "missing": []
+  },
+  {
+    "state": "weapon-alert",
+    "title": "무기 소진 · 장착 자리",
+    "missing": []
+  },
+  {
+    "state": "stored-alert",
+    "title": "무기 소진 · 보관 무기",
+    "missing": []
+  },
+  {
+    "state": "reward-zero",
+    "title": "보상 기회 · 0회",
+    "missing": []
+  },
+  {
+    "state": "portal",
+    "title": "포탈 · 설치 전",
+    "missing": []
+  },
+  {
+    "state": "portal-one",
+    "title": "포탈 · 하나만 설치",
+    "missing": []
+  },
+  {
+    "state": "portal-ready",
+    "title": "포탈 · 왕복 가능",
+    "missing": []
+  },
+  {
+    "state": "portal-blocked",
+    "title": "포탈 · 설치 불가",
+    "missing": []
+  },
+  {
+    "state": "loading",
+    "title": "다음 챕터 · 전환",
+    "missing": []
+  },
+  {
+    "state": "final",
+    "title": "최종 챕터 · 종료 검토",
+    "missing": []
+  },
+  {
+    "state": "opening",
+    "title": "오프닝 · 조사 수첩",
+    "missing": []
+  },
+  {
+    "state": "opening-movement",
+    "title": "오프닝 · 이동 안내",
+    "missing": []
+  },
+  {
+    "state": "opening-chase",
+    "title": "오프닝 · 지워짐",
+    "missing": []
+  },
+  {
+    "state": "opening-helper",
+    "title": "오프닝 · 조력자",
+    "missing": []
+  },
+  {
+    "state": "opening-awake",
+    "title": "오프닝 · 첫 각성",
+    "missing": []
+  },
+  {
+    "state": "opening-record",
+    "title": "첫 각성 · 기록 남기기",
+    "missing": []
+  },
+  {
+    "state": "opening-unarmed",
+    "title": "첫 진행 · 맨손",
+    "missing": []
+  },
+  {
+    "state": "first-reward",
+    "title": "첫 진행 · 보상 기회",
+    "missing": []
+  },
+  {
+    "state": "first-craft",
+    "title": "첫 진행 · 제작 안내",
+    "missing": []
+  },
+  {
+    "state": "first-durability",
+    "title": "첫 진행 · 내구도 안내",
+    "missing": []
+  },
+  {
+    "state": "first-return",
+    "title": "첫 회귀 · 우물",
+    "missing": []
+  }
+]

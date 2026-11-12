@@ -1,0 +1,32 @@
+{
+  "checks": [
+    "bridge ready",
+    "physical F begins seal",
+    "seal ends after 4+5+6",
+    "existing seal selection opens",
+    "seal cannot postpone",
+    "seal receipt returns complete",
+    "collection resume preserves progress",
+    "event auto opens reward",
+    "event receipt only close",
+    "event leaves bank unchanged",
+    "event cannot claim twice",
+    "wrong allows other chests",
+    "cancel preserves old portal",
+    "second installed",
+    "portal travel retains both",
+    "loading blocks F and Escape",
+    "loading returns play",
+    "opening reaches unarmed",
+    "first combat reaches reward",
+    "event bag comparison returns same choices",
+    "event Esc cannot discard reward",
+    "boss choice consumed 0",
+    "boss choice consumed 1",
+    "boss choice consumed 2",
+    "boss three rewards lead to transition",
+    "exhausted equipped weapon becomes empty",
+    "no JS errors"
+  ],
+  "errors": []
+}
