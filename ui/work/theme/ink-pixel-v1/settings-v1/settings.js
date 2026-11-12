@@ -43,7 +43,7 @@ function contentItems(){return [...document.querySelectorAll('#content input,#co
 function help(){document.querySelector('footer>span').innerHTML=depth==='nav'?'<kbd>↑ ↓</kbd>분류 이동 <kbd>F</kbd>설정 선택 <kbd>Esc</kbd>닫기':'<kbd>↑ ↓</kbd>항목 이동 <kbd>← →</kbd>값 조절 <kbd>F</kbd>선택 <kbd>Esc</kbd>분류로';document.body.dataset.depth=depth}
 function enterContent(){depth='content';contentItems()[0]?.focus();help()}
 
-function fit(){$('.screen').style.transform=`scale(${Math.min(innerWidth/1920,innerHeight/1080)})`}onresize=fit;render();fit();if(params.get('state')==='confirm'){tab='display';draft.mode=1;render();applyDisplay()}else if(params.get('state')==='changed'){tab='display';draft.mode=1;render()}else if(params.get('state')==='rebind'){tab='controls';render();$('[data-bind="combat:0"]').click()}else $(`[data-tab="${tab}"]`).focus();help();
+function fit(){const scale=Math.min(innerWidth/1920,innerHeight/1080);$('.screen').style.transform=`scale(${scale})`;$('#dialog').style.transform=`scale(${scale})`}onresize=fit;render();fit();if(params.get('state')==='confirm'){tab='display';draft.mode=1;render();applyDisplay()}else if(params.get('state')==='changed'){tab='display';draft.mode=1;render()}else if(params.get('state')==='rebind'){tab='controls';render();$('[data-bind="combat:0"]').click()}else $(`[data-tab="${tab}"]`).focus();help();
 
 function revealBinding(button){const el=$('#controlsScroll');if(!el)return;const box=el.getBoundingClientRect(),r=button.getBoundingClientRect(),scale=box.height/el.clientHeight;if(r.top<box.top+12*scale)el.scrollTop-=(box.top+12*scale-r.top)/scale;else if(r.bottom>box.bottom-12*scale)el.scrollTop+=(r.bottom-box.bottom+12*scale)/scale;}
 if(tab==='controls'&&params.get('state')!=='rebind'){const section=params.get('scroll')==='bottom'?'explore':params.get('scroll')==='combat'?'combat':'move';const el=$('#controlsScroll');el.scrollTop=section==='explore'?el.scrollHeight:section==='combat'?$('#section-combat').offsetTop-el.offsetTop:0;controlsScroll=el.scrollTop;el.onscroll();}
@@ -51,3 +51,7 @@ if(tab==='controls'&&params.get('state')!=='rebind'){const section=params.get('s
 document.addEventListener('focusin',e=>{document.querySelectorAll('.keyRow .selectKey').forEach(k=>k.remove());if(e.target.matches('.keyRow')&&capture===null){const k=document.createElement('kbd');k.className='selectKey';k.textContent='F';e.target.querySelector('.name').prepend(k)}});
 
 if(params.get('state')==='unsaved'){tab='display';draft.mode=1;render();switchTab('sound');}
+
+function syncNavFocus(){document.querySelectorAll('nav [data-tab]').forEach(b=>b.classList.toggle('navFocused',depth==='nav'&&b===document.activeElement))}
+document.addEventListener('focusin',syncNavFocus);syncNavFocus();
+if(params.get('state')==='reset-confirm'){tab='controls';render();enterContent();$('#reset').click()}

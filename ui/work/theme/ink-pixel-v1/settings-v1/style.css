@@ -22,3 +22,17 @@ dialog{background:transparent;border:0;padding:66px 70px}.dialogActions button{p
 button:focus-visible{text-decoration:none!important}nav button:focus-visible:after{content:none}
 body[data-depth="nav"] #content{opacity:.72}body[data-depth="content"] nav{opacity:.7}
 dialog{width:760px;padding:40px 44px}dialog h2{font-size:32px;margin-bottom:24px}dialog p{font-size:24px;line-height:1.65}.dialogActions{gap:52px;margin-top:30px;padding-top:24px}.dialogActions button{font-size:27px}.dialogActions button:focus{transform:none}.dialogActions button:focus:before{content:none}
+
+/* A compact 640px confirmation at 1920px, scaled explicitly in the top layer. */
+dialog{width:640px;max-width:none;max-height:none;padding:30px 32px;transform-origin:center}
+dialog h2{font-size:28px;line-height:1.45;margin-bottom:22px}
+dialog p{font-size:23px;line-height:1.65}
+.dialogActions{gap:40px;margin-top:24px;padding-top:22px}
+.dialogActions button{font-size:25px}
+.screen:has(dialog[open]) main *,.screen:has(dialog[open]) footer *{visibility:hidden!important}
+body[data-depth="nav"] nav .navActive{transform:none;color:var(--muted)}
+body[data-depth="nav"] nav .navActive:before{content:none}
+body[data-depth="nav"] nav button.navFocused{transform:scale(1.15);color:var(--paper)}
+body[data-depth="nav"] nav button.navFocused:before{content:'';position:absolute;inset:-10px -24px;background:url('../maintenance-palette-v1/assets/selection-wash-v1.png') center/100% 100% no-repeat;z-index:-1;opacity:.65;pointer-events:none}
+/* Hide the whole underlying layer, including keycaps with forced visibility. */
+.screen:has(dialog[open]) main,.screen:has(dialog[open]) footer{opacity:0!important;pointer-events:none}

@@ -527,5 +527,12 @@ const catalogItems=[
     "img": "settings-v1/previews/unsaved.png",
     "url": "settings-v1/index.html?state=unsaved",
     "id": "settings-unsaved"
+  },
+  {
+    "group": "설정",
+    "title": "기본 조작키 복원 확인",
+    "img": "settings-v1/previews/reset-confirm.png",
+    "url": "settings-v1/index.html?state=reset-confirm",
+    "id": "settings-reset-confirm"
   }
 ];
