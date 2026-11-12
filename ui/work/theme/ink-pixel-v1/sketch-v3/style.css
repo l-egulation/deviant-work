@@ -120,3 +120,29 @@ body:is([data-view="village"],[data-view="dialogue"],[data-view="well"]) .world{
 .wellPanel{padding:68px 80px 64px}
 .villageGround{background-size:320px 320px}
 .villageGround:before{background-size:50px 42px}
+
+/* Fixed corner and tail dimensions; only edge spans and center stretch. */
+.dialoguePanel,.worldPrompt,.wellPanel{background:none;isolation:isolate}
+.speechSkin{position:absolute;inset:0;z-index:-1;pointer-events:none;display:grid;grid-template-rows:36px 1fr 28px}
+.skinTop,.skinMiddle{display:grid;grid-template-columns:44px 1fr 44px;min-height:0}
+.skinBottom{display:grid;grid-template-columns:44px 1fr 45px 1fr 44px;min-height:0}
+.speechSkin svg{width:100%;height:100%;display:block;min-width:0;overflow:hidden}
+.worldPrompt{min-width:330px;padding:28px 34px 40px}
+.wellPanel{width:660px;padding:44px 42px 50px}
+.wellPanel .identity{gap:28px}.wellPanel .weapon{width:110px;height:110px}
+.dialoguePanel{width:1000px;padding:38px 48px 44px}
+.workshopColumns{height:675px}.upgradeDescription{margin:24px 0 32px;max-width:720px;line-height:1.8}
+.upgradeConditions{margin-top:32px;padding-top:26px;border-top:1px solid #c7d0db30}
+.upgradeConditions h3{margin-bottom:22px}.conditionRow{display:flex;justify-content:space-between;gap:30px;font-size:25px;margin-bottom:18px}
+.conditionMissing{color:#dfc3a0}.purchaseReason{font-size:23px}.upgradeComplete{color:#bcd6b1;margin-top:40px}
+body[data-view="permanent"] .actions{gap:20px;flex-wrap:wrap}body[data-view="permanent"] .action{font-size:27px;padding:16px 20px}
+body[data-view="permanent"] .compare p{font-size:45px}body[data-view="permanent"] .compare>span{font-size:46px}
+
+.speechSkin{grid-template-rows:36px 1fr 45px}
+body[data-view="permanent"] .compare{margin:22px 0 30px}
+body[data-view="permanent"] .compare h3{margin-bottom:20px}
+body[data-view="permanent"] .compare p{margin-bottom:0}
+body[data-view="permanent"] .upgradeDescription{margin:24px 0;line-height:1.7}
+body[data-view="permanent"] .upgradeConditions{margin-top:26px;padding-top:22px}
+/* Subpixel overlap prevents hairline gaps between bitmap slices. */
+.speechSkin svg{width:calc(100% + 1px);height:calc(100% + 1px);margin:-.5px}

@@ -267,7 +267,7 @@
   ],
   [
     "현행 v3",
-    "가격 미정 · 구매 제한",
+    "공방 · 출발 지원금 가격 반영",
     "sketch-v3",
     "permanent-unknown",
     "state=permanent-unknown"
@@ -824,5 +824,61 @@
     "sketch-v3",
     "records-undiscovered",
     "state=records-undiscovered"
+  ],
+  [
+    "현행 v3",
+    "공방 · 첫 정산 전",
+    "sketch-v3",
+    "permanent-first",
+    "state=permanent-first"
+  ],
+  [
+    "현행 v3",
+    "공방 · 출발 지원금",
+    "sketch-v3",
+    "permanent-gold",
+    "state=permanent-gold"
+  ],
+  [
+    "현행 v3",
+    "공방 · 지원금 3단계 잠금",
+    "sketch-v3",
+    "permanent-gold-locked",
+    "state=permanent-gold-locked"
+  ],
+  [
+    "현행 v3",
+    "공방 · 1챕터 조건",
+    "sketch-v3",
+    "permanent-ch1",
+    "state=permanent-ch1"
+  ],
+  [
+    "현행 v3",
+    "공방 · 2챕터 조건",
+    "sketch-v3",
+    "permanent-ch2",
+    "state=permanent-ch2"
+  ],
+  [
+    "현행 v3",
+    "공방 · 대시 추가 구매 가능",
+    "sketch-v3",
+    "permanent-dash-ready",
+    "state=permanent-dash-ready"
+  ],
+  [
+    "현행 v3",
+    "공방 · 대시 추가 해금 완료",
+    "sketch-v3",
+    "permanent-dash-owned",
+    "state=permanent-dash-owned"
+  ],
+  [
+    "현행 v3",
+    "공방 · 최대 단계",
+    "sketch-v3",
+    "permanent-max",
+    "state=permanent-max"
   ]
 ]
