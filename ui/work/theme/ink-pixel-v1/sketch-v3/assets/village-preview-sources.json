@@ -1,0 +1,13 @@
+{
+  "note": "Actual game assets, staged HTML composition for anchor review, not an in-engine capture. Original files copied without editing.",
+  "sources": {
+    "village-market.png": "Deviant/Hub/Resources/Hub/village-art-preview/market-sketch.png",
+    "village-artisan.png": "Deviant/Game/Resources/MaintenanceShops/npc1.png",
+    "village-well.png": "Deviant/Hub/Resources/Hub/props/sketch/return-well.png",
+    "village-sign.png": "Deviant/Hub/Resources/Hub/props/sketch/departure-sign.png",
+    "village-workshop.png": "Deviant/Hub/Resources/Hub/buildings/sketch/palette-atelier.png",
+    "village-farm.png": "Stage1VillageExperiment/Resources/Village/reference-sketch/color/props/house_balcony.png",
+    "village-ground.png": "Stage1VillageExperiment/Resources/Village/ReferenceGround/body.png",
+    "village-ground-cap.png": "Stage1VillageExperiment/Resources/Village/ReferenceGround/cap-wide.png"
+  }
+}

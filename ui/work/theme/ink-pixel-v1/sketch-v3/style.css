@@ -96,3 +96,27 @@ body[data-view="well"] .world{background:radial-gradient(ellipse at 50% 44%,#242
 .dialogueText{font-size:31px;line-height:1.6;min-height:50px;max-width:none;margin:0}
 .dialogueBottom{margin-top:14px}.dialogueBottom .actions{margin:0;padding:0;border:0}.dialogueBottom .action{font-size:26px}
 .wellPanel{top:220px;width:800px;padding:30px 42px}.wellPanel h2{margin-top:0}
+
+/* World-anchored speech panels. The PNG includes the joined tail, no CSS triangle. */
+body:is([data-view="village"],[data-view="dialogue"],[data-view="well"]) .world{background:#eee6d6;filter:none;backdrop-filter:none}
+.villageScene{position:absolute;left:-130px;top:0;width:1920px;height:1080px;pointer-events:none;background:#eee6d6;z-index:0}
+.villageScenery{position:absolute;inset:0;background:url('assets/village-market.png') center bottom 200px/1920px auto no-repeat}
+.villageGround{position:absolute;top:880px;left:0;width:100%;height:200px;background:url('assets/village-ground.png') left top/512px auto repeat}
+.villageGround:before{content:'';position:absolute;top:-6px;left:0;width:100%;height:40px;background:url('assets/village-ground-cap.png') left top/512px 40px repeat-x}
+.stationArt{position:absolute;bottom:200px;transform:translateX(-50%);width:auto;max-width:650px;object-fit:contain}
+.artisanArt{position:absolute;left:950px;bottom:200px;transform:translateX(-50%);height:240px;width:auto}
+.dialoguePanel,.worldPrompt,.wellPanel{z-index:1;border:0;border-image:none;background:url('assets/speech-frame-v1.png') center/100% 100% no-repeat;box-shadow:none;backdrop-filter:none;filter:none}
+.worldPrompt{transform:translate(-50%,-100%);min-width:400px;padding:26px 40px 38px}
+.siteName{min-height:38px;margin-bottom:12px}
+.siteNews{width:16px;height:32px;opacity:.8;filter:saturate(.18) brightness(.85)}
+.siteNews img{width:34px;height:43px;left:-9px;top:-5px}
+.dialoguePanel{left:820px;right:auto;top:622px;bottom:auto;width:1000px;transform:translate(-50%,-100%);padding:30px 54px 44px}
+.dialogueSpeaker{margin-bottom:14px}.dialogueText{font-size:30px;line-height:1.6;min-height:0}
+.dialogueBottom{margin-top:16px}
+.wellPanel{left:1060px;top:612px;transform:translate(-50%,-100%);width:800px;padding:40px 60px 54px}
+.wellPanel .identity{margin-top:22px;margin-bottom:26px}.wellPanel p{margin-bottom:20px}.wellPanel .actions{padding-top:8px;margin-top:20px}
+/* Keep text clear of the stepped upper-left corner. */
+.dialoguePanel{padding:48px 76px 48px}
+.wellPanel{padding:68px 80px 64px}
+.villageGround{background-size:320px 320px}
+.villageGround:before{background-size:50px 42px}
