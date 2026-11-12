@@ -28,8 +28,8 @@ body[data-view="equipment"] .grid{grid-template-columns:repeat(3,minmax(0,1fr));
 .destinationOptions{gap:48px}.destinationOptions>button{width:230px;min-width:0;flex:0 0 230px}.destinationName{max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:24px!important}.region h2{color:#f4eee1}.region h3{color:#d6dce1}
 /* Shared keyboard focus: a single current target, separate from retained selection. */
 .navFocus{outline:none!important}
-.action.navFocus{color:#fff8e9;text-shadow:0 1px 2px #000;transform:scale(1.07)}
-.action.navFocus:before{opacity:1!important;filter:brightness(1.4)}
+.action.navFocus{color:#fff8e9;text-shadow:none;transform:scale(1.07)}
+.action.navFocus:before{opacity:.68!important;filter:saturate(.65) brightness(.8)}
 button.navFocus:not(.action):not(.item):not(.paletteItem):not(.card){color:#f3d597;filter:brightness(1.25)}
 .item.navFocus,.paletteItem.navFocus,.card.navFocus{filter:brightness(1.15);opacity:1}
 .actions{gap:28px;flex-wrap:wrap}
