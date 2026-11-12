@@ -1,0 +1,58 @@
+[
+  {
+    "title": "무기 소진 후 빈 자리",
+    "url": "sketch-v3/index.html?state=equipment-empty",
+    "missing": [],
+    "buttons": 6,
+    "f": 0
+  },
+  {
+    "title": "교체·해제 공유 10초 대기",
+    "url": "sketch-v3/index.html?state=equipment-wait",
+    "missing": [],
+    "buttons": 11,
+    "f": 0
+  },
+  {
+    "title": "다른 색 적용 · 기본 수치",
+    "url": "sketch-v3/index.html?state=craft-unmatched",
+    "missing": [],
+    "buttons": 54,
+    "f": 1
+  },
+  {
+    "title": "검토안 · 맵 상품 3개·근접 설명·구매",
+    "url": "sketch-v3/index.html?state=shop-world",
+    "missing": [],
+    "buttons": 4,
+    "f": 1
+  },
+  {
+    "title": "검토안 · 맵 상점 골드 부족",
+    "url": "sketch-v3/index.html?state=shop-world-poor",
+    "missing": [],
+    "buttons": 4,
+    "f": 0
+  },
+  {
+    "title": "검토안 · 맵 상점 품절",
+    "url": "sketch-v3/index.html?state=shop-world-sold",
+    "missing": [],
+    "buttons": 4,
+    "f": 0
+  },
+  {
+    "title": "잉크 설명 · 트리거·효과 색상 기준",
+    "url": "sketch-v3/index.html?state=ink-color-rule",
+    "missing": [],
+    "buttons": 48,
+    "f": 0
+  },
+  {
+    "title": "제작 · 일치 효과·적용 수치",
+    "url": "sketch-v3/index.html?state=craft-color-rule",
+    "missing": [],
+    "buttons": 54,
+    "f": 1
+  }
+]

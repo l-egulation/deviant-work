@@ -120,19 +120,19 @@ const catalogItems=[
     "url": "sketch-v3/index.html?state=equipment-empty"
   },
   {
-    "group": "상점",
+    "group": "보관 · 전체 화면 상점",
     "title": "스케치·잉크 구매",
     "img": "sketch-v3/previews/shop.png",
     "url": "sketch-v3/index.html?state=shop"
   },
   {
-    "group": "상점",
+    "group": "보관 · 전체 화면 상점",
     "title": "골드 부족",
     "img": "sketch-v3/previews/shop-poor.png",
     "url": "sketch-v3/index.html?state=shop-poor"
   },
   {
-    "group": "상점",
+    "group": "보관 · 전체 화면 상점",
     "title": "구매 완료 · 품절",
     "img": "sketch-v3/previews/shop-sold.png",
     "url": "sketch-v3/index.html?state=shop-sold"
@@ -591,25 +591,25 @@ const catalogItems=[
     "url": "sketch-v3/index.html?state=equipment-wait-swap"
   },
   {
-    "group": "상점",
+    "group": "보관 · 전체 화면 상점",
     "title": "2챕터 실제 가격",
     "img": "sketch-v3/previews/shop-ch2.png",
     "url": "sketch-v3/index.html?state=shop-ch2"
   },
   {
-    "group": "상점",
+    "group": "보관 · 전체 화면 상점",
     "title": "3챕터 가격 미정 · 구매 불가",
     "img": "sketch-v3/previews/shop-ch3.png",
     "url": "sketch-v3/index.html?state=shop-ch3"
   },
   {
-    "group": "상점",
+    "group": "보관 · 전체 화면 상점",
     "title": "진열할 미획득 잉크 없음",
     "img": "sketch-v3/previews/shop-no-inks.png",
     "url": "sketch-v3/index.html?state=shop-no-inks"
   },
   {
-    "group": "상점",
+    "group": "보관 · 전체 화면 상점",
     "title": "다른 경로로 획득한 잉크 재진열",
     "img": "sketch-v3/previews/shop-refresh.png",
     "url": "sketch-v3/index.html?state=shop-refresh"
@@ -667,5 +667,35 @@ const catalogItems=[
     "title": "다른 색 적용 · 기본 수치",
     "img": "sketch-v3/previews/craft-unmatched.png",
     "url": "sketch-v3/index.html?state=craft-unmatched"
+  },
+  {
+    "group": "검토안 · 월드 상점",
+    "title": "검토안 · 맵 상품 3개·근접 설명·구매",
+    "img": "sketch-v3/previews/shop-world.png",
+    "url": "sketch-v3/index.html?state=shop-world"
+  },
+  {
+    "group": "검토안 · 월드 상점",
+    "title": "검토안 · 맵 상점 골드 부족",
+    "img": "sketch-v3/previews/shop-world-poor.png",
+    "url": "sketch-v3/index.html?state=shop-world-poor"
+  },
+  {
+    "group": "검토안 · 월드 상점",
+    "title": "검토안 · 맵 상점 품절",
+    "img": "sketch-v3/previews/shop-world-sold.png",
+    "url": "sketch-v3/index.html?state=shop-world-sold"
+  },
+  {
+    "group": "잉크 설명",
+    "title": "잉크 설명 · 트리거·효과 색상 기준",
+    "img": "sketch-v3/previews/ink-color-rule.png",
+    "url": "sketch-v3/index.html?state=ink-color-rule"
+  },
+  {
+    "group": "잉크 설명",
+    "title": "제작 · 일치 효과·적용 수치",
+    "img": "sketch-v3/previews/craft-color-rule.png",
+    "url": "sketch-v3/index.html?state=craft-color-rule"
   }
 ];

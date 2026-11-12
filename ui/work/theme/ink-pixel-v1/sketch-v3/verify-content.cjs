@@ -9,3 +9,7 @@ assert.equal(R.equipReason(['a','b'],0,'b',10),'');assert.ok(R.equipReason(['a',
 for(let i=0;i<100;i++){const offer=R.offer(C.maintenance,[]);assert.equal(offer[0].group,'safe');assert.notEqual(offer[1].group,offer[2].group);assert.ok(offer.every(x=>x.runtime==='implemented'));}
 assert.equal(R.offer(C.maintenance,C.maintenance.map(x=>x.id)),null);
 console.log('Content rules passed: 43 inks, 30 active augments, 12 seal augments, prices and cooldown exceptions');
+
+for(const ink of C.run.inks)for(const match of [false,true]){const ts=R.segments(ink,match);assert.equal(ts.map(t=>t.text).join(''),R.description(ink,match));assert.ok(ts.some(t=>t.tone==='trigger'));assert.ok(ts.some(t=>t.tone==='effect'));assert.ok(!ts.some(t=>t.tone==='effect'&&/쿨타임 \d+초/.test(t.text)));}
+const ts=R.segments(C.run.inks[4]);assert.equal(ts[0].text,'이 무기로 ');assert.equal(ts[0].tone,'plain');assert.equal(ts[1].text,'상태이상 부여 시');
+console.log('Semantic ink color checks passed for 43 inks × 2 modes');

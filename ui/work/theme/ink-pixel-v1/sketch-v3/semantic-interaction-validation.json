@@ -1,0 +1,13 @@
+[
+  "condition modifier remains plain",
+  "trigger and effect highlighted independently",
+  "no duplicate match badge, yellow applied value",
+  "unmatched explicitly applies base",
+  "removed duplicated cooldown and review controls",
+  "equipment leaves slots empty without unarmed block",
+  "three displays and existing speech frame",
+  "physical F purchases previewed world item once",
+  "sold item cannot be bought again",
+  "world selection reaches adjacent offer",
+  "world insufficient gold disables purchase"
+]
