@@ -1,0 +1,150 @@
+[
+  {
+    "name": "boss card 0 scrolls with physical S",
+    "ok": true
+  },
+  {
+    "name": "only current reward card stays selected",
+    "ok": true
+  },
+  {
+    "name": "boss card 0 W returns to top",
+    "ok": true
+  },
+  {
+    "name": "boss card 1 scrolls with physical S",
+    "ok": true
+  },
+  {
+    "name": "only current reward card stays selected",
+    "ok": true
+  },
+  {
+    "name": "boss card 1 W returns to top",
+    "ok": true
+  },
+  {
+    "name": "boss card 2 scrolls with physical S",
+    "ok": true
+  },
+  {
+    "name": "only current reward card stays selected",
+    "ok": true
+  },
+  {
+    "name": "boss card 2 W returns to top",
+    "ok": true
+  },
+  {
+    "name": "long selected reward scrolls and others stay at top",
+    "ok": true
+  },
+  {
+    "name": "long reward scroll returns to top",
+    "ok": true
+  },
+  {
+    "name": "reward down reaches action",
+    "ok": true
+  },
+  {
+    "name": "reward up returns selected card",
+    "ok": true
+  },
+  {
+    "name": "reward F confirms current candidate",
+    "ok": true
+  },
+  {
+    "name": "bag up reaches category tabs",
+    "ok": true
+  },
+  {
+    "name": "bag category right previews inks",
+    "ok": true
+  },
+  {
+    "name": "bag F enters category",
+    "ok": true
+  },
+  {
+    "name": "six slots present",
+    "ok": true
+  },
+  {
+    "name": "right reaches sixth slot",
+    "ok": true
+  },
+  {
+    "name": "slot F opens ink",
+    "ok": true
+  },
+  {
+    "name": "ink Esc returns slots",
+    "ok": true
+  },
+  {
+    "name": "slot down reaches palette actions",
+    "ok": true
+  },
+  {
+    "name": "action up returns slot",
+    "ok": true
+  },
+  {
+    "name": "slot Esc returns sketch list",
+    "ok": true
+  },
+  {
+    "name": "empty craft confirms",
+    "ok": true
+  },
+  {
+    "name": "right reaches store option",
+    "ok": true
+  },
+  {
+    "name": "store returns crafting",
+    "ok": true
+  },
+  {
+    "name": "equipment F enters weapon choice",
+    "ok": true
+  },
+  {
+    "name": "equipment Esc returns destination selection",
+    "ok": true
+  },
+  {
+    "name": "augment right selects second",
+    "ok": true
+  },
+  {
+    "name": "augment scroll targets selected card",
+    "ok": true
+  },
+  {
+    "name": "augment Esc retains pending offer",
+    "ok": true
+  },
+  {
+    "name": "settings nav highlight follows focus",
+    "ok": true
+  },
+  {
+    "name": "settings F enters content",
+    "ok": true
+  },
+  {
+    "name": "settings F starts rebinding",
+    "ok": true
+  },
+  {
+    "name": "Esc cancels rebinding",
+    "ok": true
+  },
+  {
+    "name": "Esc returns settings categories",
+    "ok": true
+  }
+]

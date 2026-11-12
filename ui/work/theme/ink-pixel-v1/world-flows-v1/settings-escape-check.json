@@ -1,0 +1,17 @@
+[
+  {
+    "state": "confirm",
+    "escClosed": true
+  },
+  {
+    "state": "reset-confirm",
+    "escClosed": true
+  },
+  {
+    "state": "unsaved",
+    "escClosed": true
+  },
+  {
+    "selectedRewardScrolled": true
+  }
+]

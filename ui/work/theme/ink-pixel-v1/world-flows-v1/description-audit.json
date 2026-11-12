@@ -1,0 +1,660 @@
+[
+  {
+    "kind": "ink",
+    "name": "기본 공격 가속",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "스킬 가속",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "스위칭 가속",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "대쉬 가속",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "상태이상 부여 가속",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "기본 공격 방어막",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "스킬 방어막",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "스위칭 방어막",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "대쉬 방어막",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "상태이상 부여 방어막",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "기본 공격 회복",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "스킬 회복",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "스위칭 회복",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "대쉬 회복",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "상태이상 부여 회복",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "기본 공격 기절",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "스킬 기절",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "스위칭 기절",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "대쉬 기절",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "기본 공격 속박",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "스킬 속박",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "스위칭 속박",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "대쉬 속박",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "기본 공격 슬로우",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "스킬 슬로우",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "스위칭 슬로우",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "대쉬 슬로우",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "기본 공격 중독",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "스킬 중독",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "스위칭 중독",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "대쉬 중독",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "기절 조건 기본 공격 강화",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "속박 조건 기본 공격 강화",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "중독 조건 기본 공격 강화",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "슬로우 조건 기본 공격 강화",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "기절 조건 스킬 쿨타임 감소",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "속박 조건 스킬 쿨타임 감소",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "중독 조건 스킬 쿨타임 감소",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "슬로우 조건 스킬 쿨타임 감소",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "기절 조건 스킬 피해 강화",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "속박 조건 스킬 피해 강화",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "중독 조건 스킬 피해 강화",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "ink",
+    "name": "슬로우 조건 스킬 피해 강화",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "정석대로 갑시다",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "두꺼운 종이",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "보호 코팅",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "손에 익은 필체",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "빠른 교정",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "알뜰한 필사",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "다음 장도 든든하게",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "회복용 여백",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "가벼운 발걸음",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "착실한 마침표",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "끝까지 읽기",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "큰 글씨도 문제없다",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "화력은 수명과 반비례",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "중고가 더 좋아",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "구두쇠의 명작",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "한 우물만 팝니다",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "이번엔 너다",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "종이갑옷",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "잉크가 아니라 피였네",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "마감 직전",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "무사고 장인",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "딱 한 놈만",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "천천히, 아주 세게",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "평타가 본업",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "느리지만 확실하게",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "걸어다니는 성벽",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "제자리 인쇄소",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "폐기물 재활용",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "스킬이 본업",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "다섯 번째는 진심",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "정면 승부",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "행운의 대가",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "유령 작가",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "반송 봉투",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "위험한 책갈피",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "피로 쓴 계약",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "사인해 주세요",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "대용량 잉크병",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "maintenance",
+    "name": "성장통",
+    "overflow": false,
+    "needsScroll": true,
+    "scrollWorks": true
+  },
+  {
+    "kind": "seal",
+    "name": "공격 속도",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "seal",
+    "name": "공격력",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "seal",
+    "name": "치명타",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "seal",
+    "name": "공격 범위",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "seal",
+    "name": "최대 체력",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "seal",
+    "name": "방어",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "seal",
+    "name": "회피",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "seal",
+    "name": "가시",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "seal",
+    "name": "흡수",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "seal",
+    "name": "회복력",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "seal",
+    "name": "즉시 회복",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  },
+  {
+    "kind": "seal",
+    "name": "이동 속도",
+    "overflow": false,
+    "needsScroll": false,
+    "scrollWorks": true
+  }
+]

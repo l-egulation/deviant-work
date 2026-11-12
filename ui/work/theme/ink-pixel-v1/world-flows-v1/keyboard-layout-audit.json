@@ -1,0 +1,7356 @@
+{
+  "viewport": "960x540",
+  "scope": "Initial text clipping and eight direction/scroll/confirm/back key smoke checks per current screen; F/Esc flows tested separately",
+  "screens": [
+    {
+      "title": "HUD에서 바로 보상 선택",
+      "url": "sketch-v3/index.html?state=reward",
+      "initial": {
+        "clipped": [],
+        "focus": "스케치레이피어범위 · 장침긴 찌르기로 전방의 적을 공격합니다.팔레트"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "잉크스위칭 슬로우스위칭 공격 시 적의 속도를 3초 동안 20% 감소시킵니다. 쿨타임 6초.",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F선택한 보상 획득",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F선택한 보상 획득",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "잉크스위칭 슬로우스위칭 공격 시 적의 속도를 3초 동안 20% 감소시킵니다. 쿨타임 6초.",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "잉크스위칭 슬로우스위칭 공격 시 적의 속도를 3초 동안 20% 감소시킵니다. 쿨타임 6초.",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "잉크스위칭 슬로우스위칭 공격 시 적의 속도를 3초 동안 20% 감소시킵니다. 쿨타임 6초.",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F계속 뽑기",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F보상 열기",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "스케치·잉크 혼합 3중 1택",
+      "url": "sketch-v3/index.html?state=mixed",
+      "initial": {
+        "clipped": [],
+        "focus": "스케치레이피어범위 · 장침긴 찌르기로 전방의 적을 공격합니다.팔레트"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "잉크대쉬 회복대쉬 시 체력을 3 회복합니다. 쿨타임 8초.",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F선택한 보상 획득",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F선택한 보상 획득",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "잉크대쉬 회복대쉬 시 체력을 3 회복합니다. 쿨타임 8초.",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "잉크대쉬 회복대쉬 시 체력을 3 회복합니다. 쿨타임 8초.",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "잉크대쉬 회복대쉬 시 체력을 3 회복합니다. 쿨타임 8초.",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F계속 뽑기",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F보상 열기",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "스케치 3개 획득 후에도 혼합 후보",
+      "url": "sketch-v3/index.html?state=quota",
+      "initial": {
+        "clipped": [],
+        "focus": "스케치레이피어범위 · 장침긴 찌르기로 전방의 적을 공격합니다.팔레트"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "잉크슬로우 조건 기본 공격 강화슬로우 상태인 적에게 기본 공격 시 4초 동안 공격 피해가 ",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F선택한 보상 획득",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F선택한 보상 획득",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "잉크슬로우 조건 기본 공격 강화슬로우 상태인 적에게 기본 공격 시 4초 동안 공격 피해가 ",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "잉크슬로우 조건 기본 공격 강화슬로우 상태인 적에게 기본 공격 시 4초 동안 공격 피해가 ",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "잉크슬로우 조건 기본 공격 강화슬로우 상태인 적에게 기본 공격 시 4초 동안 공격 피해가 ",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F계속 뽑기",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F보상 열기",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "보스 보상 · 스케치 선택",
+      "url": "sketch-v3/index.html?state=boss",
+      "initial": {
+        "clipped": [],
+        "focus": "스케치레이피어범위 · 장침긴 찌르기로 전방의 적을 공격합니다.팔레트"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "스케치발사기기본 · 모아쏘기힘을 모아 강한 탄환을 발사합니다.팔레트",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F선택한 보상 획득",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F선택한 보상 획득",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "스케치발사기기본 · 모아쏘기힘을 모아 강한 탄환을 발사합니다.팔레트",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "스케치발사기기본 · 모아쏘기힘을 모아 강한 탄환을 발사합니다.팔레트",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "스케치발사기기본 · 모아쏘기힘을 모아 강한 탄환을 발사합니다.팔레트",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F계속 뽑기",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F보상 열기",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "보스 보상 · 첫 번째 잉크",
+      "url": "sketch-v3/index.html?state=boss-ink",
+      "initial": {
+        "clipped": [],
+        "focus": "잉크중독 조건 스킬 피해 강화중독된 적에게 스킬 공격 시 이 무기의 스킬 피해가 "
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "잉크기절 조건 스킬 피해 강화기절한 적에게 스킬 공격 시 이 무기의 스킬 피해가 20% 증",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F선택한 보상 획득",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F선택한 보상 획득",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "잉크기절 조건 스킬 피해 강화기절한 적에게 스킬 공격 시 이 무기의 스킬 피해가 20% 증",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "잉크기절 조건 스킬 피해 강화기절한 적에게 스킬 공격 시 이 무기의 스킬 피해가 20% 증",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "잉크기절 조건 스킬 피해 강화기절한 적에게 스킬 공격 시 이 무기의 스킬 피해가 20% 증",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F계속 뽑기",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F보상 열기",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "스케치 격자 목록",
+      "url": "sketch-v3/index.html?state=bag",
+      "initial": {
+        "clipped": [],
+        "focus": ""
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "보유 잉크 · 스크롤",
+      "url": "sketch-v3/index.html?state=bag-ink",
+      "initial": {
+        "clipped": [],
+        "focus": ""
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "스케치 없음",
+      "url": "sketch-v3/index.html?state=bag-empty",
+      "initial": {
+        "clipped": [],
+        "focus": "스케치"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "잉크",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "스케치",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "스케치",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "스케치",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "스케치",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "스케치",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "스케치 선택",
+      "url": "sketch-v3/index.html?state=craft",
+      "initial": {
+        "clipped": [],
+        "focus": "레이피어범위 · 장침"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "발사기기본 · 모아쏘기",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "한손 단검기본 · 숨죽이기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "채찍기본 · 휘감기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "레이피어범위 · 장침",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "레이피어범위 · 장침",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "레이피어범위 · 장침",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "빈 칸",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "레이피어범위 · 장침",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "팔레트 5칸 · 직접 선택",
+      "url": "sketch-v3/index.html?state=craft-five",
+      "initial": {
+        "clipped": [],
+        "focus": "빈 칸"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "빈 칸",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F잉크 선택",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F잉크 선택",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "빈 칸",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "빈 칸",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "빈 칸",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "빈 칸",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "다른 색 잉크 선택",
+      "url": "sketch-v3/index.html?state=craft-ink",
+      "initial": {
+        "clipped": [],
+        "focus": ""
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F돌아가기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F이 칸에 적용",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "기본 공격 가속",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "레이피어범위 · 장침",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "5번째 칸 · 적용한 문양",
+      "url": "sketch-v3/index.html?state=craft-filled",
+      "initial": {
+        "clipped": [],
+        "focus": "상태이상 부여 가속"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "상태이상 부여 가속",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F잉크 다시 선택",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F잉크 다시 선택",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "상태이상 부여 가속",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "상태이상 부여 가속",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "상태이상 부여 가속",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "상태이상 부여 가속",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "제작 확정 · 여러 효과",
+      "url": "sketch-v3/index.html?state=craft-confirm",
+      "initial": {
+        "clipped": [],
+        "focus": "F제작 확정"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F돌아가기",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F돌아가기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F제작 확정",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "기본 공격 가속",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "기본 공격 가속",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "기본 공격 가속",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "기본 공격 가속",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "제작 후 장착 또는 보관",
+      "url": "sketch-v3/index.html?state=equip-new",
+      "initial": {
+        "clipped": [],
+        "focus": "F장착하기"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F보관하기",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F보관하기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F장착하기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F장착하기",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F장착하기",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F장착하기",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "무기 1레이피어",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F장착하기",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "장착하기 선택 후 무기 자리 선택",
+      "url": "sketch-v3/index.html?state=equip-destination",
+      "initial": {
+        "clipped": [],
+        "focus": "무기 1레이피어"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "무기 2빈 자리",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F돌아가기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F선택한 자리에 장착",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "무기 1레이피어",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "무기 1레이피어",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "무기 1레이피어",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F선택한 자리에 장착",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F장착하기",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "장착 무기 · 복수 적용 효과",
+      "url": "sketch-v3/index.html?state=equipment-effects",
+      "initial": {
+        "clipped": [],
+        "focus": "무기 1레이피어"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "무기 2빈 자리",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F이 자리 선택",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F이 자리 선택",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "무기 1레이피어",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "무기 1레이피어",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "무기 1레이피어",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "레이피어63%무기 1 · 장착 중",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "무기 1레이피어",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "장착 중인 무기 교환",
+      "url": "sketch-v3/index.html?state=equipment-swap",
+      "initial": {
+        "clipped": [],
+        "focus": "발사기87%무기 2 · 장착 중"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "기본검100%",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F장착 해제",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F장착",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "레이피어63%무기 1 · 장착 중",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "레이피어63%무기 1 · 장착 중",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "레이피어63%무기 1 · 장착 중",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "레이피어63%무기 1 · 장착 중",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "무기 1레이피어",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "무기 소진 후 빈 자리",
+      "url": "sketch-v3/index.html?state=equipment-empty",
+      "initial": {
+        "clipped": [],
+        "focus": "무기 1빈 자리"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "무기 2빈 자리",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "무기 2빈 자리",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "무기 1빈 자리",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "무기 1빈 자리",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "무기 1빈 자리",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "무기 1빈 자리",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "무기 1빈 자리",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "무기 1빈 자리",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "스케치·잉크 구매",
+      "url": "sketch-v3/index.html?state=shop",
+      "initial": {
+        "clipped": [],
+        "focus": "레이피어350 G"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "발사기450 G",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "스킬 방어막220 G",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "기본 공격 방어막220 G",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "레이피어350 G",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "레이피어350 G",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "레이피어350 G",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "레이피어품절",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "레이피어품절",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "골드 부족",
+      "url": "sketch-v3/index.html?state=shop-poor",
+      "initial": {
+        "clipped": [],
+        "focus": "레이피어350 G"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "발사기450 G",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "스킬 방어막220 G",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "기본 공격 방어막220 G",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "레이피어350 G",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "레이피어350 G",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "레이피어350 G",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "레이피어350 G",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "레이피어350 G",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "구매 완료 · 품절",
+      "url": "sketch-v3/index.html?state=shop-sold",
+      "initial": {
+        "clipped": [],
+        "focus": "레이피어품절"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "발사기450 G",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "스킬 방어막220 G",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "기본 공격 방어막220 G",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "레이피어품절",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "레이피어품절",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "레이피어품절",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "레이피어품절",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "레이피어품절",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "정비소 증강 구매",
+      "url": "sketch-v3/index.html?state=augment",
+      "initial": {
+        "clipped": [],
+        "focus": "F증강 구매 · 60 G"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F보유 증강",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F보유 증강",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F증강 구매 · 60 G",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F증강 구매 · 60 G",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F증강 구매 · 60 G",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F증강 구매 · 60 G",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "큰 글씨도 문제없다효과주는 피해가 12% 증가합니다. 엘리트와 보스에게는 무기 공격 피해가",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F증강 선택 이어가기",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "회복 충전소 팝업 · 길게 누르기",
+      "url": "sketch-v3/index.html?state=recovery",
+      "initial": {
+        "clipped": [],
+        "focus": "F길게 눌러 회복"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F길게 눌러 회복",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F길게 눌러 회복",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F길게 눌러 회복",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F길게 눌러 회복",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F길게 눌러 회복",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "탐험으로 복귀 · 시안에서는 게임 화면만 표시",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "충전소 · 골드 부족",
+      "url": "sketch-v3/index.html?state=recovery-poor",
+      "initial": {
+        "clipped": [],
+        "focus": "F닫기"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "탐험으로 복귀 · 시안에서는 게임 화면만 표시",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "탐험으로 복귀 · 시안에서는 게임 화면만 표시",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "충전소 · 체력 가득",
+      "url": "sketch-v3/index.html?state=recovery-full",
+      "initial": {
+        "clipped": [],
+        "focus": "F닫기"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "탐험으로 복귀 · 시안에서는 게임 화면만 표시",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "탐험으로 복귀 · 시안에서는 게임 화면만 표시",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "충전소 · 소진",
+      "url": "sketch-v3/index.html?state=recovery-empty",
+      "initial": {
+        "clipped": [],
+        "focus": "F닫기"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "탐험으로 복귀 · 시안에서는 게임 화면만 표시",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "탐험으로 복귀 · 시안에서는 게임 화면만 표시",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "일반 사망 결과",
+      "url": "sketch-v3/index.html?state=result",
+      "initial": {
+        "clipped": [],
+        "focus": "F마을로"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F마을로",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F마을로",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F마을로",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F마을로",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F마을로",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F마을로",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F마을로",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F마을로",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "영구 진행 초기화 확인",
+      "url": "sketch-v3/index.html?state=reset-confirm",
+      "initial": {
+        "clipped": [],
+        "focus": "F취소"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F취소",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F취소",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F초기화 확정",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F초기화 확정",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F초기화 확정",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F초기화 확정",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F취소",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F취소",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "보스전 사망 결과",
+      "url": "sketch-v3/index.html?state=result-boss",
+      "initial": {
+        "clipped": [],
+        "focus": "F마을로"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F마을로",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F마을로",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F마을로",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F마을로",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F마을로",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F마을로",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F마을로",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F마을로",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "클리어 결과",
+      "url": "sketch-v3/index.html?state=result-clear",
+      "initial": {
+        "clipped": [],
+        "focus": "F다음 챕터로"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F다음 챕터로",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F다음 챕터로",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F다음 챕터로",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F다음 챕터로",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F다음 챕터로",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F다음 챕터로",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F다음 챕터로",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F다음 챕터로",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "복수 효과 · 아래로 스크롤",
+      "url": "sketch-v3/index.html?state=equipment-scroll",
+      "initial": {
+        "clipped": [],
+        "focus": "무기 1레이피어"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "무기 2빈 자리",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F이 자리 선택",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F이 자리 선택",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "무기 1레이피어",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "무기 1레이피어",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "무기 1레이피어",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "레이피어63%무기 1 · 장착 중",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "무기 1레이피어",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "획득 후 · 계속 뽑기 또는 닫기",
+      "url": "sketch-v3/index.html?state=reward-receipt",
+      "initial": {
+        "clipped": [],
+        "focus": "F계속 뽑기"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F계속 뽑기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F계속 뽑기",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F계속 뽑기",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F계속 뽑기",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "스케치레이피어범위 · 장침긴 찌르기로 전방의 적을 공격합니다.팔레트",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "스케치레이피어범위 · 장침긴 찌르기로 전방의 적을 공격합니다.팔레트",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "영구 성장",
+      "url": "sketch-v3/index.html?state=permanent",
+      "initial": {
+        "clipped": [],
+        "focus": "공격력2 / 8"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F해금 · 65 안료",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F해금 · 65 안료",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "공격력3 / 8",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F기록 읽기",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "마법안료 부족",
+      "url": "sketch-v3/index.html?state=permanent-poor",
+      "initial": {
+        "clipped": [],
+        "focus": "공격력2 / 8"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "공격력2 / 8",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "최대 체력2 / 8",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F기록 읽기",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "선행 조건 미충족",
+      "url": "sketch-v3/index.html?state=permanent-locked",
+      "initial": {
+        "clipped": [],
+        "focus": "대시 추가0 / 1"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F기록 읽기",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "공방 · 출발 지원금 가격 반영",
+      "url": "sketch-v3/index.html?state=permanent-unknown",
+      "initial": {
+        "clipped": [],
+        "focus": "출발 지원금1 / 4"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F해금 · 90 안료",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F해금 · 90 안료",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "출발 지원금2 / 4",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F기록 읽기",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "가방 · 분류 탭 선택",
+      "url": "sketch-v3/index.html?state=bag-category-focus",
+      "initial": {
+        "clipped": [],
+        "focus": "스케치"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "잉크",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "스케치",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "스케치",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "스케치",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "장비 · 이름 변경 / 내구도",
+      "url": "sketch-v3/index.html?state=equipment-renamed",
+      "initial": {
+        "clipped": [],
+        "focus": "무기 1기절 연계와 연속 공격을 위한 레이피"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "무기 2빈 자리",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F이 자리 선택",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F이 자리 선택",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "무기 1기절 연계와 연속 공격을 위한 레이피",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "무기 1기절 연계와 연속 공격을 위한 레이피",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "무기 1기절 연계와 연속 공격을 위한 레이피",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "기절 연계와 연속 공격을 위한 레이피63%무기 1 · 장착 중",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "무기 1기절 연계와 연속 공격을 위한 레이피",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "마을 장인 · 대화 진행",
+      "url": "sketch-v3/index.html?state=dialogue",
+      "initial": {
+        "clipped": [],
+        "focus": "F다음"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F다음",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F다음",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F다음",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F다음",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F다음",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F기록 읽기",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "마을 장인 · 마지막 대사",
+      "url": "sketch-v3/index.html?state=dialogue-last",
+      "initial": {
+        "clipped": [],
+        "focus": "F대화 마치기"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F대화 마치기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F대화 마치기",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F대화 마치기",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F대화 마치기",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F기록 읽기",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "탐험으로 복귀 · 시안에서는 게임 화면만 표시",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "기록 농가 · 조사 기록",
+      "url": "sketch-v3/index.html?state=records",
+      "initial": {
+        "clipped": [],
+        "focus": "F다음"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F다음",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F다음",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F다음",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F다음",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F이전",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F다음",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "기록 농가 · 새 기록 안내",
+      "url": "sketch-v3/index.html?state=village-record",
+      "initial": {
+        "clipped": [],
+        "focus": "F기록 읽기"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F살펴보기",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F살펴보기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F기록 읽기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F기록 읽기",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F기록 읽기",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F기록 읽기",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F다음",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F기록 읽기",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "우물 · 미사용 잉크 안내",
+      "url": "sketch-v3/index.html?state=village-well",
+      "initial": {
+        "clipped": [],
+        "focus": "F살펴보기"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F공방 열기",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F공방 열기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F살펴보기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F살펴보기",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F살펴보기",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F살펴보기",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F잉크 붓기",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F살펴보기",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "장인의 공방 · 통합 상호작용",
+      "url": "sketch-v3/index.html?state=village-workshop",
+      "initial": {
+        "clipped": [],
+        "focus": "F공방 열기"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F출발하기",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F출발하기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F공방 열기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F공방 열기",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F공방 열기",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F공방 열기",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "공격력2 / 8",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F공방 열기",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "출발 이정표 · 상호작용",
+      "url": "sketch-v3/index.html?state=village-exit",
+      "initial": {
+        "clipped": [],
+        "focus": "F출발하기"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F기록 읽기",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F기록 읽기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F출발하기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F출발하기",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F출발하기",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F출발하기",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "1챕터로 출발 · 실제 씬 이동은 Unity에서 연결",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "탐험으로 복귀 · 시안에서는 게임 화면만 표시",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "우물 · 마을 잉크 사용",
+      "url": "sketch-v3/index.html?state=well",
+      "initial": {
+        "clipped": [],
+        "focus": "F잉크 붓기"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F잉크 붓기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F잉크 붓기",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F잉크 붓기",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F잉크 붓기",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F확인",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F기록 읽기",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "우물 · 미사용 잉크 없음",
+      "url": "sketch-v3/index.html?state=well-empty",
+      "initial": {
+        "clipped": [],
+        "focus": "F닫기"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F기록 읽기",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "탐험으로 복귀 · 시안에서는 게임 화면만 표시",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "기록 농가 · 수첩 삽화",
+      "url": "sketch-v3/index.html?state=records-notebook",
+      "initial": {
+        "clipped": [],
+        "focus": "F이전"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F이전",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F이전",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F이전",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F이전",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F다음",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F기록 읽기",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "기록 농가 · 수첩 발견 전",
+      "url": "sketch-v3/index.html?state=records-undiscovered",
+      "initial": {
+        "clipped": [],
+        "focus": "F닫기"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F기록 읽기",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "탐험으로 복귀 · 시안에서는 게임 화면만 표시",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "공방 · 첫 정산 전",
+      "url": "sketch-v3/index.html?state=permanent-first",
+      "initial": {
+        "clipped": [],
+        "focus": "공격력0 / 8"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "공격력0 / 8",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "최대 체력0 / 8",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F기록 읽기",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "공방 · 출발 지원금",
+      "url": "sketch-v3/index.html?state=permanent-gold",
+      "initial": {
+        "clipped": [],
+        "focus": "출발 지원금1 / 4"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F해금 · 90 안료",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F해금 · 90 안료",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "출발 지원금2 / 4",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F기록 읽기",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "공방 · 지원금 3단계 잠금",
+      "url": "sketch-v3/index.html?state=permanent-gold-locked",
+      "initial": {
+        "clipped": [],
+        "focus": "출발 지원금2 / 4"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "출발 지원금2 / 4",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F기록 읽기",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "공방 · 1챕터 조건",
+      "url": "sketch-v3/index.html?state=permanent-ch1",
+      "initial": {
+        "clipped": [],
+        "focus": "공격력4 / 8"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "공격력4 / 8",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "최대 체력2 / 8",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "최대 체력3 / 8",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F기록 읽기",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "공방 · 2챕터 조건",
+      "url": "sketch-v3/index.html?state=permanent-ch2",
+      "initial": {
+        "clipped": [],
+        "focus": "공격력6 / 8"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "공격력6 / 8",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "최대 체력2 / 8",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "최대 체력3 / 8",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F기록 읽기",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "공방 · 대시 추가 구매 가능",
+      "url": "sketch-v3/index.html?state=permanent-dash-ready",
+      "initial": {
+        "clipped": [],
+        "focus": "대시 추가0 / 1"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F해금 · 400 안료",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F해금 · 400 안료",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "대시 추가최대 단계",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F기록 읽기",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "공방 · 대시 추가 해금 완료",
+      "url": "sketch-v3/index.html?state=permanent-dash-owned",
+      "initial": {
+        "clipped": [],
+        "focus": "대시 추가최대 단계"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "대시 추가최대 단계",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "대시 추가최대 단계",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "대시 추가최대 단계",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "대시 추가최대 단계",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "대시 추가최대 단계",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F기록 읽기",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "공방 · 최대 단계",
+      "url": "sketch-v3/index.html?state=permanent-max",
+      "initial": {
+        "clipped": [],
+        "focus": "공격력최대 단계"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "공격력최대 단계",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "최대 체력2 / 8",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "대시 추가0 / 1",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "최대 체력3 / 8",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F기록 읽기",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "기록 농가 · 최초 조사 기록",
+      "url": "sketch-v3/index.html?state=records-first",
+      "initial": {
+        "clipped": [],
+        "focus": "F닫기"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F기록 읽기",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "탐험으로 복귀 · 시안에서는 게임 화면만 표시",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "잠긴 상자 · 열쇠 보유",
+      "url": "sketch-v3/index.html?state=chest-key",
+      "initial": {
+        "clipped": [],
+        "focus": "F상자 열기"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F상자 열기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F상자 열기",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F상자 열기",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F상자 열기",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "탐험으로 복귀 · 시안에서는 게임 화면만 표시",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "잠긴 상자 · 열쇠 없음",
+      "url": "sketch-v3/index.html?state=chest-no-key",
+      "initial": {
+        "clipped": [],
+        "focus": "F닫기"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "탐험으로 복귀 · 시안에서는 게임 화면만 표시",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "탐험으로 복귀 · 시안에서는 게임 화면만 표시",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "첫 제작 안내",
+      "url": "sketch-v3/index.html?state=guide",
+      "initial": {
+        "clipped": [],
+        "focus": "F다음"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F다음",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F다음",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F다음",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F다음",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F제작으로",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F다음",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "내구도·무기 소진 안내",
+      "url": "sketch-v3/index.html?state=guide-durability",
+      "initial": {
+        "clipped": [],
+        "focus": "F제작으로"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F제작으로",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F제작으로",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F제작으로",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F제작으로",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "레이피어범위 · 장침",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "레이피어범위 · 장침",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "마을 · 붉은색 복원",
+      "url": "sketch-v3/index.html?state=restoration",
+      "initial": {
+        "clipped": [],
+        "focus": "F확인"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F확인",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F확인",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F확인",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F확인",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F확인",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F확인",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F기록 읽기",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "탐험으로 복귀 · 시안에서는 게임 화면만 표시",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "하늘길 · 최고 기록과 최근 10회",
+      "url": "sketch-v3/index.html?state=sky",
+      "initial": {
+        "clipped": [],
+        "focus": "F닫기"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "탐험으로 복귀 · 시안에서는 게임 화면만 표시",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "탐험으로 복귀 · 시안에서는 게임 화면만 표시",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "전체 지도 · 새 시안",
+      "url": "full-map-v1/index.html?",
+      "initial": {
+        "clipped": [],
+        "focus": "지도1챕터일시정지　 |　 M / Esc닫기\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n정"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "지도1챕터일시정지　 |　 M / Esc닫기\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n정비소\n\n현",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "지도1챕터일시정지　 |　 M / Esc닫기\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n정비소\n\n현",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "지도1챕터일시정지　 |　 M / Esc닫기\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n정비소\n\n현",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "지도1챕터일시정지　 |　 M / Esc닫기\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n정비소\n\n현",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "지도1챕터일시정지　 |　 M / Esc닫기\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n정비소\n\n현",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "지도1챕터일시정지　 |　 M / Esc닫기\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n정비소\n\n현",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "지도1챕터일시정지　 |　 M / Esc닫기\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n정비소\n\n현",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "지도1챕터일시정지　 |　 M / Esc닫기\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n정비소\n\n현",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "지도 · 200% 확대",
+      "url": "full-map-v1/index.html?zoom=2",
+      "initial": {
+        "clipped": [],
+        "focus": "지도1챕터일시정지　 |　 M / Esc닫기\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n정"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "지도1챕터일시정지　 |　 M / Esc닫기\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n정비소\n\n현",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "지도1챕터일시정지　 |　 M / Esc닫기\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n정비소\n\n현",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "지도1챕터일시정지　 |　 M / Esc닫기\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n정비소\n\n현",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "지도1챕터일시정지　 |　 M / Esc닫기\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n정비소\n\n현",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "지도1챕터일시정지　 |　 M / Esc닫기\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n정비소\n\n현",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "지도1챕터일시정지　 |　 M / Esc닫기\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n정비소\n\n현",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "지도1챕터일시정지　 |　 M / Esc닫기\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n정비소\n\n현",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "지도1챕터일시정지　 |　 M / Esc닫기\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n정비소\n\n현",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "전투 · 일시정지",
+      "url": "pause-menu-v1/index.html?context=combat",
+      "initial": {
+        "clipped": [],
+        "focus": "일시정지Esc 계속하기F계속하기F설정F조작 안내F마을로 돌아가기↑ ↓이동　 F선택"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "일시정지Esc 계속하기F계속하기F설정F조작 안내F마을로 돌아가기↑ ↓이동　 F선택\ncons",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "일시정지Esc 계속하기F계속하기F설정F조작 안내F마을로 돌아가기↑ ↓이동　 F선택\ncons",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "일시정지Esc 계속하기F계속하기F설정F조작 안내F마을로 돌아가기↑ ↓이동　 F선택\ncons",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "일시정지Esc 계속하기F계속하기F설정F조작 안내F마을로 돌아가기↑ ↓이동　 F선택\ncons",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "일시정지Esc 계속하기F계속하기F설정F조작 안내F마을로 돌아가기↑ ↓이동　 F선택\ncons",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "일시정지Esc 계속하기F계속하기F설정F조작 안내F마을로 돌아가기↑ ↓이동　 F선택\ncons",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "게임 화면으로 복귀디자인 검토용 · 실제 게임에는 연결되지 않았습니다.F일시정지 시안 다시",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "일시정지Esc 계속하기F계속하기F설정F조작 안내F마을로 돌아가기↑ ↓이동　 F선택\ncons",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "마을 · 일시정지",
+      "url": "pause-menu-v1/index.html?context=village",
+      "initial": {
+        "clipped": [],
+        "focus": "일시정지Esc 계속하기F계속하기F설정F조작 안내F게임 초기화F타이틀로↑ ↓이동　 "
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "일시정지Esc 계속하기F계속하기F설정F조작 안내F게임 초기화F타이틀로↑ ↓이동　 F선택\nc",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "일시정지Esc 계속하기F계속하기F설정F조작 안내F게임 초기화F타이틀로↑ ↓이동　 F선택\nc",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "일시정지Esc 계속하기F계속하기F설정F조작 안내F게임 초기화F타이틀로↑ ↓이동　 F선택\nc",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "일시정지Esc 계속하기F계속하기F설정F조작 안내F게임 초기화F타이틀로↑ ↓이동　 F선택\nc",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "일시정지Esc 계속하기F계속하기F설정F조작 안내F게임 초기화F타이틀로↑ ↓이동　 F선택\nc",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "일시정지Esc 계속하기F계속하기F설정F조작 안내F게임 초기화F타이틀로↑ ↓이동　 F선택\nc",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "게임 화면으로 복귀디자인 검토용 · 실제 게임에는 연결되지 않았습니다.F일시정지 시안 다시",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "일시정지Esc 계속하기F계속하기F설정F조작 안내F게임 초기화F타이틀로↑ ↓이동　 F선택\nc",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "조작 안내",
+      "url": "pause-menu-v1/index.html?view=help",
+      "initial": {
+        "clipped": [],
+        "focus": "조작 안내Esc 뒤로이동이동←→점프 · 2단 점프Space대시Shift발판 내려가"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "조작 안내Esc 뒤로이동이동←→점프 · 2단 점프Space대시Shift발판 내려가기↓Spa",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "조작 안내Esc 뒤로이동이동←→점프 · 2단 점프Space대시Shift발판 내려가기↓Spa",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "조작 안내Esc 뒤로이동이동←→점프 · 2단 점프Space대시Shift발판 내려가기↓Spa",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "조작 안내Esc 뒤로이동이동←→점프 · 2단 점프Space대시Shift발판 내려가기↓Spa",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "조작 안내Esc 뒤로이동이동←→점프 · 2단 점프Space대시Shift발판 내려가기↓Spa",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "조작 안내Esc 뒤로이동이동←→점프 · 2단 점프Space대시Shift발판 내려가기↓Spa",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "조작 안내Esc 뒤로이동이동←→점프 · 2단 점프Space대시Shift발판 내려가기↓Spa",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "일시정지Esc 계속하기F계속하기F설정F조작 안내F마을로 돌아가기↑ ↓이동　 F선택\ncons",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "도전 종료 · 마을 복귀 확인",
+      "url": "pause-menu-v1/index.html?view=confirm",
+      "initial": {
+        "clipped": [],
+        "focus": "마을로 돌아가기Esc 뒤로이번 도전을 마칠까요?현재 도전의 진행 상황과이번 런에서"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "마을로 돌아가기Esc 뒤로이번 도전을 마칠까요?현재 도전의 진행 상황과이번 런에서 획득한 ",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "마을로 돌아가기Esc 뒤로이번 도전을 마칠까요?현재 도전의 진행 상황과이번 런에서 획득한 ",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "마을로 돌아가기Esc 뒤로이번 도전을 마칠까요?현재 도전의 진행 상황과이번 런에서 획득한 ",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "마을로 돌아가기Esc 뒤로이번 도전을 마칠까요?현재 도전의 진행 상황과이번 런에서 획득한 ",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "마을로 돌아가기Esc 뒤로이번 도전을 마칠까요?현재 도전의 진행 상황과이번 런에서 획득한 ",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "마을로 돌아가기Esc 뒤로이번 도전을 마칠까요?현재 도전의 진행 상황과이번 런에서 획득한 ",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "일시정지Esc 계속하기F계속하기F설정F조작 안내F마을로 돌아가기↑ ↓이동　 F선택\ncons",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "게임 화면으로 복귀디자인 검토용 · 실제 게임에는 연결되지 않았습니다.F일시정지 시안 다시",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "소리 설정",
+      "url": "settings-v1/index.html?tab=sound",
+      "initial": {
+        "clipped": [],
+        "focus": "소리"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "소리",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "조작",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "조작",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "소리",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "소리",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "소리",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "소리",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "화면 설정",
+      "url": "settings-v1/index.html?tab=display&state=changed",
+      "initial": {
+        "clipped": [],
+        "focus": "설정닫기화면소리조작화면 표시창 모드←테두리 없는 창→해상도←1920 × 1080→"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "설정닫기화면소리조작화면 표시창 모드←테두리 없는 창→해상도←1920 × 1080→F적용변경",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "화면",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "화면",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "조작",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "조작",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "조작",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F계속 설정",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "조작",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "조작 설정 · 이동 / 스크롤 상단",
+      "url": "settings-v1/index.html?tab=controls",
+      "initial": {
+        "clipped": [],
+        "focus": "조작"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "조작",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "화면",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "화면",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "조작",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "조작",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "조작",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F왼쪽 이동←",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "조작",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "조작 설정 · 전투 / 스크롤 중간",
+      "url": "settings-v1/index.html?tab=controls&scroll=combat",
+      "initial": {
+        "clipped": [],
+        "focus": "조작"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "조작",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "화면",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "화면",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "조작",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "조작",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "조작",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F왼쪽 이동←",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "조작",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "조작 설정 · 탐험 / 스크롤 하단",
+      "url": "settings-v1/index.html?tab=controls&scroll=bottom",
+      "initial": {
+        "clipped": [],
+        "focus": "조작"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "조작",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "화면",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "화면",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "조작",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "조작",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "조작",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F왼쪽 이동←",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "조작",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "조작키 변경",
+      "url": "settings-v1/index.html?tab=controls&state=rebind",
+      "initial": {
+        "clipped": [],
+        "focus": "무기 1 · 기본 공격새 키를 누르세요"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "무기 1 · 기본 공격새 키를 누르세요",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "무기 1 · 기본 공격새 키를 누르세요",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "무기 1 · 기본 공격새 키를 누르세요",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "무기 1 · 기본 공격새 키를 누르세요",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F무기 1 · 기본 공격S",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F무기 1 · 기본 공격S",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F왼쪽 이동←",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "조작",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "화면 적용 확인",
+      "url": "settings-v1/index.html?tab=display&state=confirm",
+      "initial": {
+        "clipped": [],
+        "focus": "F되돌리기"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F되돌리기",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F되돌리기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F되돌리기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F되돌리기",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F되돌리기",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F되돌리기",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "←",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "←",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "일반 보상 · 7회 이후",
+      "url": "sketch-v3/index.html?state=reward-seven",
+      "initial": {
+        "clipped": [],
+        "focus": "스케치레이피어범위 · 장침긴 찌르기로 전방의 적을 공격합니다.팔레트"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "잉크스위칭 중독스위칭 공격 시 적을 4초 동안 중독시켜, 0.3초마다 1의 피해를 줍니다.",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F선택한 보상 획득",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F선택한 보상 획득",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "잉크스위칭 중독스위칭 공격 시 적을 4초 동안 중독시켜, 0.3초마다 1의 피해를 줍니다.",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "잉크스위칭 중독스위칭 공격 시 적을 4초 동안 중독시켜, 0.3초마다 1의 피해를 줍니다.",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "잉크스위칭 중독스위칭 공격 시 적을 4초 동안 중독시켜, 0.3초마다 1의 피해를 줍니다.",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F계속 뽑기",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F보상 열기",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "일반 보상 · 잉크 전종 보유",
+      "url": "sketch-v3/index.html?state=reward-all-inks",
+      "initial": {
+        "clipped": [],
+        "focus": "스케치레이피어범위 · 장침긴 찌르기로 전방의 적을 공격합니다.팔레트"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "스케치발사기기본 · 모아쏘기힘을 모아 강한 탄환을 발사합니다.팔레트",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F선택한 보상 획득",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F선택한 보상 획득",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "스케치발사기기본 · 모아쏘기힘을 모아 강한 탄환을 발사합니다.팔레트",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "스케치발사기기본 · 모아쏘기힘을 모아 강한 탄환을 발사합니다.팔레트",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "스케치발사기기본 · 모아쏘기힘을 모아 강한 탄환을 발사합니다.팔레트",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F계속 뽑기",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F보상 열기",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "일반 보상 · 스케치 최소 획득 보장",
+      "url": "sketch-v3/index.html?state=reward-guarantee",
+      "initial": {
+        "clipped": [],
+        "focus": "스케치레이피어범위 · 장침긴 찌르기로 전방의 적을 공격합니다.팔레트"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "스케치발사기기본 · 모아쏘기힘을 모아 강한 탄환을 발사합니다.팔레트",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F선택한 보상 획득",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F선택한 보상 획득",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "스케치발사기기본 · 모아쏘기힘을 모아 강한 탄환을 발사합니다.팔레트",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "스케치발사기기본 · 모아쏘기힘을 모아 강한 탄환을 발사합니다.팔레트",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "스케치발사기기본 · 모아쏘기힘을 모아 강한 탄환을 발사합니다.팔레트",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F계속 뽑기",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F보상 열기",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "보스 보상 · 두 번째 잉크",
+      "url": "sketch-v3/index.html?state=boss-last",
+      "initial": {
+        "clipped": [],
+        "focus": "잉크스킬 속박스킬 공격 시 적을 1초 동안 속박합니다. 쿨타임 6초."
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "잉크기본 공격 회복기본 공격 시 체력을 3 회복합니다. 쿨타임 6초.",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F선택한 보상 획득",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F선택한 보상 획득",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "잉크기본 공격 회복기본 공격 시 체력을 3 회복합니다. 쿨타임 6초.",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "잉크기본 공격 회복기본 공격 시 체력을 3 회복합니다. 쿨타임 6초.",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "잉크기본 공격 회복기본 공격 시 체력을 3 회복합니다. 쿨타임 6초.",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "보상 기회 +1",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "이스터에그 · 모든 잉크 수집 축하",
+      "url": "sketch-v3/index.html?state=boss-all-inks",
+      "initial": {
+        "clipped": [],
+        "focus": "F닫기"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F닫기",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F보상 열기",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F보상 열기",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "미적용 설정 확인",
+      "url": "settings-v1/index.html?state=unsaved",
+      "initial": {
+        "clipped": [],
+        "focus": "F계속 설정"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F계속 설정",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F계속 설정",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F계속 설정",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F계속 설정",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F계속 설정",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F계속 설정",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "소리",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F계속 설정",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "기본 조작키 복원 확인",
+      "url": "settings-v1/index.html?state=reset-confirm",
+      "initial": {
+        "clipped": [],
+        "focus": "F취소"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F취소",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F취소",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F취소",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F취소",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F취소",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F취소",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F왼쪽 이동←",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "조작",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "타이틀 복귀 확인",
+      "url": "pause-menu-v1/index.html?context=village&view=title",
+      "initial": {
+        "clipped": [],
+        "focus": "타이틀로 돌아가기Esc 뒤로타이틀로 돌아갈까요?현재 마을을 나가 타이틀 화면으로 "
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "타이틀로 돌아가기Esc 뒤로타이틀로 돌아갈까요?현재 마을을 나가 타이틀 화면으로 이동합니다",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "타이틀로 돌아가기Esc 뒤로타이틀로 돌아갈까요?현재 마을을 나가 타이틀 화면으로 이동합니다",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "타이틀로 돌아가기Esc 뒤로타이틀로 돌아갈까요?현재 마을을 나가 타이틀 화면으로 이동합니다",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "타이틀로 돌아가기Esc 뒤로타이틀로 돌아갈까요?현재 마을을 나가 타이틀 화면으로 이동합니다",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "타이틀로 돌아가기Esc 뒤로타이틀로 돌아갈까요?현재 마을을 나가 타이틀 화면으로 이동합니다",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "타이틀로 돌아가기Esc 뒤로타이틀로 돌아갈까요?현재 마을을 나가 타이틀 화면으로 이동합니다",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "일시정지Esc 계속하기F계속하기F설정F조작 안내F게임 초기화F타이틀로↑ ↓이동　 F선택\nc",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "게임 화면으로 복귀디자인 검토용 · 실제 게임에는 연결되지 않았습니다.F일시정지 시안 다시",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "잉크 43종 · 실제 설명·4열 목록",
+      "url": "sketch-v3/index.html?state=bag-all-inks",
+      "initial": {
+        "clipped": [],
+        "focus": ""
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "6칸 제작 · 팔레트 가로 스크롤",
+      "url": "sketch-v3/index.html?state=craft-six",
+      "initial": {
+        "clipped": [],
+        "focus": "빈 칸"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "빈 칸",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F잉크 선택",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F잉크 선택",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "빈 칸",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "빈 칸",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "빈 칸",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "빈 칸",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "잉크 미보유 · 빈 칸 제작",
+      "url": "sketch-v3/index.html?state=craft-no-inks",
+      "initial": {
+        "clipped": [],
+        "focus": "빈 칸"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "빈 칸",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "빈 칸",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "빈 칸",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "빈 칸",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "빈 칸",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "빈 칸",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "빈 칸",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "레이피어범위 · 장침",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "전부 빈 칸 · 제작 확정",
+      "url": "sketch-v3/index.html?state=craft-empty-confirm",
+      "initial": {
+        "clipped": [],
+        "focus": "F제작 확정"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F돌아가기",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F돌아가기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F제작 확정",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "빈 칸",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "빈 칸",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "빈 칸",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "빈 칸",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "임시 배치 후 재진입",
+      "url": "sketch-v3/index.html?state=craft-resume",
+      "initial": {
+        "clipped": [],
+        "focus": "기본 공격 가속"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "빈 칸",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F잉크 선택",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F잉크 선택",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "빈 칸",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "빈 칸",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "빈 칸",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "빈 칸",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "6칸·여러 실제 효과·긴 이름",
+      "url": "sketch-v3/index.html?state=equipment-six",
+      "initial": {
+        "clipped": [],
+        "focus": "무기 1기절 연계와 연속 공격을 위한 레이피"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "무기 2발사기",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F장착 해제",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F이 자리 선택",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "무기 1기절 연계와 연속 공격을 위한 레이피",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "무기 1기절 연계와 연속 공격을 위한 레이피",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "무기 1기절 연계와 연속 공격을 위한 레이피",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "기절 연계와 연속 공격을 위한 레이피42%무기 1 · 장착 중",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "무기 1기절 연계와 연속 공격을 위한 레이피",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "교체·해제 공유 10초 대기",
+      "url": "sketch-v3/index.html?state=equipment-wait",
+      "initial": {
+        "clipped": [],
+        "focus": "기본검100%"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "이름 변경",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "기본검100%",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "발사기87%무기 2 · 장착 중",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "무기 2발사기",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "무기 2발사기",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "무기 2발사기",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "발사기87%무기 2 · 장착 중",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "무기 2발사기",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "대기 중 두 무기 자리 교환",
+      "url": "sketch-v3/index.html?state=equipment-wait-swap",
+      "initial": {
+        "clipped": [],
+        "focus": "발사기87%무기 2 · 장착 중"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "기본검100%",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "기본검100%",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "발사기87%무기 2 · 장착 중",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "무기 2발사기",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "무기 2발사기",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "무기 2발사기",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "발사기87%무기 2 · 장착 중",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "무기 2발사기",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "2챕터 실제 가격",
+      "url": "sketch-v3/index.html?state=shop-ch2",
+      "initial": {
+        "clipped": [],
+        "focus": "레이피어1055 G"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "발사기1230 G",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "스킬 방어막400 G",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "기본 공격 방어막400 G",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "레이피어1055 G",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "레이피어1055 G",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "레이피어1055 G",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "레이피어1055 G",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "레이피어1055 G",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "3챕터 가격 미정 · 구매 불가",
+      "url": "sketch-v3/index.html?state=shop-ch3",
+      "initial": {
+        "clipped": [],
+        "focus": "레이피어가격 미정"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "발사기가격 미정",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "스킬 방어막가격 미정",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "기본 공격 방어막가격 미정",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "레이피어가격 미정",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "레이피어가격 미정",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "레이피어가격 미정",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "레이피어가격 미정",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "레이피어가격 미정",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "진열할 미획득 잉크 없음",
+      "url": "sketch-v3/index.html?state=shop-no-inks",
+      "initial": {
+        "clipped": [],
+        "focus": "—미획득 잉크 없음진열 없음"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "—미획득 잉크 없음진열 없음",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "—미획득 잉크 없음진열 없음",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "—미획득 잉크 없음진열 없음",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "레이피어350 G",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "레이피어350 G",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "레이피어350 G",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "레이피어품절",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "레이피어품절",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "다른 경로로 획득한 잉크 재진열",
+      "url": "sketch-v3/index.html?state=shop-refresh",
+      "initial": {
+        "clipped": [],
+        "focus": "레이피어350 G"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "발사기450 G",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "스킬 방어막220 G",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "대쉬 방어막220 G",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "레이피어350 G",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "레이피어350 G",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "레이피어350 G",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "레이피어품절",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "레이피어품절",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "실제 증강 · 안정형 1·도박형 2",
+      "url": "sketch-v3/index.html?state=augment-choose",
+      "initial": {
+        "clipped": [],
+        "focus": "끝까지 읽기효과주는 피해가 12% 증가합니다. 체력이 30% 이하인 적에게는 피해"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "대용량 잉크병효과최대 체력이 100% 증가합니다.대가모든 체력 회복량이 50% 줄어듭니다.",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F나중에 선택",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F선택한 증강 획득",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "끝까지 읽기효과주는 피해가 12% 증가합니다. 체력이 30% 이하인 적에게는 피해가 추가로",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "끝까지 읽기효과주는 피해가 12% 증가합니다. 체력이 30% 이하인 적에게는 피해가 추가로",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "끝까지 읽기효과주는 피해가 12% 증가합니다. 체력이 30% 이하인 적에게는 피해가 추가로",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F확인",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F증강 구매 · 90 G",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "결제 후 선택 대기 · 동일 후보 유지",
+      "url": "sketch-v3/index.html?state=augment-pending",
+      "initial": {
+        "clipped": [],
+        "focus": "F증강 선택 이어가기"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F보유 증강",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F보유 증강",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F증강 선택 이어가기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F증강 선택 이어가기",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F증강 선택 이어가기",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F증강 선택 이어가기",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "끝까지 읽기효과주는 피해가 12% 증가합니다. 체력이 30% 이하인 적에게는 피해가 추가로",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F증강 선택 이어가기",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "증강 구매 · 골드 부족",
+      "url": "sketch-v3/index.html?state=augment-poor",
+      "initial": {
+        "clipped": [],
+        "focus": "F보유 증강"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F보유 증강",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F보유 증강",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F보유 증강",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F보유 증강",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F보유 증강",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F보유 증강",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F돌아가기",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F보유 증강",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "증강 구매 · 최대 10회",
+      "url": "sketch-v3/index.html?state=augment-max",
+      "initial": {
+        "clipped": [],
+        "focus": "F보유 증강"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F보유 증강",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F보유 증강",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F보유 증강",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F보유 증강",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F보유 증강",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F보유 증강",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F돌아가기",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F보유 증강",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "증강 구매 · 후보 부족",
+      "url": "sketch-v3/index.html?state=augment-shortage",
+      "initial": {
+        "clipped": [],
+        "focus": "F보유 증강"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F보유 증강",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F보유 증강",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F보유 증강",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F보유 증강",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F보유 증강",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F보유 증강",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F돌아가기",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F보유 증강",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "봉인 도전 · 12종 별도 후보",
+      "url": "sketch-v3/index.html?state=augment-seal",
+      "initial": {
+        "clipped": [],
+        "focus": "치명타효과15% 확률로 피해 2배0 / 3중첩"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "이동 속도효과이동 속도 +10%0 / 3중첩",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F나중에 선택",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F선택한 증강 획득",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "치명타효과15% 확률로 피해 2배0 / 3중첩",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "치명타효과15% 확률로 피해 2배0 / 3중첩",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "치명타효과15% 확률로 피해 2배0 / 3중첩",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F확인",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F보상 열기",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "보유 증강 · 효과·중첩 확인",
+      "url": "sketch-v3/index.html?state=augment-owned",
+      "initial": {
+        "clipped": [],
+        "focus": "F돌아가기"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "F돌아가기",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F돌아가기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F돌아가기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F돌아가기",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F돌아가기",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F돌아가기",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "F증강 구매 · 60 G",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "F증강 구매 · 60 G",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "색상 일치 · 실제 강화 수치",
+      "url": "sketch-v3/index.html?state=craft-match",
+      "initial": {
+        "clipped": [],
+        "focus": ""
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F돌아가기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F이 칸에 적용",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "기본 공격 가속",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "레이피어범위 · 장침",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "다른 색 적용 · 기본 수치",
+      "url": "sketch-v3/index.html?state=craft-unmatched",
+      "initial": {
+        "clipped": [],
+        "focus": ""
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F돌아가기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F이 칸에 적용",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "기본 공격 가속",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "레이피어범위 · 장침",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "검토안 · 맵 상품 3개·근접 설명·구매",
+      "url": "sketch-v3/index.html?state=shop-world",
+      "initial": {
+        "clipped": [],
+        "focus": "220 G"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "600 G",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "600 G",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "220 G",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "F구매 · 220 G",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "F구매 · 220 G",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "F구매 · 220 G",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "품절",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "품절",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "검토안 · 맵 상점 골드 부족",
+      "url": "sketch-v3/index.html?state=shop-world-poor",
+      "initial": {
+        "clipped": [],
+        "focus": "220 G"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "600 G",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "600 G",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "220 G",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "220 G",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "220 G",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "220 G",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "220 G",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "220 G",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "검토안 · 맵 상점 품절",
+      "url": "sketch-v3/index.html?state=shop-world-sold",
+      "initial": {
+        "clipped": [],
+        "focus": "품절"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "600 G",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "600 G",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "품절",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "품절",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "품절",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "품절",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "품절",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "품절",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "잉크 설명 · 트리거·효과 색상 기준",
+      "url": "sketch-v3/index.html?state=ink-color-rule",
+      "initial": {
+        "clipped": [],
+        "focus": ""
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "제작 · 일치 효과·적용 수치",
+      "url": "sketch-v3/index.html?state=craft-color-rule",
+      "initial": {
+        "clipped": [],
+        "focus": ""
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "F돌아가기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "F이 칸에 적용",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "스위칭 가속",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "레이피어범위 · 장침",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "무기 이름 변경 · 축소·테마 프레임",
+      "url": "sketch-v3/index.html?state=equipment-rename-dialog",
+      "initial": {
+        "clipped": [],
+        "focus": ""
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "Enter저장",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "Enter저장",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "무기 1레이피어",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "봉인 도전 · 시작",
+      "url": "world-flows-v1/index.html?state=seal",
+      "initial": {
+        "clipped": [],
+        "focus": "봉인 도전석판을 깨우면 도전이 시작됩니다.F도전 시작시안 봉인 도전 · 시작봉인 "
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "봉인 도전석판을 깨우면 도전이 시작됩니다.F도전 시작시안 봉인 도전 · 시작봉인 도전 · ",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "봉인 도전석판을 깨우면 도전이 시작됩니다.F도전 시작시안 봉인 도전 · 시작봉인 도전 · ",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "봉인 도전석판을 깨우면 도전이 시작됩니다.F도전 시작시안 봉인 도전 · 시작봉인 도전 · ",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "봉인 도전석판을 깨우면 도전이 시작됩니다.F도전 시작시안 봉인 도전 · 시작봉인 도전 · ",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "봉인 도전석판을 깨우면 도전이 시작됩니다.F도전 시작시안 봉인 도전 · 시작봉인 도전 · ",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "봉인 도전석판을 깨우면 도전이 시작됩니다.F도전 시작시안 봉인 도전 · 시작봉인 도전 · ",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "봉인 도전 · 진행",
+      "url": "world-flows-v1/index.html?state=seal-progress",
+      "initial": {
+        "clipped": [],
+        "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "봉인 도전 · 완료와 상자",
+      "url": "world-flows-v1/index.html?state=seal-complete",
+      "initial": {
+        "clipped": [],
+        "focus": "봉인이 풀렸습니다보상 상자를 열어 증강을 선택하세요.F증강 상자 열기시안 봉인 도"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "봉인이 풀렸습니다보상 상자를 열어 증강을 선택하세요.F증강 상자 열기시안 봉인 도전 · 시",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "봉인이 풀렸습니다보상 상자를 열어 증강을 선택하세요.F증강 상자 열기시안 봉인 도전 · 시",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "봉인이 풀렸습니다보상 상자를 열어 증강을 선택하세요.F증강 상자 열기시안 봉인 도전 · 시",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "봉인이 풀렸습니다보상 상자를 열어 증강을 선택하세요.F증강 상자 열기시안 봉인 도전 · 시",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "봉인이 풀렸습니다보상 상자를 열어 증강을 선택하세요.F증강 상자 열기시안 봉인 도전 · 시",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "봉인이 풀렸습니다보상 상자를 열어 증강을 선택하세요.F증강 상자 열기시안 봉인 도전 · 시",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "잉크 정령 구출",
+      "url": "world-flows-v1/index.html?state=rescue",
+      "initial": {
+        "clipped": [],
+        "focus": "잉크 정령 구출구속 장치 해제 0 / 3시안 봉인 도전 · 시작봉인 도전 · 진행"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "잉크 정령 구출구속 장치 해제 0 / 3시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "잉크 정령 구출구속 장치 해제 0 / 3시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "잉크 정령 구출구속 장치 해제 0 / 3시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "잉크 정령 구출구속 장치 해제 0 / 3시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "잉크 정령 구출구속 장치 해제 0 / 3시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "잉크 정령 구출구속 장치 해제 0 / 3시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "잉크 정령 구출구속 장치 해제 0 / 3시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "잉크 정령 구출구속 장치 해제 0 / 3시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "정령 · 구속 장치 해제",
+      "url": "world-flows-v1/index.html?state=rescue-progress",
+      "initial": {
+        "clipped": [],
+        "focus": "잉크 정령 구출구속 장치 해제 1 / 3시안 봉인 도전 · 시작봉인 도전 · 진행"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "잉크 정령 구출구속 장치 해제 1 / 3시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "잉크 정령 구출구속 장치 해제 1 / 3시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "잉크 정령 구출구속 장치 해제 1 / 3시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "잉크 정령 구출구속 장치 해제 1 / 3시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "잉크 정령 구출구속 장치 해제 1 / 3시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "잉크 정령 구출구속 장치 해제 1 / 3시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "잉크 정령 구출구속 장치 해제 1 / 3시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "잉크 정령 구출구속 장치 해제 1 / 3시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "잉크 묘목 생존전",
+      "url": "world-flows-v1/index.html?state=survival",
+      "initial": {
+        "clipped": [],
+        "focus": "잉크 묘목묘목이 자라는 동안 살아남으세요.F생존전 시작시안 봉인 도전 · 시작봉인"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "잉크 묘목묘목이 자라는 동안 살아남으세요.F생존전 시작시안 봉인 도전 · 시작봉인 도전 ·",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "잉크 묘목묘목이 자라는 동안 살아남으세요.F생존전 시작시안 봉인 도전 · 시작봉인 도전 ·",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "잉크 묘목묘목이 자라는 동안 살아남으세요.F생존전 시작시안 봉인 도전 · 시작봉인 도전 ·",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "잉크 묘목묘목이 자라는 동안 살아남으세요.F생존전 시작시안 봉인 도전 · 시작봉인 도전 ·",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "잉크 묘목묘목이 자라는 동안 살아남으세요.F생존전 시작시안 봉인 도전 · 시작봉인 도전 ·",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "잉크 묘목묘목이 자라는 동안 살아남으세요.F생존전 시작시안 봉인 도전 · 시작봉인 도전 ·",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "잉크 묘목을 깨우다남은 시간 00:45시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 ",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "잉크 묘목을 깨우다남은 시간 00:45시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 ",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "묘목 · 남은 시간",
+      "url": "world-flows-v1/index.html?state=survival-progress",
+      "initial": {
+        "clipped": [],
+        "focus": "잉크 묘목을 깨우다남은 시간 00:28시안 봉인 도전 · 시작봉인 도전 · 진행봉"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "잉크 묘목을 깨우다남은 시간 00:28시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 ",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "잉크 묘목을 깨우다남은 시간 00:28시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 ",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "잉크 묘목을 깨우다남은 시간 00:28시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 ",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "잉크 묘목을 깨우다남은 시간 00:28시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 ",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "잉크 묘목을 깨우다남은 시간 00:28시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 ",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "잉크 묘목을 깨우다남은 시간 00:28시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 ",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "잉크 묘목을 깨우다남은 시간 00:28시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 ",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "잉크 묘목을 깨우다남은 시간 00:28시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 ",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "위험 상자방",
+      "url": "world-flows-v1/index.html?state=danger",
+      "initial": {
+        "clipped": [],
+        "focus": "위험 상자방보상이 든 상자를 찾으세요.F상자 열기시안 봉인 도전 · 시작봉인 도전"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "위험 상자방보상이 든 상자를 찾으세요.F상자 열기시안 봉인 도전 · 시작봉인 도전 · 진행",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "위험 상자방보상이 든 상자를 찾으세요.F상자 열기시안 봉인 도전 · 시작봉인 도전 · 진행",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "위험 상자방보상이 든 상자를 찾으세요.F상자 열기시안 봉인 도전 · 시작봉인 도전 · 진행",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "위험 상자방보상이 든 상자를 찾으세요.F상자 열기시안 봉인 도전 · 시작봉인 도전 · 진행",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "위험 상자방보상이 든 상자를 찾으세요.F상자 열기시안 봉인 도전 · 시작봉인 도전 · 진행",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "위험 상자방보상이 든 상자를 찾으세요.F상자 열기시안 봉인 도전 · 시작봉인 도전 · 진행",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "위험 상자방보상이 든 상자를 찾으세요.적 출현시안 봉인 도전 · 시작봉인 도전 · 진행봉인",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "위험 상자방보상이 든 상자를 찾으세요.적 출현시안 봉인 도전 · 시작봉인 도전 · 진행봉인",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "위험 상자 · 오답",
+      "url": "world-flows-v1/index.html?state=danger-wrong",
+      "initial": {
+        "clipped": [],
+        "focus": "위험 상자방보상이 든 상자를 찾으세요.적 출현시안 봉인 도전 · 시작봉인 도전 ·"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "위험 상자방보상이 든 상자를 찾으세요.F상자 열기시안 봉인 도전 · 시작봉인 도전 · 진행",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "위험 상자방보상이 든 상자를 찾으세요.F상자 열기시안 봉인 도전 · 시작봉인 도전 · 진행",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "위험 상자방보상이 든 상자를 찾으세요.F상자 열기시안 봉인 도전 · 시작봉인 도전 · 진행",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "위험 상자방보상이 든 상자를 찾으세요.시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 ",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "위험 상자방보상이 든 상자를 찾으세요.시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 ",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "위험 상자방보상이 든 상자를 찾으세요.시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 ",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "위험 상자방보상이 든 상자를 찾으세요.시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 ",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "위험 상자방보상이 든 상자를 찾으세요.시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 ",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "함정 수집방",
+      "url": "world-flows-v1/index.html?state=collection",
+      "initial": {
+        "clipped": [],
+        "focus": "함정 수집방장치를 가동하면 함정과 수집물이 나타납니다.F장치 가동시안 봉인 도전 "
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "함정 수집방장치를 가동하면 함정과 수집물이 나타납니다.F장치 가동시안 봉인 도전 · 시작봉",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "함정 수집방장치를 가동하면 함정과 수집물이 나타납니다.F장치 가동시안 봉인 도전 · 시작봉",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "함정 수집방장치를 가동하면 함정과 수집물이 나타납니다.F장치 가동시안 봉인 도전 · 시작봉",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "함정 수집방장치를 가동하면 함정과 수집물이 나타납니다.F장치 가동시안 봉인 도전 · 시작봉",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "함정 수집방장치를 가동하면 함정과 수집물이 나타납니다.F장치 가동시안 봉인 도전 · 시작봉",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "함정 수집방장치를 가동하면 함정과 수집물이 나타납니다.F장치 가동시안 봉인 도전 · 시작봉",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "함정 수집방수집한 조각 0 / 5시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "함정 수집방수집한 조각 0 / 5시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "함정 · 수집과 재방문",
+      "url": "world-flows-v1/index.html?state=collection-progress",
+      "initial": {
+        "clipped": [],
+        "focus": "함정 수집방수집한 조각 2 / 5시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "함정 수집방수집한 조각 2 / 5시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "함정 수집방수집한 조각 2 / 5시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "함정 수집방수집한 조각 2 / 5시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "함정 수집방수집한 조각 2 / 5시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "함정 수집방수집한 조각 2 / 5시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "함정 수집방수집한 조각 2 / 5시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "함정 수집방수집한 조각 2 / 5시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "함정 수집방수집한 조각 2 / 5시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "이벤트 · 완료 연출",
+      "url": "world-flows-v1/index.html?state=event-complete",
+      "initial": {
+        "clipped": [],
+        "focus": "정령을 구출했습니다구속이 풀리고 잉크 정령이 자유로워집니다.시안 봉인 도전 · 시"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "정령을 구출했습니다구속이 풀리고 잉크 정령이 자유로워집니다.시안 봉인 도전 · 시작봉인 도",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "정령을 구출했습니다구속이 풀리고 잉크 정령이 자유로워집니다.시안 봉인 도전 · 시작봉인 도",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "정령을 구출했습니다구속이 풀리고 잉크 정령이 자유로워집니다.시안 봉인 도전 · 시작봉인 도",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "정령을 구출했습니다구속이 풀리고 잉크 정령이 자유로워집니다.시안 봉인 도전 · 시작봉인 도",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "정령을 구출했습니다구속이 풀리고 잉크 정령이 자유로워집니다.시안 봉인 도전 · 시작봉인 도",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "정령을 구출했습니다구속이 풀리고 잉크 정령이 자유로워집니다.시안 봉인 도전 · 시작봉인 도",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "정령을 구출했습니다구속이 풀리고 잉크 정령이 자유로워집니다.시안 봉인 도전 · 시작봉인 도",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "정령을 구출했습니다구속이 풀리고 잉크 정령이 자유로워집니다.시안 봉인 도전 · 시작봉인 도",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "보스 · 등장 소개",
+      "url": "world-flows-v1/index.html?state=boss-intro",
+      "initial": {
+        "clipped": [],
+        "focus": "맞서는 자시계탑 집행자F건너뛰기시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "맞서는 자시계탑 집행자F건너뛰기시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "맞서는 자시계탑 집행자F건너뛰기시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "맞서는 자시계탑 집행자F건너뛰기시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "맞서는 자시계탑 집행자F건너뛰기시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "맞서는 자시계탑 집행자F건너뛰기시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "맞서는 자시계탑 집행자F건너뛰기시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "보스 · 소개 종료",
+      "url": "world-flows-v1/index.html?state=boss-ready",
+      "initial": {
+        "clipped": [],
+        "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "2챕터 보스 · 베르소와 렉토",
+      "url": "world-flows-v1/index.html?state=boss-intro-two",
+      "initial": {
+        "clipped": [],
+        "focus": "맞서는 자베르소 · 렉토F건너뛰기시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "맞서는 자베르소 · 렉토F건너뛰기시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "맞서는 자베르소 · 렉토F건너뛰기시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "맞서는 자베르소 · 렉토F건너뛰기시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "맞서는 자베르소 · 렉토F건너뛰기시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "맞서는 자베르소 · 렉토F건너뛰기시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "맞서는 자베르소 · 렉토F건너뛰기시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "보상 기회 · HUD 배치 검토",
+      "url": "world-flows-v1/index.html?state=reward-alert",
+      "initial": {
+        "clipped": [],
+        "focus": "G2시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 "
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "G2시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 ",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "G2시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 ",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "G2시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 ",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "G2시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 ",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "G2시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 ",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "G2시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 ",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "G2시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 ",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "무기 소진 · 장착 자리",
+      "url": "world-flows-v1/index.html?state=weapon-alert",
+      "initial": {
+        "clipped": [],
+        "focus": "무기 1 소진기본검 · 내구도 0%시안 봉인 도전 · 시작봉인 도전 · 진행봉인 "
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "무기 1 소진기본검 · 내구도 0%시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · ",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "무기 1 소진기본검 · 내구도 0%시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · ",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "무기 1 소진기본검 · 내구도 0%시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · ",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "무기 1 소진기본검 · 내구도 0%시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · ",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "무기 1 소진기본검 · 내구도 0%시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · ",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "무기 1 소진기본검 · 내구도 0%시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · ",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "무기 1 소진기본검 · 내구도 0%시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · ",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "보상 기회 · 0회",
+      "url": "world-flows-v1/index.html?state=reward-zero",
+      "initial": {
+        "clipped": [],
+        "focus": "G0시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 "
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "G0시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 ",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "G0시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 ",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "G0시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 ",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "G0시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 ",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "G0시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 ",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "G0시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 ",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "G0시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 ",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "포탈 · 설치 전",
+      "url": "world-flows-v1/index.html?state=portal",
+      "initial": {
+        "clipped": [],
+        "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "포탈 · 하나만 설치",
+      "url": "world-flows-v1/index.html?state=portal-one",
+      "initial": {
+        "clipped": [],
+        "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "포탈 · 왕복 가능",
+      "url": "world-flows-v1/index.html?state=portal-ready",
+      "initial": {
+        "clipped": [],
+        "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "포탈 · 첫 설치 안내",
+      "url": "world-flows-v1/index.html?state=portal-tutorial",
+      "initial": {
+        "clipped": [],
+        "focus": "포탈 그리기C첫 번째 문　V두 번째 문두 문을 만든 뒤 가까이서 F로 건너갑니다."
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "포탈 그리기C첫 번째 문　V두 번째 문두 문을 만든 뒤 가까이서 F로 건너갑니다.F확인시안",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "포탈 그리기C첫 번째 문　V두 번째 문두 문을 만든 뒤 가까이서 F로 건너갑니다.F확인시안",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "포탈 그리기C첫 번째 문　V두 번째 문두 문을 만든 뒤 가까이서 F로 건너갑니다.F확인시안",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "포탈 그리기C첫 번째 문　V두 번째 문두 문을 만든 뒤 가까이서 F로 건너갑니다.F확인시안",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "포탈 그리기C첫 번째 문　V두 번째 문두 문을 만든 뒤 가까이서 F로 건너갑니다.F확인시안",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "포탈 그리기C첫 번째 문　V두 번째 문두 문을 만든 뒤 가까이서 F로 건너갑니다.F확인시안",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "다음 챕터 · 전환",
+      "url": "world-flows-v1/index.html?state=loading",
+      "initial": {
+        "clipped": [],
+        "focus": "다음 챕터로길을 이어가는 중…시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 "
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "다음 챕터로길을 이어가는 중…시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "다음 챕터로길을 이어가는 중…시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "다음 챕터로길을 이어가는 중…시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "다음 챕터로길을 이어가는 중…시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "다음 챕터로길을 이어가는 중…시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "다음 챕터로길을 이어가는 중…시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "다음 챕터로길을 이어가는 중…시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "다음 챕터로길을 이어가는 중…시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "최종 챕터 · 종료 검토",
+      "url": "world-flows-v1/index.html?state=final",
+      "initial": {
+        "clipped": [],
+        "focus": "최종 클리어마지막 챕터를 돌파했습니다도달 지점마지막 챕터도전 시간32분 18초사용"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "최종 클리어마지막 챕터를 돌파했습니다도달 지점마지막 챕터도전 시간32분 18초사용한 무기6",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "최종 클리어마지막 챕터를 돌파했습니다도달 지점마지막 챕터도전 시간32분 18초사용한 무기6",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "최종 클리어마지막 챕터를 돌파했습니다도달 지점마지막 챕터도전 시간32분 18초사용한 무기6",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "최종 클리어마지막 챕터를 돌파했습니다도달 지점마지막 챕터도전 시간32분 18초사용한 무기6",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "최종 클리어마지막 챕터를 돌파했습니다도달 지점마지막 챕터도전 시간32분 18초사용한 무기6",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "최종 클리어마지막 챕터를 돌파했습니다도달 지점마지막 챕터도전 시간32분 18초사용한 무기6",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "이번 도전의 기록마지막 챕터까지 탐험을 마쳤습니다.처치한 적186완료한 이벤트4F결과로 돌",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "오프닝 · 조사 수첩",
+      "url": "world-flows-v1/index.html?state=opening",
+      "initial": {
+        "clipped": [],
+        "focus": "조사 수첩요즘 마을들이 하나둘 색을 잃고 있다.색이 빠진 자리에는 연필로 그린 듯"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "조사 수첩요즘 마을들이 하나둘 색을 잃고 있다.색이 빠진 자리에는 연필로 그린 듯한 선만 ",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "조사 수첩요즘 마을들이 하나둘 색을 잃고 있다.색이 빠진 자리에는 연필로 그린 듯한 선만 ",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "조사 수첩요즘 마을들이 하나둘 색을 잃고 있다.색이 빠진 자리에는 연필로 그린 듯한 선만 ",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "조사 수첩요즘 마을들이 하나둘 색을 잃고 있다.색이 빠진 자리에는 연필로 그린 듯한 선만 ",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "조사 수첩요즘 마을들이 하나둘 색을 잃고 있다.색이 빠진 자리에는 연필로 그린 듯한 선만 ",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "조사 수첩요즘 마을들이 하나둘 색을 잃고 있다.색이 빠진 자리에는 연필로 그린 듯한 선만 ",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "조사 수첩스케치화에 휩쓸린 사람은 그 자리에서 굳어 버리고,지금까지 다시 움직인 사람은 한",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "조사 수첩스케치화에 휩쓸린 사람은 그 자리에서 굳어 버리고,지금까지 다시 움직인 사람은 한",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "오프닝 · 이동 안내",
+      "url": "world-flows-v1/index.html?state=opening-movement",
+      "initial": {
+        "clipped": [],
+        "focus": "이동← →점프Space이단 점프Space → Space대시Shift시안 봉인 도전"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "이동← →점프Space이단 점프Space → Space대시Shift시안 봉인 도전 · 시작",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "이동← →점프Space이단 점프Space → Space대시Shift시안 봉인 도전 · 시작",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "이동← →점프Space이단 점프Space → Space대시Shift시안 봉인 도전 · 시작",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "이동← →점프Space이단 점프Space → Space대시Shift시안 봉인 도전 · 시작",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "이동← →점프Space이단 점프Space → Space대시Shift시안 봉인 도전 · 시작",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "이동← →점프Space이단 점프Space → Space대시Shift시안 봉인 도전 · 시작",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "이동← →점프Space이단 점프Space → Space대시Shift시안 봉인 도전 · 시작",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "이동← →점프Space이단 점프Space → Space대시Shift시안 봉인 도전 · 시작",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "오프닝 · 지워짐",
+      "url": "world-flows-v1/index.html?state=opening-chase",
+      "initial": {
+        "clipped": [],
+        "focus": "지워짐이 밀려옵니다→마을로 달리기시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "잉크 조력자남은 잉크를 너한테 전부 줄게. 나는 여기까지야.F계속시안 봉인 도전 · 시작봉",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "잉크 조력자남은 잉크를 너한테 전부 줄게. 나는 여기까지야.F계속시안 봉인 도전 · 시작봉",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "잉크 조력자남은 잉크를 너한테 전부 줄게. 나는 여기까지야.F계속시안 봉인 도전 · 시작봉",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "잉크 조력자남은 잉크를 너한테 전부 줄게. 나는 여기까지야.F계속시안 봉인 도전 · 시작봉",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "잉크 조력자남은 잉크를 너한테 전부 줄게. 나는 여기까지야.F계속시안 봉인 도전 · 시작봉",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "잉크 조력자남은 잉크를 너한테 전부 줄게. 나는 여기까지야.F계속시안 봉인 도전 · 시작봉",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "잉크 조력자나머지는 부탁해.F계속시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "잉크 조력자나머지는 부탁해.F계속시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "오프닝 · 조력자",
+      "url": "world-flows-v1/index.html?state=opening-helper",
+      "initial": {
+        "clipped": [],
+        "focus": "잉크 조력자남은 잉크를 너한테 전부 줄게. 나는 여기까지야.F계속시안 봉인 도전 "
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "잉크 조력자남은 잉크를 너한테 전부 줄게. 나는 여기까지야.F계속시안 봉인 도전 · 시작봉",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "잉크 조력자남은 잉크를 너한테 전부 줄게. 나는 여기까지야.F계속시안 봉인 도전 · 시작봉",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "잉크 조력자남은 잉크를 너한테 전부 줄게. 나는 여기까지야.F계속시안 봉인 도전 · 시작봉",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "잉크 조력자남은 잉크를 너한테 전부 줄게. 나는 여기까지야.F계속시안 봉인 도전 · 시작봉",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "잉크 조력자남은 잉크를 너한테 전부 줄게. 나는 여기까지야.F계속시안 봉인 도전 · 시작봉",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "잉크 조력자남은 잉크를 너한테 전부 줄게. 나는 여기까지야.F계속시안 봉인 도전 · 시작봉",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "잉크 조력자나머지는 부탁해.F계속시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "잉크 조력자나머지는 부탁해.F계속시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "오프닝 · 첫 각성",
+      "url": "world-flows-v1/index.html?state=opening-awake",
+      "initial": {
+        "clipped": [],
+        "focus": "조사원나, 살았어..?F계속시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 ·"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "조사원나, 살았어..?F계속시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 ",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "조사원나, 살았어..?F계속시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 ",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "조사원나, 살았어..?F계속시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 ",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "조사원나, 살았어..?F계속시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 ",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "조사원나, 살았어..?F계속시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 ",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "조사원나, 살았어..?F계속시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 ",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "조사원잉크..가 된건가?F계속시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "조사원잉크..가 된건가?F계속시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "첫 각성 · 기록 남기기",
+      "url": "world-flows-v1/index.html?state=opening-record",
+      "initial": {
+        "clipped": [],
+        "focus": "조사 기록 남기기F기록 책상 살펴보기첫 조사 기록마을에서 일어난 일을 수첩에 남깁"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "조사 기록 남기기F기록 책상 살펴보기첫 조사 기록마을에서 일어난 일을 수첩에 남깁니다.F기",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "조사 기록 남기기F기록 책상 살펴보기첫 조사 기록마을에서 일어난 일을 수첩에 남깁니다.F기",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "조사 기록 남기기F기록 책상 살펴보기첫 조사 기록마을에서 일어난 일을 수첩에 남깁니다.F기",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "조사 기록 남기기F기록 책상 살펴보기첫 조사 기록마을에서 일어난 일을 수첩에 남깁니다.F기",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "조사 기록 남기기F기록 책상 살펴보기첫 조사 기록마을에서 일어난 일을 수첩에 남깁니다.F기",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "조사 기록 남기기F기록 책상 살펴보기첫 조사 기록마을에서 일어난 일을 수첩에 남깁니다.F기",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "먹빗자루가 다가옵니다A맨손 기본 공격시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 ·",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "첫 진행 · 맨손",
+      "url": "world-flows-v1/index.html?state=opening-unarmed",
+      "initial": {
+        "clipped": [],
+        "focus": "먹빗자루가 다가옵니다A맨손 기본 공격시안 봉인 도전 · 시작봉인 도전 · 진행봉인"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "먹빗자루가 다가옵니다A맨손 기본 공격시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 ·",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "먹빗자루가 다가옵니다A맨손 기본 공격시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 ·",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "먹빗자루가 다가옵니다A맨손 기본 공격시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 ·",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "먹빗자루가 다가옵니다A맨손 기본 공격시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 ·",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "먹빗자루가 다가옵니다A맨손 기본 공격시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 ·",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "먹빗자루가 다가옵니다A맨손 기본 공격시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 ·",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "먹빗자루가 다가옵니다A맨손 기본 공격시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 ·",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "먹빗자루가 다가옵니다A맨손 기본 공격시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 ·",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "첫 진행 · 보상 기회",
+      "url": "world-flows-v1/index.html?state=first-reward",
+      "initial": {
+        "clipped": [],
+        "focus": "보상 기회가 생겼습니다원할 때 보상을 선택할 수 있습니다.첫 보상스케치나 잉크 중"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "보상 기회가 생겼습니다원할 때 보상을 선택할 수 있습니다.첫 보상스케치나 잉크 중 하나를 ",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "보상 기회가 생겼습니다원할 때 보상을 선택할 수 있습니다.첫 보상스케치나 잉크 중 하나를 ",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "보상 기회가 생겼습니다원할 때 보상을 선택할 수 있습니다.첫 보상스케치나 잉크 중 하나를 ",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "보상 기회가 생겼습니다원할 때 보상을 선택할 수 있습니다.첫 보상스케치나 잉크 중 하나를 ",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "보상 기회가 생겼습니다원할 때 보상을 선택할 수 있습니다.첫 보상스케치나 잉크 중 하나를 ",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "보상 기회가 생겼습니다원할 때 보상을 선택할 수 있습니다.첫 보상스케치나 잉크 중 하나를 ",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "보상 기회가 생겼습니다원할 때 보상을 선택할 수 있습니다.첫 보상스케치나 잉크 중 하나를 ",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "시안 봉인 도전 · 시작봉인 도전 · 진행봉인 도전 · 완료와 상자잉크 정령 구출정령 · ",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "첫 진행 · 제작 안내",
+      "url": "world-flows-v1/index.html?state=first-craft",
+      "initial": {
+        "clipped": [],
+        "focus": "첫 무기 제작스케치를 고르고 빈 칸에 잉크를 적용하세요.확정한 뒤에는 빈 칸에도 "
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "첫 무기 제작스케치를 고르고 빈 칸에 잉크를 적용하세요.확정한 뒤에는 빈 칸에도 잉크를 추",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "첫 무기 제작스케치를 고르고 빈 칸에 잉크를 적용하세요.확정한 뒤에는 빈 칸에도 잉크를 추",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "첫 무기 제작스케치를 고르고 빈 칸에 잉크를 적용하세요.확정한 뒤에는 빈 칸에도 잉크를 추",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "첫 무기 제작스케치를 고르고 빈 칸에 잉크를 적용하세요.확정한 뒤에는 빈 칸에도 잉크를 추",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "첫 무기 제작스케치를 고르고 빈 칸에 잉크를 적용하세요.확정한 뒤에는 빈 칸에도 잉크를 추",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "첫 무기 제작스케치를 고르고 빈 칸에 잉크를 적용하세요.확정한 뒤에는 빈 칸에도 잉크를 추",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "첫 무기 제작스케치를 고르고 빈 칸에 잉크를 적용하세요.확정한 뒤에는 빈 칸에도 잉크를 추",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "첫 진행 · 내구도 안내",
+      "url": "world-flows-v1/index.html?state=first-durability",
+      "initial": {
+        "clipped": [],
+        "focus": "무기는 닳아 사라집니다내구도가 0%가 되면 무기와 적용 효과가 사라집니다.보유 잉"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "무기는 닳아 사라집니다내구도가 0%가 되면 무기와 적용 효과가 사라집니다.보유 잉크는 남고",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "무기는 닳아 사라집니다내구도가 0%가 되면 무기와 적용 효과가 사라집니다.보유 잉크는 남고",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "무기는 닳아 사라집니다내구도가 0%가 되면 무기와 적용 효과가 사라집니다.보유 잉크는 남고",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "무기는 닳아 사라집니다내구도가 0%가 되면 무기와 적용 효과가 사라집니다.보유 잉크는 남고",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "무기는 닳아 사라집니다내구도가 0%가 되면 무기와 적용 효과가 사라집니다.보유 잉크는 남고",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "무기는 닳아 사라집니다내구도가 0%가 되면 무기와 적용 효과가 사라집니다.보유 잉크는 남고",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "무기는 닳아 사라집니다내구도가 0%가 되면 무기와 적용 효과가 사라집니다.보유 잉크는 남고",
+          "outside": false
+        }
+      ]
+    },
+    {
+      "title": "첫 회귀 · 우물",
+      "url": "world-flows-v1/index.html?state=first-return",
+      "initial": {
+        "clipped": [],
+        "focus": "우물 앞잉크가 모여 다시 형체를 이룹니다.F마을 둘러보기시안 봉인 도전 · 시작봉"
+      },
+      "moves": [
+        {
+          "key": "ArrowRight",
+          "focus": "우물 앞잉크가 모여 다시 형체를 이룹니다.F마을 둘러보기시안 봉인 도전 · 시작봉인 도전 ",
+          "outside": false
+        },
+        {
+          "key": "ArrowDown",
+          "focus": "우물 앞잉크가 모여 다시 형체를 이룹니다.F마을 둘러보기시안 봉인 도전 · 시작봉인 도전 ",
+          "outside": false
+        },
+        {
+          "key": "ArrowLeft",
+          "focus": "우물 앞잉크가 모여 다시 형체를 이룹니다.F마을 둘러보기시안 봉인 도전 · 시작봉인 도전 ",
+          "outside": false
+        },
+        {
+          "key": "ArrowUp",
+          "focus": "우물 앞잉크가 모여 다시 형체를 이룹니다.F마을 둘러보기시안 봉인 도전 · 시작봉인 도전 ",
+          "outside": false
+        },
+        {
+          "key": "KeyS",
+          "focus": "우물 앞잉크가 모여 다시 형체를 이룹니다.F마을 둘러보기시안 봉인 도전 · 시작봉인 도전 ",
+          "outside": false
+        },
+        {
+          "key": "KeyW",
+          "focus": "우물 앞잉크가 모여 다시 형체를 이룹니다.F마을 둘러보기시안 봉인 도전 · 시작봉인 도전 ",
+          "outside": false
+        },
+        {
+          "key": "KeyF",
+          "focus": "",
+          "outside": false
+        },
+        {
+          "key": "Escape",
+          "focus": "우물 앞잉크가 모여 다시 형체를 이룹니다.F마을 둘러보기시안 봉인 도전 · 시작봉인 도전 ",
+          "outside": false
+        }
+      ]
+    }
+  ]
+}
