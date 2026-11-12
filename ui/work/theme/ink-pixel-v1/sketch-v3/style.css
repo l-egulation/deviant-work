@@ -196,3 +196,7 @@ body[data-view="restoration"] .villageScene:after{content:'';position:absolute;i
 .identity>.approvedWeapon{height:140px}.paletteActions{margin-top:8px!important;margin-bottom:12px!important}
 
 .craftInkDetail h2{margin:0 0 28px;font-size:34px}.craftInkDetail .matchBadge{margin-left:24px}.craftInkDetail .effectSentence{margin:0;line-height:1.8}
+
+.approvedExtra{overflow:hidden;width:140px;height:160px;flex:none}.approvedExtra.worldChest{width:280px;height:220px}.approvedExtra.augmentArt{display:block;width:150px;height:150px;margin:0 auto 30px}.approvedExtra.restorationInk{width:180px;height:200px}
+
+.recordFooter.actions{gap:42px}.recordPageCount{margin:0 18px;flex:none}.recordFooter .action{margin:0 8px}

@@ -1,0 +1,30 @@
+[
+  {
+    "title": "스케치·잉크 구매",
+    "url": "sketch-v3/index.html?state=shop",
+    "missing": [],
+    "buttons": 7,
+    "f": 1
+  },
+  {
+    "title": "골드 부족",
+    "url": "sketch-v3/index.html?state=shop-poor",
+    "missing": [],
+    "buttons": 7,
+    "f": 0
+  },
+  {
+    "title": "구매 완료 · 품절",
+    "url": "sketch-v3/index.html?state=shop-sold",
+    "missing": [],
+    "buttons": 7,
+    "f": 0
+  },
+  {
+    "title": "기록 농가 · 수첩 삽화",
+    "url": "sketch-v3/index.html?state=records-notebook",
+    "missing": [],
+    "buttons": 3,
+    "f": 1
+  }
+]

@@ -1,0 +1,590 @@
+[
+  {
+    "title": "HUD에서 바로 보상 선택",
+    "url": "sketch-v3/index.html?state=reward",
+    "missing": [],
+    "buttons": 5,
+    "f": 1
+  },
+  {
+    "title": "스케치·잉크 혼합 3중 1택",
+    "url": "sketch-v3/index.html?state=mixed",
+    "missing": [],
+    "buttons": 5,
+    "f": 1
+  },
+  {
+    "title": "스케치 3개 획득 후에도 혼합 후보",
+    "url": "sketch-v3/index.html?state=quota",
+    "missing": [],
+    "buttons": 5,
+    "f": 1
+  },
+  {
+    "title": "보스 보상 · 스케치 선택",
+    "url": "sketch-v3/index.html?state=boss",
+    "missing": [],
+    "buttons": 5,
+    "f": 1
+  },
+  {
+    "title": "보스 보상 · 첫 번째 잉크",
+    "url": "sketch-v3/index.html?state=boss-ink",
+    "missing": [],
+    "buttons": 5,
+    "f": 1
+  },
+  {
+    "title": "스케치 격자 목록",
+    "url": "sketch-v3/index.html?state=bag",
+    "missing": [],
+    "buttons": 14,
+    "f": 0
+  },
+  {
+    "title": "보유 잉크 · 스크롤",
+    "url": "sketch-v3/index.html?state=bag-ink",
+    "missing": [],
+    "buttons": 17,
+    "f": 0
+  },
+  {
+    "title": "스케치 없음",
+    "url": "sketch-v3/index.html?state=bag-empty",
+    "missing": [],
+    "buttons": 5,
+    "f": 0
+  },
+  {
+    "title": "스케치 선택",
+    "url": "sketch-v3/index.html?state=craft",
+    "missing": [],
+    "buttons": 13,
+    "f": 1
+  },
+  {
+    "title": "팔레트 5칸 · 직접 선택",
+    "url": "sketch-v3/index.html?state=craft-five",
+    "missing": [],
+    "buttons": 11,
+    "f": 1
+  },
+  {
+    "title": "다른 색 잉크 선택",
+    "url": "sketch-v3/index.html?state=craft-ink",
+    "missing": [],
+    "buttons": 15,
+    "f": 1
+  },
+  {
+    "title": "5번째 칸 · 적용한 문양",
+    "url": "sketch-v3/index.html?state=craft-filled",
+    "missing": [],
+    "buttons": 12,
+    "f": 1
+  },
+  {
+    "title": "제작 확정 · 여러 효과",
+    "url": "sketch-v3/index.html?state=craft-confirm",
+    "missing": [],
+    "buttons": 10,
+    "f": 1
+  },
+  {
+    "title": "제작 후 장착 또는 보관",
+    "url": "sketch-v3/index.html?state=equip-new",
+    "missing": [],
+    "buttons": 5,
+    "f": 1
+  },
+  {
+    "title": "장착하기 선택 후 무기 자리 선택",
+    "url": "sketch-v3/index.html?state=equip-destination",
+    "missing": [],
+    "buttons": 7,
+    "f": 1
+  },
+  {
+    "title": "장착 무기 · 복수 적용 효과",
+    "url": "sketch-v3/index.html?state=equipment-effects",
+    "missing": [],
+    "buttons": 10,
+    "f": 1
+  },
+  {
+    "title": "장착 중인 무기 교환",
+    "url": "sketch-v3/index.html?state=equipment-swap",
+    "missing": [],
+    "buttons": 10,
+    "f": 1
+  },
+  {
+    "title": "무기 소진 후 빈 자리",
+    "url": "sketch-v3/index.html?state=equipment-empty",
+    "missing": [],
+    "buttons": 6,
+    "f": 0
+  },
+  {
+    "title": "스케치·잉크 구매",
+    "url": "sketch-v3/index.html?state=shop",
+    "missing": [],
+    "buttons": 7,
+    "f": 1
+  },
+  {
+    "title": "골드 부족",
+    "url": "sketch-v3/index.html?state=shop-poor",
+    "missing": [],
+    "buttons": 7,
+    "f": 0
+  },
+  {
+    "title": "구매 완료 · 품절",
+    "url": "sketch-v3/index.html?state=shop-sold",
+    "missing": [],
+    "buttons": 7,
+    "f": 0
+  },
+  {
+    "title": "안정 1개 · 도박 2개",
+    "url": "sketch-v3/index.html?state=augment",
+    "missing": [],
+    "buttons": 4,
+    "f": 1
+  },
+  {
+    "title": "무기 소진 · 보상 기회 알림 구조",
+    "url": "sketch-v3/index.html?state=alerts",
+    "missing": [],
+    "buttons": 3,
+    "f": 1
+  },
+  {
+    "title": "포탈 설치·왕복 안내",
+    "url": "sketch-v3/index.html?state=portal",
+    "missing": [],
+    "buttons": 1,
+    "f": 1
+  },
+  {
+    "title": "회복 충전소 팝업 · 길게 누르기",
+    "url": "sketch-v3/index.html?state=recovery",
+    "missing": [],
+    "buttons": 2,
+    "f": 1
+  },
+  {
+    "title": "충전소 · 골드 부족",
+    "url": "sketch-v3/index.html?state=recovery-poor",
+    "missing": [],
+    "buttons": 2,
+    "f": 1
+  },
+  {
+    "title": "충전소 · 체력 가득",
+    "url": "sketch-v3/index.html?state=recovery-full",
+    "missing": [],
+    "buttons": 2,
+    "f": 1
+  },
+  {
+    "title": "충전소 · 소진",
+    "url": "sketch-v3/index.html?state=recovery-empty",
+    "missing": [],
+    "buttons": 2,
+    "f": 1
+  },
+  {
+    "title": "일반 사망 결과",
+    "url": "sketch-v3/index.html?state=result",
+    "missing": [],
+    "buttons": 1,
+    "f": 1
+  },
+  {
+    "title": "영구 진행 초기화 확인",
+    "url": "sketch-v3/index.html?state=reset-confirm",
+    "missing": [],
+    "buttons": 2,
+    "f": 1
+  },
+  {
+    "title": "보스전 사망 결과",
+    "url": "sketch-v3/index.html?state=result-boss",
+    "missing": [],
+    "buttons": 1,
+    "f": 1
+  },
+  {
+    "title": "클리어 결과",
+    "url": "sketch-v3/index.html?state=result-clear",
+    "missing": [],
+    "buttons": 1,
+    "f": 1
+  },
+  {
+    "title": "복수 효과 · 아래로 스크롤",
+    "url": "sketch-v3/index.html?state=equipment-scroll",
+    "missing": [],
+    "buttons": 10,
+    "f": 1
+  },
+  {
+    "title": "획득 후 · 계속 뽑기 또는 닫기",
+    "url": "sketch-v3/index.html?state=reward-receipt",
+    "missing": [],
+    "buttons": 2,
+    "f": 1
+  },
+  {
+    "title": "영구 성장",
+    "url": "sketch-v3/index.html?state=permanent",
+    "missing": [],
+    "buttons": 7,
+    "f": 1
+  },
+  {
+    "title": "마법안료 부족",
+    "url": "sketch-v3/index.html?state=permanent-poor",
+    "missing": [],
+    "buttons": 7,
+    "f": 0
+  },
+  {
+    "title": "선행 조건 미충족",
+    "url": "sketch-v3/index.html?state=permanent-locked",
+    "missing": [],
+    "buttons": 7,
+    "f": 0
+  },
+  {
+    "title": "공방 · 출발 지원금 가격 반영",
+    "url": "sketch-v3/index.html?state=permanent-unknown",
+    "missing": [],
+    "buttons": 7,
+    "f": 1
+  },
+  {
+    "title": "가방 · 분류 탭 선택",
+    "url": "sketch-v3/index.html?state=bag-category-focus",
+    "missing": [],
+    "buttons": 14,
+    "f": 0
+  },
+  {
+    "title": "장비 · 이름 변경 / 내구도",
+    "url": "sketch-v3/index.html?state=equipment-renamed",
+    "missing": [],
+    "buttons": 10,
+    "f": 1
+  },
+  {
+    "title": "마을 장인 · 대화 진행",
+    "url": "sketch-v3/index.html?state=dialogue",
+    "missing": [],
+    "buttons": 2,
+    "f": 1
+  },
+  {
+    "title": "마을 장인 · 마지막 대사",
+    "url": "sketch-v3/index.html?state=dialogue-last",
+    "missing": [],
+    "buttons": 2,
+    "f": 1
+  },
+  {
+    "title": "기록 농가 · 조사 기록",
+    "url": "sketch-v3/index.html?state=records",
+    "missing": [],
+    "buttons": 3,
+    "f": 1
+  },
+  {
+    "title": "기록 농가 · 새 기록 안내",
+    "url": "sketch-v3/index.html?state=village-record",
+    "missing": [],
+    "buttons": 1,
+    "f": 1
+  },
+  {
+    "title": "우물 · 미사용 잉크 안내",
+    "url": "sketch-v3/index.html?state=village-well",
+    "missing": [],
+    "buttons": 1,
+    "f": 1
+  },
+  {
+    "title": "장인의 공방 · 통합 상호작용",
+    "url": "sketch-v3/index.html?state=village-workshop",
+    "missing": [],
+    "buttons": 1,
+    "f": 1
+  },
+  {
+    "title": "출발 이정표 · 상호작용",
+    "url": "sketch-v3/index.html?state=village-exit",
+    "missing": [],
+    "buttons": 1,
+    "f": 1
+  },
+  {
+    "title": "우물 · 마을 잉크 사용",
+    "url": "sketch-v3/index.html?state=well",
+    "missing": [],
+    "buttons": 2,
+    "f": 1
+  },
+  {
+    "title": "우물 · 미사용 잉크 없음",
+    "url": "sketch-v3/index.html?state=well-empty",
+    "missing": [],
+    "buttons": 1,
+    "f": 1
+  },
+  {
+    "title": "기록 농가 · 수첩 삽화",
+    "url": "sketch-v3/index.html?state=records-notebook",
+    "missing": [],
+    "buttons": 3,
+    "f": 1
+  },
+  {
+    "title": "기록 농가 · 수첩 발견 전",
+    "url": "sketch-v3/index.html?state=records-undiscovered",
+    "missing": [],
+    "buttons": 3,
+    "f": 1
+  },
+  {
+    "title": "공방 · 첫 정산 전",
+    "url": "sketch-v3/index.html?state=permanent-first",
+    "missing": [],
+    "buttons": 7,
+    "f": 0
+  },
+  {
+    "title": "공방 · 출발 지원금",
+    "url": "sketch-v3/index.html?state=permanent-gold",
+    "missing": [],
+    "buttons": 7,
+    "f": 1
+  },
+  {
+    "title": "공방 · 지원금 3단계 잠금",
+    "url": "sketch-v3/index.html?state=permanent-gold-locked",
+    "missing": [],
+    "buttons": 7,
+    "f": 0
+  },
+  {
+    "title": "공방 · 1챕터 조건",
+    "url": "sketch-v3/index.html?state=permanent-ch1",
+    "missing": [],
+    "buttons": 7,
+    "f": 0
+  },
+  {
+    "title": "공방 · 2챕터 조건",
+    "url": "sketch-v3/index.html?state=permanent-ch2",
+    "missing": [],
+    "buttons": 7,
+    "f": 0
+  },
+  {
+    "title": "공방 · 대시 추가 구매 가능",
+    "url": "sketch-v3/index.html?state=permanent-dash-ready",
+    "missing": [],
+    "buttons": 7,
+    "f": 1
+  },
+  {
+    "title": "공방 · 대시 추가 해금 완료",
+    "url": "sketch-v3/index.html?state=permanent-dash-owned",
+    "missing": [],
+    "buttons": 7,
+    "f": 0
+  },
+  {
+    "title": "공방 · 최대 단계",
+    "url": "sketch-v3/index.html?state=permanent-max",
+    "missing": [],
+    "buttons": 7,
+    "f": 0
+  },
+  {
+    "title": "기록 농가 · 최초 조사 기록",
+    "url": "sketch-v3/index.html?state=records-first",
+    "missing": [],
+    "buttons": 3,
+    "f": 1
+  },
+  {
+    "title": "잠긴 상자 · 열쇠 보유",
+    "url": "sketch-v3/index.html?state=chest-key",
+    "missing": [],
+    "buttons": 2,
+    "f": 1
+  },
+  {
+    "title": "잠긴 상자 · 열쇠 없음",
+    "url": "sketch-v3/index.html?state=chest-no-key",
+    "missing": [],
+    "buttons": 2,
+    "f": 1
+  },
+  {
+    "title": "첫 제작 안내",
+    "url": "sketch-v3/index.html?state=guide",
+    "missing": [],
+    "buttons": 2,
+    "f": 1
+  },
+  {
+    "title": "내구도·무기 소진 안내",
+    "url": "sketch-v3/index.html?state=guide-durability",
+    "missing": [],
+    "buttons": 2,
+    "f": 1
+  },
+  {
+    "title": "마을 · 붉은색 복원",
+    "url": "sketch-v3/index.html?state=restoration",
+    "missing": [],
+    "buttons": 1,
+    "f": 1
+  },
+  {
+    "title": "하늘길 · 최고 기록과 최근 10회",
+    "url": "sketch-v3/index.html?state=sky",
+    "missing": [],
+    "buttons": 1,
+    "f": 1
+  },
+  {
+    "title": "전체 지도 · 새 시안",
+    "url": "full-map-v1/index.html?",
+    "missing": [],
+    "buttons": 4,
+    "f": 0
+  },
+  {
+    "title": "지도 · 200% 확대",
+    "url": "full-map-v1/index.html?zoom=2",
+    "missing": [],
+    "buttons": 4,
+    "f": 0
+  },
+  {
+    "title": "전투 · 일시정지",
+    "url": "pause-menu-v1/index.html?context=combat",
+    "missing": [],
+    "buttons": 4,
+    "f": 0
+  },
+  {
+    "title": "마을 · 일시정지",
+    "url": "pause-menu-v1/index.html?context=village",
+    "missing": [],
+    "buttons": 5,
+    "f": 0
+  },
+  {
+    "title": "조작 안내",
+    "url": "pause-menu-v1/index.html?view=help",
+    "missing": [],
+    "buttons": 0,
+    "f": 0
+  },
+  {
+    "title": "도전 종료 · 마을 복귀 확인",
+    "url": "pause-menu-v1/index.html?view=confirm",
+    "missing": [],
+    "buttons": 2,
+    "f": 0
+  },
+  {
+    "title": "소리 설정",
+    "url": "settings-v1/index.html?tab=sound",
+    "missing": [],
+    "buttons": 8,
+    "f": 0
+  },
+  {
+    "title": "화면 설정",
+    "url": "settings-v1/index.html?tab=display&state=changed",
+    "missing": [],
+    "buttons": 11,
+    "f": 0
+  },
+  {
+    "title": "조작 설정 · 이동 / 스크롤 상단",
+    "url": "settings-v1/index.html?tab=controls",
+    "missing": [],
+    "buttons": 22,
+    "f": 0
+  },
+  {
+    "title": "조작 설정 · 전투 / 스크롤 중간",
+    "url": "settings-v1/index.html?tab=controls&scroll=combat",
+    "missing": [],
+    "buttons": 22,
+    "f": 0
+  },
+  {
+    "title": "조작 설정 · 탐험 / 스크롤 하단",
+    "url": "settings-v1/index.html?tab=controls&scroll=bottom",
+    "missing": [],
+    "buttons": 22,
+    "f": 0
+  },
+  {
+    "title": "조작키 변경",
+    "url": "settings-v1/index.html?tab=controls&state=rebind",
+    "missing": [],
+    "buttons": 22,
+    "f": 0
+  },
+  {
+    "title": "화면 적용 확인",
+    "url": "settings-v1/index.html?tab=display&state=confirm",
+    "missing": [],
+    "buttons": 11,
+    "f": 0
+  },
+  {
+    "title": "일반 보상 · 7회 이후",
+    "url": "sketch-v3/index.html?state=reward-seven",
+    "missing": [],
+    "buttons": 5,
+    "f": 1
+  },
+  {
+    "title": "일반 보상 · 잉크 전종 보유",
+    "url": "sketch-v3/index.html?state=reward-all-inks",
+    "missing": [],
+    "buttons": 5,
+    "f": 1
+  },
+  {
+    "title": "일반 보상 · 스케치 최소 획득 보장",
+    "url": "sketch-v3/index.html?state=reward-guarantee",
+    "missing": [],
+    "buttons": 5,
+    "f": 1
+  },
+  {
+    "title": "보스 보상 · 두 번째 잉크",
+    "url": "sketch-v3/index.html?state=boss-last",
+    "missing": [],
+    "buttons": 5,
+    "f": 1
+  },
+  {
+    "title": "이스터에그 · 모든 잉크 수집 축하",
+    "url": "sketch-v3/index.html?state=boss-all-inks",
+    "missing": [],
+    "buttons": 1,
+    "f": 1
+  }
+]
