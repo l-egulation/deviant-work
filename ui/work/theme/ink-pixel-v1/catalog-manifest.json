@@ -747,5 +747,68 @@
     "sketch-v3",
     "equipment-renamed",
     "state=equipment-renamed"
+  ],
+  [
+    "현행 v3",
+    "마을 장인 · 대화 진행",
+    "sketch-v3",
+    "dialogue",
+    "state=dialogue"
+  ],
+  [
+    "현행 v3",
+    "마을 장인 · 마지막 대사",
+    "sketch-v3",
+    "dialogue-last",
+    "state=dialogue-last"
+  ],
+  [
+    "현행 v3",
+    "기록 농가 · 조사 기록",
+    "sketch-v3",
+    "records",
+    "state=records"
+  ],
+  [
+    "현행 v3",
+    "기록 농가 · 새 기록 안내",
+    "sketch-v3",
+    "village-record",
+    "state=village-record"
+  ],
+  [
+    "현행 v3",
+    "우물 · 미사용 잉크 안내",
+    "sketch-v3",
+    "village-well",
+    "state=village-well"
+  ],
+  [
+    "현행 v3",
+    "장인의 공방 · 통합 상호작용",
+    "sketch-v3",
+    "village-workshop",
+    "state=village-workshop"
+  ],
+  [
+    "현행 v3",
+    "출발 이정표 · 상호작용",
+    "sketch-v3",
+    "village-exit",
+    "state=village-exit"
+  ],
+  [
+    "현행 v3",
+    "우물 · 마을 잉크 사용",
+    "sketch-v3",
+    "well",
+    "state=well"
+  ],
+  [
+    "현행 v3",
+    "우물 · 미사용 잉크 없음",
+    "sketch-v3",
+    "well-empty",
+    "state=well-empty"
   ]
 ]
