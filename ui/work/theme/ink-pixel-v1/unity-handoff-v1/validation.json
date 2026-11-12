@@ -1,0 +1,213 @@
+{
+  "sourceHashChecks": [
+    {
+      "source": "ui-assets-v1/atlases/ink-symbols.png",
+      "equal": true
+    },
+    {
+      "source": "ui-assets-v1/atlases/aug-a.png",
+      "equal": true
+    },
+    {
+      "source": "ui-assets-v1/atlases/world.png",
+      "equal": true
+    },
+    {
+      "source": "ui-assets-v1/atlases/aug-b.png",
+      "equal": true
+    },
+    {
+      "source": "ui-assets-v1/atlases/aug-c.png",
+      "equal": true
+    },
+    {
+      "source": "ui-assets-v1/atlases/seal.png",
+      "equal": true
+    },
+    {
+      "source": "ui-assets-v1/atlases/skills-a.png",
+      "equal": true
+    },
+    {
+      "source": "ui-assets-v1/atlases/skills-b.png",
+      "equal": true
+    },
+    {
+      "source": "ui-assets-v1/atlases/skills-c.png",
+      "equal": true
+    },
+    {
+      "source": "ui-assets-v1/atlases/controls.png",
+      "equal": true
+    },
+    {
+      "source": "ui-assets-v1/atlases/results.png",
+      "equal": true
+    },
+    {
+      "source": "ui-assets-v2/atlases/weapons.png",
+      "equal": true
+    },
+    {
+      "source": "ui-assets-v2/atlases/ink-bottles-v4.png",
+      "equal": true
+    },
+    {
+      "source": "ui-assets-v2/atlases/chests.png",
+      "equal": true
+    },
+    {
+      "source": "ui-assets-v2/atlases/village-ink.png",
+      "equal": true
+    },
+    {
+      "source": "ui-assets-v2/atlases/record-parts.png",
+      "equal": true
+    },
+    {
+      "source": "ui-assets-v2/atlases/record-eroders.png",
+      "equal": true
+    },
+    {
+      "source": "ui-assets-v2/atlases/record-well.png",
+      "equal": true
+    },
+    {
+      "source": "palette-package-v6/source/bases/red.png",
+      "equal": true
+    },
+    {
+      "source": "palette-package-v6/source/bases/yellow.png",
+      "equal": true
+    },
+    {
+      "source": "palette-package-v6/source/bases/green.png",
+      "equal": true
+    },
+    {
+      "source": "palette-package-v6/source/bases/blue.png",
+      "equal": true
+    },
+    {
+      "source": "palette-package-v6/source/bases/purple.png",
+      "equal": true
+    },
+    {
+      "source": "palette-package-v6/source/bases/neutral.png",
+      "equal": true
+    },
+    {
+      "source": "palette-package-v6/source/paint/red.png",
+      "equal": true
+    },
+    {
+      "source": "palette-package-v6/source/paint/yellow.png",
+      "equal": true
+    },
+    {
+      "source": "palette-package-v6/source/paint/green.png",
+      "equal": true
+    },
+    {
+      "source": "palette-package-v6/source/paint/blue.png",
+      "equal": true
+    },
+    {
+      "source": "palette-package-v6/source/paint/purple.png",
+      "equal": true
+    },
+    {
+      "source": "maintenance-palette-v1/assets/selection-wash-v1.png",
+      "equal": true
+    },
+    {
+      "source": "combat-hud-v2/assets/frame-large.png",
+      "equal": true
+    },
+    {
+      "source": "sketch-v3/assets/speech-frame-v1.png",
+      "equal": true
+    },
+    {
+      "source": "currency-v1/assets/gold.png",
+      "equal": true
+    },
+    {
+      "source": "currency-v1/assets/magic-pigment-v2.png",
+      "equal": true
+    },
+    {
+      "source": "world-flows-v1/assets/notebook-v3-transparent.png",
+      "equal": true
+    },
+    {
+      "source": "world-flows-v1/assets/notebook-page-1.png",
+      "equal": true
+    },
+    {
+      "source": "world-flows-v1/assets/notebook-page-2.png",
+      "equal": true
+    },
+    {
+      "source": "world-flows-v1/assets/notebook-page-3.png",
+      "equal": true
+    },
+    {
+      "source": "world-flows-v1/assets/seal-progress-v2.png",
+      "equal": true
+    },
+    {
+      "source": "world-flows-v1/assets/reward-reservoir-v2.png",
+      "equal": true
+    },
+    {
+      "source": "full-map-v1/assets/boss-crimson.png",
+      "equal": true
+    },
+    {
+      "source": "full-map-v1/assets/chest.png",
+      "equal": true
+    },
+    {
+      "source": "full-map-v1/assets/player.png",
+      "equal": true
+    },
+    {
+      "source": "full-map-v1/assets/portal-1.png",
+      "equal": true
+    },
+    {
+      "source": "full-map-v1/assets/portal-2.png",
+      "equal": true
+    },
+    {
+      "source": "full-map-v1/assets/portal-3.png",
+      "equal": true
+    },
+    {
+      "source": "full-map-v1/assets/portal-4.png",
+      "equal": true
+    },
+    {
+      "source": "full-map-v1/assets/portal-5.png",
+      "equal": true
+    },
+    {
+      "source": "full-map-v1/assets/seal.png",
+      "equal": true
+    },
+    {
+      "source": "full-map-v1/assets/unknown.png",
+      "equal": true
+    },
+    {
+      "source": "full-map-v1/assets/workshop-yellow.png",
+      "equal": true
+    },
+    {
+      "source": "full-map-v1/assets/workshop.png",
+      "equal": true
+    }
+  ],
+  "pass": true
+}

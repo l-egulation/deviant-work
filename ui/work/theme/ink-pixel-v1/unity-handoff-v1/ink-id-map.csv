@@ -1,0 +1,44 @@
+id,name,bottle,effect,condition
+yellow_basic_attack_movement_speed_increase,기본 공격 가속,ui-assets-v2/yellow,ui-assets-v1/ink-symbol-0,ui-assets-v1/ink-symbol-10
+yellow_skill_attack_movement_speed_increase,스킬 가속,ui-assets-v2/yellow,ui-assets-v1/ink-symbol-0,ui-assets-v1/ink-symbol-11
+yellow_weapon_switch_movement_speed_increase,스위칭 가속,ui-assets-v2/yellow,ui-assets-v1/ink-symbol-0,ui-assets-v1/ink-symbol-12
+yellow_dash_use_movement_speed_increase,대쉬 가속,ui-assets-v2/yellow,ui-assets-v1/ink-symbol-0,ui-assets-v1/ink-symbol-13
+yellow_status_condition_movement_speed_increase,상태이상 부여 가속,ui-assets-v2/yellow,ui-assets-v1/ink-symbol-0,ui-assets-v1/ink-symbol-14
+green_basic_attack_shield,기본 공격 방어막,ui-assets-v2/green,ui-assets-v1/ink-symbol-1,ui-assets-v1/ink-symbol-10
+green_skill_attack_shield,스킬 방어막,ui-assets-v2/green,ui-assets-v1/ink-symbol-1,ui-assets-v1/ink-symbol-11
+green_weapon_switch_shield,스위칭 방어막,ui-assets-v2/green,ui-assets-v1/ink-symbol-1,ui-assets-v1/ink-symbol-12
+green_dash_use_shield,대쉬 방어막,ui-assets-v2/green,ui-assets-v1/ink-symbol-1,ui-assets-v1/ink-symbol-13
+green_status_condition_shield,상태이상 부여 방어막,ui-assets-v2/green,ui-assets-v1/ink-symbol-1,ui-assets-v1/ink-symbol-14
+green_basic_attack_heal,기본 공격 회복,ui-assets-v2/green,ui-assets-v1/ink-symbol-2,ui-assets-v1/ink-symbol-10
+green_skill_attack_heal,스킬 회복,ui-assets-v2/green,ui-assets-v1/ink-symbol-2,ui-assets-v1/ink-symbol-11
+green_weapon_switch_heal,스위칭 회복,ui-assets-v2/green,ui-assets-v1/ink-symbol-2,ui-assets-v1/ink-symbol-12
+green_dash_use_heal,대쉬 회복,ui-assets-v2/green,ui-assets-v1/ink-symbol-2,ui-assets-v1/ink-symbol-13
+green_status_condition_heal,상태이상 부여 회복,ui-assets-v2/green,ui-assets-v1/ink-symbol-2,ui-assets-v1/ink-symbol-14
+purple_basic_attack_stun,기본 공격 기절,ui-assets-v2/purple,ui-assets-v1/ink-symbol-3,ui-assets-v1/ink-symbol-10
+purple_skill_attack_stun,스킬 기절,ui-assets-v2/purple,ui-assets-v1/ink-symbol-3,ui-assets-v1/ink-symbol-11
+purple_weapon_switch_stun,스위칭 기절,ui-assets-v2/purple,ui-assets-v1/ink-symbol-3,ui-assets-v1/ink-symbol-12
+purple_dash_use_stun,대쉬 기절,ui-assets-v2/purple,ui-assets-v1/ink-symbol-3,ui-assets-v1/ink-symbol-13
+purple_basic_attack_root,기본 공격 속박,ui-assets-v2/purple,ui-assets-v1/ink-symbol-4,ui-assets-v1/ink-symbol-10
+purple_skill_attack_root,스킬 속박,ui-assets-v2/purple,ui-assets-v1/ink-symbol-4,ui-assets-v1/ink-symbol-11
+purple_weapon_switch_root,스위칭 속박,ui-assets-v2/purple,ui-assets-v1/ink-symbol-4,ui-assets-v1/ink-symbol-12
+purple_dash_use_root,대쉬 속박,ui-assets-v2/purple,ui-assets-v1/ink-symbol-4,ui-assets-v1/ink-symbol-13
+purple_basic_attack_slow,기본 공격 슬로우,ui-assets-v2/purple,ui-assets-v1/ink-symbol-5,ui-assets-v1/ink-symbol-10
+purple_skill_attack_slow,스킬 슬로우,ui-assets-v2/purple,ui-assets-v1/ink-symbol-5,ui-assets-v1/ink-symbol-11
+purple_weapon_switch_slow,스위칭 슬로우,ui-assets-v2/purple,ui-assets-v1/ink-symbol-5,ui-assets-v1/ink-symbol-12
+purple_dash_use_slow,대쉬 슬로우,ui-assets-v2/purple,ui-assets-v1/ink-symbol-5,ui-assets-v1/ink-symbol-13
+purple_basic_attack_poison,기본 공격 중독,ui-assets-v2/purple,ui-assets-v1/ink-symbol-6,ui-assets-v1/ink-symbol-10
+purple_skill_attack_poison,스킬 중독,ui-assets-v2/purple,ui-assets-v1/ink-symbol-6,ui-assets-v1/ink-symbol-11
+purple_weapon_switch_poison,스위칭 중독,ui-assets-v2/purple,ui-assets-v1/ink-symbol-6,ui-assets-v1/ink-symbol-12
+purple_dash_use_poison,대쉬 중독,ui-assets-v2/purple,ui-assets-v1/ink-symbol-6,ui-assets-v1/ink-symbol-13
+red_basic_attack_basic_attack_damage_increase_stun,기절 조건 기본 공격 강화,ui-assets-v2/red,ui-assets-v1/ink-symbol-7,ui-assets-v1/ink-symbol-3
+red_basic_attack_basic_attack_damage_increase_root,속박 조건 기본 공격 강화,ui-assets-v2/red,ui-assets-v1/ink-symbol-7,ui-assets-v1/ink-symbol-4
+red_basic_attack_basic_attack_damage_increase_poison,중독 조건 기본 공격 강화,ui-assets-v2/red,ui-assets-v1/ink-symbol-7,ui-assets-v1/ink-symbol-6
+red_basic_attack_basic_attack_damage_increase_slow,슬로우 조건 기본 공격 강화,ui-assets-v2/red,ui-assets-v1/ink-symbol-7,ui-assets-v1/ink-symbol-5
+blue_skill_attack_cooldown_reduction_stun,기절 조건 스킬 쿨타임 감소,ui-assets-v2/blue,ui-assets-v1/ink-symbol-8,ui-assets-v1/ink-symbol-3
+blue_skill_attack_cooldown_reduction_root,속박 조건 스킬 쿨타임 감소,ui-assets-v2/blue,ui-assets-v1/ink-symbol-8,ui-assets-v1/ink-symbol-4
+blue_skill_attack_cooldown_reduction_poison,중독 조건 스킬 쿨타임 감소,ui-assets-v2/blue,ui-assets-v1/ink-symbol-8,ui-assets-v1/ink-symbol-6
+blue_skill_attack_cooldown_reduction_slow,슬로우 조건 스킬 쿨타임 감소,ui-assets-v2/blue,ui-assets-v1/ink-symbol-8,ui-assets-v1/ink-symbol-5
+blue_skill_attack_skill_attack_damage_increase_stun,기절 조건 스킬 피해 강화,ui-assets-v2/blue,ui-assets-v1/ink-symbol-9,ui-assets-v1/ink-symbol-3
+blue_skill_attack_skill_attack_damage_increase_root,속박 조건 스킬 피해 강화,ui-assets-v2/blue,ui-assets-v1/ink-symbol-9,ui-assets-v1/ink-symbol-4
+blue_skill_attack_skill_attack_damage_increase_poison,중독 조건 스킬 피해 강화,ui-assets-v2/blue,ui-assets-v1/ink-symbol-9,ui-assets-v1/ink-symbol-6
+blue_skill_attack_skill_attack_damage_increase_slow,슬로우 조건 스킬 피해 강화,ui-assets-v2/blue,ui-assets-v1/ink-symbol-9,ui-assets-v1/ink-symbol-5
