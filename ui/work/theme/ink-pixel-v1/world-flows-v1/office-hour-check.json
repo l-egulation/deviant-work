@@ -1,0 +1,54 @@
+[
+  {
+    "name": "rescue reset",
+    "pass": true
+  },
+  {
+    "name": "survival reset",
+    "pass": true
+  },
+  {
+    "name": "collection persist",
+    "pass": true
+  },
+  {
+    "name": "danger persist",
+    "pass": true
+  },
+  {
+    "name": "danger completion cleanup",
+    "pass": true
+  },
+  {
+    "name": "no repeat reward",
+    "pass": true
+  },
+  {
+    "name": "final to town",
+    "pass": true
+  },
+  {
+    "name": "shop mix",
+    "pass": true
+  },
+  {
+    "name": "shop retention",
+    "pass": true
+  },
+  {
+    "name": "external ink replacement only",
+    "pass": true
+  },
+  {
+    "name": "one ink remaining",
+    "pass": true
+  },
+  {
+    "name": "all inks sketches",
+    "pass": true
+  },
+  {
+    "name": "new run refresh",
+    "pass": true
+  }
+]
