@@ -182,3 +182,5 @@ body[data-view="restoration"] .world{filter:none}body:is([data-view="guide"],[da
 .action:not(.keyAction):not(.navFocus):before{opacity:0!important}
 body[data-view="restoration"] .villageScene:after{content:'';position:absolute;inset:0;background:linear-gradient(#25282cbd 0%,#25282ca8 55%,#25282c40 100%);pointer-events:none}
 .restorationMessage{text-shadow:none}
+
+.spriteIcon.stunV2{background-image:url('assets/stun-symbols-v2.png');background-size:200% 100%;background-position:var(--stun-x) center}
