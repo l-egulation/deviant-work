@@ -276,7 +276,7 @@
     {
       "id": "red",
       "group": "병",
-      "file": "atlases/ink-bottles-v3.png",
+      "file": "atlases/ink-bottles-v4.png",
       "imageSize": [
         2172,
         724
@@ -295,7 +295,7 @@
       ],
       "label": [
         270.5,
-        433.5
+        459
       ],
       "badge": [
         367.5,
@@ -305,7 +305,7 @@
     {
       "id": "yellow",
       "group": "병",
-      "file": "atlases/ink-bottles-v3.png",
+      "file": "atlases/ink-bottles-v4.png",
       "imageSize": [
         2172,
         724
@@ -324,7 +324,7 @@
       ],
       "label": [
         678.5,
-        433.5
+        459
       ],
       "badge": [
         775.5,
@@ -334,7 +334,7 @@
     {
       "id": "green",
       "group": "병",
-      "file": "atlases/ink-bottles-v3.png",
+      "file": "atlases/ink-bottles-v4.png",
       "imageSize": [
         2172,
         724
@@ -353,7 +353,7 @@
       ],
       "label": [
         1086.0,
-        433.5
+        459
       ],
       "badge": [
         1183.0,
@@ -363,7 +363,7 @@
     {
       "id": "blue",
       "group": "병",
-      "file": "atlases/ink-bottles-v3.png",
+      "file": "atlases/ink-bottles-v4.png",
       "imageSize": [
         2172,
         724
@@ -382,7 +382,7 @@
       ],
       "label": [
         1493.5,
-        433.5
+        459
       ],
       "badge": [
         1590.5,
@@ -392,7 +392,7 @@
     {
       "id": "purple",
       "group": "병",
-      "file": "atlases/ink-bottles-v3.png",
+      "file": "atlases/ink-bottles-v4.png",
       "imageSize": [
         2172,
         724
@@ -411,7 +411,7 @@
       ],
       "label": [
         1900.5,
-        433.5
+        459
       ],
       "badge": [
         1997.5,
