@@ -1,0 +1,14 @@
+/* Approved confirmation size: 960px at the 1920×1080 design resolution.
+Native dialogs receive viewport scaling from settings.js; in-scene panels inherit it. */
+.confirmationPanel{box-sizing:border-box;width:960px;max-width:none;padding:45px 48px;color:#eee9df}
+.confirmationPanel h2{font-size:42px;font-weight:normal;line-height:1.45;margin:0 0 33px}
+.confirmationPanel p{font-size:34.5px;line-height:1.65;margin:0;color:#b3bbc4}
+.confirmationPanel .dialogActions,.confirmationPanel .choices,.confirmationPanel .actions{display:flex;flex-direction:row;align-items:center;gap:60px;border-top:1px solid #a8afb640;margin-top:36px;padding-top:33px;min-height:0;flex-wrap:wrap}
+.confirmationPanel .choices .choice,.confirmationPanel .actions .action,.confirmationPanel .dialogActions button{font-size:37.5px;line-height:1.45;margin:0;padding:0;min-height:60px;transform:none}
+.confirmationPanel button .actionKeycap,.confirmationPanel .action kbd{box-sizing:border-box;min-width:57px;height:60px;padding:4.5px 13.5px!important;margin-right:24px!important;font-size:36px!important;border-radius:6px}
+.confirmationPanel .hint{font-size:23px;margin-top:28px;line-height:1.6}
+section.confirm.confirmationPanel,body[data-view="reset"] .confirmationPanel{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);margin:0}
+body[data-view="reset"] main{height:1080px}
+body[data-view="reset"] #app>header{display:none}
+main:has(>.confirmationPanel)>header{visibility:hidden}
+main:has(>section.confirmationPanel){height:1080px;padding:0}

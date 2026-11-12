@@ -586,5 +586,26 @@
     "missing": [],
     "buttons": 1,
     "f": 1
+  },
+  {
+    "title": "미적용 설정 확인",
+    "url": "settings-v1/index.html?state=unsaved",
+    "missing": [],
+    "buttons": 11,
+    "f": 0
+  },
+  {
+    "title": "기본 조작키 복원 확인",
+    "url": "settings-v1/index.html?state=reset-confirm",
+    "missing": [],
+    "buttons": 22,
+    "f": 0
+  },
+  {
+    "title": "타이틀 복귀 확인",
+    "url": "pause-menu-v1/index.html?context=village&view=title",
+    "missing": [],
+    "buttons": 2,
+    "f": 0
   }
 ]

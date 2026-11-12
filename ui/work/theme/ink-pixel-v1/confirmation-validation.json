@@ -1,0 +1,51 @@
+[
+  {
+    "title": "영구 진행 초기화 확인",
+    "url": "sketch-v3/index.html?state=reset-confirm",
+    "missing": [],
+    "buttons": 2,
+    "f": 1
+  },
+  {
+    "title": "전투 · 일시정지",
+    "url": "pause-menu-v1/index.html?context=combat",
+    "missing": [],
+    "buttons": 4,
+    "f": 0
+  },
+  {
+    "title": "마을 · 일시정지",
+    "url": "pause-menu-v1/index.html?context=village",
+    "missing": [],
+    "buttons": 5,
+    "f": 0
+  },
+  {
+    "title": "조작 안내",
+    "url": "pause-menu-v1/index.html?view=help",
+    "missing": [],
+    "buttons": 0,
+    "f": 0
+  },
+  {
+    "title": "도전 종료 · 마을 복귀 확인",
+    "url": "pause-menu-v1/index.html?view=confirm",
+    "missing": [],
+    "buttons": 2,
+    "f": 0
+  },
+  {
+    "title": "기본 조작키 복원 확인",
+    "url": "settings-v1/index.html?state=reset-confirm",
+    "missing": [],
+    "buttons": 22,
+    "f": 0
+  },
+  {
+    "title": "타이틀 복귀 확인",
+    "url": "pause-menu-v1/index.html?context=village&view=title",
+    "missing": [],
+    "buttons": 2,
+    "f": 0
+  }
+]

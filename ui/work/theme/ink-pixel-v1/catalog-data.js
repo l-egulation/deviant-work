@@ -534,5 +534,12 @@ const catalogItems=[
     "img": "settings-v1/previews/reset-confirm.png",
     "url": "settings-v1/index.html?state=reset-confirm",
     "id": "settings-reset-confirm"
+  },
+  {
+    "group": "일시정지",
+    "title": "타이틀 복귀 확인",
+    "img": "pause-menu-v1/previews/title-confirm.png",
+    "url": "pause-menu-v1/index.html?context=village&view=title",
+    "id": "pause-title-confirm"
   }
 ];
