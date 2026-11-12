@@ -1,0 +1,10 @@
+[
+  {
+    "id": "skills-b-revision",
+    "prompt": "Create a new 4x4 atlas in EXACT coarse pixel art style of attached reference. No people. NO smooth brushstrokes, glow, fine lines, vector look. Chunky visible pixel blocks, flat ivory/silver with graphite outline and tiny muted teal motion cues. Each icon occupies 65% of its equally sized cell, ample transparent gutters. Transparent background. Subjects in row order: hammer horizontal impact; hammer striking cracked ground; hammer charging forward; hammer with concentric ground shockwave; shield reflecting strike; shield inside protective dome; shield ramming forward; decoy shield with detached echo; greatsword downward charged strike; broad half moon slash; spinning greatsword moving forward; greatsword planted as glowing mark; charged round projectile leaving launcher; straight laser beam from barrel; five shotgun pellets fan with recoil arrow; grenade splitting into four fragments. Keep distinct action silhouettes and same visual weight as attached. No text, no enclosing boxes."
+  },
+  {
+    "id": "skills-c-revision",
+    "prompt": "Create a new 4x2 atlas in EXACT coarse pixel art style of attached reference. No people. NO smooth brushstrokes, glow, fine lines, vector look. Chunky visible pixel blocks, flat ivory/silver with graphite outline and tiny muted teal motion cues. Each icon occupies 65% of its equally sized cell, ample transparent gutters. Transparent background. Subjects in row order: large piercing shuriken; exploding shuriken; shuriken teleport with return arrow; spinning advancing shuriken; three thrown bombs in arc; large heavy bomb; missile transformation with flight streak; planted timed bomb. Keep distinct action silhouettes and same visual weight as attached. No text, no enclosing boxes."
+  }
+]

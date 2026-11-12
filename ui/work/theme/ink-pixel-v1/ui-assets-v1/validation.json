@@ -1,0 +1,118 @@
+{
+  "counts": {
+    "문양 구성요소": 16,
+    "공방 증강": 39,
+    "봉인 증강": 12,
+    "스킬": 40,
+    "이벤트·알림": 16,
+    "공통 조작": 16,
+    "결과 장식": 3
+  },
+  "inkMappings": 43,
+  "reusedImages": 76,
+  "atlases": [
+    {
+      "file": "atlases/world.png",
+      "size": [
+        1448,
+        1086
+      ],
+      "transparent": true
+    },
+    {
+      "file": "atlases/ink-symbols.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "transparent": true
+    },
+    {
+      "file": "atlases/results.png",
+      "size": [
+        2172,
+        724
+      ],
+      "transparent": true
+    },
+    {
+      "file": "atlases/aug-b.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "transparent": true
+    },
+    {
+      "file": "atlases/aug-c.png",
+      "size": [
+        1774,
+        887
+      ],
+      "transparent": true
+    },
+    {
+      "file": "atlases/aug-a.png",
+      "size": [
+        1261,
+        1247
+      ],
+      "transparent": true
+    },
+    {
+      "file": "atlases/skills-b.png",
+      "size": [
+        1269,
+        1240
+      ],
+      "transparent": true
+    },
+    {
+      "file": "atlases/controls.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "transparent": true
+    },
+    {
+      "file": "atlases/seal.png",
+      "size": [
+        1448,
+        1086
+      ],
+      "transparent": true
+    },
+    {
+      "file": "atlases/skills-c.png",
+      "size": [
+        1774,
+        887
+      ],
+      "transparent": true
+    },
+    {
+      "file": "atlases/skills-a.png",
+      "size": [
+        1269,
+        1240
+      ],
+      "transparent": true
+    }
+  ],
+  "missingFiles": 0,
+  "missingInkMappings": 0,
+  "duplicateSpriteIds": 0,
+  "checks": [
+    "투명 alpha 확인",
+    "전체 콘텐츠 ID 대응",
+    "실제 크기 브라우저 비교판",
+    "상세 보기 동작",
+    "정적 UI 이미지 참조 65개 누락 없음"
+  ],
+  "notChecked": [
+    "Unity 플레이",
+    "개별 PNG 정규화",
+    "모든 기존 UI 새 문양 교체"
+  ]
+}

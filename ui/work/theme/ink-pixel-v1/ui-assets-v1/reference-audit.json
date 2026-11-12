@@ -1,0 +1,339 @@
+{
+  "method": "현행 catalog 디렉터리의 HTML/CSS/JS 정적 src/url 이미지 참조 확인. 동적 문자열 조합과 모든 화면 실행 검증은 별도.",
+  "directories": [
+    "full-map-v1",
+    "pause-menu-v1",
+    "settings-v1",
+    "sketch-v3",
+    "ui-assets-v1"
+  ],
+  "filesRead": 22,
+  "references": [
+    {
+      "source": "full-map-v1/index.html",
+      "reference": "../screen-set-v6/assets/village.jpg",
+      "exists": true
+    },
+    {
+      "source": "full-map-v1/index.html",
+      "reference": "../maintenance-palette-v1/assets/selection-wash-v1.png",
+      "exists": true
+    },
+    {
+      "source": "full-map-v1/index.html",
+      "reference": "assets/player.png",
+      "exists": true
+    },
+    {
+      "source": "full-map-v1/index.html",
+      "reference": "assets/workshop-yellow.png",
+      "exists": true
+    },
+    {
+      "source": "full-map-v1/index.html",
+      "reference": "assets/chest.png",
+      "exists": true
+    },
+    {
+      "source": "full-map-v1/index.html",
+      "reference": "assets/seal.png",
+      "exists": true
+    },
+    {
+      "source": "full-map-v1/index.html",
+      "reference": "assets/boss-crimson.png",
+      "exists": true
+    },
+    {
+      "source": "full-map-v1/index.html",
+      "reference": "assets/portal-1.png",
+      "exists": true
+    },
+    {
+      "source": "full-map-v1/index.html",
+      "reference": "assets/portal-2.png",
+      "exists": true
+    },
+    {
+      "source": "full-map-v1/index.html",
+      "reference": "assets/unknown.png",
+      "exists": true
+    },
+    {
+      "source": "full-map-v1/asset-preview.html",
+      "reference": "assets/player.png",
+      "exists": true
+    },
+    {
+      "source": "full-map-v1/asset-preview.html",
+      "reference": "assets/player.png",
+      "exists": true
+    },
+    {
+      "source": "full-map-v1/asset-preview.html",
+      "reference": "assets/workshop-yellow.png",
+      "exists": true
+    },
+    {
+      "source": "full-map-v1/asset-preview.html",
+      "reference": "assets/workshop-yellow.png",
+      "exists": true
+    },
+    {
+      "source": "full-map-v1/asset-preview.html",
+      "reference": "assets/boss-crimson.png",
+      "exists": true
+    },
+    {
+      "source": "full-map-v1/asset-preview.html",
+      "reference": "assets/boss-crimson.png",
+      "exists": true
+    },
+    {
+      "source": "full-map-v1/asset-preview.html",
+      "reference": "assets/unknown.png",
+      "exists": true
+    },
+    {
+      "source": "full-map-v1/asset-preview.html",
+      "reference": "assets/unknown.png",
+      "exists": true
+    },
+    {
+      "source": "full-map-v1/asset-preview.html",
+      "reference": "assets/portal-1.png",
+      "exists": true
+    },
+    {
+      "source": "full-map-v1/asset-preview.html",
+      "reference": "assets/portal-1.png",
+      "exists": true
+    },
+    {
+      "source": "full-map-v1/asset-preview.html",
+      "reference": "assets/portal-2.png",
+      "exists": true
+    },
+    {
+      "source": "full-map-v1/asset-preview.html",
+      "reference": "assets/portal-2.png",
+      "exists": true
+    },
+    {
+      "source": "full-map-v1/asset-preview.html",
+      "reference": "assets/portal-3.png",
+      "exists": true
+    },
+    {
+      "source": "full-map-v1/asset-preview.html",
+      "reference": "assets/portal-3.png",
+      "exists": true
+    },
+    {
+      "source": "full-map-v1/asset-preview.html",
+      "reference": "assets/portal-4.png",
+      "exists": true
+    },
+    {
+      "source": "full-map-v1/asset-preview.html",
+      "reference": "assets/portal-4.png",
+      "exists": true
+    },
+    {
+      "source": "full-map-v1/asset-preview.html",
+      "reference": "assets/portal-5.png",
+      "exists": true
+    },
+    {
+      "source": "full-map-v1/asset-preview.html",
+      "reference": "assets/portal-5.png",
+      "exists": true
+    },
+    {
+      "source": "pause-menu-v1/index.html",
+      "reference": "../screen-set-v6/assets/village.jpg",
+      "exists": true
+    },
+    {
+      "source": "pause-menu-v1/index.html",
+      "reference": "../maintenance-palette-v1/assets/selection-wash-v1.png",
+      "exists": true
+    },
+    {
+      "source": "settings-v1/style.css",
+      "reference": "../screen-set-v6/assets/village.jpg",
+      "exists": true
+    },
+    {
+      "source": "settings-v1/style.css",
+      "reference": "../maintenance-palette-v1/assets/selection-wash-v1.png",
+      "exists": true
+    },
+    {
+      "source": "settings-v1/style.css",
+      "reference": "../maintenance-palette-v1/assets/selection-wash-v1.png",
+      "exists": true
+    },
+    {
+      "source": "settings-v1/style.css",
+      "reference": "assets/slider-thumb.png",
+      "exists": true
+    },
+    {
+      "source": "settings-v1/style.css",
+      "reference": "../maintenance-palette-v1/assets/selection-wash-v1.png",
+      "exists": true
+    },
+    {
+      "source": "settings-v1/style.css",
+      "reference": "../maintenance-palette-v1/assets/selection-wash-v1.png",
+      "exists": true
+    },
+    {
+      "source": "sketch-v3/style.css",
+      "reference": "../screen-set-v6/assets/village.jpg",
+      "exists": true
+    },
+    {
+      "source": "sketch-v3/style.css",
+      "reference": "../maintenance-palette-v1/assets/selection-wash-v1.png",
+      "exists": true
+    },
+    {
+      "source": "sketch-v3/style.css",
+      "reference": "../maintenance-palette-v1/assets/selection-wash-v1.png",
+      "exists": true
+    },
+    {
+      "source": "sketch-v3/style.css",
+      "reference": "../maintenance-palette-v1/assets/selection-wash-v1.png",
+      "exists": true
+    },
+    {
+      "source": "sketch-v3/style.css",
+      "reference": "../screen-set-v6/assets/village.jpg",
+      "exists": true
+    },
+    {
+      "source": "sketch-v3/style.css",
+      "reference": "../screen-set-v6/assets/village.jpg",
+      "exists": true
+    },
+    {
+      "source": "sketch-v3/style.css",
+      "reference": "../maintenance-palette-v1/assets/selection-wash-v1.png",
+      "exists": true
+    },
+    {
+      "source": "sketch-v3/style.css",
+      "reference": "../screen-set-v6/assets/village.jpg",
+      "exists": true
+    },
+    {
+      "source": "sketch-v3/style.css",
+      "reference": "../screen-set-v6/assets/village.jpg",
+      "exists": true
+    },
+    {
+      "source": "sketch-v3/style.css",
+      "reference": "../maintenance-palette-v1/assets/selection-wash-v1.png",
+      "exists": true
+    },
+    {
+      "source": "sketch-v3/style.css",
+      "reference": "../maintenance-palette-v1/assets/selection-wash-v1.png",
+      "exists": true
+    },
+    {
+      "source": "sketch-v3/style.css",
+      "reference": "../screen-set-v6/assets/village.jpg",
+      "exists": true
+    },
+    {
+      "source": "sketch-v3/style.css",
+      "reference": "../combat-hud-v2/assets/frame-large.png",
+      "exists": true
+    },
+    {
+      "source": "sketch-v3/style.css",
+      "reference": "assets/village-market.png",
+      "exists": true
+    },
+    {
+      "source": "sketch-v3/style.css",
+      "reference": "assets/village-ground.png",
+      "exists": true
+    },
+    {
+      "source": "sketch-v3/style.css",
+      "reference": "assets/village-ground-cap.png",
+      "exists": true
+    },
+    {
+      "source": "sketch-v3/style.css",
+      "reference": "assets/speech-frame-v1.png",
+      "exists": true
+    },
+    {
+      "source": "sketch-v3/style.css",
+      "reference": "../screen-set-v6/assets/village.jpg",
+      "exists": true
+    },
+    {
+      "source": "sketch-v3/style.css",
+      "reference": "assets/effect-atlas-v1.png",
+      "exists": true
+    },
+    {
+      "source": "sketch-v3/style.css",
+      "reference": "assets/blank-ink-bottles-v1.png",
+      "exists": true
+    },
+    {
+      "source": "sketch-v3/style.css",
+      "reference": "assets/stun-symbols-v2.png",
+      "exists": true
+    },
+    {
+      "source": "sketch-v3/village-ui.js",
+      "reference": "assets/village-news.png",
+      "exists": true
+    },
+    {
+      "source": "sketch-v3/village-ui.js",
+      "reference": "assets/eroders-notebook.png",
+      "exists": true
+    },
+    {
+      "source": "sketch-v3/village-ui.js",
+      "reference": "assets/well-ink-notebook.png",
+      "exists": true
+    },
+    {
+      "source": "sketch-v3/village-ui.js",
+      "reference": "assets/village-artisan.png",
+      "exists": true
+    },
+    {
+      "source": "sketch-v3/village-ui.js",
+      "reference": "assets/key-item.png",
+      "exists": true
+    },
+    {
+      "source": "sketch-v3/app.js",
+      "reference": "../currency-v1/assets/gold.png",
+      "exists": true
+    },
+    {
+      "source": "sketch-v3/app.js",
+      "reference": "../currency-v1/assets/magic-pigment-v2.png",
+      "exists": true
+    },
+    {
+      "source": "ui-assets-v1/style.css",
+      "reference": "../sketch-v3/assets/blank-ink-bottles-v1.png",
+      "exists": true
+    }
+  ],
+  "missing": []
+}

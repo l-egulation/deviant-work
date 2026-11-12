@@ -1,0 +1,92 @@
+[
+  {
+    "file": "acquisition-red-closed.png",
+    "source": "resources/ui/village-ink-return-20261107/runtime/acquisition/red-closed.png",
+    "sha256": "bb4eabaa7fbadb8d672144756588aa92cc2942c0cc613d19e25e1b8a5d58ed57",
+    "transformation": "none"
+  },
+  {
+    "file": "acquisition-green-closed.png",
+    "source": "resources/ui/village-ink-return-20261107/runtime/acquisition/green-closed.png",
+    "sha256": "6f88f20d8c8fee84cdc9740bd17cd3cfe8491c25a082139ecce5e7cd2b8bef19",
+    "transformation": "none"
+  },
+  {
+    "file": "acquisition-purple-closed.png",
+    "source": "resources/ui/village-ink-return-20261107/runtime/acquisition/purple-closed.png",
+    "sha256": "095e4d50ff5d1a3031f09490c062818265f6e63e909c7c81acd14302b27f9430",
+    "transformation": "none"
+  },
+  {
+    "file": "acquisition-yellow-closed.png",
+    "source": "resources/ui/village-ink-return-20261107/runtime/acquisition/yellow-closed.png",
+    "sha256": "2797d487f4075fc7555fb5f55e6331f2daafb0ffb61d42da010a92a1490529fb",
+    "transformation": "none"
+  },
+  {
+    "file": "acquisition-blue-closed.png",
+    "source": "resources/ui/village-ink-return-20261107/runtime/acquisition/blue-closed.png",
+    "sha256": "e5ed5c1431aa4e6784a636bf385b01cf0a5f977caea31e44df89b166c21fa1d5",
+    "transformation": "none"
+  },
+  {
+    "file": "drops-yellow.png",
+    "source": "resources/ui/village-ink-return-20261107/runtime/drops/yellow.png",
+    "sha256": "4cd05531a538f1c0da0c72e5f6beaea55da6bd7cbf992a8ecf3b353a2d3b3184",
+    "transformation": "none"
+  },
+  {
+    "file": "drops-blue.png",
+    "source": "resources/ui/village-ink-return-20261107/runtime/drops/blue.png",
+    "sha256": "601d010d10607b622608021888846ff96557056e9f4ae2437d7b8e4dc49e8c68",
+    "transformation": "none"
+  },
+  {
+    "file": "drops-green.png",
+    "source": "resources/ui/village-ink-return-20261107/runtime/drops/green.png",
+    "sha256": "14f4bbe8ad8704f1a2c349902e52b91df4a16e2f04298a9f26b9447d0766f6fa",
+    "transformation": "none"
+  },
+  {
+    "file": "drops-red.png",
+    "source": "resources/ui/village-ink-return-20261107/runtime/drops/red.png",
+    "sha256": "c6346b6cd1afd39002c573c8e283898a6782affca37978c2403b283378d10e82",
+    "transformation": "none"
+  },
+  {
+    "file": "drops-purple.png",
+    "source": "resources/ui/village-ink-return-20261107/runtime/drops/purple.png",
+    "sha256": "cf38a9fb0fdc8aaecc3156a8d62efd578fbefbfcb50d4ede35f4b1dea073c0fa",
+    "transformation": "none"
+  },
+  {
+    "file": "ui-notebook-paper.png",
+    "source": "resources/ui/village-ink-return-20261107/runtime/ui/notebook-paper.png",
+    "sha256": "f79f9ea2137a4c5dfb0e53231722291d16172650cdce5ca4578361918cb88ff0",
+    "transformation": "none"
+  },
+  {
+    "file": "ui-counter-banner-blank.png",
+    "source": "resources/ui/village-ink-return-20261107/runtime/ui/counter-banner-blank.png",
+    "sha256": "e93d7ffe9b6c9f3d71430342f8956c0ea9b2bcdc22665599539815ed158dc580",
+    "transformation": "none"
+  },
+  {
+    "file": "ui-progress-drop-empty.png",
+    "source": "resources/ui/village-ink-return-20261107/runtime/ui/progress-drop-empty.png",
+    "sha256": "22a13cc0fdc56bfc45089c8cd8450b08f13a8a43c88c6e889104802e382c48f7",
+    "transformation": "none"
+  },
+  {
+    "file": "ui-progress-drop-filled.png",
+    "source": "resources/ui/village-ink-return-20261107/runtime/ui/progress-drop-filled.png",
+    "sha256": "57fe9e525e71e0ac1005262d03baab7e74b6d99ac231579496ab3c89fd0f5bf1",
+    "transformation": "none"
+  },
+  {
+    "file": "ui-title-banner-blank.png",
+    "source": "resources/ui/village-ink-return-20261107/runtime/ui/title-banner-blank.png",
+    "sha256": "79393a58b4625c71ed27777ec3914793c615a858a311f4a3a8ed2f7c9229b51e",
+    "transformation": "none"
+  }
+]
