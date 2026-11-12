@@ -1,3 +1,5 @@
+> 최신 기준은 [현행 UI 명세](../CURRENT-UI-SPEC.md). 이 문서의 과거 수치·예시·남은 검수 기록보다 우선합니다.
+
 # 승인 에셋 적용
 
 - 잉크병: ui-assets-v2/atlases/ink-bottles-v4.png 직접 참조. 효과/조건 문양은 ui-assets-v1/atlases/ink-symbols.png 별도 레이어.

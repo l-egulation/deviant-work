@@ -1,3 +1,5 @@
+> 최신 기준은 [현행 UI 명세](../CURRENT-UI-SPEC.md). 이 문서의 과거 수치·예시·남은 검수 기록보다 우선합니다.
+
 # 현재 UI 상태와 남은 작업
 
 기준: 2026-11-13 사용자 수정 지시, 팀 로컬 `bb88516c3`. Unity 적용 전 HTML 시안 상태다. 전체 갤러리는 `../catalog.html`, 월드 묶음은 `../world-flows-v1/index.html`.
