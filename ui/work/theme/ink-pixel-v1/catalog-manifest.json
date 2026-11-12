@@ -1,7 +1,7 @@
 [
   [
     "현행 v3",
-    "보상 기회 보관",
+    "HUD에서 바로 보상 선택",
     "sketch-v3",
     "reward",
     "state=reward"
@@ -169,7 +169,7 @@
   ],
   [
     "현행 v3",
-    "회복 충전소 · 길게 누르기",
+    "회복 충전소 팝업 · 길게 누르기",
     "sketch-v3",
     "recovery",
     "state=recovery"
