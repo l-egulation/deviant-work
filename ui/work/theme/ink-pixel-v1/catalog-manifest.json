@@ -441,6 +441,41 @@
     "state=chest-no-key"
   ],
   [
+    "첫 안내",
+    "첫 제작 안내",
+    "sketch-v3",
+    "guide",
+    "state=guide"
+  ],
+  [
+    "첫 안내",
+    "내구도·무기 소진 안내",
+    "sketch-v3",
+    "guide-durability",
+    "state=guide-durability"
+  ],
+  [
+    "마을 기록",
+    "마을 · 붉은색 복원",
+    "sketch-v3",
+    "restoration",
+    "state=restoration"
+  ],
+  [
+    "마을 기록",
+    "하늘길 · 최고 기록과 최근 10회",
+    "sketch-v3",
+    "sky",
+    "state=sky"
+  ],
+  [
+    "에셋 검토",
+    "잉크 12종 · 문양과 효과 대조",
+    "sketch-v3",
+    "symbols",
+    "state=symbols"
+  ],
+  [
     "전체 지도",
     "전체 지도 · 새 시안",
     "full-map-v1",
@@ -481,13 +516,6 @@
     "pause-menu-v1",
     "confirm",
     "view=confirm"
-  ],
-  [
-    "일시정지",
-    "마을 · 다시 시작 확인",
-    "pause-menu-v1",
-    "restart",
-    "context=village&view=restart"
   ],
   [
     "설정",

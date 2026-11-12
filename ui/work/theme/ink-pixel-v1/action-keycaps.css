@@ -4,3 +4,8 @@ button .actionKeycap{display:inline-flex!important;align-items:center;justify-co
 button:disabled .actionKeycap{opacity:.55}
 
 button.hasActionKeycap kbd.actionKeycap{display:inline-flex!important;visibility:visible!important}
+
+button.hasActionKeycap kbd.actionKeycap{visibility:hidden!important;opacity:0}
+button.hasActionKeycap:is(.selected,.keyAction,:focus-visible):not(:disabled) kbd.actionKeycap,button.hasActionKeycap[data-fixed-key] kbd.actionKeycap{visibility:visible!important;opacity:1}
+
+.choice:not(.selected) kbd.actionKeycap{visibility:hidden!important;opacity:0}

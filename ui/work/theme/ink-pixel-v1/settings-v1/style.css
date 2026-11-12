@@ -14,3 +14,4 @@ dialog{background:transparent;border:0;padding:66px 70px}.dialogActions button{p
 .controlsScroll{height:500px}.controlSection h2{font-size:34px}
 /* Keep underlying action keycaps from showing through the confirmation dialog. */
 .screen:has(dialog[open]) main,.screen:has(dialog[open]) footer{visibility:hidden}
+.selectKey{margin-right:20px}.keyRow:focus{color:#fff4d8;background:#9bb4bc18}

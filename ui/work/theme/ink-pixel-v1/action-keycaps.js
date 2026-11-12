@@ -12,6 +12,6 @@
 'seal-reward-v1':'#claim',
 'boss-altar-v1':'#claim'
 };const selector=selectors[page];if(!selector)return;
-function sync(){document.querySelectorAll(selector).forEach(b=>{let k=[...b.querySelectorAll('kbd')].find(x=>x.textContent.trim()==='F');if(!k){k=document.createElement('kbd');k.textContent='F';b.prepend(k)}if(!k.classList.contains('actionKeycap')){k.classList.add('actionKeycap');k.setAttribute('aria-hidden','true');b.classList.add('hasActionKeycap')}});}
+function sync(){document.querySelectorAll(selector).forEach(b=>{let k=[...b.querySelectorAll('kbd')].find(x=>x.textContent.trim()===(b.dataset.fixedKey||'F'));if(!k){k=document.createElement('kbd');k.textContent=b.dataset.fixedKey||'F';b.prepend(k)}if(!k.classList.contains('actionKeycap')){k.classList.add('actionKeycap');k.setAttribute('aria-hidden','true');b.classList.add('hasActionKeycap')}});}
 sync();new MutationObserver(sync).observe(document.body,{childList:true,subtree:true});
 })();
