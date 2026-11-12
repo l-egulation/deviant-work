@@ -113,10 +113,10 @@
   ],
   [
     "현행 v3",
-    "완성 무기의 빈 칸",
+    "장착 중인 무기 교환",
     "sketch-v3",
-    "equipment-add",
-    "state=equipment-add"
+    "equipment-swap",
+    "state=equipment-swap"
   ],
   [
     "현행 v3",
