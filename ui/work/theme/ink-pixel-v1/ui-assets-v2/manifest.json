@@ -1,0 +1,2217 @@
+{
+  "sprites": [
+    {
+      "id": "base_sword",
+      "group": "무기",
+      "file": "atlases/weapons.png",
+      "imageSize": [
+        1266,
+        1243
+      ],
+      "rect": [
+        0,
+        0,
+        316,
+        311
+      ],
+      "view": [
+        93.15,
+        54.15,
+        155.7,
+        260.7
+      ]
+    },
+    {
+      "id": "rapier",
+      "group": "무기",
+      "file": "atlases/weapons.png",
+      "imageSize": [
+        1266,
+        1243
+      ],
+      "rect": [
+        316,
+        0,
+        317,
+        311
+      ],
+      "view": [
+        357.6,
+        54.6,
+        236.8,
+        250.8
+      ]
+    },
+    {
+      "id": "dagger",
+      "group": "무기",
+      "file": "atlases/weapons.png",
+      "imageSize": [
+        1266,
+        1243
+      ],
+      "rect": [
+        633,
+        0,
+        317,
+        311
+      ],
+      "view": [
+        710.6,
+        59.6,
+        154.8,
+        250.8
+      ]
+    },
+    {
+      "id": "greatsword",
+      "group": "무기",
+      "file": "atlases/weapons.png",
+      "imageSize": [
+        1266,
+        1243
+      ],
+      "rect": [
+        950,
+        0,
+        316,
+        311
+      ],
+      "view": [
+        966.5,
+        39.5,
+        264.0,
+        275.0
+      ]
+    },
+    {
+      "id": "hammer",
+      "group": "무기",
+      "file": "atlases/weapons.png",
+      "imageSize": [
+        1266,
+        1243
+      ],
+      "rect": [
+        0,
+        311,
+        316,
+        311
+      ],
+      "view": [
+        81.05,
+        354.05,
+        179.9,
+        240.9
+      ]
+    },
+    {
+      "id": "whip",
+      "group": "무기",
+      "file": "atlases/weapons.png",
+      "imageSize": [
+        1266,
+        1243
+      ],
+      "rect": [
+        316,
+        311,
+        317,
+        311
+      ],
+      "view": [
+        345.15,
+        363.15,
+        260.7,
+        233.7
+      ]
+    },
+    {
+      "id": "shield",
+      "group": "무기",
+      "file": "atlases/weapons.png",
+      "imageSize": [
+        1266,
+        1243
+      ],
+      "rect": [
+        633,
+        311,
+        317,
+        311
+      ],
+      "view": [
+        686.35,
+        353.35,
+        204.3,
+        256.3
+      ]
+    },
+    {
+      "id": "launcher",
+      "group": "무기",
+      "file": "atlases/weapons.png",
+      "imageSize": [
+        1266,
+        1243
+      ],
+      "rect": [
+        950,
+        311,
+        316,
+        311
+      ],
+      "view": [
+        948.65,
+        382.65,
+        293.7,
+        189.7
+      ]
+    },
+    {
+      "id": "launcher_laser",
+      "group": "무기",
+      "file": "atlases/weapons.png",
+      "imageSize": [
+        1266,
+        1243
+      ],
+      "rect": [
+        0,
+        622,
+        316,
+        310
+      ],
+      "view": [
+        25.299999999999997,
+        705.3,
+        279.4,
+        161.4
+      ]
+    },
+    {
+      "id": "launcher_shotgun",
+      "group": "무기",
+      "file": "atlases/weapons.png",
+      "imageSize": [
+        1266,
+        1243
+      ],
+      "rect": [
+        316,
+        622,
+        317,
+        310
+      ],
+      "view": [
+        332.2,
+        696.2,
+        281.6,
+        170.6
+      ]
+    },
+    {
+      "id": "launcher_grenade",
+      "group": "무기",
+      "file": "atlases/weapons.png",
+      "imageSize": [
+        1266,
+        1243
+      ],
+      "rect": [
+        633,
+        622,
+        317,
+        310
+      ],
+      "view": [
+        642.65,
+        662.65,
+        293.7,
+        204.7
+      ]
+    },
+    {
+      "id": "shuriken",
+      "group": "무기",
+      "file": "atlases/weapons.png",
+      "imageSize": [
+        1266,
+        1243
+      ],
+      "rect": [
+        950,
+        622,
+        316,
+        310
+      ],
+      "view": [
+        976.5,
+        651.5,
+        253.0,
+        236.0
+      ]
+    },
+    {
+      "id": "bomb",
+      "group": "무기",
+      "file": "atlases/weapons.png",
+      "imageSize": [
+        1266,
+        1243
+      ],
+      "rect": [
+        0,
+        932,
+        316,
+        311
+      ],
+      "view": [
+        63.95,
+        957.95,
+        192.1,
+        243.1
+      ]
+    },
+    {
+      "id": "red",
+      "group": "병",
+      "file": "atlases/ink-bottles.png",
+      "imageSize": [
+        2172,
+        724
+      ],
+      "rect": [
+        108,
+        0,
+        327,
+        724
+      ],
+      "view": [
+        103,
+        134,
+        337,
+        453
+      ]
+    },
+    {
+      "id": "yellow",
+      "group": "병",
+      "file": "atlases/ink-bottles.png",
+      "imageSize": [
+        2172,
+        724
+      ],
+      "rect": [
+        515,
+        0,
+        327,
+        724
+      ],
+      "view": [
+        510,
+        134,
+        337,
+        453
+      ]
+    },
+    {
+      "id": "green",
+      "group": "병",
+      "file": "atlases/ink-bottles.png",
+      "imageSize": [
+        2172,
+        724
+      ],
+      "rect": [
+        923,
+        0,
+        327,
+        724
+      ],
+      "view": [
+        918,
+        133,
+        337,
+        454
+      ]
+    },
+    {
+      "id": "blue",
+      "group": "병",
+      "file": "atlases/ink-bottles.png",
+      "imageSize": [
+        2172,
+        724
+      ],
+      "rect": [
+        1330,
+        0,
+        326,
+        724
+      ],
+      "view": [
+        1325,
+        134,
+        336,
+        453
+      ]
+    },
+    {
+      "id": "purple",
+      "group": "병",
+      "file": "atlases/ink-bottles.png",
+      "imageSize": [
+        2172,
+        724
+      ],
+      "rect": [
+        1737,
+        0,
+        327,
+        724
+      ],
+      "view": [
+        1732,
+        134,
+        337,
+        453
+      ]
+    },
+    {
+      "id": "locked-chest-closed",
+      "group": "상자",
+      "file": "atlases/chests.png",
+      "imageSize": [
+        1774,
+        887
+      ],
+      "rect": [
+        0,
+        0,
+        887,
+        887
+      ],
+      "view": [
+        66.1,
+        277.1,
+        789.8,
+        568.8
+      ]
+    },
+    {
+      "id": "locked-chest-open",
+      "group": "상자",
+      "file": "atlases/chests.png",
+      "imageSize": [
+        1774,
+        887
+      ],
+      "rect": [
+        887,
+        0,
+        887,
+        887
+      ],
+      "view": [
+        933.7,
+        96.69999999999999,
+        754.6,
+        747.6
+      ]
+    },
+    {
+      "id": "empty-red",
+      "group": "팔레트",
+      "file": "atlases/palette-layers.png",
+      "imageSize": [
+        1448,
+        1086
+      ],
+      "rect": [
+        0,
+        0,
+        362,
+        362
+      ],
+      "view": [
+        15.5,
+        58.5,
+        363.0,
+        290.0
+      ]
+    },
+    {
+      "id": "empty-yellow",
+      "group": "팔레트",
+      "file": "atlases/palette-layers.png",
+      "imageSize": [
+        1448,
+        1086
+      ],
+      "rect": [
+        362,
+        0,
+        362,
+        362
+      ],
+      "view": [
+        344.7,
+        64.7,
+        380.6,
+        271.6
+      ]
+    },
+    {
+      "id": "empty-green",
+      "group": "팔레트",
+      "file": "atlases/palette-layers.png",
+      "imageSize": [
+        1448,
+        1086
+      ],
+      "rect": [
+        724,
+        0,
+        362,
+        362
+      ],
+      "view": [
+        722.7,
+        64.7,
+        380.6,
+        280.6
+      ]
+    },
+    {
+      "id": "empty-blue",
+      "group": "팔레트",
+      "file": "atlases/palette-layers.png",
+      "imageSize": [
+        1448,
+        1086
+      ],
+      "rect": [
+        1086,
+        0,
+        362,
+        362
+      ],
+      "view": [
+        1069.2,
+        84.2,
+        369.6,
+        248.6
+      ]
+    },
+    {
+      "id": "empty-purple",
+      "group": "팔레트",
+      "file": "atlases/palette-layers.png",
+      "imageSize": [
+        1448,
+        1086
+      ],
+      "rect": [
+        0,
+        362,
+        362,
+        362
+      ],
+      "view": [
+        27.049999999999997,
+        396.05,
+        350.9,
+        297.9
+      ]
+    },
+    {
+      "id": "empty-neutral",
+      "group": "팔레트",
+      "file": "atlases/palette-layers.png",
+      "imageSize": [
+        1448,
+        1086
+      ],
+      "rect": [
+        362,
+        362,
+        362,
+        362
+      ],
+      "view": [
+        344.4,
+        404.4,
+        387.2,
+        276.2
+      ]
+    },
+    {
+      "id": "paint-red",
+      "group": "팔레트",
+      "file": "atlases/palette-layers.png",
+      "imageSize": [
+        1448,
+        1086
+      ],
+      "rect": [
+        724,
+        362,
+        362,
+        362
+      ],
+      "view": [
+        758.65,
+        424.65,
+        293.7,
+        229.7
+      ]
+    },
+    {
+      "id": "paint-yellow",
+      "group": "팔레트",
+      "file": "atlases/palette-layers.png",
+      "imageSize": [
+        1448,
+        1086
+      ],
+      "rect": [
+        1086,
+        362,
+        362,
+        362
+      ],
+      "view": [
+        1102.85,
+        442.85,
+        289.3,
+        204.3
+      ]
+    },
+    {
+      "id": "paint-green",
+      "group": "팔레트",
+      "file": "atlases/palette-layers.png",
+      "imageSize": [
+        1448,
+        1086
+      ],
+      "rect": [
+        0,
+        724,
+        362,
+        362
+      ],
+      "view": [
+        57.15,
+        772.15,
+        282.7,
+        226.7
+      ]
+    },
+    {
+      "id": "paint-blue",
+      "group": "팔레트",
+      "file": "atlases/palette-layers.png",
+      "imageSize": [
+        1448,
+        1086
+      ],
+      "rect": [
+        362,
+        724,
+        362,
+        362
+      ],
+      "view": [
+        386.15,
+        789.15,
+        326.7,
+        209.7
+      ]
+    },
+    {
+      "id": "paint-purple",
+      "group": "팔레트",
+      "file": "atlases/palette-layers.png",
+      "imageSize": [
+        1448,
+        1086
+      ],
+      "rect": [
+        724,
+        724,
+        362,
+        362
+      ],
+      "view": [
+        764.05,
+        775.05,
+        284.9,
+        232.9
+      ]
+    },
+    {
+      "id": "village-red",
+      "group": "마을 잉크",
+      "file": "atlases/village-ink.png",
+      "imageSize": [
+        1983,
+        793
+      ],
+      "rect": [
+        0,
+        0,
+        397,
+        396
+      ],
+      "view": [
+        75.45,
+        6.449999999999999,
+        334.1,
+        408.1
+      ]
+    },
+    {
+      "id": "village-yellow",
+      "group": "마을 잉크",
+      "file": "atlases/village-ink.png",
+      "imageSize": [
+        1983,
+        793
+      ],
+      "rect": [
+        397,
+        0,
+        396,
+        396
+      ],
+      "view": [
+        450.45,
+        6.449999999999999,
+        334.1,
+        408.1
+      ]
+    },
+    {
+      "id": "village-green",
+      "group": "마을 잉크",
+      "file": "atlases/village-ink.png",
+      "imageSize": [
+        1983,
+        793
+      ],
+      "rect": [
+        793,
+        0,
+        397,
+        396
+      ],
+      "view": [
+        826.45,
+        6.449999999999999,
+        333.1,
+        408.1
+      ]
+    },
+    {
+      "id": "village-blue",
+      "group": "마을 잉크",
+      "file": "atlases/village-ink.png",
+      "imageSize": [
+        1983,
+        793
+      ],
+      "rect": [
+        1190,
+        0,
+        396,
+        396
+      ],
+      "view": [
+        1200.45,
+        6.449999999999999,
+        333.1,
+        408.1
+      ]
+    },
+    {
+      "id": "village-purple",
+      "group": "마을 잉크",
+      "file": "atlases/village-ink.png",
+      "imageSize": [
+        1983,
+        793
+      ],
+      "rect": [
+        1586,
+        0,
+        397,
+        396
+      ],
+      "view": [
+        1575.45,
+        6.449999999999999,
+        333.1,
+        408.1
+      ]
+    },
+    {
+      "id": "drop-red",
+      "group": "마을 잉크",
+      "file": "atlases/village-ink.png",
+      "imageSize": [
+        1983,
+        793
+      ],
+      "rect": [
+        0,
+        396,
+        397,
+        397
+      ],
+      "view": [
+        75.25,
+        377.25,
+        334.5,
+        412.5
+      ]
+    },
+    {
+      "id": "drop-yellow",
+      "group": "마을 잉크",
+      "file": "atlases/village-ink.png",
+      "imageSize": [
+        1983,
+        793
+      ],
+      "rect": [
+        397,
+        396,
+        396,
+        397
+      ],
+      "view": [
+        450.25,
+        377.25,
+        334.5,
+        412.5
+      ]
+    },
+    {
+      "id": "drop-green",
+      "group": "마을 잉크",
+      "file": "atlases/village-ink.png",
+      "imageSize": [
+        1983,
+        793
+      ],
+      "rect": [
+        793,
+        396,
+        397,
+        397
+      ],
+      "view": [
+        826.25,
+        377.25,
+        333.5,
+        412.5
+      ]
+    },
+    {
+      "id": "drop-blue",
+      "group": "마을 잉크",
+      "file": "atlases/village-ink.png",
+      "imageSize": [
+        1983,
+        793
+      ],
+      "rect": [
+        1190,
+        396,
+        396,
+        397
+      ],
+      "view": [
+        1200.25,
+        377.25,
+        334.5,
+        412.5
+      ]
+    },
+    {
+      "id": "drop-purple",
+      "group": "마을 잉크",
+      "file": "atlases/village-ink.png",
+      "imageSize": [
+        1983,
+        793
+      ],
+      "rect": [
+        1586,
+        396,
+        397,
+        397
+      ],
+      "view": [
+        1575.25,
+        377.25,
+        333.5,
+        412.5
+      ]
+    },
+    {
+      "id": "notebook",
+      "group": "기록",
+      "file": "atlases/record-parts.png",
+      "imageSize": [
+        1536,
+        1024
+      ],
+      "rect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "view": [
+        38.5,
+        23.5,
+        455.0,
+        495.0
+      ]
+    },
+    {
+      "id": "counter",
+      "group": "기록",
+      "file": "atlases/record-parts.png",
+      "imageSize": [
+        1536,
+        1024
+      ],
+      "rect": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "view": [
+        505.3,
+        168.3,
+        543.4,
+        243.4
+      ]
+    },
+    {
+      "id": "title",
+      "group": "기록",
+      "file": "atlases/record-parts.png",
+      "imageSize": [
+        1536,
+        1024
+      ],
+      "rect": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "view": [
+        1000.85,
+        179.85,
+        509.3,
+        221.3
+      ]
+    },
+    {
+      "id": "drop-empty",
+      "group": "기록",
+      "file": "atlases/record-parts.png",
+      "imageSize": [
+        1536,
+        1024
+      ],
+      "rect": [
+        0,
+        512,
+        512,
+        512
+      ],
+      "view": [
+        129.6,
+        562.6,
+        313.8,
+        426.8
+      ]
+    },
+    {
+      "id": "drop-filled",
+      "group": "기록",
+      "file": "atlases/record-parts.png",
+      "imageSize": [
+        1536,
+        1024
+      ],
+      "rect": [
+        512,
+        512,
+        512,
+        512
+      ],
+      "view": [
+        598.6,
+        562.6,
+        314.8,
+        426.8
+      ]
+    },
+    {
+      "id": "book",
+      "group": "기록",
+      "file": "atlases/record-parts.png",
+      "imageSize": [
+        1536,
+        1024
+      ],
+      "rect": [
+        1024,
+        512,
+        512,
+        512
+      ],
+      "view": [
+        1048.35,
+        539.35,
+        382.3,
+        454.3
+      ]
+    },
+    {
+      "id": "eroders",
+      "group": "기록",
+      "file": "atlases/record-eroders.png",
+      "imageSize": [
+        1536,
+        1024
+      ],
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "view": [
+        -55.85000000000001,
+        44.14999999999999,
+        1624.7,
+        923.7
+      ]
+    },
+    {
+      "id": "well",
+      "group": "기록",
+      "file": "atlases/record-well.png",
+      "imageSize": [
+        1536,
+        1024
+      ],
+      "rect": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "view": [
+        154.5,
+        -21.5,
+        1177.0,
+        1085.0
+      ]
+    }
+  ],
+  "inks": [
+    {
+      "id": "yellow_basic_attack_movement_speed_increase",
+      "name": "기본 공격 가속",
+      "description": "기본 공격 시 3초 동안 이동속도가 10%(강화 15%) 증가합니다. 쿨타임 6초.",
+      "color": "yellow",
+      "trigger": "basic_attack",
+      "effect": "movement_speed_increase",
+      "condition": "",
+      "baseValue": 0.1,
+      "enhancedValue": 0.15,
+      "duration": 3,
+      "interval": 0,
+      "cooldown": 6,
+      "icon": "LootPickups/ink-flat-yellow",
+      "symbol": "ink-symbol-0",
+      "badge": "ink-symbol-10"
+    },
+    {
+      "id": "yellow_skill_attack_movement_speed_increase",
+      "name": "스킬 가속",
+      "description": "스킬 공격 시 3초 동안 이동속도가 10%(강화 15%) 증가합니다. 쿨타임 6초.",
+      "color": "yellow",
+      "trigger": "skill_attack",
+      "effect": "movement_speed_increase",
+      "condition": "",
+      "baseValue": 0.1,
+      "enhancedValue": 0.15,
+      "duration": 3,
+      "interval": 0,
+      "cooldown": 6,
+      "icon": "LootPickups/ink-flat-yellow",
+      "symbol": "ink-symbol-0",
+      "badge": "ink-symbol-11"
+    },
+    {
+      "id": "yellow_weapon_switch_movement_speed_increase",
+      "name": "스위칭 가속",
+      "description": "스위칭 공격 시 3초 동안 이동속도가 10%(강화 15%) 증가합니다. 쿨타임 6초.",
+      "color": "yellow",
+      "trigger": "weapon_switch",
+      "effect": "movement_speed_increase",
+      "condition": "",
+      "baseValue": 0.1,
+      "enhancedValue": 0.15,
+      "duration": 3,
+      "interval": 0,
+      "cooldown": 6,
+      "icon": "LootPickups/ink-flat-yellow",
+      "symbol": "ink-symbol-0",
+      "badge": "ink-symbol-12"
+    },
+    {
+      "id": "yellow_dash_use_movement_speed_increase",
+      "name": "대쉬 가속",
+      "description": "대쉬 시 4초 동안 이동속도가 10%(강화 15%) 증가합니다. 쿨타임 8초.",
+      "color": "yellow",
+      "trigger": "dash_use",
+      "effect": "movement_speed_increase",
+      "condition": "",
+      "baseValue": 0.1,
+      "enhancedValue": 0.15,
+      "duration": 4,
+      "interval": 0,
+      "cooldown": 8,
+      "icon": "LootPickups/ink-flat-yellow",
+      "symbol": "ink-symbol-0",
+      "badge": "ink-symbol-13"
+    },
+    {
+      "id": "yellow_status_condition_movement_speed_increase",
+      "name": "상태이상 부여 가속",
+      "description": "이 무기로 상태이상 부여 시 3초 동안 이동속도가 10%(강화 15%) 증가합니다. 쿨타임 6초.",
+      "color": "yellow",
+      "trigger": "status_condition",
+      "effect": "movement_speed_increase",
+      "condition": "",
+      "baseValue": 0.1,
+      "enhancedValue": 0.15,
+      "duration": 3,
+      "interval": 0,
+      "cooldown": 6,
+      "icon": "LootPickups/ink-flat-yellow",
+      "symbol": "ink-symbol-0",
+      "badge": "ink-symbol-14"
+    },
+    {
+      "id": "green_basic_attack_shield",
+      "name": "기본 공격 방어막",
+      "description": "기본 공격 시 방어막을 7(강화 10) 얻습니다. 쿨타임 6초.",
+      "color": "green",
+      "trigger": "basic_attack",
+      "effect": "shield",
+      "condition": "",
+      "baseValue": 7,
+      "enhancedValue": 10,
+      "duration": 0,
+      "interval": 0,
+      "cooldown": 6,
+      "icon": "LootPickups/ink-flat-green",
+      "symbol": "ink-symbol-1",
+      "badge": "ink-symbol-10"
+    },
+    {
+      "id": "green_skill_attack_shield",
+      "name": "스킬 방어막",
+      "description": "스킬 공격 시 방어막을 7(강화 10) 얻습니다. 쿨타임 6초.",
+      "color": "green",
+      "trigger": "skill_attack",
+      "effect": "shield",
+      "condition": "",
+      "baseValue": 7,
+      "enhancedValue": 10,
+      "duration": 0,
+      "interval": 0,
+      "cooldown": 6,
+      "icon": "LootPickups/ink-flat-green",
+      "symbol": "ink-symbol-1",
+      "badge": "ink-symbol-11"
+    },
+    {
+      "id": "green_weapon_switch_shield",
+      "name": "스위칭 방어막",
+      "description": "스위칭 공격 시 방어막을 7(강화 10) 얻습니다. 쿨타임 6초.",
+      "color": "green",
+      "trigger": "weapon_switch",
+      "effect": "shield",
+      "condition": "",
+      "baseValue": 7,
+      "enhancedValue": 10,
+      "duration": 0,
+      "interval": 0,
+      "cooldown": 6,
+      "icon": "LootPickups/ink-flat-green",
+      "symbol": "ink-symbol-1",
+      "badge": "ink-symbol-12"
+    },
+    {
+      "id": "green_dash_use_shield",
+      "name": "대쉬 방어막",
+      "description": "대쉬 시 방어막을 7(강화 10) 얻습니다. 쿨타임 8초.",
+      "color": "green",
+      "trigger": "dash_use",
+      "effect": "shield",
+      "condition": "",
+      "baseValue": 7,
+      "enhancedValue": 10,
+      "duration": 0,
+      "interval": 0,
+      "cooldown": 8,
+      "icon": "LootPickups/ink-flat-green",
+      "symbol": "ink-symbol-1",
+      "badge": "ink-symbol-13"
+    },
+    {
+      "id": "green_status_condition_shield",
+      "name": "상태이상 부여 방어막",
+      "description": "이 무기로 상태이상 부여 시 방어막을 7(강화 10) 얻습니다. 쿨타임 6초.",
+      "color": "green",
+      "trigger": "status_condition",
+      "effect": "shield",
+      "condition": "",
+      "baseValue": 7,
+      "enhancedValue": 10,
+      "duration": 0,
+      "interval": 0,
+      "cooldown": 6,
+      "icon": "LootPickups/ink-flat-green",
+      "symbol": "ink-symbol-1",
+      "badge": "ink-symbol-14"
+    },
+    {
+      "id": "green_basic_attack_heal",
+      "name": "기본 공격 회복",
+      "description": "기본 공격 시 체력을 3(강화 5) 회복합니다. 쿨타임 6초.",
+      "color": "green",
+      "trigger": "basic_attack",
+      "effect": "heal",
+      "condition": "",
+      "baseValue": 3,
+      "enhancedValue": 5,
+      "duration": 0,
+      "interval": 0,
+      "cooldown": 6,
+      "icon": "LootPickups/ink-flat-green",
+      "symbol": "ink-symbol-2",
+      "badge": "ink-symbol-10"
+    },
+    {
+      "id": "green_skill_attack_heal",
+      "name": "스킬 회복",
+      "description": "스킬 공격 시 체력을 3(강화 5) 회복합니다. 쿨타임 6초.",
+      "color": "green",
+      "trigger": "skill_attack",
+      "effect": "heal",
+      "condition": "",
+      "baseValue": 3,
+      "enhancedValue": 5,
+      "duration": 0,
+      "interval": 0,
+      "cooldown": 6,
+      "icon": "LootPickups/ink-flat-green",
+      "symbol": "ink-symbol-2",
+      "badge": "ink-symbol-11"
+    },
+    {
+      "id": "green_weapon_switch_heal",
+      "name": "스위칭 회복",
+      "description": "스위칭 공격 시 체력을 3(강화 5) 회복합니다. 쿨타임 6초.",
+      "color": "green",
+      "trigger": "weapon_switch",
+      "effect": "heal",
+      "condition": "",
+      "baseValue": 3,
+      "enhancedValue": 5,
+      "duration": 0,
+      "interval": 0,
+      "cooldown": 6,
+      "icon": "LootPickups/ink-flat-green",
+      "symbol": "ink-symbol-2",
+      "badge": "ink-symbol-12"
+    },
+    {
+      "id": "green_dash_use_heal",
+      "name": "대쉬 회복",
+      "description": "대쉬 시 체력을 3(강화 5) 회복합니다. 쿨타임 8초.",
+      "color": "green",
+      "trigger": "dash_use",
+      "effect": "heal",
+      "condition": "",
+      "baseValue": 3,
+      "enhancedValue": 5,
+      "duration": 0,
+      "interval": 0,
+      "cooldown": 8,
+      "icon": "LootPickups/ink-flat-green",
+      "symbol": "ink-symbol-2",
+      "badge": "ink-symbol-13"
+    },
+    {
+      "id": "green_status_condition_heal",
+      "name": "상태이상 부여 회복",
+      "description": "이 무기로 상태이상 부여 시 체력을 3(강화 5) 회복합니다. 쿨타임 6초.",
+      "color": "green",
+      "trigger": "status_condition",
+      "effect": "heal",
+      "condition": "",
+      "baseValue": 3,
+      "enhancedValue": 5,
+      "duration": 0,
+      "interval": 0,
+      "cooldown": 6,
+      "icon": "LootPickups/ink-flat-green",
+      "symbol": "ink-symbol-2",
+      "badge": "ink-symbol-14"
+    },
+    {
+      "id": "purple_basic_attack_stun",
+      "name": "기본 공격 기절",
+      "description": "기본 공격 시 적을 1초(강화 1.5초) 동안 기절시킵니다. 쿨타임 6초.",
+      "color": "purple",
+      "trigger": "basic_attack",
+      "effect": "stun",
+      "condition": "",
+      "baseValue": 1,
+      "enhancedValue": 1.5,
+      "duration": 0,
+      "interval": 0,
+      "cooldown": 6,
+      "icon": "LootPickups/ink-flat-purple",
+      "symbol": "ink-symbol-3",
+      "badge": "ink-symbol-10"
+    },
+    {
+      "id": "purple_skill_attack_stun",
+      "name": "스킬 기절",
+      "description": "스킬 공격 시 적을 1초(강화 1.5초) 동안 기절시킵니다. 쿨타임 6초.",
+      "color": "purple",
+      "trigger": "skill_attack",
+      "effect": "stun",
+      "condition": "",
+      "baseValue": 1,
+      "enhancedValue": 1.5,
+      "duration": 0,
+      "interval": 0,
+      "cooldown": 6,
+      "icon": "LootPickups/ink-flat-purple",
+      "symbol": "ink-symbol-3",
+      "badge": "ink-symbol-11"
+    },
+    {
+      "id": "purple_weapon_switch_stun",
+      "name": "스위칭 기절",
+      "description": "스위칭 공격 시 적을 1초(강화 1.5초) 동안 기절시킵니다. 쿨타임 6초.",
+      "color": "purple",
+      "trigger": "weapon_switch",
+      "effect": "stun",
+      "condition": "",
+      "baseValue": 1,
+      "enhancedValue": 1.5,
+      "duration": 0,
+      "interval": 0,
+      "cooldown": 6,
+      "icon": "LootPickups/ink-flat-purple",
+      "symbol": "ink-symbol-3",
+      "badge": "ink-symbol-12"
+    },
+    {
+      "id": "purple_dash_use_stun",
+      "name": "대쉬 기절",
+      "description": "대쉬 시 경로에 닿은 적을 1초(강화 1.5초) 동안 기절시킵니다. 쿨타임 8초.",
+      "color": "purple",
+      "trigger": "dash_use",
+      "effect": "stun",
+      "condition": "",
+      "baseValue": 1,
+      "enhancedValue": 1.5,
+      "duration": 0,
+      "interval": 0,
+      "cooldown": 8,
+      "icon": "LootPickups/ink-flat-purple",
+      "symbol": "ink-symbol-3",
+      "badge": "ink-symbol-13"
+    },
+    {
+      "id": "purple_basic_attack_root",
+      "name": "기본 공격 속박",
+      "description": "기본 공격 시 적을 1초(강화 1.5초) 동안 속박합니다. 쿨타임 6초.",
+      "color": "purple",
+      "trigger": "basic_attack",
+      "effect": "root",
+      "condition": "",
+      "baseValue": 1,
+      "enhancedValue": 1.5,
+      "duration": 0,
+      "interval": 0,
+      "cooldown": 6,
+      "icon": "LootPickups/ink-flat-purple",
+      "symbol": "ink-symbol-4",
+      "badge": "ink-symbol-10"
+    },
+    {
+      "id": "purple_skill_attack_root",
+      "name": "스킬 속박",
+      "description": "스킬 공격 시 적을 1초(강화 1.5초) 동안 속박합니다. 쿨타임 6초.",
+      "color": "purple",
+      "trigger": "skill_attack",
+      "effect": "root",
+      "condition": "",
+      "baseValue": 1,
+      "enhancedValue": 1.5,
+      "duration": 0,
+      "interval": 0,
+      "cooldown": 6,
+      "icon": "LootPickups/ink-flat-purple",
+      "symbol": "ink-symbol-4",
+      "badge": "ink-symbol-11"
+    },
+    {
+      "id": "purple_weapon_switch_root",
+      "name": "스위칭 속박",
+      "description": "스위칭 공격 시 적을 1초(강화 1.5초) 동안 속박합니다. 쿨타임 6초.",
+      "color": "purple",
+      "trigger": "weapon_switch",
+      "effect": "root",
+      "condition": "",
+      "baseValue": 1,
+      "enhancedValue": 1.5,
+      "duration": 0,
+      "interval": 0,
+      "cooldown": 6,
+      "icon": "LootPickups/ink-flat-purple",
+      "symbol": "ink-symbol-4",
+      "badge": "ink-symbol-12"
+    },
+    {
+      "id": "purple_dash_use_root",
+      "name": "대쉬 속박",
+      "description": "대쉬 시 경로에 닿은 적을 1초(강화 1.5초) 동안 속박합니다. 쿨타임 8초.",
+      "color": "purple",
+      "trigger": "dash_use",
+      "effect": "root",
+      "condition": "",
+      "baseValue": 1,
+      "enhancedValue": 1.5,
+      "duration": 0,
+      "interval": 0,
+      "cooldown": 8,
+      "icon": "LootPickups/ink-flat-purple",
+      "symbol": "ink-symbol-4",
+      "badge": "ink-symbol-13"
+    },
+    {
+      "id": "purple_basic_attack_slow",
+      "name": "기본 공격 슬로우",
+      "description": "기본 공격 시 적의 속도를 3초 동안 20%(강화 30%) 감소시킵니다. 쿨타임 6초.",
+      "color": "purple",
+      "trigger": "basic_attack",
+      "effect": "slow",
+      "condition": "",
+      "baseValue": 0.2,
+      "enhancedValue": 0.3,
+      "duration": 3,
+      "interval": 0,
+      "cooldown": 6,
+      "icon": "LootPickups/ink-flat-purple",
+      "symbol": "ink-symbol-5",
+      "badge": "ink-symbol-10"
+    },
+    {
+      "id": "purple_skill_attack_slow",
+      "name": "스킬 슬로우",
+      "description": "스킬 공격 시 적의 속도를 3초 동안 20%(강화 30%) 감소시킵니다. 쿨타임 6초.",
+      "color": "purple",
+      "trigger": "skill_attack",
+      "effect": "slow",
+      "condition": "",
+      "baseValue": 0.2,
+      "enhancedValue": 0.3,
+      "duration": 3,
+      "interval": 0,
+      "cooldown": 6,
+      "icon": "LootPickups/ink-flat-purple",
+      "symbol": "ink-symbol-5",
+      "badge": "ink-symbol-11"
+    },
+    {
+      "id": "purple_weapon_switch_slow",
+      "name": "스위칭 슬로우",
+      "description": "스위칭 공격 시 적의 속도를 3초 동안 20%(강화 30%) 감소시킵니다. 쿨타임 6초.",
+      "color": "purple",
+      "trigger": "weapon_switch",
+      "effect": "slow",
+      "condition": "",
+      "baseValue": 0.2,
+      "enhancedValue": 0.3,
+      "duration": 3,
+      "interval": 0,
+      "cooldown": 6,
+      "icon": "LootPickups/ink-flat-purple",
+      "symbol": "ink-symbol-5",
+      "badge": "ink-symbol-12"
+    },
+    {
+      "id": "purple_dash_use_slow",
+      "name": "대쉬 슬로우",
+      "description": "대쉬 시 경로에 닿은 적의 속도를 4초 동안 20%(강화 30%) 감소시킵니다. 쿨타임 8초.",
+      "color": "purple",
+      "trigger": "dash_use",
+      "effect": "slow",
+      "condition": "",
+      "baseValue": 0.2,
+      "enhancedValue": 0.3,
+      "duration": 4,
+      "interval": 0,
+      "cooldown": 8,
+      "icon": "LootPickups/ink-flat-purple",
+      "symbol": "ink-symbol-5",
+      "badge": "ink-symbol-13"
+    },
+    {
+      "id": "purple_basic_attack_poison",
+      "name": "기본 공격 중독",
+      "description": "기본 공격 시 적을 4초 동안 중독시켜, 0.3초마다 1(강화 1.5)의 피해를 줍니다. 쿨타임 6초.",
+      "color": "purple",
+      "trigger": "basic_attack",
+      "effect": "poison",
+      "condition": "",
+      "baseValue": 1,
+      "enhancedValue": 1.5,
+      "duration": 4,
+      "interval": 0.3,
+      "cooldown": 6,
+      "icon": "LootPickups/ink-flat-purple",
+      "symbol": "ink-symbol-6",
+      "badge": "ink-symbol-10"
+    },
+    {
+      "id": "purple_skill_attack_poison",
+      "name": "스킬 중독",
+      "description": "스킬 공격 시 적을 4초 동안 중독시켜, 0.3초마다 1(강화 1.5)의 피해를 줍니다. 쿨타임 6초.",
+      "color": "purple",
+      "trigger": "skill_attack",
+      "effect": "poison",
+      "condition": "",
+      "baseValue": 1,
+      "enhancedValue": 1.5,
+      "duration": 4,
+      "interval": 0.3,
+      "cooldown": 6,
+      "icon": "LootPickups/ink-flat-purple",
+      "symbol": "ink-symbol-6",
+      "badge": "ink-symbol-11"
+    },
+    {
+      "id": "purple_weapon_switch_poison",
+      "name": "스위칭 중독",
+      "description": "스위칭 공격 시 적을 4초 동안 중독시켜, 0.3초마다 1(강화 1.5)의 피해를 줍니다. 쿨타임 6초.",
+      "color": "purple",
+      "trigger": "weapon_switch",
+      "effect": "poison",
+      "condition": "",
+      "baseValue": 1,
+      "enhancedValue": 1.5,
+      "duration": 4,
+      "interval": 0.3,
+      "cooldown": 6,
+      "icon": "LootPickups/ink-flat-purple",
+      "symbol": "ink-symbol-6",
+      "badge": "ink-symbol-12"
+    },
+    {
+      "id": "purple_dash_use_poison",
+      "name": "대쉬 중독",
+      "description": "대쉬 시 경로에 닿은 적을 5초 동안 중독시켜, 0.3초마다 1(강화 1.5)의 피해를 줍니다. 쿨타임 8초.",
+      "color": "purple",
+      "trigger": "dash_use",
+      "effect": "poison",
+      "condition": "",
+      "baseValue": 1,
+      "enhancedValue": 1.5,
+      "duration": 5,
+      "interval": 0.3,
+      "cooldown": 8,
+      "icon": "LootPickups/ink-flat-purple",
+      "symbol": "ink-symbol-6",
+      "badge": "ink-symbol-13"
+    },
+    {
+      "id": "red_basic_attack_basic_attack_damage_increase_stun",
+      "name": "기절 조건 기본 공격 강화",
+      "description": "기절한 적에게 기본 공격 시 4초 동안 공격 피해가 20%(강화 30%) 증가합니다. 쿨타임 6초.",
+      "color": "red",
+      "trigger": "basic_attack",
+      "effect": "basic_attack_damage_increase",
+      "condition": "stun",
+      "baseValue": 0.2,
+      "enhancedValue": 0.3,
+      "duration": 4,
+      "interval": 0,
+      "cooldown": 6,
+      "icon": "LootPickups/ink-flat-red",
+      "symbol": "ink-symbol-7",
+      "badge": "ink-symbol-3"
+    },
+    {
+      "id": "red_basic_attack_basic_attack_damage_increase_root",
+      "name": "속박 조건 기본 공격 강화",
+      "description": "속박된 적에게 기본 공격 시 4초 동안 공격 피해가 20%(강화 30%) 증가합니다. 쿨타임 6초.",
+      "color": "red",
+      "trigger": "basic_attack",
+      "effect": "basic_attack_damage_increase",
+      "condition": "root",
+      "baseValue": 0.2,
+      "enhancedValue": 0.3,
+      "duration": 4,
+      "interval": 0,
+      "cooldown": 6,
+      "icon": "LootPickups/ink-flat-red",
+      "symbol": "ink-symbol-7",
+      "badge": "ink-symbol-4"
+    },
+    {
+      "id": "red_basic_attack_basic_attack_damage_increase_poison",
+      "name": "중독 조건 기본 공격 강화",
+      "description": "중독된 적에게 기본 공격 시 4초 동안 공격 피해가 20%(강화 30%) 증가합니다. 쿨타임 6초.",
+      "color": "red",
+      "trigger": "basic_attack",
+      "effect": "basic_attack_damage_increase",
+      "condition": "poison",
+      "baseValue": 0.2,
+      "enhancedValue": 0.3,
+      "duration": 4,
+      "interval": 0,
+      "cooldown": 6,
+      "icon": "LootPickups/ink-flat-red",
+      "symbol": "ink-symbol-7",
+      "badge": "ink-symbol-6"
+    },
+    {
+      "id": "red_basic_attack_basic_attack_damage_increase_slow",
+      "name": "슬로우 조건 기본 공격 강화",
+      "description": "슬로우 상태인 적에게 기본 공격 시 4초 동안 공격 피해가 20%(강화 30%) 증가합니다. 쿨타임 6초.",
+      "color": "red",
+      "trigger": "basic_attack",
+      "effect": "basic_attack_damage_increase",
+      "condition": "slow",
+      "baseValue": 0.2,
+      "enhancedValue": 0.3,
+      "duration": 4,
+      "interval": 0,
+      "cooldown": 6,
+      "icon": "LootPickups/ink-flat-red",
+      "symbol": "ink-symbol-7",
+      "badge": "ink-symbol-5"
+    },
+    {
+      "id": "blue_skill_attack_cooldown_reduction_stun",
+      "name": "기절 조건 스킬 쿨타임 감소",
+      "description": "기절한 적에게 스킬 공격 시 이 무기의 스킬 쿨타임 15%(강화 20%)를 줄입니다. 잉크 쿨타임 4초.",
+      "color": "blue",
+      "trigger": "skill_attack",
+      "effect": "cooldown_reduction",
+      "condition": "stun",
+      "baseValue": 0.15,
+      "enhancedValue": 0.2,
+      "duration": 0,
+      "interval": 0,
+      "cooldown": 4,
+      "icon": "LootPickups/ink-flat-blue",
+      "symbol": "ink-symbol-8",
+      "badge": "ink-symbol-3"
+    },
+    {
+      "id": "blue_skill_attack_cooldown_reduction_root",
+      "name": "속박 조건 스킬 쿨타임 감소",
+      "description": "속박된 적에게 스킬 공격 시 이 무기의 스킬 쿨타임 15%(강화 20%)를 줄입니다. 잉크 쿨타임 4초.",
+      "color": "blue",
+      "trigger": "skill_attack",
+      "effect": "cooldown_reduction",
+      "condition": "root",
+      "baseValue": 0.15,
+      "enhancedValue": 0.2,
+      "duration": 0,
+      "interval": 0,
+      "cooldown": 4,
+      "icon": "LootPickups/ink-flat-blue",
+      "symbol": "ink-symbol-8",
+      "badge": "ink-symbol-4"
+    },
+    {
+      "id": "blue_skill_attack_cooldown_reduction_poison",
+      "name": "중독 조건 스킬 쿨타임 감소",
+      "description": "중독된 적에게 스킬 공격 시 이 무기의 스킬 쿨타임 15%(강화 20%)를 줄입니다. 잉크 쿨타임 4초.",
+      "color": "blue",
+      "trigger": "skill_attack",
+      "effect": "cooldown_reduction",
+      "condition": "poison",
+      "baseValue": 0.15,
+      "enhancedValue": 0.2,
+      "duration": 0,
+      "interval": 0,
+      "cooldown": 4,
+      "icon": "LootPickups/ink-flat-blue",
+      "symbol": "ink-symbol-8",
+      "badge": "ink-symbol-6"
+    },
+    {
+      "id": "blue_skill_attack_cooldown_reduction_slow",
+      "name": "슬로우 조건 스킬 쿨타임 감소",
+      "description": "슬로우 상태인 적에게 스킬 공격 시 이 무기의 스킬 쿨타임 15%(강화 20%)를 줄입니다. 잉크 쿨타임 4초.",
+      "color": "blue",
+      "trigger": "skill_attack",
+      "effect": "cooldown_reduction",
+      "condition": "slow",
+      "baseValue": 0.15,
+      "enhancedValue": 0.2,
+      "duration": 0,
+      "interval": 0,
+      "cooldown": 4,
+      "icon": "LootPickups/ink-flat-blue",
+      "symbol": "ink-symbol-8",
+      "badge": "ink-symbol-5"
+    },
+    {
+      "id": "blue_skill_attack_skill_attack_damage_increase_stun",
+      "name": "기절 조건 스킬 피해 강화",
+      "description": "기절한 적에게 스킬 공격 시 이 무기의 스킬 피해가 20%(강화 30%) 증가합니다. 잉크 쿨타임 4초.",
+      "color": "blue",
+      "trigger": "skill_attack",
+      "effect": "skill_attack_damage_increase",
+      "condition": "stun",
+      "baseValue": 0.2,
+      "enhancedValue": 0.3,
+      "duration": 0,
+      "interval": 0,
+      "cooldown": 4,
+      "icon": "LootPickups/ink-flat-blue",
+      "symbol": "ink-symbol-9",
+      "badge": "ink-symbol-3"
+    },
+    {
+      "id": "blue_skill_attack_skill_attack_damage_increase_root",
+      "name": "속박 조건 스킬 피해 강화",
+      "description": "속박된 적에게 스킬 공격 시 이 무기의 스킬 피해가 20%(강화 30%) 증가합니다. 잉크 쿨타임 4초.",
+      "color": "blue",
+      "trigger": "skill_attack",
+      "effect": "skill_attack_damage_increase",
+      "condition": "root",
+      "baseValue": 0.2,
+      "enhancedValue": 0.3,
+      "duration": 0,
+      "interval": 0,
+      "cooldown": 4,
+      "icon": "LootPickups/ink-flat-blue",
+      "symbol": "ink-symbol-9",
+      "badge": "ink-symbol-4"
+    },
+    {
+      "id": "blue_skill_attack_skill_attack_damage_increase_poison",
+      "name": "중독 조건 스킬 피해 강화",
+      "description": "중독된 적에게 스킬 공격 시 이 무기의 스킬 피해가 20%(강화 30%) 증가합니다. 잉크 쿨타임 4초.",
+      "color": "blue",
+      "trigger": "skill_attack",
+      "effect": "skill_attack_damage_increase",
+      "condition": "poison",
+      "baseValue": 0.2,
+      "enhancedValue": 0.3,
+      "duration": 0,
+      "interval": 0,
+      "cooldown": 4,
+      "icon": "LootPickups/ink-flat-blue",
+      "symbol": "ink-symbol-9",
+      "badge": "ink-symbol-6"
+    },
+    {
+      "id": "blue_skill_attack_skill_attack_damage_increase_slow",
+      "name": "슬로우 조건 스킬 피해 강화",
+      "description": "슬로우 상태인 적에게 스킬 공격 시 이 무기의 스킬 피해가 20%(강화 30%) 증가합니다. 잉크 쿨타임 4초.",
+      "color": "blue",
+      "trigger": "skill_attack",
+      "effect": "skill_attack_damage_increase",
+      "condition": "slow",
+      "baseValue": 0.2,
+      "enhancedValue": 0.3,
+      "duration": 0,
+      "interval": 0,
+      "cooldown": 4,
+      "icon": "LootPickups/ink-flat-blue",
+      "symbol": "ink-symbol-9",
+      "badge": "ink-symbol-5"
+    }
+  ],
+  "glyphs": [
+    {
+      "id": "ink-symbol-0",
+      "name": "가속",
+      "group": "문양 구성요소",
+      "file": "atlases/ink-symbols.png",
+      "imageSize": [
+        1254,
+        1254
+      ],
+      "rect": [
+        0,
+        0,
+        314,
+        314
+      ],
+      "view": [
+        25.95999999999998,
+        58.45999999999998,
+        262.08000000000004,
+        262.08000000000004
+      ],
+      "alphaBounds": [
+        40,
+        93,
+        274,
+        286
+      ]
+    },
+    {
+      "id": "ink-symbol-1",
+      "name": "보호막",
+      "group": "문양 구성요소",
+      "file": "atlases/ink-symbols.png",
+      "imageSize": [
+        1254,
+        1254
+      ],
+      "rect": [
+        314,
+        0,
+        313,
+        314
+      ],
+      "view": [
+        348.91999999999996,
+        54.91999999999999,
+        244.16000000000003,
+        244.16000000000003
+      ],
+      "alphaBounds": [
+        63,
+        68,
+        251,
+        286
+      ]
+    },
+    {
+      "id": "ink-symbol-2",
+      "name": "회복",
+      "group": "문양 구성요소",
+      "file": "atlases/ink-symbols.png",
+      "imageSize": [
+        1254,
+        1254
+      ],
+      "rect": [
+        627,
+        0,
+        313,
+        314
+      ],
+      "view": [
+        669.7,
+        71.19999999999999,
+        229.60000000000002,
+        229.60000000000002
+      ],
+      "alphaBounds": [
+        55,
+        86,
+        260,
+        286
+      ]
+    },
+    {
+      "id": "ink-symbol-3",
+      "name": "기절",
+      "group": "문양 구성요소",
+      "file": "atlases/ink-symbols.png",
+      "imageSize": [
+        1254,
+        1254
+      ],
+      "rect": [
+        940,
+        0,
+        314,
+        314
+      ],
+      "view": [
+        966.38,
+        49.37999999999998,
+        254.24000000000004,
+        254.24000000000004
+      ],
+      "alphaBounds": [
+        40,
+        74,
+        267,
+        279
+      ]
+    },
+    {
+      "id": "ink-symbol-4",
+      "name": "속박",
+      "group": "문양 구성요소",
+      "file": "atlases/ink-symbols.png",
+      "imageSize": [
+        1254,
+        1254
+      ],
+      "rect": [
+        0,
+        314,
+        314,
+        313
+      ],
+      "view": [
+        24.78,
+        353.28,
+        265.44,
+        265.44
+      ],
+      "alphaBounds": [
+        39,
+        114,
+        276,
+        230
+      ]
+    },
+    {
+      "id": "ink-symbol-5",
+      "name": "둔화",
+      "group": "문양 구성요소",
+      "file": "atlases/ink-symbols.png",
+      "imageSize": [
+        1254,
+        1254
+      ],
+      "rect": [
+        314,
+        314,
+        313,
+        313
+      ],
+      "view": [
+        347.44,
+        359.44,
+        253.12000000000003,
+        253.12000000000003
+      ],
+      "alphaBounds": [
+        47,
+        76,
+        273,
+        268
+      ]
+    },
+    {
+      "id": "ink-symbol-6",
+      "name": "중독",
+      "group": "문양 구성요소",
+      "file": "atlases/ink-symbols.png",
+      "imageSize": [
+        1254,
+        1254
+      ],
+      "rect": [
+        627,
+        314,
+        313,
+        313
+      ],
+      "view": [
+        662.66,
+        341.65999999999997,
+        267.68,
+        267.68
+      ],
+      "alphaBounds": [
+        74,
+        42,
+        265,
+        281
+      ]
+    },
+    {
+      "id": "ink-symbol-7",
+      "name": "기본 공격 피해",
+      "group": "문양 구성요소",
+      "file": "atlases/ink-symbols.png",
+      "imageSize": [
+        1254,
+        1254
+      ],
+      "rect": [
+        940,
+        314,
+        314,
+        313
+      ],
+      "view": [
+        975.92,
+        360.91999999999996,
+        244.16000000000003,
+        244.16000000000003
+      ],
+      "alphaBounds": [
+        49,
+        60,
+        267,
+        278
+      ]
+    },
+    {
+      "id": "ink-symbol-8",
+      "name": "쿨타임 감소",
+      "group": "문양 구성요소",
+      "file": "atlases/ink-symbols.png",
+      "imageSize": [
+        1254,
+        1254
+      ],
+      "rect": [
+        0,
+        627,
+        314,
+        313
+      ],
+      "view": [
+        35.91999999999999,
+        669.92,
+        244.16000000000003,
+        244.16000000000003
+      ],
+      "alphaBounds": [
+        51,
+        56,
+        265,
+        274
+      ]
+    },
+    {
+      "id": "ink-symbol-9",
+      "name": "스킬 피해",
+      "group": "문양 구성요소",
+      "file": "atlases/ink-symbols.png",
+      "imageSize": [
+        1254,
+        1254
+      ],
+      "rect": [
+        314,
+        627,
+        313,
+        313
+      ],
+      "view": [
+        337.78,
+        653.78,
+        265.44,
+        265.44
+      ],
+      "alphaBounds": [
+        38,
+        49,
+        275,
+        270
+      ]
+    },
+    {
+      "id": "ink-symbol-10",
+      "name": "기본 공격",
+      "group": "문양 구성요소",
+      "file": "atlases/ink-symbols.png",
+      "imageSize": [
+        1254,
+        1254
+      ],
+      "rect": [
+        627,
+        627,
+        313,
+        313
+      ],
+      "view": [
+        670.42,
+        682.42,
+        216.16000000000003,
+        216.16000000000003
+      ],
+      "alphaBounds": [
+        55,
+        67,
+        248,
+        260
+      ]
+    },
+    {
+      "id": "ink-symbol-11",
+      "name": "스킬",
+      "group": "문양 구성요소",
+      "file": "atlases/ink-symbols.png",
+      "imageSize": [
+        1254,
+        1254
+      ],
+      "rect": [
+        940,
+        627,
+        314,
+        313
+      ],
+      "view": [
+        992.72,
+        679.72,
+        210.56000000000003,
+        210.56000000000003
+      ],
+      "alphaBounds": [
+        67,
+        64,
+        249,
+        252
+      ]
+    },
+    {
+      "id": "ink-symbol-12",
+      "name": "스위칭",
+      "group": "문양 구성요소",
+      "file": "atlases/ink-symbols.png",
+      "imageSize": [
+        1254,
+        1254
+      ],
+      "rect": [
+        0,
+        940,
+        314,
+        314
+      ],
+      "view": [
+        44.81999999999999,
+        984.8199999999999,
+        227.36,
+        227.36
+      ],
+      "alphaBounds": [
+        57,
+        57,
+        260,
+        260
+      ]
+    },
+    {
+      "id": "ink-symbol-13",
+      "name": "대쉬",
+      "group": "문양 구성요소",
+      "file": "atlases/ink-symbols.png",
+      "imageSize": [
+        1254,
+        1254
+      ],
+      "rect": [
+        314,
+        940,
+        313,
+        314
+      ],
+      "view": [
+        328.29999999999995,
+        964.8,
+        274.40000000000003,
+        274.40000000000003
+      ],
+      "alphaBounds": [
+        29,
+        85,
+        274,
+        239
+      ]
+    },
+    {
+      "id": "ink-symbol-14",
+      "name": "상태이상 부여",
+      "group": "문양 구성요소",
+      "file": "atlases/ink-symbols.png",
+      "imageSize": [
+        1254,
+        1254
+      ],
+      "rect": [
+        627,
+        940,
+        313,
+        314
+      ],
+      "view": [
+        678.16,
+        984.66,
+        211.68,
+        211.68
+      ],
+      "alphaBounds": [
+        68,
+        56,
+        246,
+        245
+      ]
+    },
+    {
+      "id": "ink-symbol-15",
+      "name": "내구도 소진",
+      "group": "문양 구성요소",
+      "file": "atlases/ink-symbols.png",
+      "imageSize": [
+        1254,
+        1254
+      ],
+      "rect": [
+        940,
+        940,
+        314,
+        314
+      ],
+      "view": [
+        967.92,
+        972.92,
+        244.16000000000003,
+        244.16000000000003
+      ],
+      "alphaBounds": [
+        41,
+        52,
+        259,
+        258
+      ]
+    }
+  ],
+  "status": "review; not applied to Unity"
+}
