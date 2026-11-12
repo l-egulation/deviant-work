@@ -1,0 +1,1050 @@
+{
+  "source": "CURRENT-SCREEN-INDEX.md",
+  "sourceCommit": "1f50e93",
+  "count": 149,
+  "entries": [
+    {
+      "group": "에셋 검토",
+      "label": "증강 화풍 재디자인 · 무기·잉크병·팔레트·상자·기록",
+      "url": "ui-assets-v2/index.html",
+      "spec": "../unity-handoff-v1/README.md",
+      "status": "검토 보드 · 승인 패키지 기준"
+    },
+    {
+      "group": "에셋 검토",
+      "label": "현행 UI 전체 에셋 · 잉크 43 · 증강 51 · 스킬 40",
+      "url": "ui-assets-v1/index.html",
+      "spec": "../unity-handoff-v1/README.md",
+      "status": "검토 보드 · 승인 패키지 기준"
+    },
+    {
+      "group": "보상",
+      "label": "HUD에서 바로 보상 선택",
+      "url": "sketch-v3/index.html?state=reward",
+      "spec": "REWARDS.md",
+      "status": "현행"
+    },
+    {
+      "group": "보상",
+      "label": "스케치·잉크 혼합 3중 1택",
+      "url": "sketch-v3/index.html?state=mixed",
+      "spec": "REWARDS.md",
+      "status": "현행"
+    },
+    {
+      "group": "보상",
+      "label": "스케치 3개 획득 후에도 혼합 후보",
+      "url": "sketch-v3/index.html?state=quota",
+      "spec": "REWARDS.md",
+      "status": "현행"
+    },
+    {
+      "group": "보상",
+      "label": "보스 보상 · 스케치 선택",
+      "url": "sketch-v3/index.html?state=boss",
+      "spec": "REWARDS.md",
+      "status": "현행"
+    },
+    {
+      "group": "보상",
+      "label": "보스 보상 · 첫 번째 잉크",
+      "url": "sketch-v3/index.html?state=boss-ink",
+      "spec": "REWARDS.md",
+      "status": "현행"
+    },
+    {
+      "group": "보상",
+      "label": "획득 후 · 계속 뽑기 또는 닫기",
+      "url": "sketch-v3/index.html?state=reward-receipt",
+      "spec": "REWARDS.md",
+      "status": "현행"
+    },
+    {
+      "group": "보상",
+      "label": "일반 보상 · 7회 이후",
+      "url": "sketch-v3/index.html?state=reward-seven",
+      "spec": "REWARDS.md",
+      "status": "현행"
+    },
+    {
+      "group": "보상",
+      "label": "일반 보상 · 잉크 전종 보유",
+      "url": "sketch-v3/index.html?state=reward-all-inks",
+      "spec": "REWARDS.md",
+      "status": "현행"
+    },
+    {
+      "group": "보상",
+      "label": "일반 보상 · 스케치 최소 획득 보장",
+      "url": "sketch-v3/index.html?state=reward-guarantee",
+      "spec": "REWARDS.md",
+      "status": "현행"
+    },
+    {
+      "group": "보상",
+      "label": "보스 보상 · 두 번째 잉크",
+      "url": "sketch-v3/index.html?state=boss-last",
+      "spec": "REWARDS.md",
+      "status": "현행"
+    },
+    {
+      "group": "보상",
+      "label": "이스터에그 · 모든 잉크 수집 축하",
+      "url": "sketch-v3/index.html?state=boss-all-inks",
+      "spec": "REWARDS.md",
+      "status": "현행"
+    },
+    {
+      "group": "가방",
+      "label": "스케치 격자 목록",
+      "url": "sketch-v3/index.html?state=bag",
+      "spec": "BAG.md",
+      "status": "현행"
+    },
+    {
+      "group": "가방",
+      "label": "보유 잉크 · 스크롤",
+      "url": "sketch-v3/index.html?state=bag-ink",
+      "spec": "BAG.md",
+      "status": "현행"
+    },
+    {
+      "group": "가방",
+      "label": "스케치 없음",
+      "url": "sketch-v3/index.html?state=bag-empty",
+      "spec": "BAG.md",
+      "status": "현행"
+    },
+    {
+      "group": "가방",
+      "label": "가방 · 분류 탭 선택",
+      "url": "sketch-v3/index.html?state=bag-category-focus",
+      "spec": "BAG.md",
+      "status": "현행"
+    },
+    {
+      "group": "가방",
+      "label": "잉크 43종 · 실제 설명·4열 목록",
+      "url": "sketch-v3/index.html?state=bag-all-inks",
+      "spec": "BAG.md",
+      "status": "현행"
+    },
+    {
+      "group": "제작",
+      "label": "스케치 선택",
+      "url": "sketch-v3/index.html?state=craft",
+      "spec": "CRAFT.md",
+      "status": "현행"
+    },
+    {
+      "group": "제작",
+      "label": "팔레트 5칸 · 직접 선택",
+      "url": "sketch-v3/index.html?state=craft-five",
+      "spec": "CRAFT.md",
+      "status": "현행"
+    },
+    {
+      "group": "제작",
+      "label": "다른 색 잉크 선택",
+      "url": "sketch-v3/index.html?state=craft-ink",
+      "spec": "CRAFT.md",
+      "status": "현행"
+    },
+    {
+      "group": "제작",
+      "label": "5번째 칸 · 적용한 문양",
+      "url": "sketch-v3/index.html?state=craft-filled",
+      "spec": "CRAFT.md",
+      "status": "현행"
+    },
+    {
+      "group": "제작",
+      "label": "제작 확정 · 여러 효과",
+      "url": "sketch-v3/index.html?state=craft-confirm",
+      "spec": "CRAFT.md",
+      "status": "현행"
+    },
+    {
+      "group": "제작",
+      "label": "제작 후 장착 또는 보관",
+      "url": "sketch-v3/index.html?state=equip-new",
+      "spec": "CRAFT.md",
+      "status": "현행"
+    },
+    {
+      "group": "제작",
+      "label": "장착하기 선택 후 무기 자리 선택",
+      "url": "sketch-v3/index.html?state=equip-destination",
+      "spec": "CRAFT.md",
+      "status": "현행"
+    },
+    {
+      "group": "제작",
+      "label": "6칸 제작 · 팔레트 가로 스크롤",
+      "url": "sketch-v3/index.html?state=craft-six",
+      "spec": "CRAFT.md",
+      "status": "현행"
+    },
+    {
+      "group": "제작",
+      "label": "잉크 미보유 · 빈 칸 제작",
+      "url": "sketch-v3/index.html?state=craft-no-inks",
+      "spec": "CRAFT.md",
+      "status": "현행"
+    },
+    {
+      "group": "제작",
+      "label": "전부 빈 칸 · 제작 확정",
+      "url": "sketch-v3/index.html?state=craft-empty-confirm",
+      "spec": "CRAFT.md",
+      "status": "현행"
+    },
+    {
+      "group": "제작",
+      "label": "임시 배치 후 재진입",
+      "url": "sketch-v3/index.html?state=craft-resume",
+      "spec": "CRAFT.md",
+      "status": "현행"
+    },
+    {
+      "group": "제작",
+      "label": "색상 일치 · 실제 강화 수치",
+      "url": "sketch-v3/index.html?state=craft-match",
+      "spec": "CRAFT.md",
+      "status": "현행"
+    },
+    {
+      "group": "제작",
+      "label": "다른 색 적용 · 기본 수치",
+      "url": "sketch-v3/index.html?state=craft-unmatched",
+      "spec": "CRAFT.md",
+      "status": "현행"
+    },
+    {
+      "group": "장비",
+      "label": "장착 무기 · 복수 적용 효과",
+      "url": "sketch-v3/index.html?state=equipment-effects",
+      "spec": "EQUIPMENT.md",
+      "status": "현행"
+    },
+    {
+      "group": "장비",
+      "label": "장착 중인 무기 교환",
+      "url": "sketch-v3/index.html?state=equipment-swap",
+      "spec": "EQUIPMENT.md",
+      "status": "현행"
+    },
+    {
+      "group": "장비",
+      "label": "무기 소진 후 빈 자리",
+      "url": "sketch-v3/index.html?state=equipment-empty",
+      "spec": "EQUIPMENT.md",
+      "status": "현행"
+    },
+    {
+      "group": "장비",
+      "label": "복수 효과 · 아래로 스크롤",
+      "url": "sketch-v3/index.html?state=equipment-scroll",
+      "spec": "EQUIPMENT.md",
+      "status": "현행"
+    },
+    {
+      "group": "장비",
+      "label": "장비 · 이름 변경 / 내구도",
+      "url": "sketch-v3/index.html?state=equipment-renamed",
+      "spec": "EQUIPMENT.md",
+      "status": "현행"
+    },
+    {
+      "group": "장비",
+      "label": "6칸·여러 실제 효과·긴 이름",
+      "url": "sketch-v3/index.html?state=equipment-six",
+      "spec": "EQUIPMENT.md",
+      "status": "현행"
+    },
+    {
+      "group": "장비",
+      "label": "교체·해제 공유 10초 대기",
+      "url": "sketch-v3/index.html?state=equipment-wait",
+      "spec": "EQUIPMENT.md",
+      "status": "현행"
+    },
+    {
+      "group": "장비",
+      "label": "대기 중 두 무기 자리 교환",
+      "url": "sketch-v3/index.html?state=equipment-wait-swap",
+      "spec": "EQUIPMENT.md",
+      "status": "현행"
+    },
+    {
+      "group": "장비",
+      "label": "무기 이름 변경 · 축소·테마 프레임",
+      "url": "sketch-v3/index.html?state=equipment-rename-dialog",
+      "spec": "EQUIPMENT.md",
+      "status": "현행"
+    },
+    {
+      "group": "보관 · 전체 화면 상점",
+      "label": "스케치·잉크 구매",
+      "url": "sketch-v3/index.html?state=shop",
+      "spec": "SHOP.md",
+      "status": "보관 · 신규 구현 제외"
+    },
+    {
+      "group": "보관 · 전체 화면 상점",
+      "label": "골드 부족",
+      "url": "sketch-v3/index.html?state=shop-poor",
+      "spec": "SHOP.md",
+      "status": "보관 · 신규 구현 제외"
+    },
+    {
+      "group": "보관 · 전체 화면 상점",
+      "label": "구매 완료 · 품절",
+      "url": "sketch-v3/index.html?state=shop-sold",
+      "spec": "SHOP.md",
+      "status": "보관 · 신규 구현 제외"
+    },
+    {
+      "group": "보관 · 전체 화면 상점",
+      "label": "2챕터 실제 가격",
+      "url": "sketch-v3/index.html?state=shop-ch2",
+      "spec": "SHOP.md",
+      "status": "보관 · 신규 구현 제외"
+    },
+    {
+      "group": "보관 · 전체 화면 상점",
+      "label": "3챕터 가격 미정 · 구매 불가",
+      "url": "sketch-v3/index.html?state=shop-ch3",
+      "spec": "SHOP.md",
+      "status": "보관 · 신규 구현 제외"
+    },
+    {
+      "group": "보관 · 전체 화면 상점",
+      "label": "진열할 미획득 잉크 없음",
+      "url": "sketch-v3/index.html?state=shop-no-inks",
+      "spec": "SHOP.md",
+      "status": "보관 · 신규 구현 제외"
+    },
+    {
+      "group": "보관 · 전체 화면 상점",
+      "label": "다른 경로로 획득한 잉크 재진열",
+      "url": "sketch-v3/index.html?state=shop-refresh",
+      "spec": "SHOP.md",
+      "status": "보관 · 신규 구현 제외"
+    },
+    {
+      "group": "증강",
+      "label": "정비소 증강 구매",
+      "url": "sketch-v3/index.html?state=augment",
+      "spec": "AUGMENTS.md",
+      "status": "현행"
+    },
+    {
+      "group": "증강",
+      "label": "실제 증강 · 안정형 1·도박형 2",
+      "url": "sketch-v3/index.html?state=augment-choose",
+      "spec": "AUGMENTS.md",
+      "status": "현행"
+    },
+    {
+      "group": "증강",
+      "label": "결제 후 선택 대기 · 동일 후보 유지",
+      "url": "sketch-v3/index.html?state=augment-pending",
+      "spec": "AUGMENTS.md",
+      "status": "현행"
+    },
+    {
+      "group": "증강",
+      "label": "증강 구매 · 골드 부족",
+      "url": "sketch-v3/index.html?state=augment-poor",
+      "spec": "AUGMENTS.md",
+      "status": "현행"
+    },
+    {
+      "group": "증강",
+      "label": "증강 구매 · 최대 10회",
+      "url": "sketch-v3/index.html?state=augment-max",
+      "spec": "AUGMENTS.md",
+      "status": "현행"
+    },
+    {
+      "group": "증강",
+      "label": "증강 구매 · 후보 부족",
+      "url": "sketch-v3/index.html?state=augment-shortage",
+      "spec": "AUGMENTS.md",
+      "status": "현행"
+    },
+    {
+      "group": "증강",
+      "label": "봉인 도전 · 12종 별도 후보",
+      "url": "sketch-v3/index.html?state=augment-seal",
+      "spec": "AUGMENTS.md",
+      "status": "현행"
+    },
+    {
+      "group": "증강",
+      "label": "보유 증강 · 효과·중첩 확인",
+      "url": "sketch-v3/index.html?state=augment-owned",
+      "spec": "AUGMENTS.md",
+      "status": "현행"
+    },
+    {
+      "group": "안내",
+      "label": "회복 충전소 팝업 · 길게 누르기",
+      "url": "sketch-v3/index.html?state=recovery",
+      "spec": "WORLD-INTERACTIONS.md",
+      "status": "현행"
+    },
+    {
+      "group": "안내",
+      "label": "충전소 · 골드 부족",
+      "url": "sketch-v3/index.html?state=recovery-poor",
+      "spec": "WORLD-INTERACTIONS.md",
+      "status": "현행"
+    },
+    {
+      "group": "안내",
+      "label": "충전소 · 체력 가득",
+      "url": "sketch-v3/index.html?state=recovery-full",
+      "spec": "WORLD-INTERACTIONS.md",
+      "status": "현행"
+    },
+    {
+      "group": "안내",
+      "label": "충전소 · 소진",
+      "url": "sketch-v3/index.html?state=recovery-empty",
+      "spec": "WORLD-INTERACTIONS.md",
+      "status": "현행"
+    },
+    {
+      "group": "기타 개정",
+      "label": "일반 사망 결과",
+      "url": "sketch-v3/index.html?state=result",
+      "spec": "RESULTS.md",
+      "status": "현행"
+    },
+    {
+      "group": "기타 개정",
+      "label": "영구 진행 초기화 확인",
+      "url": "sketch-v3/index.html?state=reset-confirm",
+      "spec": "PAUSE.md",
+      "status": "현행"
+    },
+    {
+      "group": "기타 개정",
+      "label": "보스전 사망 결과",
+      "url": "sketch-v3/index.html?state=result-boss",
+      "spec": "RESULTS.md",
+      "status": "현행"
+    },
+    {
+      "group": "기타 개정",
+      "label": "클리어 결과",
+      "url": "sketch-v3/index.html?state=result-clear",
+      "spec": "RESULTS.md",
+      "status": "현행"
+    },
+    {
+      "group": "마을 공방",
+      "label": "영구 성장",
+      "url": "sketch-v3/index.html?state=permanent",
+      "spec": "VILLAGE-WORKSHOP.md",
+      "status": "현행"
+    },
+    {
+      "group": "마을 공방",
+      "label": "마법안료 부족",
+      "url": "sketch-v3/index.html?state=permanent-poor",
+      "spec": "VILLAGE-WORKSHOP.md",
+      "status": "현행"
+    },
+    {
+      "group": "마을 공방",
+      "label": "선행 조건 미충족",
+      "url": "sketch-v3/index.html?state=permanent-locked",
+      "spec": "VILLAGE-WORKSHOP.md",
+      "status": "현행"
+    },
+    {
+      "group": "마을 공방",
+      "label": "공방 · 출발 지원금 가격 반영",
+      "url": "sketch-v3/index.html?state=permanent-unknown",
+      "spec": "VILLAGE-WORKSHOP.md",
+      "status": "현행"
+    },
+    {
+      "group": "대화",
+      "label": "마을 장인 · 대화 진행",
+      "url": "sketch-v3/index.html?state=dialogue",
+      "spec": "VILLAGE-RECORDS.md",
+      "status": "현행"
+    },
+    {
+      "group": "대화",
+      "label": "마을 장인 · 마지막 대사",
+      "url": "sketch-v3/index.html?state=dialogue-last",
+      "spec": "VILLAGE-RECORDS.md",
+      "status": "현행"
+    },
+    {
+      "group": "마을",
+      "label": "기록 농가 · 조사 기록",
+      "url": "sketch-v3/index.html?state=records",
+      "spec": "VILLAGE-RECORDS.md",
+      "status": "현행"
+    },
+    {
+      "group": "마을",
+      "label": "기록 농가 · 새 기록 안내",
+      "url": "sketch-v3/index.html?state=village-record",
+      "spec": "VILLAGE-RECORDS.md",
+      "status": "현행"
+    },
+    {
+      "group": "마을",
+      "label": "우물 · 미사용 잉크 안내",
+      "url": "sketch-v3/index.html?state=village-well",
+      "spec": "VILLAGE-RECORDS.md",
+      "status": "현행"
+    },
+    {
+      "group": "마을",
+      "label": "장인의 공방 · 통합 상호작용",
+      "url": "sketch-v3/index.html?state=village-workshop",
+      "spec": "VILLAGE-RECORDS.md",
+      "status": "현행"
+    },
+    {
+      "group": "마을",
+      "label": "출발 이정표 · 상호작용",
+      "url": "sketch-v3/index.html?state=village-exit",
+      "spec": "VILLAGE-RECORDS.md",
+      "status": "현행"
+    },
+    {
+      "group": "마을",
+      "label": "우물 · 마을 잉크 사용",
+      "url": "sketch-v3/index.html?state=well",
+      "spec": "VILLAGE-RECORDS.md",
+      "status": "현행"
+    },
+    {
+      "group": "마을",
+      "label": "우물 · 미사용 잉크 없음",
+      "url": "sketch-v3/index.html?state=well-empty",
+      "spec": "VILLAGE-RECORDS.md",
+      "status": "현행"
+    },
+    {
+      "group": "마을",
+      "label": "기록 농가 · 수첩 삽화",
+      "url": "sketch-v3/index.html?state=records-notebook",
+      "spec": "VILLAGE-RECORDS.md",
+      "status": "현행"
+    },
+    {
+      "group": "마을",
+      "label": "기록 농가 · 수첩 발견 전",
+      "url": "sketch-v3/index.html?state=records-undiscovered",
+      "spec": "VILLAGE-RECORDS.md",
+      "status": "현행"
+    },
+    {
+      "group": "마을",
+      "label": "공방 · 첫 정산 전",
+      "url": "sketch-v3/index.html?state=permanent-first",
+      "spec": "VILLAGE-WORKSHOP.md",
+      "status": "현행"
+    },
+    {
+      "group": "마을",
+      "label": "공방 · 출발 지원금",
+      "url": "sketch-v3/index.html?state=permanent-gold",
+      "spec": "VILLAGE-WORKSHOP.md",
+      "status": "현행"
+    },
+    {
+      "group": "마을",
+      "label": "공방 · 지원금 3단계 잠금",
+      "url": "sketch-v3/index.html?state=permanent-gold-locked",
+      "spec": "VILLAGE-WORKSHOP.md",
+      "status": "현행"
+    },
+    {
+      "group": "마을",
+      "label": "공방 · 1챕터 조건",
+      "url": "sketch-v3/index.html?state=permanent-ch1",
+      "spec": "VILLAGE-WORKSHOP.md",
+      "status": "현행"
+    },
+    {
+      "group": "마을",
+      "label": "공방 · 2챕터 조건",
+      "url": "sketch-v3/index.html?state=permanent-ch2",
+      "spec": "VILLAGE-WORKSHOP.md",
+      "status": "현행"
+    },
+    {
+      "group": "마을",
+      "label": "공방 · 대시 추가 구매 가능",
+      "url": "sketch-v3/index.html?state=permanent-dash-ready",
+      "spec": "VILLAGE-WORKSHOP.md",
+      "status": "현행"
+    },
+    {
+      "group": "마을",
+      "label": "공방 · 대시 추가 해금 완료",
+      "url": "sketch-v3/index.html?state=permanent-dash-owned",
+      "spec": "VILLAGE-WORKSHOP.md",
+      "status": "현행"
+    },
+    {
+      "group": "마을",
+      "label": "공방 · 최대 단계",
+      "url": "sketch-v3/index.html?state=permanent-max",
+      "spec": "VILLAGE-WORKSHOP.md",
+      "status": "현행"
+    },
+    {
+      "group": "마을 기록",
+      "label": "기록 농가 · 최초 조사 기록",
+      "url": "sketch-v3/index.html?state=records-first",
+      "spec": "VILLAGE-RECORDS.md",
+      "status": "현행"
+    },
+    {
+      "group": "마을 기록",
+      "label": "마을 · 붉은색 복원",
+      "url": "sketch-v3/index.html?state=restoration",
+      "spec": "VILLAGE-RECORDS.md",
+      "status": "현행"
+    },
+    {
+      "group": "마을 기록",
+      "label": "하늘길 · 최고 기록과 최근 10회",
+      "url": "sketch-v3/index.html?state=sky",
+      "spec": "VILLAGE-RECORDS.md",
+      "status": "현행"
+    },
+    {
+      "group": "상자",
+      "label": "잠긴 상자 · 열쇠 보유",
+      "url": "sketch-v3/index.html?state=chest-key",
+      "spec": "WORLD-INTERACTIONS.md",
+      "status": "현행"
+    },
+    {
+      "group": "상자",
+      "label": "잠긴 상자 · 열쇠 없음",
+      "url": "sketch-v3/index.html?state=chest-no-key",
+      "spec": "WORLD-INTERACTIONS.md",
+      "status": "현행"
+    },
+    {
+      "group": "첫 안내",
+      "label": "첫 제작 안내",
+      "url": "sketch-v3/index.html?state=guide",
+      "spec": "OPENING-GUIDES.md",
+      "status": "현행"
+    },
+    {
+      "group": "첫 안내",
+      "label": "내구도·무기 소진 안내",
+      "url": "sketch-v3/index.html?state=guide-durability",
+      "spec": "OPENING-GUIDES.md",
+      "status": "현행"
+    },
+    {
+      "group": "전체 지도",
+      "label": "전체 지도 · 새 시안",
+      "url": "full-map-v1/index.html?",
+      "spec": "MAP.md",
+      "status": "현행"
+    },
+    {
+      "group": "전체 지도",
+      "label": "지도 · 200% 확대",
+      "url": "full-map-v1/index.html?zoom=2",
+      "spec": "MAP.md",
+      "status": "현행"
+    },
+    {
+      "group": "일시정지",
+      "label": "전투 · 일시정지",
+      "url": "pause-menu-v1/index.html?context=combat",
+      "spec": "PAUSE.md",
+      "status": "현행"
+    },
+    {
+      "group": "일시정지",
+      "label": "마을 · 일시정지",
+      "url": "pause-menu-v1/index.html?context=village",
+      "spec": "PAUSE.md",
+      "status": "현행"
+    },
+    {
+      "group": "일시정지",
+      "label": "조작 안내",
+      "url": "pause-menu-v1/index.html?view=help",
+      "spec": "PAUSE.md",
+      "status": "현행"
+    },
+    {
+      "group": "일시정지",
+      "label": "도전 종료 · 마을 복귀 확인",
+      "url": "pause-menu-v1/index.html?view=confirm",
+      "spec": "PAUSE.md",
+      "status": "현행"
+    },
+    {
+      "group": "일시정지",
+      "label": "타이틀 복귀 확인",
+      "url": "pause-menu-v1/index.html?context=village&view=title",
+      "spec": "PAUSE.md",
+      "status": "현행"
+    },
+    {
+      "group": "설정",
+      "label": "소리 설정",
+      "url": "settings-v1/index.html?tab=sound",
+      "spec": "SETTINGS.md",
+      "status": "현행"
+    },
+    {
+      "group": "설정",
+      "label": "화면 설정",
+      "url": "settings-v1/index.html?tab=display&state=changed",
+      "spec": "SETTINGS.md",
+      "status": "현행"
+    },
+    {
+      "group": "설정",
+      "label": "조작 설정 · 이동 / 스크롤 상단",
+      "url": "settings-v1/index.html?tab=controls",
+      "spec": "SETTINGS.md",
+      "status": "현행"
+    },
+    {
+      "group": "설정",
+      "label": "조작 설정 · 전투 / 스크롤 중간",
+      "url": "settings-v1/index.html?tab=controls&scroll=combat",
+      "spec": "SETTINGS.md",
+      "status": "현행"
+    },
+    {
+      "group": "설정",
+      "label": "조작 설정 · 탐험 / 스크롤 하단",
+      "url": "settings-v1/index.html?tab=controls&scroll=bottom",
+      "spec": "SETTINGS.md",
+      "status": "현행"
+    },
+    {
+      "group": "설정",
+      "label": "조작키 변경",
+      "url": "settings-v1/index.html?tab=controls&state=rebind",
+      "spec": "SETTINGS.md",
+      "status": "현행"
+    },
+    {
+      "group": "설정",
+      "label": "화면 적용 확인",
+      "url": "settings-v1/index.html?tab=display&state=confirm",
+      "spec": "SETTINGS.md",
+      "status": "현행"
+    },
+    {
+      "group": "설정",
+      "label": "미적용 설정 확인",
+      "url": "settings-v1/index.html?state=unsaved",
+      "spec": "SETTINGS.md",
+      "status": "현행"
+    },
+    {
+      "group": "설정",
+      "label": "기본 조작키 복원 확인",
+      "url": "settings-v1/index.html?state=reset-confirm",
+      "spec": "SETTINGS.md",
+      "status": "현행"
+    },
+    {
+      "group": "검토안 · 월드 상점",
+      "label": "검토안 · 맵 상품 3개·근접 설명·구매",
+      "url": "sketch-v3/index.html?state=shop-world",
+      "spec": "SHOP.md",
+      "status": "현행"
+    },
+    {
+      "group": "검토안 · 월드 상점",
+      "label": "검토안 · 맵 상점 골드 부족",
+      "url": "sketch-v3/index.html?state=shop-world-poor",
+      "spec": "SHOP.md",
+      "status": "현행"
+    },
+    {
+      "group": "검토안 · 월드 상점",
+      "label": "검토안 · 맵 상점 품절",
+      "url": "sketch-v3/index.html?state=shop-world-sold",
+      "spec": "SHOP.md",
+      "status": "현행"
+    },
+    {
+      "group": "잉크 설명",
+      "label": "잉크 설명 · 트리거·효과 색상 기준",
+      "url": "sketch-v3/index.html?state=ink-color-rule",
+      "spec": "BAG.md",
+      "status": "현행"
+    },
+    {
+      "group": "잉크 설명",
+      "label": "제작 · 일치 효과·적용 수치",
+      "url": "sketch-v3/index.html?state=craft-color-rule",
+      "spec": "CRAFT.md",
+      "status": "현행"
+    },
+    {
+      "group": "봉인 도전 · 월드",
+      "label": "봉인 도전 · 시작",
+      "url": "world-flows-v1/index.html?state=seal",
+      "spec": "CHALLENGES.md",
+      "status": "현행"
+    },
+    {
+      "group": "봉인 도전 · 월드",
+      "label": "봉인 도전 · 진행",
+      "url": "world-flows-v1/index.html?state=seal-progress",
+      "spec": "CHALLENGES.md",
+      "status": "현행"
+    },
+    {
+      "group": "봉인 도전 · 월드",
+      "label": "봉인 도전 · 완료와 상자",
+      "url": "world-flows-v1/index.html?state=seal-complete",
+      "spec": "CHALLENGES.md",
+      "status": "현행"
+    },
+    {
+      "group": "이벤트 방 · 월드",
+      "label": "잉크 정령 구출",
+      "url": "world-flows-v1/index.html?state=rescue",
+      "spec": "CHALLENGES.md",
+      "status": "현행"
+    },
+    {
+      "group": "이벤트 방 · 월드",
+      "label": "정령 · 구속 장치 해제",
+      "url": "world-flows-v1/index.html?state=rescue-progress",
+      "spec": "CHALLENGES.md",
+      "status": "현행"
+    },
+    {
+      "group": "이벤트 방 · 월드",
+      "label": "잉크 묘목 생존전",
+      "url": "world-flows-v1/index.html?state=survival",
+      "spec": "CHALLENGES.md",
+      "status": "현행"
+    },
+    {
+      "group": "이벤트 방 · 월드",
+      "label": "묘목 · 남은 시간",
+      "url": "world-flows-v1/index.html?state=survival-progress",
+      "spec": "CHALLENGES.md",
+      "status": "현행"
+    },
+    {
+      "group": "이벤트 방 · 월드",
+      "label": "위험 상자방",
+      "url": "world-flows-v1/index.html?state=danger",
+      "spec": "CHALLENGES.md",
+      "status": "현행"
+    },
+    {
+      "group": "이벤트 방 · 월드",
+      "label": "위험 상자 · 오답",
+      "url": "world-flows-v1/index.html?state=danger-wrong",
+      "spec": "CHALLENGES.md",
+      "status": "현행"
+    },
+    {
+      "group": "이벤트 방 · 월드",
+      "label": "함정 수집방",
+      "url": "world-flows-v1/index.html?state=collection",
+      "spec": "CHALLENGES.md",
+      "status": "현행"
+    },
+    {
+      "group": "이벤트 방 · 월드",
+      "label": "함정 · 수집과 재방문",
+      "url": "world-flows-v1/index.html?state=collection-progress",
+      "spec": "CHALLENGES.md",
+      "status": "현행"
+    },
+    {
+      "group": "이벤트 방 · 월드",
+      "label": "이벤트 · 완료 연출",
+      "url": "world-flows-v1/index.html?state=event-complete",
+      "spec": "CHALLENGES.md",
+      "status": "현행"
+    },
+    {
+      "group": "보스 · 진입",
+      "label": "보스 · 등장 소개",
+      "url": "world-flows-v1/index.html?state=boss-intro",
+      "spec": "WORLD-FEEDBACK.md",
+      "status": "현행"
+    },
+    {
+      "group": "보스 · 진입",
+      "label": "보스 · 소개 종료",
+      "url": "world-flows-v1/index.html?state=boss-ready",
+      "spec": "WORLD-FEEDBACK.md",
+      "status": "현행"
+    },
+    {
+      "group": "보스 · 진입",
+      "label": "2챕터 보스 · 베르소와 렉토",
+      "url": "world-flows-v1/index.html?state=boss-intro-two",
+      "spec": "WORLD-FEEDBACK.md",
+      "status": "현행"
+    },
+    {
+      "group": "탐험 · 알림",
+      "label": "보상 기회 · HUD 배치 검토",
+      "url": "world-flows-v1/index.html?state=reward-alert",
+      "spec": "WORLD-FEEDBACK.md",
+      "status": "HUD 부분 검토 · 전체 보류"
+    },
+    {
+      "group": "탐험 · 알림",
+      "label": "무기 소진 · 장착 자리",
+      "url": "world-flows-v1/index.html?state=weapon-alert",
+      "spec": "WORLD-FEEDBACK.md",
+      "status": "현행"
+    },
+    {
+      "group": "탐험 · 알림",
+      "label": "보상 기회 · 0회",
+      "url": "world-flows-v1/index.html?state=reward-zero",
+      "spec": "WORLD-FEEDBACK.md",
+      "status": "HUD 부분 검토 · 전체 보류"
+    },
+    {
+      "group": "포탈 · 월드",
+      "label": "포탈 · 설치 전",
+      "url": "world-flows-v1/index.html?state=portal",
+      "spec": "WORLD-INTERACTIONS.md",
+      "status": "현행"
+    },
+    {
+      "group": "포탈 · 월드",
+      "label": "포탈 · 하나만 설치",
+      "url": "world-flows-v1/index.html?state=portal-one",
+      "spec": "WORLD-INTERACTIONS.md",
+      "status": "현행"
+    },
+    {
+      "group": "포탈 · 월드",
+      "label": "포탈 · 왕복 가능",
+      "url": "world-flows-v1/index.html?state=portal-ready",
+      "spec": "WORLD-INTERACTIONS.md",
+      "status": "현행"
+    },
+    {
+      "group": "포탈 · 월드",
+      "label": "포탈 · 첫 설치 안내",
+      "url": "world-flows-v1/index.html?state=portal-tutorial",
+      "spec": "WORLD-INTERACTIONS.md",
+      "status": "현행"
+    },
+    {
+      "group": "전환 · 최종 결과",
+      "label": "다음 챕터 · 전환",
+      "url": "world-flows-v1/index.html?state=loading",
+      "spec": "WORLD-FEEDBACK.md",
+      "status": "현행"
+    },
+    {
+      "group": "전환 · 최종 결과",
+      "label": "최종 챕터 · 종료 검토",
+      "url": "world-flows-v1/index.html?state=final",
+      "spec": "RESULTS.md",
+      "status": "현행"
+    },
+    {
+      "group": "오프닝 · 첫 진행",
+      "label": "오프닝 · 조사 수첩",
+      "url": "world-flows-v1/index.html?state=opening",
+      "spec": "OPENING-GUIDES.md",
+      "status": "현행"
+    },
+    {
+      "group": "오프닝 · 첫 진행",
+      "label": "오프닝 · 이동 안내",
+      "url": "world-flows-v1/index.html?state=opening-movement",
+      "spec": "OPENING-GUIDES.md",
+      "status": "현행"
+    },
+    {
+      "group": "오프닝 · 첫 진행",
+      "label": "오프닝 · 지워짐",
+      "url": "world-flows-v1/index.html?state=opening-chase",
+      "spec": "OPENING-GUIDES.md",
+      "status": "현행"
+    },
+    {
+      "group": "오프닝 · 첫 진행",
+      "label": "오프닝 · 조력자",
+      "url": "world-flows-v1/index.html?state=opening-helper",
+      "spec": "OPENING-GUIDES.md",
+      "status": "현행"
+    },
+    {
+      "group": "오프닝 · 첫 진행",
+      "label": "오프닝 · 첫 각성",
+      "url": "world-flows-v1/index.html?state=opening-awake",
+      "spec": "OPENING-GUIDES.md",
+      "status": "현행"
+    },
+    {
+      "group": "오프닝 · 첫 진행",
+      "label": "첫 각성 · 기록 남기기",
+      "url": "world-flows-v1/index.html?state=opening-record",
+      "spec": "OPENING-GUIDES.md",
+      "status": "현행"
+    },
+    {
+      "group": "오프닝 · 첫 진행",
+      "label": "첫 진행 · 맨손",
+      "url": "world-flows-v1/index.html?state=opening-unarmed",
+      "spec": "OPENING-GUIDES.md",
+      "status": "현행"
+    },
+    {
+      "group": "오프닝 · 첫 진행",
+      "label": "첫 진행 · 보상 기회",
+      "url": "world-flows-v1/index.html?state=first-reward",
+      "spec": "OPENING-GUIDES.md",
+      "status": "현행"
+    },
+    {
+      "group": "오프닝 · 첫 진행",
+      "label": "첫 진행 · 제작 안내",
+      "url": "world-flows-v1/index.html?state=first-craft",
+      "spec": "OPENING-GUIDES.md",
+      "status": "현행"
+    },
+    {
+      "group": "오프닝 · 첫 진행",
+      "label": "첫 진행 · 내구도 안내",
+      "url": "world-flows-v1/index.html?state=first-durability",
+      "spec": "OPENING-GUIDES.md",
+      "status": "현행"
+    },
+    {
+      "group": "오프닝 · 첫 진행",
+      "label": "첫 회귀 · 우물",
+      "url": "world-flows-v1/index.html?state=first-return",
+      "spec": "OPENING-GUIDES.md",
+      "status": "현행"
+    }
+  ]
+}
