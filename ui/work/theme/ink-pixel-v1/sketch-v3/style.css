@@ -230,3 +230,19 @@ body[data-view="shop"][data-world-shop="true"] #app>header{visibility:hidden}bod
 .worldShopGoods{position:absolute;left:2%;right:2%;top:640px;display:grid;grid-template-columns:repeat(3,1fr);gap:60px}.worldGood{display:flex;flex-direction:column;align-items:center;gap:22px;padding:12px;opacity:1!important}.worldGood>.approvedWeapon,.worldGood>.inkVisual{width:132px;height:132px}.worldGood.selected>.approvedWeapon,.worldGood.selected>.inkVisual{transform:scale(1.13)}.worldGood .worldPrice{display:block;font-size:30px;color:#f3d597;text-shadow:0 2px 4px #17191b}.worldShopBubble{position:absolute;top:158px;width:580px;transform:translateX(-50%);padding:36px 40px 60px;isolation:isolate}.worldShopBubble .speechSkin{z-index:-1}.worldShopBubble h2{font-size:32px;margin-bottom:24px}.worldShopBubble p,.worldShopBubble .effectSentence{font-size:25px!important;line-height:1.6!important;margin-bottom:22px}.worldShopBubble .actions{margin-top:22px;padding-top:18px;min-height:0}.worldShopBubble .action{font-size:27px}.worldShopBubble .miniPalette{gap:16px;margin-top:22px}.worldShopBubble .layers{width:66px;height:47px}
 
 .worldShopBubble{top:auto;bottom:340px}
+
+/* Compact native text-entry dialog; reuse approved artwork as a nine-slice frame. */
+#renameDialog{width:min(448px,92vw);max-height:90vh;padding:26px 24px 24px;background:transparent;border:24px solid transparent;border-image:url('../combat-hud-v2/assets/frame-large.png') 210 220 170 220 fill / 24px stretch;overflow:auto;isolation:isolate}
+#renameDialog h2{font-size:26px;line-height:1.35;margin:0 0 22px}
+#renameDialog p.muted{font-size:18px;margin:0 0 22px;color:#b7bec6}
+#renameDialog input{font-size:23px;padding:12px 10px;background:#161c2055;border:0;border-bottom:2px solid #829b9f;border-radius:0;outline:none;letter-spacing:.2px}
+#renameDialog input:focus{border-bottom-color:#b7d6d7;background:#19202588}
+#renameDialog #nameCount{font-size:17px;color:#aeb6c0;margin:10px 0 20px}
+#renameDialog .actions{min-height:0;gap:36px;justify-content:flex-start;margin:0;padding:20px 0 0;border-top:1px solid #abb4bc30}
+#renameDialog .action{font-size:22px;padding:8px 4px;position:relative;isolation:isolate}
+#renameDialog .action kbd{display:inline-block;font-size:13px;padding:3px 5px;margin-right:10px;color:#b7cbd3;border:1px solid #b7cbd370;border-radius:3px;vertical-align:middle}
+#renameDialog .action:before{content:'';position:absolute;inset:0 -10px;background:url('../maintenance-palette-v1/assets/selection-wash-v1.png') center/100% 100% no-repeat;opacity:0;z-index:-1}
+#renameDialog .action:focus:before,#renameDialog .action:hover:before{opacity:.48}
+#renameDialog .action:focus-visible{outline:none}
+.worldShopBubble{padding-top:60px;bottom:316px}
+#renameDialog .action{min-height:38px}#renameDialog .action:not(:disabled) kbd{visibility:visible;opacity:1}#renameDialog{padding-top:22px;padding-bottom:22px}

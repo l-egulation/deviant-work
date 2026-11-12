@@ -1,0 +1,30 @@
+[
+  {
+    "title": "검토안 · 맵 상품 3개·근접 설명·구매",
+    "url": "sketch-v3/index.html?state=shop-world",
+    "missing": [],
+    "buttons": 4,
+    "f": 1
+  },
+  {
+    "title": "검토안 · 맵 상점 골드 부족",
+    "url": "sketch-v3/index.html?state=shop-world-poor",
+    "missing": [],
+    "buttons": 4,
+    "f": 0
+  },
+  {
+    "title": "검토안 · 맵 상점 품절",
+    "url": "sketch-v3/index.html?state=shop-world-sold",
+    "missing": [],
+    "buttons": 4,
+    "f": 0
+  },
+  {
+    "title": "무기 이름 변경 · 축소·테마 프레임",
+    "url": "sketch-v3/index.html?state=equipment-rename-dialog",
+    "missing": [],
+    "buttons": 13,
+    "f": 1
+  }
+]

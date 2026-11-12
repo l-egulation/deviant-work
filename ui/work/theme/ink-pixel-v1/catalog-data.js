@@ -697,5 +697,11 @@ const catalogItems=[
     "title": "제작 · 일치 효과·적용 수치",
     "img": "sketch-v3/previews/craft-color-rule.png",
     "url": "sketch-v3/index.html?state=craft-color-rule"
+  },
+  {
+    "group": "장비",
+    "title": "무기 이름 변경 · 축소·테마 프레임",
+    "img": "sketch-v3/previews/equipment-rename-dialog.png",
+    "url": "sketch-v3/index.html?state=equipment-rename-dialog"
   }
 ];
