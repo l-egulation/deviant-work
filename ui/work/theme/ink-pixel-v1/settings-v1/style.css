@@ -17,3 +17,8 @@ dialog{background:transparent;border:0;padding:66px 70px}.dialogActions button{p
 .selectKey{margin-right:20px}.keyRow:focus{color:#fff4d8;background:#9bb4bc18}
 /* Use the existing brush focus indicator, never an extra underline. */
 .dialogActions button:focus-visible{ text-decoration:none!important; }
+
+/* Navigation depth and restrained confirmation sizing. */
+button:focus-visible{text-decoration:none!important}nav button:focus-visible:after{content:none}
+body[data-depth="nav"] #content{opacity:.72}body[data-depth="content"] nav{opacity:.7}
+dialog{width:760px;padding:40px 44px}dialog h2{font-size:32px;margin-bottom:24px}dialog p{font-size:24px;line-height:1.65}.dialogActions{gap:52px;margin-top:30px;padding-top:24px}.dialogActions button{font-size:27px}.dialogActions button:focus{transform:none}.dialogActions button:focus:before{content:none}

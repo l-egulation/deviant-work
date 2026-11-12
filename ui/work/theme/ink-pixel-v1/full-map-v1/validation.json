@@ -1,0 +1,16 @@
+[
+  {
+    "title": "전체 지도 · 새 시안",
+    "url": "full-map-v1/index.html?",
+    "missing": [],
+    "buttons": 4,
+    "f": 0
+  },
+  {
+    "title": "지도 · 200% 확대",
+    "url": "full-map-v1/index.html?zoom=2",
+    "missing": [],
+    "buttons": 4,
+    "f": 0
+  }
+]
