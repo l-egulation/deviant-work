@@ -1,8 +1,9 @@
-# 가방·제작·장비 구현 명세
+# 현행 UI 구현 명세
 
 기준: 2026-11-13 현행 sketch-v3, 승인 로컬 폰트 적용, Unity 미적용. 팀 합의는 [현행 명세](../CURRENT-UI-SPEC.md) 우선.
 
 - [가방](BAG.md) · [제작](CRAFT.md) · [장비](EQUIPMENT.md)
+- [보상 선택·획득](REWARDS.md) · [월드 상점](SHOP.md) · [상점·봉인 증강](AUGMENTS.md)
 - [실측값 JSON](layout-measurements.json): 대표10상태. rect는 화면 좌상단 기준 x,y,width,height이며 선택 확대가 반영된 값. CSS fontSize는 논리 픽셀, pt가 아님.
 - [승인 에셋](../unity-handoff-v1/index.html) · [화면 색인](../CURRENT-SCREEN-INDEX.md)
 
@@ -46,3 +47,6 @@ HTML 독립 화면의 최상위 Esc는 stage를 browse로 되돌리며 실제 �
 
 ## 구현 검수 공통
 1920×1080/960×540에서 동일 폰트로 비교. 장문·20자 이름·6칸·43종·빈 목록·비활성·재진입을 확인. 각 화면 최초 초점→이동→F→Esc→재진입, 스크롤 끝, 마우스 혼용을 확인. 기준 이미지는 갤러리의 해당 state 이미지. 기존 HTML 검수와 Unity 적용 후 검수는 별개.
+
+## 보상·상점·증강 추가 기준
+2026-11-13, UI 소스 기준 커밋 1ea26a8. 이번 세 문서의 치수는 최종 CSS 선언 대조값이며 기존 실측 JSON의 10상태에 포함되지 않는다. 현행 월드 연결과 독립 시안의 차이, 미정 데이터는 각 문서에 별도로 표시했다. Unity 적용/검증 완료를 의미하지 않는다.
