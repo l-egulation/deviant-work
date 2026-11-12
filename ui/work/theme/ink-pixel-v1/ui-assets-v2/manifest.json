@@ -276,7 +276,7 @@
     {
       "id": "red",
       "group": "병",
-      "file": "atlases/ink-bottles.png",
+      "file": "atlases/ink-bottles-v3.png",
       "imageSize": [
         2172,
         724
@@ -284,20 +284,28 @@
       "rect": [
         108,
         0,
-        327,
+        333,
         724
       ],
       "view": [
         103,
-        134,
-        337,
-        453
+        136,
+        343,
+        534
+      ],
+      "label": [
+        270.5,
+        433.5
+      ],
+      "badge": [
+        367.5,
+        589
       ]
     },
     {
       "id": "yellow",
       "group": "병",
-      "file": "atlases/ink-bottles.png",
+      "file": "atlases/ink-bottles-v3.png",
       "imageSize": [
         2172,
         724
@@ -305,20 +313,28 @@
       "rect": [
         515,
         0,
-        327,
+        334,
         724
       ],
       "view": [
         510,
-        134,
-        337,
-        453
+        136,
+        344,
+        534
+      ],
+      "label": [
+        678.5,
+        433.5
+      ],
+      "badge": [
+        775.5,
+        589
       ]
     },
     {
       "id": "green",
       "group": "병",
-      "file": "atlases/ink-bottles.png",
+      "file": "atlases/ink-bottles-v3.png",
       "imageSize": [
         2172,
         724
@@ -326,56 +342,80 @@
       "rect": [
         923,
         0,
-        327,
+        334,
         724
       ],
       "view": [
         918,
-        133,
-        337,
-        454
+        136,
+        344,
+        534
+      ],
+      "label": [
+        1086.0,
+        433.5
+      ],
+      "badge": [
+        1183.0,
+        589
       ]
     },
     {
       "id": "blue",
       "group": "병",
-      "file": "atlases/ink-bottles.png",
+      "file": "atlases/ink-bottles-v3.png",
       "imageSize": [
         2172,
         724
       ],
       "rect": [
-        1330,
+        1331,
         0,
-        326,
+        333,
         724
       ],
       "view": [
-        1325,
-        134,
-        336,
-        453
+        1326,
+        136,
+        343,
+        534
+      ],
+      "label": [
+        1493.5,
+        433.5
+      ],
+      "badge": [
+        1590.5,
+        589
       ]
     },
     {
       "id": "purple",
       "group": "병",
-      "file": "atlases/ink-bottles.png",
+      "file": "atlases/ink-bottles-v3.png",
       "imageSize": [
         2172,
         724
       ],
       "rect": [
-        1737,
+        1738,
         0,
-        327,
+        334,
         724
       ],
       "view": [
-        1732,
-        134,
-        337,
-        453
+        1733,
+        136,
+        344,
+        534
+      ],
+      "label": [
+        1900.5,
+        433.5
+      ],
+      "badge": [
+        1997.5,
+        589
       ]
     },
     {
