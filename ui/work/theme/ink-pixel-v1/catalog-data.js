@@ -139,7 +139,7 @@ const catalogItems=[
   },
   {
     "group": "증강",
-    "title": "안정 1개 · 도박 2개",
+    "title": "정비소 증강 구매",
     "img": "sketch-v3/previews/augment.png",
     "url": "sketch-v3/index.html?state=augment"
   },
@@ -541,5 +541,131 @@ const catalogItems=[
     "img": "pause-menu-v1/previews/title-confirm.png",
     "url": "pause-menu-v1/index.html?context=village&view=title",
     "id": "pause-title-confirm"
+  },
+  {
+    "group": "가방",
+    "title": "잉크 43종 · 실제 설명·4열 목록",
+    "img": "sketch-v3/previews/bag-all-inks.png",
+    "url": "sketch-v3/index.html?state=bag-all-inks"
+  },
+  {
+    "group": "제작",
+    "title": "6칸 제작 · 팔레트 가로 스크롤",
+    "img": "sketch-v3/previews/craft-six.png",
+    "url": "sketch-v3/index.html?state=craft-six"
+  },
+  {
+    "group": "제작",
+    "title": "잉크 미보유 · 빈 칸 제작",
+    "img": "sketch-v3/previews/craft-no-inks.png",
+    "url": "sketch-v3/index.html?state=craft-no-inks"
+  },
+  {
+    "group": "제작",
+    "title": "전부 빈 칸 · 제작 확정",
+    "img": "sketch-v3/previews/craft-empty-confirm.png",
+    "url": "sketch-v3/index.html?state=craft-empty-confirm"
+  },
+  {
+    "group": "제작",
+    "title": "임시 배치 후 재진입",
+    "img": "sketch-v3/previews/craft-resume.png",
+    "url": "sketch-v3/index.html?state=craft-resume"
+  },
+  {
+    "group": "장비",
+    "title": "6칸·여러 실제 효과·긴 이름",
+    "img": "sketch-v3/previews/equipment-six.png",
+    "url": "sketch-v3/index.html?state=equipment-six"
+  },
+  {
+    "group": "장비",
+    "title": "교체·해제 공유 10초 대기",
+    "img": "sketch-v3/previews/equipment-wait.png",
+    "url": "sketch-v3/index.html?state=equipment-wait"
+  },
+  {
+    "group": "장비",
+    "title": "대기 중 두 무기 자리 교환",
+    "img": "sketch-v3/previews/equipment-wait-swap.png",
+    "url": "sketch-v3/index.html?state=equipment-wait-swap"
+  },
+  {
+    "group": "상점",
+    "title": "2챕터 실제 가격",
+    "img": "sketch-v3/previews/shop-ch2.png",
+    "url": "sketch-v3/index.html?state=shop-ch2"
+  },
+  {
+    "group": "상점",
+    "title": "3챕터 가격 미정 · 구매 불가",
+    "img": "sketch-v3/previews/shop-ch3.png",
+    "url": "sketch-v3/index.html?state=shop-ch3"
+  },
+  {
+    "group": "상점",
+    "title": "진열할 미획득 잉크 없음",
+    "img": "sketch-v3/previews/shop-no-inks.png",
+    "url": "sketch-v3/index.html?state=shop-no-inks"
+  },
+  {
+    "group": "상점",
+    "title": "다른 경로로 획득한 잉크 재진열",
+    "img": "sketch-v3/previews/shop-refresh.png",
+    "url": "sketch-v3/index.html?state=shop-refresh"
+  },
+  {
+    "group": "증강",
+    "title": "실제 증강 · 안정형 1·도박형 2",
+    "img": "sketch-v3/previews/augment-choose.png",
+    "url": "sketch-v3/index.html?state=augment-choose"
+  },
+  {
+    "group": "증강",
+    "title": "결제 후 선택 대기 · 동일 후보 유지",
+    "img": "sketch-v3/previews/augment-pending.png",
+    "url": "sketch-v3/index.html?state=augment-pending"
+  },
+  {
+    "group": "증강",
+    "title": "증강 구매 · 골드 부족",
+    "img": "sketch-v3/previews/augment-poor.png",
+    "url": "sketch-v3/index.html?state=augment-poor"
+  },
+  {
+    "group": "증강",
+    "title": "증강 구매 · 최대 10회",
+    "img": "sketch-v3/previews/augment-max.png",
+    "url": "sketch-v3/index.html?state=augment-max"
+  },
+  {
+    "group": "증강",
+    "title": "증강 구매 · 후보 부족",
+    "img": "sketch-v3/previews/augment-shortage.png",
+    "url": "sketch-v3/index.html?state=augment-shortage"
+  },
+  {
+    "group": "증강",
+    "title": "봉인 도전 · 12종 별도 후보",
+    "img": "sketch-v3/previews/augment-seal.png",
+    "url": "sketch-v3/index.html?state=augment-seal"
+  },
+  {
+    "group": "증강",
+    "title": "보유 증강 · 효과·중첩 확인",
+    "img": "sketch-v3/previews/augment-owned.png",
+    "url": "sketch-v3/index.html?state=augment-owned"
+  },
+  {
+    "group": "제작",
+    "title": "색상 일치 · 실제 강화 수치",
+    "img": "sketch-v3/previews/craft-match.png",
+    "url": "sketch-v3/index.html?state=craft-match"
+  },
+  {
+    "group": "제작",
+    "title": "다른 색 적용 · 기본 수치",
+    "img": "sketch-v3/previews/craft-unmatched.png",
+    "url": "sketch-v3/index.html?state=craft-unmatched"
   }
 ];

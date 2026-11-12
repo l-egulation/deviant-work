@@ -38,14 +38,14 @@
     "title": "스케치 격자 목록",
     "url": "sketch-v3/index.html?state=bag",
     "missing": [],
-    "buttons": 14,
+    "buttons": 18,
     "f": 0
   },
   {
     "title": "보유 잉크 · 스크롤",
     "url": "sketch-v3/index.html?state=bag-ink",
     "missing": [],
-    "buttons": 17,
+    "buttons": 48,
     "f": 0
   },
   {
@@ -59,7 +59,7 @@
     "title": "스케치 선택",
     "url": "sketch-v3/index.html?state=craft",
     "missing": [],
-    "buttons": 13,
+    "buttons": 17,
     "f": 1
   },
   {
@@ -108,14 +108,14 @@
     "title": "장착 무기 · 복수 적용 효과",
     "url": "sketch-v3/index.html?state=equipment-effects",
     "missing": [],
-    "buttons": 10,
+    "buttons": 11,
     "f": 1
   },
   {
     "title": "장착 중인 무기 교환",
     "url": "sketch-v3/index.html?state=equipment-swap",
     "missing": [],
-    "buttons": 10,
+    "buttons": 11,
     "f": 1
   },
   {
@@ -147,10 +147,10 @@
     "f": 0
   },
   {
-    "title": "안정 1개 · 도박 2개",
+    "title": "정비소 증강 구매",
     "url": "sketch-v3/index.html?state=augment",
     "missing": [],
-    "buttons": 4,
+    "buttons": 2,
     "f": 1
   },
   {
@@ -227,7 +227,7 @@
     "title": "복수 효과 · 아래로 스크롤",
     "url": "sketch-v3/index.html?state=equipment-scroll",
     "missing": [],
-    "buttons": 10,
+    "buttons": 11,
     "f": 1
   },
   {
@@ -269,14 +269,14 @@
     "title": "가방 · 분류 탭 선택",
     "url": "sketch-v3/index.html?state=bag-category-focus",
     "missing": [],
-    "buttons": 14,
+    "buttons": 18,
     "f": 0
   },
   {
     "title": "장비 · 이름 변경 / 내구도",
     "url": "sketch-v3/index.html?state=equipment-renamed",
     "missing": [],
-    "buttons": 10,
+    "buttons": 11,
     "f": 1
   },
   {
@@ -607,5 +607,152 @@
     "missing": [],
     "buttons": 2,
     "f": 0
+  },
+  {
+    "title": "잉크 43종 · 실제 설명·4열 목록",
+    "url": "sketch-v3/index.html?state=bag-all-inks",
+    "missing": [],
+    "buttons": 48,
+    "f": 0
+  },
+  {
+    "title": "6칸 제작 · 팔레트 가로 스크롤",
+    "url": "sketch-v3/index.html?state=craft-six",
+    "missing": [],
+    "buttons": 12,
+    "f": 1
+  },
+  {
+    "title": "잉크 미보유 · 빈 칸 제작",
+    "url": "sketch-v3/index.html?state=craft-no-inks",
+    "missing": [],
+    "buttons": 12,
+    "f": 0
+  },
+  {
+    "title": "전부 빈 칸 · 제작 확정",
+    "url": "sketch-v3/index.html?state=craft-empty-confirm",
+    "missing": [],
+    "buttons": 11,
+    "f": 1
+  },
+  {
+    "title": "임시 배치 후 재진입",
+    "url": "sketch-v3/index.html?state=craft-resume",
+    "missing": [],
+    "buttons": 13,
+    "f": 1
+  },
+  {
+    "title": "6칸·여러 실제 효과·긴 이름",
+    "url": "sketch-v3/index.html?state=equipment-six",
+    "missing": [],
+    "buttons": 11,
+    "f": 1
+  },
+  {
+    "title": "교체·해제 공유 10초 대기",
+    "url": "sketch-v3/index.html?state=equipment-wait",
+    "missing": [],
+    "buttons": 12,
+    "f": 0
+  },
+  {
+    "title": "대기 중 두 무기 자리 교환",
+    "url": "sketch-v3/index.html?state=equipment-wait-swap",
+    "missing": [],
+    "buttons": 12,
+    "f": 1
+  },
+  {
+    "title": "2챕터 실제 가격",
+    "url": "sketch-v3/index.html?state=shop-ch2",
+    "missing": [],
+    "buttons": 7,
+    "f": 0
+  },
+  {
+    "title": "3챕터 가격 미정 · 구매 불가",
+    "url": "sketch-v3/index.html?state=shop-ch3",
+    "missing": [],
+    "buttons": 7,
+    "f": 0
+  },
+  {
+    "title": "진열할 미획득 잉크 없음",
+    "url": "sketch-v3/index.html?state=shop-no-inks",
+    "missing": [],
+    "buttons": 7,
+    "f": 0
+  },
+  {
+    "title": "다른 경로로 획득한 잉크 재진열",
+    "url": "sketch-v3/index.html?state=shop-refresh",
+    "missing": [],
+    "buttons": 7,
+    "f": 1
+  },
+  {
+    "title": "실제 증강 · 안정형 1·도박형 2",
+    "url": "sketch-v3/index.html?state=augment-choose",
+    "missing": [],
+    "buttons": 5,
+    "f": 1
+  },
+  {
+    "title": "결제 후 선택 대기 · 동일 후보 유지",
+    "url": "sketch-v3/index.html?state=augment-pending",
+    "missing": [],
+    "buttons": 2,
+    "f": 1
+  },
+  {
+    "title": "증강 구매 · 골드 부족",
+    "url": "sketch-v3/index.html?state=augment-poor",
+    "missing": [],
+    "buttons": 2,
+    "f": 1
+  },
+  {
+    "title": "증강 구매 · 최대 10회",
+    "url": "sketch-v3/index.html?state=augment-max",
+    "missing": [],
+    "buttons": 2,
+    "f": 1
+  },
+  {
+    "title": "증강 구매 · 후보 부족",
+    "url": "sketch-v3/index.html?state=augment-shortage",
+    "missing": [],
+    "buttons": 2,
+    "f": 1
+  },
+  {
+    "title": "봉인 도전 · 12종 별도 후보",
+    "url": "sketch-v3/index.html?state=augment-seal",
+    "missing": [],
+    "buttons": 5,
+    "f": 1
+  },
+  {
+    "title": "보유 증강 · 효과·중첩 확인",
+    "url": "sketch-v3/index.html?state=augment-owned",
+    "missing": [],
+    "buttons": 1,
+    "f": 1
+  },
+  {
+    "title": "색상 일치 · 실제 강화 수치",
+    "url": "sketch-v3/index.html?state=craft-match",
+    "missing": [],
+    "buttons": 54,
+    "f": 1
+  },
+  {
+    "title": "다른 색 적용 · 기본 수치",
+    "url": "sketch-v3/index.html?state=craft-unmatched",
+    "missing": [],
+    "buttons": 54,
+    "f": 1
   }
 ]

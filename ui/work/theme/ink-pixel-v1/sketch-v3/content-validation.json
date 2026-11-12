@@ -1,0 +1,21 @@
+{
+  "pureRules": "passed",
+  "browserChecks": [
+    "six slots",
+    "reusable same ink and draft retention",
+    "finalization immutable",
+    "empty craft allowed",
+    "replacement blocked",
+    "swap bypasses shared wait",
+    "unequip starts shared wait",
+    "paid once and same pending candidates",
+    "chosen augment excluded next time",
+    "owned offer refreshed",
+    "no ink distinct from sold",
+    "arrows reach slot six and scroll",
+    "physical F opens ink selection",
+    "F applies ink to selected slot",
+    "four-column ink grid scrolls with arrows",
+    "S scrolls previewed augment before confirmation"
+  ]
+}
