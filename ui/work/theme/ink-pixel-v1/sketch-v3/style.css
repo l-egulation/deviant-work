@@ -146,3 +146,15 @@ body[data-view="permanent"] .upgradeDescription{margin:24px 0;line-height:1.7}
 body[data-view="permanent"] .upgradeConditions{margin-top:26px;padding-top:22px}
 /* Subpixel overlap prevents hairline gaps between bitmap slices. */
 .speechSkin svg{width:calc(100% + 1px);height:calc(100% + 1px);margin:-.5px}
+
+/* Execution keys remain visible regardless of list focus. */
+.action kbd,.action:not(.keyAction) kbd{display:inline-flex!important;align-items:center;justify-content:center;min-width:34px;margin-right:14px;font-size:23px}
+.action:not(:disabled):not(.keyAction) kbd{opacity:.8}.action:disabled kbd{opacity:.6}
+.wellPanel{width:600px;padding:42px 36px 50px;text-align:center}.wellPanel .identity{justify-content:center;gap:24px}.wellPanel .identity>div{text-align:left}.wellPanel .actions{justify-content:center;gap:24px}.wellPanel .weapon{width:100px;height:100px}
+.conditionRow{font-size:30px;margin-bottom:24px;align-items:center}.conditionRow>span:last-child{font-size:27px;white-space:nowrap}
+.conditionMet{color:#f3efe5;opacity:1}.conditionMet .muted{color:#c8d8c3}
+.conditionUnmet{color:#a4a8ae;opacity:.7}.conditionUnmet .conditionMissing{color:#bcc0c5;text-decoration:none}
+.upgradeConditions h3{font-size:31px;margin-bottom:28px}
+.recordFooter{justify-content:center;gap:36px}.recordPageCount{font-size:27px;color:#d6dce1;min-width:90px;text-align:center}
+.recoveryPopup{background:none;clip-path:none;border:0;box-shadow:none;isolation:isolate;width:620px;padding:42px 42px 56px}
+.recoveryPopup .speechSkin{z-index:-1}.recoveryPopup .actions{gap:20px}.recoveryPopup .action{font-size:26px;padding:14px 20px}.recoveryPopup .hint{margin-top:22px}

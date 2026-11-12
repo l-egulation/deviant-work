@@ -1,13 +1,6 @@
 [
   [
     "현행 v3",
-    "장착하기 선택 후 무기 자리 선택",
-    "sketch-v3",
-    "equip-destination",
-    "state=equip-destination"
-  ],
-  [
-    "현행 v3",
     "HUD에서 바로 보상 선택",
     "sketch-v3",
     "reward",
@@ -110,6 +103,13 @@
     "sketch-v3",
     "equip-new",
     "state=equip-new"
+  ],
+  [
+    "현행 v3",
+    "장착하기 선택 후 무기 자리 선택",
+    "sketch-v3",
+    "equip-destination",
+    "state=equip-destination"
   ],
   [
     "현행 v3",
@@ -239,7 +239,7 @@
   ],
   [
     "현행 v3",
-    "획득 후 보관·계속·제작",
+    "획득 후 · 계속 뽑기 또는 닫기",
     "sketch-v3",
     "reward-receipt",
     "state=reward-receipt"
@@ -271,468 +271,6 @@
     "sketch-v3",
     "permanent-unknown",
     "state=permanent-unknown"
-  ],
-  [
-    "스케치 개편 v2",
-    "혼합 보상 · 기회 보관",
-    "sketch-v2",
-    "ready",
-    ""
-  ],
-  [
-    "스케치 개편 v2",
-    "혼합 3중1택",
-    "sketch-v2",
-    "mixed",
-    ""
-  ],
-  [
-    "스케치 개편 v2",
-    "가방 · 열람 전용",
-    "sketch-v2",
-    "bag-sketch",
-    "view=bag"
-  ],
-  [
-    "스케치 개편 v2",
-    "제작",
-    "sketch-v2",
-    "craft",
-    "view=craft"
-  ],
-  [
-    "스케치 개편 v2",
-    "장비 · 완성 무기",
-    "sketch-v2",
-    "equipment",
-    "view=equipment"
-  ],
-  [
-    "스케치 개편",
-    "스케치 · 3중 1택",
-    "sketch-v1",
-    "reward",
-    ""
-  ],
-  [
-    "스케치 개편",
-    "가방 · 스케치 목록 및 종합 효과",
-    "sketch-v1",
-    "bag",
-    "view=bag"
-  ],
-  [
-    "가방·장비",
-    "가방",
-    "screen-set-v6",
-    "bag",
-    "view=bag"
-  ],
-  [
-    "가방·장비",
-    "가방 · 아래로 스크롤 / 빈칸",
-    "screen-set-v6",
-    "bag-scroll",
-    "view=bag&scroll=bottom"
-  ],
-  [
-    "가방·장비",
-    "장비 · 무기와 스킬",
-    "screen-set-v6",
-    "equipment",
-    "view=equipment"
-  ],
-  [
-    "가방·장비",
-    "장비 · 2단계 팔레트 선택",
-    "screen-set-v6",
-    "equipment-slot-stage",
-    "view=equipment&stage=palette"
-  ],
-  [
-    "가방·장비",
-    "장비 · 발사기",
-    "screen-set-v6",
-    "equipment-launcher",
-    "view=equipment&weapon=1"
-  ],
-  [
-    "가방·장비",
-    "장비 · 스탬프 없음",
-    "screen-set-v6",
-    "equipment-empty-stamps",
-    "view=equipment&stamps=empty"
-  ],
-  [
-    "가방·장비",
-    "장비 · 잉크 교체",
-    "screen-set-v6",
-    "equipment-palette",
-    "view=equipment&slot=0"
-  ],
-  [
-    "가방·장비",
-    "장비 · 무색 칸",
-    "screen-set-v6",
-    "equipment-neutral",
-    "view=equipment&slot=4"
-  ],
-  [
-    "가방·장비",
-    "장비 · 교체 후 상태",
-    "screen-set-v6",
-    "equipment-replaced",
-    "view=equipment&slot=0&result=done"
-  ],
-  [
-    "가방·장비",
-    "가방 · 빈 카테고리",
-    "screen-set-v6",
-    "bag-empty",
-    "view=bag&category=2"
-  ],
-  [
-    "정비소",
-    "성장",
-    "maintenance-growth-v2",
-    "growth",
-    ""
-  ],
-  [
-    "정비소",
-    "팔레트 · 칸 강화",
-    "maintenance-palette-v1",
-    "unified-upgrade",
-    "task=upgrade"
-  ],
-  [
-    "정비소",
-    "팔레트 · 무작위 색 변경",
-    "maintenance-palette-v1",
-    "unified-color",
-    "task=color"
-  ],
-  [
-    "정비소",
-    "팔레트 · 반환 공간 부족",
-    "maintenance-palette-v1",
-    "random-color-full",
-    "task=color&case=full"
-  ],
-  [
-    "정비소",
-    "무기 스탬프",
-    "maintenance-stamp-v1",
-    "weapon",
-    ""
-  ],
-  [
-    "정비소",
-    "스킬 스탬프 · 후속타",
-    "maintenance-stamp-v1",
-    "skill-followup",
-    "kind=skill&pick=2"
-  ],
-  [
-    "정비소",
-    "스탬프 · 첫 장착",
-    "maintenance-stamp-v1",
-    "empty",
-    "case=empty"
-  ],
-  [
-    "정비소",
-    "스탬프 · 골드 부족",
-    "maintenance-stamp-v1",
-    "poor",
-    "case=poor"
-  ],
-  [
-    "판매대",
-    "잉크 판매대",
-    "ink-shop-v1",
-    "shop",
-    ""
-  ],
-  [
-    "판매대",
-    "판매대 · 구매 후",
-    "ink-shop-v1",
-    "purchased",
-    "case=bought"
-  ],
-  [
-    "판매대",
-    "판매대 · 가방 가득 참",
-    "ink-shop-v1",
-    "full",
-    "case=full"
-  ],
-  [
-    "판매대",
-    "판매대 · 골드 부족",
-    "ink-shop-v1",
-    "poor",
-    "case=poor"
-  ],
-  [
-    "지도",
-    "전체 지도 · 새 시안",
-    "full-map-v1",
-    "map",
-    ""
-  ],
-  [
-    "정비소",
-    "팔레트 · 변경권 선택",
-    "maintenance-palette-v1",
-    "color-ticket",
-    "task=color&payment=ticket"
-  ],
-  [
-    "정비소",
-    "팔레트 · 잉크 장착·교체",
-    "maintenance-palette-v1",
-    "palette-ink",
-    "task=ink"
-  ],
-  [
-    "지도",
-    "지도 · 200% 확대",
-    "full-map-v1",
-    "map-zoom-200",
-    "zoom=2"
-  ],
-  [
-    "일시정지",
-    "전투 · 일시정지",
-    "pause-menu-v1",
-    "combat",
-    "context=combat"
-  ],
-  [
-    "일시정지",
-    "마을 · 일시정지",
-    "pause-menu-v1",
-    "village",
-    "context=village"
-  ],
-  [
-    "일시정지",
-    "조작 안내",
-    "pause-menu-v1",
-    "help",
-    "view=help"
-  ],
-  [
-    "일시정지",
-    "도전 종료 · 마을 복귀 확인",
-    "pause-menu-v1",
-    "confirm",
-    "view=confirm"
-  ],
-  [
-    "출발 준비",
-    "출발 · 첫 도면 선택",
-    "departure-v1",
-    "choose",
-    ""
-  ],
-  [
-    "출발 준비",
-    "출발 · 두 번째 도면 선택",
-    "departure-v1",
-    "second",
-    "step=2"
-  ],
-  [
-    "출발 준비",
-    "준비 저장 · 다시 뽑기 없음",
-    "departure-v1",
-    "palette-three",
-    "view=ready"
-  ],
-  [
-    "출발 준비",
-    "시작 팔레트 · 5칸 / 무색 / 다시 뽑기",
-    "departure-v1",
-    "palette-five",
-    "view=palette&slots=5"
-  ],
-  [
-    "출발 준비",
-    "출발 준비 저장",
-    "departure-v1",
-    "ready",
-    "view=ready"
-  ],
-  [
-    "일시정지",
-    "마을 · 다시 시작 확인",
-    "pause-menu-v1",
-    "restart",
-    "context=village&view=restart"
-  ],
-  [
-    "도전 결과",
-    "일반 사망",
-    "run-result-v1",
-    "death",
-    "kind=death"
-  ],
-  [
-    "도전 결과",
-    "보스전 사망",
-    "run-result-v1",
-    "boss",
-    "kind=boss"
-  ],
-  [
-    "도전 결과",
-    "첫 챕터 클리어",
-    "run-result-v1",
-    "clear",
-    "kind=clear"
-  ],
-  [
-    "전투 HUD",
-    "전투 HUD · 기본",
-    "combat-hud-v2",
-    "exploration",
-    ""
-  ],
-  [
-    "전투 HUD",
-    "전투 HUD · 어두운 배경",
-    "combat-hud-v2",
-    "dark",
-    "scene=dark"
-  ],
-  [
-    "전투 HUD",
-    "전투 HUD · 획득 알림",
-    "combat-hud-v2",
-    "pickup",
-    "state=pickup"
-  ],
-  [
-    "전투 HUD",
-    "전투 HUD · 보스 배치",
-    "combat-hud-v2",
-    "boss",
-    "state=boss"
-  ],
-  [
-    "설정",
-    "소리 설정",
-    "settings-v1",
-    "sound",
-    "tab=sound"
-  ],
-  [
-    "설정",
-    "화면 설정",
-    "settings-v1",
-    "display",
-    "tab=display&state=changed"
-  ],
-  [
-    "설정",
-    "조작 설정 · 이동 / 스크롤 상단",
-    "settings-v1",
-    "controls",
-    "tab=controls"
-  ],
-  [
-    "설정",
-    "조작 설정 · 전투 / 스크롤 중간",
-    "settings-v1",
-    "controls-combat",
-    "tab=controls&scroll=combat"
-  ],
-  [
-    "설정",
-    "조작 설정 · 탐험 / 스크롤 하단",
-    "settings-v1",
-    "controls-explore",
-    "tab=controls&scroll=bottom"
-  ],
-  [
-    "설정",
-    "조작키 변경",
-    "settings-v1",
-    "rebind",
-    "tab=controls&state=rebind"
-  ],
-  [
-    "설정",
-    "화면 적용 확인",
-    "settings-v1",
-    "confirm",
-    "tab=display&state=confirm"
-  ],
-  [
-    "봉인 도전",
-    "증강 보상 · 공격력 선택",
-    "seal-reward-v1",
-    "choice-0",
-    "pick=0"
-  ],
-  [
-    "봉인 도전",
-    "증강 보상 · 공격 속도 선택",
-    "seal-reward-v1",
-    "choice-1",
-    "pick=1"
-  ],
-  [
-    "봉인 도전",
-    "증강 보상 · 최대 체력 선택",
-    "seal-reward-v1",
-    "choice-2",
-    "pick=2"
-  ],
-  [
-    "보스 잉크 제단",
-    "제단 · 색상 선택",
-    "boss-altar-v1",
-    "colors",
-    ""
-  ],
-  [
-    "보스 잉크 제단",
-    "제단 · 잉크 후보 비교",
-    "boss-altar-v1",
-    "inks",
-    "color=red"
-  ],
-  [
-    "출발 준비",
-    "출발 준비 · 확정 버튼 선택",
-    "departure-v1",
-    "ready-confirm",
-    "view=ready&action=confirm"
-  ],
-  [
-    "정비소",
-    "팔레트 · 무기 선택부터 조작",
-    "maintenance-palette-v1",
-    "flow-weapon",
-    ""
-  ],
-  [
-    "정비소",
-    "팔레트 · 칸 선택",
-    "maintenance-palette-v1",
-    "flow-slot",
-    "region=slot&state=slot"
-  ],
-  [
-    "정비소",
-    "팔레트 · 작업 선택",
-    "maintenance-palette-v1",
-    "flow-task",
-    "region=task&task=upgrade"
   ],
   [
     "현행 v3",
@@ -880,5 +418,481 @@
     "sketch-v3",
     "permanent-max",
     "state=permanent-max"
+  ],
+  [
+    "현행 v3",
+    "기록 농가 · 최초 조사 기록",
+    "sketch-v3",
+    "records-first",
+    "state=records-first"
+  ],
+  [
+    "이전 · 스케치 개편 v2",
+    "혼합 보상 · 기회 보관",
+    "sketch-v2",
+    "ready",
+    ""
+  ],
+  [
+    "이전 · 스케치 개편 v2",
+    "혼합 3중1택",
+    "sketch-v2",
+    "mixed",
+    ""
+  ],
+  [
+    "이전 · 스케치 개편 v2",
+    "가방 · 열람 전용",
+    "sketch-v2",
+    "bag-sketch",
+    "view=bag"
+  ],
+  [
+    "이전 · 스케치 개편 v2",
+    "제작",
+    "sketch-v2",
+    "craft",
+    "view=craft"
+  ],
+  [
+    "이전 · 스케치 개편 v2",
+    "장비 · 완성 무기",
+    "sketch-v2",
+    "equipment",
+    "view=equipment"
+  ],
+  [
+    "이전 · 스케치 개편",
+    "스케치 · 3중 1택",
+    "sketch-v1",
+    "reward",
+    ""
+  ],
+  [
+    "이전 · 스케치 개편",
+    "가방 · 스케치 목록 및 종합 효과",
+    "sketch-v1",
+    "bag",
+    "view=bag"
+  ],
+  [
+    "이전 · 정비소",
+    "팔레트 · 무기 선택부터 조작",
+    "maintenance-palette-v1",
+    "flow-weapon",
+    ""
+  ],
+  [
+    "이전 · 정비소",
+    "팔레트 · 칸 선택",
+    "maintenance-palette-v1",
+    "flow-slot",
+    "region=slot&state=slot"
+  ],
+  [
+    "이전 · 정비소",
+    "팔레트 · 작업 선택",
+    "maintenance-palette-v1",
+    "flow-task",
+    "region=task&task=upgrade"
+  ],
+  [
+    "이전 · 가방·장비",
+    "장비 · 2단계 팔레트 선택",
+    "screen-set-v6",
+    "equipment-slot-stage",
+    "view=equipment&stage=palette"
+  ],
+  [
+    "이전 · 가방·장비",
+    "가방",
+    "screen-set-v6",
+    "bag",
+    "view=bag"
+  ],
+  [
+    "이전 · 가방·장비",
+    "가방 · 아래로 스크롤 / 빈칸",
+    "screen-set-v6",
+    "bag-scroll",
+    "view=bag&scroll=bottom"
+  ],
+  [
+    "이전 · 가방·장비",
+    "장비 · 무기와 스킬",
+    "screen-set-v6",
+    "equipment",
+    "view=equipment"
+  ],
+  [
+    "이전 · 가방·장비",
+    "장비 · 발사기",
+    "screen-set-v6",
+    "equipment-launcher",
+    "view=equipment&weapon=1"
+  ],
+  [
+    "이전 · 가방·장비",
+    "장비 · 스탬프 없음",
+    "screen-set-v6",
+    "equipment-empty-stamps",
+    "view=equipment&stamps=empty"
+  ],
+  [
+    "이전 · 가방·장비",
+    "장비 · 잉크 교체",
+    "screen-set-v6",
+    "equipment-palette",
+    "view=equipment&slot=0"
+  ],
+  [
+    "이전 · 가방·장비",
+    "장비 · 무색 칸",
+    "screen-set-v6",
+    "equipment-neutral",
+    "view=equipment&slot=4"
+  ],
+  [
+    "이전 · 가방·장비",
+    "장비 · 교체 후 상태",
+    "screen-set-v6",
+    "equipment-replaced",
+    "view=equipment&slot=0&result=done"
+  ],
+  [
+    "이전 · 가방·장비",
+    "가방 · 빈 카테고리",
+    "screen-set-v6",
+    "bag-empty",
+    "view=bag&category=2"
+  ],
+  [
+    "이전 · 정비소",
+    "성장",
+    "maintenance-growth-v2",
+    "growth",
+    ""
+  ],
+  [
+    "이전 · 정비소",
+    "팔레트 · 칸 강화",
+    "maintenance-palette-v1",
+    "unified-upgrade",
+    "task=upgrade"
+  ],
+  [
+    "이전 · 정비소",
+    "팔레트 · 무작위 색 변경",
+    "maintenance-palette-v1",
+    "unified-color",
+    "task=color"
+  ],
+  [
+    "이전 · 정비소",
+    "팔레트 · 반환 공간 부족",
+    "maintenance-palette-v1",
+    "random-color-full",
+    "task=color&case=full"
+  ],
+  [
+    "이전 · 정비소",
+    "무기 스탬프",
+    "maintenance-stamp-v1",
+    "weapon",
+    ""
+  ],
+  [
+    "이전 · 정비소",
+    "스킬 스탬프 · 후속타",
+    "maintenance-stamp-v1",
+    "skill-followup",
+    "kind=skill&pick=2"
+  ],
+  [
+    "이전 · 정비소",
+    "스탬프 · 첫 장착",
+    "maintenance-stamp-v1",
+    "empty",
+    "case=empty"
+  ],
+  [
+    "이전 · 정비소",
+    "스탬프 · 골드 부족",
+    "maintenance-stamp-v1",
+    "poor",
+    "case=poor"
+  ],
+  [
+    "이전 · 판매대",
+    "잉크 판매대",
+    "ink-shop-v1",
+    "shop",
+    ""
+  ],
+  [
+    "이전 · 판매대",
+    "판매대 · 구매 후",
+    "ink-shop-v1",
+    "purchased",
+    "case=bought"
+  ],
+  [
+    "이전 · 판매대",
+    "판매대 · 가방 가득 참",
+    "ink-shop-v1",
+    "full",
+    "case=full"
+  ],
+  [
+    "이전 · 판매대",
+    "판매대 · 골드 부족",
+    "ink-shop-v1",
+    "poor",
+    "case=poor"
+  ],
+  [
+    "이전 · 지도",
+    "전체 지도 · 새 시안",
+    "full-map-v1",
+    "map",
+    ""
+  ],
+  [
+    "이전 · 정비소",
+    "팔레트 · 변경권 선택",
+    "maintenance-palette-v1",
+    "color-ticket",
+    "task=color&payment=ticket"
+  ],
+  [
+    "이전 · 정비소",
+    "팔레트 · 잉크 장착·교체",
+    "maintenance-palette-v1",
+    "palette-ink",
+    "task=ink"
+  ],
+  [
+    "이전 · 지도",
+    "지도 · 200% 확대",
+    "full-map-v1",
+    "map-zoom-200",
+    "zoom=2"
+  ],
+  [
+    "일시정지",
+    "전투 · 일시정지",
+    "pause-menu-v1",
+    "combat",
+    "context=combat"
+  ],
+  [
+    "일시정지",
+    "마을 · 일시정지",
+    "pause-menu-v1",
+    "village",
+    "context=village"
+  ],
+  [
+    "일시정지",
+    "조작 안내",
+    "pause-menu-v1",
+    "help",
+    "view=help"
+  ],
+  [
+    "일시정지",
+    "도전 종료 · 마을 복귀 확인",
+    "pause-menu-v1",
+    "confirm",
+    "view=confirm"
+  ],
+  [
+    "이전 · 출발 준비",
+    "출발 · 첫 도면 선택",
+    "departure-v1",
+    "choose",
+    ""
+  ],
+  [
+    "이전 · 출발 준비",
+    "출발 · 두 번째 도면 선택",
+    "departure-v1",
+    "second",
+    "step=2"
+  ],
+  [
+    "이전 · 출발 준비",
+    "준비 저장 · 다시 뽑기 없음",
+    "departure-v1",
+    "palette-three",
+    "view=ready"
+  ],
+  [
+    "이전 · 출발 준비",
+    "시작 팔레트 · 5칸 / 무색 / 다시 뽑기",
+    "departure-v1",
+    "palette-five",
+    "view=palette&slots=5"
+  ],
+  [
+    "이전 · 출발 준비",
+    "출발 준비 저장",
+    "departure-v1",
+    "ready",
+    "view=ready"
+  ],
+  [
+    "일시정지",
+    "마을 · 다시 시작 확인",
+    "pause-menu-v1",
+    "restart",
+    "context=village&view=restart"
+  ],
+  [
+    "이전 · 도전 결과",
+    "일반 사망",
+    "run-result-v1",
+    "death",
+    "kind=death"
+  ],
+  [
+    "이전 · 도전 결과",
+    "보스전 사망",
+    "run-result-v1",
+    "boss",
+    "kind=boss"
+  ],
+  [
+    "이전 · 도전 결과",
+    "첫 챕터 클리어",
+    "run-result-v1",
+    "clear",
+    "kind=clear"
+  ],
+  [
+    "이전 · 전투 HUD",
+    "전투 HUD · 기본",
+    "combat-hud-v2",
+    "exploration",
+    ""
+  ],
+  [
+    "이전 · 전투 HUD",
+    "전투 HUD · 어두운 배경",
+    "combat-hud-v2",
+    "dark",
+    "scene=dark"
+  ],
+  [
+    "이전 · 전투 HUD",
+    "전투 HUD · 획득 알림",
+    "combat-hud-v2",
+    "pickup",
+    "state=pickup"
+  ],
+  [
+    "이전 · 전투 HUD",
+    "전투 HUD · 보스 배치",
+    "combat-hud-v2",
+    "boss",
+    "state=boss"
+  ],
+  [
+    "설정",
+    "소리 설정",
+    "settings-v1",
+    "sound",
+    "tab=sound"
+  ],
+  [
+    "설정",
+    "화면 설정",
+    "settings-v1",
+    "display",
+    "tab=display&state=changed"
+  ],
+  [
+    "설정",
+    "조작 설정 · 이동 / 스크롤 상단",
+    "settings-v1",
+    "controls",
+    "tab=controls"
+  ],
+  [
+    "설정",
+    "조작 설정 · 전투 / 스크롤 중간",
+    "settings-v1",
+    "controls-combat",
+    "tab=controls&scroll=combat"
+  ],
+  [
+    "설정",
+    "조작 설정 · 탐험 / 스크롤 하단",
+    "settings-v1",
+    "controls-explore",
+    "tab=controls&scroll=bottom"
+  ],
+  [
+    "설정",
+    "조작키 변경",
+    "settings-v1",
+    "rebind",
+    "tab=controls&state=rebind"
+  ],
+  [
+    "설정",
+    "화면 적용 확인",
+    "settings-v1",
+    "confirm",
+    "tab=display&state=confirm"
+  ],
+  [
+    "재화 에셋",
+    "골드 · 마법안료 — 확정 형태",
+    "currency-v1",
+    "preview",
+    ""
+  ],
+  [
+    "이전 · 봉인 도전",
+    "증강 보상 · 공격력 선택",
+    "seal-reward-v1",
+    "choice-0",
+    "pick=0"
+  ],
+  [
+    "이전 · 봉인 도전",
+    "증강 보상 · 공격 속도 선택",
+    "seal-reward-v1",
+    "choice-1",
+    "pick=1"
+  ],
+  [
+    "이전 · 봉인 도전",
+    "증강 보상 · 최대 체력 선택",
+    "seal-reward-v1",
+    "choice-2",
+    "pick=2"
+  ],
+  [
+    "이전 · 보스 잉크 제단",
+    "제단 · 색상 선택",
+    "boss-altar-v1",
+    "colors",
+    ""
+  ],
+  [
+    "이전 · 보스 잉크 제단",
+    "제단 · 잉크 후보 비교",
+    "boss-altar-v1",
+    "inks",
+    "color=red"
+  ],
+  [
+    "이전 · 출발 준비",
+    "출발 준비 · 확정 버튼 선택",
+    "departure-v1",
+    "ready-confirm",
+    "view=ready&action=confirm"
   ]
 ]
