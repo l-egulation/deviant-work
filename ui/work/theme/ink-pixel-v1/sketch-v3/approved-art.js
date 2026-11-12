@@ -1,0 +1,8 @@
+// Direct raster references to approved assets; no regenerated mockup artwork.
+const approvedSprites=Object.fromEntries(DATA.sprites.map(s=>[s.id,s]));const approvedGlyphs=Object.fromEntries(DATA.glyphs.map(s=>[s.id,s]));let artSequence=0;
+function assetImage(s,root){const v=s.rect||s.view,id='artClip'+(++artSequence);return `<defs><clipPath id="${id}"><rect x="${v[0]}" y="${v[1]}" width="${v[2]}" height="${v[3]}"/></clipPath></defs><image clip-path="url(#${id})" href="${root+s.file}" width="${s.imageSize[0]}" height="${s.imageSize[1]}"/>`}
+function approvedWeapon(x,cls=''){const s=approvedSprites[x.art];return `<svg class="approvedWeapon ${cls}" viewBox="${s.view.join(' ')}" role="img" aria-label="${x.name}">${assetImage(s,'../ui-assets-v2/')}</svg>`}
+const effectMap={'ink3_purple_01':[3,11],'ink3_red_02':[7,3],'ink3_blue_01':[9,3],'ink3_green_01':[1,13],'ink3_yellow_01':[0,12],'ink3_purple_05':[4,10],'ink3_red_04':[7,4],'ink3_blue_02':[8,4],'ink3_green_04':[2,11],'ink3_yellow_02':[0,10],'ink3_purple_07':[5,13],'ink3_red_01':[7,6]};
+function artGlyph(i,cx,cy,size){const s=approvedGlyphs['ink-symbol-'+i];return `<svg x="${cx-size/2}" y="${cy-size/2}" width="${size}" height="${size}" viewBox="${s.view.join(' ')}" overflow="hidden">${assetImage(s,'../ui-assets-v1/')}</svg>`}
+function approvedInk(x,cls=''){const s=approvedSprites[x.color],m=effectMap[x.id];return `<span class="inkVisual approvedInk ${cls}" role="img" aria-label="${x.name}"><svg viewBox="${s.view.join(' ')}">${assetImage(s,'../ui-assets-v2/')}${artGlyph(m[0],s.label[0],s.label[1],172)}${artGlyph(m[1],s.badge[0],s.badge[1],92)}</svg></span>`}
+function approvedSymbol(x){return `<svg class="approvedPaletteGlyph" viewBox="0 0 220 155">${artGlyph(effectMap[x.id][0],110,78,80)}</svg>`}
