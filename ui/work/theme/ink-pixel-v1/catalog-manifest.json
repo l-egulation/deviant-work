@@ -810,5 +810,19 @@
     "sketch-v3",
     "well-empty",
     "state=well-empty"
+  ],
+  [
+    "현행 v3",
+    "기록 농가 · 수첩 삽화",
+    "sketch-v3",
+    "records-notebook",
+    "state=records-notebook"
+  ],
+  [
+    "현행 v3",
+    "기록 농가 · 수첩 발견 전",
+    "sketch-v3",
+    "records-undiscovered",
+    "state=records-undiscovered"
   ]
 ]
