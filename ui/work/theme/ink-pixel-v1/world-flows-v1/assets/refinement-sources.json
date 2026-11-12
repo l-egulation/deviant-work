@@ -1,0 +1,5 @@
+{
+  "seal-progress-v2.png": {"source":"exec-6f2b04e5-8a96-4e66-9fcf-934dbca6e811.png","layout":"3 cells, 724 square: waiting, current, completed"},
+  "reward-reservoir-v2.png": {"source":"exec-f0cea1f4-2156-427b-bb2c-3443f9257cae.png","usage":"transparent frame; dynamic fill behind chamber"},
+  "notebook-v2.png": {"source":"exec-ac50479c-8d2b-4ed6-9916-e1877b9b3692.png","usage":"opaque paper, exterior clipped in HTML; not Unity-ready transparency"}
+}

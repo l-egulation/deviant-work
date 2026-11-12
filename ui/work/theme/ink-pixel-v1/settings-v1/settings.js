@@ -1,7 +1,7 @@
 const $=s=>document.querySelector(s),params=new URLSearchParams(location.search);let tab=['display','sound','controls'].includes(params.get('tab'))?params.get('tab'):'sound',capture=null,timer=null,controlsScroll=0,depth="nav";
 const defaults={master:80,music:60,title:true};let sound={...defaults};try{sound={...defaults,...JSON.parse(localStorage.getItem('deviant-review-sound')||'{}')}}catch{}
 let saved={mode:0,res:0},draft={...saved};const modes=['전체 화면','테두리 없는 창','창 모드'],resolutions=['1920 × 1080','1600 × 900','1280 × 720'];
-const bindings={combat:[['무기 1 · 기본 공격','Q'],['무기 1 · 스킬','E'],['무기 2 · 기본 공격','W'],['무기 2 · 스킬','R']],move:[['왼쪽 이동','←'],['오른쪽 이동','→'],['위로 이동','↑'],['아래로 이동','↓'],['점프','Space'],['대시','Shift']],explore:[['상호작용','F'],['가방 · 장비','I'],['전체 지도','M'],['포탈 1 설치','C'],['포탈 2 설치','V']]};const original=JSON.parse(JSON.stringify(bindings));
+const bindings={combat:[['무기 1 · 기본 공격','Q'],['무기 1 · 스킬','E'],['무기 2 · 기본 공격','W'],['무기 2 · 스킬','R']],move:[['왼쪽 이동','←'],['오른쪽 이동','→'],['위로 이동','↑'],['아래로 이동','↓'],['점프','Space'],['대시','Shift']],explore:[['상호작용','F'],['보상 열기','G'],['가방 · 장비','I'],['전체 지도','M'],['포탈 1 설치','C'],['포탈 2 설치','V']]};const original=JSON.parse(JSON.stringify(bindings));
 function saveSound(){try{localStorage.setItem('deviant-review-sound',JSON.stringify(sound))}catch{}$('#status').textContent='변경 내용 저장됨'}
 function dirty(){return draft.mode!==saved.mode||draft.res!==saved.res}
 function options(id,value,label){return `<div class="options"><button data-step="${id}:-1" aria-label="${label} 이전">←</button><span class="value" id="${id}Value">${value}</span><button data-step="${id}:1" aria-label="${label} 다음">→</button></div>`}

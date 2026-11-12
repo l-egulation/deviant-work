@@ -1,0 +1,905 @@
+{
+  "viewport": "960x540",
+  "scope": "Asset loading and page horizontal overflow only; not a full interaction acceptance test",
+  "gallery": {
+    "width": 817.21875,
+    "height": 25.59375,
+    "overflow": false
+  },
+  "screens": [
+    {
+      "title": "증강 화풍 재디자인 · 무기·잉크병·팔레트·상자·기록",
+      "url": "ui-assets-v2/index.html",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "현행 UI 전체 에셋 · 잉크 43 · 증강 51 · 스킬 40",
+      "url": "ui-assets-v1/index.html",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "HUD에서 바로 보상 선택",
+      "url": "sketch-v3/index.html?state=reward",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "스케치·잉크 혼합 3중 1택",
+      "url": "sketch-v3/index.html?state=mixed",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "스케치 3개 획득 후에도 혼합 후보",
+      "url": "sketch-v3/index.html?state=quota",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "보스 보상 · 스케치 선택",
+      "url": "sketch-v3/index.html?state=boss",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "보스 보상 · 첫 번째 잉크",
+      "url": "sketch-v3/index.html?state=boss-ink",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "스케치 격자 목록",
+      "url": "sketch-v3/index.html?state=bag",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "보유 잉크 · 스크롤",
+      "url": "sketch-v3/index.html?state=bag-ink",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "스케치 없음",
+      "url": "sketch-v3/index.html?state=bag-empty",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "스케치 선택",
+      "url": "sketch-v3/index.html?state=craft",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "팔레트 5칸 · 직접 선택",
+      "url": "sketch-v3/index.html?state=craft-five",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "다른 색 잉크 선택",
+      "url": "sketch-v3/index.html?state=craft-ink",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "5번째 칸 · 적용한 문양",
+      "url": "sketch-v3/index.html?state=craft-filled",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "제작 확정 · 여러 효과",
+      "url": "sketch-v3/index.html?state=craft-confirm",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "제작 후 장착 또는 보관",
+      "url": "sketch-v3/index.html?state=equip-new",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "장착하기 선택 후 무기 자리 선택",
+      "url": "sketch-v3/index.html?state=equip-destination",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "장착 무기 · 복수 적용 효과",
+      "url": "sketch-v3/index.html?state=equipment-effects",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "장착 중인 무기 교환",
+      "url": "sketch-v3/index.html?state=equipment-swap",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "무기 소진 후 빈 자리",
+      "url": "sketch-v3/index.html?state=equipment-empty",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "스케치·잉크 구매",
+      "url": "sketch-v3/index.html?state=shop",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "골드 부족",
+      "url": "sketch-v3/index.html?state=shop-poor",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "구매 완료 · 품절",
+      "url": "sketch-v3/index.html?state=shop-sold",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "정비소 증강 구매",
+      "url": "sketch-v3/index.html?state=augment",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "회복 충전소 팝업 · 길게 누르기",
+      "url": "sketch-v3/index.html?state=recovery",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "충전소 · 골드 부족",
+      "url": "sketch-v3/index.html?state=recovery-poor",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "충전소 · 체력 가득",
+      "url": "sketch-v3/index.html?state=recovery-full",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "충전소 · 소진",
+      "url": "sketch-v3/index.html?state=recovery-empty",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "일반 사망 결과",
+      "url": "sketch-v3/index.html?state=result",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "영구 진행 초기화 확인",
+      "url": "sketch-v3/index.html?state=reset-confirm",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "보스전 사망 결과",
+      "url": "sketch-v3/index.html?state=result-boss",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "클리어 결과",
+      "url": "sketch-v3/index.html?state=result-clear",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "복수 효과 · 아래로 스크롤",
+      "url": "sketch-v3/index.html?state=equipment-scroll",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "획득 후 · 계속 뽑기 또는 닫기",
+      "url": "sketch-v3/index.html?state=reward-receipt",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "영구 성장",
+      "url": "sketch-v3/index.html?state=permanent",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "마법안료 부족",
+      "url": "sketch-v3/index.html?state=permanent-poor",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "선행 조건 미충족",
+      "url": "sketch-v3/index.html?state=permanent-locked",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "공방 · 출발 지원금 가격 반영",
+      "url": "sketch-v3/index.html?state=permanent-unknown",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "가방 · 분류 탭 선택",
+      "url": "sketch-v3/index.html?state=bag-category-focus",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "장비 · 이름 변경 / 내구도",
+      "url": "sketch-v3/index.html?state=equipment-renamed",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "마을 장인 · 대화 진행",
+      "url": "sketch-v3/index.html?state=dialogue",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "마을 장인 · 마지막 대사",
+      "url": "sketch-v3/index.html?state=dialogue-last",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "기록 농가 · 조사 기록",
+      "url": "sketch-v3/index.html?state=records",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "기록 농가 · 새 기록 안내",
+      "url": "sketch-v3/index.html?state=village-record",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "우물 · 미사용 잉크 안내",
+      "url": "sketch-v3/index.html?state=village-well",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "장인의 공방 · 통합 상호작용",
+      "url": "sketch-v3/index.html?state=village-workshop",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "출발 이정표 · 상호작용",
+      "url": "sketch-v3/index.html?state=village-exit",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "우물 · 마을 잉크 사용",
+      "url": "sketch-v3/index.html?state=well",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "우물 · 미사용 잉크 없음",
+      "url": "sketch-v3/index.html?state=well-empty",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "기록 농가 · 수첩 삽화",
+      "url": "sketch-v3/index.html?state=records-notebook",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "기록 농가 · 수첩 발견 전",
+      "url": "sketch-v3/index.html?state=records-undiscovered",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "공방 · 첫 정산 전",
+      "url": "sketch-v3/index.html?state=permanent-first",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "공방 · 출발 지원금",
+      "url": "sketch-v3/index.html?state=permanent-gold",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "공방 · 지원금 3단계 잠금",
+      "url": "sketch-v3/index.html?state=permanent-gold-locked",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "공방 · 1챕터 조건",
+      "url": "sketch-v3/index.html?state=permanent-ch1",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "공방 · 2챕터 조건",
+      "url": "sketch-v3/index.html?state=permanent-ch2",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "공방 · 대시 추가 구매 가능",
+      "url": "sketch-v3/index.html?state=permanent-dash-ready",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "공방 · 대시 추가 해금 완료",
+      "url": "sketch-v3/index.html?state=permanent-dash-owned",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "공방 · 최대 단계",
+      "url": "sketch-v3/index.html?state=permanent-max",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "기록 농가 · 최초 조사 기록",
+      "url": "sketch-v3/index.html?state=records-first",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "잠긴 상자 · 열쇠 보유",
+      "url": "sketch-v3/index.html?state=chest-key",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "잠긴 상자 · 열쇠 없음",
+      "url": "sketch-v3/index.html?state=chest-no-key",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "첫 제작 안내",
+      "url": "sketch-v3/index.html?state=guide",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "내구도·무기 소진 안내",
+      "url": "sketch-v3/index.html?state=guide-durability",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "마을 · 붉은색 복원",
+      "url": "sketch-v3/index.html?state=restoration",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "하늘길 · 최고 기록과 최근 10회",
+      "url": "sketch-v3/index.html?state=sky",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "전체 지도 · 새 시안",
+      "url": "full-map-v1/index.html?",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "지도 · 200% 확대",
+      "url": "full-map-v1/index.html?zoom=2",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "전투 · 일시정지",
+      "url": "pause-menu-v1/index.html?context=combat",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "마을 · 일시정지",
+      "url": "pause-menu-v1/index.html?context=village",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "조작 안내",
+      "url": "pause-menu-v1/index.html?view=help",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "도전 종료 · 마을 복귀 확인",
+      "url": "pause-menu-v1/index.html?view=confirm",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "소리 설정",
+      "url": "settings-v1/index.html?tab=sound",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "화면 설정",
+      "url": "settings-v1/index.html?tab=display&state=changed",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "조작 설정 · 이동 / 스크롤 상단",
+      "url": "settings-v1/index.html?tab=controls",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "조작 설정 · 전투 / 스크롤 중간",
+      "url": "settings-v1/index.html?tab=controls&scroll=combat",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "조작 설정 · 탐험 / 스크롤 하단",
+      "url": "settings-v1/index.html?tab=controls&scroll=bottom",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "조작키 변경",
+      "url": "settings-v1/index.html?tab=controls&state=rebind",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "화면 적용 확인",
+      "url": "settings-v1/index.html?tab=display&state=confirm",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "일반 보상 · 7회 이후",
+      "url": "sketch-v3/index.html?state=reward-seven",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "일반 보상 · 잉크 전종 보유",
+      "url": "sketch-v3/index.html?state=reward-all-inks",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "일반 보상 · 스케치 최소 획득 보장",
+      "url": "sketch-v3/index.html?state=reward-guarantee",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "보스 보상 · 두 번째 잉크",
+      "url": "sketch-v3/index.html?state=boss-last",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "이스터에그 · 모든 잉크 수집 축하",
+      "url": "sketch-v3/index.html?state=boss-all-inks",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "미적용 설정 확인",
+      "url": "settings-v1/index.html?state=unsaved",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "기본 조작키 복원 확인",
+      "url": "settings-v1/index.html?state=reset-confirm",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "타이틀 복귀 확인",
+      "url": "pause-menu-v1/index.html?context=village&view=title",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "잉크 43종 · 실제 설명·4열 목록",
+      "url": "sketch-v3/index.html?state=bag-all-inks",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "6칸 제작 · 팔레트 가로 스크롤",
+      "url": "sketch-v3/index.html?state=craft-six",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "잉크 미보유 · 빈 칸 제작",
+      "url": "sketch-v3/index.html?state=craft-no-inks",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "전부 빈 칸 · 제작 확정",
+      "url": "sketch-v3/index.html?state=craft-empty-confirm",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "임시 배치 후 재진입",
+      "url": "sketch-v3/index.html?state=craft-resume",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "6칸·여러 실제 효과·긴 이름",
+      "url": "sketch-v3/index.html?state=equipment-six",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "교체·해제 공유 10초 대기",
+      "url": "sketch-v3/index.html?state=equipment-wait",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "대기 중 두 무기 자리 교환",
+      "url": "sketch-v3/index.html?state=equipment-wait-swap",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "2챕터 실제 가격",
+      "url": "sketch-v3/index.html?state=shop-ch2",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "3챕터 가격 미정 · 구매 불가",
+      "url": "sketch-v3/index.html?state=shop-ch3",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "진열할 미획득 잉크 없음",
+      "url": "sketch-v3/index.html?state=shop-no-inks",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "다른 경로로 획득한 잉크 재진열",
+      "url": "sketch-v3/index.html?state=shop-refresh",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "실제 증강 · 안정형 1·도박형 2",
+      "url": "sketch-v3/index.html?state=augment-choose",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "결제 후 선택 대기 · 동일 후보 유지",
+      "url": "sketch-v3/index.html?state=augment-pending",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "증강 구매 · 골드 부족",
+      "url": "sketch-v3/index.html?state=augment-poor",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "증강 구매 · 최대 10회",
+      "url": "sketch-v3/index.html?state=augment-max",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "증강 구매 · 후보 부족",
+      "url": "sketch-v3/index.html?state=augment-shortage",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "봉인 도전 · 12종 별도 후보",
+      "url": "sketch-v3/index.html?state=augment-seal",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "보유 증강 · 효과·중첩 확인",
+      "url": "sketch-v3/index.html?state=augment-owned",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "색상 일치 · 실제 강화 수치",
+      "url": "sketch-v3/index.html?state=craft-match",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "다른 색 적용 · 기본 수치",
+      "url": "sketch-v3/index.html?state=craft-unmatched",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "검토안 · 맵 상품 3개·근접 설명·구매",
+      "url": "sketch-v3/index.html?state=shop-world",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "검토안 · 맵 상점 골드 부족",
+      "url": "sketch-v3/index.html?state=shop-world-poor",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "검토안 · 맵 상점 품절",
+      "url": "sketch-v3/index.html?state=shop-world-sold",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "잉크 설명 · 트리거·효과 색상 기준",
+      "url": "sketch-v3/index.html?state=ink-color-rule",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "제작 · 일치 효과·적용 수치",
+      "url": "sketch-v3/index.html?state=craft-color-rule",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "무기 이름 변경 · 축소·테마 프레임",
+      "url": "sketch-v3/index.html?state=equipment-rename-dialog",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "봉인 도전 · 시작",
+      "url": "world-flows-v1/index.html?state=seal",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "봉인 도전 · 진행",
+      "url": "world-flows-v1/index.html?state=seal-progress",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "봉인 도전 · 완료와 상자",
+      "url": "world-flows-v1/index.html?state=seal-complete",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "잉크 정령 구출",
+      "url": "world-flows-v1/index.html?state=rescue",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "정령 · 구속 장치 해제",
+      "url": "world-flows-v1/index.html?state=rescue-progress",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "잉크 묘목 생존전",
+      "url": "world-flows-v1/index.html?state=survival",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "묘목 · 남은 시간",
+      "url": "world-flows-v1/index.html?state=survival-progress",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "위험 상자방",
+      "url": "world-flows-v1/index.html?state=danger",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "위험 상자 · 오답",
+      "url": "world-flows-v1/index.html?state=danger-wrong",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "함정 수집방",
+      "url": "world-flows-v1/index.html?state=collection",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "함정 · 수집과 재방문",
+      "url": "world-flows-v1/index.html?state=collection-progress",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "이벤트 · 완료 연출",
+      "url": "world-flows-v1/index.html?state=event-complete",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "보스 · 등장 소개",
+      "url": "world-flows-v1/index.html?state=boss-intro",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "보스 · 소개 종료",
+      "url": "world-flows-v1/index.html?state=boss-ready",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "2챕터 보스 · 베르소와 렉토",
+      "url": "world-flows-v1/index.html?state=boss-intro-two",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "보상 기회 · HUD 배치 검토",
+      "url": "world-flows-v1/index.html?state=reward-alert",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "무기 소진 · 장착 자리",
+      "url": "world-flows-v1/index.html?state=weapon-alert",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "보상 기회 · 0회",
+      "url": "world-flows-v1/index.html?state=reward-zero",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "포탈 · 설치 전",
+      "url": "world-flows-v1/index.html?state=portal",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "포탈 · 하나만 설치",
+      "url": "world-flows-v1/index.html?state=portal-one",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "포탈 · 왕복 가능",
+      "url": "world-flows-v1/index.html?state=portal-ready",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "포탈 · 첫 설치 안내",
+      "url": "world-flows-v1/index.html?state=portal-tutorial",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "다음 챕터 · 전환",
+      "url": "world-flows-v1/index.html?state=loading",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "최종 챕터 · 종료 검토",
+      "url": "world-flows-v1/index.html?state=final",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "오프닝 · 조사 수첩",
+      "url": "world-flows-v1/index.html?state=opening",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "오프닝 · 이동 안내",
+      "url": "world-flows-v1/index.html?state=opening-movement",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "오프닝 · 지워짐",
+      "url": "world-flows-v1/index.html?state=opening-chase",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "오프닝 · 조력자",
+      "url": "world-flows-v1/index.html?state=opening-helper",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "오프닝 · 첫 각성",
+      "url": "world-flows-v1/index.html?state=opening-awake",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "첫 각성 · 기록 남기기",
+      "url": "world-flows-v1/index.html?state=opening-record",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "첫 진행 · 맨손",
+      "url": "world-flows-v1/index.html?state=opening-unarmed",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "첫 진행 · 보상 기회",
+      "url": "world-flows-v1/index.html?state=first-reward",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "첫 진행 · 제작 안내",
+      "url": "world-flows-v1/index.html?state=first-craft",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "첫 진행 · 내구도 안내",
+      "url": "world-flows-v1/index.html?state=first-durability",
+      "missing": [],
+      "horizontalOverflow": false
+    },
+    {
+      "title": "첫 회귀 · 우물",
+      "url": "world-flows-v1/index.html?state=first-return",
+      "missing": [],
+      "horizontalOverflow": false
+    }
+  ]
+}
