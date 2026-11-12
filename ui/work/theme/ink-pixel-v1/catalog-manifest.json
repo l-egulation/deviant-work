@@ -726,5 +726,19 @@
     "maintenance-palette-v1",
     "flow-task",
     "region=task&task=upgrade"
+  ],
+  [
+    "현행 v3",
+    "가방 · 분류 탭 선택",
+    "sketch-v3",
+    "bag-category-focus",
+    "state=bag-category-focus"
+  ],
+  [
+    "현행 v3",
+    "장비 · 이름 변경 / 내구도",
+    "sketch-v3",
+    "equipment-renamed",
+    "state=equipment-renamed"
   ]
 ]
