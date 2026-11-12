@@ -232,7 +232,7 @@ body[data-view="shop"][data-world-shop="true"] #app>header{visibility:hidden}bod
 .worldShopBubble{top:auto;bottom:340px}
 
 /* Compact native text-entry dialog; reuse approved artwork as a nine-slice frame. */
-#renameDialog{width:min(448px,92vw);max-height:90vh;padding:26px 24px 24px;background:transparent;border:24px solid transparent;border-image:url('../combat-hud-v2/assets/frame-large.png') 210 220 170 220 fill / 24px stretch;overflow:auto;isolation:isolate}
+#renameDialog{width:min(448px,92vw);max-height:90vh;padding:26px 24px 24px;background:transparent;border:24px solid transparent;border-image:url('../combat-hud-v2/assets/frame-large.png') 260 fill / 24px stretch;overflow:auto;isolation:isolate}
 #renameDialog h2{font-size:26px;line-height:1.35;margin:0 0 22px}
 #renameDialog p.muted{font-size:18px;margin:0 0 22px;color:#b7bec6}
 #renameDialog input{font-size:23px;padding:12px 10px;background:#161c2055;border:0;border-bottom:2px solid #829b9f;border-radius:0;outline:none;letter-spacing:.2px}
