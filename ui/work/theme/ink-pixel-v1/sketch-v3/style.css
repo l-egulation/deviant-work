@@ -51,3 +51,5 @@ body[data-view="craft"] .actions .action{font-size:26px}
 .equipmentLeft .item{padding:12px 8px;gap:16px}
 .equipmentLeft .item img{width:100px;height:100px}
 .equipmentLeft .item>span{min-height:62px}
+
+.paletteActions{margin:16px 0 30px!important;padding-top:8px;border-top:0;min-height:76px!important;gap:36px}.paletteActions+.muted{font-size:22px}
