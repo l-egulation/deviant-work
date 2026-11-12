@@ -22,28 +22,28 @@
   ],
   [
     "보상",
-    "스케치 3개 획득 후 잉크만 제시",
+    "스케치 3개 획득 후에도 혼합 후보",
     "sketch-v3",
     "quota",
     "state=quota"
   ],
   [
     "보상",
-    "일반 보상 6회 완료",
+    "보상 기회 없음 · 추가 획득 가능",
     "sketch-v3",
     "reward-done",
     "state=reward-done"
   ],
   [
     "보상",
-    "보스 보상 시작",
+    "보스 보상 · 스케치 선택",
     "sketch-v3",
     "boss",
     "state=boss"
   ],
   [
     "보상",
-    "보스 잉크 선택",
+    "보스 보상 · 첫 번째 잉크",
     "sketch-v3",
     "boss-ink",
     "state=boss-ink"
@@ -572,5 +572,68 @@
     "settings-v1",
     "confirm",
     "tab=display&state=confirm"
+  ],
+  [
+    "보상",
+    "일반 보상 · 7회 이후",
+    "sketch-v3",
+    "reward-seven",
+    "state=reward-seven"
+  ],
+  [
+    "보상",
+    "일반 보상 · 잉크 전종 보유",
+    "sketch-v3",
+    "reward-all-inks",
+    "state=reward-all-inks"
+  ],
+  [
+    "보상",
+    "일반 보상 · 스케치 최소 획득 보장",
+    "sketch-v3",
+    "reward-guarantee",
+    "state=reward-guarantee"
+  ],
+  [
+    "보상",
+    "보스 보상 · 두 번째 잉크",
+    "sketch-v3",
+    "boss-last",
+    "state=boss-last"
+  ],
+  [
+    "보상",
+    "출구 · 미수령 보상 선택",
+    "sketch-v3",
+    "reward-exit",
+    "state=reward-exit"
+  ],
+  [
+    "보상",
+    "출구 · 남은 보상 계속 선택",
+    "sketch-v3",
+    "reward-exit-receipt",
+    "state=reward-exit-receipt"
+  ],
+  [
+    "보상",
+    "출구 · 모두 수령 후 출발",
+    "sketch-v3",
+    "reward-exit-ready",
+    "state=reward-exit-ready"
+  ],
+  [
+    "보상",
+    "보상 닫기 · 기회 보존 및 다시 열기",
+    "sketch-v3",
+    "reward-exploration",
+    "state=reward-exploration"
+  ],
+  [
+    "보상",
+    "검토 필요 · 보스 잉크 전종 보유",
+    "sketch-v3",
+    "boss-all-inks",
+    "state=boss-all-inks"
   ]
 ]
