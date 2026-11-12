@@ -1,0 +1,745 @@
+{
+  "packageVersion": 2,
+  "scope": "현행 화면군별 요소 연결; 각 상태는 COVERAGE.md 참조",
+  "entries": [
+    {
+      "screen": "공통",
+      "element": "선택 붓칠",
+      "assetIds": [
+        "common/maintenance-palette-v1__assets__selection-wash-v1"
+      ],
+      "rule": "선택 문구·버튼만. 잉크 아이콘 단독에는 사용 안 함",
+      "status": "현행"
+    },
+    {
+      "screen": "공통",
+      "element": "꼬리 팝업",
+      "assetIds": [
+        "common/sketch-v3__assets__speech-frame-v1"
+      ],
+      "rule": "frames.speech 고정 모서리/꼬리, 가운데 띠만 늘림",
+      "status": "현행"
+    },
+    {
+      "screen": "이름 변경",
+      "element": "프레임",
+      "assetIds": [
+        "common/combat-hud-v2__assets__frame-large"
+      ],
+      "rule": "frames.large slice260, 전체 통이미지 늘림 금지",
+      "status": "현행"
+    },
+    {
+      "screen": "가방",
+      "element": "무기 형태",
+      "assetIds": [
+        "ui-assets-v2/base_sword",
+        "ui-assets-v2/rapier",
+        "ui-assets-v2/dagger",
+        "ui-assets-v2/greatsword",
+        "ui-assets-v2/hammer",
+        "ui-assets-v2/whip",
+        "ui-assets-v2/shield",
+        "ui-assets-v2/launcher",
+        "ui-assets-v2/launcher_laser",
+        "ui-assets-v2/launcher_shotgun",
+        "ui-assets-v2/launcher_grenade",
+        "ui-assets-v2/shuriken",
+        "ui-assets-v2/bomb"
+      ],
+      "rule": "contentId로 선택. 목록 순번/이름 추정 금지",
+      "status": "현행"
+    },
+    {
+      "screen": "가방",
+      "element": "잉크 병 조합",
+      "assetIds": [
+        "ui-assets-v2/red",
+        "ui-assets-v2/yellow",
+        "ui-assets-v2/green",
+        "ui-assets-v2/blue",
+        "ui-assets-v2/purple",
+        "ui-assets-v1/ink-symbol-0",
+        "ui-assets-v1/ink-symbol-1",
+        "ui-assets-v1/ink-symbol-2",
+        "ui-assets-v1/ink-symbol-3",
+        "ui-assets-v1/ink-symbol-4",
+        "ui-assets-v1/ink-symbol-5",
+        "ui-assets-v1/ink-symbol-6",
+        "ui-assets-v1/ink-symbol-7",
+        "ui-assets-v1/ink-symbol-8",
+        "ui-assets-v1/ink-symbol-9",
+        "ui-assets-v1/ink-symbol-10",
+        "ui-assets-v1/ink-symbol-11",
+        "ui-assets-v1/ink-symbol-12",
+        "ui-assets-v1/ink-symbol-13",
+        "ui-assets-v1/ink-symbol-14",
+        "ui-assets-v1/ink-symbol-15"
+      ],
+      "rule": "manifest.inks[inkId]의 bottle/effect/condition 및 label/badge 중심값 사용",
+      "status": "현행"
+    },
+    {
+      "screen": "가방",
+      "element": "팔레트",
+      "assetIds": [
+        "palette/bases/red",
+        "palette/bases/yellow",
+        "palette/bases/green",
+        "palette/bases/blue",
+        "palette/bases/purple",
+        "palette/bases/neutral",
+        "palette/paint/red",
+        "palette/paint/yellow",
+        "palette/paint/green",
+        "palette/paint/blue",
+        "palette/paint/purple"
+      ],
+      "rule": "바탕=슬롯색, 칠=적용잉크색, 중앙문양=inks[inkId].effect. 빈 칸은 바탕만; 6칸도 같은 규칙",
+      "status": "현행"
+    },
+    {
+      "screen": "제작",
+      "element": "무기 형태",
+      "assetIds": [
+        "ui-assets-v2/base_sword",
+        "ui-assets-v2/rapier",
+        "ui-assets-v2/dagger",
+        "ui-assets-v2/greatsword",
+        "ui-assets-v2/hammer",
+        "ui-assets-v2/whip",
+        "ui-assets-v2/shield",
+        "ui-assets-v2/launcher",
+        "ui-assets-v2/launcher_laser",
+        "ui-assets-v2/launcher_shotgun",
+        "ui-assets-v2/launcher_grenade",
+        "ui-assets-v2/shuriken",
+        "ui-assets-v2/bomb"
+      ],
+      "rule": "contentId로 선택. 목록 순번/이름 추정 금지",
+      "status": "현행"
+    },
+    {
+      "screen": "제작",
+      "element": "잉크 병 조합",
+      "assetIds": [
+        "ui-assets-v2/red",
+        "ui-assets-v2/yellow",
+        "ui-assets-v2/green",
+        "ui-assets-v2/blue",
+        "ui-assets-v2/purple",
+        "ui-assets-v1/ink-symbol-0",
+        "ui-assets-v1/ink-symbol-1",
+        "ui-assets-v1/ink-symbol-2",
+        "ui-assets-v1/ink-symbol-3",
+        "ui-assets-v1/ink-symbol-4",
+        "ui-assets-v1/ink-symbol-5",
+        "ui-assets-v1/ink-symbol-6",
+        "ui-assets-v1/ink-symbol-7",
+        "ui-assets-v1/ink-symbol-8",
+        "ui-assets-v1/ink-symbol-9",
+        "ui-assets-v1/ink-symbol-10",
+        "ui-assets-v1/ink-symbol-11",
+        "ui-assets-v1/ink-symbol-12",
+        "ui-assets-v1/ink-symbol-13",
+        "ui-assets-v1/ink-symbol-14",
+        "ui-assets-v1/ink-symbol-15"
+      ],
+      "rule": "manifest.inks[inkId]의 bottle/effect/condition 및 label/badge 중심값 사용",
+      "status": "현행"
+    },
+    {
+      "screen": "제작",
+      "element": "팔레트",
+      "assetIds": [
+        "palette/bases/red",
+        "palette/bases/yellow",
+        "palette/bases/green",
+        "palette/bases/blue",
+        "palette/bases/purple",
+        "palette/bases/neutral",
+        "palette/paint/red",
+        "palette/paint/yellow",
+        "palette/paint/green",
+        "palette/paint/blue",
+        "palette/paint/purple"
+      ],
+      "rule": "바탕=슬롯색, 칠=적용잉크색, 중앙문양=inks[inkId].effect. 빈 칸은 바탕만; 6칸도 같은 규칙",
+      "status": "현행"
+    },
+    {
+      "screen": "장비",
+      "element": "무기 형태",
+      "assetIds": [
+        "ui-assets-v2/base_sword",
+        "ui-assets-v2/rapier",
+        "ui-assets-v2/dagger",
+        "ui-assets-v2/greatsword",
+        "ui-assets-v2/hammer",
+        "ui-assets-v2/whip",
+        "ui-assets-v2/shield",
+        "ui-assets-v2/launcher",
+        "ui-assets-v2/launcher_laser",
+        "ui-assets-v2/launcher_shotgun",
+        "ui-assets-v2/launcher_grenade",
+        "ui-assets-v2/shuriken",
+        "ui-assets-v2/bomb"
+      ],
+      "rule": "contentId로 선택. 목록 순번/이름 추정 금지",
+      "status": "현행"
+    },
+    {
+      "screen": "장비",
+      "element": "잉크 병 조합",
+      "assetIds": [
+        "ui-assets-v2/red",
+        "ui-assets-v2/yellow",
+        "ui-assets-v2/green",
+        "ui-assets-v2/blue",
+        "ui-assets-v2/purple",
+        "ui-assets-v1/ink-symbol-0",
+        "ui-assets-v1/ink-symbol-1",
+        "ui-assets-v1/ink-symbol-2",
+        "ui-assets-v1/ink-symbol-3",
+        "ui-assets-v1/ink-symbol-4",
+        "ui-assets-v1/ink-symbol-5",
+        "ui-assets-v1/ink-symbol-6",
+        "ui-assets-v1/ink-symbol-7",
+        "ui-assets-v1/ink-symbol-8",
+        "ui-assets-v1/ink-symbol-9",
+        "ui-assets-v1/ink-symbol-10",
+        "ui-assets-v1/ink-symbol-11",
+        "ui-assets-v1/ink-symbol-12",
+        "ui-assets-v1/ink-symbol-13",
+        "ui-assets-v1/ink-symbol-14",
+        "ui-assets-v1/ink-symbol-15"
+      ],
+      "rule": "manifest.inks[inkId]의 bottle/effect/condition 및 label/badge 중심값 사용",
+      "status": "현행"
+    },
+    {
+      "screen": "장비",
+      "element": "팔레트",
+      "assetIds": [
+        "palette/bases/red",
+        "palette/bases/yellow",
+        "palette/bases/green",
+        "palette/bases/blue",
+        "palette/bases/purple",
+        "palette/bases/neutral",
+        "palette/paint/red",
+        "palette/paint/yellow",
+        "palette/paint/green",
+        "palette/paint/blue",
+        "palette/paint/purple"
+      ],
+      "rule": "바탕=슬롯색, 칠=적용잉크색, 중앙문양=inks[inkId].effect. 빈 칸은 바탕만; 6칸도 같은 규칙",
+      "status": "현행"
+    },
+    {
+      "screen": "보상",
+      "element": "무기 형태",
+      "assetIds": [
+        "ui-assets-v2/base_sword",
+        "ui-assets-v2/rapier",
+        "ui-assets-v2/dagger",
+        "ui-assets-v2/greatsword",
+        "ui-assets-v2/hammer",
+        "ui-assets-v2/whip",
+        "ui-assets-v2/shield",
+        "ui-assets-v2/launcher",
+        "ui-assets-v2/launcher_laser",
+        "ui-assets-v2/launcher_shotgun",
+        "ui-assets-v2/launcher_grenade",
+        "ui-assets-v2/shuriken",
+        "ui-assets-v2/bomb"
+      ],
+      "rule": "contentId로 선택. 목록 순번/이름 추정 금지",
+      "status": "현행"
+    },
+    {
+      "screen": "보상",
+      "element": "잉크 병 조합",
+      "assetIds": [
+        "ui-assets-v2/red",
+        "ui-assets-v2/yellow",
+        "ui-assets-v2/green",
+        "ui-assets-v2/blue",
+        "ui-assets-v2/purple",
+        "ui-assets-v1/ink-symbol-0",
+        "ui-assets-v1/ink-symbol-1",
+        "ui-assets-v1/ink-symbol-2",
+        "ui-assets-v1/ink-symbol-3",
+        "ui-assets-v1/ink-symbol-4",
+        "ui-assets-v1/ink-symbol-5",
+        "ui-assets-v1/ink-symbol-6",
+        "ui-assets-v1/ink-symbol-7",
+        "ui-assets-v1/ink-symbol-8",
+        "ui-assets-v1/ink-symbol-9",
+        "ui-assets-v1/ink-symbol-10",
+        "ui-assets-v1/ink-symbol-11",
+        "ui-assets-v1/ink-symbol-12",
+        "ui-assets-v1/ink-symbol-13",
+        "ui-assets-v1/ink-symbol-14",
+        "ui-assets-v1/ink-symbol-15"
+      ],
+      "rule": "manifest.inks[inkId]의 bottle/effect/condition 및 label/badge 중심값 사용",
+      "status": "현행"
+    },
+    {
+      "screen": "보상",
+      "element": "팔레트",
+      "assetIds": [
+        "palette/bases/red",
+        "palette/bases/yellow",
+        "palette/bases/green",
+        "palette/bases/blue",
+        "palette/bases/purple",
+        "palette/bases/neutral",
+        "palette/paint/red",
+        "palette/paint/yellow",
+        "palette/paint/green",
+        "palette/paint/blue",
+        "palette/paint/purple"
+      ],
+      "rule": "바탕=슬롯색, 칠=적용잉크색, 중앙문양=inks[inkId].effect. 빈 칸은 바탕만; 6칸도 같은 규칙",
+      "status": "현행"
+    },
+    {
+      "screen": "월드 상점",
+      "element": "무기 형태",
+      "assetIds": [
+        "ui-assets-v2/base_sword",
+        "ui-assets-v2/rapier",
+        "ui-assets-v2/dagger",
+        "ui-assets-v2/greatsword",
+        "ui-assets-v2/hammer",
+        "ui-assets-v2/whip",
+        "ui-assets-v2/shield",
+        "ui-assets-v2/launcher",
+        "ui-assets-v2/launcher_laser",
+        "ui-assets-v2/launcher_shotgun",
+        "ui-assets-v2/launcher_grenade",
+        "ui-assets-v2/shuriken",
+        "ui-assets-v2/bomb"
+      ],
+      "rule": "contentId로 선택. 목록 순번/이름 추정 금지",
+      "status": "현행"
+    },
+    {
+      "screen": "월드 상점",
+      "element": "잉크 병 조합",
+      "assetIds": [
+        "ui-assets-v2/red",
+        "ui-assets-v2/yellow",
+        "ui-assets-v2/green",
+        "ui-assets-v2/blue",
+        "ui-assets-v2/purple",
+        "ui-assets-v1/ink-symbol-0",
+        "ui-assets-v1/ink-symbol-1",
+        "ui-assets-v1/ink-symbol-2",
+        "ui-assets-v1/ink-symbol-3",
+        "ui-assets-v1/ink-symbol-4",
+        "ui-assets-v1/ink-symbol-5",
+        "ui-assets-v1/ink-symbol-6",
+        "ui-assets-v1/ink-symbol-7",
+        "ui-assets-v1/ink-symbol-8",
+        "ui-assets-v1/ink-symbol-9",
+        "ui-assets-v1/ink-symbol-10",
+        "ui-assets-v1/ink-symbol-11",
+        "ui-assets-v1/ink-symbol-12",
+        "ui-assets-v1/ink-symbol-13",
+        "ui-assets-v1/ink-symbol-14",
+        "ui-assets-v1/ink-symbol-15"
+      ],
+      "rule": "manifest.inks[inkId]의 bottle/effect/condition 및 label/badge 중심값 사용",
+      "status": "현행"
+    },
+    {
+      "screen": "월드 상점",
+      "element": "팔레트",
+      "assetIds": [
+        "palette/bases/red",
+        "palette/bases/yellow",
+        "palette/bases/green",
+        "palette/bases/blue",
+        "palette/bases/purple",
+        "palette/bases/neutral",
+        "palette/paint/red",
+        "palette/paint/yellow",
+        "palette/paint/green",
+        "palette/paint/blue",
+        "palette/paint/purple"
+      ],
+      "rule": "바탕=슬롯색, 칠=적용잉크색, 중앙문양=inks[inkId].effect. 빈 칸은 바탕만; 6칸도 같은 규칙",
+      "status": "현행"
+    },
+    {
+      "screen": "장비·보상·제작",
+      "element": "스킬 정보",
+      "assetIds": [
+        "ui-assets-v1/base_sword_default",
+        "ui-assets-v1/base_sword_range",
+        "ui-assets-v1/base_sword_movement",
+        "ui-assets-v1/base_sword_follow_up",
+        "ui-assets-v1/whip_default",
+        "ui-assets-v1/whip_range",
+        "ui-assets-v1/whip_movement",
+        "ui-assets-v1/whip_follow_up",
+        "ui-assets-v1/rapier_default",
+        "ui-assets-v1/rapier_range",
+        "ui-assets-v1/rapier_movement",
+        "ui-assets-v1/rapier_follow_up",
+        "ui-assets-v1/dagger_default",
+        "ui-assets-v1/dagger_range",
+        "ui-assets-v1/dagger_movement",
+        "ui-assets-v1/dagger_follow_up",
+        "ui-assets-v1/hammer_default",
+        "ui-assets-v1/hammer_range",
+        "ui-assets-v1/hammer_movement",
+        "ui-assets-v1/hammer_follow_up",
+        "ui-assets-v1/shield_default",
+        "ui-assets-v1/shield_range",
+        "ui-assets-v1/shield_movement",
+        "ui-assets-v1/shield_follow_up",
+        "ui-assets-v1/greatsword_default",
+        "ui-assets-v1/greatsword_range",
+        "ui-assets-v1/greatsword_movement",
+        "ui-assets-v1/greatsword_follow_up",
+        "ui-assets-v1/launcher_basic_special",
+        "ui-assets-v1/launcher_range_special",
+        "ui-assets-v1/launcher_move_special",
+        "ui-assets-v1/launcher_followup_special",
+        "ui-assets-v1/shuriken-basic_special_design",
+        "ui-assets-v1/shuriken-range_special_design",
+        "ui-assets-v1/shuriken-movement_special_design",
+        "ui-assets-v1/shuriken-followup_special_design",
+        "ui-assets-v1/bomb-basic_special_design",
+        "ui-assets-v1/bomb-range_special_design",
+        "ui-assets-v1/bomb-movement_special_design",
+        "ui-assets-v1/bomb-followup_special_design"
+      ],
+      "rule": "실제 skill contentId 선택, 미노출 영역에 임의 추가 금지",
+      "status": "현행"
+    },
+    {
+      "screen": "증강 상점",
+      "element": "증강 후보",
+      "assetIds": [
+        "ui-assets-v1/S01",
+        "ui-assets-v1/S02",
+        "ui-assets-v1/S03",
+        "ui-assets-v1/S04",
+        "ui-assets-v1/S05",
+        "ui-assets-v1/S07",
+        "ui-assets-v1/S08",
+        "ui-assets-v1/S09",
+        "ui-assets-v1/S10",
+        "ui-assets-v1/S12",
+        "ui-assets-v1/S13",
+        "ui-assets-v1/S14",
+        "ui-assets-v1/W01",
+        "ui-assets-v1/W04",
+        "ui-assets-v1/W05",
+        "ui-assets-v1/W07",
+        "ui-assets-v1/W08",
+        "ui-assets-v1/C01",
+        "ui-assets-v1/C02",
+        "ui-assets-v1/C03",
+        "ui-assets-v1/C04",
+        "ui-assets-v1/C05",
+        "ui-assets-v1/C07",
+        "ui-assets-v1/C08",
+        "ui-assets-v1/M01",
+        "ui-assets-v1/M02",
+        "ui-assets-v1/M04",
+        "ui-assets-v1/W09",
+        "ui-assets-v1/C09",
+        "ui-assets-v1/C10",
+        "ui-assets-v1/C11",
+        "ui-assets-v1/C12",
+        "ui-assets-v1/X01",
+        "ui-assets-v1/X08",
+        "ui-assets-v1/X09",
+        "ui-assets-v1/X11",
+        "ui-assets-v1/F02",
+        "ui-assets-v1/C13",
+        "ui-assets-v1/C14"
+      ],
+      "rule": "ID별 연결; 대기9종은 그림 존재와 후보 활성화를 구분",
+      "status": "현행"
+    },
+    {
+      "screen": "봉인 증강",
+      "element": "증강 후보",
+      "assetIds": [
+        "ui-assets-v1/attackSpeed",
+        "ui-assets-v1/damage",
+        "ui-assets-v1/critical",
+        "ui-assets-v1/reach",
+        "ui-assets-v1/maxHealth",
+        "ui-assets-v1/guard",
+        "ui-assets-v1/evasion",
+        "ui-assets-v1/thorns",
+        "ui-assets-v1/leech",
+        "ui-assets-v1/recovery",
+        "ui-assets-v1/instantHeal",
+        "ui-assets-v1/moveSpeed"
+      ],
+      "rule": "contentId로 선택",
+      "status": "현행"
+    },
+    {
+      "screen": "월드 상점",
+      "element": "골드·마법안료",
+      "assetIds": [
+        "common/currency-v1__assets__gold",
+        "common/currency-v1__assets__magic-pigment-v2"
+      ],
+      "rule": "화면의 실제 재화 종류만 사용",
+      "status": "현행"
+    },
+    {
+      "screen": "공방",
+      "element": "골드·마법안료",
+      "assetIds": [
+        "common/currency-v1__assets__gold",
+        "common/currency-v1__assets__magic-pigment-v2"
+      ],
+      "rule": "화면의 실제 재화 종류만 사용",
+      "status": "현행"
+    },
+    {
+      "screen": "결과",
+      "element": "골드·마법안료",
+      "assetIds": [
+        "common/currency-v1__assets__gold",
+        "common/currency-v1__assets__magic-pigment-v2"
+      ],
+      "rule": "화면의 실제 재화 종류만 사용",
+      "status": "현행"
+    },
+    {
+      "screen": "설정",
+      "element": "슬라이더 손잡이",
+      "assetIds": [
+        "common/settings-v1__assets__slider-thumb"
+      ],
+      "rule": "현행 원본 추가; 키캡/문자/슬라이더 값은 UI 텍스트",
+      "status": "현행"
+    },
+    {
+      "screen": "잠긴 상자·위험 상자·봉인 상자",
+      "element": "닫힘·열림",
+      "assetIds": [
+        "ui-assets-v2/locked-chest-closed",
+        "ui-assets-v2/locked-chest-open"
+      ],
+      "rule": "상태별 한 장, 근접 행동은 공통 꼬리 프레임",
+      "status": "현행"
+    },
+    {
+      "screen": "잠긴 상자",
+      "element": "열쇠",
+      "assetIds": [
+        "common/sketch-v3__assets__key-item"
+      ],
+      "rule": "현행 잠긴 상자 안내의 열쇠; world-14로 임의 교체하지 않음",
+      "status": "현행"
+    },
+    {
+      "screen": "마을 상호작용",
+      "element": "새 소식",
+      "assetIds": [
+        "common/sketch-v3__assets__village-news"
+      ],
+      "rule": "현행 원본, 과도한 확대 금지",
+      "status": "현행"
+    },
+    {
+      "screen": "우물·색 복원",
+      "element": "마을 잉크",
+      "assetIds": [
+        "ui-assets-v2/village-red",
+        "ui-assets-v2/village-yellow",
+        "ui-assets-v2/village-green",
+        "ui-assets-v2/village-blue",
+        "ui-assets-v2/village-purple",
+        "ui-assets-v2/drop-red",
+        "ui-assets-v2/drop-yellow",
+        "ui-assets-v2/drop-green",
+        "ui-assets-v2/drop-blue",
+        "ui-assets-v2/drop-purple"
+      ],
+      "rule": "마을 잉크/방울 구분, 실제 복원색으로 선택",
+      "status": "현행"
+    },
+    {
+      "screen": "기록 농가",
+      "element": "침식자·우물 삽화",
+      "assetIds": [
+        "ui-assets-v2/eroders",
+        "ui-assets-v2/well"
+      ],
+      "rule": "현행은 해당 원본 시트 전체 표시. 단일 sprite crop와 전체 삽화 사용을 구분",
+      "status": "현행"
+    },
+    {
+      "screen": "오프닝",
+      "element": "수첩 바탕",
+      "assetIds": [
+        "common/world-flows-v1__assets__notebook-v3-transparent"
+      ],
+      "rule": "ui-assets-v2/notebook과 다름. 최종 CSS의 수첩 바탕",
+      "status": "현행"
+    },
+    {
+      "screen": "오프닝",
+      "element": "3장 삽화",
+      "assetIds": [
+        "common/world-flows-v1__assets__notebook-page-1",
+        "common/world-flows-v1__assets__notebook-page-2",
+        "common/world-flows-v1__assets__notebook-page-3"
+      ],
+      "rule": "페이지 순서 1→2→3",
+      "status": "현행"
+    },
+    {
+      "screen": "봉인 진행",
+      "element": "대기·현재·완료",
+      "assetIds": [
+        "seal-progress/pending",
+        "seal-progress/current",
+        "seal-progress/complete"
+      ],
+      "rule": "각724×724. 상태 순서와 페이지 번호는 별개",
+      "status": "현행"
+    },
+    {
+      "screen": "정령 구출",
+      "element": "목표·알림",
+      "assetIds": [
+        "ui-assets-v1/world-0"
+      ],
+      "rule": "현행 월드 렌더러의 해당 이벤트 아이콘",
+      "status": "현행"
+    },
+    {
+      "screen": "묘목 생존",
+      "element": "목표·알림",
+      "assetIds": [
+        "ui-assets-v1/world-1"
+      ],
+      "rule": "현행 월드 렌더러의 해당 이벤트 아이콘",
+      "status": "현행"
+    },
+    {
+      "screen": "위험 상자",
+      "element": "목표·알림",
+      "assetIds": [
+        "ui-assets-v1/world-2"
+      ],
+      "rule": "현행 월드 렌더러의 해당 이벤트 아이콘",
+      "status": "현행"
+    },
+    {
+      "screen": "함정 수집",
+      "element": "목표·알림",
+      "assetIds": [
+        "ui-assets-v1/world-3"
+      ],
+      "rule": "현행 월드 렌더러의 해당 이벤트 아이콘",
+      "status": "현행"
+    },
+    {
+      "screen": "무기 소진",
+      "element": "목표·알림",
+      "assetIds": [
+        "ui-assets-v1/world-4"
+      ],
+      "rule": "현행 월드 렌더러의 해당 이벤트 아이콘",
+      "status": "현행"
+    },
+    {
+      "screen": "보스 소개",
+      "element": "보스 진입",
+      "assetIds": [
+        "ui-assets-v1/world-8"
+      ],
+      "rule": "원본 rect/view 유지",
+      "status": "현행"
+    },
+    {
+      "screen": "포탈",
+      "element": "월드 문",
+      "assetIds": [
+        "common/world-flows-v1__assets__portal-door"
+      ],
+      "rule": "월드 시안 원본; 실제 캐릭터 설치 모션은 팀 프로젝트 자산",
+      "status": "현행"
+    },
+    {
+      "screen": "포탈",
+      "element": "번호",
+      "assetIds": [
+        "common/full-map-v1__assets__portal-1",
+        "common/full-map-v1__assets__portal-2"
+      ],
+      "rule": "현재 월드 1/2 사용; 맵 패키지의 3~5는 자동 활성화하지 않음",
+      "status": "현행"
+    },
+    {
+      "screen": "전체 지도",
+      "element": "승인 마커",
+      "assetIds": [
+        "common/full-map-v1__assets__boss-crimson",
+        "common/full-map-v1__assets__chest",
+        "common/full-map-v1__assets__player",
+        "common/full-map-v1__assets__portal-1",
+        "common/full-map-v1__assets__portal-2",
+        "common/full-map-v1__assets__portal-3",
+        "common/full-map-v1__assets__portal-4",
+        "common/full-map-v1__assets__portal-5",
+        "common/full-map-v1__assets__seal",
+        "common/full-map-v1__assets__unknown",
+        "common/full-map-v1__assets__workshop-yellow"
+      ],
+      "rule": "현재 위치/상점/보스/상자/봉인/물음표/번호 ID. 임시 십자·출구 및 이벤트 완료는 미연결",
+      "status": "현행"
+    },
+    {
+      "screen": "보상 게이지",
+      "element": "용기",
+      "assetIds": [
+        "common/world-flows-v1__assets__reward-reservoir-v2"
+      ],
+      "rule": "view180,100,625,1320; 액체x342 y394 w272 h866, 아래1260에서 위로 채움. HUD전체 보류",
+      "status": "부분 보류"
+    },
+    {
+      "screen": "결과",
+      "element": "장식 후보",
+      "assetIds": [
+        "ui-assets-v1/result-0",
+        "ui-assets-v1/result-1",
+        "ui-assets-v1/result-2"
+      ],
+      "rule": "패키지에 있으나 현행 큰 결과 제목에 강제 추가하지 않음",
+      "status": "선택 자산·미노출"
+    },
+    {
+      "screen": "설정·일시정지·확인·로딩",
+      "element": "텍스트/키/음영",
+      "assetIds": [],
+      "rule": "추가 PNG 없음. 현행 텍스트·라인·음영, 공통 선택만 재사용",
+      "status": "현행"
+    },
+    {
+      "screen": "마을·월드 배경",
+      "element": "배경/캐릭터/건물",
+      "assetIds": [],
+      "rule": "팀 프로젝트 자산 연결. UI 패키지 제외. 시안용 배경 PNG를 게임 스프라이트로 대체하지 않음",
+      "status": "외부 의존"
+    }
+  ]
+}

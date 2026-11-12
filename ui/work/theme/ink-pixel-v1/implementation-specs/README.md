@@ -81,3 +81,6 @@ HTML 독립 화면의 최상위 Esc는 stage를 browse로 되돌리며 실제 �
 
 ## 적용 전 대조 결과
 [패키지·명세 최종 대조 및 다음 작업](PRE-UNITY-AUDIT.md). 파일 정합성 통과와 미연결/미결정 항목을 구분한다.
+
+## 전달 보완 v2
+[화면별 에셋 연결](SCREEN-ASSETS.md) · [입력·복귀 계약](INPUT-RETURN.md) · [봉인 상태 분할](../unity-handoff-v1/SEAL-SLICING.md). 일반 입력 규칙보다 화면별 예외가 우선한다.

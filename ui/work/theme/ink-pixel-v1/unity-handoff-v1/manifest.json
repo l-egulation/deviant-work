@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "status": "handoff-source-package-not-unity-imported",
   "coordinateSystem": "source pixels, top-left origin; rect clips art, view controls presentation; preserve both",
   "files": [
@@ -469,6 +469,42 @@
       "size": [
         1263,
         1246
+      ]
+    },
+    {
+      "source": "settings-v1/assets/slider-thumb.png",
+      "file": "sources/settings-v1/assets/slider-thumb.png",
+      "sha256": "f6f34339d5b5bb94e9f6715e447b9315329385dcc7e1ee61d16ce4f9ea19eaae",
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "source": "sketch-v3/assets/key-item.png",
+      "file": "sources/sketch-v3/assets/key-item.png",
+      "sha256": "efc9f2e67796d988fd5570d65bbe94afa3fc64744bd90541bb1cc915fad0b4ac",
+      "size": [
+        24,
+        24
+      ]
+    },
+    {
+      "source": "sketch-v3/assets/village-news.png",
+      "file": "sources/sketch-v3/assets/village-news.png",
+      "sha256": "96ff444730ad477aa60c1b3fce520ecbba86fd7a4eab08a14e0054285cb98da4",
+      "size": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "source": "world-flows-v1/assets/portal-door.png",
+      "file": "sources/world-flows-v1/assets/portal-door.png",
+      "sha256": "18efa0738ad33e70290083220aa586d39b76e39d5b61478491648cc7b35c2103",
+      "size": [
+        128,
+        128
       ]
     }
   ],
@@ -9907,6 +9943,259 @@
         0.5,
         0.5
       ]
+    },
+    {
+      "id": "common/settings-v1__assets__slider-thumb",
+      "name": "slider-thumb",
+      "group": "공통·지도·월드",
+      "source": "settings-v1/assets/slider-thumb.png",
+      "file": "sources/settings-v1/assets/slider-thumb.png",
+      "imageSize": [
+        1254,
+        1254
+      ],
+      "view": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "displayViewBox": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.5
+      ],
+      "importMode": "Single"
+    },
+    {
+      "id": "common/sketch-v3__assets__key-item",
+      "name": "key-item",
+      "group": "공통·지도·월드",
+      "source": "sketch-v3/assets/key-item.png",
+      "file": "sources/sketch-v3/assets/key-item.png",
+      "imageSize": [
+        24,
+        24
+      ],
+      "view": [
+        0,
+        0,
+        24,
+        24
+      ],
+      "displayViewBox": [
+        0,
+        0,
+        24,
+        24
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.5
+      ],
+      "importMode": "Single"
+    },
+    {
+      "id": "common/sketch-v3__assets__village-news",
+      "name": "village-news",
+      "group": "공통·지도·월드",
+      "source": "sketch-v3/assets/village-news.png",
+      "file": "sources/sketch-v3/assets/village-news.png",
+      "imageSize": [
+        1122,
+        1402
+      ],
+      "view": [
+        0,
+        0,
+        1122,
+        1402
+      ],
+      "displayViewBox": [
+        0,
+        0,
+        1122,
+        1402
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.5
+      ],
+      "importMode": "Single"
+    },
+    {
+      "id": "common/world-flows-v1__assets__portal-door",
+      "name": "portal-door",
+      "group": "공통·지도·월드",
+      "source": "world-flows-v1/assets/portal-door.png",
+      "file": "sources/world-flows-v1/assets/portal-door.png",
+      "imageSize": [
+        128,
+        128
+      ],
+      "view": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "displayViewBox": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.5
+      ],
+      "importMode": "Single"
+    },
+    {
+      "id": "seal-progress/pending",
+      "group": "봉인 진행 상태",
+      "file": "sources/world-flows-v1/assets/seal-progress-v2.png",
+      "source": "world-flows-v1/assets/seal-progress-v2.png",
+      "imageSize": [
+        2172,
+        724
+      ],
+      "view": [
+        0,
+        0,
+        724,
+        724
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.5
+      ],
+      "name": "봉인 진행 · 대기",
+      "rect": [
+        0,
+        0,
+        724,
+        724
+      ],
+      "clipRectTopLeft": [
+        0,
+        0,
+        724,
+        724
+      ],
+      "displayViewBox": [
+        0,
+        0,
+        724,
+        724
+      ],
+      "unityRectBottomLeft": [
+        0,
+        0,
+        724,
+        724
+      ],
+      "contentId": "pending",
+      "importMode": "Multiple"
+    },
+    {
+      "id": "seal-progress/current",
+      "group": "봉인 진행 상태",
+      "file": "sources/world-flows-v1/assets/seal-progress-v2.png",
+      "source": "world-flows-v1/assets/seal-progress-v2.png",
+      "imageSize": [
+        2172,
+        724
+      ],
+      "view": [
+        724,
+        0,
+        724,
+        724
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.5
+      ],
+      "name": "봉인 진행 · 현재",
+      "rect": [
+        724,
+        0,
+        724,
+        724
+      ],
+      "clipRectTopLeft": [
+        724,
+        0,
+        724,
+        724
+      ],
+      "displayViewBox": [
+        724,
+        0,
+        724,
+        724
+      ],
+      "unityRectBottomLeft": [
+        724,
+        0,
+        724,
+        724
+      ],
+      "contentId": "current",
+      "importMode": "Multiple"
+    },
+    {
+      "id": "seal-progress/complete",
+      "group": "봉인 진행 상태",
+      "file": "sources/world-flows-v1/assets/seal-progress-v2.png",
+      "source": "world-flows-v1/assets/seal-progress-v2.png",
+      "imageSize": [
+        2172,
+        724
+      ],
+      "view": [
+        1448,
+        0,
+        724,
+        724
+      ],
+      "pivotNormalized": [
+        0.5,
+        0.5
+      ],
+      "name": "봉인 진행 · 완료",
+      "rect": [
+        1448,
+        0,
+        724,
+        724
+      ],
+      "clipRectTopLeft": [
+        1448,
+        0,
+        724,
+        724
+      ],
+      "displayViewBox": [
+        1448,
+        0,
+        724,
+        724
+      ],
+      "unityRectBottomLeft": [
+        1448,
+        0,
+        724,
+        724
+      ],
+      "contentId": "complete",
+      "importMode": "Multiple"
     }
   ],
   "inks": [

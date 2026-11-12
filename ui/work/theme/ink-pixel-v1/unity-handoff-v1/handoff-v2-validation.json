@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "files": 56,
+  "spriteIds": 221,
+  "screenElementMappings": 46,
+  "inks": 43,
+  "errors": [],
+  "checks": [
+    "current source/package/manifest hashes",
+    "unique sprite IDs",
+    "rect bounds",
+    "screen asset references",
+    "spec links"
+  ],
+  "visualBrowserRetest": false,
+  "unityApplied": false
+}

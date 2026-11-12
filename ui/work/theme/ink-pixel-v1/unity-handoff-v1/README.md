@@ -21,3 +21,6 @@
 원본 파일 해시 일치 및 브라우저 원본/패키지 동일 렌더 대조. Unity import 후의 픽셀 표시·9분할·폰트는 이후 실제 적용 검증 대상.
 
 잉크 ID별 병/문양 대응은 ink-id-map.csv. 미리보기 팔레트30조합은6바탕×5잉크를 검사하는 예시이며 문양은 해당 색의 대표 효과를 사용합니다. 실제 효과 ID는 선택 잉크에 따라 교체합니다.
+
+## 패키지 v2 보완
+봉인 진행 3상태 ID/rect 추가: [분할 규격](SEAL-SLICING.md). 설정 슬라이더 손잡이·열쇠·마을 새 소식·포탈 문은 현행 원본 그대로 추가. [화면 연결표](../implementation-specs/SCREEN-ASSETS.md) · [입력/복귀](../implementation-specs/INPUT-RETURN.md). 기존 브라우저 검증 이미지/결과는 v1 기준이며 v2 추가 항목까지 새 렌더 검증 완료를 뜻하지 않는다. v2 파일/ID 검증은 handoff-v2-validation.json 참조.
