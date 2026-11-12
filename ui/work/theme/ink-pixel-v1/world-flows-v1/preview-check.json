@@ -76,17 +76,12 @@
   },
   {
     "state": "reward-alert",
-    "title": "보상 기회 · 획득",
+    "title": "보상 기회 · HUD 배치 검토",
     "missing": []
   },
   {
     "state": "weapon-alert",
     "title": "무기 소진 · 장착 자리",
-    "missing": []
-  },
-  {
-    "state": "stored-alert",
-    "title": "무기 소진 · 보관 무기",
     "missing": []
   },
   {
@@ -110,8 +105,8 @@
     "missing": []
   },
   {
-    "state": "portal-blocked",
-    "title": "포탈 · 설치 불가",
+    "state": "portal-tutorial",
+    "title": "포탈 · 첫 설치 안내",
     "missing": []
   },
   {

@@ -17,7 +17,7 @@
  if(['normal','first','event'].includes(kind)){view='reward';offers=null;bossPending=false;chances=d.bank||0;if(kind==='event'){eventState={chances,round:rewardRound,opportunities:inkOpportunities,earned:{...earned}};chances=1;}if(kind==='first')chances=Math.max(1,chances);openRewards()}
  else if(kind==='seal'){view='augment';openSeal();render()}
  else if(kind==='boss'){view='boss';bossRound=0;bossPending=true;offers=null;openRewards()}
- else{if(kind==='equipment'&&d.origin==='weapon-alert'&&!handledAlerts.has(d.origin)){handledAlerts.add(d.origin);const id=equipped[0];weapons=weapons.filter(x=>x.uid!==id);equipped[0]=null;}if(kind==='equipment'&&d.origin==='stored-alert'&&!handledAlerts.has(d.origin)){handledAlerts.add(d.origin);const w=weapons.find(x=>!equipped.includes(x.uid));if(w)weapons=weapons.filter(x=>x.uid!==w.uid);}
+ else{if(kind==='equipment'&&d.origin==='weapon-alert'&&!handledAlerts.has(d.origin)){handledAlerts.add(d.origin);const id=equipped[0];weapons=weapons.filter(x=>x.uid!==id);equipped[0]=null;}
  view=kind==='village'?'village':kind;render()}
  if(window.deviantFontData)document.querySelector('#fontNotice')?.remove();
  });

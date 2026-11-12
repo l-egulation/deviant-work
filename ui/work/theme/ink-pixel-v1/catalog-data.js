@@ -145,18 +145,6 @@ const catalogItems=[
   },
   {
     "group": "안내",
-    "title": "무기 소진 · 보상 기회 알림 구조",
-    "img": "sketch-v3/previews/alerts.png",
-    "url": "sketch-v3/index.html?state=alerts"
-  },
-  {
-    "group": "안내",
-    "title": "포탈 설치·왕복 안내",
-    "img": "sketch-v3/previews/portal.png",
-    "url": "sketch-v3/index.html?state=portal"
-  },
-  {
-    "group": "안내",
     "title": "회복 충전소 팝업 · 길게 누르기",
     "img": "sketch-v3/previews/recovery.png",
     "url": "sketch-v3/index.html?state=recovery"
@@ -406,12 +394,6 @@ const catalogItems=[
     "title": "하늘길 · 최고 기록과 최근 10회",
     "img": "sketch-v3/previews/sky.png",
     "url": "sketch-v3/index.html?state=sky"
-  },
-  {
-    "group": "에셋 검토",
-    "title": "잉크 12종 · 문양과 효과 대조",
-    "img": "sketch-v3/previews/symbols.png",
-    "url": "sketch-v3/index.html?state=symbols"
   },
   {
     "group": "전체 지도",
@@ -796,7 +778,7 @@ const catalogItems=[
   },
   {
     "group": "탐험 · 알림",
-    "title": "보상 기회 · 획득",
+    "title": "보상 기회 · HUD 배치 검토",
     "img": "world-flows-v1/previews/reward-alert.png",
     "url": "world-flows-v1/index.html?state=reward-alert"
   },
@@ -805,12 +787,6 @@ const catalogItems=[
     "title": "무기 소진 · 장착 자리",
     "img": "world-flows-v1/previews/weapon-alert.png",
     "url": "world-flows-v1/index.html?state=weapon-alert"
-  },
-  {
-    "group": "탐험 · 알림",
-    "title": "무기 소진 · 보관 무기",
-    "img": "world-flows-v1/previews/stored-alert.png",
-    "url": "world-flows-v1/index.html?state=stored-alert"
   },
   {
     "group": "탐험 · 알림",
@@ -838,9 +814,9 @@ const catalogItems=[
   },
   {
     "group": "포탈 · 월드",
-    "title": "포탈 · 설치 불가",
-    "img": "world-flows-v1/previews/portal-blocked.png",
-    "url": "world-flows-v1/index.html?state=portal-blocked"
+    "title": "포탈 · 첫 설치 안내",
+    "img": "world-flows-v1/previews/portal-tutorial.png",
+    "url": "world-flows-v1/index.html?state=portal-tutorial"
   },
   {
     "group": "전환 · 최종 결과",
