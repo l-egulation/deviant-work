@@ -36,3 +36,10 @@ body[data-depth="nav"] nav button.navFocused{transform:scale(1.15);color:var(--p
 body[data-depth="nav"] nav button.navFocused:before{content:'';position:absolute;inset:-10px -24px;background:url('../maintenance-palette-v1/assets/selection-wash-v1.png') center/100% 100% no-repeat;z-index:-1;opacity:.65;pointer-events:none}
 /* Hide the whole underlying layer, including keycaps with forced visibility. */
 .screen:has(dialog[open]) main,.screen:has(dialog[open]) footer{opacity:0!important;pointer-events:none}
+/* Review adjustment: 1.5× the compact confirmation, with viewport scaling retained. */
+dialog{width:960px;padding:45px 48px}
+dialog h2{font-size:42px;margin-bottom:33px}
+dialog p{font-size:34.5px}
+.dialogActions{gap:60px;margin-top:36px;padding-top:33px}
+.dialogActions button{font-size:37.5px}
+#dialog button .actionKeycap{min-width:57px;height:60px;padding:4.5px 13.5px!important;margin-right:24px!important;font-size:36px!important;border-radius:6px}
