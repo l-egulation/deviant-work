@@ -4,6 +4,7 @@
 
 - [가방](BAG.md) · [제작](CRAFT.md) · [장비](EQUIPMENT.md)
 - [보상 선택·획득](REWARDS.md) · [월드 상점](SHOP.md) · [상점·봉인 증강](AUGMENTS.md)
+- [설정·조작](SETTINGS.md) · [일시정지](PAUSE.md) · [사망·클리어 결과](RESULTS.md)
 - [실측값 JSON](layout-measurements.json): 대표10상태. rect는 화면 좌상단 기준 x,y,width,height이며 선택 확대가 반영된 값. CSS fontSize는 논리 픽셀, pt가 아님.
 - [승인 에셋](../unity-handoff-v1/index.html) · [화면 색인](../CURRENT-SCREEN-INDEX.md)
 
@@ -50,3 +51,6 @@ HTML 독립 화면의 최상위 Esc는 stage를 browse로 되돌리며 실제 �
 
 ## 보상·상점·증강 추가 기준
 2026-11-13, UI 소스 기준 커밋 1ea26a8. 이번 세 문서의 치수는 최종 CSS 선언 대조값이며 기존 실측 JSON의 10상태에 포함되지 않는다. 현행 월드 연결과 독립 시안의 차이, 미정 데이터는 각 문서에 별도로 표시했다. Unity 적용/검증 완료를 의미하지 않는다.
+
+## 설정·일시정지·결과 추가 기준
+2026-11-13, UI 소스 기준 커밋 243ec96. 치수는 최종 CSS와 공통 확인창 스타일 대조값. 확인창 폭960px, 고정 F/G와 방향 선택+F를 구분한다. 비노출 다시 시작 코드, 예시 정산값, 결과 Esc의 미연결 동작은 별도 주의사항이며 UI 동작을 이번 문서 작업에서 변경하지 않았다.
