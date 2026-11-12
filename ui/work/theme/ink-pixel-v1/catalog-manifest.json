@@ -1,6 +1,13 @@
 [
   [
     "현행 v3",
+    "장착하기 선택 후 무기 자리 선택",
+    "sketch-v3",
+    "equip-destination",
+    "state=equip-destination"
+  ],
+  [
+    "현행 v3",
     "HUD에서 바로 보상 선택",
     "sketch-v3",
     "reward",
