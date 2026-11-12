@@ -1,0 +1,114 @@
+[
+  {
+    "title": "안정 1개 · 도박 2개",
+    "url": "sketch-v3/index.html?state=augment",
+    "missing": [],
+    "buttons": 4,
+    "f": 1
+  },
+  {
+    "title": "일반 사망 결과",
+    "url": "sketch-v3/index.html?state=result",
+    "missing": [],
+    "buttons": 1,
+    "f": 1
+  },
+  {
+    "title": "보스전 사망 결과",
+    "url": "sketch-v3/index.html?state=result-boss",
+    "missing": [],
+    "buttons": 1,
+    "f": 1
+  },
+  {
+    "title": "클리어 결과",
+    "url": "sketch-v3/index.html?state=result-clear",
+    "missing": [],
+    "buttons": 1,
+    "f": 1
+  },
+  {
+    "title": "영구 성장",
+    "url": "sketch-v3/index.html?state=permanent",
+    "missing": [],
+    "buttons": 7,
+    "f": 1
+  },
+  {
+    "title": "마법안료 부족",
+    "url": "sketch-v3/index.html?state=permanent-poor",
+    "missing": [],
+    "buttons": 7,
+    "f": 0
+  },
+  {
+    "title": "선행 조건 미충족",
+    "url": "sketch-v3/index.html?state=permanent-locked",
+    "missing": [],
+    "buttons": 7,
+    "f": 0
+  },
+  {
+    "title": "공방 · 출발 지원금 가격 반영",
+    "url": "sketch-v3/index.html?state=permanent-unknown",
+    "missing": [],
+    "buttons": 7,
+    "f": 1
+  },
+  {
+    "title": "공방 · 첫 정산 전",
+    "url": "sketch-v3/index.html?state=permanent-first",
+    "missing": [],
+    "buttons": 7,
+    "f": 0
+  },
+  {
+    "title": "공방 · 출발 지원금",
+    "url": "sketch-v3/index.html?state=permanent-gold",
+    "missing": [],
+    "buttons": 7,
+    "f": 1
+  },
+  {
+    "title": "공방 · 지원금 3단계 잠금",
+    "url": "sketch-v3/index.html?state=permanent-gold-locked",
+    "missing": [],
+    "buttons": 7,
+    "f": 0
+  },
+  {
+    "title": "공방 · 1챕터 조건",
+    "url": "sketch-v3/index.html?state=permanent-ch1",
+    "missing": [],
+    "buttons": 7,
+    "f": 0
+  },
+  {
+    "title": "공방 · 2챕터 조건",
+    "url": "sketch-v3/index.html?state=permanent-ch2",
+    "missing": [],
+    "buttons": 7,
+    "f": 0
+  },
+  {
+    "title": "공방 · 대시 추가 구매 가능",
+    "url": "sketch-v3/index.html?state=permanent-dash-ready",
+    "missing": [],
+    "buttons": 7,
+    "f": 1
+  },
+  {
+    "title": "공방 · 대시 추가 해금 완료",
+    "url": "sketch-v3/index.html?state=permanent-dash-owned",
+    "missing": [],
+    "buttons": 7,
+    "f": 0
+  },
+  {
+    "title": "공방 · 최대 단계",
+    "url": "sketch-v3/index.html?state=permanent-max",
+    "missing": [],
+    "buttons": 7,
+    "f": 0
+  }
+]
