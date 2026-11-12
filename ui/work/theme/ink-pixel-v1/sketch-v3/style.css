@@ -158,3 +158,10 @@ body[data-view="permanent"] .upgradeConditions{margin-top:26px;padding-top:22px}
 .recordFooter{justify-content:center;gap:36px}.recordPageCount{font-size:27px;color:#d6dce1;min-width:90px;text-align:center}
 .recoveryPopup{background:none;clip-path:none;border:0;box-shadow:none;isolation:isolate;width:620px;padding:42px 42px 56px}
 .recoveryPopup .speechSkin{z-index:-1}.recoveryPopup .actions{gap:20px}.recoveryPopup .action{font-size:26px;padding:14px 20px}.recoveryPopup .hint{margin-top:22px}
+
+/* Chest prompt uses original team assets and the approved fixed-corner speech frame. */
+body[data-view="chest"] .world{filter:none;background:linear-gradient(#24272b18,#24272b18),url('../screen-set-v6/assets/village.jpg') center/cover}
+body[data-view="chest"] header,body[data-view="chest"] footer{display:none}
+.chestScene .worldChest{position:absolute;width:230px;height:190px;object-fit:contain;left:1035px;top:690px;image-rendering:pixelated}
+.chestPrompt{position:absolute;left:1150px;top:670px;transform:translate(-50%,-100%);width:570px;padding:40px 40px 50px;isolation:isolate;text-align:center}
+.chestPrompt .speechSkin{z-index:-1}.chestPrompt h2{font-size:34px;margin:0 0 26px}.chestKey{display:flex;align-items:center;justify-content:center;gap:20px;font-size:30px;margin:0 0 26px}.chestKey img{width:62px;height:62px;object-fit:contain;image-rendering:pixelated}.chestKey.available{color:#e4cf89}.chestKey.missing{color:#b7bec5}.chestKey.missing img{filter:grayscale(1);opacity:.5}.chestPrompt p{font-size:25px;line-height:1.65;margin:0 0 32px}.chestPrompt .actions{justify-content:center;gap:28px}.chestPrompt .action{font-size:28px;padding:12px 18px}.shake{animation:chest-shake .3s linear}@keyframes chest-shake{25%,75%{transform:translateX(-7px)}50%{transform:translateX(7px)}}
