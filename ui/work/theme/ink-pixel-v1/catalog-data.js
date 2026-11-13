@@ -37,9 +37,9 @@ const catalogItems=[
   },
   {
     "group": "보상",
-    "title": "보스 보상 · 첫 번째 잉크",
-    "img": "sketch-v3/previews/boss-ink.png",
-    "url": "sketch-v3/index.html?state=boss-ink"
+    "title": "잉크 획득 · 계속 또는 지금 부여하기",
+    "img": "sketch-v3/previews/reward-ink-receipt.png",
+    "url": "sketch-v3/index.html?state=reward-ink-receipt"
   },
   {
     "group": "가방",
@@ -121,7 +121,7 @@ const catalogItems=[
   },
   {
     "group": "보관 · 전체 화면 상점",
-    "title": "스케치·잉크 구매",
+    "title": "무기 3자루·잉크 3자리 구매",
     "img": "sketch-v3/previews/shop.png",
     "url": "sketch-v3/index.html?state=shop"
   },
@@ -199,7 +199,7 @@ const catalogItems=[
   },
   {
     "group": "보상",
-    "title": "획득 후 · 계속 뽑기 또는 닫기",
+    "title": "무기 획득 · 계속 또는 지금 구성하기",
     "img": "sketch-v3/previews/reward-receipt.png",
     "url": "sketch-v3/index.html?state=reward-receipt"
   },
@@ -493,13 +493,13 @@ const catalogItems=[
   },
   {
     "group": "보상",
-    "title": "보스 보상 · 두 번째 잉크",
-    "img": "sketch-v3/previews/boss-last.png",
-    "url": "sketch-v3/index.html?state=boss-last"
+    "title": "보스 무기 획득 · 계속 또는 지금 구성하기",
+    "img": "sketch-v3/previews/boss-receipt.png",
+    "url": "sketch-v3/index.html?state=boss-receipt"
   },
   {
     "group": "보상",
-    "title": "이스터에그 · 모든 잉크 수집 축하",
+    "title": "보스 무기 선택 · 잉크 전종 보유",
     "img": "sketch-v3/previews/boss-all-inks.png",
     "url": "sketch-v3/index.html?state=boss-all-inks"
   },
@@ -652,7 +652,7 @@ const catalogItems=[
   },
   {
     "group": "검토안 · 월드 상점",
-    "title": "검토안 · 맵 상품 3개·근접 설명·구매",
+    "title": "월드 상점 · 무기 3자루·잉크 3자리",
     "img": "sketch-v3/previews/shop-world.png",
     "url": "sketch-v3/index.html?state=shop-world"
   },
@@ -913,6 +913,11 @@ const catalogItems=[
     "title": "전체 지도 · 이벤트 4종 완료 표시",
     "url": "full-map-v1/index.html?events=complete",
     "img": "full-map-v1/preview-complete.png"
+  },
+  {
+    "group": "에셋",
+    "title": "잉크 36종 · 기존 43종 대응 비교",
+    "url": "ink-migration-v1/index.html",
+    "img": "ink-migration-v1/preview.png"
   }
-,
-{"group": "에셋", "title": "잉크 36종 · 기존 43종 대응 비교", "url": "ink-migration-v1/index.html", "img": "ink-migration-v1/preview.png"}];
+];

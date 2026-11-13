@@ -17,13 +17,13 @@
 |스케치·잉크 혼합 3중 1택|[열기](sketch-v3/index.html?state=mixed)|[보기](sketch-v3/previews/mixed.png)|
 |스케치 3개 획득 후에도 혼합 후보|[열기](sketch-v3/index.html?state=quota)|[보기](sketch-v3/previews/quota.png)|
 |보스 보상 · 스케치 선택|[열기](sketch-v3/index.html?state=boss)|[보기](sketch-v3/previews/boss.png)|
-|보스 보상 · 첫 번째 잉크|[열기](sketch-v3/index.html?state=boss-ink)|[보기](sketch-v3/previews/boss-ink.png)|
-|획득 후 · 계속 뽑기 또는 닫기|[열기](sketch-v3/index.html?state=reward-receipt)|[보기](sketch-v3/previews/reward-receipt.png)|
+|잉크 획득 · 계속 또는 지금 부여하기|[열기](sketch-v3/index.html?state=reward-ink-receipt)|[보기](sketch-v3/previews/reward-ink-receipt.png)|
+|무기 획득 · 계속 또는 지금 구성하기|[열기](sketch-v3/index.html?state=reward-receipt)|[보기](sketch-v3/previews/reward-receipt.png)|
 |일반 보상 · 7회 이후|[열기](sketch-v3/index.html?state=reward-seven)|[보기](sketch-v3/previews/reward-seven.png)|
 |일반 보상 · 잉크 전종 보유|[열기](sketch-v3/index.html?state=reward-all-inks)|[보기](sketch-v3/previews/reward-all-inks.png)|
 |일반 보상 · 스케치 최소 획득 보장|[열기](sketch-v3/index.html?state=reward-guarantee)|[보기](sketch-v3/previews/reward-guarantee.png)|
-|보스 보상 · 두 번째 잉크|[열기](sketch-v3/index.html?state=boss-last)|[보기](sketch-v3/previews/boss-last.png)|
-|이스터에그 · 모든 잉크 수집 축하|[열기](sketch-v3/index.html?state=boss-all-inks)|[보기](sketch-v3/previews/boss-all-inks.png)|
+|보스 무기 획득 · 계속 또는 지금 구성하기|[열기](sketch-v3/index.html?state=boss-receipt)|[보기](sketch-v3/previews/boss-receipt.png)|
+|보스 무기 선택 · 잉크 전종 보유|[열기](sketch-v3/index.html?state=boss-all-inks)|[보기](sketch-v3/previews/boss-all-inks.png)|
 
 ## 가방
 

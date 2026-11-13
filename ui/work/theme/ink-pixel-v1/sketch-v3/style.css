@@ -256,3 +256,13 @@ body[data-view="shop"][data-world-shop="true"] #app>header{visibility:hidden}bod
 .ownedAugmentText p{font-size:28px;line-height:1.75;margin:0;overflow-wrap:break-word}
 .ownedAugmentText p+p{margin-top:24px}
 .ownedAugmentLayout .ownedAugmentActions{flex:none;margin-top:22px;padding-top:22px;min-height:92px}
+
+/* Six persistent shop places: three weapons above three inks. */
+body[data-view="shop"] .shopGrid{grid-template-columns:repeat(3,192px);grid-auto-rows:276px;gap:24px 30px;padding-top:12px}
+body[data-view="shop"] .shopGrid .item{min-height:0;padding:12px 8px;gap:12px;font-size:23px}
+body[data-view="shop"] .shopGrid .item>.approvedWeapon,body[data-view="shop"] .shopGrid .item>.inkVisual{width:112px;height:132px}
+body[data-view="shop"] .shopGrid .item>span:not(.approvedWeapon):not(.inkVisual){line-height:1.35}
+body[data-view="shop"] .shopGrid .price{font-size:27px;margin-top:auto}
+.worldShopGoods{grid-template-columns:repeat(6,minmax(0,1fr));gap:24px}
+.worldGood>.emptyOffer{display:flex;align-items:center;justify-content:center;width:132px;height:132px;font-size:48px;color:#aeb6c0}
+.worldShopDescription{max-height:330px;padding-right:10px}
