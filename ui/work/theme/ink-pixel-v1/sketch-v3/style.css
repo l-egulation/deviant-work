@@ -246,3 +246,13 @@ body[data-view="shop"][data-world-shop="true"] #app>header{visibility:hidden}bod
 #renameDialog .action:focus-visible{outline:none}
 .worldShopBubble{padding-top:60px;bottom:316px}
 #renameDialog .action{min-height:38px}#renameDialog .action:not(:disabled) kbd{visibility:visible;opacity:1}#renameDialog{padding-top:22px;padding-bottom:22px}
+
+/* Owned augments: reserve action/footer space; do not float body around icons. */
+.ownedAugmentLayout{height:740px;max-width:1320px;margin:0 auto;display:flex;flex-direction:column;min-height:0}
+.ownedAugmentLayout .ownedAugments{height:auto;flex:1;min-height:0;max-width:none;width:100%;margin:0;padding:8px 32px 24px 8px}
+.ownedAugments .ownedAugmentRow{display:grid;grid-template-columns:90px minmax(0,1fr);gap:40px;padding:24px 0 36px;margin:0 0 28px;align-items:start}
+.ownedAugments .augmentArt{float:none;margin:0;width:90px;height:90px}
+.ownedAugmentText{min-width:0}.ownedAugmentText h2{font-size:32px;line-height:1.5;margin:0 0 28px}
+.ownedAugmentText p{font-size:28px;line-height:1.75;margin:0;overflow-wrap:break-word}
+.ownedAugmentText p+p{margin-top:24px}
+.ownedAugmentLayout .ownedAugmentActions{flex:none;margin-top:22px;padding-top:22px;min-height:92px}

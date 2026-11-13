@@ -1,0 +1,18 @@
+{
+  "checks": [
+    "owned title",
+    "footer separate",
+    "no misleading no-penalty warning",
+    "S scroll list",
+    "W scroll up",
+    "many entries still scroll",
+    "Esc returns purchase",
+    "empty message",
+    "F return empty"
+  ],
+  "passed": 9,
+  "viewport": [
+    960,
+    540
+  ]
+}

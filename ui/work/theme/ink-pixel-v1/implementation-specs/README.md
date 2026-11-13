@@ -87,3 +87,5 @@ HTML 독립 화면의 최상위 Esc는 stage를 browse로 되돌리며 실제 �
 
 ## 2026-11-13 확정 반영
 [안내·입력·로딩 확정 규칙](../OFFICE-HOUR-INPUT-LOADING.md)과 [로딩 실패 명세](LOADING-FAILURE.md)가 이전 미정 문구보다 우선한다. 메뉴 대기는 정지, 메뉴키 고정. 안내 완료 기록은 종료 후 유지하며 초기화 때만 삭제한다.
+
+[Unity 적용 전 남은 작업과 적용 순서](NEXT-IMPLEMENTATION.md)

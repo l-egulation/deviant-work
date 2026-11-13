@@ -1,0 +1,14 @@
+import {fs,root,call,ev,wait,ws} from './review-cdp.mjs';
+import assert from 'node:assert/strict';let checks=[];const test=async(n,x)=>{assert.equal(await ev(x),true,n);checks.push(n)};const key=async(code,key=code)=>{await call('Input.dispatchKeyEvent',{type:'keyDown',code,key});await call('Input.dispatchKeyEvent',{type:'keyUp',code,key});await wait(250)};
+await call('Emulation.setDeviceMetricsOverride',{width:960,height:540,deviceScaleFactor:1,mobile:false});await call('Page.navigate',{url:'http://127.0.0.1:8767/sketch-v3/index.html?state=augment-owned'});await wait(600);
+const font=fs.readFileSync(process.env.DEVIANT_REVIEW_FONT).toString('base64');await ev(`applyDeviantFont(Uint8Array.from(atob('${font}'),c=>c.charCodeAt(0)).buffer)`);await ev(`document.querySelector('#fontNotice')?.remove();document.body.style.overflow='hidden'`);
+await test('owned title',`document.querySelector('h1').textContent==='보유 증강'`);
+await test('footer separate',`document.querySelector('.ownedAugmentActions').getBoundingClientRect().bottom+8<document.querySelector('footer').getBoundingClientRect().top`);
+await test('no misleading no-penalty warning',`![...document.querySelectorAll('.ownedAugments .danger')].some(x=>x.textContent.includes('불이익이 없습니다'))`);
+await key('KeyS','s');await test('S scroll list',`document.querySelector('.ownedAugments').scrollTop>0`);await key('KeyW','w');await test('W scroll up',`document.querySelector('.ownedAugments').scrollTop===0`);
+await ev(`maintenanceOwned=[...RuntimeContent.maintenance.filter(x=>x.runtime==='implemented')];render()`);await key('KeyS','s');await test('many entries still scroll',`document.querySelector('.ownedAugments').scrollTop>0`);
+await key('Escape');await test('Esc returns purchase',`stage==='browse'`);
+await ev(`stage='owned';maintenanceOwned=[];sealOwned={};render()`);await test('empty message',`document.querySelector('.ownedAugments').textContent.includes('획득한 증강이 없습니다')`);await key('KeyF','ㄹ');await test('F return empty',`stage==='browse'`);
+await ev(`maintenanceOwned=RuntimeContent.maintenance.filter(x=>x.runtime==='implemented').slice(0,4);sealOwned[RuntimeContent.seal[0].id]=2;stage='owned';render()`);
+const shot=await call('Page.captureScreenshot',{format:'png'});fs.writeFileSync(root+'sketch-v3/previews/augment-owned.png',Buffer.from(shot.result.data,'base64'));
+fs.writeFileSync(root+'sketch-v3/owned-augment-check.json',JSON.stringify({checks,passed:checks.length,viewport:[960,540]},null,2));console.log(checks);ws.close();
