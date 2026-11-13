@@ -286,3 +286,9 @@
 |첫 진행 · 내구도 안내|[열기](world-flows-v1/index.html?state=first-durability)|[보기](world-flows-v1/previews/first-durability.png)|
 |첫 회귀 · 우물|[열기](world-flows-v1/index.html?state=first-return)|[보기](world-flows-v1/previews/first-return.png)|
 
+
+## 안내·로딩 후속 상태
+|화면|시안|
+|---|---|
+|로딩 실패|[열기](world-flows-v1/index.html?state=loading-failed)|
+|저장된 첫 안내 이어보기|[열기](world-flows-v1/index.html?state=opening-resume)|

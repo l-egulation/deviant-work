@@ -18,3 +18,6 @@
 
 ## 데이터·검수
 storyNodeId/page/dialogueLine/discoveredFlags/tutorialSeen/practicedActions/caller/firstCraftCreated. 기록 페이지는 사건 이전 내용 해금 금지. 실제 월드 이동·추격·조력자 연출·피격·사망은 시안 미구현. 현재 월드 bridge는 UI 사이 전환만 검토한다. 첫 스테이지 사망/재도전/제작 안함/보상 후 닫기/설정 키 변경/960×540 수첩 본문/두 대화줄을 검수. 반복 안내 여부는 저장된 진행으로 결정한다.
+
+## 2026-11-13 확정 반영
+[안내·입력·로딩 확정 규칙](../OFFICE-HOUR-INPUT-LOADING.md)과 [로딩 실패 명세](LOADING-FAILURE.md)가 이전 미정 문구보다 우선한다. 메뉴 대기는 정지, 메뉴키 고정. 안내 완료 기록은 종료 후 유지하며 초기화 때만 삭제한다.

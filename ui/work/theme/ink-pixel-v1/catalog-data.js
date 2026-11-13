@@ -895,5 +895,17 @@ const catalogItems=[
     "title": "첫 회귀 · 우물",
     "img": "world-flows-v1/previews/first-return.png",
     "url": "world-flows-v1/index.html?state=first-return"
+  },
+  {
+    "group": "월드·첫 진행",
+    "title": "로딩 실패 · 다시 시도 / 타이틀로",
+    "img": "world-flows-v1/previews/loading-failed.png",
+    "url": "world-flows-v1/index.html?state=loading-failed"
+  },
+  {
+    "group": "월드·첫 진행",
+    "title": "첫 안내 · 저장된 진행 이어보기",
+    "img": "world-flows-v1/previews/opening-resume.png",
+    "url": "world-flows-v1/index.html?state=opening-resume"
   }
 ];

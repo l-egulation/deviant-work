@@ -1,0 +1,22 @@
+{
+  "checks": [
+    "default retry only F",
+    "right selects title",
+    "Escape cannot return to combat",
+    "physical F title handoff",
+    "retry enters loading",
+    "loading blocks input",
+    "sample success returns exploration",
+    "960 panel fits",
+    "story skip preserves movement guide",
+    "movement completion saved",
+    "reload resumes unseen guide",
+    "unarmed completion",
+    "cooldown starts 10",
+    "menu does not advance cooldown",
+    "combat advance consumes only 4",
+    "reset clears tutorial only"
+  ],
+  "passed": 16,
+  "unityApplied": false
+}

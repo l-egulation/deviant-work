@@ -1,7 +1,7 @@
 {
   "source": "CURRENT-SCREEN-INDEX.md",
   "sourceCommit": "1f50e93",
-  "count": 149,
+  "count": 151,
   "entries": [
     {
       "group": "에셋 검토",
@@ -1043,6 +1043,20 @@
       "group": "오프닝 · 첫 진행",
       "label": "첫 회귀 · 우물",
       "url": "world-flows-v1/index.html?state=first-return",
+      "spec": "OPENING-GUIDES.md",
+      "status": "현행"
+    },
+    {
+      "group": "월드·첫 진행",
+      "label": "로딩 실패",
+      "url": "world-flows-v1/index.html?state=loading-failed",
+      "spec": "LOADING-FAILURE.md",
+      "status": "현행"
+    },
+    {
+      "group": "월드·첫 진행",
+      "label": "저장된 첫 안내 이어보기",
+      "url": "world-flows-v1/index.html?state=opening-resume",
       "spec": "OPENING-GUIDES.md",
       "status": "현행"
     }

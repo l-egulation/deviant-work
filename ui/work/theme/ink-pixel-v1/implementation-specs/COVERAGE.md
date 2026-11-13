@@ -153,3 +153,9 @@
 |첫 진행 · 제작 안내|[열기](../world-flows-v1/index.html?state=first-craft)|[명세](OPENING-GUIDES.md)|현행|
 |첫 진행 · 내구도 안내|[열기](../world-flows-v1/index.html?state=first-durability)|[명세](OPENING-GUIDES.md)|현행|
 |첫 회귀 · 우물|[열기](../world-flows-v1/index.html?state=first-return)|[명세](OPENING-GUIDES.md)|현행|
+
+## 추가2상태 · 총151개
+|화면|시안|명세|
+|---|---|---|
+|로딩 실패|[열기](../world-flows-v1/index.html?state=loading-failed)|[명세](LOADING-FAILURE.md)|
+|안내 이어보기|[열기](../world-flows-v1/index.html?state=opening-resume)|[명세](OPENING-GUIDES.md)|

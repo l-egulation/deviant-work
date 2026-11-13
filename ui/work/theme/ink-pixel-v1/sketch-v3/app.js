@@ -120,7 +120,7 @@ function portalScreen(){return `<div class="columns">${region('<h2>두 지점을
 function resultScreen(){const clear=resultKind==='clear';return `<section class="resultPresentation ${clear?'cleared':'fallen'}"><div class="resultHero"><h1>${clear?'클리어':'사망'}</h1><p>${clear?'챕터를 돌파했습니다':resultKind==='boss'?'보스전에서 쓰러졌습니다':'이번 도전이 끝났습니다'}</p></div><div class="resultStatistics"><div><h2>이번 도전</h2><dl><div><dt>플레이 시간</dt><dd>18:42</dd></div><div><dt>처치</dt><dd>84</dd></div><div><dt>탐험 구역</dt><dd>7</dd></div><div><dt>보스</dt><dd>${clear?'처치 완료':resultKind==='boss'?'남은 체력 23%':'미도달'}</dd></div></dl></div><div><h2>획득 기록</h2><dl><div><dt>마법안료</dt><dd><img class="currency" src="../currency-v1/assets/magic-pigment-v2.png">18</dd></div><div><dt>마을 팔레트 조각</dt><dd>${clear?'새 조각 획득':'획득 없음'}</dd></div></dl>${clear?'':'<p class="muted">런의 스케치·무기·잉크는<br>새 도전으로 이어지지 않습니다.</p>'}</div></div><div class="actions resultActions">${action(clear?'다음 챕터로':'마을로',clear?"toast='다음 챕터로 이동 — 화면 전환 예시';render()":"toast='마을 귀환 — 화면 전환 예시';render()")}</div></section>`}
 
 function startScreen(){return `<div class="center"><h2>새로운 도전을 시작합니다</h2><p>무기와 잉크는 탐험에서 획득합니다.</p><p class="muted">첫 스케치를 얻으면 제작에서 무기를 준비할 수 있습니다.</p><div class="actions">${action('출발',"toast='맨손으로 출발 — 실제 씬 전환 없음';render()")}</div></div>`}
-function resetScreen(){return `<div class="center confirmationPanel"><h2>${stage==='confirmReset'?'영구 진행을 초기화할까요?':'게임 초기화'}</h2><p class="${stage==='confirmReset'?'danger':'muted'}">${stage==='confirmReset'?'영구 해금과 진행 기록이 사라집니다.':'음량과 조작키 설정은 유지됩니다.'}</p><div class="actions">${action(stage==='confirmReset'?'초기화 확정':'초기화 확인',"stage='confirmReset';render()")}${action('취소',"back()",false,true)}</div><p class="hint">검토용 시안에서는 실제 저장 데이터를 변경하지 않습니다.</p></div>`}
+function resetScreen(){return `<div class="center confirmationPanel"><h2>${stage==='confirmReset'?'영구 진행을 초기화할까요?':'게임 초기화'}</h2><p class="${stage==='confirmReset'?'danger':'muted'}">${stage==='confirmReset'?'영구 해금과 진행 기록이 사라집니다.':'음량과 조작키 설정은 유지됩니다.'}</p><div class="actions">${action(stage==='confirmReset'?'초기화 확정':'초기화 확인',"confirmPrototypeReset()")}${action('취소',"back()",false,true)}</div><p class="hint">검토용 안내 진행 기록만 초기화합니다. Unity 저장 데이터는 변경하지 않습니다.</p></div>`}
 let pigment=120,permanentLocked=false;
 let progression={settled:true,chapter1:false,chapter2:false};
 const upgrades=[{name:'공격력',key:'attack_bonus_',level:2,max:8,unit:'%',step:5},{name:'최대 체력',key:'max_health_bonus_',level:2,max:8,unit:'',step:5},{name:'이동 속도',key:'move_speed_bonus_',level:1,max:4,unit:'%',step:5},{name:'출발 지원금',key:'starting_gold_',level:1,max:4,unit:'G',step:50},{name:'대시 추가',key:'extra_dash_',level:0,max:1,unit:'회',step:1}];
@@ -191,3 +191,5 @@ function rewardScenario(name){
 }
 
 // Startup is coordinated by content-flows.js.
+
+function confirmPrototypeReset(){if(stage!=='confirmReset'){stage='confirmReset';render();return}GuideProgress.reset();toast='안내 진행 기록을 초기화했습니다.';render()}

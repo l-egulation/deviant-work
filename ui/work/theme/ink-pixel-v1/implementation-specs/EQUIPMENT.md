@@ -33,7 +33,7 @@
 
 ## 데이터/실행
 입력: weapon.uid/customName/form/skill/durabilityPercent/slotColors/appliedInkIds/effectiveEffects, equippedUid[2], sharedSwapRemaining.
-실행: Equip(target,uid), Swap, Unequip(target), Rename(uid,name). UI 버튼 비활성만으로 보안/정합성을 맡기지 않고 게임 로직에서 재검증. 잔여 대기의 일시정지 시계는 팀 런타임 정책에 연결. 새 수치를 임의로 확정하지 않음.
+실행: Equip(target,uid), Swap, Unequip(target), Rename(uid,name). UI 버튼 비활성만으로 보안/정합성을 맡기지 않고 게임 로직에서 재검증. 잔여 대기는 메뉴/일시정지 중 정지하고 게임 진행 시간으로만 감소한다. 복귀 시 남은 시간부터 재개한다.
 
 ## 수용 기준
 두 자리 이름20자 말줄임,3열 이동/첫줄↑, 반대 자리교환, 대기중 장착·해제 차단, 스왑타이머 유지, 긴6효과 스크롤,0무기, 이름 한글조합20자·Esc 취소.

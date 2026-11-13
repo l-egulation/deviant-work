@@ -1,0 +1,2 @@
+/* UI prototype progress only; never touches Unity saves. */
+window.GuideProgress=(()=>{const key='deviant-guide-progress-v1';let data;try{data=JSON.parse(localStorage.getItem(key)||'{}')}catch{data={}}if(!data||typeof data!=='object'||Array.isArray(data))data={};return {has:id=>data[id]===true,complete(id){data[id]=true;try{localStorage.setItem(key,JSON.stringify(data))}catch{}},reset(){data={};try{localStorage.removeItem(key)}catch{}}}})();
