@@ -907,5 +907,11 @@ const catalogItems=[
     "title": "첫 안내 · 저장된 진행 이어보기",
     "img": "world-flows-v1/previews/opening-resume.png",
     "url": "world-flows-v1/index.html?state=opening-resume"
+  },
+  {
+    "group": "지도",
+    "title": "전체 지도 · 이벤트 4종 완료 표시",
+    "url": "full-map-v1/index.html?events=complete",
+    "img": "full-map-v1/preview-complete.png"
   }
 ];

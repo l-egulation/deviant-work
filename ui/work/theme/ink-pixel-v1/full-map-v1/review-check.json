@@ -1,0 +1,32 @@
+{
+  "checks": [
+    {
+      "name": "four events ",
+      "pass": true
+    },
+    {
+      "name": "four events ?events=complete",
+      "pass": true
+    },
+    {
+      "name": "completion badges",
+      "pass": true
+    },
+    {
+      "name": "four events ?zoom=2",
+      "pass": true
+    },
+    {
+      "name": "small screen fits",
+      "pass": true
+    },
+    {
+      "name": "legend scroll",
+      "pass": true
+    },
+    {
+      "name": "escape closes",
+      "pass": true
+    }
+  ]
+}
