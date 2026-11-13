@@ -1,0 +1,44 @@
+id,name,color,effect,trigger,condition,symbol,badge,status,description
+yellow_basic_attack_movement_speed_increase,기본 공격 가속,yellow,movement_speed_increase,basic_attack,,ink-symbol-0,ink-symbol-10,reuse,기본 공격 시 3초 동안 이동속도가 10%(강화 15%) 증가합니다. 쿨타임 6초.
+yellow_skill_attack_movement_speed_increase,스킬 가속,yellow,movement_speed_increase,skill_attack,,ink-symbol-0,ink-symbol-11,reuse,스킬 공격 시 3초 동안 이동속도가 10%(강화 15%) 증가합니다. 쿨타임 6초.
+yellow_weapon_switch_movement_speed_increase,스위칭 가속,yellow,movement_speed_increase,weapon_switch,,ink-symbol-0,ink-symbol-12,reuse,스위칭 공격 시 3초 동안 이동속도가 10%(강화 15%) 증가합니다. 쿨타임 6초.
+yellow_dash_use_movement_speed_increase,대쉬 가속,yellow,movement_speed_increase,dash_use,,ink-symbol-0,ink-symbol-13,reuse,대쉬 시 4초 동안 이동속도가 10%(강화 15%) 증가합니다. 쿨타임 8초.
+yellow_status_condition_movement_speed_increase,상태이상 부여 가속,yellow,movement_speed_increase,status_condition,,ink-symbol-0,ink-symbol-14,reuse,이 무기로 상태이상 부여 시 3초 동안 이동속도가 10%(강화 15%) 증가합니다. 쿨타임 6초.
+green_basic_attack_shield,기본 공격 방어막,green,shield,basic_attack,,ink-symbol-1,ink-symbol-10,reuse,기본 공격 시 방어막을 7(강화 10) 얻습니다. 쿨타임 6초.
+green_skill_attack_shield,스킬 방어막,green,shield,skill_attack,,ink-symbol-1,ink-symbol-11,reuse,스킬 공격 시 방어막을 7(강화 10) 얻습니다. 쿨타임 6초.
+green_weapon_switch_shield,스위칭 방어막,green,shield,weapon_switch,,ink-symbol-1,ink-symbol-12,reuse,스위칭 공격 시 방어막을 7(강화 10) 얻습니다. 쿨타임 6초.
+green_dash_use_shield,대쉬 방어막,green,shield,dash_use,,ink-symbol-1,ink-symbol-13,reuse,대쉬 시 방어막을 7(강화 10) 얻습니다. 쿨타임 8초.
+green_status_condition_shield,상태이상 부여 방어막,green,shield,status_condition,,ink-symbol-1,ink-symbol-14,reuse,이 무기로 상태이상 부여 시 방어막을 7(강화 10) 얻습니다. 쿨타임 6초.
+green_basic_attack_heal,기본 공격 회복,green,heal,basic_attack,,ink-symbol-2,ink-symbol-10,reuse,기본 공격 시 체력을 3(강화 5) 회복합니다. 쿨타임 6초.
+green_skill_attack_heal,스킬 회복,green,heal,skill_attack,,ink-symbol-2,ink-symbol-11,reuse,스킬 공격 시 체력을 3(강화 5) 회복합니다. 쿨타임 6초.
+green_weapon_switch_heal,스위칭 회복,green,heal,weapon_switch,,ink-symbol-2,ink-symbol-12,reuse,스위칭 공격 시 체력을 3(강화 5) 회복합니다. 쿨타임 6초.
+green_dash_use_heal,대쉬 회복,green,heal,dash_use,,ink-symbol-2,ink-symbol-13,reuse,대쉬 시 체력을 3(강화 5) 회복합니다. 쿨타임 8초.
+green_status_condition_heal,상태이상 부여 회복,green,heal,status_condition,,ink-symbol-2,ink-symbol-14,reuse,이 무기로 상태이상 부여 시 체력을 3(강화 5) 회복합니다. 쿨타임 6초.
+purple_basic_attack_stun,기본 공격 기절,purple,stun,basic_attack,,ink-symbol-3,ink-symbol-10,reuse,기본 공격 시 적을 1초(강화 1.5초) 동안 기절시킵니다. 쿨타임 6초.
+purple_skill_attack_stun,스킬 기절,purple,stun,skill_attack,,ink-symbol-3,ink-symbol-11,reuse,스킬 공격 시 적을 1초(강화 1.5초) 동안 기절시킵니다. 쿨타임 6초.
+purple_weapon_switch_stun,스위칭 기절,purple,stun,weapon_switch,,ink-symbol-3,ink-symbol-12,reuse,스위칭 공격 시 적을 1초(강화 1.5초) 동안 기절시킵니다. 쿨타임 6초.
+purple_dash_use_stun,대쉬 기절,purple,stun,dash_use,,ink-symbol-3,ink-symbol-13,reuse,대쉬 시 경로에 닿은 적을 1초(강화 1.5초) 동안 기절시킵니다. 쿨타임 8초.
+purple_basic_attack_root,기본 공격 속박,purple,root,basic_attack,,ink-symbol-4,ink-symbol-10,reuse,기본 공격 시 적을 1초(강화 1.5초) 동안 속박합니다. 쿨타임 6초.
+purple_skill_attack_root,스킬 속박,purple,root,skill_attack,,ink-symbol-4,ink-symbol-11,reuse,스킬 공격 시 적을 1초(강화 1.5초) 동안 속박합니다. 쿨타임 6초.
+purple_weapon_switch_root,스위칭 속박,purple,root,weapon_switch,,ink-symbol-4,ink-symbol-12,reuse,스위칭 공격 시 적을 1초(강화 1.5초) 동안 속박합니다. 쿨타임 6초.
+purple_dash_use_root,대쉬 속박,purple,root,dash_use,,ink-symbol-4,ink-symbol-13,reuse,대쉬 시 경로에 닿은 적을 1초(강화 1.5초) 동안 속박합니다. 쿨타임 8초.
+purple_basic_attack_slow,기본 공격 슬로우,purple,slow,basic_attack,,ink-symbol-5,ink-symbol-10,reuse,기본 공격 시 적의 속도를 3초 동안 20%(강화 30%) 감소시킵니다. 쿨타임 6초.
+purple_skill_attack_slow,스킬 슬로우,purple,slow,skill_attack,,ink-symbol-5,ink-symbol-11,reuse,스킬 공격 시 적의 속도를 3초 동안 20%(강화 30%) 감소시킵니다. 쿨타임 6초.
+purple_weapon_switch_slow,스위칭 슬로우,purple,slow,weapon_switch,,ink-symbol-5,ink-symbol-12,reuse,스위칭 공격 시 적의 속도를 3초 동안 20%(강화 30%) 감소시킵니다. 쿨타임 6초.
+purple_dash_use_slow,대쉬 슬로우,purple,slow,dash_use,,ink-symbol-5,ink-symbol-13,reuse,대쉬 시 경로에 닿은 적의 속도를 4초 동안 20%(강화 30%) 감소시킵니다. 쿨타임 8초.
+purple_basic_attack_poison,기본 공격 중독,purple,poison,basic_attack,,ink-symbol-6,ink-symbol-10,archive,"기본 공격 시 적을 4초 동안 중독시켜, 0.3초마다 1(강화 1.5)의 피해를 줍니다. 쿨타임 6초."
+purple_skill_attack_poison,스킬 중독,purple,poison,skill_attack,,ink-symbol-6,ink-symbol-11,archive,"스킬 공격 시 적을 4초 동안 중독시켜, 0.3초마다 1(강화 1.5)의 피해를 줍니다. 쿨타임 6초."
+purple_weapon_switch_poison,스위칭 중독,purple,poison,weapon_switch,,ink-symbol-6,ink-symbol-12,archive,"스위칭 공격 시 적을 4초 동안 중독시켜, 0.3초마다 1(강화 1.5)의 피해를 줍니다. 쿨타임 6초."
+purple_dash_use_poison,대쉬 중독,purple,poison,dash_use,,ink-symbol-6,ink-symbol-13,archive,"대쉬 시 경로에 닿은 적을 5초 동안 중독시켜, 0.3초마다 1(강화 1.5)의 피해를 줍니다. 쿨타임 8초."
+red_basic_attack_basic_attack_damage_increase_stun,기절 조건 기본 공격 강화,red,basic_attack_damage_increase,basic_attack,stun,ink-symbol-7,ink-symbol-3,reuse,기절한 적에게 기본 공격 시 4초 동안 공격 피해가 20%(강화 30%) 증가합니다. 쿨타임 6초.
+red_basic_attack_basic_attack_damage_increase_root,속박 조건 기본 공격 강화,red,basic_attack_damage_increase,basic_attack,root,ink-symbol-7,ink-symbol-4,reuse,속박된 적에게 기본 공격 시 4초 동안 공격 피해가 20%(강화 30%) 증가합니다. 쿨타임 6초.
+red_basic_attack_basic_attack_damage_increase_poison,중독 조건 기본 공격 강화,red,basic_attack_damage_increase,basic_attack,poison,ink-symbol-7,ink-symbol-6,archive,중독된 적에게 기본 공격 시 4초 동안 공격 피해가 20%(강화 30%) 증가합니다. 쿨타임 6초.
+red_basic_attack_basic_attack_damage_increase_slow,슬로우 조건 기본 공격 강화,red,basic_attack_damage_increase,basic_attack,slow,ink-symbol-7,ink-symbol-5,reuse,슬로우 상태인 적에게 기본 공격 시 4초 동안 공격 피해가 20%(강화 30%) 증가합니다. 쿨타임 6초.
+blue_skill_attack_cooldown_reduction_stun,기절 조건 스킬 쿨타임 감소,blue,cooldown_reduction,skill_attack,stun,ink-symbol-8,ink-symbol-3,reuse,기절한 적에게 스킬 공격 시 이 무기의 스킬 쿨타임 15%(강화 20%)를 줄입니다. 잉크 쿨타임 4초.
+blue_skill_attack_cooldown_reduction_root,속박 조건 스킬 쿨타임 감소,blue,cooldown_reduction,skill_attack,root,ink-symbol-8,ink-symbol-4,reuse,속박된 적에게 스킬 공격 시 이 무기의 스킬 쿨타임 15%(강화 20%)를 줄입니다. 잉크 쿨타임 4초.
+blue_skill_attack_cooldown_reduction_poison,중독 조건 스킬 쿨타임 감소,blue,cooldown_reduction,skill_attack,poison,ink-symbol-8,ink-symbol-6,archive,중독된 적에게 스킬 공격 시 이 무기의 스킬 쿨타임 15%(강화 20%)를 줄입니다. 잉크 쿨타임 4초.
+blue_skill_attack_cooldown_reduction_slow,슬로우 조건 스킬 쿨타임 감소,blue,cooldown_reduction,skill_attack,slow,ink-symbol-8,ink-symbol-5,reuse,슬로우 상태인 적에게 스킬 공격 시 이 무기의 스킬 쿨타임 15%(강화 20%)를 줄입니다. 잉크 쿨타임 4초.
+blue_skill_attack_skill_attack_damage_increase_stun,기절 조건 스킬 피해 강화,blue,skill_attack_damage_increase,skill_attack,stun,ink-symbol-9,ink-symbol-3,reuse,기절한 적에게 스킬 공격 시 이 무기의 스킬 피해가 20%(강화 30%) 증가합니다. 잉크 쿨타임 4초.
+blue_skill_attack_skill_attack_damage_increase_root,속박 조건 스킬 피해 강화,blue,skill_attack_damage_increase,skill_attack,root,ink-symbol-9,ink-symbol-4,reuse,속박된 적에게 스킬 공격 시 이 무기의 스킬 피해가 20%(강화 30%) 증가합니다. 잉크 쿨타임 4초.
+blue_skill_attack_skill_attack_damage_increase_poison,중독 조건 스킬 피해 강화,blue,skill_attack_damage_increase,skill_attack,poison,ink-symbol-9,ink-symbol-6,archive,중독된 적에게 스킬 공격 시 이 무기의 스킬 피해가 20%(강화 30%) 증가합니다. 잉크 쿨타임 4초.
+blue_skill_attack_skill_attack_damage_increase_slow,슬로우 조건 스킬 피해 강화,blue,skill_attack_damage_increase,skill_attack,slow,ink-symbol-9,ink-symbol-5,reuse,슬로우 상태인 적에게 스킬 공격 시 이 무기의 스킬 피해가 20%(강화 30%) 증가합니다. 잉크 쿨타임 4초.

@@ -1,0 +1,23 @@
+{
+  "results": [
+    {
+      "state": "bag-all-inks",
+      "count": 36,
+      "invalid": false,
+      "text": false
+    },
+    {
+      "state": "craft-six",
+      "count": 36,
+      "invalid": false,
+      "text": false
+    },
+    {
+      "state": "equipment-six",
+      "count": 36,
+      "invalid": false,
+      "text": false
+    }
+  ],
+  "comparisonRows": 43
+}

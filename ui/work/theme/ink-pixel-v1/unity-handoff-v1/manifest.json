@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "status": "handoff-source-package-not-unity-imported",
   "coordinateSystem": "source pixels, top-left origin; rect clips art, view controls presentation; preserve both",
   "files": [
@@ -11496,198 +11496,6 @@
       "description": "대쉬 시 경로에 닿은 적의 속도를 4초 동안 20%(강화 30%) 감소시킵니다. 쿨타임 8초."
     },
     {
-      "id": "purple_basic_attack_poison",
-      "name": "기본 공격 중독",
-      "color": "purple",
-      "bottle": "ui-assets-v2/purple",
-      "effect": "ui-assets-v1/ink-symbol-6",
-      "condition": "ui-assets-v1/ink-symbol-10",
-      "view": [
-        1733,
-        136,
-        344,
-        534
-      ],
-      "label": {
-        "center": [
-          1900.5,
-          459
-        ],
-        "size": 172
-      },
-      "badge": {
-        "center": [
-          1997.5,
-          589
-        ],
-        "size": 92
-      },
-      "palette": {
-        "view": [
-          0,
-          0,
-          220,
-          155
-        ],
-        "effectCenter": [
-          110,
-          78
-        ],
-        "effectSize": 80,
-        "order": [
-          "slot-base",
-          "ink-paint",
-          "effect"
-        ],
-        "baseIndependentOfInk": true
-      },
-      "description": "기본 공격 시 적을 4초 동안 중독시켜, 0.3초마다 1(강화 1.5)의 피해를 줍니다. 쿨타임 6초."
-    },
-    {
-      "id": "purple_skill_attack_poison",
-      "name": "스킬 중독",
-      "color": "purple",
-      "bottle": "ui-assets-v2/purple",
-      "effect": "ui-assets-v1/ink-symbol-6",
-      "condition": "ui-assets-v1/ink-symbol-11",
-      "view": [
-        1733,
-        136,
-        344,
-        534
-      ],
-      "label": {
-        "center": [
-          1900.5,
-          459
-        ],
-        "size": 172
-      },
-      "badge": {
-        "center": [
-          1997.5,
-          589
-        ],
-        "size": 92
-      },
-      "palette": {
-        "view": [
-          0,
-          0,
-          220,
-          155
-        ],
-        "effectCenter": [
-          110,
-          78
-        ],
-        "effectSize": 80,
-        "order": [
-          "slot-base",
-          "ink-paint",
-          "effect"
-        ],
-        "baseIndependentOfInk": true
-      },
-      "description": "스킬 공격 시 적을 4초 동안 중독시켜, 0.3초마다 1(강화 1.5)의 피해를 줍니다. 쿨타임 6초."
-    },
-    {
-      "id": "purple_weapon_switch_poison",
-      "name": "스위칭 중독",
-      "color": "purple",
-      "bottle": "ui-assets-v2/purple",
-      "effect": "ui-assets-v1/ink-symbol-6",
-      "condition": "ui-assets-v1/ink-symbol-12",
-      "view": [
-        1733,
-        136,
-        344,
-        534
-      ],
-      "label": {
-        "center": [
-          1900.5,
-          459
-        ],
-        "size": 172
-      },
-      "badge": {
-        "center": [
-          1997.5,
-          589
-        ],
-        "size": 92
-      },
-      "palette": {
-        "view": [
-          0,
-          0,
-          220,
-          155
-        ],
-        "effectCenter": [
-          110,
-          78
-        ],
-        "effectSize": 80,
-        "order": [
-          "slot-base",
-          "ink-paint",
-          "effect"
-        ],
-        "baseIndependentOfInk": true
-      },
-      "description": "스위칭 공격 시 적을 4초 동안 중독시켜, 0.3초마다 1(강화 1.5)의 피해를 줍니다. 쿨타임 6초."
-    },
-    {
-      "id": "purple_dash_use_poison",
-      "name": "대쉬 중독",
-      "color": "purple",
-      "bottle": "ui-assets-v2/purple",
-      "effect": "ui-assets-v1/ink-symbol-6",
-      "condition": "ui-assets-v1/ink-symbol-13",
-      "view": [
-        1733,
-        136,
-        344,
-        534
-      ],
-      "label": {
-        "center": [
-          1900.5,
-          459
-        ],
-        "size": 172
-      },
-      "badge": {
-        "center": [
-          1997.5,
-          589
-        ],
-        "size": 92
-      },
-      "palette": {
-        "view": [
-          0,
-          0,
-          220,
-          155
-        ],
-        "effectCenter": [
-          110,
-          78
-        ],
-        "effectSize": 80,
-        "order": [
-          "slot-base",
-          "ink-paint",
-          "effect"
-        ],
-        "baseIndependentOfInk": true
-      },
-      "description": "대쉬 시 경로에 닿은 적을 5초 동안 중독시켜, 0.3초마다 1(강화 1.5)의 피해를 줍니다. 쿨타임 8초."
-    },
-    {
       "id": "red_basic_attack_basic_attack_damage_increase_stun",
       "name": "기절 조건 기본 공격 강화",
       "color": "red",
@@ -11782,54 +11590,6 @@
         "baseIndependentOfInk": true
       },
       "description": "속박된 적에게 기본 공격 시 4초 동안 공격 피해가 20%(강화 30%) 증가합니다. 쿨타임 6초."
-    },
-    {
-      "id": "red_basic_attack_basic_attack_damage_increase_poison",
-      "name": "중독 조건 기본 공격 강화",
-      "color": "red",
-      "bottle": "ui-assets-v2/red",
-      "effect": "ui-assets-v1/ink-symbol-7",
-      "condition": "ui-assets-v1/ink-symbol-6",
-      "view": [
-        103,
-        136,
-        343,
-        534
-      ],
-      "label": {
-        "center": [
-          270.5,
-          459
-        ],
-        "size": 172
-      },
-      "badge": {
-        "center": [
-          367.5,
-          589
-        ],
-        "size": 92
-      },
-      "palette": {
-        "view": [
-          0,
-          0,
-          220,
-          155
-        ],
-        "effectCenter": [
-          110,
-          78
-        ],
-        "effectSize": 80,
-        "order": [
-          "slot-base",
-          "ink-paint",
-          "effect"
-        ],
-        "baseIndependentOfInk": true
-      },
-      "description": "중독된 적에게 기본 공격 시 4초 동안 공격 피해가 20%(강화 30%) 증가합니다. 쿨타임 6초."
     },
     {
       "id": "red_basic_attack_basic_attack_damage_increase_slow",
@@ -11976,54 +11736,6 @@
       "description": "속박된 적에게 스킬 공격 시 이 무기의 스킬 쿨타임 15%(강화 20%)를 줄입니다. 잉크 쿨타임 4초."
     },
     {
-      "id": "blue_skill_attack_cooldown_reduction_poison",
-      "name": "중독 조건 스킬 쿨타임 감소",
-      "color": "blue",
-      "bottle": "ui-assets-v2/blue",
-      "effect": "ui-assets-v1/ink-symbol-8",
-      "condition": "ui-assets-v1/ink-symbol-6",
-      "view": [
-        1326,
-        136,
-        343,
-        534
-      ],
-      "label": {
-        "center": [
-          1493.5,
-          459
-        ],
-        "size": 172
-      },
-      "badge": {
-        "center": [
-          1590.5,
-          589
-        ],
-        "size": 92
-      },
-      "palette": {
-        "view": [
-          0,
-          0,
-          220,
-          155
-        ],
-        "effectCenter": [
-          110,
-          78
-        ],
-        "effectSize": 80,
-        "order": [
-          "slot-base",
-          "ink-paint",
-          "effect"
-        ],
-        "baseIndependentOfInk": true
-      },
-      "description": "중독된 적에게 스킬 공격 시 이 무기의 스킬 쿨타임 15%(강화 20%)를 줄입니다. 잉크 쿨타임 4초."
-    },
-    {
       "id": "blue_skill_attack_cooldown_reduction_slow",
       "name": "슬로우 조건 스킬 쿨타임 감소",
       "color": "blue",
@@ -12166,54 +11878,6 @@
         "baseIndependentOfInk": true
       },
       "description": "속박된 적에게 스킬 공격 시 이 무기의 스킬 피해가 20%(강화 30%) 증가합니다. 잉크 쿨타임 4초."
-    },
-    {
-      "id": "blue_skill_attack_skill_attack_damage_increase_poison",
-      "name": "중독 조건 스킬 피해 강화",
-      "color": "blue",
-      "bottle": "ui-assets-v2/blue",
-      "effect": "ui-assets-v1/ink-symbol-9",
-      "condition": "ui-assets-v1/ink-symbol-6",
-      "view": [
-        1326,
-        136,
-        343,
-        534
-      ],
-      "label": {
-        "center": [
-          1493.5,
-          459
-        ],
-        "size": 172
-      },
-      "badge": {
-        "center": [
-          1590.5,
-          589
-        ],
-        "size": 92
-      },
-      "palette": {
-        "view": [
-          0,
-          0,
-          220,
-          155
-        ],
-        "effectCenter": [
-          110,
-          78
-        ],
-        "effectSize": 80,
-        "order": [
-          "slot-base",
-          "ink-paint",
-          "effect"
-        ],
-        "baseIndependentOfInk": true
-      },
-      "description": "중독된 적에게 스킬 공격 시 이 무기의 스킬 피해가 20%(강화 30%) 증가합니다. 잉크 쿨타임 4초."
     },
     {
       "id": "blue_skill_attack_skill_attack_damage_increase_slow",
@@ -12494,5 +12158,347 @@
       "paint": "palette/paint/purple",
       "effect": "ui-assets-v1/ink-symbol-3"
     }
+  ],
+  "inkSourceCommit": "a51d555af2a9831d045e244dede54a696f7ff86e",
+  "archivedInks": [
+    {
+      "id": "purple_basic_attack_poison",
+      "name": "기본 공격 중독",
+      "color": "purple",
+      "bottle": "ui-assets-v2/purple",
+      "effect": "ui-assets-v1/ink-symbol-6",
+      "condition": "ui-assets-v1/ink-symbol-10",
+      "view": [
+        1733,
+        136,
+        344,
+        534
+      ],
+      "label": {
+        "center": [
+          1900.5,
+          459
+        ],
+        "size": 172
+      },
+      "badge": {
+        "center": [
+          1997.5,
+          589
+        ],
+        "size": 92
+      },
+      "palette": {
+        "view": [
+          0,
+          0,
+          220,
+          155
+        ],
+        "effectCenter": [
+          110,
+          78
+        ],
+        "effectSize": 80,
+        "order": [
+          "slot-base",
+          "ink-paint",
+          "effect"
+        ],
+        "baseIndependentOfInk": true
+      },
+      "description": "기본 공격 시 적을 4초 동안 중독시켜, 0.3초마다 1(강화 1.5)의 피해를 줍니다. 쿨타임 6초."
+    },
+    {
+      "id": "purple_skill_attack_poison",
+      "name": "스킬 중독",
+      "color": "purple",
+      "bottle": "ui-assets-v2/purple",
+      "effect": "ui-assets-v1/ink-symbol-6",
+      "condition": "ui-assets-v1/ink-symbol-11",
+      "view": [
+        1733,
+        136,
+        344,
+        534
+      ],
+      "label": {
+        "center": [
+          1900.5,
+          459
+        ],
+        "size": 172
+      },
+      "badge": {
+        "center": [
+          1997.5,
+          589
+        ],
+        "size": 92
+      },
+      "palette": {
+        "view": [
+          0,
+          0,
+          220,
+          155
+        ],
+        "effectCenter": [
+          110,
+          78
+        ],
+        "effectSize": 80,
+        "order": [
+          "slot-base",
+          "ink-paint",
+          "effect"
+        ],
+        "baseIndependentOfInk": true
+      },
+      "description": "스킬 공격 시 적을 4초 동안 중독시켜, 0.3초마다 1(강화 1.5)의 피해를 줍니다. 쿨타임 6초."
+    },
+    {
+      "id": "purple_weapon_switch_poison",
+      "name": "스위칭 중독",
+      "color": "purple",
+      "bottle": "ui-assets-v2/purple",
+      "effect": "ui-assets-v1/ink-symbol-6",
+      "condition": "ui-assets-v1/ink-symbol-12",
+      "view": [
+        1733,
+        136,
+        344,
+        534
+      ],
+      "label": {
+        "center": [
+          1900.5,
+          459
+        ],
+        "size": 172
+      },
+      "badge": {
+        "center": [
+          1997.5,
+          589
+        ],
+        "size": 92
+      },
+      "palette": {
+        "view": [
+          0,
+          0,
+          220,
+          155
+        ],
+        "effectCenter": [
+          110,
+          78
+        ],
+        "effectSize": 80,
+        "order": [
+          "slot-base",
+          "ink-paint",
+          "effect"
+        ],
+        "baseIndependentOfInk": true
+      },
+      "description": "스위칭 공격 시 적을 4초 동안 중독시켜, 0.3초마다 1(강화 1.5)의 피해를 줍니다. 쿨타임 6초."
+    },
+    {
+      "id": "purple_dash_use_poison",
+      "name": "대쉬 중독",
+      "color": "purple",
+      "bottle": "ui-assets-v2/purple",
+      "effect": "ui-assets-v1/ink-symbol-6",
+      "condition": "ui-assets-v1/ink-symbol-13",
+      "view": [
+        1733,
+        136,
+        344,
+        534
+      ],
+      "label": {
+        "center": [
+          1900.5,
+          459
+        ],
+        "size": 172
+      },
+      "badge": {
+        "center": [
+          1997.5,
+          589
+        ],
+        "size": 92
+      },
+      "palette": {
+        "view": [
+          0,
+          0,
+          220,
+          155
+        ],
+        "effectCenter": [
+          110,
+          78
+        ],
+        "effectSize": 80,
+        "order": [
+          "slot-base",
+          "ink-paint",
+          "effect"
+        ],
+        "baseIndependentOfInk": true
+      },
+      "description": "대쉬 시 경로에 닿은 적을 5초 동안 중독시켜, 0.3초마다 1(강화 1.5)의 피해를 줍니다. 쿨타임 8초."
+    },
+    {
+      "id": "red_basic_attack_basic_attack_damage_increase_poison",
+      "name": "중독 조건 기본 공격 강화",
+      "color": "red",
+      "bottle": "ui-assets-v2/red",
+      "effect": "ui-assets-v1/ink-symbol-7",
+      "condition": "ui-assets-v1/ink-symbol-6",
+      "view": [
+        103,
+        136,
+        343,
+        534
+      ],
+      "label": {
+        "center": [
+          270.5,
+          459
+        ],
+        "size": 172
+      },
+      "badge": {
+        "center": [
+          367.5,
+          589
+        ],
+        "size": 92
+      },
+      "palette": {
+        "view": [
+          0,
+          0,
+          220,
+          155
+        ],
+        "effectCenter": [
+          110,
+          78
+        ],
+        "effectSize": 80,
+        "order": [
+          "slot-base",
+          "ink-paint",
+          "effect"
+        ],
+        "baseIndependentOfInk": true
+      },
+      "description": "중독된 적에게 기본 공격 시 4초 동안 공격 피해가 20%(강화 30%) 증가합니다. 쿨타임 6초."
+    },
+    {
+      "id": "blue_skill_attack_cooldown_reduction_poison",
+      "name": "중독 조건 스킬 쿨타임 감소",
+      "color": "blue",
+      "bottle": "ui-assets-v2/blue",
+      "effect": "ui-assets-v1/ink-symbol-8",
+      "condition": "ui-assets-v1/ink-symbol-6",
+      "view": [
+        1326,
+        136,
+        343,
+        534
+      ],
+      "label": {
+        "center": [
+          1493.5,
+          459
+        ],
+        "size": 172
+      },
+      "badge": {
+        "center": [
+          1590.5,
+          589
+        ],
+        "size": 92
+      },
+      "palette": {
+        "view": [
+          0,
+          0,
+          220,
+          155
+        ],
+        "effectCenter": [
+          110,
+          78
+        ],
+        "effectSize": 80,
+        "order": [
+          "slot-base",
+          "ink-paint",
+          "effect"
+        ],
+        "baseIndependentOfInk": true
+      },
+      "description": "중독된 적에게 스킬 공격 시 이 무기의 스킬 쿨타임 15%(강화 20%)를 줄입니다. 잉크 쿨타임 4초."
+    },
+    {
+      "id": "blue_skill_attack_skill_attack_damage_increase_poison",
+      "name": "중독 조건 스킬 피해 강화",
+      "color": "blue",
+      "bottle": "ui-assets-v2/blue",
+      "effect": "ui-assets-v1/ink-symbol-9",
+      "condition": "ui-assets-v1/ink-symbol-6",
+      "view": [
+        1326,
+        136,
+        343,
+        534
+      ],
+      "label": {
+        "center": [
+          1493.5,
+          459
+        ],
+        "size": 172
+      },
+      "badge": {
+        "center": [
+          1590.5,
+          589
+        ],
+        "size": 92
+      },
+      "palette": {
+        "view": [
+          0,
+          0,
+          220,
+          155
+        ],
+        "effectCenter": [
+          110,
+          78
+        ],
+        "effectSize": 80,
+        "order": [
+          "slot-base",
+          "ink-paint",
+          "effect"
+        ],
+        "baseIndependentOfInk": true
+      },
+      "description": "중독된 적에게 스킬 공격 시 이 무기의 스킬 피해가 20%(강화 30%) 증가합니다. 잉크 쿨타임 4초."
+    }
+  ],
+  "inactiveSpriteIds": [
+    "ui-assets-v1/ink-symbol-6"
   ]
 }

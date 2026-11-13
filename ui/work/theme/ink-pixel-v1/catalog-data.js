@@ -526,7 +526,7 @@ const catalogItems=[
   },
   {
     "group": "가방",
-    "title": "잉크 43종 · 실제 설명·4열 목록",
+    "title": "잉크 36종 · 실제 설명·4열 목록",
     "img": "sketch-v3/previews/bag-all-inks.png",
     "url": "sketch-v3/index.html?state=bag-all-inks"
   },
@@ -914,4 +914,5 @@ const catalogItems=[
     "url": "full-map-v1/index.html?events=complete",
     "img": "full-map-v1/preview-complete.png"
   }
-];
+,
+{"group": "에셋", "title": "잉크 36종 · 기존 43종 대응 비교", "url": "ink-migration-v1/index.html", "img": "ink-migration-v1/preview.png"}];

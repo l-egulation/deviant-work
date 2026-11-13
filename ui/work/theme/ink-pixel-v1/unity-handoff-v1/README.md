@@ -5,7 +5,7 @@
 원본 PNG를 그대로 복사하고 SHA-256으로 대조한 소스 패키지. Unity 프로젝트를 수정하지 않음. 모든 파일은 이 폴더 안에서 참조.
 
 ## 사용 기준
-- sprites의 고유 id로 참조. contentId는 게임 데이터 ID, file은 패키지 내 실제 PNG. 잉크43종은 inks에서 병·효과·조건을 조합.
+- sprites의 고유 id로 참조. contentId는 게임 데이터 ID, file은 패키지 내 실제 PNG. 잉크36종은 inks에서 병·효과·조건을 조합.
 - rect는 아틀라스 원본의 자르기 영역, view는 시안의 표시 범위. 둘을 하나로 대체하면 크기와 중심이 달라짐.
 - Unity 좌표는 아래가 원점: y = imageHeight - top - height. 소수 view는 UI의 논리 표시 범위로 유지하고 실제 spriteRect는 정수 경계 사용. 패딩 차이는 자식 위치/크기로 보정.
 - 팔레트: 바탕6색 → 칠5색 → 효과 문양. 공통220×155 표시 좌표, 문양 중심110,78 / 크기80. 바탕·칠은 각자 전체 이미지를 같은 표시 영역에 배치. 빈 슬롯은 바탕만.
@@ -24,3 +24,5 @@
 
 ## 패키지 v2 보완
 봉인 진행 3상태 ID/rect 추가: [분할 규격](SEAL-SLICING.md). 설정 슬라이더 손잡이·열쇠·마을 새 소식·포탈 문은 현행 원본 그대로 추가. [화면 연결표](../implementation-specs/SCREEN-ASSETS.md) · [입력/복귀](../implementation-specs/INPUT-RETURN.md). 기존 브라우저 검증 이미지/결과는 v1 기준이며 v2 추가 항목까지 새 렌더 검증 완료를 뜻하지 않는다. v2 파일/ID 검증은 handoff-v2-validation.json 참조.
+
+버전3: 36종 활성 / 중독 관련7종 보존 전용. [대응표](../ink-migration-v1/index.html). 이전 validation 파일은 당시 버전의 기록입니다.

@@ -1,6 +1,6 @@
 # 가방
 
-[공통 명세](README.md) · [잉크43종 시안](../sketch-v3/index.html?state=bag-all-inks) · [스케치](../sketch-v3/index.html?state=bag)
+[공통 명세](README.md) · [잉크36종 시안](../sketch-v3/index.html?state=bag-all-inks) · [스케치](../sketch-v3/index.html?state=bag)
 
 ## 목적/구성
 보유 스케치·잉크의 정보 열람 전용. 장착·잉크 적용 버튼을 가방에 추가하지 않음.
@@ -25,4 +25,6 @@
 입력 데이터: sketch.uid/form/skill/colors, ink.id/name/description/기본·일치값, 선택 ID, 분류, 목록/상세 스크롤 위치. 표시 순서는 실제 보유 목록. 데모 순서를 고정 게임 규칙으로 사용하지 않는다.
 
 ## 수용 기준
-43종 끝까지 방향키 이동, 첫줄↑분류 복귀, 이름을 숨겨도 우측 상세로 식별, 긴 효과가 버튼/안내를 밀지 않음. 빈 목록에서도 Esc 가능.
+36종 끝까지 방향키 이동, 첫줄↑분류 복귀, 이름을 숨겨도 우측 상세로 식별, 긴 효과가 버튼/안내를 밀지 않음. 빈 목록에서도 Esc 가능.
+
+현행 잉크 대응: [36종 ID·에셋 검토](../ink-migration-v1/README.md). 2026-11-13 기준.

@@ -5,7 +5,7 @@
 |화면·상태|시안|명세|구분|
 |---|---|---|---|
 |증강 화풍 재디자인 · 무기·잉크병·팔레트·상자·기록|[열기](../ui-assets-v2/index.html)|[명세](../unity-handoff-v1/README.md)|검토 보드 · 승인 패키지 기준|
-|현행 UI 전체 에셋 · 잉크 43 · 증강 51 · 스킬 40|[열기](../ui-assets-v1/index.html)|[명세](../unity-handoff-v1/README.md)|검토 보드 · 승인 패키지 기준|
+|현행 UI 전체 에셋 · 잉크 36 · 증강 51 · 스킬 40|[열기](../ui-assets-v1/index.html)|[명세](../unity-handoff-v1/README.md)|검토 보드 · 승인 패키지 기준|
 |HUD에서 바로 보상 선택|[열기](../sketch-v3/index.html?state=reward)|[명세](REWARDS.md)|현행|
 |스케치·잉크 혼합 3중 1택|[열기](../sketch-v3/index.html?state=mixed)|[명세](REWARDS.md)|현행|
 |스케치 3개 획득 후에도 혼합 후보|[열기](../sketch-v3/index.html?state=quota)|[명세](REWARDS.md)|현행|
@@ -21,7 +21,7 @@
 |보유 잉크 · 스크롤|[열기](../sketch-v3/index.html?state=bag-ink)|[명세](BAG.md)|현행|
 |스케치 없음|[열기](../sketch-v3/index.html?state=bag-empty)|[명세](BAG.md)|현행|
 |가방 · 분류 탭 선택|[열기](../sketch-v3/index.html?state=bag-category-focus)|[명세](BAG.md)|현행|
-|잉크 43종 · 실제 설명·4열 목록|[열기](../sketch-v3/index.html?state=bag-all-inks)|[명세](BAG.md)|현행|
+|잉크 36종 · 실제 설명·4열 목록|[열기](../sketch-v3/index.html?state=bag-all-inks)|[명세](BAG.md)|현행|
 |스케치 선택|[열기](../sketch-v3/index.html?state=craft)|[명세](CRAFT.md)|현행|
 |팔레트 5칸 · 직접 선택|[열기](../sketch-v3/index.html?state=craft-five)|[명세](CRAFT.md)|현행|
 |다른 색 잉크 선택|[열기](../sketch-v3/index.html?state=craft-ink)|[명세](CRAFT.md)|현행|
@@ -159,3 +159,5 @@
 |---|---|---|
 |로딩 실패|[열기](../world-flows-v1/index.html?state=loading-failed)|[명세](LOADING-FAILURE.md)|
 |안내 이어보기|[열기](../world-flows-v1/index.html?state=opening-resume)|[명세](OPENING-GUIDES.md)|
+
+현행 잉크 대응: [36종 ID·에셋 검토](../ink-migration-v1/README.md). 2026-11-13 기준.
